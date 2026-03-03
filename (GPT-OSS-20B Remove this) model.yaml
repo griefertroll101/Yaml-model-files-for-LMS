@@ -1,0 +1,452 @@
+model: openai/gpt-oss-20b
+base:
+  - key: unsloth/gpt-oss-20b-GGUF
+    sources:
+      - type: huggingface
+        user: unsloth
+        repo: gpt-oss-20b-GGUF
+  - key: ggml-org/gpt-oss-20b-GGUF
+    sources:
+      - type: huggingface
+        user: ggml-org
+        repo: gpt-oss-20b-GGUF
+  - key: lmstudio-community/gpt-oss-20b-GGUF
+    sources:
+      - type: huggingface
+        user: lmstudio-community
+        repo: gpt-oss-20b-GGUF
+  - key: DavidAU/OpenAi-GPT-oss-20b-abliterated-uncensored-NEO-Imatrix-gguf
+    sources:
+      - type: huggingface
+        user: DavidAU
+        repo: OpenAi-GPT-oss-20b-abliterated-uncensored-NEO-Imatrix-gguf
+  - key: mradermacher/OpenAI-gpt-oss-20B-Claude-4.5-Opus-Heretic-Uncensored-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: OpenAI-gpt-oss-20B-Claude-4.5-Opus-Heretic-Uncensored-i1-GGUF
+  - key: MaziyarPanahi/gpt-oss-20b-Derestricted-GGUF
+    sources:
+      - type: huggingface
+        user: MaziyarPanahi
+        repo: gpt-oss-20b-Derestricted-GGUF
+  - key: DavidAU/OpenAi-GPT-oss-20b-HERETIC-uncensored-NEO-Imatrix-gguf
+    sources:
+      - type: huggingface
+        user: DavidAU
+        repo: OpenAi-GPT-oss-20b-HERETIC-uncensored-NEO-Imatrix-gguf
+  - key: mradermacher/OpenAI-gpt-oss-20B-INSTRUCT-Heretic-Uncensored-MXFP4-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: OpenAI-gpt-oss-20B-INSTRUCT-Heretic-Uncensored-MXFP4-i1-GGUF
+  - key: mradermacher/gpt-oss-20b-SOMbliterated-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gpt-oss-20b-SOMbliterated-i1-GGUF
+  - key: mradermacher/OpenAI-gpt-oss-20B-GPT5.1-5.2-DISTILL-Heretic-Uncensored-MXFP4-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: OpenAI-gpt-oss-20B-GPT5.1-5.2-DISTILL-Heretic-Uncensored-MXFP4-i1-GGUF
+  - key: mradermacher/gpt-oss-20b-absolute-heresy-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gpt-oss-20b-absolute-heresy-i1-GGUF
+  - key: mradermacher/HyperClassifier-gpt-oss-20b-qat-0226-experimental-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: HyperClassifier-gpt-oss-20b-qat-0226-experimental-i1-GGUF
+  - key: mradermacher/gpt-oss-20b-heretic-v3-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gpt-oss-20b-heretic-v3-i1-GGUF
+  - key: mradermacher/GPT-OSS-Swallow-20B-RL-v0.1-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: GPT-OSS-Swallow-20B-RL-v0.1-i1-GGUF
+  - key: huihui-ai/Huihui-gpt-oss-20b-BF16-abliterated
+    sources:
+      - type: huggingface
+        user: huihui-ai
+        repo: Huihui-gpt-oss-20b-BF16-abliterated
+  - key: mradermacher/gpt-oss-20b-RichardErkhov-heresy-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gpt-oss-20b-RichardErkhov-heresy-i1-GGUF
+  - key: mradermacher/OpenAI-gpt-oss-20B-INSTRUCT-Heretic-Uncensored-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: OpenAI-gpt-oss-20B-INSTRUCT-Heretic-Uncensored-i1-GGUF
+  - key: mradermacher/gpt-oss-20b-uncensored-heretic-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gpt-oss-20b-uncensored-heretic-i1-GGUF
+  - key: bartowski/openai_gpt-oss-20b-GGUF
+    sources:
+      - type: huggingface
+        user: bartowski
+        repo: openai_gpt-oss-20b-GGUF
+  - key: mradermacher/GPT-OSS-Swallow-20B-SFT-v0.1-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: GPT-OSS-Swallow-20B-SFT-v0.1-i1-GGUF
+  - key: botp/OpenAi-GPT-oss-20b-HERETIC-uncensored-NEO-Imatrix-gguf
+    sources:
+      - type: huggingface
+        user: botp
+        repo: OpenAi-GPT-oss-20b-HERETIC-uncensored-NEO-Imatrix-gguf
+  - key: mmnga-o/GPT-OSS-Swallow-20B-SFT-v0.1-gguf
+    sources:
+      - type: huggingface
+        user: mmnga-o
+        repo: GPT-OSS-Swallow-20B-SFT-v0.1-gguf
+  - key: tatsuyaaaaaaaa/GPT-OSS-Swallow-20B-SFT-v0.1-gguf
+    sources:
+      - type: huggingface
+        user: tatsuyaaaaaaaa
+        repo: GPT-OSS-Swallow-20B-SFT-v0.1-gguf
+  - key: Astardeepro/OpenAi-GPT-oss-20b-abliterated-uncensored-NEO-Imatrix-gguf
+    sources:
+      - type: huggingface
+        user: Astardeepro
+        repo: OpenAi-GPT-oss-20b-abliterated-uncensored-NEO-Imatrix-gguf
+  - key: gabriellarson/Huihui-gpt-oss-20b-BF16-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: gabriellarson
+        repo: Huihui-gpt-oss-20b-BF16-abliterated-GGUF
+  - key: mmnga-o/GPT-OSS-Swallow-20B-RL-v0.1-gguf
+    sources:
+      - type: huggingface
+        user: mmnga-o
+        repo: GPT-OSS-Swallow-20B-RL-v0.1-gguf
+  - key: mradermacher/gpt-oss-20b-absolute-heresy-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gpt-oss-20b-absolute-heresy-GGUF
+  - key: huihui-ai/Huihui-gpt-oss-20b-BF16-abliterated-v2
+    sources:
+      - type: huggingface
+        user: huihui-ai
+        repo: Huihui-gpt-oss-20b-BF16-abliterated-v2
+  - key: tatsuyaaaaaaa/GPT-OSS-Swallow-20B-RL-v0.1-gguf
+    sources:
+      - type: huggingface
+        user: tatsuyaaaaaaa
+        repo: GPT-OSS-Swallow-20B-RL-v0.1-gguf
+  - key: mradermacher/OpenAI-gpt-oss-20B-INSTRUCT-Terse-Heretic-Uncensored-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: OpenAI-gpt-oss-20B-INSTRUCT-Terse-Heretic-Uncensored-i1-GGUF
+  - key: mradermacher/OpenAI-gpt-oss-20B-Claude-4.5-Opus-Heretic-Uncensored-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: OpenAI-gpt-oss-20B-Claude-4.5-Opus-Heretic-Uncensored-GGUF
+  - key: mradermacher/gpt-oss-20b-Coding-Distill-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gpt-oss-20b-Coding-Distill-i1-GGUF
+  - key: MuXodious/gpt-oss-20b-RichardErkhov-heresy-GGUF
+    sources:
+      - type: huggingface
+        user: MuXodious
+        repo: gpt-oss-20b-RichardErkhov-heresy-GGUF
+  - key: mradermacher/OpenAI-gpt-oss-20B-INSTRUCT-Heretic-Uncensored-MXFP4-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: OpenAI-gpt-oss-20B-INSTRUCT-Heretic-Uncensored-MXFP4-GGUF
+  - key: mradermacher/GPT-OSS-Cybersecurity-20B-Merged-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: GPT-OSS-Cybersecurity-20B-Merged-i1-GGUF
+  - key: xiastralstar/OpenAI-gpt-oss-20B-Claude-4.5-Opus-Heretic-Uncensored-i1-GGUF
+    sources:
+      - type: huggingface
+        user: xiastralstar
+        repo: OpenAI-gpt-oss-20B-Claude-4.5-Opus-Heretic-Uncensored-i1-GGUF
+  - key: bartowski/p-e-w_gpt-oss-20b-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: bartowski
+        repo: p-e-w_gpt-oss-20b-heretic-GGUF
+  - key: mradermacher/gpt-oss-20b-heretic-v3-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gpt-oss-20b-heretic-v3-GGUF
+  - key: mradermacher/gpt-oss-20b-uncensored-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gpt-oss-20b-uncensored-heretic-GGUF
+  - key: bartowski/huihui-ai_Huihui-gpt-oss-20b-BF16-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: bartowski
+        repo: huihui-ai_Huihui-gpt-oss-20b-BF16-abliterated-GGUF
+  - key: ManuelZnnmc/OpenAi-GPT-oss-20b-HERETIC-uncensored-NEO-Imatrix-gguf
+    sources:
+      - type: huggingface
+        user: ManuelZnnmc
+        repo: OpenAi-GPT-oss-20b-HERETIC-uncensored-NEO-Imatrix-gguf
+  - key: HauhauCS/GPT-OSS-20B-Uncensored-HauhauCS-Aggressive
+    sources:
+      - type: huggingface
+        user: HauhauCS
+        repo: GPT-OSS-20B-Uncensored-HauhauCS-Aggressive
+  - key: mradermacher/gpt-oss-20b-heretic-distilled-MiniMax-M2.1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gpt-oss-20b-heretic-distilled-MiniMax-M2.1-GGUF
+  - key: mradermacher/gpt-oss-20b-SOMbliterated-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gpt-oss-20b-SOMbliterated-GGUF
+  - key: ManuelZnnmc/OpenAi-GPT-oss-20b-abliterated-uncensored-NEO-Imatrix-gguf
+    sources:
+      - type: huggingface
+        user: ManuelZnnmc
+        repo: OpenAi-GPT-oss-20b-abliterated-uncensored-NEO-Imatrix-gguf
+  - key: mradermacher/rsi-gpt-oss-20b-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: rsi-gpt-oss-20b-GGUF
+  - key: mradermacher/gpt-oss-20b-Derestricted-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gpt-oss-20b-Derestricted-GGUF
+  - key: mradermacher/GPT-oss-20B-RoleplaySFT-mxfp4-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: GPT-oss-20B-RoleplaySFT-mxfp4-GGUF
+  - key: mradermacher/GPT-OSS-Swallow-20B-SFT-v0.1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: GPT-OSS-Swallow-20B-SFT-v0.1-GGUF
+  - key: mradermacher/gpt-oss-20b-VietMind-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gpt-oss-20b-VietMind-GGUF
+  - key: huihui-ai/Huihui-gpt-oss-20b-mxfp4-abliterated-v2
+    sources:
+      - type: huggingface
+        user: huihui-ai
+        repo: Huihui-gpt-oss-20b-mxfp4-abliterated-v2
+  - key: mradermacher/OpenAI-gpt-oss-20B-GPT5.1-5.2-DISTILL-Heretic-Uncensored-MXFP4-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: OpenAI-gpt-oss-20B-GPT5.1-5.2-DISTILL-Heretic-Uncensored-MXFP4-GGUF
+  - key: mradermacher/gpt-oss-20b-impotent-heresy-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gpt-oss-20b-impotent-heresy-GGUF
+  - key: dahara1/GPT-OSS-Swallow-20B-RL-v0.1-MXFP4
+    sources:
+      - type: huggingface
+        user: dahara1
+        repo: GPT-OSS-Swallow-20B-RL-v0.1-MXFP4
+  - key: mradermacher/GPT-OSS-Swallow-20B-RL-v0.1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: GPT-OSS-Swallow-20B-RL-v0.1-GGUF
+  - key: mradermacher/gpt-oss-20b-CoT-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gpt-oss-20b-CoT-GGUF
+  - key: Felladrin/gguf-MXFP4-gpt-oss-20b-Derestricted
+    sources:
+      - type: huggingface
+        user: Felladrin
+        repo: gguf-MXFP4-gpt-oss-20b-Derestricted
+  - key: mradermacher/gpt-oss-20b-heretic-v2-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gpt-oss-20b-heretic-v2-i1-GGUF
+  - key: mradermacher/csai-gpt-oss-20b-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: csai-gpt-oss-20b-GGUF
+  - key: mradermacher/gpt-oss-20b-unsloth-puzzle-V4-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gpt-oss-20b-unsloth-puzzle-V4-GGUF
+  - key: Jinx-org/Jinx-gpt-oss-20b-GGUF
+    sources:
+      - type: huggingface
+        user: Jinx-org
+        repo: Jinx-gpt-oss-20b-GGUF
+  - key: mradermacher/HyperClassifier-gpt-oss-20b-qat-0226-experimental-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: HyperClassifier-gpt-oss-20b-qat-0226-experimental-GGUF
+  - key: sashisuseso/GPT-OSS-Swallow-20B-SFT-v0.1-MXFP4_MOE-GGUF
+    sources:
+      - type: huggingface
+        user: sashisuseso
+        repo: GPT-OSS-Swallow-20B-SFT-v0.1-MXFP4_MOE-GGUF
+  - key: mradermacher/OpenAI-gpt-oss-20B-INSTRUCT-Terse-Heretic-Uncensored-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: OpenAI-gpt-oss-20B-INSTRUCT-Terse-Heretic-Uncensored-GGUF
+  - key: mradermacher/gpt-oss-20b-uncensored-bf16-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gpt-oss-20b-uncensored-bf16-GGUF
+  - key: mradermacher/OpenAI-gpt-oss-20B-INSTRUCT-Heretic-Uncensored-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: OpenAI-gpt-oss-20B-INSTRUCT-Heretic-Uncensored-GGUF
+  - key: sashisuseso/GPT-OSS-Swallow-20B-RL-v0.1-GGUF
+    sources:
+      - type: huggingface
+        user: sashisuseso
+        repo: GPT-OSS-Swallow-20B-RL-v0.1-GGUF
+  - key: EclipseMist/gpt-oss-20b-Opus-4.5-distill-GGUF-EXP
+    sources:
+      - type: huggingface
+        user: EclipseMist
+        repo: gpt-oss-20b-Opus-4.5-distill-GGUF-EXP
+  - key: mradermacher/gpt-oss-20b-RichardErkhov-heresy-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gpt-oss-20b-RichardErkhov-heresy-GGUF
+  - key: mradermacher/gpt-oss-20b-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gpt-oss-20b-heretic-GGUF
+  - key: Mungert/gpt-oss-20b-Derestricted-GGUF
+    sources:
+      - type: huggingface
+        user: Mungert
+        repo: gpt-oss-20b-Derestricted-GGUF
+  - key: mradermacher/Huihui-gpt-oss-20b-BF16-abliterated-v2-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Huihui-gpt-oss-20b-BF16-abliterated-v2-GGUF
+  - key: mradermacher/gpt-oss-20b-Derestricted-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gpt-oss-20b-Derestricted-i1-GGUF
+  - key: DavidAU/OpenAi-GPT-oss-20b-MODERATE-uncensored-NEO-Imatrix-gguf
+    sources:
+      - type: huggingface
+        user: DavidAU
+        repo: OpenAi-GPT-oss-20b-MODERATE-uncensored-NEO-Imatrix-gguf
+  - key: mradermacher/gpt-oss-20b-ru-reasoner-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gpt-oss-20b-ru-reasoner-GGUF
+  - key: giladgd/gpt-oss-20b-GGUF
+    sources:
+      - type: huggingface
+        user: giladgd
+        repo: gpt-oss-20b-GGUF
+  - key: unsloth/gpt-oss-safeguard-20b-GGUF
+    sources:
+      - type: huggingface
+        user: unsloth
+        repo: gpt-oss-safeguard-20b-GGUF
+  - key: matrixportalx/Huihui-gpt-oss-20b-BF16-abliterated-v2-Q4_0-GGUF
+    sources:
+      - type: huggingface
+        user: matrixportalx
+        repo: Huihui-gpt-oss-20b-BF16-abliterated-v2-Q4_0-GGUF
+  - key: mradermacher/gpt-oss-20b-Esper3.1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gpt-oss-20b-Esper3.1-GGUF
+  - key: TeichAI/gpt-oss-20b-claude-4.5-sonnet-high-reasoning-distill-GGUF
+    sources:
+      - type: huggingface
+        user: TeichAI
+        repo: gpt-oss-20b-claude-4.5-sonnet-high-reasoning-distill-GGUF
+customFields:
+  - key: reasoningEffort
+    displayName: Reasoning Effort
+    description: Controls how much reasoning the model should perform.
+    type: select
+    defaultValue: low
+    options:
+      - value: low
+        label: Low
+      - value: medium
+        label: Medium
+      - value: high
+        label: High
+    effects:
+      - type: setJinjaVariable
+        variable: reasoning_effort
+metadataOverrides:
+  domain: llm
+  architectures:
+    - gpt-oss
+  compatibilityTypes:
+    - gguf
+    - safetensors
+  paramsStrings:
+    - 20B
+  minMemoryUsageBytes: 12000000000
+  contextLengths:
+    - 131072
+  vision: false
+  reasoning: true
+  trainedForToolUse: true
+config:
+  operation:
+    fields:
+      - key: llm.prediction.temperature
+        value: 0.8
+      - key: llm.prediction.topKSampling
+        value: 40
+      - key: llm.prediction.topPSampling
+        value:
+          checked: true
+          value: 0.8
+      - key: llm.prediction.repeatPenalty
+        value:
+          checked: true
+          value: 1.1
+      - key: llm.prediction.minPSampling
+        value:
+          checked: true
+          value: 0.05

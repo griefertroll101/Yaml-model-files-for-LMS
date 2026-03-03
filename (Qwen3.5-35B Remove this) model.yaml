@@ -1,0 +1,206 @@
+# model.yaml is an open standard for defining cross-platform, composable AI models
+# Learn more at https://modelyaml.org
+model: qwen/qwen3.5-35b-a3b
+base:  - key: unsloth/qwen3.5-35b-a3b-gguf
+    sources:
+      - type: huggingface
+        user: unsloth
+        repo: Qwen3.5-35B-A3B-GGUF
+  - key: lmstudio-community/qwen3.5-35b-a3b-gguf
+    sources:
+      - type: huggingface
+        user: lmstudio-community
+        repo: Qwen3.5-35B-A3B-GGUF
+  - key: unsloth/qwen3.5-35b-a3b-experiments-gguf
+    sources:
+      - type: huggingface
+        user: unsloth
+        repo: Qwen3.5-35B-A3B-Experiments-GGUF
+  - key: bartowski/qwen_qwen3.5-35b-a3b-gguf
+    sources:
+      - type: huggingface
+        user: bartowski
+        repo: Qwen_Qwen3.5-35B-A3B-GGUF
+  - key: tatsuyaaaaaaa/qwen3.5-35b-a3b-gguf
+    sources:
+      - type: huggingface
+        user: tatsuyaaaaaaa
+        repo: Qwen3.5-35B-A3B-gguf
+  - key: mradermacher/huihui-qwen3.5-35b-a3b-abliterated-i1-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Huihui-Qwen3.5-35B-A3B-abliterated-i1-GGUF
+  - key: mradermacher/qwen3.5-35b-a3b-base-i1-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-35B-A3B-Base-i1-GGUF
+  - key: aesSedai/qwen3.5-35b-a3b-gguf
+    sources:
+      - type: huggingface
+        user: AesSedai
+        repo: Qwen3.5-35B-A3B-GGUF
+  - key: janhq/qwen3.5-35b-a3b-gguf
+    sources:
+      - type: huggingface
+        user: janhq
+        repo: Qwen3.5-35B-A3B-GGUF
+  - key: mradermacher/qwen3.5-35b-a3b-i1-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-35B-A3B-i1-GGUF
+  - key: mradermacher/qwen3.5-35b-a3b-heretic-i1-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-35B-A3B-heretic-i1-GGUF
+  - key: mradermacher/qwen3.5-35b-a3b-heretic-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-35B-A3B-heretic-GGUF
+  - key: tvall43/qwen3.5-35b-a3b-heretic-mxfp4-gguf
+    sources:
+      - type: huggingface
+        user: tvall43
+        repo: Qwen3.5-35B-A3B-heretic-mxfp4-gguf
+  - key: mradermacher/huihui-qwen3.5-35b-a3b-abliterated-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Huihui-Qwen3.5-35B-A3B-abliterated-GGUF
+  - key: llmfan46/qwen3.5-35b-a3b-heretic-v1-gguf
+    sources:
+      - type: huggingface
+        user: llmfan46
+        repo: Qwen3.5-35B-A3B-heretic-v1-GGUF
+  - key: noctrex/huihui-qwen3.5-35b-a3b-abliterated-mxfp4_moe-gguf
+    sources:
+      - type: huggingface
+        user: noctrex
+        repo: Huihui-Qwen3.5-35B-A3B-abliterated-MXFP4_MOE-GGUF
+  - key: noctrex/qwen3.5-35b-a3b-mxfp4_moe-gguf
+    sources:
+      - type: huggingface
+        user: noctrex
+        repo: Qwen3.5-35B-A3B-MXFP4_MOE-GGUF
+  - key: ubergarm/qwen3.5-35b-a3b-gguf
+    sources:
+      - type: huggingface
+        user: ubergarm
+        repo: Qwen3.5-35B-A3B-GGUF
+  - key: titan0115/qwen3.5-35b-a3b
+    sources:
+      - type: huggingface
+        user: titan0115
+        repo: Qwen3.5-35B-A3B
+  - key: alexdenton/qwen3.5-35b-a3b-heretic-gguf
+    sources:
+      - type: huggingface
+        user: alexdenton
+        repo: Qwen3.5-35B-A3B-heretic-GGUF
+  - key: leadfootthrottlecock/qwen3.5-35b-a3b-heretic-gguf
+    sources:
+      - type: huggingface
+        user: LeadFootThrottleCock
+        repo: Qwen3.5-35B-A3B-heretic-GGUF
+  - key: tnt3530/qwen3.5-122b-a10b-abliterated-gguf
+    sources:
+      - type: huggingface
+        user: TNT3530
+        repo: Qwen3.5-122B-A10B-abliterated-GGUF
+  - key: paul-wang/qwen3.5-35b-a3b-gguf
+    sources:
+      - type: huggingface
+        user: Paul-Wang
+        repo: Qwen3.5-35B-A3B-GGUF
+  - key: heyujie/qwen3.5-35b-a3b-abliterated-gguf
+    sources:
+      - type: huggingface
+        user: HeYujie
+        repo: Qwen3.5-35B-A3B-abliterated-GGUF
+  - key: mradermacher/qwen3.5-35b-a3b-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-35B-A3B-GGUF
+  - key: mradermacher/qwen3.5-35b-a3b-base-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-35B-A3B-Base-GGUF
+  - key: cmp-nct/qwen3.5-35b-a3b-gguf
+    sources:
+      - type: huggingface
+        user: cmp-nct
+        repo: Qwen3.5-35B-A3B-GGUF
+  - key: cs2764/huihui-qwen3.5-35b-a3b-abliterated-q8_0-gguf
+    sources:
+      - type: huggingface
+        user: cs2764
+        repo: Huihui-Qwen3.5-35B-A3B-abliterated-Q8_0-GGUF
+  - key: enzgamers/qwen3.5-35b-a3b-gguf
+    sources:
+      - type: huggingface
+        user: EnzGamers
+        repo: Qwen3.5-35B-A3B-GGUF
+  - key: hossamdaoud/qwen3.5-35b-a3b-gguf
+    sources:
+      - type: huggingface
+        user: hossamdaoud
+        repo: Qwen3.5-35B-A3B-GGUF
+  - key: devquasar/qwen.qwen3.5-35b-a3b-gguf
+    sources:
+      - type: huggingface
+        user: DevQuasar
+        repo: Qwen.Qwen3.5-35B-A3B-GGUF
+  - key: gokmakog/qwen3.5-35b-a3b-gguf
+    sources:
+      - type: huggingface
+        user: gokmakog
+        repo: Qwen3.5-35B-A3B-GGUF
+  - key: cs2764/huihui-qwen3.5-35b-a3b-abliterated-q6_k-gguf
+    sources:
+      - type: huggingface
+        user: cs2764
+        repo: Huihui-Qwen3.5-35B-A3B-abliterated-Q6_K-GGUF
+metadataOverrides:
+  domain: llm
+  architectures:
+    - qwen35moe
+  compatibilityTypes:
+    - gguf
+  paramsStrings:
+    - 35B
+  minMemoryUsageBytes: 21000000000
+  contextLengths:
+    - 262144
+  vision: true
+  reasoning: true
+  trainedForToolUse: true
+config:
+  operation:
+    fields:
+      - key: llm.prediction.temperature
+        value: 0.6
+      - key: llm.prediction.topKSampling
+        value: 20
+      - key: llm.prediction.topPSampling
+        value:
+          checked: true
+          value: 0.95
+      - key: llm.prediction.minPSampling
+        value:
+          checked: false
+          value: 0
+customFields:
+  - key: enableThinking
+    displayName: Enable Thinking
+    description: Controls whether the model will think before replying
+    type: boolean
+    defaultValue: true
+    effects:
+      - type: setJinjaVariable
+        variable: enable_thinking

@@ -1,0 +1,137 @@
+# model.yaml is an open standard for defining cross-platform, composable AI models
+# Learn more at https://modelyaml.org
+model: qwen/qwen3.5-122b-a10b
+base:
+  - key: unsloth/qwen3.5-122b-a10b-gguf
+    sources:
+      - type: huggingface
+        user: unsloth
+        repo: Qwen3.5-122B-A10B-GGUF
+  - key: mradermacher/qwen3.5-122b-a10b-heretic-i1-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-122B-A10B-heretic-i1-GGUF
+  - key: bartowski/qwen_qwen3.5-122b-a10b-gguf
+    sources:
+      - type: huggingface
+        user: bartowski
+        repo: Qwen_Qwen3.5-122B-A10B-GGUF
+  - key: mradermacher/qwen3.5-122b-a10b-i1-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-122B-A10B-i1-GGUF
+  - key: mungert/qwen3.5-122b-a10b-gguf
+    sources:
+      - type: huggingface
+        user: Mungert
+        repo: Qwen3.5-122B-A10B-GGUF
+  - key: lmstudio-community/qwen3.5-122b-a10b-gguf
+    sources:
+      - type: huggingface
+        user: lmstudio-community
+        repo: Qwen3.5-122B-A10B-GGUF
+  - key: aessedai/qwen3.5-122b-a10b-gguf
+    sources:
+      - type: huggingface
+        user: AesSedai
+        repo: Qwen3.5-122B-A10B-GGUF
+  - key: ubergarm/qwen3.5-122b-a10b-gguf
+    sources:
+      - type: huggingface
+        user: ubergarm
+        repo: Qwen3.5-122B-A10B-GGUF
+  - key: mradermacher/qwen3.5-122b-a10b-heretic-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-122B-A10B-heretic-GGUF
+  - key: tybuddy/qwen3.5-122b-a10b-gguf-archived
+    sources:
+      - type: huggingface
+        user: tybuddy
+        repo: Qwen3.5-122B-A10B-GGUF-archived
+  - key: tnt3530/qwen3.5-122b-a10b-abliterated-gguf
+    sources:
+      - type: huggingface
+        user: TNT3530
+        repo: Qwen3.5-122B-A10B-abliterated-GGUF
+  - key: sabomako/qwen3.5-122b-a10b-heretic-gguf
+    sources:
+      - type: huggingface
+        user: Sabomako
+        repo: Qwen3.5-122B-A10B-heretic-GGUF
+  - key: mradermacher/qwen3.5-122b-a10b-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-122B-A10B-GGUF
+  - key: noctrex/qwen3.5-122b-a10b-mxfp4_moe-gguf
+    sources:
+      - type: huggingface
+        user: noctrex
+        repo: Qwen3.5-122B-A10B-MXFP4_MOE-GGUF
+  - key: ex0bit/qwen3.5-122b-a10b-prism-lite-gguf
+    sources:
+      - type: huggingface
+        user: Ex0bit
+        repo: Qwen3.5-122B-A10B-PRISM-LITE-GGUF
+  - key: devquasar/qwen.qwen3.5-122b-a10b-gguf
+    sources:
+      - type: huggingface
+        user: DevQuasar
+        repo: Qwen.Qwen3.5-122B-A10B-GGUF
+  - key: beinsezii/qwen3.5-122b-a10b-gguf-halo
+    sources:
+      - type: huggingface
+        user: Beinsezii
+        repo: Qwen3.5-122B-A10B-GGUF-HALO
+  - key: ex0bit/qwen3.5-122b-a10b-prism-pro-gguf
+    sources:
+      - type: huggingface
+        user: Ex0bit
+        repo: Qwen3.5-122B-A10B-PRISM-PRO-GGUF
+  - key: mradermacher/qwen3.5-122b-a10b-abliterated-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-122B-A10B-abliterated-GGUF
+metadataOverrides:
+  domain: llm
+  architectures:
+    - qwen35moe
+  compatibilityTypes:
+    - gguf
+  paramsStrings:
+    - 35B
+  minMemoryUsageBytes: 21000000000
+  contextLengths:
+    - 262144
+  vision: true
+  reasoning: true
+  trainedForToolUse: true
+config:
+  operation:
+    fields:
+      - key: llm.prediction.temperature
+        value: 0.6
+      - key: llm.prediction.topKSampling
+        value: 20
+      - key: llm.prediction.topPSampling
+        value:
+          checked: true
+          value: 0.95
+      - key: llm.prediction.minPSampling
+        value:
+          checked: false
+          value: 0
+customFields:
+  - key: enableThinking
+    displayName: Enable Thinking
+    description: Controls whether the model will think before replying
+    type: boolean
+    defaultValue: true
+    effects:
+      - type: setJinjaVariable
+        variable: enable_thinking

@@ -1,0 +1,117 @@
+# model.yaml is an open standard for defining cross-platform, composable AI models
+# Learn more at https://modelyaml.org
+model: qwen/qwen3.5-9b
+base:
+  - key: lmstudio-community/Qwen3.5-9B-GGUF
+    sources:
+      - type: huggingface
+        user: lmstudio-community
+        repo: Qwen3.5-9B-GGUF
+  - key: unsloth/Qwen3.5-9B-GGUF
+    sources:
+      - type: huggingface
+        user: unsloth
+        repo: Qwen3.5-9B-GGUF
+  - key: bartowski/Qwen_Qwen3.5-9B-GGUF
+    sources:
+      - type: huggingface
+        user: bartowski
+        repo: Qwen_Qwen3.5-9B-GGUF
+  - key: AaryanK/Qwen3.5-9B-GGUF
+    sources:
+      - type: huggingface
+        user: AaryanK
+        repo: Qwen3.5-9B-GGUF
+  - key: steampunque/Qwen3.5-9B-MP-GGUF
+    sources:
+      - type: huggingface
+        user: steampunque
+        repo: Qwen3.5-9B-MP-GGUF
+  - key: Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+    sources:
+      - type: huggingface
+        user: Jackrong
+        repo: Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+  - key: AllmageStudio/Qwen3.5-9b-heretic-v2-GGUF
+    sources:
+      - type: huggingface
+        user: AllmageStudio
+        repo: Qwen3.5-9b-heretic-v2-GGUF
+  - key: crownelius/Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5
+    sources:
+      - type: huggingface
+        user: crownelius
+        repo: Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5
+  - key: prithivMLmods/Qwen3.5-9B-f32-GGUF
+    sources:
+      - type: huggingface
+        user: prithivMLmods
+        repo: Qwen3.5-9B-f32-GGUF
+  - key: titan0115/Qwen3.5-9B
+    sources:
+      - type: huggingface
+        user: titan0115
+        repo: Qwen3.5-9B
+  - key: titan0115/Qwen3.5-9B-Base
+    sources:
+      - type: huggingface
+        user: titan0115
+        repo: Qwen3.5-9B-Base
+  - key: tatsuyaaaaaaaa/Qwen3.5-9B-gguf
+    sources:
+      - type: huggingface
+        user: tatsuyaaaaaaaa
+        repo: Qwen3.5-9B-gguf
+  - key: DevQuasar/Qwen.Qwen3.5-9B-GGUF
+    sources:
+      - type: huggingface
+        user: DevQuasar
+        repo: Qwen.Qwen3.5-9B-GGUF
+  - key: lukey03/Qwen3.5-9B-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: lukey03
+        repo: Qwen3.5-9B-abliterated-GGUF
+  - key: mradermacher/Qwen3.5-9B-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-9B-heretic-GGUF
+metadataOverrides:
+  domain: llm
+  architectures:
+    - qwen35moe
+  compatibilityTypes:
+    - gguf
+  paramsStrings:
+    - 35B
+  minMemoryUsageBytes: 21000000000
+  contextLengths:
+    - 262144
+  vision: true
+  reasoning: true
+  trainedForToolUse: true
+config:
+  operation:
+    fields:
+      - key: llm.prediction.temperature
+        value: 0.6
+      - key: llm.prediction.topKSampling
+        value: 20
+      - key: llm.prediction.topPSampling
+        value:
+          checked: true
+          value: 0.95
+      - key: llm.prediction.minPSampling
+        value:
+          checked: false
+          value: 0
+customFields:
+  - key: enableThinking
+    displayName: Enable Thinking
+    description: Controls whether the model will think before replying
+    type: boolean
+    defaultValue: true
+    effects:
+      - type: setJinjaVariable
+        variable: enable_thinking

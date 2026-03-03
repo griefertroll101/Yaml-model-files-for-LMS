@@ -1,0 +1,316 @@
+# model.yaml is an open standard for defining cross-platform, composable AI models
+# Learn more at https://modelyaml.org
+model: zai-org/glm-4.7-flash
+base:
+  - key: unsloth/GLM-4.7-Flash-GGUF
+    sources:
+      - type: huggingface
+        user: unsloth
+        repo: GLM-4.7-Flash-GGUF
+  - key: DavidAU/GLM-4.7-Flash-Uncensored-Heretic-NEO-CODE-Imatrix-MAX-GGUF
+    sources:
+      - type: huggingface
+        user: DavidAU
+        repo: GLM-4.7-Flash-Uncensored-Heretic-NEO-CODE-Imatrix-MAX-GGUF
+  - key: TeichAI/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF
+    sources:
+      - type: huggingface
+        user: TeichAI
+        repo: GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF
+  - key: lmstudio-community/GLM-4.7-Flash-GGUF
+    sources:
+      - type: huggingface
+        user: lmstudio-community
+        repo: GLM-4.7-Flash-GGUF
+  - key: unsloth/GLM-4.7-Flash-REAP-23B-A3B-GGUF
+    sources:
+      - type: huggingface
+        user: unsloth
+        repo: GLM-4.7-Flash-REAP-23B-A3B-GGUF
+  - key: mradermacher/GLM-4.7-Flash-heretic-1.2.0-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: GLM-4.7-Flash-heretic-1.2.0-i1-GGUF
+  - key: bartowski/zai-org_GLM-4.7-Flash-GGUF
+    sources:
+      - type: huggingface
+        user: bartowski
+        repo: zai-org_GLM-4.7-Flash-GGUF
+  - key: mradermacher/GLM-4.7-Flash-absolute-heresy-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: GLM-4.7-Flash-absolute-heresy-i1-GGUF
+  - key: mradermacher/GLM-4.7-Flash-REAP-23B-A3B-absolute-heresy-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: GLM-4.7-Flash-REAP-23B-A3B-absolute-heresy-i1-GGUF
+  - key: mradermacher/Dolphin-Mistral-GLM-4.7-Flash-24B-Venice-Edition-Thinking-Uncensored-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Dolphin-Mistral-GLM-4.7-Flash-24B-Venice-Edition-Thinking-Uncensored-i1-GGUF
+  - key: mradermacher/GLM-4.7-Flash-heretic-MPOA-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: GLM-4.7-Flash-heretic-MPOA-i1-GGUF
+  - key: noctrex/GLM-4.7-Flash-MXFP4_MOE-GGUF
+    sources:
+      - type: huggingface
+        user: noctrex
+        repo: GLM-4.7-Flash-MXFP4_MOE-GGUF
+  - key: mradermacher/Huihui-GLM-4.7-Flash-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Huihui-GLM-4.7-Flash-abliterated-GGUF
+  - key: mradermacher/Huihui-GLM-4.7-Flash-abliterated-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Huihui-GLM-4.7-Flash-abliterated-i1-GGUF
+  - key: noctrex/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill
+    sources:
+      - type: huggingface
+        user: noctrex
+        repo: GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill
+  - key: DavidAU/GLM-4.7-Flash-Grande-Heretic-UNCENSORED-42B-A3B-GGUF
+    sources:
+      - type: huggingface
+        user: DavidAU
+        repo: GLM-4.7-Flash-Grande-Heretic-UNCENSORED-42B-A3B-GGUF
+  - key: mradermacher/GLM-4.7-Flash-Derestricted-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: GLM-4.7-Flash-Derestricted-i1-GGUF
+  - key: mradermacher/GLM-4.7-Flash-Derestricted-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: GLM-4.7-Flash-Derestricted-GGUF
+  - key: Ex0bit/GLM-4.7-Flash-PRISM
+    sources:
+      - type: huggingface
+        user: Ex0bit
+        repo: GLM-4.7-Flash-PRISM
+  - key: mradermacher/GLM-4.7-Flash-REAP-23B-A3B-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: GLM-4.7-Flash-REAP-23B-A3B-i1-GGUF
+  - key: MuXodious/GLM-4.7-Flash-REAP-23B-A3B-absolute-heresy-GGUF
+    sources:
+      - type: huggingface
+        user: MuXodious
+        repo: GLM-4.7-Flash-REAP-23B-A3B-absolute-heresy-GGUF
+  - key: floria-n/GLM-4.7-Flash-GGUF-Config
+    sources:
+      - type: huggingface
+        user: floria-n
+        repo: GLM-4.7-Flash-GGUF-Config
+  - key: ngxson/GLM-4.7-Flash-GGUF
+    sources:
+      - type: huggingface
+        user: ngxson
+        repo: GLM-4.7-Flash-GGUF
+  - key: DavidAU/GLM-4.7-Flash-NEO-CODE-Imatrix-MAX-GGUF
+    sources:
+      - type: huggingface
+        user: DavidAU
+        repo: GLM-4.7-Flash-NEO-CODE-Imatrix-MAX-GGUF
+  - key: mradermacher/GLM-4.7-Flash-impotent-heresy-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: GLM-4.7-Flash-impotent-heresy-i1-GGUF
+  - key: evilfreelancer/GLM-4.7-Flash-GGUF
+    sources:
+      - type: huggingface
+        user: evilfreelancer
+        repo: GLM-4.7-Flash-GGUF
+  - key: mradermacher/GLM-4.7-Flash-49B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: GLM-4.7-Flash-49B-GGUF
+  - key: MuXodious/GLM-4.7-Flash-absolute-heresy-GGUF
+    sources:
+      - type: huggingface
+        user: MuXodious
+        repo: GLM-4.7-Flash-absolute-heresy-GGUF
+  - key: mradermacher/GLM-4.7-Flash-absolute-heresy-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: GLM-4.7-Flash-absolute-heresy-GGUF
+  - key: mradermacher/Dolphin-Mistral-GLM-4.7-Flash-24B-Venice-Edition-Thinking-Uncensored-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Dolphin-Mistral-GLM-4.7-Flash-24B-Venice-Edition-Thinking-Uncensored-GGUF
+  - key: mrbz/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF
+    sources:
+      - type: huggingface
+        user: mrbz
+        repo: GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF
+  - key: HauhauCS/GLM-4.7-Flash-Uncensored-HauhauCS-Aggressive
+    sources:
+      - type: huggingface
+        user: HauhauCS
+        repo: GLM-4.7-Flash-Uncensored-HauhauCS-Aggressive
+  - key: legendbl/GLM-4.7-Flash-Uncensored-Heretic-NEO-CODE-Imatrix-MAX-GGUF
+    sources:
+      - type: huggingface
+        user: legendbl
+        repo: GLM-4.7-Flash-Uncensored-Heretic-NEO-CODE-Imatrix-MAX-GGUF
+  - key: ggml-org/GLM-4.7-Flash-GGUF
+    sources:
+      - type: huggingface
+        user: ggml-org
+        repo: GLM-4.7-Flash-GGUF
+  - key: andrewheins55/GLM-4.7-Flash-GGUF
+    sources:
+      - type: huggingface
+        user: andrewheins55
+        repo: GLM-4.7-Flash-GGUF
+  - key: HauhauCS/GLM-4.7-Flash-Uncensored-HauhauCS-Balanced
+    sources:
+      - type: huggingface
+        user: HauhauCS
+        repo: GLM-4.7-Flash-Uncensored-HauhauCS-Balanced
+  - key: jo0natan/GLM-4.7-Flash-Uncensored-Heretic-NEO-CODE-Imatrix-MAX-GGUF
+    sources:
+      - type: huggingface
+        user: jo0natan
+        repo: GLM-4.7-Flash-Uncensored-Heretic-NEO-CODE-Imatrix-MAX-GGUF
+  - key: mradermacher/Huihui-GLM-4.7-Flash-abliterated-57B-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Huihui-GLM-4.7-Flash-abliterated-57B-i1-GGUF
+  - key: ubergarm/GLM-4.7-Flash-GGUF
+    sources:
+      - type: huggingface
+        user: ubergarm
+        repo: GLM-4.7-Flash-GGUF
+  - key: mradermacher/GLM-4.7-Flash-REAP-23B-A3B-absolute-heresy-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: GLM-4.7-Flash-REAP-23B-A3B-absolute-heresy-GGUF
+  - key: mradermacher/GLM-4.7-Flash-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: GLM-4.7-Flash-i1-GGUF
+  - key: 91chenxs/GLM-4.7-Flash-Uncensored-Heretic-NEO-CODE-Imatrix-MAX-GGUF
+    sources:
+      - type: huggingface
+        user: 91chenxs
+        repo: GLM-4.7-Flash-Uncensored-Heretic-NEO-CODE-Imatrix-MAX-GGUF
+  - key: lhabb213/GLM-4.7-Flash-Uncensored-Heretic-NEO-CODE-Imatrix-MAX-GGUF
+    sources:
+      - type: huggingface
+        user: lhabb213
+        repo: GLM-4.7-Flash-Uncensored-Heretic-NEO-CODE-Imatrix-MAX-GGUF
+  - key: mradermacher/GLM-4.7-Flash-heretic-MPOA-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: GLM-4.7-Flash-heretic-MPOA-GGUF
+  - key: botp/GLM-4.7-Flash-Uncensored-Heretic-NEO-CODE-Imatrix-MAX-GGUF
+    sources:
+      - type: huggingface
+        user: botp
+        repo: GLM-4.7-Flash-Uncensored-Heretic-NEO-CODE-Imatrix-MAX-GGUF
+  - key: mradermacher/CreativeSocialAgent_GLM_4.7_Flash-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: CreativeSocialAgent_GLM_4.7_Flash-GGUF
+  - key: mradermacher/GLM-4.7-Flash-Think-Alexia.Sorete-1B-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: GLM-4.7-Flash-Think-Alexia.Sorete-1B-i1-GGUF
+  - key: haellsigh/glm-4.7-flash-uncensored
+    sources:
+      - type: huggingface
+        user: haellsigh
+        repo: glm-4.7-flash-uncensored
+  - key: Joshua-Xia/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF
+    sources:
+      - type: huggingface
+        user: Joshua-Xia
+        repo: GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF
+  - key: PaulZaff/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF
+    sources:
+      - type: huggingface
+        user: PaulZaff
+        repo: GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF
+  - key: mradermacher/GLM-4.7-Flash-heretic-1.2.0-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: GLM-4.7-Flash-heretic-1.2.0-GGUF
+  - key: rounakhchatait/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF
+    sources:
+      - type: huggingface
+        user: rounakhchatait
+        repo: GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF
+  - key: noctrex/GLM-4.7-Flash-REAP-23B-A3B-MXFP4_MOE-GGUF
+    sources:
+      - type: huggingface
+        user: noctrex
+        repo: GLM-4.7-Flash-REAP-23B-A3B-MXFP4_MOE-GGUF
+config:
+  operation:
+    fields:
+      - key: llm.prediction.temperature
+        value: 0.2
+      - key: llm.prediction.topKSampling
+        value: 50
+      - key: llm.prediction.topPSampling
+        value:
+          checked: true
+          value: 0.95
+      - key: llm.prediction.repeatPenalty
+        value:
+          checked: false
+          value: 0
+customFields:
+  - key: enableThinking
+    displayName: Enable Thinking
+    description: Controls whether the model will think before replying
+    type: boolean
+    defaultValue: true
+    effects:
+      - type: setJinjaVariable
+        variable: enable_thinking
+  - key: clearThinking
+    displayName: Clear Thinking
+    description: Controls whether thinking content is cleared from history
+    type: boolean
+    defaultValue: false
+    effects:
+      - type: setJinjaVariable
+        variable: clear_thinking
+metadataOverrides:
+  domain: llm
+  architectures:
+    - glm4_moe_lite
+  compatibilityTypes:
+    - gguf
+    - safetensors
+  paramsStrings:
+    - 30B
+  minMemoryUsageBytes: 16000000000
+  contextLengths:
+    - 131072
+  vision: false
+  reasoning: true
+  trainedForToolUse: true

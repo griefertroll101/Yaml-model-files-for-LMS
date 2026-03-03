@@ -1,0 +1,164 @@
+# model.yaml is an open standard for defining cross-platform, composable AI models
+# Learn more at https://modelyaml.org
+model: openai/gpt-oss-120b
+base:
+- key: ggml-org/gpt-oss-120b-gguf
+  sources:
+    - type: huggingface
+      user: ggml-org
+      repo: gpt-oss-120b-GGUF
+- key: unsloth/gpt-oss-120b-gguf
+  sources:
+    - type: huggingface
+      user: unsloth
+      repo: gpt-oss-120b-GGUF
+- key: mradermacher/gpt-oss-120b-tainted-heresy-i1-gguf
+  sources:
+    - type: huggingface
+      user: mradermacher
+      repo: gpt-oss-120b-tainted-heresy-i1-GGUF
+- key: lmstudio-community/gpt-oss-120b-gguf
+  sources:
+    - type: huggingface
+      user: lmstudio-community
+      repo: gpt-oss-120b-GGUF
+- key: DavidAU/openai_gpt-oss-120b-neo-imatrix-gguf
+  sources:
+    - type: huggingface
+      user: DavidAU
+      repo: Openai_gpt-oss-120b-NEO-Imatrix-GGUF
+- key: mmnga-o/gpt-oss-swallow-120b-rl-v0.1-gguf
+  sources:
+    - type: huggingface
+      user: mmnga-o
+      repo: GPT-OSS-Swallow-120B-RL-v0.1-gguf
+- key: bartowski/openai_gpt-oss-120b-gguf
+  sources:
+    - type: huggingface
+      user: bartowski
+      repo: openai_gpt-oss-120b-GGUF
+- key: bartowski/kldzj_gpt-oss-120b-heretic-v2-gguf
+  sources:
+    - type: huggingface
+      user: bartowski
+      repo: kldzj_gpt-oss-120b-heretic-v2-GGUF
+- key: huihui-ai/huihui-gpt-oss-120b-bf16-abliterated
+  sources:
+    - type: huggingface
+      user: huihui-ai
+      repo: Huihui-gpt-oss-120b-BF16-abliterated
+- key: HauhauCS/gptoss-120b-uncensored-hauhaucs-aggressive
+  sources:
+    - type: huggingface
+      user: HauhauCS
+      repo: GPTOSS-120B-Uncensored-HauhauCS-Aggressive
+- key: mradermacher/gpt-oss-swallow-120b-rl-v0.1-gguf
+  sources:
+    - type: huggingface
+      user: mradermacher
+      repo: GPT-OSS-Swallow-120B-RL-v0.1-GGUF
+- key: bartowski/huizimao_gpt-oss-120b-uncensored-bf16-gguf
+  sources:
+    - type: huggingface
+      user: bartowski
+      repo: huizimao_gpt-oss-120b-uncensored-bf16-GGUF
+- key: mradermacher/gpt-oss-120b-tainted-heresy-gguf
+  sources:
+    - type: huggingface
+      user: mradermacher
+      repo: gpt-oss-120b-tainted-heresy-GGUF
+- key: calandracas/gpt-oss-120b-derestricted-gguf
+  sources:
+    - type: huggingface
+      user: Calandracas
+      repo: gpt-oss-120b-Derestricted-GGUF
+- key: gghfez/gpt-oss-120b-derestricted.mxfp4_moe-gguf
+  sources:
+    - type: huggingface
+      user: gghfez
+      repo: gpt-oss-120b-Derestricted.MXFP4_MOE-gguf
+- key: muxodious/gpt-oss-120b-tainted-heresy-gguf
+  sources:
+    - type: huggingface
+      user: MuXodious
+      repo: gpt-oss-120b-tainted-heresy-GGUF
+- key: mradermacher/openai_gpt-oss-120b_pruned_reap_58b-safetensors-i1-gguf
+  sources:
+    - type: huggingface
+      user: mradermacher
+      repo: OpenAI_GPT-OSS-120B_Pruned_REAP_58B-SafeTensors-i1-GGUF
+- key: bartowski/kldzj_gpt-oss-120b-heretic-gguf
+  sources:
+    - type: huggingface
+      user: bartowski
+      repo: kldzj_gpt-oss-120b-heretic-GGUF
+- key: giladgd/gpt-oss-120b-gguf
+  sources:
+    - type: huggingface
+      user: giladgd
+      repo: gpt-oss-120b-GGUF
+- key: jackrong/gpt-oss-120b-distill-phi-4-14b-gguf
+  sources:
+    - type: huggingface
+      user: Jackrong
+      repo: gpt-oss-120b-Distill-Phi-4-14B-GGUF
+- key: devquasar/openai.gpt-oss-120b-gguf
+  sources:
+    - type: huggingface
+      user: DevQuasar
+      repo: openai.gpt-oss-120b-GGUF
+- key: mradermacher/gpt-oss-120b-guardpoint-i1-gguf
+  sources:
+    - type: huggingface
+      user: mradermacher
+      repo: gpt-oss-120b-Guardpoint-i1-GGUF
+customFields:
+  - key: reasoningEffort
+    displayName: Reasoning Effort
+    description: Controls how much reasoning the model should perform.
+    type: select
+    defaultValue: low
+    options:
+      - value: low
+        label: Low
+      - value: medium
+        label: Medium
+      - value: high
+        label: High
+    effects:
+      - type: setJinjaVariable
+        variable: reasoning_effort
+metadataOverrides:
+  domain: llm
+  architectures:
+    - gpt-oss
+  compatibilityTypes:
+    - gguf
+    - safetensors
+  paramsStrings:
+    - 120B
+  minMemoryUsageBytes: 65000000000
+  contextLengths:
+    - 131072
+  vision: false
+  reasoning: true
+  trainedForToolUse: true
+config:
+  operation:
+    fields:
+      - key: llm.prediction.temperature
+        value: 0.8
+      - key: llm.prediction.topKSampling
+        value: 40
+      - key: llm.prediction.topPSampling
+        value:
+          checked: true
+          value: 0.8
+      - key: llm.prediction.repeatPenalty
+        value:
+          checked: true
+          value: 1.1
+      - key: llm.prediction.minPSampling
+        value:
+          checked: true
+          value: 0.05

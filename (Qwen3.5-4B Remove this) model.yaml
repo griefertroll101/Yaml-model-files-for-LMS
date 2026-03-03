@@ -1,0 +1,152 @@
+# model.yaml is an open standard for defining cross-platform, composable AI models
+# Learn more at https://modelyaml.org
+model: qwen/qwen3.5-4b
+base:
+- key: unsloth/Qwen3.5-4B-GGUF
+  sources:
+    - type: huggingface
+      user: unsloth
+      repo: Qwen3.5-4B-GGUF
+- key: tatsuyaaaaaa/Qwen3.5-4B-gguf
+  sources:
+    - type: huggingface
+      user: tatsuyaaaaaaa
+      repo: Qwen3.5-4B-gguf
+- key: bartowski/Qwen_Qwen3.5-4B-GGUF
+  sources:
+    - type: huggingface
+      user: bartowski
+      repo: Qwen_Qwen3.5-4B-GGUF
+- key: lmstudio-community/Qwen3.5-4B-GGUF
+  sources:
+    - type: huggingface
+      user: lmstudio-community
+      repo: Qwen3.5-4B-GGUF
+- key: titan0115/Qwen3.5-4B-Base
+  sources:
+    - type: huggingface
+      user: titan0115
+      repo: Qwen3.5-4B-Base
+- key: titan0115/Qwen3.5-4B
+  sources:
+    - type: huggingface
+      user: titan0115
+      repo: Qwen3.5-4B
+- key: AaryanK/Qwen3.5-4B-GGUF
+  sources:
+    - type: huggingface
+      user: AaryanK
+      repo: Qwen3.5-4B-GGUF
+- key: MerlinSafety/Qwen3.5-4B-Safety-Thinking
+  sources:
+    - type: huggingface
+      user: MerlinSafety
+      repo: Qwen3.5-4B-Safety-Thinking
+- key: prithivMLmods/Qwen3.5-4B-f32-GGUF
+  sources:
+    - type: huggingface
+      user: prithivMLmods
+      repo: Qwen3.5-4B-f32-GGUF
+- key: chenly124/Qwen3.5-4B-PaperWitch-heresy-Q8_0-GGUF
+  sources:
+    - type: huggingface
+      user: chenly124
+      repo: Qwen3.5-4B-PaperWitch-heresy-Q8_0-GGUF
+- key: DevQuasar/Qwen.Qwen3.5-4B-GGUF
+  sources:
+    - type: huggingface
+      user: DevQuasar
+      repo: Qwen.Qwen3.5-4B-GGUF
+- key: Open4bits/Qwen3.5-4B-GGUF
+  sources:
+    - type: huggingface
+      user: Open4bits
+      repo: Qwen3.5-4B-GGUF
+- key: Jackrong/Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+  sources:
+    - type: huggingface
+      user: Jackrong
+      repo: Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+- key: SicariusSicariiStuff/Qwen3.5-4B_Abliterated_GGUF
+  sources:
+    - type: huggingface
+      user: SicariusSicariiStuff
+      repo: Qwen3.5-4B_Abliterated_GGUF
+- key: ZuzeTt/Qwen3.5-4B-imatrix-GGUF
+  sources:
+    - type: huggingface
+      user: ZuzeTt
+      repo: Qwen3.5-4B-imatrix-GGUF
+- key: SicariusSicariiStuff/Qwen3.5-4B_Abliterated_ARM
+  sources:
+    - type: huggingface
+      user: SicariusSicariiStuff
+      repo: Qwen3.5-4B_Abliterated_ARM
+- key: tvall43/Qwen3.5-4B-heretic-gguf
+  sources:
+    - type: huggingface
+      user: tvall43
+      repo: Qwen3.5-4B-heretic-gguf
+- key: Jagerfly/Qwen3.5-4b-PaperWitch-heresy-v2-gguf
+  sources:
+    - type: huggingface
+      user: Jagerfly
+      repo: Qwen3.5-4b-PaperWitch-heresy-v2-gguf
+- key: mradermacher/Qwen3.5-4B_Abliterated-GGUF
+  sources:
+    - type: huggingface
+      user: mradermacher
+      repo: Qwen3.5-4B_Abliterated-GGUF
+- key: mradermacher/Qwen3.5-4B-PaperWitch-heresy-GGUF
+  sources:
+    - type: huggingface
+      user: mradermacher
+      repo: Qwen3.5-4B-PaperWitch-heresy-GGUF
+- key: mradermacher/Qwen3.5-4B_Abliterated-i1-GGUF
+  sources:
+    - type: huggingface
+      user: mradermacher
+      repo: Qwen3.5-4B_Abliterated-i1-GGUF
+- key: mradermacher/Qwen3.5-4B-PaperWitch-heresy-i1-GGUF
+  sources:
+    - type: huggingface
+      user: mradermacher
+      repo: Qwen3.5-4B-PaperWitch-heresy-i1-GGUF
+metadataOverrides:
+  domain: llm
+  architectures:
+    - qwen35moe
+  compatibilityTypes:
+    - gguf
+  paramsStrings:
+    - 35B
+  minMemoryUsageBytes: 21000000000
+  contextLengths:
+    - 262144
+  vision: true
+  reasoning: true
+  trainedForToolUse: true
+config:
+  operation:
+    fields:
+      - key: llm.prediction.temperature
+        value: 0.6
+      - key: llm.prediction.topKSampling
+        value: 20
+      - key: llm.prediction.topPSampling
+        value:
+          checked: true
+          value: 0.95
+      - key: llm.prediction.minPSampling
+        value:
+          checked: false
+          value: 0
+customFields:
+  - key: enableThinking
+    displayName: Enable Thinking
+    description: Controls whether the model will think before replying
+    type: boolean
+    defaultValue: true
+    effects:
+      - type: setJinjaVariable
+        variable: enable_thinking
