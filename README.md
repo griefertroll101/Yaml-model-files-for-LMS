@@ -1,5 +1,4 @@
-# Yaml-model-files-for-LMS
-Yaml model files for LMS
+# Yaml Model Files For LMS
 
 Plan to add MLX but may be a week or 2 before I do.
 
