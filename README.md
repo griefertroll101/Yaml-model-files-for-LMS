@@ -19,6 +19,6 @@ Windows: ~\Users\\%USERNAME%\\.lmstudio\\hub\\models\\%Company%\\%Model%
 
 Linux/Mac: ~/.lmstudio/hub/models/%Company%/%Model%
 
-Make sure that the file is under the correct company and model and that the file is named model.yaml only
+Make sure that the file is under the correct company and model
 
 Thanks Yorkie, Roxxus and in part Lithium
