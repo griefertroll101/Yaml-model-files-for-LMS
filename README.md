@@ -17,7 +17,7 @@ To add a model not in these: Open the yaml put what is below this under base and
 
 If you want to install model.yaml individually then put under
 
-Windows: ~C:\Users\%Username%\.lmstudio\hub\models\\%Company%\\%Model%
+Windows: ~C:\\Users\%Username%\.lmstudio\hub\models\\%Company%\\%Model%
 
 Linux/Mac: ~/.lmstudio/hub/models/%Company%/%Model%
 ````
