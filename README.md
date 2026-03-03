@@ -16,7 +16,7 @@ To add a model not in these: Open the yaml put what is below this under base and
         repo: Insert Model (e.g.wen3.5-122B-A10B-GGUF)
 
 ````
-
+##Install all (Recommended)
 To install all (Recommended) Click on the green code at the top of the page and download the Zip. Put that zip in the .lmstudio folder and extract if prompt if you want to replace the file select yes.
 
 Windows: ~C:\\Users\%Username%\.lmstudio
@@ -27,6 +27,7 @@ Linux/Mac: ~/.lmstudio/hub/models/%Company%/%Model%
 %Company% = The company that made the model e.g. qwen
 %Model% = Name of the model e.g qwen3.5-35b-a3b
 ````
+##Individually
 
 If you want to install model.yaml individually then put under
 
