@@ -20,6 +20,7 @@ To add a model not in these: Open the yaml put what is below this under base and
 To install all (Recommended) Click on the green code at the top of the page and download the Zip. Put that zip in the .lmstudio folder and extract if prompt if you want to replace the file select yes.
 
 Windows: ~C:\\Users\%Username%\.lmstudio
+
 Linux/Mac: ~/.lmstudio/hub/models/%Company%/%Model%
 ````
 %Username% = Name of the user on the PC e.g greg
