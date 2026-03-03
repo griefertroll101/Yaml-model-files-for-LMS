@@ -1,0 +1,113 @@
+# model.yaml is an open standard for defining cross-platform, composable AI models
+# Learn more at https://modelyaml.org
+model: nvidia/nemotron-3-nano
+base:
+  - key: lmstudio-community/NVIDIA-Nemotron-3-Nano-30B-A3B-GGUF
+    sources:
+      - type: huggingface
+        user: lmstudio-community
+        repo: NVIDIA-Nemotron-3-Nano-30B-A3B-GGUF
+  - key: unsloth/Nemotron-3-Nano-30B-A3B-GGUF
+    sources:
+      - type: huggingface
+        user: unsloth
+        repo: Nemotron-3-Nano-30B-A3B-GGUF
+  - key: Ex0bit/Elbaz-NVIDIA-Nemotron-3-Nano-30B-A3B-PRISM
+    sources:
+      - type: huggingface
+        user: Ex0bit
+        repo: Elbaz-NVIDIA-Nemotron-3-Nano-30B-A3B-PRISM
+  - key: noctrex/Nemotron-3-Nano-30B-A3B-MXFP4_MOE-GGUF
+    sources:
+      - type: huggingface
+        user: noctrex
+        repo: Nemotron-3-Nano-30B-A3B-MXFP4_MOE-GGUF
+  - key: ggml-org/Nemotron-Nano-3-30B-A3B-GGUF
+    sources:
+      - type: huggingface
+        user: ggml-org
+        repo: Nemotron-Nano-3-30B-A3B-GGUF
+  - key: bartowski/nvidia_Nemotron-3-Nano-30B-A3B-GGUF
+    sources:
+      - type: huggingface
+        user: bartowski
+        repo: nvidia_Nemotron-3-Nano-30B-A3B-GGUF
+  - key: moxin-org/Nemotron-3-Nano-30B-A3B-GGUF
+    sources:
+      - type: huggingface
+        user: moxin-org
+        repo: Nemotron-3-Nano-30B-A3B-GGUF
+  - key: mradermacher/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: NVIDIA-Nemotron-3-Nano-30B-A3B-BF16-GGUF
+  - key: mradermacher/nemotron-nano-30b-a3b-clinical-instruct-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: nemotron-nano-30b-a3b-clinical-instruct-GGUF
+  - key: Mungert/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16-GGUF
+    sources:
+      - type: huggingface
+        user: Mungert
+        repo: NVIDIA-Nemotron-3-Nano-30B-A3B-BF16-GGUF
+  - key: icefog72/Elbaz-NVIDIA-Nemotron-3-Nano-30B-A3B-PRISM-Q5_K_M
+    sources:
+      - type: huggingface
+        user: icefog72
+        repo: Elbaz-NVIDIA-Nemotron-3-Nano-30B-A3B-PRISM-Q5_K_M
+  - key: mradermacher/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16-i11-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: NVIDIA-Nemotron-3-Nano-30B-A3B-BF16-i11-GGUF
+  - key: lm-kit/nemotron-3-nano-30b-a3b-gguf
+    sources:
+      - type: huggingface
+        user: lm-kit
+        repo: nemotron-3-nano-30b-a3b-gguf
+  - key: mradermacher/NVIDIA-Nemotron-3-Nano-30B-A3B-novelrp-BF16-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: NVIDIA-Nemotron-3-Nano-30B-A3B-novelrp-BF16-GGUF
+config:
+  operation:
+    fields:
+      - key: llm.prediction.repeatPenalty
+        value:
+          checked: true
+          value: 1.0
+customFields:
+  - key: enableThinking
+    displayName: Enable Thinking
+    description: Controls whether the model will think before replying
+    type: boolean
+    defaultValue: true
+    effects:
+      - type: setJinjaVariable
+        variable: enable_thinking
+  - key: truncateThinkingHistory
+    displayName: Truncate Thinking History
+    description: Controls whether thinking history will be truncated to save context space
+    type: boolean
+    defaultValue: false
+    effects:
+      - type: setJinjaVariable
+        variable: truncate_history_thinking
+metadataOverrides:
+  domain: llm
+  architectures:
+    - nemotron_h_moe
+  compatibilityTypes:
+    - gguf
+    - safetensors
+  paramsStrings:
+    - 30B
+  minMemoryUsageBytes: 24620000000
+  contextLengths:
+    - 1048576
+  vision: false
+  reasoning: true
+  trainedForToolUse: true
