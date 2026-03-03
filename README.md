@@ -17,6 +17,16 @@ To add a model not in these: Open the yaml put what is below this under base and
 
 ````
 
+To install all (Recommended) Click on the green code at the top of the page and download the Zip. Put that zip in the .lmstudio folder and extract if prompt if you want to replace the file select yes.
+
+Windows: ~C:\\Users\%Username%\.lmstudio
+Linux/Mac: ~/.lmstudio/hub/models/%Company%/%Model%
+````
+%Username% = Name of the user on the PC e.g greg
+%Company% = The company that made the model e.g. qwen
+%Model% = Name of the model e.g qwen3.5-35b-a3b
+````
+
 If you want to install model.yaml individually then put under
 
 Windows: ~C:\\Users\%Username%\.lmstudio\hub\models\\%Company%\\%Model%
@@ -27,6 +37,7 @@ Linux/Mac: ~/.lmstudio/hub/models/%Company%/%Model%
 %Company% = The company that made the model e.g. qwen
 %Model% = Name of the model e.g qwen3.5-35b-a3b
 ````
+
 If the company or model is not there then create the folder and name it appropriately
 
 Make sure that the file is under the correct company and model
