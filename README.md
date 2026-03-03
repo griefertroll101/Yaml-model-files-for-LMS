@@ -5,10 +5,10 @@ Plan to add MLX but may be a week or 2 before I do.
 Quickly did these up. They contain all/most quants currently available (03/03/2026) including lmstudio-community but not MLX quants. Unless the model is new then there is little reason these should be updated more than once every 3 or so months but I likely won't update past 3 months.
 
 ## Models Done
-Qwen 3.5 4B, 9B, 35B, 122B | OpenAI GPT-OSS 20B, 120B | ZAI GLM 4.7-flash, 4.6v-flash | Nvidia Nemotron-3-nano
+Qwen 3.5 4B, 9B, 35B, 122B | OpenAI GPT-OSS 20B, 120B | ZAI GLM 4.7-flash | Nvidia Nemotron-3-nano
 
 ## Install All (Recommended)
-To install all (Recommended) Click on the green code at the top of the page and download the Zip. Put that zip in the .lmstudio folder and extract all. Open the extracted folder and drag/cut/copy the hub folder into .lmstudio. If prompted Do you want to replace... select yes.
+To install all (Recommended) Click on the green code at the top of the page and download the Zip. Put that zip in the .lmstudio folder and extract all. Open the extracted folder and drag/cut/copy the hub folder into .lmstudio. If prompted Do you want to replace... select yes. A issue you may run into is that your models may duplicate, if this happens go to C:\Users\%Username%\.lmstudio\models choose the provider (will be in model tab under pblisher) then drag the folder with the name of the duplicated model out of the publisher folder then back in. 
 
 Windows: ~C:\\Users\\%Username%\\.lmstudio
 
