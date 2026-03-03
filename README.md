@@ -1,6 +1,6 @@
 # Yaml-model-files-for-LMS
 Yaml model files for LMS
-Quickly did these up. They contain all/most quants current available including lmstudio-community but not MLX quants.
+Quickly did these up. They contain all/most quants currently available (03/03/2026) including lmstudio-community but not MLX quants.
 
 Put under
 
