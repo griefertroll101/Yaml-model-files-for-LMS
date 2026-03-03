@@ -31,7 +31,7 @@ If you want to install model.yaml individually then put under
 
 Windows Location: ~C:\\Users\\%Username%\\.lmstudio\\hub\\models\\%Company%\\%Model%
 
-2nd Windows Location: ~C:\\Users\\.cache\\%Username%\\.lmstudiohub\\models\\%Company%\\%Model%
+2nd Windows Location: ~C:\\Users\\.cache\\%Username%\\.lmstudio\\hub\\models\\%Company%\\%Model%
 
 Linux/Mac Location: ~/.lmstudio/hub/models/%Company%/%Model%
 ````
