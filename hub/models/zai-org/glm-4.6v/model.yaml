@@ -1,0 +1,54 @@
+# model.yaml is an open standard for defining cross-platform, composable AI models
+# Learn more at https://modelyaml.org
+model: zai-org/glm-4.6v-flash
+base:
+  - key: lmstudio-community/glm-4.6v-flash-gguf
+    sources:
+      - type: huggingface
+        user: lmstudio-community
+        repo: GLM-4.6V-Flash-GGUF
+  - key: lmstudio-community/glm-4.6v-flash-mlx-4bit
+    sources:
+      - type: huggingface
+        user: lmstudio-community
+        repo: GLM-4.6V-Flash-MLX-4bit
+  - key: lmstudio-community/glm-4.6v-flash-mlx-6bit
+    sources:
+      - type: huggingface
+        user: lmstudio-community
+        repo: GLM-4.6V-Flash-MLX-6bit
+  - key: lmstudio-community/glm-4.6v-flash-mlx-8bit
+    sources:
+      - type: huggingface
+        user: lmstudio-community
+        repo: GLM-4.6V-Flash-MLX-8bit
+config:
+  operation:
+    fields:
+      - key: llm.prediction.temperature
+        value: 0.8
+      - key: llm.prediction.topKSampling
+        value: 2
+      - key: llm.prediction.topPSampling
+        value:
+          checked: true
+          value: 0.6
+      - key: llm.prediction.repeatPenalty
+        value:
+          checked: true
+          value: 1.1
+metadataOverrides:
+  domain: llm
+  architectures:
+    - glm4v
+  compatibilityTypes:
+    - gguf
+    - safetensors
+  paramsStrings:
+    - 9B
+  minMemoryUsageBytes: 8000000000
+  contextLengths:
+    - 131072
+  vision: true
+  reasoning: true
+  trainedForToolUse: true
