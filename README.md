@@ -5,8 +5,10 @@ Plan to add MLX but may be a week or 2 before I do.
 
 Quickly did these up. They contain all/most quants currently available (03/03/2026) including lmstudio-community but not MLX quants. Unless the model is new then there is little reason these should be updated more than once every 3 or so months but I likely won't update past 3 months.
 
-Models done: Qwen 3.5 4B, 9B, 35B, 122B | OpenAI GPT-OSS 20B, 120B | ZAI GLM 4.7-flash, 4.6v-flash | Nvidia Nemotron-3-nano
+## Models done: 
+Qwen 3.5 4B, 9B, 35B, 122B | OpenAI GPT-OSS 20B, 120B | ZAI GLM 4.7-flash, 4.6v-flash | Nvidia Nemotron-3-nano
 
+## If you need to add models not included
 To add a model not in these: Open the yaml put what is below this under base and fill it out (Go to top of file for ease of locating base):
 ````
   - key: Insert Publisher/Insert Model  (e.g. AesSedai/Qwen3.5-122B-A10B-GGUF (copy from model page))
