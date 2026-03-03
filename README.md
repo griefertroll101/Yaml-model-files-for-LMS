@@ -4,7 +4,7 @@ Quickly did these up. They contain all/most quants current available including l
 
 Put under
 
-Windows:      ~\Users\\%USERNAME%\\.lmstudio\\hub\\models\\%Company%\\%Model%
+Windows: ~\Users\\%USERNAME%\\.lmstudio\\hub\\models\\%Company%\\%Model%
 
 Linux/Mac: ~/.lmstudio/hub//models/%Company%/%Model%
 
