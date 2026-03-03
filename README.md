@@ -4,4 +4,4 @@ Quickly did these up. They contain all/most quants current available including l
 
 Put under Users\\[Username]\\.lmstudio\\hub\\models\\[Company]\\[Model] 
 
-Thanks Yorkie, Roxxus and in part Lithium because I thouight his way kinda bad and thouht I should just do this uup
+Thanks Yorkie, Roxxus and in part Lithium
