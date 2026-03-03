@@ -12,11 +12,9 @@ To install all (Recommended) Click on the green code at the top of the page and 
 
 Windows: ~C:\\Users\%Username%\.lmstudio
 
-Linux/Mac: ~/.lmstudio/hub/models/%Company%/%Model%
+Linux/Mac: ~/.lmstudio
 ````
 %Username% = Name of the user on the PC e.g greg
-%Company% = The company that made the model e.g. qwen
-%Model% = Name of the model e.g qwen3.5-35b-a3b
 ````
 ## Individually
 
