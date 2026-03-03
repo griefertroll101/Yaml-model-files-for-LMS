@@ -5,7 +5,7 @@ Plan to add MLX but may be a week or 2 before I do.
 
 Quickly did these up. They contain all/most quants currently available (03/03/2026) including lmstudio-community but not MLX quants. Unless the model is new then there is little reason these should be updated more than once every 3 or so months but I likely won't update past 3 months.
 
-## Models done: 
+## Models Done
 Qwen 3.5 4B, 9B, 35B, 122B | OpenAI GPT-OSS 20B, 120B | ZAI GLM 4.7-flash, 4.6v-flash | Nvidia Nemotron-3-nano
 
 ## Install all (Recommended)
