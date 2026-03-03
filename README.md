@@ -2,6 +2,8 @@
 Yaml model files for LMS
 Quickly did these up. They contain all/most quants current available including lmstudio-community but not MLX quants.
 
-Put under Users\\[Username]\\.lmstudio\\hub\\models\\[Company]\\[Model] 
+Put under 
+Windows:    ~\Users\\%USERNAME%\\.lmstudio\\hub\\models\\[Company]\\[Model] 
+`linux/mac: ~/.lmstudio/hub/models
 
 Thanks Yorkie, Roxxus and in part Lithium
