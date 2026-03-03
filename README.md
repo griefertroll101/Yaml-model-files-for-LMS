@@ -6,11 +6,8 @@ To add a model not in these  put uder base (at th top for quick locating and fil
 
   - key: Insert Publisher/Insert Model  (e.g. AesSedai/Qwen3.5-122B-A10B-GGUF (copy from model page))
     sources:
-    
       - type: huggingface
-    
         user: Insert Publisher
-    
         repo: Insert Model
 
 Put under
