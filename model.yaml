@@ -1,0 +1,81 @@
+# model.yaml is an open standard for defining cross-platform, composable AI models
+# Learn more at https://modelyaml.org
+# This just contains what i come across in a basic text so if you have a model that you need this for this can be useful
+# Note that the custom field may/will need to be deleted based on the model I assume
+model: Company/Model (e.g. qwen/qwen3.5-122b-a10b (Copy from Staff Pick)
+base:
+  - key: Insert Publisher/Insert Model  (e.g. AesSedai/Qwen3.5-122B-A10B-GGUF (copy from model page))
+    sources:
+      - type: huggingface
+        user: Insert Publisher
+        repo: Insert Model
+config:
+  operation:
+    fields:
+      - key: llm.prediction.temperature
+        value: 0.2
+      - key: llm.prediction.topKSampling
+        value: 50
+      - key: llm.prediction.topPSampling
+        value:
+          checked: true
+          value: 0.95
+      - key: llm.prediction.repeatPenalty
+        value:
+          checked: false
+          value: 0
+metadataOverrides:
+  domain: llm
+  architectures:
+    - Insert Arch located in models tab e.g. qwen35moe
+  compatibilityTypes:
+    - gguf
+  vision: Insert
+  reasoning: true
+customFields:
+  - key: reasoningEffort
+    displayName: Reasoning Effort
+    description: Controls how much reasoning the model should perform.
+    type: select
+    defaultValue: low
+    options:
+      - value: low
+        label: Low
+      - value: medium
+        label: Medium
+      - value: high
+        label: High
+    effects:
+      - type: setJinjaVariable
+        variable: reasoning_effort
+  - key: enableThinking
+    displayName: Enable Thinking
+    description: Controls whether the model will think before replying
+    type: boolean
+    defaultValue: true
+    effects:
+      - type: setJinjaVariable
+        variable: enable_thinking
+  - key: clearThinking
+    displayName: Clear Thinking
+    description: Controls whether thinking content is cleared from history
+    type: boolean
+    defaultValue: false
+    effects:
+      - type: setJinjaVariable
+        variable: clear_thinking
+metadataOverrides:
+  domain: llm
+  architectures:
+    - Insert Arch
+  compatibilityTypes:
+    - gguf
+    - safetensors
+  paramsStrings:
+    - Insert Parameters
+  minMemoryUsageBytes: (I have no idea, soz)
+  contextLengths:
+    - Insert Max Context
+  vision: Insert
+  reasoning: Insert
+  trainedForToolUse: Insert
