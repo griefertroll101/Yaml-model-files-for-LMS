@@ -11,11 +11,11 @@ Qwen 3.5 4B, 9B, 35B, 122B | OpenAI GPT-OSS 20B, 120B | Z.ai GLM 4.7-flash | Nvi
 ## Install All (Recommended)
 To install all (Recommended) Click on the green code at the top of the page and download the Zip. Put that zip in the .lmstudio folder and extract all. Open the extracted folder and drag/cut/copy the hub folder into .lmstudio. If prompted Do you want to replace... select yes. 
 
-Windows: ~C:\\Users\\%Username%\\.lmstudio
+Windows Location: ~C:\\Users\\%Username%\\.lmstudio
 
-2nd Windows location: ~C:\\Users\\.cache\\%Username%\\.lmstudio
+2nd Windows Location: ~C:\\Users\\.cache\\%Username%\\.lmstudio
 
-Linux/Mac: ~/.lmstudio
+Linux/Mac Location: ~/.lmstudio
 
 A issue you may run into is that your models may duplicate. If this happens go to C:\Users\%Username%\.lmstudio\models choose the provider (will be in model tab under pblisher) then drag the folder with the name of the duplicated model out of the publisher folder then back in. 
 
@@ -29,11 +29,11 @@ If you do not know the username for the PC then follow the folders one by one i.
 
 If you want to install model.yaml individually then put under
 
-Windows: ~C:\\Users\\%Username%\\.lmstudio\\hub\\models\\%Company%\\%Model%
+Windows Location: ~C:\\Users\\%Username%\\.lmstudio\\hub\\models\\%Company%\\%Model%
 
-2nd Windows location: ~C:\\Users\\.cache\\%Username%\\.lmstudiohub\\models\\%Company%\\%Model%
+2nd Windows Location: ~C:\\Users\\.cache\\%Username%\\.lmstudiohub\\models\\%Company%\\%Model%
 
-Linux/Mac: ~/.lmstudio/hub/models/%Company%/%Model%
+Linux/Mac Location: ~/.lmstudio/hub/models/%Company%/%Model%
 ````
 %Username% = Name of the user on the PC e.g greg
 %Company% = The company that made the model e.g. qwen
@@ -56,4 +56,4 @@ To add a model not in these: Open the yaml put what is below this under base and
 ````
 
 ## Thanks 
-Yorkie, Roxxus and in part Lithium
+Yorkie, Roxxus, Lithium, Jedd, and Sol4ra
