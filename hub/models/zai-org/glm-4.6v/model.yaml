@@ -7,21 +7,118 @@ base:
       - type: huggingface
         user: lmstudio-community
         repo: GLM-4.6V-Flash-GGUF
-  - key: lmstudio-community/glm-4.6v-flash-mlx-4bit
+  - key: unsloth/glm-4.6v-flash-gguf
     sources:
       - type: huggingface
-        user: lmstudio-community
-        repo: GLM-4.6V-Flash-MLX-4bit
-  - key: lmstudio-community/glm-4.6v-flash-mlx-6bit
+        user: unsloth
+        repo: GLM-4.6V-Flash-GGUF
+  - key: ggml-org/glm-4.6v-flash-gguf
     sources:
       - type: huggingface
-        user: lmstudio-community
-        repo: GLM-4.6V-Flash-MLX-6bit
-  - key: lmstudio-community/glm-4.6v-flash-mlx-8bit
+        user: ggml-org
+        repo: GLM-4.6V-Flash-GGUF
+  - key: huihui-ai/huihui-glm-4.6v-flash-abliterated-gguf
     sources:
       - type: huggingface
-        user: lmstudio-community
-        repo: GLM-4.6V-Flash-MLX-8bit
+        user: huihui-ai
+        repo: Huihui-GLM-4.6V-Flash-abliterated-GGUF
+  - key: bartowski/zai-org_glm-4.6v-flash-gguf
+    sources:
+      - type: huggingface
+        user: bartowski
+        repo: zai-org_GLM-4.6V-Flash-GGUF
+  - key: ex0bit/elbaz-glm-4.6v-flash-prism
+    sources:
+      - type: huggingface
+        user: Ex0bit
+        repo: Elbaz-GLM-4.6V-Flash-PRISM
+  - key: seanbailey518/huihui-glm-4.6v-flash-abliterated-gguf
+    sources:
+      - type: huggingface
+        user: seanbailey518
+        repo: Huihui-GLM-4.6V-Flash-abliterated-GGUF
+  - key: mazi yap anahi/glm-4.6v-flash-gguf -> Corrected to: maziyapanahi
+  - key: maziyapanahi/glm-4.6v-flash-gguf
+    sources:
+      - type: huggingface
+        user: MaziyaPanahi
+        repo: GLM-4.6V-Flash-GGUF
+  - key: nikolaykozluff/glm-4.6v-flash-q8_0-gguf -> Corrected to: NikolayKozloff
+  - key: nikolaykozluff/glm-4.6v-flash-q8_0-gguf
+    sources:
+      - type: huggingface
+        user: NikolayKozloff
+        repo: GLM-4.6V-Flash-Q8_0-GGUF
+  - key: nikolaykozluff/glm-4.6v-flash-q6_k-gguf
+    sources:
+      - type: huggingface
+        user: NikolayKozloff
+        repo: GLM-4.6V-Flash-Q6_K-GGUF
+  - key: nikolaykozluff/glm-4.6v-flash-q5_k_m-gguf
+    sources:
+      - type: huggingface
+        user: NikolayKozloff
+        repo: GLM-4.6V-Flash-Q5_K_M-GGUF
+  - key: nikolaykozluff/glm-4.6v-flash-q5_k_s-gguf
+    sources:
+      - type: huggingface
+        user: NikolayKozloff
+        repo: GLM-4.6V-Flash-Q5_K_S-GGUF
+  - key: nikolaykozluff/glm-4.6v-flash-q4_k_m-gguf
+    sources:
+      - type: huggingface
+        user: NikolayKozloff
+        repo: GLM-4.6V-Flash-Q4_K_M-GGUF
+  - key: eaddario/glm-4.6v-flash-gguf
+    sources:
+      - type: huggingface
+        user: eaddario
+        repo: GLM-4.6V-Flash-GGUF
+  - key: zuzet/glm-4.6v-flash-heretic-imatrix-gguf
+    sources:
+      - type: huggingface
+        user: ZuzeTt
+        repo: GLM-4.6V-Flash-heretic-Imatrix-GGUF
+  - key: prithivmlmods/glm-4.6v-flash-gguf
+    sources:
+      - type: huggingface
+        user: prithivMLmods
+        repo: GLM-4.6V-Flash-GGUF
+  - key: aaryank/glm-4.6v-flash-gguf
+    sources:
+      - type: huggingface
+        user: AaryanK
+        repo: GLM-4.6V-Flash-GGUF
+  - key: nikolaykozluff/glm-4.6v-flash-q4_k_s-gguf
+    sources:
+      - type: huggingface
+        user: NikolayKozloff
+        repo: GLM-4.6V-Flash-Q4_K_S-GGUF
+  - key: kalle07/glm-4.6v-flash-heretic_r18_k001-gguf
+    sources:
+      - type: huggingface
+        user: kalle07
+        repo: GLM-4.6V-Flash-heretic_R18_K001-gguf
+  - key: neody/glm-4.6v-flash-gguf-text-only
+    sources:
+      - type: huggingface
+        user: neody
+        repo: glm-4.6v-flash-gguf-text-only
+  - key: edge-quant/glm-4.6v-flash-q4_k_m-gguf
+    sources:
+      - type: huggingface
+        user: Edge-Quant
+        repo: GLM-4.6V-Flash-Q4_K_M-GGUF
+  - key: devquasar/zai-org.glm-4.6v-flash-gguf
+    sources:
+      - type: huggingface
+        user: DevQuasar
+        repo: zai-org.GLM-4.6V-Flash-GGUF
+  - key: cryptonaut/glm-4.6v-flash-q4_k_m-gguf
+    sources:
+      - type: huggingface
+        user: cryptonaut
+        repo: GLM-4.6V-Flash-Q4_K_M-GGUF
 config:
   operation:
     fields:
