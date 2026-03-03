@@ -6,6 +6,6 @@ Put under
 
 Windows:    ~\Users\\%USERNAME%\\.lmstudio\\hub\\models\\%Company%\\%Model%
 
-`linux/mac: ~/.lmstudio/hub//models/%Company%/%Model%
+Linux/Mac: ~/.lmstudio/hub//models/%Company%/%Model%
 
 Thanks Yorkie, Roxxus and in part Lithium
