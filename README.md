@@ -10,7 +10,7 @@ Qwen 3.5 4B, 9B, 35B, 122B | OpenAI GPT-OSS 20B, 120B | ZAI GLM 4.7-flash, 4.6v-
 ## Install all (Recommended)
 To install all (Recommended) Click on the green code at the top of the page and download the Zip. Put that zip in the .lmstudio folder and extract all. Open the extracted folder and drag/cut/copy the hub folder into .lmstudio. If prompt Do you want to replace... select yes.
 
-Windows: ~C:\\Users\%Username%\.lmstudio
+Windows: ~C:\\Users\\%Username%\\.lmstudio
 
 Linux/Mac: ~/.lmstudio
 ````
