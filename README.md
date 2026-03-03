@@ -10,11 +10,12 @@ Qwen 3.5 4B, 9B, 35B, 122B | OpenAI GPT-OSS 20B, 120B | ZAI GLM 4.7-flash | Nvid
 ## Install All (Recommended)
 To install all (Recommended) Click on the green code at the top of the page and download the Zip. Put that zip in the .lmstudio folder and extract all. Open the extracted folder and drag/cut/copy the hub folder into .lmstudio. If prompted Do you want to replace... select yes. 
 
-A issue you may run into is that your models may duplicate, if this happens go to C:\Users\%Username%\.lmstudio\models choose the provider (will be in model tab under pblisher) then drag the folder with the name of the duplicated model out of the publisher folder then back in. 
-
 Windows: ~C:\\Users\\%Username%\\.lmstudio
 
 Linux/Mac: ~/.lmstudio
+
+A issue you may run into is that your models may duplicate, if this happens go to C:\Users\%Username%\.lmstudio\models choose the provider (will be in model tab under pblisher) then drag the folder with the name of the duplicated model out of the publisher folder then back in. 
+
 ````
 %Username% = Name of the user on the PC e.g greg
 ````
