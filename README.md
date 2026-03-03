@@ -20,7 +20,7 @@ A issue you may run into is that your models may duplicate. If this happens go t
 %Username% = Name of the user on the PC e.g greg
 ````
 
-If you do not know the username for the PC then for the folders one by one i.e start in the Local Disk (C:) then click on the users folder then select the folder that doesn't have the name Default or Public
+If you do not know the username for the PC then for the folders one by one i.e start in the Local Disk (C:) then click on the users folder then select the folder that doesn't have the name Default or Public.
 
 ## Individually
 
