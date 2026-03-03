@@ -1,6 +1,6 @@
 # Yaml-model-files-for-LMS
 Yaml model files for LMS
-Quickly did these up. They contain all/most quants currently available (03/03/2026) including lmstudio-community but not MLX quants. Unless the model is new then there is little reson these should be updated more than once every 3 or so months but I likely won't update past 3 months.
+Quickly did these up. They contain all/most quants currently available (03/03/2026) including lmstudio-community but not MLX quants. Unless the model is new then there is little reason these should be updated more than once every 3 or so months but I likely won't update past 3 months.
 
 To add a model not in these  put uder base (at th top for quick locating and fill out his:
 
