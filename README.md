@@ -1,4 +1,5 @@
 # Yaml Model Files For LMS
+Note: This is maintained by GrieferTroll in the LM Studio discord Please do not bother Yags or Yorkie they have better stuff to do. DM me if a issue is here or use the issues tab here.
 
 Plan to add MLX but may be a week or 2 before I do.
 
