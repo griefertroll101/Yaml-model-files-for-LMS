@@ -20,11 +20,11 @@ If you want to install model.yaml individually then put under
 Windows: ~C:\Users\%Username%\.lmstudio\hub\models\\%Company%\\%Model%
 
 Linux/Mac: ~/.lmstudio/hub/models/%Company%/%Model%
-
+````
 %Username% = Name of the user on the PC e.g greg
 5Company% = The company that made the model e.g. qwen
 5Model = Name of the model e.g qwen3.5-35b-a3b
-
+````
 If the company or model is not there then create the folder and name it appropriately
 
 Make sure that the file is under the correct company and model
