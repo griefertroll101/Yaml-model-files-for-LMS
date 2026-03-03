@@ -8,7 +8,7 @@ To add a model not in these  put under base:
     sources:
       - type: huggingface
         user: Insert Publisher
-        repo: Insert Model``
+        repo: Insert Model
 
 ````
 Put under
