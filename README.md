@@ -8,16 +8,6 @@ Quickly did these up. They contain all/most quants currently available (03/03/20
 ## Models done: 
 Qwen 3.5 4B, 9B, 35B, 122B | OpenAI GPT-OSS 20B, 120B | ZAI GLM 4.7-flash, 4.6v-flash | Nvidia Nemotron-3-nano
 
-## If you need to add models not included
-To add a model not in these: Open the yaml put what is below this under base and fill it out (Go to top of file for ease of locating base):
-````
-  - key: Insert Publisher/Insert Model  (e.g. AesSedai/Qwen3.5-122B-A10B-GGUF (copy from model page))
-    sources:
-      - type: huggingface
-        user: Insert Publisher (e.g. AesSedai)
-        repo: Insert Model (e.g.wen3.5-122B-A10B-GGUF)
-
-````
 ## Install all (Recommended)
 To install all (Recommended) Click on the green code at the top of the page and download the Zip. Put that zip in the .lmstudio folder and extract if prompt if you want to replace the file select yes.
 
@@ -46,4 +36,16 @@ If the company or model is not there then create the folder and name it appropri
 
 Make sure that the file is under the correct company and model
 
-Thanks Yorkie, Roxxus and in part Lithium
+## If you need to add models not included
+To add a model not in these: Open the yaml put what is below this under base and fill it out (Go to top of file for ease of locating base):
+````
+  - key: Insert Publisher/Insert Model  (e.g. AesSedai/Qwen3.5-122B-A10B-GGUF (copy from model page))
+    sources:
+      - type: huggingface
+        user: Insert Publisher (e.g. AesSedai)
+        repo: Insert Model (e.g.wen3.5-122B-A10B-GGUF)
+
+````
+
+## Thanks 
+Yorkie, Roxxus and in part Lithium
