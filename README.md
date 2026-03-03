@@ -13,6 +13,8 @@ To install all (Recommended) Click on the green code at the top of the page and 
 
 Windows: ~C:\\Users\\%Username%\\.lmstudio
 
+2nd Windows location: ~C:\\Users\\.cache\\%Username%\\.lmstudio
+
 Linux/Mac: ~/.lmstudio
 
 A issue you may run into is that your models may duplicate. If this happens go to C:\Users\%Username%\.lmstudio\models choose the provider (will be in model tab under pblisher) then drag the folder with the name of the duplicated model out of the publisher folder then back in. 
@@ -27,7 +29,9 @@ If you do not know the username for the PC then follow the folders one by one i.
 
 If you want to install model.yaml individually then put under
 
-Windows: ~C:\\Users\%Username%\.lmstudio\hub\models\\%Company%\\%Model%
+Windows: ~C:\\Users\\%Username%\\.lmstudio\\hub\\models\\%Company%\\%Model%
+
+2nd Windows location: ~C:\\Users\\.cache\\%Username%\\.lmstudiohub\\models\\%Company%\\%Model%
 
 Linux/Mac: ~/.lmstudio/hub/models/%Company%/%Model%
 ````
