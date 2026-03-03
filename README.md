@@ -5,13 +5,9 @@ Quickly did these up. They contain all/most quants currently available (03/03/20
 To add a model not in these  put uder base (at th top for quick locating and fill out his 9Note: readme doesn't show the appropriate verison in preview:
 ````
   - key: Insert Publisher/Insert Model  (e.g. AesSedai/Qwen3.5-122B-A10B-GGUF (copy from model page))
-
     sources:
-    
       - type: huggingface
-      
         user: Insert Publisher
-        
         repo: Insert Model``
 
 ````
