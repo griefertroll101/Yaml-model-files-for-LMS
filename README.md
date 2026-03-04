@@ -1,9 +1,7 @@
-# Issue regarding some Model (Currently checking into it further atm)
+# Issue regarding some Model
 Qwen3.5-4B and GLM-4.5-Air affected, still usable but just "duplicated".
 
-Seems to be related to tags. Currently looking in to it further. Will update soon.
-
-I believe it has to do with how the internal code treats tag but gonna look more into it.
+I believe it has to do with how the internal code treats something but I can't do anything about that.
 # Yaml Model Files For LMS
 Note: This is maintained by GrieferTroll in the LM Studio discord. Please do not bother Yags or Yorkie they have better stuff to do. DM me if a issue is here or use the issues tab here.
 
