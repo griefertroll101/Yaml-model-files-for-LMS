@@ -3,7 +3,7 @@ Qwen3.5-4B and GLM-4.5-Air affected.
 
 Unable to fix on my end sadly. Currently lookking in to it further. Will update soon.
 
-I believe it has to do with how the internal code treats tag but goona look more into it.
+I believe it has to do with how the internal code treats tag but gonna look more into it.
 # Yaml Model Files For LMS
 Note: This is maintained by GrieferTroll in the LM Studio discord. Please do not bother Yags or Yorkie they have better stuff to do. DM me if a issue is here or use the issues tab here.
 
