@@ -1,8 +1,16 @@
+# Issue regarding lmstudio-communityqwen3.5-4B quants 
+unable to fix on my end sadly but you can fix this by moving model folder (i.e. qwen3.5-4b) to the Unsloth folder from the lmstudio-community folder and "duplication" be fixed. 
+
+Windows Location: ~C:\\Users\\%Username%\\.lmstudio\\models
+
+2nd Windows Location: ~C:\\Users\\.cache\\%Username%\\.lmstudio\\models
+
+Linux/Mac Location: ~/.lmstudio/models/
+
+I believe it has to do with how the internal code treats lmstudio-community quants and qwen3.5-4b is affected because of something.
+
 # Yaml Model Files For LMS
 Note: This is maintained by GrieferTroll in the LM Studio discord. Please do not bother Yags or Yorkie they have better stuff to do. DM me if a issue is here or use the issues tab here.
-
-# Issue regarding lmstudio-communityqwen3.5-4B quants: unable to fix on my end sadly, but you can just move model folder to the Unsloth folder and it'll be fixed. 
-I believe it has to do with how the internal code treats lmstudio-community quants and qwen3.5-4b is affected because of something.
 
 Plan to add MLX but may be a week or 2 before I do.
 
