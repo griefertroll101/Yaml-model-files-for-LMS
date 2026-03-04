@@ -1,7 +1,7 @@
 # Yaml Model Files For LMS
 Note: This is maintained by GrieferTroll in the LM Studio discord. Please do not bother Yags or Yorkie they have better stuff to do. DM me if a issue is here or use the issues tab here.
 
-# Issue atm found regarding lmstudio-community qwen 4B quants will try for to fix 
+# Issue atm found regarding lmstudio-community qwen 4B quants will try for to fix on my end but you can just move it to the Unsloth folder and it'll be fine/fixed
 
 Plan to add MLX but may be a week or 2 before I do.
 
