@@ -1,7 +1,7 @@
 # Issue regarding some Model (Currently checking into it further atm)
 Qwen3.5-4B and GLM-4.5-Air affected.
 
-Unable to fix on my end sadly but you can fix this by moving model folder (i.e. qwen3.5-4b) from the lmstudio-community folder to the unsloth folder and "duplication" be fixed. 
+Unable to fix on my end sadly. Currently lookking in to it further. Will update soon.
 
 Windows Location: ~C:\\Users\\%Username%\\.lmstudio\\models
 
