@@ -1,6 +1,8 @@
 # Yaml Model Files For LMS
 Note: This is maintained by GrieferTroll in the LM Studio discord. Please do not bother Yags or Yorkie they have better stuff to do. DM me if a issue is here or use the issues tab here.
 
+# Issue atm found regarding lmstudio-community quants will try for a simple fix 
+
 Plan to add MLX but may be a week or 2 before I do.
 
 Quickly did these up. They contain all/most quants currently available (03/03/2026) including lmstudio-community but not MLX quants. Unless the model is new then there is little reason these should be updated more than once every 3 or so months but I likely won't update past 3 months.
