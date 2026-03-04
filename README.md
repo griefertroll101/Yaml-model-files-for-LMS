@@ -1,7 +1,7 @@
 # Issue regarding some Model (Currently checking into it further atm)
-Qwen3.5-4B and GLM-4.5-Air affected.
+Qwen3.5-4B and GLM-4.5-Air affected, still usable but just "duplicated".
 
-Unable to fix on my end sadly. Currently lookking in to it further. Will update soon.
+Unable to fix on my end sadly, seems to be related to lmstudio-community quants and there tags. Currently looking in to it further. Will update soon.
 
 I believe it has to do with how the internal code treats tag but gonna look more into it.
 # Yaml Model Files For LMS
