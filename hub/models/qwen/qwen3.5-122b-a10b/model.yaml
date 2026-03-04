@@ -97,6 +97,36 @@ base:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-122B-A10B-abliterated-GGUF
+  - key: lmstudio-community/qwen3.5-35b-a3b-gguf
+    sources:
+      - type: huggingface
+        user: lmstudio-community
+        repo: Qwen3.5-35B-A3B-GGUF
+  - key: AesSedai/Qwen3.5-35b-a3b-GGUF
+    sources:
+      - type: huggingface
+        user: AesSedai
+        repo: Qwen3.5-35B-A3B-GGUF
+  - key: mradermacher/qwen3.5-122b-a10b-abliterated-i1-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-122B-A10B-abliterated-i1-GGUF
+  - key: Mungert/qwen3.5-122b-a10b-gguf
+    sources:
+      - type: huggingface
+        user: Mungert
+        repo: Qwen3.5-122B-A10B-GGUF
+  - key: unsloth/qwen3.5-122b-a10b-gguf
+    sources:
+      - type: huggingface
+        user: unsloth
+        repo: Qwen3.5-122B-A10B-GGUF
+  - key: geoffmunn/qwen3.5-122b-a10b-f16
+    sources:
+      - type: huggingface
+        user: geoffmunn
+        repo: Qwen3.5-122B-A10B-f16
 metadataOverrides:
   domain: llm
   architectures:
