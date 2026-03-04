@@ -1,5 +1,5 @@
-# Issue regarding lmstudio-communityqwen3.5-4B quants 
-Unable to fix on my end sadly but you can fix this by moving model folder (i.e. qwen3.5-4b) from the lmstudio-community folder to the Unsloth folder and "duplication" be fixed. 
+# Issue regarding lmstudio-community//qwen3.5-4B quants 
+Unable to fix on my end sadly but you can fix this by moving model folder (i.e. qwen3.5-4b) from the lmstudio-community folder to the unsloth folder and "duplication" be fixed. 
 
 Windows Location: ~C:\\Users\\%Username%\\.lmstudio\\models
 
@@ -14,13 +14,13 @@ Note: This is maintained by GrieferTroll in the LM Studio discord. Please do not
 
 Plan to add MLX but may be a week or 2 before I do.
 
-Quickly did these up. They contain all/most quants currently available (4th of March 2026) including lmstudio-community but not MLX quants. Unless the model is new then there is little reason these should be updated more than once every 3 or so months but I likely won't update past 3 months.
+Quickly did these up. They contain all//most quants currently available (4th of March 2026) including lmstudio-community but not MLX quants. Unless the model is new then there is little reason these should be updated more than once every 3 or so months but I likely won't update past 3 months.
 
 ## Models Done
 Qwen 3.5 4B, 9B, 27B, 35B, 122B | OpenAI GPT-OSS 20B, 120B | Z.ai GLM 4.7-flash | Nvidia Nemotron-3-nano
 
 ## Install All (Recommended)
-To install all (Recommended) Click on the green code at the top of the page and download the Zip. Put that zip in the .lmstudio folder and extract all. Open the extracted folder and drag/cut/copy the hub folder into .lmstudio. If prompted Do you want to replace... select yes. 
+Click on the green code at the top of the page and download the zip. Put that zip in the .lmstudio folder and extract all. Open the extracted folder and drag/cut/copy the hub folder into .lmstudio. If prompted Do you want to replace... select yes. 
 
 Windows Location: ~C:\\Users\\%Username%\\.lmstudio
 
