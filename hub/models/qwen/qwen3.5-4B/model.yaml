@@ -112,6 +112,118 @@ base:
     - type: huggingface
       user: mradermacher
       repo: Qwen3.5-4B-PaperWitch-heresy-i1-GGUF
+- key: Jackrong/Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+  sources:
+    - type: huggingface
+      user: Jackrong
+      repo: Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+
+- key: mradermacher/Qwen3.5-4B-PaperWitch-heresy-v2-i1-GGUF
+  sources:
+    - type: huggingface
+      user: mradermacher
+      repo: Qwen3.5-4B-PaperWitch-heresy-v2-i1-GGUF
+
+- key: mradermacher/Qwen3.5-4B-PaperWitch-heresy-v2-GGUF
+  sources:
+    - type: huggingface
+      user: mradermacher
+      repo: Qwen3.5-4B-PaperWitch-heresy-v2-GGUF
+
+- key: staeiou/bartleby-qwen3.5-4b
+  sources:
+    - type: huggingface
+      user: staeiou
+      repo: bartleby-qwen3.5-4b
+
+- key: manuojvv/Qwen3.5-4B-gabliterated-Q8
+  sources:
+    - type: huggingface
+      user: manuojvv
+      repo: Qwen3.5-4B-gabliterated-Q8
+
+- key: montana888/qwen3.5-4b-options-finetune
+  sources:
+    - type: huggingface
+      user: montana888
+      repo: qwen3.5-4b-options-finetune
+
+- key: DarkWolfX/Qwen3.5-4B-Claude-Opus-4.6-Distilled-GGUF
+  sources:
+    - type: huggingface
+      user: DarkWolfX
+      repo: Qwen3.5-4B-Claude-Opus-4.6-Distilled-GGUF
+
+- key: sjmtechcorp/Qwen3.5-4B-Q4_K_M.gguf
+  sources:
+    - type: huggingface
+      user: sjmtechcorp
+      repo: Qwen3.5-4B-Q4_K_M.gguf
+
+- key: HauhauCS/Qwen3.5-4B-Uncensored-HauhauCS-Aggressive
+  sources:
+    - type: huggingface
+      user: HauhauCS
+      repo: Qwen3.5-4B-Uncensored-HauhauCS-Aggressive
+
+- key: crownelius/Crow-4B-Opus-4.6-Distill-Heretic_Qwen3.5
+  sources:
+    - type: huggingface
+      user: crownelius
+      repo: Crow-4B-Opus-4.6-Distill-Heretic_Qwen3.5
+
+- key: jc-builds/Qwen3.5-4B-Q4_K_M-GGUF
+  sources:
+    - type: huggingface
+      user: jc-builds
+      repo: Qwen3.5-4B-Q4_K_M-GGUF
+
+- key: Hack337/Qwen3.5-4B-high-reasoning-GGUF
+  sources:
+    - type: huggingface
+      user: Hack337
+      repo: Qwen3.5-4B-high-reasoning-GGUF
+  - key: jwest33/qwen3.5-4b-gabliterated-GGUF
+    sources:
+      - type: huggingface
+        user: jwest33
+        repo: qwen3.5-4b-gabliterated-GGUF
+
+  - key: StageMind/qwen3.5-4b
+    sources:
+      - type: huggingface
+        user: StageMind
+        repo: qwen3.5-4b
+
+  - key: hinny/Qwen3.5-4B-GGUF-Q4_K_M
+    sources:
+      - type: huggingface
+        user: hinny
+        repo: Qwen3.5-4B-GGUF-Q4_K_M
+
+  - key: LocalScribe/Qwen3.5-4B-Q4_K_M.gguf
+    sources:
+      - type: huggingface
+        user: LocalScribe
+        repo: Qwen3.5-4B-Q4_K_M.gguf
+
+  - key: Xlnk/Qwen3.5-4B-GGUF
+    sources:
+      - type: huggingface
+        user: Xlnk
+        repo: Qwen3.5-4B-GGUF
+
+  - key: ZuzeTt/Qwen3.5-4B-imatrix-GGUF
+    sources:
+      - type: huggingface
+        user: ZuzeTt
+        repo: Qwen3.5-4B-imatrix-GGUF
+
+  - key: mradermacher/Qwen3.5-4B-PaperWitch-heresy-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-4B-PaperWitch-heresy-i1-GGUF
 metadataOverrides:
   domain: llm
   architectures:
