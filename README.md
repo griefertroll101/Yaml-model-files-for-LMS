@@ -1,5 +1,5 @@
 # Issue regarding lmstudio-communityqwen3.5-4B quants 
-Unable to fix on my end sadly but you can fix this by moving model folder (i.e. qwen3.5-4b) to the Unsloth folder from the lmstudio-community folder and "duplication" be fixed. 
+Unable to fix on my end sadly but you can fix this by moving model folder (i.e. qwen3.5-4b) from the lmstudio-community folder to the Unsloth folder and "duplication" be fixed. 
 
 Windows Location: ~C:\\Users\\%Username%\\.lmstudio\\models
 
