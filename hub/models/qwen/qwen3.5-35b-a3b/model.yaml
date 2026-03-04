@@ -1,7 +1,8 @@
 # model.yaml is an open standard for defining cross-platform, composable AI models
 # Learn more at https://modelyaml.org
 model: qwen/qwen3.5-35b-a3b
-base:  - key: unsloth/qwen3.5-35b-a3b-gguf
+base:  
+- key: unsloth/qwen3.5-35b-a3b-gguf
     sources:
       - type: huggingface
         user: unsloth
@@ -166,6 +167,86 @@ base:  - key: unsloth/qwen3.5-35b-a3b-gguf
       - type: huggingface
         user: cs2764
         repo: Huihui-Qwen3.5-35B-A3B-abliterated-Q6_K-GGUF
+  - key: DevQuasar/Qwen.Qwen3.5-35B-A3B-GGUF
+  sources:
+    - type: huggingface
+      user: DevQuasar
+      repo: Qwen.Qwen3.5-35B-A3B-GGUF
+- key: cmp-nct/Qwen3.5-35B-A3B-GGUF
+  sources:
+    - type: huggingface
+      user: cmp-nct
+      repo: Qwen3.5-35B-A3B-GGUF
+- key: hossamdaoud/Qwen3.5-35B-A3B-GGUF
+  sources:
+    - type: huggingface
+      user: hossamdaoud
+      repo: Qwen3.5-35B-A3B-GGUF
+- key: mradermacher/Huihui-Qwen3.5-35B-A3B-abliterated-i1-GGUF
+  sources:
+    - type: huggingface
+      user: mradermacher
+      repo: Huihui-Qwen3.5-35B-A3B-abliterated-i1-GGUF
+- key: mradermacher/Huihui-Qwen3.5-35B-A3B-abliterated-GGUF
+  sources:
+    - type: huggingface
+      user: mradermacher
+      repo: Huihui-Qwen3.5-35B-A3B-abliterated-GGUF
+- key: HeYujie/Qwen3.5-35B-A3B-abliterated-GGUF
+  sources:
+    - type: huggingface
+      user: HeYujie
+      repo: Qwen3.5-35B-A3B-abliterated-GGUF
+- key: cesarsal1nas/Huihui-Qwen3.5-35B-A3B-abliterated-Q4_K_M-GGUF
+  sources:
+    - type: huggingface
+      user: cesarsal1nas
+      repo: Huihui-Qwen3.5-35B-A3B-abliterated-Q4_K_M-GGUF
+- key: unsloth/Qwen3.5-35B-A3B-Experiments-GGUF
+  sources:
+    - type: huggingface
+      user: unsloth
+      repo: Qwen3.5-35B-A3B-Experiments-GGUF
+- key: cs2764/Huihui-Qwen3.5-35B-A3B-abliterated-Q8_0-GGUF
+  sources:
+    - type: huggingface
+      user: cs2764
+      repo: Huihui-Qwen3.5-35B-A3B-abliterated-Q8_0-GGUF
+- key: sandeshrajx/qwen3.5-35b-reap-pruned-GGUF
+  sources:
+    - type: huggingface
+      user: sandeshrajx
+      repo: qwen3.5-35b-reap-pruned-GGUF
+- key: Sabomako/Qwen3.5-35B-A3B-heretic-v2-GGUF
+  sources:
+    - type: huggingface
+      user: Sabomako
+      repo: Qwen3.5-35B-A3B-heretic-v2-GGUF
+- key: noctrex/Qwen3.5-35B-A3B-MXFP4_MOE-GGUF
+  sources:
+    - type: huggingface
+      user: noctrex
+      repo: Qwen3.5-35B-A3B-MXFP4_MOE-GGUF
+- key: noctrex/Huihui-Qwen3.5-35B-A3B-abliterated-MXFP4_MOE-GGUF
+  sources:
+    - type: huggingface
+      user: noctrex
+      repo: Huihui-Qwen3.5-35B-A3B-abliterated-MXFP4_MOE-GGUF
+- key: llmfan46/Qwen3.5-35B-A3B-heretic-v1-GGUF
+  sources:
+    - type: huggingface
+      user: llmfan46
+      repo: Qwen3.5-35B-A3B-heretic-v1-GGUF
+- key: llmfan46/Qwen3.5-35B-A3B-heretic-v2-GGUF
+  sources:
+    - type: huggingface
+      user: llmfan46
+      repo: Qwen3.5-35B-A3B-heretic-v2-GGUF
+- key: tatsuyaaaaaaa/Qwen3.5-35B-A3B-gguf
+  sources:
+    - type: huggingface
+      user: tatsuyaaaaaaa
+      repo: Qwen3.5-35B-A3B-gguf
 metadataOverrides:
   domain: llm
   architectures:
