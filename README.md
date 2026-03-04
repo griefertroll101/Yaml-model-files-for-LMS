@@ -3,12 +3,6 @@ Qwen3.5-4B and GLM-4.5-Air affected.
 
 Unable to fix on my end sadly. Currently lookking in to it further. Will update soon.
 
-Windows Location: ~C:\\Users\\%Username%\\.lmstudio\\models
-
-2nd Windows Location: ~C:\\Users\\.cache\\%Username%\\.lmstudio\\models
-
-Linux/Mac Location: ~/.lmstudio/models/
-
 I believe it has to do with how the internal code treats lmstudio-community quants and qwen3.5-4b is affected because of something.
 
 # Yaml Model Files For LMS
