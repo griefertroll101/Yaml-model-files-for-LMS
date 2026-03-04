@@ -1,0 +1,225 @@
+# model.yaml is an open standard for defining cross-platform, composable AI models
+# Learn more at https://modelyaml.org
+model: bytedance/seed-oss-36b
+base:
+- key: mradermacher/Seed-OSS-36B-Base-absolute-heresy-i1-GGUF
+  sources:
+    - type: huggingface
+      user: mradermacher
+      repo: Seed-OSS-36B-Base-absolute-heresy-i1-GGUF
+- key: lmstudio-community/Seed-OSS-36B-Instruct-GGUF
+  sources:
+    - type: huggingface
+      user: lmstudio-community
+      repo: Seed-OSS-36B-Instruct-GGUF
+- key: mradermacher/Seed-OSS-36B-Base-absolute-heresy-GGUF
+  sources:
+    - type: huggingface
+      user: mradermacher
+      repo: Seed-OSS-36B-Base-absolute-heresy-GGUF
+- key: unsloth/Seed-OSS-36B-Instruct-GGUF
+  sources:
+    - type: huggingface
+      user: unsloth
+      repo: Seed-OSS-36B-Instruct-GGUF
+- key: giladgd/Seed-OSS-36B-Instruct-GGUF
+  sources:
+    - type: huggingface
+      user: giladgd
+      repo: Seed-OSS-36B-Instruct-GGUF
+- key: mradermacher/Seed-OSS-36B-Erotic-i1-GGUF
+  sources:
+    - type: huggingface
+      user: mradermacher
+      repo: Seed-OSS-36B-Erotic-i1-GGUF
+- key: bartowski/ByteDance-Seed_Seed-OSS-36B-Instruct-GGUF
+  sources:
+    - type: huggingface
+      user: bartowski
+      repo: ByteDance-Seed_Seed-OSS-36B-Instruct-GGUF
+- key: magiccodingman/Seed-OSS-36B-Instruct-unloth-MagicQuant-Hybrid-GGUF
+  sources:
+    - type: huggingface
+      user: magiccodingman
+      repo: Seed-OSS-36B-Instruct-unloth-MagicQuant-Hybrid-GGUF
+- key: mradermacher/Seed-OSS-36B-Instruct-biprojected-norm-preserving-abliterated-GGUF
+  sources:
+    - type: huggingface
+      user: mradermacher
+      repo: Seed-OSS-36B-Instruct-biprojected-norm-preserving-abliterated-GGUF
+- key: mradermacher/Seed-OSS-36B-Instruct-biprojected-norm-preserving-abliterated-i1-GGUF
+  sources:
+    - type: huggingface
+      user: mradermacher
+      repo: Seed-OSS-36B-Instruct-biprojected-norm-preserving-abliterated-i1-GGUF
+- key: mradermacher/seed-oss-36b-chat-GGUF
+  sources:
+    - type: huggingface
+      user: mradermacher
+      repo: seed-oss-36b-chat-GGUF
+- key: altomek/Seed-OSS-36B-Instruct-XXL-GGUF
+  sources:
+    - type: huggingface
+      user: altomek
+      repo: Seed-OSS-36B-Instruct-XXL-GGUF
+- key: mradermacher/Seed-OSS-36B-Erotic-GGUF
+  sources:
+    - type: huggingface
+      user: mradermacher
+      repo: Seed-OSS-36B-Erotic-GGUF
+- key: mradermacher/Seed-OSS-36B-Instruct-abliterated-GGUF
+  sources:
+    - type: huggingface
+      user: mradermacher
+      repo: Seed-OSS-36B-Instruct-abliterated-GGUF
+- key: mradermacher/Seed-OSS-36B-Instruct-abliterated-i1-GGUF
+  sources:
+    - type: huggingface
+      user: mradermacher
+      repo: Seed-OSS-36B-Instruct-abliterated-i1-GGUF
+- key: yarikdevcom/Seed-OSS-36B-Instruct-GGUF
+  sources:
+    - type: huggingface
+      user: yarikdevcom
+      repo: Seed-OSS-36B-Instruct-GGUF
+- key: mradermacher/Seed-OSS-36B-Base-Instruct-Karcher-Merge-i1-GGUF
+  sources:
+    - type: huggingface
+      user: mradermacher
+      repo: Seed-OSS-36B-Base-Instruct-Karcher-Merge-i1-GGUF
+- key: mradermacher/Seed-OSS-36B-Instruct-GGUF
+  sources:
+    - type: huggingface
+      user: mradermacher
+      repo: Seed-OSS-36B-Instruct-GGUF
+- key: mradermacher/Seed-OSS-36B-Base-Instruct-Karcher-Merge-GGUF
+  sources:
+    - type: huggingface
+      user: mradermacher
+      repo: Seed-OSS-36B-Base-Instruct-Karcher-Merge-GGUF
+- key: mradermacher/Seed-OSS-36B-Instruct-i1-GGUF
+  sources:
+    - type: huggingface
+      user: mradermacher
+      repo: Seed-OSS-36B-Instruct-i1-GGUF
+- key: OpenMOSE/RWKV-Seed_OSS_36B-Hybrid-GGUF
+  sources:
+    - type: huggingface
+      user: OpenMOSE
+      repo: RWKV-Seed_OSS_36B-Hybrid-GGUF
+- key: second-state/Seed-OSS-36B-Instruct-GGUF
+  sources:
+    - type: huggingface
+      user: second-state
+      repo: Seed-OSS-36B-Instruct-GGUF
+- key: YanLabs/Seed-OSS-36B-Instruct-MPOA-GGUF
+  sources:
+    - type: huggingface
+      user: YanLabs
+      repo: Seed-OSS-36B-Instruct-MPOA-GGUF
+- key: gaianet/Seed-OSS-36B-Instruct-GGUF
+  sources:
+    - type: huggingface
+      user: gaianet
+      repo: Seed-OSS-36B-Instruct-GGUF
+- key: mradermacher/Seed-OSS-36B-Base-GGUF
+  sources:
+    - type: huggingface
+      user: mradermacher
+      repo: Seed-OSS-36B-Base-GGUF
+- key: jworks/Seed-OSS-36B-Instruct-abliterated-GGUF
+  sources:
+    - type: huggingface
+      user: jworks
+      repo: Seed-OSS-36B-Instruct-abliterated-GGUF
+- key: magiccodingman/Seed-OSS-36B-Instruct-Unloth-MXFP4-Hybrid-GGUF
+  sources:
+    - type: huggingface
+      user: magiccodingman
+      repo: Seed-OSS-36B-Instruct-Unloth-MXFP4-Hybrid-GGUF
+- key: gabriellarson/Seed-OSS-36B-Instruct-GGUF
+  sources:
+    - type: huggingface
+      user: gabriellarson
+      repo: Seed-OSS-36B-Instruct-GGUF
+- key: RDson/Seed-OSS-36B-Instruct-GGUF
+  sources:
+    - type: huggingface
+      user: RDson
+      repo: Seed-OSS-36B-Instruct-GGUF
+- key: mradermacher/Seed-OSS-36B-Instruct-MPOA-v1-i1-GGUF
+  sources:
+    - type: huggingface
+      user: mradermacher
+      repo: Seed-OSS-36B-Instruct-MPOA-v1-i1-GGUF
+- key: EloyOn/Seed-OSS-36B-Erotic-Q5_0-GGUF
+  sources:
+    - type: huggingface
+      user: EloyOn
+      repo: Seed-OSS-36B-Erotic-Q5_0-GGUF
+- key: mradermacher/Seed-OSS-36B-Base-i1-GGUF
+  sources:
+    - type: huggingface
+      user: mradermacher
+      repo: Seed-OSS-36B-Base-i1-GGUF
+- key: YanLabs/Seed-OSS-36B-Instruct-MPOA-v1-GGUF
+  sources:
+    - type: huggingface
+      user: YanLabs
+      repo: Seed-OSS-36B-Instruct-MPOA-v1-GGUF
+
+metadataOverrides:
+  domain: llm
+  architectures:
+    - seed_oss
+  compatibilityTypes:
+    - gguf
+    - safetensors
+  paramsStrings:
+    - 36B
+  minMemoryUsageBytes: 21000000000
+  contextLengths:
+    - 524288
+  vision: false
+  reasoning: true
+  trainedForToolUse: true
+config:
+  operation:
+    fields:
+      - key: llm.prediction.temperature
+        value: 1.1
+      - key: llm.prediction.topPSampling
+        value:
+          checked: true
+          value: 0.95
+      - key: llm.prediction.reasoning.parsing
+        value:
+          enabled: true
+          startString: "<seed:think>"
+          endString: "</seed:think>"
+customFields:
+  - key: thinkingBudget
+    displayName: Thinking Budget
+    description: Sets the maximum number of tokens the model can use for internal reasoning
+    type: select
+    defaultValue: "-1"
+    options:
+      - value: "-1"
+        label: Unlimited
+      - value: "0"
+        label: "0"
+      - value: "512"
+        label: "512"
+      - value: "1024"
+        label: "1024"
+      - value: "2048"
+        label: "2048"
+      - value: "4096"
+        label: "4096"
+      - value: "8192"
+        label: "8192"
+      - value: "16384"
+        label: "16384"
+    effects:
+      - type: setJinjaVariable
+        variable: thinking_budget
