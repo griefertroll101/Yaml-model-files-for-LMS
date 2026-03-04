@@ -1,7 +1,8 @@
 # Yaml Model Files For LMS
 Note: This is maintained by GrieferTroll in the LM Studio discord. Please do not bother Yags or Yorkie they have better stuff to do. DM me if a issue is here or use the issues tab here.
 
-# Issue atm found regarding lmstudio-community qwen 4B quants will try to fix on my end but you can just move model folder to the Unsloth folder and it'll be fine/fixed
+# Issue regarding lmstudio-communityqwen3.5-4B quants: unable to fix on my end sadly, but you can just move model folder to the Unsloth folder and it'll be fixed. 
+I believe it has to do with how the internal code treats lmstudio-community quants and qwen3.5-4b is affected because of something.
 
 Plan to add MLX but may be a week or 2 before I do.
 
