@@ -77,6 +77,161 @@ base:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-9B-heretic-GGUF
+  - key: mradermacher/Qwen3.5-9B-Claude-4.6-HighIQ-INSTRUCT-HERETIC-UNCENSORED-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-9B-Claude-4.6-HighIQ-INSTRUCT-HERETIC-UNCENSORED-GGUF
+  - key: mradermacher/Qwen3.5-9B-ultra-heretic-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-9B-ultra-heretic-i1-GGUF
+  - key: mradermacher/Qwen3.5-9B-Claude-4.6-HighIQ-THINKING-HERETIC-UNCENSORED-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-9B-Claude-4.6-HighIQ-THINKING-HERETIC-UNCENSORED-i1-GGUF
+  - key: Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+    sources:
+      - type: huggingface
+        user: Jackrong
+        repo: Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+  - key: mradermacher/Qwen3.5-9B-Claude-4.6-HighIQ-THINKING-HERETIC-UNCENSORED-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-9B-Claude-4.6-HighIQ-THINKING-HERETIC-UNCENSORED-GGUF
+  - key: mradermacher/Qwen3.5-9B-Claude-4.6-HighIQ-INSTRUCT-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-9B-Claude-4.6-HighIQ-INSTRUCT-i1-GGUF
+  - key: mradermacher/Qwen3.5-9B-Claude-4.6-HighIQ-INSTRUCT-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-9B-Claude-4.6-HighIQ-INSTRUCT-GGUF
+  - key: mradermacher/Qwen3.5-9B-ultra-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-9B-ultra-heretic-GGUF
+  - key: ZuzeTt/Qwen3.5-9B-imatrix-GGUF
+    sources:
+      - type: huggingface
+        user: ZuzeTt
+        repo: Qwen3.5-9B-imatrix-GGUF
+  - key: HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive
+    sources:
+      - type: huggingface
+        user: HauhauCS
+        repo: Qwen3.5-9B-Uncensored-HauhauCS-Aggressive
+  - key: Nest-Al/Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5
+    sources:
+      - type: huggingface
+        user: Nest-Al
+        repo: Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5
+  - key: jc-builds/Qwen3.5-9B-Q4_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: jc-builds
+        repo: Qwen3.5-9B-Q4_K_M-GGUF
+  - key: filvyb/Qwen3.5-9B-heretic-v2-GGUF
+    sources:
+      - type: huggingface
+        user: filvyb
+        repo: Qwen3.5-9B-heretic-v2-GGUF
+  - key: StageMind/qwen3.5-9b
+    sources:
+      - type: huggingface
+        user: StageMind
+        repo: qwen3.5-9b
+  - key: lukey03/Qwen3.5-9B-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: lukey03
+        repo: Qwen3.5-9B-abliterated-GGUF
+  - key: MorganMoriz/Qwen3.5-9B-Ultra-Heretic-GGUF
+    sources:
+      - type: huggingface
+        user: MorganMoriz
+        repo: Qwen3.5-9B-Ultra-Heretic-GGUF
+  - key: llmfan46/Qwen3.5-9B-ultimate-irrefusable-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: llmfan46
+        repo: Qwen3.5-9B-ultimate-irrefusable-heretic-GGUF
+  - key: jwest33/qwen3.5-9b-null-space-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: jwest33
+        repo: qwen3.5-9b-null-space-abliterated-GGUF
+  - key: Xlnk/Qwen3.5-9B-GGUF
+    sources:
+      - type: huggingface
+        user: Xlnk
+        repo: Qwen3.5-9B-GGUF
+  - key: mradermacher/Qwen3.5-9B-heretic-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-9B-heretic-i1-GGUF
+  - key: mradermacher/Qwen3.5-9B-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-9B-heretic-GGUF
+  - key: crownelius/Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5
+    sources:
+      - type: huggingface
+        user: crownelius
+        repo: Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5
+  - key: jc-builds/Qwen3.5-9B-Q4_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: jc-builds
+        repo: Qwen3.5-9B-Q4_K_M-GGUF
+  - key: filvyb/Qwen3.5-9B-heretic-v2-GGUF
+    sources:
+      - type: huggingface
+        user: filvyb
+        repo: Qwen3.5-9B-heretic-v2-GGUF
+  - key: StageMind/qwen3.5-9b
+    sources:
+      - type: huggingface
+        user: StageMind
+        repo: qwen3.5-9b
+  - key: lukey03/Qwen3.5-9B-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: lukey03
+        repo: Qwen3.5-9B-abliterated-GGUF
+  - key: MorganMoriz/Qwen3.5-9B-Ultra-Heretic-GGUF
+    sources:
+      - type: huggingface
+        user: MorganMoriz
+        repo: Qwen3.5-9B-Ultra-Heretic-GGUF
+  - key: llmfan46/Qwen3.5-9B-ultimate-irrefusable-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: llmfan46
+        repo: Qwen3.5-9B-ultimate-irrefusable-heretic-GGUF
+  - key: jwest33/qwen3.5-9b-null-space-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: jwest33
+        repo: qwen3.5-9b-null-space-abliterated-GGUF
+  - key: Xlnk/Qwen3.5-9B-GGUF
+    sources:
+      - type: huggingface
+        user: Xlnk
+        repo: Qwen3.5-9B-GGUF
+  - key: mradermacher/Qwen3.5-9B-heretic-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-9B-heretic-i1-GGUF
 metadataOverrides:
   domain: llm
   architectures:
