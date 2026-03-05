@@ -46,9 +46,9 @@ Linux/Mac Location: ~/.lmstudio/hub/models/%Company%/%Model%
 %Model% = Name of the model e.g qwen3.5-35b-a3b
 ````
 
-If the company or model is not there then create the folder and name it appropriately e.g. qwen3.5-35b-a3b No capitals so that you can do the install all without issue
+If the company or model is not there then create the folder and name it appropriately e.g. qwen3.5-35b-a3b No capitals so that you can do the install all without issue.
 
-Make sure that the file is under the correct company and model
+Make sure that the file is under the correct company and model.
 
 ## If you need to add models not included
 To add a model not in these: Open the yaml put what is below this under base and fill it out (Go to top of file for ease of locating base):
@@ -62,4 +62,4 @@ To add a model not in these: Open the yaml put what is below this under base and
 ````
 
 ## Thanks 
-Yorkie, Roxxus, Lithium, Jedd, and Sol4ra
+Yorkie, Roxxus, Lithium, Jedd, and Sol4ra.
