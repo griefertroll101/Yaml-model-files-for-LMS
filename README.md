@@ -12,6 +12,8 @@ Quickly did these up. They contain all//most quants currently available (4th of 
 ## Models Done
 Qwen 3.5 4B, 9B, 27B, 35B, 122B, 397B | OpenAI GPT-OSS 20B, 120B | Z.ai GLM 4.7 Flash, 4.5 Air | Nvidia Nemotron 3 Nano | Bytedance Seed-OSS-36B
 
+Soon to be added: Hermes, Other GLM models, GPT-OSS Safe guard
+
 ## Install All (Recommended)
 Click on the green code at the top of the page and download the zip. Put that zip in the .lmstudio folder and extract all. Open the extracted folder and drag/cut/copy the hub folder into .lmstudio. If prompted Do you want to replace... select yes. 
 
