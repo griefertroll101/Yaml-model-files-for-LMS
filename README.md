@@ -1,4 +1,4 @@
-# Issue regarding some Model
+# Issue regarding two models
 Qwen3.5-4B and GLM-4.5-Air are affected, still usable but just "duplicated".
 
 I believe it has to do with how the internal code treats something but I can't do anything about that.
