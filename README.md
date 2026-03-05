@@ -10,7 +10,7 @@ Plan to add MLX but may be a week or 2 before I do.
 Quickly did these up. They contain all//most quants currently available (4th of March 2026) including lmstudio-community but not MLX quants. Unless the model is new then there is little reason these should be updated more than once every 3 or so months but I likely won't update past 3 months.
 
 ## Models Done
-Qwen 3.5 4B, 9B, 27B, 35B, 122B | OpenAI GPT-OSS 20B, 120B | Z.ai GLM 4.7-flash | Nvidia Nemotron-3-nano
+Qwen 3.5 4B, 9B, 27B, 35B, 122B | OpenAI GPT-OSS 20B, 120B | Z.ai GLM 4.7 Flash, 4.5 Air | Nvidia Nemotron 3 Nano | Bytedance Seed-OSS-36B
 
 ## Install All (Recommended)
 Click on the green code at the top of the page and download the zip. Put that zip in the .lmstudio folder and extract all. Open the extracted folder and drag/cut/copy the hub folder into .lmstudio. If prompted Do you want to replace... select yes. 
