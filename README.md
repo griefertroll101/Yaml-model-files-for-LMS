@@ -3,7 +3,7 @@ Qwen3.5-4B and GLM-4.5-Air affected, still usable but just "duplicated".
 
 I believe it has to do with how the internal code treats something but I can't do anything about that.
 # Yaml Model Files For LMS
-Note: This is maintained by GrieferTroll in the LM Studio discord. Please do not bother Yags or Yorkie they have better stuff to do. DM me if a issue is here or use the issues tab here.
+Note: This is maintained by GrieferTroll in the LM Studio discord. Please do not bother Yags or Yorkie they have better stuff to do. DM me if an issue is here or use the issues tab here.
 
 Plan to add MLX but may be a week or 2 before I do.
 
