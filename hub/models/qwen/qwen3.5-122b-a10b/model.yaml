@@ -134,7 +134,7 @@ metadataOverrides:
   compatibilityTypes:
     - gguf
   paramsStrings:
-    - 35B
+    - 122B
   minMemoryUsageBytes: 21000000000
   contextLengths:
     - 262144
