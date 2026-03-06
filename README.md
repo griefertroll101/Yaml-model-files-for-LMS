@@ -19,13 +19,13 @@ Soon to be added: Hermes, Other GLM models, GPT-OSS Safe guard
 ## Install All (Recommended)
 Click on the green code at the top of the page and download the zip. Put that zip in the .lmstudio folder and extract all. Open the extracted folder and drag/cut/copy the hub folder into .lmstudio. If prompted Do you want to replace... select yes. 
 
-Windows Location: ~C:\\Users\\%Username%\\.lmstudio
+Windows Location: ~C:Users\\%Username%\\.lmstudio
 
-2nd Windows Location: ~C:\\Users\\.cache\\%Username%\\.lmstudio
+2nd Windows Location: ~C:Users\\.cache\\%Username%\\.lmstudio
 
 Linux/Mac Location: ~/.lmstudio
 
-An issue you may run into is that your models may duplicate. If this happens go to C:\Users\\%Username%\\.lmstudio\models choose the provider (will be in model tab under publisher) then drag the folder with the name of the duplicated model out of the publisher folder then back in. 
+An issue you may run into is that your models may duplicate. If this happens go to C:Users\\%Username%\\.lmstudio\models choose the provider (will be in model tab under publisher) then drag the folder with the name of the duplicated model out of the publisher folder then back in. 
 
 ````
 %Username% = Name of the user on the PC e.g greg
@@ -37,9 +37,9 @@ If you do not know the username for the PC then follow the folders one by one i.
 
 If you want to install model.yaml individually then put under
 
-Windows Location: ~C:\\Users\\%Username%\\.lmstudio\\hub\\models\\%Company%\\%Model%
+Windows Location: ~C:Users\\%Username%\\.lmstudio\\hub\\models\\%Company%\\%Model%
 
-2nd Windows Location: ~C:\\Users\\.cache\\%Username%\\.lmstudio\\hub\\models\\%Company%\\%Model%
+2nd Windows Location: ~C:Users\\.cache\\%Username%\\.lmstudio\\hub\\models\\%Company%\\%Model%
 
 Linux/Mac Location: ~/.lmstudio/hub/models/%Company%/%Model%
 ````
