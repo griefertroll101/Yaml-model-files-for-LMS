@@ -77,16 +77,11 @@ base:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-397B-A17B-GGUF
-- key: Rick02280/Huihui-Qwen3.5-397B-A17B-abliterated-GGUF
-  sources:
-    - type: huggingface
-      user: Rick02280
-      repo: Huihui-Qwen3.5-397B-A17B-abliterated-GGUF
-- key: mradermacher/Qwen3.5-397B-A17B-GGUF
-  sources:
-    - type: huggingface
-      user: mradermacher
-      repo: Qwen3.5-397B-A17B-GGUF
+  - key: mradermacher/Qwen3.5-397B-A17B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-397B-A17B-GGUF
 metadataOverrides:
   domain: llm
   architectures:
