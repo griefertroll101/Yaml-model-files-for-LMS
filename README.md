@@ -1,7 +1,7 @@
-# Issue with YAML ATM Fixing ASAP
-
 # Issue regarding two models
 Qwen3.5-4B and GLM-4.5-Air are affected, still usable but just "duplicated" in the models tab and selecting tab in LMS.
+
+Unsloth quants of Qwen3.5-4B can be fixed by ````lms get unsloth/qwen3.5-4b````  In terminal or powershell. Check here for further detail https://unsloth.ai/docs/models/qwen3.5#lm-studio-guide
 
 I believe it has to do with how the internal code treats something but I can't do anything about that.
 # Yaml Model Files For LMS
