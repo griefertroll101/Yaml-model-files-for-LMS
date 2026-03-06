@@ -23,7 +23,7 @@ Windows Location: C:\\Users\\%Username%\\.lmstudio
 
 2nd Windows Location: C:\\Users\\.cache\\%Username%\\.lmstudio
 
-Linux/Mac Location: /.lmstudio
+Linux/Mac Location: ~/.lmstudio
 
 An issue you may run into is that your models may duplicate. If this happens go to C:\\Users\\%Username%\\.lmstudio\models choose the provider (will be in model tab under publisher) then drag the folder with the name of the duplicated model out of the publisher folder then back in. 
 
@@ -41,7 +41,7 @@ Windows Location: C:\\Users\\%Username%\\.lmstudio\\hub\\models\\%Company%\\%Mod
 
 2nd Windows Location: C:\\Users\\.cache\\%Username%\\.lmstudio\\hub\\models\\%Company%\\%Model%
 
-Linux/Mac Location: /.lmstudio/hub/models/%Company%/%Model%
+Linux/Mac Location: ~/.lmstudio/hub/models/%Company%/%Model%
 ````
 %Username% = Name of the user on the PC e.g greg
 %Company% = The company that made the model e.g. qwen
