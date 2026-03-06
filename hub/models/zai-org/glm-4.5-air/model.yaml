@@ -2,291 +2,291 @@
 # Learn more at https://modelyaml.org
 model: zai-org/glm-4.5-air
 base:
-- key: unsloth/GLM-4.5-Air-GGUF
-  sources:
-    - type: huggingface
-      user: unsloth
-      repo: GLM-4.5-Air-GGUF
-- key: ddh0/GLM-4.5-Air-Derestricted-GGUF
-  sources:
-    - type: huggingface
-      user: ddh0
-      repo: GLM-4.5-Air-Derestricted-GGUF
-- key: bartowski/ArliAI_GLM-4.5-Air-Derestricted-GGUF
-  sources:
-    - type: huggingface
-      user: bartowski
-      repo: ArliAI_GLM-4.5-Air-Derestricted-GGUF
-- key: ddh0/GLM-4.5-Air-GGUF
-  sources:
-    - type: huggingface
-      user: ddh0
-      repo: GLM-4.5-Air-GGUF
-- key: bartowski/zai-org_GLM-4.5-Air-GGUF
-  sources:
-    - type: huggingface
-      user: bartowski
-      repo: zai-org_GLM-4.5-Air-GGUF
-- key: bartowski/cerebras_GLM-4.5-Air-REAP-82B-A12B-GGUF
-  sources:
-    - type: huggingface
-      user: bartowski
-      repo: cerebras_GLM-4.5-Air-REAP-82B-A12B-GGUF
-- key: jtl11/GLM-4.5-Air-REAP-82B-A12B-heretic-GGUF
-  sources:
-    - type: huggingface
-      user: jtl11
-      repo: GLM-4.5-Air-REAP-82B-A12B-heretic-GGUF
-- key: noctrex/GLM-4.5-Air-Derestricted-MXFP4_MOE-GGUF
-  sources:
-    - type: huggingface
-      user: noctrex
-      repo: GLM-4.5-Air-Derestricted-MXFP4_MOE-GGUF
-- key: lmstudio-community/GLM-4.5-Air-GGUF
-  sources:
-    - type: huggingface
-      user: lmstudio-community
-      repo: GLM-4.5-Air-GGUF
-- key: huihui-ai/Huihui-GLM-4.5-Air-abliterated-GGUF
-  sources:
-    - type: huggingface
-      user: huihui-ai
-      repo: Huihui-GLM-4.5-Air-abliterated-GGUF
-- key: ubergarm/GLM-4.5-Air-GGUF
-  sources:
-    - type: huggingface
-      user: ubergarm
-      repo: GLM-4.5-Air-GGUF
-- key: Face314/GLM-4.5-Air-MXFP4_MOE
-  sources:
-    - type: huggingface
-      user: Face314
-      repo: GLM-4.5-Air-MXFP4_MOE
-- key: mradermacher/GLM-4.5-Air-REAP-82B-A12B-i1-GGUF
-  sources:
-    - type: huggingface
-      user: mradermacher
-      repo: GLM-4.5-Air-REAP-82B-A12B-i1-GGUF
-- key: Thireus/GLM-4.5-Air-THIREUS-Q5_1-SPECIAL_SPLIT
-  sources:
-    - type: huggingface
-      user: Thireus
-      repo: GLM-4.5-Air-THIREUS-Q5_1-SPECIAL_SPLIT
-- key: Thireus/GLM-4.5-Air-THIREUS-IQ5_KS-SPECIAL_SPLIT
-  sources:
-    - type: huggingface
-      user: Thireus
-      repo: GLM-4.5-Air-THIREUS-IQ5_KS-SPECIAL_SPLIT
-- key: gghfez/GLM-4.5-Air-control-vectors
-  sources:
-    - type: huggingface
-      user: gghfez
-      repo: GLM-4.5-Air-control-vectors
-- key: Thireus/GLM-4.5-Air-THIREUS-BF16-SPECIAL_SPLIT
-  sources:
-    - type: huggingface
-      user: Thireus
-      repo: GLM-4.5-Air-THIREUS-BF16-SPECIAL_SPLIT
-- key: DevQuasar/zai-org.GLm-4.5-Air-GGUF
-  sources:
-    - type: huggingface
-      user: DevQuasar
-      repo: zai-org.GLM-4.5-Air-GGUF
-- key: Thireus/GLM-4.5-Air-THIREUS-IQ4_KT-SPECIAL_SPLIT
-  sources:
-    - type: huggingface
-      user: Thireus
-      repo: GLM-4.5-Air-THIREUS-IQ4_KT-SPECIAL_SPLIT
-- key: Thireus/GLM-4.5-Air-THIREUS-IQ4_XS_R8-SPECIAL_SPLIT
-  sources:
-    - type: huggingface
-      user: Thireus
-      repo: GLM-4.5-Air-THIREUS-IQ4_XS_R8-SPECIAL_SPLIT
-- key: Thireus/GLM-4.5-Air-THIREUS-IQ2_KS-SPECIAL_SPLIT
-  sources:
-    - type: huggingface
-      user: Thireus
-      repo: GLM-4.5-Air-THIREUS-IQ2_KS-SPECIAL_SPLIT
-- key: Thireus/GLM-4.5-Air-THIREUS-IQ4_KSS-SPECIAL_SPLIT
-  sources:
-    - type: huggingface
-      user: Thireus
-      repo: GLM-4.5-Air-THIREUS-IQ4_KSS-SPECIAL_SPLIT
-- key: Thireus/GLM-4.5-Air-THIREUS-IQ3_K_R4-SPECIAL_SPLIT
-  sources:
-    - type: huggingface
-      user: Thireus
-      repo: GLM-4.5-Air-THIREUS-IQ3_K_R4-SPECIAL_SPLIT
-- key: Thireus/GLM-4.5-Air-THIREUS-IQ1_BN-SPECIAL_SPLIT
-  sources:
-    - type: huggingface
-      user: Thireus
-      repo: GLM-4.5-Air-THIREUS-IQ1_BN-SPECIAL_SPLIT
-- key: mradermacher/GLM-4.5-Air-Derestricted-i1-GGUF
-  sources:
-    - type: huggingface
-      user: mradermacher
-      repo: GLM-4.5-Air-Derestricted-i1-GGUF
-- key: Thireus/GLM-4.5-Air-THIREUS-IQ1_KT-SPECIAL_SPLIT
-  sources:
-    - type: huggingface
-      user: Thireus
-      repo: GLM-4.5-Air-THIREUS-IQ1_KT-SPECIAL_SPLIT
-- key: Thireus/GLM-4.5-Air-THIREUS-IQ3_K-SPECIAL_SPLIT
-  sources:
-    - type: huggingface
-      user: Thireus
-      repo: GLM-4.5-Air-THIREUS-IQ3_K-SPECIAL_SPLIT
-- key: Thireus/GLM-4.5-Air-THIREUS-IQ5_K_R4-SPECIAL_SPLIT
-  sources:
-    - type: huggingface
-      user: Thireus
-      repo: GLM-4.5-Air-THIREUS-IQ5_K_R4-SPECIAL_SPLIT
-- key: Thireus/GLM-4.5-Air-THIREUS-IQ4_K_R4-SPECIAL_SPLIT
-  sources:
-    - type: huggingface
-      user: Thireus
-      repo: GLM-4.5-Air-THIREUS-IQ4_K_R4-SPECIAL_SPLIT
-- key: Thireus/GLM-4.5-Air-THIREUS-IQ5_KS_R4-SPECIAL_SPLIT
-  sources:
-    - type: huggingface
-      user: Thireus
-      repo: GLM-4.5-Air-THIREUS-IQ5_KS_R4-SPECIAL_SPLIT
-- key: Thireus/GLM-4.5-Air-THIREUS-IQ1_M-SPECIAL_SPLIT
-  sources:
-    - type: huggingface
-      user: Thireus
-      repo: GLM-4.5-Air-THIREUS-IQ1_M-SPECIAL_SPLIT
-- key: Thireus/GLM-4.5-Air-THIREUS-IQ5_K-SPECIAL_SPLIT
-  sources:
-    - type: huggingface
-      user: Thireus
-      repo: GLM-4.5-Air-THIREUS-IQ5_K-SPECIAL_SPLIT
-- key: Thireus/GLM-4.5-Air-THIREUS-IQ3_KS-SPECIAL_SPLIT
-  sources:
-    - type: huggingface
-      user: Thireus
-      repo: GLM-4.5-Air-THIREUS-IQ3_KS-SPECIAL_SPLIT
-- key: Thireus/GLM-4.5-Air-THIREUS-IQ2_KT-SPECIAL_SPLIT
-  sources:
-    - type: huggingface
-      user: Thireus
-      repo: GLM-4.5-Air-THIREUS-IQ2_KT-SPECIAL_SPLIT
-- key: Thireus/GLM-4.5-Air-THIREUS-IQ3_XXS_R4-SPECIAL_SPLIT
-  sources:
-    - type: huggingface
-      user: Thireus
-      repo: GLM-4.5-Air-THIREUS-IQ3_XXS_R4-SPECIAL_SPLIT
-- key: Thireus/GLM-4.5-Air-THIREUS-IQ2_BN-SPECIAL_SPLIT
-  sources:
-    - type: huggingface
-      user: Thireus
-      repo: GLM-4.5-Air-THIREUS-IQ2_BN-SPECIAL_SPLIT
-- key: noctrex/GLM-4.5-Air-REAP-82B-A12B-MXFP4_MOE-GGUF
-  sources:
-    - type: huggingface
-      user: noctrex
-      repo: GLM-4.5-Air-REAP-82B-A12B-MXFP4_MOE-GGUF
-- key: Thireus/GLM-4.5-Air-THIREUS-IQ2_KL-SPECIAL_SPLIT
-  sources:
-    - type: huggingface
-      user: Thireus
-      repo: GLM-4.5-Air-THIREUS-IQ2_KL-SPECIAL_SPLIT
-- key: Thireus/GLM-4.5-Air-THIREUS-IQ3_S_R4-SPECIAL_SPLIT
-  sources:
-    - type: huggingface
-      user: Thireus
-      repo: GLM-4.5-Air-THIREUS-IQ3_S_R4-SPECIAL_SPLIT
-- key: Thireus/GLM-4.5-Air-THIREUS-IQ4_K-SPECIAL_SPLIT
-  sources:
-    - type: huggingface
-      user: Thireus
-      repo: GLM-4.5-Air-THIREUS-IQ4_K-SPECIAL_SPLIT
-- key: Thireus/GLM-4.5-Air-THIREUS-IQ1_M_R4-SPECIAL_SPLIT
-  sources:
-    - type: huggingface
-      user: Thireus
-      repo: GLM-4.5-Air-THIREUS-IQ1_M_R4-SPECIAL_SPLIT
-- key: Thireus/GLM-4.5-Air-THIREUS-IQ2_BN_R4-SPECIAL_SPLIT
-  sources:
-    - type: huggingface
-      user: Thireus
-      repo: GLM-4.5-Air-THIREUS-IQ2_BN_R4-SPECIAL_SPLIT
-- key: DevQuasar/ArliAI.GLM-4.5-Air-Derestricted-GGUF
-  sources:
-    - type: huggingface
-      user: DevQuasar
-      repo: ArliAI.GLM-4.5-Air-Derestricted-GGUF
-- key: steampunque/GLM-4.5-Air-MP-GGUF
-  sources:
-    - type: huggingface
-      user: steampunque
-      repo: GLM-4.5-Air-MP-GGUF
-- key: mradermacher/GLM-4.5-Air-GLM-4.6-Distill-i1-GGUF
-  sources:
-    - type: huggingface
-      user: mradermacher
-      repo: GLM-4.5-Air-GLM-4.6-Distill-i1-GGUF
-- key: mradermacher/GLM-4.5-Air-Derestricted-GGUF
-  sources:
-    - type: huggingface
-      user: mradermacher
-      repo: GLM-4.5-Air-Derestricted-GGUF
-- key: mradermacher/GLM-4.5-Air-i1-GGUF
-  sources:
-    - type: huggingface
-      user: mradermacher
-      repo: GLM-4.5-Air-i1-GGUF
-- key: tachyphylaxis/Huihui-GLM-4.5-Air-abliterared-GGUF
-  sources:
-    - type: huggingface
-      user: tachyphylaxis
-      repo: Huihui-GLM-4.5-Air-abliterared-GGUF
-- key: Darkhn-Quants/GLM-Air-4.5-106B-Animus-V12.1-GGUF
-  sources:
-    - type: huggingface
-      user: Darkhn-Quants
-      repo: GLM-Air-4.5-106B-Animus-V12.1-GGUF
-- key: Darkhn-Quants/GLM-Air-4.5-106B-Animus-V12.0-GGUF
-  sources:
-    - type: huggingface
-      user: Darkhn-Quants
-      repo: GLM-Air-4.5-106B-Animus-V12.0-GGUF
-- key: AmpereComputing/glm-4.5-air-gguf
-  sources:
-    - type: huggingface
-      user: AmpereComputing
-      repo: glm-4.5-air-gguf
-- key: mradermacher/GLM-4.5-Air-Base-GGUF
-  sources:
-    - type: huggingface
-      user: mradermacher
-      repo: GLM-4.5-Air-Base-GGUF
-- key: mradermacher/Huihui-GLM-4.5-Air-abliterared-lossytensors-i1-GGUF
-  sources:
-    - type: huggingface
-      user: mradermacher
-      repo: Huihui-GLM-4.5-Air-abliterared-lossytensors-i1-GGUF
-- key: timowu/GLM-4.5-Air-Derestricted-Q8_0-FFN-IQ4_XS-IQ4_XS-Q5_0
-  sources:
-    - type: huggingface
-      user: timowu
-      repo: GLM-4.5-Air-Derestricted-Q8_0-FFN-IQ4_XS-IQ4_XS-Q5_0
-- key: mradermacher/GLM-4.5-Air-Base-i1-GGUF
-  sources:
-    - type: huggingface
-      user: mradermacher
-      repo: GLM-4.5-Air-Base-i1-GGUF
-- key: DarkArtsForge/huihui-ai_Huihui-GLM-4.5-Air-abliterared-Q3_K_M-GGUF
-  sources:
-    - type: huggingface
-      user: DarkArtsForge
-      repo: huihui-ai_Huihui-GLM-4.5-Air-abliterared-Q3_K_M-GGUF
-- key: mradermacher/GLM-4.5-Air-REAP-82B-A12B-GGUF
-  sources:
-    - type: huggingface
-      user: mradermacher
-      repo: GLM-4.5-Air-REAP-82B-A12B-GGUF
+  - key: unsloth/GLM-4.5-Air-GGUF
+    sources:
+      - type: huggingface
+        user: unsloth
+        repo: GLM-4.5-Air-GGUF
+  - key: ddh0/GLM-4.5-Air-Derestricted-GGUF
+    sources:
+      - type: huggingface
+        user: ddh0
+        repo: GLM-4.5-Air-Derestricted-GGUF
+  - key: bartowski/ArliAI_GLM-4.5-Air-Derestricted-GGUF
+    sources:
+      - type: huggingface
+        user: bartowski
+        repo: ArliAI_GLM-4.5-Air-Derestricted-GGUF
+  - key: ddh0/GLM-4.5-Air-GGUF
+    sources:
+      - type: huggingface
+        user: ddh0
+        repo: GLM-4.5-Air-GGUF
+  - key: bartowski/zai-org_GLM-4.5-Air-GGUF
+    sources:
+      - type: huggingface
+        user: bartowski
+        repo: zai-org_GLM-4.5-Air-GGUF
+  - key: bartowski/cerebras_GLM-4.5-Air-REAP-82B-A12B-GGUF
+    sources:
+      - type: huggingface
+        user: bartowski
+        repo: cerebras_GLM-4.5-Air-REAP-82B-A12B-GGUF
+  - key: jtl11/GLM-4.5-Air-REAP-82B-A12B-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: jtl11
+        repo: GLM-4.5-Air-REAP-82B-A12B-heretic-GGUF
+  - key: noctrex/GLM-4.5-Air-Derestricted-MXFP4_MOE-GGUF
+    sources:
+      - type: huggingface
+        user: noctrex
+        repo: GLM-4.5-Air-Derestricted-MXFP4_MOE-GGUF
+  - key: lmstudio-community/GLM-4.5-Air-GGUF
+    sources:
+      - type: huggingface
+        user: lmstudio-community
+        repo: GLM-4.5-Air-GGUF
+  - key: huihui-ai/Huihui-GLM-4.5-Air-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: huihui-ai
+        repo: Huihui-GLM-4.5-Air-abliterated-GGUF
+  - key: ubergarm/GLM-4.5-Air-GGUF
+    sources:
+      - type: huggingface
+        user: ubergarm
+        repo: GLM-4.5-Air-GGUF
+  - key: Face314/GLM-4.5-Air-MXFP4_MOE
+    sources:
+      - type: huggingface
+        user: Face314
+        repo: GLM-4.5-Air-MXFP4_MOE
+  - key: mradermacher/GLM-4.5-Air-REAP-82B-A12B-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: GLM-4.5-Air-REAP-82B-A12B-i1-GGUF
+  - key: Thireus/GLM-4.5-Air-THIREUS-Q5_1-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: GLM-4.5-Air-THIREUS-Q5_1-SPECIAL_SPLIT
+  - key: Thireus/GLM-4.5-Air-THIREUS-IQ5_KS-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: GLM-4.5-Air-THIREUS-IQ5_KS-SPECIAL_SPLIT
+  - key: gghfez/GLM-4.5-Air-control-vectors
+    sources:
+      - type: huggingface
+        user: gghfez
+        repo: GLM-4.5-Air-control-vectors
+  - key: Thireus/GLM-4.5-Air-THIREUS-BF16-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: GLM-4.5-Air-THIREUS-BF16-SPECIAL_SPLIT
+  - key: DevQuasar/zai-org.GLm-4.5-Air-GGUF
+    sources:
+      - type: huggingface
+        user: DevQuasar
+        repo: zai-org.GLM-4.5-Air-GGUF
+  - key: Thireus/GLM-4.5-Air-THIREUS-IQ4_KT-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: GLM-4.5-Air-THIREUS-IQ4_KT-SPECIAL_SPLIT
+  - key: Thireus/GLM-4.5-Air-THIREUS-IQ4_XS_R8-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: GLM-4.5-Air-THIREUS-IQ4_XS_R8-SPECIAL_SPLIT
+  - key: Thireus/GLM-4.5-Air-THIREUS-IQ2_KS-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: GLM-4.5-Air-THIREUS-IQ2_KS-SPECIAL_SPLIT
+  - key: Thireus/GLM-4.5-Air-THIREUS-IQ4_KSS-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: GLM-4.5-Air-THIREUS-IQ4_KSS-SPECIAL_SPLIT
+  - key: Thireus/GLM-4.5-Air-THIREUS-IQ3_K_R4-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: GLM-4.5-Air-THIREUS-IQ3_K_R4-SPECIAL_SPLIT
+  - key: Thireus/GLM-4.5-Air-THIREUS-IQ1_BN-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: GLM-4.5-Air-THIREUS-IQ1_BN-SPECIAL_SPLIT
+  - key: mradermacher/GLM-4.5-Air-Derestricted-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: GLM-4.5-Air-Derestricted-i1-GGUF
+  - key: Thireus/GLM-4.5-Air-THIREUS-IQ1_KT-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: GLM-4.5-Air-THIREUS-IQ1_KT-SPECIAL_SPLIT
+  - key: Thireus/GLM-4.5-Air-THIREUS-IQ3_K-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: GLM-4.5-Air-THIREUS-IQ3_K-SPECIAL_SPLIT
+  - key: Thireus/GLM-4.5-Air-THIREUS-IQ5_K_R4-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: GLM-4.5-Air-THIREUS-IQ5_K_R4-SPECIAL_SPLIT
+  - key: Thireus/GLM-4.5-Air-THIREUS-IQ4_K_R4-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: GLM-4.5-Air-THIREUS-IQ4_K_R4-SPECIAL_SPLIT
+  - key: Thireus/GLM-4.5-Air-THIREUS-IQ5_KS_R4-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: GLM-4.5-Air-THIREUS-IQ5_KS_R4-SPECIAL_SPLIT
+  - key: Thireus/GLM-4.5-Air-THIREUS-IQ1_M-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: GLM-4.5-Air-THIREUS-IQ1_M-SPECIAL_SPLIT
+  - key: Thireus/GLM-4.5-Air-THIREUS-IQ5_K-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: GLM-4.5-Air-THIREUS-IQ5_K-SPECIAL_SPLIT
+  - key: Thireus/GLM-4.5-Air-THIREUS-IQ3_KS-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: GLM-4.5-Air-THIREUS-IQ3_KS-SPECIAL_SPLIT
+  - key: Thireus/GLM-4.5-Air-THIREUS-IQ2_KT-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: GLM-4.5-Air-THIREUS-IQ2_KT-SPECIAL_SPLIT
+  - key: Thireus/GLM-4.5-Air-THIREUS-IQ3_XXS_R4-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: GLM-4.5-Air-THIREUS-IQ3_XXS_R4-SPECIAL_SPLIT
+  - key: Thireus/GLM-4.5-Air-THIREUS-IQ2_BN-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: GLM-4.5-Air-THIREUS-IQ2_BN-SPECIAL_SPLIT
+  - key: noctrex/GLM-4.5-Air-REAP-82B-A12B-MXFP4_MOE-GGUF
+    sources:
+      - type: huggingface
+        user: noctrex
+        repo: GLM-4.5-Air-REAP-82B-A12B-MXFP4_MOE-GGUF
+  - key: Thireus/GLM-4.5-Air-THIREUS-IQ2_KL-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: GLM-4.5-Air-THIREUS-IQ2_KL-SPECIAL_SPLIT
+  - key: Thireus/GLM-4.5-Air-THIREUS-IQ3_S_R4-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: GLM-4.5-Air-THIREUS-IQ3_S_R4-SPECIAL_SPLIT
+  - key: Thireus/GLM-4.5-Air-THIREUS-IQ4_K-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: GLM-4.5-Air-THIREUS-IQ4_K-SPECIAL_SPLIT
+  - key: Thireus/GLM-4.5-Air-THIREUS-IQ1_M_R4-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: GLM-4.5-Air-THIREUS-IQ1_M_R4-SPECIAL_SPLIT
+  - key: Thireus/GLM-4.5-Air-THIREUS-IQ2_BN_R4-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: GLM-4.5-Air-THIREUS-IQ2_BN_R4-SPECIAL_SPLIT
+  - key: DevQuasar/ArliAI.GLM-4.5-Air-Derestricted-GGUF
+    sources:
+      - type: huggingface
+        user: DevQuasar
+        repo: ArliAI.GLM-4.5-Air-Derestricted-GGUF
+  - key: steampunque/GLM-4.5-Air-MP-GGUF
+    sources:
+      - type: huggingface
+        user: steampunque
+        repo: GLM-4.5-Air-MP-GGUF
+  - key: mradermacher/GLM-4.5-Air-GLM-4.6-Distill-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: GLM-4.5-Air-GLM-4.6-Distill-i1-GGUF
+  - key: mradermacher/GLM-4.5-Air-Derestricted-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: GLM-4.5-Air-Derestricted-GGUF
+  - key: mradermacher/GLM-4.5-Air-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: GLM-4.5-Air-i1-GGUF
+  - key: tachyphylaxis/Huihui-GLM-4.5-Air-abliterared-GGUF
+    sources:
+      - type: huggingface
+        user: tachyphylaxis
+        repo: Huihui-GLM-4.5-Air-abliterared-GGUF
+  - key: Darkhn-Quants/GLM-Air-4.5-106B-Animus-V12.1-GGUF
+    sources:
+      - type: huggingface
+        user: Darkhn-Quants
+        repo: GLM-Air-4.5-106B-Animus-V12.1-GGUF
+  - key: Darkhn-Quants/GLM-Air-4.5-106B-Animus-V12.0-GGUF
+    sources:
+      - type: huggingface
+        user: Darkhn-Quants
+        repo: GLM-Air-4.5-106B-Animus-V12.0-GGUF
+  - key: AmpereComputing/glm-4.5-air-gguf
+    sources:
+      - type: huggingface
+        user: AmpereComputing
+        repo: glm-4.5-air-gguf
+  - key: mradermacher/GLM-4.5-Air-Base-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: GLM-4.5-Air-Base-GGUF
+  - key: mradermacher/Huihui-GLM-4.5-Air-abliterared-lossytensors-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Huihui-GLM-4.5-Air-abliterared-lossytensors-i1-GGUF
+  - key: timowu/GLM-4.5-Air-Derestricted-Q8_0-FFN-IQ4_XS-IQ4_XS-Q5_0
+    sources:
+      - type: huggingface
+        user: timowu
+        repo: GLM-4.5-Air-Derestricted-Q8_0-FFN-IQ4_XS-IQ4_XS-Q5_0
+  - key: mradermacher/GLM-4.5-Air-Base-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: GLM-4.5-Air-Base-i1-GGUF
+  - key: DarkArtsForge/huihui-ai_Huihui-GLM-4.5-Air-abliterared-Q3_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: DarkArtsForge
+        repo: huihui-ai_Huihui-GLM-4.5-Air-abliterared-Q3_K_M-GGUF
+  - key: mradermacher/GLM-4.5-Air-REAP-82B-A12B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: GLM-4.5-Air-REAP-82B-A12B-GGUF
 config:
   operation: 
     fields:
