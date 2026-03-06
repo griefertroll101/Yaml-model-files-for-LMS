@@ -25,7 +25,7 @@ Windows Location: ~C:\\Users\\%Username%\\.lmstudio
 
 Linux/Mac Location: ~/.lmstudio
 
-An issue you may run into is that your models may duplicate. If this happens go to C:\Users\%Username%\.lmstudio\models choose the provider (will be in model tab under publisher) then drag the folder with the name of the duplicated model out of the publisher folder then back in. 
+An issue you may run into is that your models may duplicate. If this happens go to C:\Users\\%Username%\\.lmstudio\models choose the provider (will be in model tab under publisher) then drag the folder with the name of the duplicated model out of the publisher folder then back in. 
 
 ````
 %Username% = Name of the user on the PC e.g greg
