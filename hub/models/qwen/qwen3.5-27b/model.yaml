@@ -2,66 +2,66 @@
 # Learn more at https://modelyaml.org
 model: qwen/qwen3.5-27b
 base:  
-- key: unsloth/Qwen3.5-27B-GGUF
-  sources:
-    - type: huggingface
-      user: unsloth
-      repo: Qwen3.5-27B-GGUF
-- key: bartowski/Qwen_Qwen3.5-27B-GGUF
-  sources:
-    - type: huggingface
-      user: bartowski
-      repo: Qwen_Qwen3.5-27B-GGUF
-- key: lmstudio-community/Qwen3.5-27B-GGUF
-  sources:
-    - type: huggingface
-      user: lmstudio-community
-      repo: Qwen3.5-27B-GGUF
-- key: mradermacher/Huihui-Qwen3.5-27B-abliterated-GGUF
-  sources:
-    - type: huggingface
-      user: mradermacher
-      repo: Huihui-Qwen3.5-27B-abliterated-GGUF
-- key: mradermacher/Qwen3.5-27B-heretic-GGUF
-  sources:
-    - type: huggingface
-      user: mradermacher
-      repo: Qwen3.5-27B-heretic-GGUF
-- key: tatsuyaaaaaa/Qwen3.5-27B-gguf
-  sources:
-    - type: huggingface
-      user: tatsuyaaaaaa
-      repo: Qwen3.5-27B-gguf
-- key: Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
-  sources:
-    - type: huggingface
-      user: Jackrong
-      repo: Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
-- key: mradermacher/Huihui-Qwen3.5-27B-abliterated-i1-GGUF
-  sources:
-    - type: huggingface
-      user: mradermacher
-      repo: Huihui-Qwen3.5-27B-abliterated-i1-GGUF
-- key: mradermacher/Qwen3.5-27B-heretic-i1-GGUF
-  sources:
-    - type: huggingface
-      user: mradermacher
-      repo: Qwen3.5-27B-heretic-i1-GGUF
-- key: llmfan46/Qwen3.5-27B-heretic-v1-GGUF
-  sources:
-    - type: huggingface
-      user: llmfan46
-      repo: Qwen3.5-27B-heretic-v1-GGUF
-- key: llmfan46/Qwen3.5-27B-heretic-v2-GGUF
-  sources:
-    - type: huggingface
-      user: llmfan46
-      repo: Qwen3.5-27B-heretic-v2-GGUF
-- key: mradermacher/Qwen3.5-27B-i1-GGUF
-  sources:
-    - type: huggingface
-      user: mradermacher
-      repo: Qwen3.5-27B-i1-GGUF
+  - key: unsloth/Qwen3.5-27B-GGUF
+    sources:
+      - type: huggingface
+        user: unsloth
+        repo: Qwen3.5-27B-GGUF
+  - key: bartowski/Qwen_Qwen3.5-27B-GGUF
+    sources:
+      - type: huggingface
+        user: bartowski
+        repo: Qwen_Qwen3.5-27B-GGUF
+  - key: lmstudio-community/Qwen3.5-27B-GGUF
+    sources:
+      - type: huggingface
+        user: lmstudio-community
+        repo: Qwen3.5-27B-GGUF
+  - key: mradermacher/Huihui-Qwen3.5-27B-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Huihui-Qwen3.5-27B-abliterated-GGUF
+  - key: mradermacher/Qwen3.5-27B-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-heretic-GGUF
+  - key: tatsuyaaaaaa/Qwen3.5-27B-gguf
+    sources:
+      - type: huggingface
+        user: tatsuyaaaaaa
+        repo: Qwen3.5-27B-gguf
+  - key: Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+    sources:
+      - type: huggingface
+        user: Jackrong
+        repo: Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+  - key: mradermacher/Huihui-Qwen3.5-27B-abliterated-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Huihui-Qwen3.5-27B-abliterated-i1-GGUF
+  - key: mradermacher/Qwen3.5-27B-heretic-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-heretic-i1-GGUF
+  - key: llmfan46/Qwen3.5-27B-heretic-v1-GGUF
+    sources:
+      - type: huggingface
+        user: llmfan46
+        repo: Qwen3.5-27B-heretic-v1-GGUF
+  - key: llmfan46/Qwen3.5-27B-heretic-v2-GGUF
+    sources:
+      - type: huggingface
+        user: llmfan46
+        repo: Qwen3.5-27B-heretic-v2-GGUF
+  - key: mradermacher/Qwen3.5-27B-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-i1-GGUF
   - key: mradermacher/Qwen3.5-27B-heretic-v2-i1-GGUF
     sources:
       - type: huggingface
@@ -307,6 +307,7 @@ base:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-27B-Gemini3-Pro-High-Reasoning-Compact-Thinking-GGUF
+
 metadataOverrides:
   domain: llm
   architectures:
