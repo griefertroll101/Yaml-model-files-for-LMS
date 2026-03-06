@@ -2,90 +2,86 @@
 # Learn more at https://modelyaml.org
 model: qwen/qwen3.5-397b-a17b
 base:
-- key: unsloth/Qwen3.5-397B-A17B-GGUF
-  sources:
-    - type: huggingface
-      user: unsloth
-      repo: Qwen3.5-397B-A17B-GGUF
-
-- key: bartowski/Qwen_Qwen3.5-397B-A17B-GGUF
-  sources:
-    - type: huggingface
-      user: bartowski
-      repo: Qwen_Qwen3.5-397B-A17B-GGUF
-
-- key: ubergarm/Qwen3.5-397B-A17B-GGUF
-  sources:
-    - type: huggingface
-      user: ubergarm
-      repo: Qwen3.5-397B-A17B-GGUF
-
-- key: lmstudio-community/Qwen3.5-397B-A17B-GGUF
-  sources:
-    - type: huggingface
-      user: lmstudio-community
-      repo: Qwen3.5-397B-A17B-GGUF
-
-- key: AesSedai/Qwen3.5-397B-A17B-GGUF
-  sources:
-    - type: huggingface
-      user: AesSedai
-      repo: Qwen3.5-397B-A17B-GGUF
-
-- key: DevQuasar/Qwen.Qwen3.5-397B-A17B-GGUF
-  sources:
-    - type: huggingface
-      user: DevQuasar
-      repo: Qwen.Qwen3.5-397B-A17B-GGUF
-
-- key: infinityai/Qwen3.5-397B-REAP-50-IQ3_M
-  sources:
-    - type: huggingface
-      user: infinityai
-      repo: Qwen3.5-397B-REAP-50-IQ3_M
-
-- key: huihui-ai/Huihui-Qwen3.5-397B-A17B-abliterated-GGUF
-  sources:
-    - type: huggingface
-      user: huihui-ai
-      repo: Huihui-Qwen3.5-397B-A17B-abliterated-GGUF
-
-- key: noctrex/Qwen3.5-397B-A17B-MXFP4_MOE-GGUF
-  sources:
-    - type: huggingface
-      user: noctrex
-      repo: Qwen3.5-397B-A17B-MXFP4_MOE-GGUF
-
-- key: Sabomako/Qwen3.5-397B-A17B-heretic-GGUF
-  sources:
-    - type: huggingface
-      user: Sabomako
-      repo: Qwen3.5-397B-A17B-heretic-GGUF
-
-- key: infinityai/Qwen3.5-397B-REAP-55-Q3_K_M
-  sources:
-    - type: huggingface
-      user: infinityai
-      repo: Qwen3.5-397B-REAP-55-Q3_K_M
-
-- key: mradermacher/Qwen3.5-397B-A17B-FP8-GGUF
-  sources:
-    - type: huggingface
-      user: mradermacher
-      repo: Qwen3.5-397B-A17B-FP8-GGUF
-
-- key: sokann/Qwen3.5-397B-A17B-GGUF-2.824bpw
-  sources:
-    - type: huggingface
-      user: sokann
-      repo: Qwen3.5-397B-A17B-GGUF-2.824bpw
-
+  - key: unsloth/Qwen3.5-397B-A17B-GGUF
+    sources:
+      - type: huggingface
+        user: unsloth
+        repo: Qwen3.5-397B-A17B-GGUF
+  - key: bartowski/Qwen_Qwen3.5-397B-A17B-GGUF
+    sources:
+      - type: huggingface
+        user: bartowski
+        repo: Qwen_Qwen3.5-397B-A17B-GGUF
+  - key: ubergarm/Qwen3.5-397B-A17B-GGUF
+    sources:
+      - type: huggingface
+        user: ubergarm
+        repo: Qwen3.5-397B-A17B-GGUF
+  - key: lmstudio-community/Qwen3.5-397B-A17B-GGUF
+    sources:
+      - type: huggingface
+        user: lmstudio-community
+        repo: Qwen3.5-397B-A17B-GGUF
+  - key: AesSedai/Qwen3.5-397B-A17B-GGUF
+    sources:
+      - type: huggingface
+        user: AesSedai
+        repo: Qwen3.5-397B-A17B-GGUF
+  - key: DevQuasar/Qwen.Qwen3.5-397B-A17B-GGUF
+    sources:
+      - type: huggingface
+        user: DevQuasar
+        repo: Qwen.Qwen3.5-397B-A17B-GGUF
+  - key: infinityai/Qwen3.5-397B-REAP-50-IQ3_M
+    sources:
+      - type: huggingface
+        user: infinityai
+        repo: Qwen3.5-397B-REAP-50-IQ3_M
+  - key: huihui-ai/Huihui-Qwen3.5-397B-A17B-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: huihui-ai
+        repo: Huihui-Qwen3.5-397B-A17B-abliterated-GGUF
+  - key: noctrex/Qwen3.5-397B-A17B-MXFP4_MOE-GGUF
+    sources:
+      - type: huggingface
+        user: noctrex
+        repo: Qwen3.5-397B-A17B-MXFP4_MOE-GGUF
+  - key: Sabomako/Qwen3.5-397B-A17B-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: Sabomako
+        repo: Qwen3.5-397B-A17B-heretic-GGUF
+  - key: infinityai/Qwen3.5-397B-REAP-55-Q3_K_M
+    sources:
+      - type: huggingface
+        user: infinityai
+        repo: Qwen3.5-397B-REAP-55-Q3_K_M
+  - key: mradermacher/Qwen3.5-397B-A17B-FP8-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-397B-A17B-FP8-GGUF
+  - key: sokann/Qwen3.5-397B-A17B-GGUF-2.824bpw
+    sources:
+      - type: huggingface
+        user: sokann
+        repo: Qwen3.5-397B-A17B-GGUF-2.824bpw
+  - key: Rick02280/Huihui-Qwen3.5-397B-A17B-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: Rick02280
+        repo: Huihui-Qwen3.5-397B-A17B-abliterated-GGUF
+  - key: mradermacher/Qwen3.5-397B-A17B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-397B-A17B-GGUF
 - key: Rick02280/Huihui-Qwen3.5-397B-A17B-abliterated-GGUF
   sources:
     - type: huggingface
       user: Rick02280
       repo: Huihui-Qwen3.5-397B-A17B-abliterated-GGUF
-
 - key: mradermacher/Qwen3.5-397B-A17B-GGUF
   sources:
     - type: huggingface
