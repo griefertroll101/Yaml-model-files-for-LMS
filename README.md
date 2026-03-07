@@ -56,7 +56,7 @@ e.g.
 
 hub\\models\\qwen\\qwen3.5-4b
 
-**not** 
+***not***
 
 hub\\models\qwen\\qwen3.5-4b-heretic
 
@@ -64,8 +64,6 @@ hub\\models\qwen\\qwen3.5-4b-heretic
 
 hub\\models\qwen\\qwen3.5-4b-noromaid-gguf
 
-
-Make sure that the file is under the correct company and model.
 
 ## If you need to add models not included
 To add a model not in these: Open the yaml put what is below this under base and fill it out (Go to top of file for ease of locating base):
