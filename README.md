@@ -48,7 +48,17 @@ Linux/Mac Location: ~/.lmstudio/hub/models/%Company%/%Model%
 %Model% = Name of the model e.g qwen3.5-35b-a3b
 ````
 
-If the company or model is not there then create the folder and name it appropriately e.g. qwen3.5-35b-a3b No capitals so that you can do the install all without issue.
+If the company or model is not there then create the folder and name it appropriately e.g. qwen3.5-35b-a3b No capitals so that you can do the install all without issue. It is the "base model" folder not a finetune e.g. 
+
+hub\\models\\qwen\\qwen3.5-4b
+
+not 
+
+hub\\models\qwen\\qwen3.5-4b-heretic
+
+or
+
+hub\\models\qwen\\qwen3.5-4b-noromaid-gguf
 
 Make sure that the file is under the correct company and model.
 
