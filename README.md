@@ -60,7 +60,7 @@ not
 ````
 hub\\models\qwen\\qwen3.5-4b-heretic
 or
- hub\\models\qwen\\qwen3.5-4b-noromaid-gguf
+hub\\models\qwen\\qwen3.5-4b-noromaid-gguf
 ````
 
 ## If you need to add models not included
