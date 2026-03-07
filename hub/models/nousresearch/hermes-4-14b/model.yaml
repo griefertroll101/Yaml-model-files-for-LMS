@@ -1,0 +1,161 @@
+# model.yaml is an open standard for defining cross-platform, composable AI models
+# Learn more at https://modelyaml.org
+model: nousresearch/hermes-4-70b
+base:
+  - key: lmstudio-community/NousResearch_Hermes-4-14B-GGUF
+    sources:
+      - type: huggingface
+        user: NousResearch
+        repo: Hermes-4-14B-GGUF
+  - key: AesSedai/Hermes-4-14B-BF16-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Hermes-4-14B-BF16-abliterated-GGUF
+  - key: lmstudio-community/Hermes-4-14B-GGUF
+    sources:
+      - type: huggingface
+        user: gabriellarson
+        repo: Hermes-4-14B-GGUF
+  - key: AesSedai/Hermes-4-14B-BF16-abliterated-i11-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Hermes-4-14B-BF16-abliterated-i11-GGUF
+  - key: lmstudio-community/Hermes-4-14B-i11-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Hermes-4-14B-i11-GGUF
+  - key: AesSedai/Hermes-4-14B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Hermes-4-14B-GGUF
+  - key: lmstudio-community/Hermes-4-14B-GGUF
+    sources:
+      - type: huggingface
+        user: Mungert
+        repo: Hermes-4-14B-GGUF
+  - key: AesSedai/NousResearch.Hermes-4-14B-GGUF
+    sources:
+      - type: huggingface
+        user: DevQuasar
+        repo: NousResearch.Hermes-4-14B-GGUF
+  - key: lmstudio-community/Hermes-4-14B-Q4_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: NikolayKozloff
+        repo: Hermes-4-14B-Q4_K_M-GGUF
+  - key: AesSedai/Hermes-4-14B-GGUF
+    sources:
+      - type: huggingface
+        user: macandchiz
+        repo: Hermes-4-14B-GGUF
+  - key: lmstudio-community/Hermes-4-14B-BF16-abliterated-Q8_0-GGUF
+    sources:
+      - type: huggingface
+        user: n0kovo
+        repo: Hermes-4-14B-BF16-abliterated-Q8_0-GGUF
+  - key: AesSedai/Hermes-4-14B-Q5_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: NikolayKozloff
+        repo: Hermes-4-14B-Q5_K_M-GGUF
+  - key: lmstudio-community/Hermes-4-14B-Q4_K_S-GGUF
+    sources:
+      - type: huggingface
+        user: NikolayKozloff
+        repo: Hermes-4-14B-Q4_K_S-GGUF
+  - key: AesSedai/Hermes-4-14B-GGUF
+    sources:
+      - type: huggingface
+        user: SandLogicTechnologies
+        repo: Hermes-4-14B-GGUF
+  - key: lmstudio-community/Hermes-4-14B-BF16-abliterated-Q6_K-GGUF
+    sources:
+      - type: huggingface
+        user: n0kovo
+        repo: Hermes-4-14B-BF16-abliterated-Q6_K-GGUF
+  - key: AesSedai/Hermes-4-14B-Q4_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: Gustav0-Freind
+        repo: Hermes-4-14B-Q4_K_M-GGUF
+  - key: lmstudio-community/SYNERGETIC_COGNITION_V1_Hermes-4-14B_v1-i11-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: SYNERGETIC_COGNITION_V1_Hermes-4-14B_v1-i11-GGUF
+  - key: AesSedai/Hermes-4-14B-GGUF
+    sources:
+      - type: huggingface
+        user: tsorsdc
+        repo: Hermes-4-14B-GGUF
+  - key: lmstudio-community/SYNERGETIC_COGNITION_V1_Hermes-4-14B_v1-Q4_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: TheMindExpansionNetwork
+        repo: SYNERGETIC_COGNITION_V1_Hermes-4-14B_v1-Q4_K_M-GGUF
+  - key: AesSedai/Hermes-4-14b-chat-template-retrain-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Hermes-4-14b-chat-template-retrain-GGUF
+  - key: lmstudio-community/Hermes-4-14B-Q5_K_S-GGUF
+    sources:
+      - type: huggingface
+        user: NikolayKozloff
+        repo: Hermes-4-14B-Q5_K_S-GGUF
+  - key: AesSedai/Hermes-4-14B-Q8_0.gguf
+    sources:
+      - type: huggingface
+        user: Imagilux
+        repo: Hermes-4-14B-Q8_0.gguf
+  - key: lmstudio-community/SYNERGETIC_COGNITION_V1_Hermes-4-14B_v1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: SYNERGETIC_COGNITION_V1_Hermes-4-14B_v1-GGUF
+metadataOverrides:
+  domain: llm
+  architectures:
+    - llama
+  compatibilityTypes:
+    - gguf
+  paramsStrings:
+    - 14B
+  minMemoryUsageBytes: 39835821670
+  contextLengths:
+    - 131072
+  vision: false
+  reasoning: true
+  trainedForToolUse: true
+config:
+  operation:
+    fields:
+      - key: llm.prediction.temperature
+        value: 0.6
+      - key: llm.prediction.topKSampling
+        value: 20
+      - key: llm.prediction.topPSampling
+        value:
+          checked: true
+          value: 0.95
+customFields:
+  - key: enableThinking
+    displayName: Enable Thinking
+    description: Controls whether the model will think before replying
+    type: boolean
+    defaultValue: false
+    effects:
+      - type: setJinjaVariable
+        variable: thinking
+  - key: keepCots
+    displayName: Keep CoT
+    description: Include Chain of Thought in subsequent requests
+    type: boolean
+    defaultValue: false
+    effects:
+      - type: setJinjaVariable
+        variable: keep_cots
