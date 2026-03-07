@@ -12,7 +12,7 @@ Plan to add MLX but may be a week or 2 before I do.
 Quickly did these up. They contain all/most quants currently available (8th of March 2026) including lmstudio-community but not MLX quants. Unless the model is new then there is little reason these should be updated more than once every 3 or so months but I likely won't update past 3 months.
 
 ## Models Done
-Qwen 3.5 4B, 9B, 27B, 35B, 122B, 397B | OpenAI GPT-OSS 20B, 120B | Z.ai GLM 4.7 Flash, 4.5 Air | Nvidia Nemotron 3 Nano 30B | Bytedance Seed-OSS-36B | NousReserach Hermes 4, 4.3
+Qwen 3.5 4B, 9B, 27B, 35B, 122B, 397B | OpenAI GPT-OSS 20B, 120B | Z.ai GLM 4.7 Flash, 4.5 Air | Nvidia Nemotron 3 Nano | Bytedance Seed-OSS-36B | NousReserach Hermes 4, 4.3
 
 Soon to be added: Other GLM models, GPT-OSS Safe guard
 
