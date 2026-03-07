@@ -1,5 +1,3 @@
-# Do not download at the moment major issues
-
 # Issue regarding two models
 Qwen3.5-4B and GLM-4.5-Air are affected, still usable but just "duplicated" in the models tab and selecting tab in LMS.
 
