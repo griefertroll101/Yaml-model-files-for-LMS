@@ -55,10 +55,9 @@ hub\\models\\qwen\\qwen3.5-4b
 not 
 
 hub\\models\qwen\\qwen3.5-4b-heretic
-
 or
-
 hub\\models\qwen\\qwen3.5-4b-noromaid-gguf
+
 
 Make sure that the file is under the correct company and model.
 
