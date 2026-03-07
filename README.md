@@ -50,7 +50,7 @@ Linux/Mac Location: ~/.lmstudio/hub/models/%Company%/%Model%
 
 If the company or model is not there then create the folder and name it appropriately e.g. qwen3.5-35b-a3b No capitals so that you can do the install all without issue in future. Make sure that the file is under the correct company and model.
 
-It is the "base model" folder not a finetune 
+It is the "base model" folder not a finetune
 
 e.g. 
 ````
