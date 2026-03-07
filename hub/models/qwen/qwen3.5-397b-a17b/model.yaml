@@ -82,6 +82,11 @@ base:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-397B-A17B-GGUF
+  - key: Sabomako/Qwen3.5-397B-A17B-heretic-bf16-GGUF
+    sources:
+      - type: huggingface
+        user: Sabomako
+        repo: Qwen3.5-397B-A17B-heretic-bf16-GGUF
 metadataOverrides:
   domain: llm
   architectures:
@@ -119,4 +124,5 @@ customFields:
     defaultValue: true
     effects:
       - type: setJinjaVariable
+
         variable: enable_thinking
