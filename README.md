@@ -56,11 +56,11 @@ e.g.
 
 hub\\models\\qwen\\qwen3.5-4b
 
-not 
+**not** 
 
 hub\\models\qwen\\qwen3.5-4b-heretic
 
-or
+**or**
 
 hub\\models\qwen\\qwen3.5-4b-noromaid-gguf
 
