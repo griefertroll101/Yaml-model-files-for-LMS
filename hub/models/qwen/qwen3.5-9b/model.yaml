@@ -77,6 +77,316 @@ base:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-9B-heretic-GGUF
+  - key: 
+    sources:
+      - type: huggingface
+        user: Nest-AI
+        repo: Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5
+  - key: 
+    sources:
+      - type: huggingface
+        user: jc-builds
+        repo: Qwen3.5-9B-Q4_K_M-GGUF
+  - key: 
+    sources:
+      - type: huggingface
+        user: filvyb
+        repo: Qwen3.5-9B-heretic-v2-GGUF
+  - key: 
+    sources:
+      - type: huggingface
+        user: StageMind
+        repo: qwen3.5-9b
+  - key: 
+    sources:
+      - type: huggingface
+        user: lukey03
+        repo: Qwen3.5-9B-abliterated-GGUF
+  - key: 
+    sources:
+      - type: huggingface
+        user: jwest33
+        repo: qwen3.5-9b-null-space-abliterated-GGUF
+  - key: 
+    sources:
+      - type: huggingface
+        user: Xlnk
+        repo: Qwen3.5-9B-GGUF
+  - key: 
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-9B-heretic-i1-GGUF
+  - key: 
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-9B-heretic-GGUF
+  - key: 
+    sources:
+      - type: huggingface
+        user: prithivMLmods
+        repo: Qwen3.5-9B-F32-GGUF
+  - key: 
+    sources:
+      - type: huggingface
+        user: llmfan46
+        repo: Qwen3.5-9B-ultra-heretic-GGUF
+  - key: 
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-9B-Claude-4.6-HighIQ-THINKING-i1-GGUF
+  - key: 
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-9B-Claude-4.6-HighIQ-THINKING-GGUF
+  - key: 
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-9B-ultra-heretic-i1-GGUF
+  - key: 
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-9B-Claude-4.6-HighIQ-THINKING-HERETIC-UNCENSORED-i1-GGUF
+  - key: 
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-9B-Claude-4.6-HighIQ-THINKING-HERETIC-UNCENSORED-GGUF
+  - key: 
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-9B-Claude-4.6-HighIQ-INSTRUCT-i1-GGUF
+  - key: 
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-9B-Claude-4.6-HighIQ-INSTRUCT-GGUF
+  - key: 
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-9B-ultra-heretic-GGUF
+  - key: 
+    sources:
+      - type: huggingface
+        user: ZuzeTt
+        repo: Qwen3.5-9B-imatrix-GGUF
+  - key: 
+    sources:
+      - type: huggingface
+        user: HauhuacS
+        repo: Qwen3.5-9B-Uncensored-HauhuacS-Aggressive
+  - key: 
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Heretical-Qwen3.5-9B-GGUF
+  - key: 
+    sources:
+      - type: huggingface
+        user: lll1l1l1l1l1
+        repo: Qwen3.5-9B-GGUF
+  - key: 
+    sources:
+      - type: huggingface
+        user: AllmageStudio
+        repo: Qwen3.5-9b-heretic-v2-GGUF
+  - key: 
+    sources:
+      - type: huggingface
+        user: smpaz7467
+        repo: qwen3.5-9b-agency-architect
+  - key: 
+    sources:
+      - type: huggingface
+        user: morikomorizz
+        repo: Qwen3.5-9B-Ultra-Heretic-GGUF
+  - key: 
+    sources:
+      - type: huggingface
+        user: ZeroWw
+        repo: Qwen3.5-9B-GGUF
+  - key: 
+    sources:
+      - type: huggingface
+        user: xbann
+        repo: Qwen3.5-9B-Claude-4.6-HighIQ-THINKING-HERETIC-UNCENSORED
+  - key: 
+    sources:
+      - type: huggingface
+        user: filvyb
+        repo: Qwen3.5-9B-Claude-4.6-HighIQ-THINKING-HERETIC-UNCENSORED
+  - key: 
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: qwen3.5-9b-null-space-abliterated-i1-GGUF
+  - key: 
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: qwen3.5-9b-null-space-abliterated-GGUF
+  - key: 
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-9B-Claude-4.6-HighIQ-INSTRUCT-HERETIC-UNCENSORED-i1-GGUF
+  - key: 
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-9B-Claude-4.6-HighIQ-INSTRUCT-HERETIC-UNCENSORED-GGUF
+  - key: 
+    sources:
+      - type: huggingface
+        user: Trilogix1
+        repo: Hugstonized-Qwen3.5-9B-abliterated.gguf
+  - key: 
+    sources:
+      - type: huggingface
+        user: rvncto
+        repo: Qwen3.5-9B-Claude-4.6-HighIQ-THINKING-HERETIC-UNCENSORED-Q8_0-GGUF
+  - key: 
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-9B-ultimate-irrefusable-heretic-i1-GGUF
+  - key: 
+    sources:
+      - type: huggingface
+        user: meetara-lab
+        repo: meetara-qwen3.5-9b-gguf
+  - key: 
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-9B-GLM-Wannabe-i1-GGUF
+  - key: 
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-9B-GLM-Wannabe-GGUF
+  - key: 
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-9B-ultimate-irrefusable-heretic-GGUF
+  - key: 
+    sources:
+      - type: huggingface
+        user: michaelw9999
+        repo: Qwen3.5-0.8B-llama-NVFP4.gguf
+  - key: 
+    sources:
+      - type: huggingface
+        user: lll1l1l1l1l1
+        repo: Qwen3.5-9B-Claude-4.6-HighIQ-INSTRUCT-HERETIC-UNCENSORED-GGUF
+  - key: 
+    sources:
+      - type: huggingface
+        user: michaelw9999
+        repo: Qwen3.5-0.8B-NVFP4
+  - key: 
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Heretical-Qwen3.5-9B-i1-GGUF
+  - key: 
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-9B-Writing-DPO-i1-GGUF
+  - key: 
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-9B-Writing-DPO-GGUF
+  - key: 
+    sources:
+      - type: huggingface
+        user: Jackrong
+        repo: Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+  - key: 
+    sources:
+      - type: huggingface
+        user: BirdToast
+        repo: qwen3.5-9b-fujin-gguf
+  - key: 
+    sources:
+      - type: huggingface
+        user: michaelw9999
+        repo: Qwen3.5-0.8B-llama-NVFP.gguf
+  - key: 
+    sources:
+      - type: huggingface
+        user: Abhiray
+        repo: Qwen3.5-9B-abliterated-GGUF
+  - key: 
+    sources:
+      - type: huggingface
+        user: MateoM4
+        repo: qwen3.5-9b-finetuned-medical-GGUF
+  - key: 
+    sources:
+      - type: huggingface
+        user: crownelius
+        repo: Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5
+  - key: 
+    sources:
+      - type: huggingface
+        user: DanyDA
+        repo: unsloth_Qwen3.5-9B-GGUF_Qwen3.5-9B-Q8_0-GGUF-SPLIT
+  - key: 
+    sources:
+      - type: huggingface
+        user: Mungert
+        repo: Qwen3.5-9B-GGUF
+  - key: 
+    sources:
+      - type: huggingface
+        user: GhostTheShadow
+        repo: Qwen3.5-9B-Uncensored-HauhuacS-Aggressive
+  - key: 
+    sources:
+      - type: huggingface
+        user: llmware
+        repo: qwen3.5-9b-gguf
+  - key: 
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5-i1-GGUF
+  - key: 
+    sources:
+      - type: huggingface
+        user: khtsly
+        repo: Qwen3.5-9B-Claude-4.6-Opus-Distilled-32k-GGUF
+  - key: 
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5-GGUF
+  - key: 
+    sources:
+      - type: huggingface
+        user: EganAI
+        repo: qwen3.5-9b-terminal-merge
+  - key: 
+    sources:
+      - type: huggingface
+        user: Lordmo
+        repo: Heretical-Qwen3.5-9B-i1-GGUF
+  - key: 
+    sources:
+      - type: huggingface
+        user: mido09
+        repo: Qwen3.5-9B-GGUF
 metadataOverrides:
   domain: llm
   architectures:
