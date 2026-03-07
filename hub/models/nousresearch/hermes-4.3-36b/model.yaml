@@ -1,0 +1,131 @@
+# model.yaml is an open standard for defining cross-platform, composable AI models
+# Learn more at https://modelyaml.org
+model: nousresearch/hermes-4-70b
+base:
+  - key: mradermacher/Hermes-4.3-36B-heretic-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Hermes-4.3-36B-heretic-i1-GGUF
+  - key: mradermacher/Hermes-4.3-36B-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Hermes-4.3-36B-heretic-GGUF
+  - key: EloyOn/Hermes-4.3-36B-Q5_0-GGUF
+    sources:
+      - type: huggingface
+        user: EloyOn
+        repo: Hermes-4.3-36B-Q5_0-GGUF
+  - key: FBTMAML/Hermes-4.3-36B
+    sources:
+      - type: huggingface
+        user: FBTMAML
+        repo: Hermes-4.3-36B
+  - key: MaziyarPanahi/Hermes-4.3-36B-GGUF
+    sources:
+      - type: huggingface
+        user: MaziyarPanahi
+        repo: Hermes-4.3-36B-GGUF
+  - key: mradermacher/Hermes-4.3-36B-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Hermes-4.3-36B-i1-GGUF
+  - key: mradermacher/Hermes-4.3-36B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Hermes-4.3-36B-GGUF
+  - key: mradermacher/Hermes4.3-Z-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Hermes4.3-Z-i1-GGUF
+  - key: mradermacher/Hermes4.3-Z-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Hermes4.3-Z-GGUF
+  - key: DevQuasar/NousResearch.Hermes-4.3-36B-GGUF
+    sources:
+      - type: huggingface
+        user: DevQuasar
+        repo: NousResearch.Hermes-4.3-36B-GGUF
+  - key: bartowski/NousResearch_Hermes-4.3-36B-GGUF
+    sources:
+      - type: huggingface
+        user: bartowski
+        repo: NousResearch_Hermes-4.3-36B-GGUF
+  - key: NousResearch/Hermes-4.3-36B-GGUF
+    sources:
+      - type: huggingface
+        user: NousResearch
+        repo: Hermes-4.3-36B-GGUF
+  - key: gnigguhface/Hermes-4.3-36B-Q5_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: gnigguhface
+        repo: Hermes-4.3-36B-Q5_K_M-GGUF
+  - key: ThijsL202/Hermes-4.3-36B-heretic-Q6_K-GGUF
+    sources:
+      - type: huggingface
+        user: ThijsL202
+        repo: Hermes-4.3-36B-heretic-Q6_K-GGUF
+  - key: CrocoCpp/Hermes-4.3-36B-heretic-Q8_0-GGUF
+    sources:
+      - type: huggingface
+        user: CrocoCpp
+        repo: Hermes-4.3-36B-heretic-Q8_0-GGUF
+  - key: SerialKicked/Hermes-4.3-36B-heretic-GGUF-IQ4_XS
+    sources:
+      - type: huggingface
+        user: SerialKicked
+        repo: Hermes-4.3-36B-heretic-GGUF-IQ4_XS
+  - key: darkc0de/Hermes-4.3-36B-heretic-Q5_K_S-GGUF
+    sources:
+      - type: huggingface
+        user: darkc0de
+        repo: Hermes-4.3-36B-heretic-Q5_K_S-GGUF
+metadataOverrides:
+  domain: llm
+  architectures:
+    - llama
+  compatibilityTypes:
+    - gguf
+  paramsStrings:
+    - 405B
+  minMemoryUsageBytes: 39835821670
+  contextLengths:
+    - 131072
+  vision: false
+  reasoning: true
+  trainedForToolUse: true
+config:
+  operation:
+    fields:
+      - key: llm.prediction.temperature
+        value: 0.6
+      - key: llm.prediction.topKSampling
+        value: 20
+      - key: llm.prediction.topPSampling
+        value:
+          checked: true
+          value: 0.95
+customFields:
+  - key: enableThinking
+    displayName: Enable Thinking
+    description: Controls whether the model will think before replying
+    type: boolean
+    defaultValue: false
+    effects:
+      - type: setJinjaVariable
+        variable: thinking
+  - key: keepCots
+    displayName: Keep CoT
+    description: Include Chain of Thought in subsequent requests
+    type: boolean
+    defaultValue: false
+    effects:
+      - type: setJinjaVariable
+        variable: keep_cots
