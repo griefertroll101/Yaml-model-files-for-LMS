@@ -247,6 +247,146 @@ base:
       - type: huggingface
         user: tatsuyaaaaaaa
         repo: Qwen3.5-35B-A3B-gguf
+  - key: lmstudio-community/qwen3.5-35b-a3b-gguf
+    sources:
+      - type: huggingface
+        user: lmstudio-community
+        repo: Qwen3.5-35B-A3B-GGUF
+  - key: AesSedai/Qwen3.5-35b-a3b-GGUF
+    sources:
+      - type: huggingface
+        user: AesSedai
+        repo: Qwen3.5-35B-A3B-GGUF
+  - key: HeYujie/Qwen3.5-35B-A3B-abliterated-GGUf
+    sources:
+      - type: huggingface
+        user: HeYujie
+        repo: Qwen3.5-35B-A3B-abliterated-GGUF
+  - key: Dinosaur-tothe-sky/Qwen3.5-35B-A3B-GGUf
+    sources:
+      - type: huggingface
+        user: Dinosaur-tothe-sky
+        repo: Qwen3.5-35B-A3B-GGUF
+  - key: ShadowX-Corp/Qwen3.5-35B-A3B-heretic-v1-GGUf
+    sources:
+      - type: huggingface
+        user: ShadowX-Corp
+        repo: Qwen3.5-35B-A3B-heretic-v1-GGUF
+  - key: MeridianVector/Qwen3.5-35B-A3B-BAKED-Q2_K
+    sources:
+      - type: huggingface
+        user: MeridianVector
+        repo: Qwen3.5-35B-A3B-BAKED-Q2_K
+  - key: MeridianVector/Qwen3.5-35B-A3B-BAKED-Q4_K_M
+    sources:
+      - type: huggingface
+        user: MeridianVector
+        repo: Qwen3.5-35B-A3B-BAKED-Q4_K_M
+  - key: sandeshrajx/qwen3.5-35b-reap-pruned-GGUf
+    sources:
+      - type: huggingface
+        user: sandeshrajx
+        repo: qwen3.5-35b-reap-pruned-GGUF
+  - key: Sabomako/Qwen3.5-35B-A3B-heretic-v2-GGUf
+    sources:
+      - type: huggingface
+        user: Sabomako
+        repo: Qwen3.5-35B-A3B-heretic-v2-GGUF
+  - key: noctrex/Qwen3.5-35B-A3B-MXFP4_MOE-GGUf
+    sources:
+      - type: huggingface
+        user: noctrex
+        repo: Qwen3.5-35B-A3B-MXFP4_M0E-GGUF
+  - key: Huihui/Qwen3.5-35B-A3B-abliterated-MXFP4_MOE-GGUf
+    sources:
+      - type: huggingface
+        user: Huihui
+        repo: Qwen3.5-35B-A3B-abliterated-MXFP4_M0E-GGUF
+  - key: llmfan46/Qwen3.5-35B-A3B-heretic-v1-GGUf
+    sources:
+      - type: huggingface
+        user: llmfan46
+        repo: Qwen3.5-35B-A3B-heretic-v1-GGUF
+  - key: llmfan46/Qwen3.5-35B-A3B-heretic-v2-GGUf
+    sources:
+      - type: huggingface
+        user: llmfan46
+        repo: Qwen3.5-35B-A3B-heretic-v2-GGUF
+  - key: amarck/Qwen3.5-35B-A3B-abliterated-GGUf
+    sources:
+      - type: huggingface
+        user: amarck
+        repo: Qwen3.5-35B-A3B-abliterated-GGUF
+  - key: bartowski/Qwen_Qwen3.5-35B-A3B-GGUf
+    sources:
+      - type: huggingface
+        user: bartowski
+        repo: Qwen_Qwen3.5-35B-A3B-GGUF
+  - key: kha duyen1993/qwen3.5-35b
+    sources:
+      - type: huggingface
+        user: kha duyen1993
+        repo: qwen3.5-35b
+  - key: mradermacher/tavern-sensei-qwen3.5-35B-A3B-i1-GGUf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: tavern-sensei-qwen3.5-35B-A3B-i1-GGUF
+  - key: mradermacher/tavern-sensei-qwen3.5-35B-A3B-GGUf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: tavern-sensei-qwen3.5-35B-A3B-GGUF
+  - key: unsloth/Qwen3.5-35B-A3B-GGUf
+    sources:
+      - type: huggingface
+        user: unsloth
+        repo: Qwen3.5-35B-A3B-GGUF
+  - key: mradermacher/Qwen3.5-35B-A3B-heretic-v1-i1-GGUf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-35B-A3B-heretic-v1-i1-GGUF
+  - key: mradermacher/Qwen3.5-35B-A3B-heretic-v2-i1-GGUf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-35B-A3B-heretic-v2-i1-GGUF
+  - key: mradermacher/Qwen3.5-35B-A3B-heretic-v2-GGUf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-35B-A3B-heretic-v2-GGUF
+  - key: mradermacher/Qwen3.5-35B-A3B-heretic-v1-GGUf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-35B-A3B-heretic-v1-GGUF
+  - key: JunLee88999/Qwen3.5-35B-A3B-heretic-v2-GGUf
+    sources:
+      - type: huggingface
+        user: JunLee88999
+        repo: Qwen3.5-35B-A3B-heretic-v2-GGUF
+  - key: cmp-nct/Qwen3.5-35B-A3B-GGUf
+    sources:
+      - type: huggingface
+        user: cmp-nct
+        repo: Qwen3.5-35B-A3B-GGUF
+  - key: altomek/Qwen3.5-35B-A3B-XXL-GGUf
+    sources:
+      - type: huggingface
+        user: altomek
+        repo: Qwen3.5-35B-A3B-XXL-GGUF
+  - key: jasperz111/Huihui-Qwen3.5-35B-abliterated-IQ4_XS-GGUf
+    sources:
+      - type: huggingface
+        user: jasperz111
+        repo: Huihui-Qwen3.5-35B-Abliterated-IQ4_XS-GGUF
+  - key: jasperz111/Huihui-Qwen3.5-35B-A3B-IQ4_XS-GGUf
+    sources:
+      - type: huggingface
+        user: jasperz111
+        repo: Huihui-Qwen3.5-35B-A3B-IQ4_XS-GGUF
 metadataOverrides:
   domain: llm
   architectures:
