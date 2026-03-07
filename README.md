@@ -53,13 +53,15 @@ If the company or model is not there then create the folder and name it appropri
 It is the "base model" folder not a finetune 
 
 e.g. 
-
+````
 hub\\models\\qwen\\qwen3.5-4b
 
 not
 
-hub\\models\qwen\\qwen3.5-4b-heretic   **or**   hub\\models\qwen\\qwen3.5-4b-noromaid-gguf
-
+hub\\models\qwen\\qwen3.5-4b-heretic
+**or**
+ hub\\models\qwen\\qwen3.5-4b-noromaid-gguf
+````
 
 ## If you need to add models not included
 To add a model not in these: Open the yaml put what is below this under base and fill it out (Go to top of file for ease of locating base):
@@ -68,7 +70,7 @@ To add a model not in these: Open the yaml put what is below this under base and
     sources:
       - type: huggingface
         user: Insert Publisher (e.g. AesSedai)
-        repo: Insert Model (e.g.wen3.5-122B-A10B-GGUF)
+        repo: Insert Model (e.g. Qwen3.5-122B-A10B-GGUF)
 
 ````
 
