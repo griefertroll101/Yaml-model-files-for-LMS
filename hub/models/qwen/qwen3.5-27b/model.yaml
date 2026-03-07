@@ -307,7 +307,151 @@ base:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-27B-Gemini3-Pro-High-Reasoning-Compact-Thinking-GGUF
-
+  - key: rvncto/Qwen3.5-27B-HERITIC-Polaris-Advanced-Thinking-Alpha-uncensored-Q5_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: rvncto
+        repo: Qwen3.5-27B-HERITIC-Polaris-Advanced-Thinking-Alpha-uncensored-Q5_K_M-GGUF
+  - key: unsloth/Qwen3.5-27B-GGUF
+    sources:
+      - type: huggingface
+        user: unsloth
+        repo: Qwen3.5-27B-GGUF
+  - key: mradermacher/Qwen3.5-27B-ultimate-heretic-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-ultimate-heretic-i1-GGUF
+  - key: mradermacher/Qwen3.5-27B-ultimate-irrefusable-heretic-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-ultimate-irrefusable-heretic-i1-GGUF
+  - key: mradermacher/Qwen3.5-27B-ultimate-irrefusable-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-ultimate-irrefusable-heretic-GGUF
+  - key: mradermacher/Qwen3.5-27B-HERITIC-Polaris-Advanced-Thinking-Alpha-uncensored-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-HERITIC-Polaris-Advanced-Thinking-Alpha-uncensored-i1-GGUF
+  - key: mradermacher/Qwen3.5-27B-HERITIC-Polaris-Advanced-Thinking-Alpha-uncensored-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-HERITIC-Polaris-Advanced-Thinking-Alpha-uncensored-GGUF
+  - key: JunLee88999/Qwen3.5-27B-heretic-v2-GGUF
+    sources:
+      - type: huggingface
+        user: JunLee88999
+        repo: Qwen3.5-27B-heretic-v2-GGUF
+  - key: HeYujie/Qwen3.5-27B-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: HeYujie
+        repo: Qwen3.5-27B-abliterated-GGUF
+  - key: ToastyPigeon/qwen3.5-27b-v2-stage1-Q4_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: ToastyPigeon
+        repo: qwen3.5-27b-v2-stage1-Q4_K_M-GGUF
+  - key: cvgro/Qwen3.5-27B-heretic-V2-gguf
+    sources:
+      - type: huggingface
+        user: cvgro
+        repo: Qwen3.5-27B-heretic-V2-gguf
+  - key: llmfan46/Qwen3.5-27B-heretic-v2-GGUF
+    sources:
+      - type: huggingface
+        user: llmfan46
+        repo: Qwen3.5-27B-heretic-v2-GGUF
+  - key: Mungert/Qwen3.5-27B-GGUF
+    sources:
+      - type: huggingface
+        user: Mungert
+        repo: Qwen3.5-27B-GGUF
+  - key: ApocalypseParty/Qwen3.5-27B-SFT-1-gguf
+    sources:
+      - type: huggingface
+        user: ApocalypseParty
+        repo: Qwen3.5-27B-SFT-1-gguf
+  - key: ApocalypseParty/Qwen3.5-27B-CPT-1-SFT-2-gguf
+    sources:
+      - type: huggingface
+        user: ApocalypseParty
+        repo: Qwen3.5-27B-CPT-1-SFT-2-gguf
+  - key: ApocalypseParty/Qwen3.5-27B-CPT-1-SFT-1-gguf
+    sources:
+      - type: huggingface
+        user: ApocalypseParty
+        repo: Qwen3.5-27B-CPT-1-SFT-1-gguf
+  - key: mradermacher/Qwen3.5-27B-GLM-4.7-Flash-Thinking-ALPHA-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-GLM-4.7-Flash-Thinking-ALPHA-i1-GGUF
+  - key: Ayodele01/OpenMath-Qwen3.5-27B
+    sources:
+      - type: huggingface
+        user: Ayodele01
+        repo: OpenMath-Qwen3.5-27B
+  - key: mradermacher/Qwen3.5-27B-GLM-4.7-Flash-Thinking-ALPHA-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-GLM-4.7-Flash-Thinking-ALPHA-GGUF
+  - key: mradermacher/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-i1-GGUF
+  - key: mradermacher/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+  - key: etemiz/Ostrich-27B-Qwen3.5-260305-GGUF
+    sources:
+      - type: huggingface
+        user: etemiz
+        repo: Ostrich-27B-Qwen3.5-260305-GGUF
+  - key: HauhauCS/Qwen3.5-27B-Uncensored-HauhauCS-Aggressive
+    sources:
+      - type: huggingface
+        user: HauhauCS
+        repo: Qwen3.5-27B-Uncensored-HauhauCS-Aggressive
+  - key: llmware/qwen3.5-27b-gguf
+    sources:
+      - type: huggingface
+        user: llmware
+        repo: qwen3.5-27b-gguf
+  - key: cmp-nct/Qwen3.5-27B-GGUF
+    sources:
+      - type: huggingface
+        user: cmp-nct
+        repo: Qwen3.5-27B-GGUF
+  - key: Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+    sources:
+      - type: huggingface
+        user: Jackrong
+        repo: Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+  - key: mradermacher/Ostrich-27B-Qwen3.5-260305-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Ostrich-27B-Qwen3.5-260305-i1-GGUF
+  - key: khtsly/Qwen3.5-27B-Claude-4.6-Opus-Distilled-32k-GGUF
+    sources:
+      - type: huggingface
+        user: khtsly
+        repo: Qwen3.5-27B-Claude-4.6-Opus-Distilled-32k-GGUF
+  - key: mradermacher/Ostrich-27B-Qwen3.5-260305-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Ostrich-27B-Qwen3.5-260305-GGUF
 metadataOverrides:
   domain: llm
   architectures:
