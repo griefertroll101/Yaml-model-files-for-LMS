@@ -1,9 +1,10 @@
 # Issue regarding two models
-Qwen3.5-4B and GLM-4.5-Air are affected, still usable but just "duplicated" in the models tab and selecting tab in LMS.
+Qwen3.5-4Bis affected, still usable but just "duplicated" in the models tab and selecting tab in LMS.
 
 It seems Unsloth quants of Qwen3.5-4B can be fixed by ````lms get unsloth/qwen3.5-4b````  In terminal or powershell. Check here for further detail https://unsloth.ai/docs/models/qwen3.5#lm-studio-guide. Unfortunately I don't know how they did this, I am not a coder/programmer/dev and it seems they did so only for unsloth models.
 
-I believe it has to do with how the internal code treats something but I don't know how to fix that.
+
+GLM-4.5-Air is not working at the moment unsure why but planning on fixxing
 # Yaml Model Files For LMS
 Note: This is maintained by GrieferTroll in the LM Studio discord. Please do not bother Yags or Yorkie they have better things to do. DM me if an issue is here or use the issues tab here.
 
