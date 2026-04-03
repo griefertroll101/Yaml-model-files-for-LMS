@@ -1,0 +1,212 @@
+# ============================================================================
+# model.yaml — Comprehensive Reference Template (v3)
+# ============================================================================
+# model.yaml is an open standard for defining cross-platform, composable AI models
+# Learn more at https://modelyaml.org
+#
+# This file contains ALL fields encountered across model families.
+# Delete sections that don't apply to your model.
+# Field order: model → base → config → customFields → metadataOverrides
+# ============================================================================
+
+# --- MODEL IDENTIFIER ---
+model: Insert_Company/Insert_Model
+# Examples:
+#   google/gemma-4-e4b          google/gemma-4-26b-a4b      google/gemma-4-31b
+#   qwen/qwen3.5-9b             qwen/qwen3.5-35b-a3b        qwen/qwen3.5-122b-a10b
+#   qwen/qwen3.5-397b-a17b      zai-org/glm-4.5-air         zai-org/glm-4.7-flash
+#   nousresearch/hermes-4-14b    nousresearch/hermes-4-70b    nousresearch/hermes-4-405b
+#   nousresearch/hermes-4.3-36b  mistralai/mistral-small-4    minimax/minimax-m2.5
+#   nvidia/nemotron-3-nano-4b    nvidia/nemotron-3-super
+
+# --- BASE MODELS ---
+base:
+  - key: Insert_Publisher_Lowercase/Insert_Repo_Lowercase
+    sources:
+      - type: huggingface
+        user: Insert_Publisher
+        repo: Insert_Repo
+
+# --- CONFIG ---
+config:
+  operation:
+    fields:
+      # -- Temperature --
+      # Gemma/Nemotron/MiniMax: 1.0 | Qwen/Hermes: 0.6 | GLM: 0.2 | Mistral: 0.15
+      - key: llm.prediction.temperature
+        value: Insert_Temperature
+
+      # -- Top-K Sampling --
+      # Qwen/Hermes: 20 | MiniMax: 40 | GLM: 50 | Gemma: 64
+      - key: llm.prediction.topKSampling
+        value: Insert_TopK
+
+      # -- Top-P Sampling --
+      - key: llm.prediction.topPSampling
+        value:
+          checked: Insert_True_Or_False
+          value: Insert_TopP
+
+      # -- Min-P Sampling --
+      # Used by: Qwen models
+      - key: llm.prediction.minPSampling
+        value:
+          checked: Insert_True_Or_False
+          value: Insert_MinP
+
+      # -- Repeat Penalty --
+      # Used by: GLM, Qwen 3.5 9B, Nemotron Super
+      - key: llm.prediction.repeatPenalty
+        value:
+          checked: Insert_True_Or_False
+          value: Insert_RepeatPenalty
+
+      # -- Presence Penalty --
+      # Used by: Qwen 3.5 9B
+      - key: llm.prediction.llama.presencePenalty
+        value:
+          checked: Insert_True_Or_False
+          value: Insert_PresencePenalty
+
+      # -- Reasoning Parsing --
+      # Gemma 4:  startString: "<|channel>thought"  endString: "<channel|>"
+      # Mistral:  startString: "[THINK]"             endString: "[/THINK]"
+      - key: llm.prediction.reasoning.parsing
+        value:
+          enabled: Insert_True_Or_False
+          startString: "Insert_Start_String"
+          endString: "Insert_End_String"
+
+  # -- Load-time parameters (optional) --
+  # load:
+  #   fields:
+  #     - key: llm.load.contextLength
+  #       value: Insert_Context_Length
+
+# --- CUSTOM FIELDS ---
+customFields:
+  # -- Enable Thinking (standard) --
+  # Used by: Gemma, Qwen, GLM, Mistral, MiniMax, Nemotron
+  - key: enableThinking
+    displayName: Enable Thinking
+    description: Controls whether the model will think before replying
+    type: boolean
+    defaultValue: Insert_True_Or_False
+    effects:
+      - type: setJinjaVariable
+        variable: enable_thinking
+
+  # -- Enable Thinking (Hermes variant) --
+  # Used by: NousResearch / Hermes — uses "thinking" not "enable_thinking"
+  # - key: enableThinking
+  #   displayName: Enable Thinking
+  #   description: Controls whether the model will think before replying
+  #   type: boolean
+  #   defaultValue: Insert_True_Or_False
+  #   effects:
+  #     - type: setJinjaVariable
+  #       variable: thinking
+
+  # -- Clear Thinking --
+  # Used by: GLM 4.7
+  - key: clearThinking
+    displayName: Clear Thinking
+    description: Controls whether thinking content is cleared from history
+    type: boolean
+    defaultValue: Insert_True_Or_False
+    effects:
+      - type: setJinjaVariable
+        variable: clear_thinking
+
+  # -- Truncate Thinking History --
+  # Used by: Nemotron 3 Nano, Nemotron 3 Super
+  - key: truncateThinkingHistory
+    displayName: Truncate Thinking History
+    description: Controls whether thinking history will be truncated to save context space
+    type: boolean
+    defaultValue: Insert_True_Or_False
+    effects:
+      - type: setJinjaVariable
+        variable: truncate_history_thinking
+
+  # -- Keep Chain of Thought --
+  # Used by: Hermes / NousResearch
+  - key: keepCots
+    displayName: Keep CoT
+    description: Include Chain of Thought in subsequent requests
+    type: boolean
+    defaultValue: Insert_True_Or_False
+    effects:
+      - type: setJinjaVariable
+        variable: keep_cots
+
+  # -- Low Effort --
+  # Used by: Nemotron 3 Super
+  - key: lowEffort
+    displayName: Low Effort
+    description: Controls whether the model uses low reasoning effort
+    type: boolean
+    defaultValue: Insert_True_Or_False
+    effects:
+      - type: setJinjaVariable
+        variable: low_effort
+
+  # -- Reasoning Effort (select dropdown) --
+  # Mistral Small 4: none/high | gpt-oss: low/medium/high
+  - key: reasoningEffort
+    displayName: Reasoning Effort
+    description: Controls how much reasoning the model should perform.
+    type: select
+    defaultValue: Insert_Default_Option
+    options:
+      - value: Insert_Option_Value
+        label: Insert_Option_Label
+    effects:
+      - type: setJinjaVariable
+        variable: reasoning_effort
+
+# --- METADATA OVERRIDES ---
+metadataOverrides:
+  domain: llm
+
+  # -- Architecture --
+  # gemma4            — Gemma 4 (all sizes)
+  # qwen3             — Qwen 3 (1st gen, 4B–235B, dense + MoE)
+  # qwen35            — Qwen 3.5 dense (9B)
+  # qwen35moe         — Qwen 3.5 MoE (35B, 122B, 397B)
+  # llama             — Llama / Hermes / NousResearch
+  # glm4moe           — GLM 4.5 Air
+  # glm4_moe_lite     — GLM 4.7 Flash
+  # mistral4          — Mistral Small 4
+  # minimax-m2        — MiniMax M2.5
+  # nemotron_h        — Nemotron 3 Nano 4B (dense hybrid)
+  # nemotron_h_moe    — Nemotron 3 Nano 30B, Nemotron 3 Super (MoE hybrid)
+  architectures:
+    - Insert_Architecture
+
+  compatibilityTypes:
+    - Insert_Compat_Type
+
+  paramsStrings:
+    - Insert_Params
+
+  # -- Minimum Memory (bytes) --
+  #   ~4B:            2500000000-4500000000
+  #   ~8-9B:          4600000000       ~14B:           8000000000
+  #   ~26-31B dense: 16000000000       ~30B MoE:      16000000000-25000000000
+  #   ~35B MoE:      21000000000       ~70B:          38000000000
+  #   ~119-122B MoE: 21000000000-65000000000
+  #   ~120B MoE:     83000000000       ~128B MoE:     16000000000
+  #   ~230B MoE:    121000000000       ~397B MoE:     21000000000
+  #   ~405B:         39835821670
+  minMemoryUsageBytes: Insert_Memory_Bytes
+
+  # -- Context Length --
+  # 131072 (Hermes, GLM) | 196608 (MiniMax) | 262144 (Gemma, Qwen, Mistral, Nemotron 4B)
+  # 1048576 (Nemotron Super)
+  contextLengths:
+    - Insert_Context_Length
+
+  vision: Insert_True_Or_False
+  reasoning: Insert_True_Or_False
+  trainedForToolUse: Insert_True_Or_False
