@@ -1,5 +1,5 @@
 # Issue regarding two models
-Qwen3.5-4Bis affected, still usable but just "duplicated" in the models tab and selecting tab in LMS.
+Qwen3.5-4B is affected, still usable but just "duplicated" in the models tab and selecting tab in LMS.
 
 It seems Unsloth quants of Qwen3.5-4B can be fixed by ````lms get unsloth/qwen3.5-4b````  In terminal or powershell. Check here for further detail https://unsloth.ai/docs/models/qwen3.5#lm-studio-guide. Unfortunately I don't know how they did this, I am not a coder/programmer/dev and it seems they did so only for unsloth models.
 
@@ -13,9 +13,9 @@ Plan to add MLX but may be a week or 2 before I do.
 Quickly did these up. They contain all/most quants currently available (8th of March 2026) including lmstudio-community but not MLX quants. Unless the model is new then there is little reason these should be updated more than once every 3 or so months but I likely won't update past 3 months.
 
 ## Models Done
-Qwen 3.5 | OpenAI GPT-OSS | Z.ai GLM 4.7 Flash, 4.5 Air | Nvidia Nemotron 3 Nano | Bytedance Seed-OSS | NousReserach Hermes 4, 4.3
+Google Gemma 4 E2B, E4B, 26B-A4B, 31B | Qwen 3.5 9B, 35B-A3B, 122B-A10B, 397B-A17B | Qwen 3 (1st gen) | OpenAI GPT-OSS | Z.ai GLM 4.7 Flash, 4.5 Air | NVIDIA Nemotron 3 Nano 4B, Super | ByteDance Seed-OSS | NousResearch Hermes 4 14B, 70B, 405B, Hermes 4.3 36B | MistralAI Mistral Small 4 | MiniMax M2.5
 
-Soon to be added: Other GLM models, GPT-OSS Safe guard
+Soon to be added: Other GLM models
 
 ## Install All (Recommended)
 Click on the green code at the top of the page and download the zip. Put that zip in the .lmstudio folder and extract all. Open the extracted folder and drag/cut/copy the hub folder into .lmstudio. If prompted Do you want to replace... select yes. 
