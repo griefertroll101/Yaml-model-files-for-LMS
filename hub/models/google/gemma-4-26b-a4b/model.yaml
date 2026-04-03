@@ -77,6 +77,11 @@ base:
       - type: huggingface
         user: tianrui6641
         repo: gemma-4-26b-a4b-gguf-mxfp4-moe
+  - key: prithivmlmods/gemma-4-26b-a4b-it-f32-gguf
+    sources:
+      - type: huggingface
+        user: prithivMLmods
+        repo: gemma-4-26B-A4B-it-F32-GGUF
 config:
   operation:
     fields:

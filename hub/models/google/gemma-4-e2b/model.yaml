@@ -47,6 +47,11 @@ base:
       - type: huggingface
         user: kamjin
         repo: Gemma-4-E2B-Uncensored-HauhauCS-Aggressive
+  - key: prithivmlmods/gemma-4-e2b-it-f32-gguf
+    sources:
+      - type: huggingface
+        user: prithivMLmods
+        repo: gemma-4-E2B-it-F32-GGUF
 config:
   operation:
     fields:

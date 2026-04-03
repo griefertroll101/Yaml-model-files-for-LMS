@@ -67,6 +67,11 @@ base:
       - type: huggingface
         user: amarck
         repo: gemma-4-31b-it-abliterated-GGUF
+  - key: prithivmlmods/gemma-4-31b-it-f32-gguf
+    sources:
+      - type: huggingface
+        user: prithivMLmods
+        repo: gemma-4-31B-it-F32-GGUF
 config:
   operation:
     fields:

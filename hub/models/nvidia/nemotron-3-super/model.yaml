@@ -1,0 +1,191 @@
+# model.yaml is an open standard for defining cross-platform, composable AI models
+# Learn more at https://modelyaml.org
+model: nvidia/nemotron-3-super
+base:
+  - key: unsloth/nvidia-nemotron-3-super-120b-a12b-gguf
+    sources:
+      - type: huggingface
+        user: unsloth
+        repo: NVIDIA-Nemotron-3-Super-120B-A12B-GGUF
+  - key: lmstudio-community/nvidia-nemotron-3-super-120b-a12b-gguf
+    sources:
+      - type: huggingface
+        user: lmstudio-community
+        repo: NVIDIA-Nemotron-3-Super-120B-A12B-GGUF
+  - key: bartowski/nvidia_nemotron-3-super-120b-a12b-gguf
+    sources:
+      - type: huggingface
+        user: bartowski
+        repo: nvidia_Nemotron-3-Super-120B-A12B-GGUF
+  - key: mradermacher/nvidia-nemotron-3-super-120b-a12b-bf16-heretic-i1-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: NVIDIA-Nemotron-3-Super-120B-A12B-BF16-heretic-i1-GGUF
+  - key: mradermacher/nvidia-nemotron-3-super-120b-a12b-bf16-i1-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: NVIDIA-Nemotron-3-Super-120B-A12B-BF16-i1-GGUF
+  - key: mungert/nvidia-nemotron-3-super-120b-a12b-bf16-gguf
+    sources:
+      - type: huggingface
+        user: Mungert
+        repo: NVIDIA-Nemotron-3-Super-120B-A12B-BF16-GGUF
+  - key: aessedai/nvidia-nemotron-3-super-120b-a12b-gguf
+    sources:
+      - type: huggingface
+        user: AesSedai
+        repo: NVIDIA-Nemotron-3-Super-120B-A12B-GGUF
+  - key: mradermacher/nvidia-nemotron-3-super-120b-a12b-bf16-heretic-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: NVIDIA-Nemotron-3-Super-120B-A12B-BF16-heretic-GGUF
+  - key: ggml-org/nemotron-3-super-120b-gguf
+    sources:
+      - type: huggingface
+        user: ggml-org
+        repo: Nemotron-3-Super-120B-GGUF
+  - key: devquasar/nvidia.nvidia-nemotron-3-super-120b-a12b-bf16-gguf
+    sources:
+      - type: huggingface
+        user: DevQuasar
+        repo: nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16-GGUF
+  - key: timteh673/nemotron-3-super-120b-a12b-uncensored-gguf
+    sources:
+      - type: huggingface
+        user: timteh673
+        repo: Nemotron-3-Super-120B-A12B-Uncensored-GGUF
+  - key: jdziat/nvidia-nemotron-3-super-120b-a12b-nvfp4-gguf
+    sources:
+      - type: huggingface
+        user: jdziat
+        repo: NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4-GGUF
+  - key: blobbybob/nemotron-3-super-120b-a12b-gguf-claude-4.6-opus-reasoning-distilled
+    sources:
+      - type: huggingface
+        user: blobbybob
+        repo: Nemotron-3-Super-120B-A12B-GGUF-Claude-4.6-Opus-Reasoning-Distilled
+  - key: ddh0/nvidia-nemotron-3-super-120b-a12b-gguf
+    sources:
+      - type: huggingface
+        user: ddh0
+        repo: NVIDIA-Nemotron-3-Super-120B-A12B-GGUF
+  - key: mradermacher/nvidia-nemotron-3-super-120b-a12b-bf16-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: NVIDIA-Nemotron-3-Super-120B-A12B-BF16-GGUF
+  - key: coughmedicine/nvidia-nemotron-3-super-120b-a12b-base-gguf
+    sources:
+      - type: huggingface
+        user: coughmedicine
+        repo: NVIDIA-Nemotron-3-Super-120B-A12B-Base-GGUF
+  - key: beinsezii/nemotron-3-super-120b-a12b-gguf-halo
+    sources:
+      - type: huggingface
+        user: Beinsezii
+        repo: Nemotron-3-Super-120B-A12B-GGUF-HALO
+  - key: apocalypseparty/nemotron-3-super-120b-sft-5-high-gguf
+    sources:
+      - type: huggingface
+        user: ApocalypseParty
+        repo: Nemotron-3-Super-120B-SFT-5-high-gguf
+  - key: apocalypseparty/nemotron-3-super-120b-sft-6-gguf
+    sources:
+      - type: huggingface
+        user: ApocalypseParty
+        repo: Nemotron-3-Super-120B-SFT-6-gguf
+  - key: sabomako/nvidia-nemotron-3-super-120b-a12b-bf16-heretic-v2-gguf
+    sources:
+      - type: huggingface
+        user: Sabomako
+        repo: NVIDIA-Nemotron-3-Super-120B-A12B-BF16-heretic-v2-GGUF
+  - key: apocalypseparty/nemotron-3-super-120b-sft-5-mid-gguf
+    sources:
+      - type: huggingface
+        user: ApocalypseParty
+        repo: Nemotron-3-Super-120B-SFT-5-mid-gguf
+  - key: avar6/nvidia-nemotron-3-super-120b-a12b-base-bf16-gguf
+    sources:
+      - type: huggingface
+        user: avar6
+        repo: NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16-gguf
+  - key: apocalypseparty/nemotron-3-super-120b-sft-5-low2-gguf
+    sources:
+      - type: huggingface
+        user: ApocalypseParty
+        repo: Nemotron-3-Super-120B-SFT-5-low2-gguf
+  - key: farshidtz/nvidia-nemotron-3-super-120b-a12b-ud-q4_k_m-5g
+    sources:
+      - type: huggingface
+        user: farshidtz
+        repo: NVIDIA-Nemotron-3-Super-120B-A12B-UD-Q4_K_M-5G
+  - key: baa-ai/nemotron-3-super-120b-a12b-mint-gguf
+    sources:
+      - type: huggingface
+        user: baa-ai
+        repo: Nemotron-3-Super-120B-A12B-MINT-GGUF
+  - key: apocalypseparty/nemotron-3-super-120b-sft-5-gguf
+    sources:
+      - type: huggingface
+        user: ApocalypseParty
+        repo: Nemotron-3-Super-120B-SFT-5-gguf
+  - key: apocalypseparty/nemotron-3-super-120b-sft-8-gguf
+    sources:
+      - type: huggingface
+        user: ApocalypseParty
+        repo: Nemotron-3-Super-120B-SFT-8-gguf
+config:
+  operation:
+    fields:
+      - key: llm.prediction.temperature
+        value: 1.0
+      - key: llm.prediction.topPSampling
+        value:
+          checked: true
+          value: 0.95
+      - key: llm.prediction.repeatPenalty
+        value:
+          checked: true
+          value: 1.0
+customFields:
+  - key: enableThinking
+    displayName: Enable Thinking
+    description: Controls whether the model will think before replying
+    type: boolean
+    defaultValue: true
+    effects:
+      - type: setJinjaVariable
+        variable: enable_thinking
+  - key: lowEffort
+    displayName: Low Effort
+    description: Controls whether the model uses low reasoning effort
+    type: boolean
+    defaultValue: false
+    effects:
+      - type: setJinjaVariable
+        variable: low_effort
+  - key: truncateThinkingHistory
+    displayName: Truncate Thinking History
+    description: Controls whether thinking history will be truncated to save context space
+    type: boolean
+    defaultValue: true
+    effects:
+      - type: setJinjaVariable
+        variable: truncate_history_thinking
+metadataOverrides:
+  domain: llm
+  architectures:
+    - nemotron_h_moe
+  compatibilityTypes:
+    - gguf
+  paramsStrings:
+    - 120B
+  minMemoryUsageBytes: 83000000000
+  contextLengths:
+    - 1048576
+  vision: false
+  reasoning: true
+  trainedForToolUse: true
