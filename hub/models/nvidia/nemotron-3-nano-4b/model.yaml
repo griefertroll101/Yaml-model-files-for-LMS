@@ -2,67 +2,67 @@
 # Learn more at https://modelyaml.org
 model: nvidia/nemotron-3-nano-4b
 base:
-  - key: lmstudio-community/nvidia-nemotron-3-nano-4b-gguf
+  - key: lmstudio-community/NVIDIA-Nemotron-3-Nano-4B-GGUF
     sources:
       - type: huggingface
         user: lmstudio-community
         repo: NVIDIA-Nemotron-3-Nano-4B-GGUF
-  - key: unsloth/nvidia-nemotron-3-nano-4b-gguf
+  - key: unsloth/NVIDIA-Nemotron-3-Nano-4B-GGUF
     sources:
       - type: huggingface
         user: unsloth
         repo: NVIDIA-Nemotron-3-Nano-4B-GGUF
-  - key: nvidia/nvidia-nemotron-3-nano-4b-gguf
+  - key: nvidia/NVIDIA-Nemotron-3-Nano-4B-GGUF
     sources:
       - type: huggingface
         user: nvidia
         repo: NVIDIA-Nemotron-3-Nano-4B-GGUF
-  - key: hauhaucs/nemotron3-nano-4b-uncensored-hauhaucs-aggressive
+  - key: HauhauCS/Nemotron3-Nano-4B-Uncensored-HauhauCS-Aggressive
     sources:
       - type: huggingface
         user: HauhauCS
         repo: Nemotron3-Nano-4B-Uncensored-HauhauCS-Aggressive
-  - key: bartowski/nvidia_nemotron-3-nano-4b-gguf
+  - key: bartowski/nvidia_Nemotron-3-Nano-4B-GGUF
     sources:
       - type: huggingface
         user: bartowski
         repo: nvidia_Nemotron-3-Nano-4B-GGUF
-  - key: tatsuyaaaaaaa/nvidia-nemotron-3-nano-4b-bf16-gguf
+  - key: tatsuyaaaaaaa/NVIDIA-Nemotron-3-Nano-4B-BF16-gguf
     sources:
       - type: huggingface
         user: tatsuyaaaaaaa
         repo: NVIDIA-Nemotron-3-Nano-4B-BF16-gguf
-  - key: mradermacher/nvidia-nemotron-3-nano-4b-bf16-i1-gguf
+  - key: mradermacher/NVIDIA-Nemotron-3-Nano-4B-BF16-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: NVIDIA-Nemotron-3-Nano-4B-BF16-i1-GGUF
-  - key: ddh0/nvidia-nemotron-3-nano-4b-gguf
+  - key: ddh0/NVIDIA-Nemotron-3-Nano-4B-GGUF
     sources:
       - type: huggingface
         user: ddh0
         repo: NVIDIA-Nemotron-3-Nano-4B-GGUF
-  - key: ggml-org/nemotron-3-nano-4b-gguf
+  - key: ggml-org/Nemotron-3-Nano-4B-GGUF
     sources:
       - type: huggingface
         user: ggml-org
         repo: Nemotron-3-Nano-4B-GGUF
-  - key: mradermacher/nvidia-nemotron-3-nano-4b-bf16-gguf
+  - key: mradermacher/NVIDIA-Nemotron-3-Nano-4B-BF16-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: NVIDIA-Nemotron-3-Nano-4B-BF16-GGUF
-  - key: hauhaucs/nemotron3-nano-4b-uncensored-hauhaucs-aggressive-genrm
+  - key: HauhauCS/Nemotron3-Nano-4B-Uncensored-HauhauCS-Aggressive-GenRM
     sources:
       - type: huggingface
         user: HauhauCS
         repo: Nemotron3-Nano-4B-Uncensored-HauhauCS-Aggressive-GenRM
-  - key: jaromer/nemotron3-nano-4b-uncensored-hauhaucs-aggressive
+  - key: jaromer/Nemotron3-Nano-4B-Uncensored-HauhauCS-Aggressive
     sources:
       - type: huggingface
         user: jaromer
         repo: Nemotron3-Nano-4B-Uncensored-HauhauCS-Aggressive
-  - key: devquasar/nvidia.nvidia-nemotron-3-nano-4b-bf16-gguf
+  - key: DevQuasar/nvidia.NVIDIA-Nemotron-3-Nano-4B-BF16-GGUF
     sources:
       - type: huggingface
         user: DevQuasar
@@ -72,7 +72,7 @@ base:
       - type: huggingface
         user: lm-kit
         repo: nemotron-3-nano-4b-gguf
-  - key: memoryco-ai/nemotron-3-nano-4b-gguf
+  - key: memoryco-ai/Nemotron-3-Nano-4B-GGUF
     sources:
       - type: huggingface
         user: memoryco-ai

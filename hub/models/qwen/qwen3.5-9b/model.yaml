@@ -2,157 +2,157 @@
 # Learn more at https://modelyaml.org
 model: qwen/qwen3.5-9b
 base:
-  - key: lmstudio-community/qwen3.5-9b-gguf
+  - key: lmstudio-community/Qwen3.5-9B-GGUF
     sources:
       - type: huggingface
         user: lmstudio-community
         repo: Qwen3.5-9B-GGUF
-  - key: unsloth/qwen3.5-9b-gguf
+  - key: unsloth/Qwen3.5-9B-GGUF
     sources:
       - type: huggingface
         user: unsloth
         repo: Qwen3.5-9B-GGUF
-  - key: hauhaucs/qwen3.5-9b-uncensored-hauhaucs-aggressive
+  - key: HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive
     sources:
       - type: huggingface
         user: HauhauCS
         repo: Qwen3.5-9B-Uncensored-HauhauCS-Aggressive
-  - key: jackrong/qwen3.5-9b-claude-4.6-opus-reasoning-distilled-gguf
+  - key: Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
     sources:
       - type: huggingface
         user: Jackrong
         repo: Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
-  - key: jackrong/qwen3.5-9b-claude-4.6-opus-reasoning-distilled-v2-gguf
+  - key: Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF
     sources:
       - type: huggingface
         user: Jackrong
         repo: Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF
-  - key: bartowski/qwen_qwen3.5-9b-gguf
+  - key: bartowski/Qwen_Qwen3.5-9B-GGUF
     sources:
       - type: huggingface
         user: bartowski
         repo: Qwen_Qwen3.5-9B-GGUF
-  - key: davidau/qwen3.5-9b-claude-4.6-os-auto-variable-heretic-uncensored-thinking-max-neocode-imatrix-gguf
+  - key: DavidAU/Qwen3.5-9B-Claude-4.6-OS-Auto-Variable-HERETIC-UNCENSORED-THINKING-MAX-NEOCODE-Imatrix-GGUF
     sources:
       - type: huggingface
         user: DavidAU
         repo: Qwen3.5-9B-Claude-4.6-OS-Auto-Variable-HERETIC-UNCENSORED-THINKING-MAX-NEOCODE-Imatrix-GGUF
-  - key: luffythefox/qwen3.5-9b-claude-4.6-opus-uncensored-distilled-gguf
+  - key: LuffyTheFox/Qwen3.5-9B-Claude-4.6-Opus-Uncensored-Distilled-GGUF
     sources:
       - type: huggingface
         user: LuffyTheFox
         repo: Qwen3.5-9B-Claude-4.6-Opus-Uncensored-Distilled-GGUF
-  - key: mradermacher/qwen3.5-9b-claude-4.6-highiq-instruct-heretic-uncensored-gguf
+  - key: mradermacher/Qwen3.5-9B-Claude-4.6-HighIQ-INSTRUCT-HERETIC-UNCENSORED-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-9B-Claude-4.6-HighIQ-INSTRUCT-HERETIC-UNCENSORED-GGUF
-  - key: lukey03/qwen3.5-9b-abliterated-gguf
+  - key: lukey03/Qwen3.5-9B-abliterated-GGUF
     sources:
       - type: huggingface
         user: lukey03
         repo: Qwen3.5-9B-abliterated-GGUF
-  - key: jwest33/qwen3.5-9b-null-space-abliterated-gguf
+  - key: jwest33/qwen3.5-9b-null-space-abliterated-GGUF
     sources:
       - type: huggingface
         user: jwest33
         repo: qwen3.5-9b-null-space-abliterated-GGUF
-  - key: mradermacher/gliese-qwen3.5-9b-abliterated-caption-i1-gguf
+  - key: mradermacher/Gliese-Qwen3.5-9B-Abliterated-Caption-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Gliese-Qwen3.5-9B-Abliterated-Caption-i1-GGUF
-  - key: mradermacher/qwen3.5-9b-claude-4.6-highiq-thinking-heretic-uncensored-i1-gguf
+  - key: mradermacher/Qwen3.5-9B-Claude-4.6-HighIQ-THINKING-HERETIC-UNCENSORED-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-9B-Claude-4.6-HighIQ-THINKING-HERETIC-UNCENSORED-i1-GGUF
-  - key: mradermacher/huihui-qwen3.5-9b-abliterated-gguf
+  - key: mradermacher/Huihui-Qwen3.5-9B-abliterated-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Huihui-Qwen3.5-9B-abliterated-GGUF
-  - key: jackrong/qwen3.5-9b-gemini-3.1-pro-reasoning-distill-gguf
+  - key: Jackrong/Qwen3.5-9B-Gemini-3.1-Pro-Reasoning-Distill-GGUF
     sources:
       - type: huggingface
         user: Jackrong
         repo: Qwen3.5-9B-Gemini-3.1-Pro-Reasoning-Distill-GGUF
-  - key: mradermacher/huihui-qwen3.5-9b-abliterated-i1-gguf
+  - key: mradermacher/Huihui-Qwen3.5-9B-abliterated-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Huihui-Qwen3.5-9B-abliterated-i1-GGUF
-  - key: llmfan46/qwen3.5-9b-ultra-uncensored-heretic-v1-gguf
+  - key: llmfan46/Qwen3.5-9B-ultra-uncensored-heretic-v1-GGUF
     sources:
       - type: huggingface
         user: llmfan46
         repo: Qwen3.5-9B-ultra-uncensored-heretic-v1-GGUF
-  - key: prithivmlmods/gliese-qwen3.5-9b-abliterated-caption
+  - key: prithivMLmods/Gliese-Qwen3.5-9B-Abliterated-Caption
     sources:
       - type: huggingface
         user: prithivMLmods
         repo: Gliese-Qwen3.5-9B-Abliterated-Caption
-  - key: mradermacher/qwen3.5-9b-heretic-gguf
+  - key: mradermacher/Qwen3.5-9B-heretic-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-9B-heretic-GGUF
-  - key: mradermacher/qwen3.5-9b-omnicoder-claude-polaris-i1-gguf
+  - key: mradermacher/Qwen3.5-9B-OmniCoder-Claude-Polaris-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-9B-OmniCoder-Claude-Polaris-i1-GGUF
-  - key: mradermacher/qwen3.5-9b-base-interiority-i1-gguf
+  - key: mradermacher/Qwen3.5-9B-Base-Interiority-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-9B-Base-Interiority-i1-GGUF
-  - key: leonw24/qwen3.5-9b-uncensored
+  - key: LEONW24/Qwen3.5-9B-Uncensored
     sources:
       - type: huggingface
         user: LEONW24
         repo: Qwen3.5-9B-Uncensored
-  - key: dahara1/qwen3.5-9b-ud-japanese-imatrix
+  - key: dahara1/Qwen3.5-9B-UD-japanese-imatrix
     sources:
       - type: huggingface
         user: dahara1
         repo: Qwen3.5-9B-UD-japanese-imatrix
-  - key: mradermacher/qwen3.5-9b-claude-4.6-os-heretic-uncensored-instruct-i1-gguf
+  - key: mradermacher/Qwen3.5-9B-Claude-4.6-OS-HERETIC-UNCENSORED-INSTRUCT-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-9B-Claude-4.6-OS-HERETIC-UNCENSORED-INSTRUCT-i1-GGUF
-  - key: jackrong/qwen3.5-9b-python-coder-gguf
+  - key: Jackrong/Qwen3.5-9B-Python-Coder-GGUF
     sources:
       - type: huggingface
         user: Jackrong
         repo: Qwen3.5-9B-Python-Coder-GGUF
-  - key: khtsly/qwen3.5-9b-claude-4.6-opus-distilled-32k-gguf
+  - key: khtsly/Qwen3.5-9B-Claude-4.6-Opus-Distilled-32k-GGUF
     sources:
       - type: huggingface
         user: khtsly
         repo: Qwen3.5-9B-Claude-4.6-Opus-Distilled-32k-GGUF
-  - key: mradermacher/huihui-qwen3.5-9b-claude-4.6-opus-abliterated-gguf
+  - key: mradermacher/Huihui-Qwen3.5-9B-Claude-4.6-Opus-abliterated-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Huihui-Qwen3.5-9B-Claude-4.6-Opus-abliterated-GGUF
-  - key: mradermacher/qwen3.5-9b-unredacted-max-gguf
+  - key: mradermacher/Qwen3.5-9B-Unredacted-MAX-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-9B-Unredacted-MAX-GGUF
-  - key: mradermacher/qwen3.5-9b-ultimate-irrefusable-heretic-i1-gguf
+  - key: mradermacher/Qwen3.5-9B-ultimate-irrefusable-heretic-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-9B-ultimate-irrefusable-heretic-i1-GGUF
-  - key: mradermacher/qwen3.5-9b-abliterated-i1-gguf
+  - key: mradermacher/Qwen3.5-9B-abliterated-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-9B-abliterated-i1-GGUF
-  - key: mradermacher/qwen3.5-9b-unredacted-max-i1-gguf
+  - key: mradermacher/Qwen3.5-9B-Unredacted-MAX-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
@@ -162,17 +162,17 @@ base:
       - type: huggingface
         user: ZuzeTt
         repo: Qwen3.5-9B-imatrix-GGUF
-  - key: mradermacher/qwen3.5-9b-neo-heretic-i1-gguf
+  - key: mradermacher/Qwen3.5-9B-Neo-heretic-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-9B-Neo-heretic-i1-GGUF
-  - key: mradermacher/qwen3.5-9b-claude-4.6-highiq-instruct-heretic-uncensored-i1-gguf
+  - key: mradermacher/Qwen3.5-9B-Claude-4.6-HighIQ-INSTRUCT-HERETIC-UNCENSORED-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-9B-Claude-4.6-HighIQ-INSTRUCT-HERETIC-UNCENSORED-i1-GGUF
-  - key: momix-44/qwen3.5-9b-gemini-3.1-opus-4.6-reasoning
+  - key: Momix-44/Qwen3.5-9B-gemini-3.1-opus-4.6-reasoning
     sources:
       - type: huggingface
         user: Momix-44
@@ -182,117 +182,117 @@ base:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-9B-ultra-heretic-i1-GGUF
-  - key: mradermacher/qwen3.5-9b-claude-4.6-os-auto-variable-thinking-i1-gguf
+  - key: mradermacher/Qwen3.5-9B-Claude-4.6-OS-Auto-Variable-THINKING-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-9B-Claude-4.6-OS-Auto-Variable-THINKING-i1-GGUF
-  - key: luffythefox/omniclaw-qwen3.5-9b-claude-4.6-opus-uncensored-v2-gguf
+  - key: LuffyTheFox/OmniClaw-Qwen3.5-9B-Claude-4.6-Opus-Uncensored-v2-GGUF
     sources:
       - type: huggingface
         user: LuffyTheFox
         repo: OmniClaw-Qwen3.5-9B-Claude-4.6-Opus-Uncensored-v2-GGUF
-  - key: mradermacher/huihui-qwen3.5-9b-abliterated-ties-hemlock-sft-i1-gguf
+  - key: mradermacher/Huihui-Qwen3.5-9B-abliterated-TIES-Hemlock-SFT-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Huihui-Qwen3.5-9B-abliterated-TIES-Hemlock-SFT-i1-GGUF
-  - key: mradermacher/qwen3.5-9b-casual-thinker-i1-gguf
+  - key: mradermacher/Qwen3.5-9B-Casual-Thinker-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-9B-Casual-Thinker-i1-GGUF
-  - key: luffythefox/qwen3.5-9b-claude-4.6-opus-uncensored-kullback-leibler
+  - key: LuffyTheFox/Qwen3.5-9B-Claude-4.6-Opus-Uncensored-Kullback-Leibler
     sources:
       - type: huggingface
         user: LuffyTheFox
         repo: Qwen3.5-9B-Claude-4.6-Opus-Uncensored-Kullback-Leibler
-  - key: bigatuna/qwen3.5-9b-sushi-coder-rl-gguf
+  - key: bigatuna/Qwen3.5-9b-Sushi-Coder-RL-GGUF
     sources:
       - type: huggingface
         user: bigatuna
         repo: Qwen3.5-9b-Sushi-Coder-RL-GGUF
-  - key: abhiray/qwen3.5-9b-abliterated-gguf
+  - key: Abhiray/Qwen3.5-9B-abliterated-GGUF
     sources:
       - type: huggingface
         user: Abhiray
         repo: Qwen3.5-9B-abliterated-GGUF
-  - key: jackrong/qwen3.5-9b-neo-gguf
+  - key: Jackrong/Qwen3.5-9B-Neo-GGUF
     sources:
       - type: huggingface
         user: Jackrong
         repo: Qwen3.5-9B-Neo-GGUF
-  - key: mradermacher/qwen3.5-9b-claude-4.6-os-heretic-uncensored-instruct-gguf
+  - key: mradermacher/Qwen3.5-9B-Claude-4.6-OS-HERETIC-UNCENSORED-INSTRUCT-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-9B-Claude-4.6-OS-HERETIC-UNCENSORED-INSTRUCT-GGUF
-  - key: mradermacher/heretical-qwen3.5-9b-i1-gguf
+  - key: mradermacher/Heretical-Qwen3.5-9B-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Heretical-Qwen3.5-9B-i1-GGUF
-  - key: mungert/qwen3.5-9b-gguf
+  - key: Mungert/Qwen3.5-9B-GGUF
     sources:
       - type: huggingface
         user: Mungert
         repo: Qwen3.5-9B-GGUF
-  - key: mradermacher/luna-qwen3.5-9b-v5-i1-gguf
+  - key: mradermacher/Luna-Qwen3.5-9B-v5-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Luna-Qwen3.5-9B-v5-i1-GGUF
-  - key: jc-builds/qwen3.5-9b-q4_k_m-gguf
+  - key: jc-builds/Qwen3.5-9B-Q4_K_M-GGUF
     sources:
       - type: huggingface
         user: jc-builds
         repo: Qwen3.5-9B-Q4_K_M-GGUF
-  - key: mradermacher/qwen3.5-9b-gemini-3.1-opus-4.6-reasoning-i1-gguf
+  - key: mradermacher/Qwen3.5-9B-gemini-3.1-opus-4.6-reasoning-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-9B-gemini-3.1-opus-4.6-reasoning-i1-GGUF
-  - key: mradermacher/qwen3.5-9b-null-space-abliterated-gguf
+  - key: mradermacher/qwen3.5-9b-null-space-abliterated-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: qwen3.5-9b-null-space-abliterated-GGUF
-  - key: mradermacher/qwen3.5-9b-glm-wannabe-i1-gguf
+  - key: mradermacher/Qwen3.5-9B-GLM-Wannabe-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-9B-GLM-Wannabe-i1-GGUF
-  - key: daniloreddy/qwen3.5-9b_gguf
+  - key: daniloreddy/Qwen3.5-9B_GGUF
     sources:
       - type: huggingface
         user: daniloreddy
         repo: Qwen3.5-9B_GGUF
-  - key: mradermacher/qwen3.5-9b-writing-dpo-i1-gguf
+  - key: mradermacher/Qwen3.5-9B-Writing-DPO-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-9B-Writing-DPO-i1-GGUF
-  - key: mradermacher/huihui-qwen3.5-9b-abliterated-grimoire-simpo-i1-gguf
+  - key: mradermacher/Huihui-Qwen3.5-9B-abliterated-Grimoire-SimPO-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Huihui-Qwen3.5-9B-abliterated-Grimoire-SimPO-i1-GGUF
-  - key: mradermacher/qwen3.5-9b-heretic-ara-refusals5-i1-gguf
+  - key: mradermacher/Qwen3.5-9B-Heretic-ARA-Refusals5-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-9B-Heretic-ARA-Refusals5-i1-GGUF
-  - key: mradermacher/qwen3.5-9b-i1-gguf
+  - key: mradermacher/Qwen3.5-9B-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-9B-i1-GGUF
-  - key: mradermacher/qwen3.5-9b-claude-4.6-highiq-thinking-heretic-uncensored-gguf
+  - key: mradermacher/Qwen3.5-9B-Claude-4.6-HighIQ-THINKING-HERETIC-UNCENSORED-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-9B-Claude-4.6-HighIQ-THINKING-HERETIC-UNCENSORED-GGUF
-  - key: aiimagestudio/qwen3.5-9b-heretic-v2-gguf
+  - key: AIImageStudio/Qwen3.5-9b-heretic-v2-GGUF
     sources:
       - type: huggingface
         user: AIImageStudio
@@ -302,27 +302,27 @@ base:
       - type: huggingface
         user: mradermacher
         repo: qwen3.5-9b-null-space-abliterated-i1-GGUF
-  - key: mradermacher/qwen3.5-9b-heretic-i1-gguf
+  - key: mradermacher/Qwen3.5-9B-heretic-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-9B-heretic-i1-GGUF
-  - key: abhiray/huihui-qwen3.5-9b-abliterated-gguf
+  - key: Abhiray/Huihui-Qwen3.5-9B-abliterated-GGUF
     sources:
       - type: huggingface
         user: Abhiray
         repo: Huihui-Qwen3.5-9B-abliterated-GGUF
-  - key: mradermacher/qwen3.5-9b-antirep-i1-gguf
+  - key: mradermacher/Qwen3.5-9B-Antirep-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-9B-Antirep-i1-GGUF
-  - key: mradermacher/qwen3.5-9b-nsfw-captioning-v2-i1-gguf
+  - key: mradermacher/qwen3.5-9b-nsfw-captioning-v2-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: qwen3.5-9b-nsfw-captioning-v2-i1-GGUF
-  - key: bartowski/jackrong_qwen3.5-9b-neo-gguf
+  - key: bartowski/Jackrong_Qwen3.5-9B-Neo-GGUF
     sources:
       - type: huggingface
         user: bartowski
@@ -332,22 +332,22 @@ base:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-9B-Claude-4.6-HighIQ-INSTRUCT-i1-GGUF
-  - key: mradermacher/alternate-qwen3.5-9b-claude-4.6-opus-i1-gguf
+  - key: mradermacher/Alternate-Qwen3.5-9B-Claude-4.6-Opus-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Alternate-Qwen3.5-9B-Claude-4.6-Opus-i1-GGUF
-  - key: mradermacher/huihui-qwen3.5-9b-abliterated-grimoire-sft-i1-gguf
+  - key: mradermacher/Huihui-Qwen3.5-9B-abliterated-Grimoire-SFT-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Huihui-Qwen3.5-9B-abliterated-Grimoire-SFT-i1-GGUF
-  - key: eganai/qwen3.5-9b-terminal-merge
+  - key: EganAI/qwen3.5-9b-terminal-merge
     sources:
       - type: huggingface
         user: EganAI
         repo: qwen3.5-9b-terminal-merge
-  - key: lordmo/heretical-qwen3.5-9b-i1-gguf
+  - key: Lordmo/Heretical-Qwen3.5-9B-i1-GGUF
     sources:
       - type: huggingface
         user: Lordmo
@@ -357,12 +357,12 @@ base:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-9B-Claude-4.6-HighIQ-THINKING-i1-GGUF
-  - key: mradermacher/qwen3.5-9b-ultimate-irrefusable-heretic-gguf
+  - key: mradermacher/Qwen3.5-9B-ultimate-irrefusable-heretic-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-9B-ultimate-irrefusable-heretic-GGUF
-  - key: byteshape/qwen3.5-9b-gguf
+  - key: byteshape/Qwen3.5-9B-GGUF
     sources:
       - type: huggingface
         user: byteshape
@@ -372,32 +372,32 @@ base:
       - type: huggingface
         user: filvyb
         repo: Qwen3.5-9B-Claude-4.6-HighIQ-THINKING-HERETIC-UNCENSORED
-  - key: abhiray/qwen3.5-9b-abliterated-claude-4.6-opus-reasoning-distilled-v2
+  - key: Abhiray/Qwen3.5-9B-Abliterated-Claude-4.6-Opus-Reasoning-Distilled-v2
     sources:
       - type: huggingface
         user: Abhiray
         repo: Qwen3.5-9B-Abliterated-Claude-4.6-Opus-Reasoning-Distilled-v2
-  - key: davidau/qwen3.5-9b-star-trek-tng-ds9-heretic-uncensored-thinking-max-neocode-gguf
+  - key: DavidAU/Qwen3.5-9B-Star-Trek-TNG-DS9-Heretic-Uncensored-Thinking-MAX-NEOCODE-GGUF
     sources:
       - type: huggingface
         user: DavidAU
         repo: Qwen3.5-9B-Star-Trek-TNG-DS9-Heretic-Uncensored-Thinking-MAX-NEOCODE-GGUF
-  - key: filvyb/qwen3.5-9b-heretic-v2-gguf
+  - key: filvyb/Qwen3.5-9B-heretic-v2-GGUF
     sources:
       - type: huggingface
         user: filvyb
         repo: Qwen3.5-9B-heretic-v2-GGUF
-  - key: cmp-nct/qwen3.5-9b-gguf
+  - key: cmp-nct/Qwen3.5-9B-GGUF
     sources:
       - type: huggingface
         user: cmp-nct
         repo: Qwen3.5-9B-GGUF
-  - key: mradermacher/qwen3.5-9b-claude-4.6-os-auto-variable-heretic-uncensored-thinking-i1-gguf
+  - key: mradermacher/Qwen3.5-9B-Claude-4.6-OS-Auto-Variable-HERETIC-UNCENSORED-THINKING-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-9B-Claude-4.6-OS-Auto-Variable-HERETIC-UNCENSORED-THINKING-i1-GGUF
-  - key: mradermacher/qwen3.5-9b-claude-4.6-highiq-instruct-gguf
+  - key: mradermacher/Qwen3.5-9B-Claude-4.6-HighIQ-INSTRUCT-GGUF
     sources:
       - type: huggingface
         user: mradermacher
@@ -407,107 +407,107 @@ base:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-9B-ultra-heretic-GGUF
-  - key: mradermacher/qwen3.5-9b-claude-4.6-opus-deckard-v4.2-uncensored-heretic-thinking-i1-gguf
+  - key: mradermacher/Qwen3.5-9B-Claude-4.6-Opus-Deckard-V4.2-Uncensored-Heretic-Thinking-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-9B-Claude-4.6-Opus-Deckard-V4.2-Uncensored-Heretic-Thinking-i1-GGUF
-  - key: mradermacher/qwen3.5-9b-nsfw-captioning-v3-i1-gguf
+  - key: mradermacher/qwen3.5-9b-nsfw-captioning-v3-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: qwen3.5-9b-nsfw-captioning-v3-i1-GGUF
-  - key: luffythefox/omnicoder-qwen3.5-9b-claude-4.6-opus-uncensored-v2-gguf
+  - key: LuffyTheFox/OmniCoder-Qwen3.5-9B-Claude-4.6-Opus-Uncensored-v2-GGUF
     sources:
       - type: huggingface
         user: LuffyTheFox
         repo: OmniCoder-Qwen3.5-9B-Claude-4.6-Opus-Uncensored-v2-GGUF
-  - key: mradermacher/qwen3.5-9b-claude-4.6-os-instruct-i1-gguf
+  - key: mradermacher/Qwen3.5-9B-Claude-4.6-OS-INSTRUCT-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-9B-Claude-4.6-OS-INSTRUCT-i1-GGUF
-  - key: mradermacher/huihui-qwen3.5-9b-claude-4.6-opus-abliterated-heretic-i1-gguf
+  - key: mradermacher/Huihui-Qwen3.5-9B-Claude-4.6-Opus-abliterated-heretic-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Huihui-Qwen3.5-9B-Claude-4.6-Opus-abliterated-heretic-i1-GGUF
-  - key: mradermacher/huihui-qwen3.5-9b-abliterated-ties-i1-gguf
+  - key: mradermacher/Huihui-Qwen3.5-9B-abliterated-TIES-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Huihui-Qwen3.5-9B-abliterated-TIES-i1-GGUF
-  - key: mradermacher/qwen3.5-9b-yoyo-thinking-i1-gguf
+  - key: mradermacher/Qwen3.5-9B-YOYO-Thinking-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-9B-YOYO-Thinking-i1-GGUF
-  - key: mradermacher/gliese-qwen3.5-9b-abliterated-caption-gguf
+  - key: mradermacher/Gliese-Qwen3.5-9B-Abliterated-Caption-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Gliese-Qwen3.5-9B-Abliterated-Caption-GGUF
-  - key: mradermacher/qwen3.5-9b-medreasoning-dt-i1-gguf
+  - key: mradermacher/Qwen3.5-9B-MedReasoning-DT-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-9B-MedReasoning-DT-i1-GGUF
-  - key: mradermacher/huihui-qwen3.5-9b-abliterated-grimoire-dpo-i1-gguf
+  - key: mradermacher/Huihui-Qwen3.5-9B-abliterated-Grimoire-DPO-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Huihui-Qwen3.5-9B-abliterated-Grimoire-DPO-i1-GGUF
-  - key: ngixdev/omnicoder-qwen3.5-9b-claude-4.6-opus-uncensored-v2-gguf
+  - key: Ngixdev/OmniCoder-Qwen3.5-9B-Claude-4.6-Opus-Uncensored-v2-GGUF
     sources:
       - type: huggingface
         user: Ngixdev
         repo: OmniCoder-Qwen3.5-9B-Claude-4.6-Opus-Uncensored-v2-GGUF
-  - key: mradermacher/agent-qwen3.5-9b-claude-4.6-opus-abliterated-heretic-i1-gguf
+  - key: mradermacher/agent-Qwen3.5-9B-Claude-4.6-Opus-abliterated-heretic-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: agent-Qwen3.5-9B-Claude-4.6-Opus-abliterated-heretic-i1-GGUF
-  - key: mradermacher/qwen3.5-9b-yoyo-instruct-i1-gguf
+  - key: mradermacher/Qwen3.5-9B-YOYO-Instruct-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-9B-YOYO-Instruct-i1-GGUF
-  - key: mradermacher/qwen3.5-9b-deepseek-3.2-intense-auto-variable-thinking-i1-gguf
+  - key: mradermacher/Qwen3.5-9B-DeepSeek-3.2-Intense-Auto-Variable-Thinking-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-9B-DeepSeek-3.2-Intense-Auto-Variable-Thinking-i1-GGUF
-  - key: djlougen/qwen3.5-9b-harmonic-gguf
+  - key: DJLougen/Qwen3.5-9B-Harmonic-GGUF
     sources:
       - type: huggingface
         user: DJLougen
         repo: Qwen3.5-9B-Harmonic-GGUF
-  - key: mradermacher/qwen3.5-9b-base-thoughtful-interiority-i1-gguf
+  - key: mradermacher/Qwen3.5-9B-Base-Thoughtful-Interiority-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-9B-Base-Thoughtful-Interiority-i1-GGUF
-  - key: manojb/qwen3.5-9b-uncensored-hauhaucs-aggressive-q4_k_m.gguf
+  - key: Manojb/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive-Q4_K_M.gguf
     sources:
       - type: huggingface
         user: Manojb
         repo: Qwen3.5-9B-Uncensored-HauhauCS-Aggressive-Q4_K_M.gguf
-  - key: mradermacher/geollm-qwen3.5-9b-i1-gguf
+  - key: mradermacher/GeoLLM-Qwen3.5-9B-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: GeoLLM-Qwen3.5-9B-i1-GGUF
-  - key: mradermacher/qwen3.5-9b-nsfw-captioning-v2-gguf
+  - key: mradermacher/qwen3.5-9b-nsfw-captioning-v2-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: qwen3.5-9b-nsfw-captioning-v2-GGUF
-  - key: mradermacher/qwen3.5-9b-star-trek-tng-ds9-heretic-uncensored-thinking-i1-gguf
+  - key: mradermacher/Qwen3.5-9B-Star-Trek-TNG-DS9-Heretic-Uncensored-Thinking-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-9B-Star-Trek-TNG-DS9-Heretic-Uncensored-Thinking-i1-GGUF
-  - key: mradermacher/llmfan46-qwen3.5-9b-ultra-heretic-i1-gguf
+  - key: mradermacher/llmfan46-Qwen3.5-9B-ultra-heretic-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher

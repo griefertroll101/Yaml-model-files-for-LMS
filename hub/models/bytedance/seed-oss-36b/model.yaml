@@ -2,247 +2,247 @@
 # Learn more at https://modelyaml.org
 model: bytedance/seed-oss-36b
 base:
-  - key: mradermacher/seed-oss-36b-chat-i1-gguf
+  - key: mradermacher/seed-oss-36b-chat-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: seed-oss-36b-chat-i1-GGUF
-  - key: mradermacher/seed-oss-36b-instruct-heretic-i1-gguf
+  - key: mradermacher/Seed-OSS-36B-Instruct-heretic-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Seed-OSS-36B-Instruct-heretic-i1-GGUF
-  - key: lmstudio-community/seed-oss-36b-instruct-gguf
+  - key: lmstudio-community/Seed-OSS-36B-Instruct-GGUF
     sources:
       - type: huggingface
         user: lmstudio-community
         repo: Seed-OSS-36B-Instruct-GGUF
-  - key: mradermacher/smoothie-seed-oss-36b-instruct-i1-gguf
+  - key: mradermacher/Smoothie-Seed-OSS-36B-Instruct-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Smoothie-Seed-OSS-36B-Instruct-i1-GGUF
-  - key: giladgd/seed-oss-36b-instruct-gguf
+  - key: giladgd/Seed-OSS-36B-Instruct-GGUF
     sources:
       - type: huggingface
         user: giladgd
         repo: Seed-OSS-36B-Instruct-GGUF
-  - key: unsloth/seed-oss-36b-instruct-gguf
+  - key: unsloth/Seed-OSS-36B-Instruct-GGUF
     sources:
       - type: huggingface
         user: unsloth
         repo: Seed-OSS-36B-Instruct-GGUF
-  - key: mradermacher/seed-oss-36b-base-wosyn-i1-gguf
+  - key: mradermacher/Seed-OSS-36B-Base-woSyn-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Seed-OSS-36B-Base-woSyn-i1-GGUF
-  - key: mradermacher/seed-oss-36b-instruct-heretic-gguf
+  - key: mradermacher/Seed-OSS-36B-Instruct-heretic-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Seed-OSS-36B-Instruct-heretic-GGUF
-  - key: mradermacher/seed-oss-36b-erotic-i1-gguf
+  - key: mradermacher/Seed-OSS-36B-Erotic-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Seed-OSS-36B-Erotic-i1-GGUF
-  - key: mradermacher/seed-oss-36b-instruct-biprojected-norm-preserving-abliterated-i1-gguf
+  - key: mradermacher/Seed-OSS-36B-Instruct-biprojected-norm-preserving-abliterated-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Seed-OSS-36B-Instruct-biprojected-norm-preserving-abliterated-i1-GGUF
-  - key: bartowski/bytedance-seed_seed-oss-36b-instruct-gguf
+  - key: bartowski/ByteDance-Seed_Seed-OSS-36B-Instruct-GGUF
     sources:
       - type: huggingface
         user: bartowski
         repo: ByteDance-Seed_Seed-OSS-36B-Instruct-GGUF
-  - key: magiccodingman/seed-oss-36b-instruct-unsloth-magicquant-hybrid-gguf
+  - key: magiccodingman/Seed-OSS-36B-Instruct-unsloth-MagicQuant-Hybrid-GGUF
     sources:
       - type: huggingface
         user: magiccodingman
         repo: Seed-OSS-36B-Instruct-unsloth-MagicQuant-Hybrid-GGUF
-  - key: mradermacher/seed-oss-36b-erotic-gguf
+  - key: mradermacher/Seed-OSS-36B-Erotic-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Seed-OSS-36B-Erotic-GGUF
-  - key: mradermacher/seed-oss-36b-chat-gguf
+  - key: mradermacher/seed-oss-36b-chat-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: seed-oss-36b-chat-GGUF
-  - key: mradermacher/seed-oss-36b-instruct-abliterated-gguf
+  - key: mradermacher/Seed-OSS-36B-Instruct-abliterated-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Seed-OSS-36B-Instruct-abliterated-GGUF
-  - key: mradermacher/seed-oss-36b-instruct-biprojected-norm-preserving-abliterated-gguf
+  - key: mradermacher/Seed-OSS-36B-Instruct-biprojected-norm-preserving-abliterated-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Seed-OSS-36B-Instruct-biprojected-norm-preserving-abliterated-GGUF
-  - key: mradermacher/seed-oss-36b-instruct-abliterated-i1-gguf
+  - key: mradermacher/Seed-OSS-36B-Instruct-abliterated-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Seed-OSS-36B-Instruct-abliterated-i1-GGUF
-  - key: mradermacher/seed-oss-36b-base-instruct-karcher-merge-i1-gguf
+  - key: mradermacher/Seed-OSS-36B-Base-Instruct-Karcher-Merge-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Seed-OSS-36B-Base-Instruct-Karcher-Merge-i1-GGUF
-  - key: mradermacher/seed-oss-36b-instruct-i1-gguf
+  - key: mradermacher/Seed-OSS-36B-Instruct-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Seed-OSS-36B-Instruct-i1-GGUF
-  - key: altomek/seed-oss-36b-instruct-xxl-gguf
+  - key: altomek/Seed-OSS-36B-Instruct-XXL-GGUF
     sources:
       - type: huggingface
         user: altomek
         repo: Seed-OSS-36B-Instruct-XXL-GGUF
-  - key: yarikdevcom/seed-oss-36b-instruct-gguf
+  - key: yarikdevcom/Seed-OSS-36B-Instruct-GGUF
     sources:
       - type: huggingface
         user: yarikdevcom
         repo: Seed-OSS-36B-Instruct-GGUF
-  - key: mradermacher/seed-oss-36b-base-absolute-heresy-gguf
+  - key: mradermacher/Seed-OSS-36B-Base-absolute-heresy-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Seed-OSS-36B-Base-absolute-heresy-GGUF
-  - key: second-state/seed-oss-36b-instruct-gguf
+  - key: second-state/Seed-OSS-36B-Instruct-GGUF
     sources:
       - type: huggingface
         user: second-state
         repo: Seed-OSS-36B-Instruct-GGUF
-  - key: rdson/seed-oss-36b-instruct-gguf
+  - key: RDson/Seed-OSS-36B-Instruct-GGUF
     sources:
       - type: huggingface
         user: RDson
         repo: Seed-OSS-36B-Instruct-GGUF
-  - key: mradermacher/seed-oss-36b-instruct-gguf
+  - key: mradermacher/Seed-OSS-36B-Instruct-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Seed-OSS-36B-Instruct-GGUF
-  - key: eloyon/seed-oss-36b-erotic-q5_0-gguf
+  - key: EloyOn/Seed-OSS-36B-Erotic-Q5_0-GGUF
     sources:
       - type: huggingface
         user: EloyOn
         repo: Seed-OSS-36B-Erotic-Q5_0-GGUF
-  - key: yanlabs/seed-oss-36b-instruct-mpoa-gguf
+  - key: YanLabs/Seed-OSS-36B-Instruct-MPOA-GGUF
     sources:
       - type: huggingface
         user: YanLabs
         repo: Seed-OSS-36B-Instruct-MPOA-GGUF
-  - key: mradermacher/seed-oss-36b-base-instruct-karcher-merge-gguf
+  - key: mradermacher/Seed-OSS-36B-Base-Instruct-Karcher-Merge-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Seed-OSS-36B-Base-Instruct-Karcher-Merge-GGUF
-  - key: mradermacher/seed-oss-36b-base-absolute-heresy-i1-gguf
+  - key: mradermacher/Seed-OSS-36B-Base-absolute-heresy-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Seed-OSS-36B-Base-absolute-heresy-i1-GGUF
-  - key: gaianet/seed-oss-36b-instruct-gguf
+  - key: gaianet/Seed-OSS-36B-Instruct-GGUF
     sources:
       - type: huggingface
         user: gaianet
         repo: Seed-OSS-36B-Instruct-GGUF
-  - key: devquasar/bytedance-seed.seed-oss-36b-base-wosyn-gguf
+  - key: DevQuasar/ByteDance-Seed.Seed-OSS-36B-Base-woSyn-GGUF
     sources:
       - type: huggingface
         user: DevQuasar
         repo: ByteDance-Seed.Seed-OSS-36B-Base-woSyn-GGUF
-  - key: devquasar/bytedance-seed.seed-oss-36b-instruct-gguf
+  - key: DevQuasar/ByteDance-Seed.Seed-OSS-36B-Instruct-GGUF
     sources:
       - type: huggingface
         user: DevQuasar
         repo: ByteDance-Seed.Seed-OSS-36B-Instruct-GGUF
-  - key: jworks/seed-oss-36b-instruct-abliterated-gguf
+  - key: jworks/Seed-OSS-36B-Instruct-abliterated-GGUF
     sources:
       - type: huggingface
         user: jworks
         repo: Seed-OSS-36B-Instruct-abliterated-GGUF
-  - key: mradermacher/seed-oss-36b-base-gguf
+  - key: mradermacher/Seed-OSS-36B-Base-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Seed-OSS-36B-Base-GGUF
-  - key: mradermacher/seed-oss-36b-base-i1-gguf
+  - key: mradermacher/Seed-OSS-36B-Base-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Seed-OSS-36B-Base-i1-GGUF
-  - key: devquasar/bytedance-seed.seed-oss-36b-base-gguf
+  - key: DevQuasar/ByteDance-Seed.Seed-OSS-36B-Base-GGUF
     sources:
       - type: huggingface
         user: DevQuasar
         repo: ByteDance-Seed.Seed-OSS-36B-Base-GGUF
-  - key: openmose/rwkv-seed-oss-36b-hybrid-gguf
+  - key: OpenMOSE/RWKV-Seed-OSS-36B-Hybrid-GGUF
     sources:
       - type: huggingface
         user: OpenMOSE
         repo: RWKV-Seed-OSS-36B-Hybrid-GGUF
-  - key: gabriellarson/seed-oss-36b-instruct-gguf
+  - key: gabriellarson/Seed-OSS-36B-Instruct-GGUF
     sources:
       - type: huggingface
         user: gabriellarson
         repo: Seed-OSS-36B-Instruct-GGUF
-  - key: magiccodingman/seed-oss-36b-instruct-unsloth-mxfp4-hybrid-gguf
+  - key: magiccodingman/Seed-OSS-36B-Instruct-Unsloth-MXFP4-Hybrid-GGUF
     sources:
       - type: huggingface
         user: magiccodingman
         repo: Seed-OSS-36B-Instruct-Unsloth-MXFP4-Hybrid-GGUF
-  - key: drmcbride/seed-oss-36b-base-wosyn-q4_k_m-gguf
+  - key: drmcbride/Seed-OSS-36B-Base-woSyn-Q4_K_M-GGUF
     sources:
       - type: huggingface
         user: drmcbride
         repo: Seed-OSS-36B-Base-woSyn-Q4_K_M-GGUF
-  - key: mradermacher/seed-oss-36b-base-wosyn-gguf
+  - key: mradermacher/Seed-OSS-36B-Base-woSyn-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Seed-OSS-36B-Base-woSyn-GGUF
-  - key: mradermacher/smoothie-seed-oss-36b-instruct-gguf
+  - key: mradermacher/Smoothie-Seed-OSS-36B-Instruct-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Smoothie-Seed-OSS-36B-Instruct-GGUF
-  - key: dinerburger/seed-oss-36b-instruct-llamaified-ik-gguf
+  - key: dinerburger/Seed-OSS-36B-Instruct-LLAMAIFIED-ik-GGUF
     sources:
       - type: huggingface
         user: dinerburger
         repo: Seed-OSS-36B-Instruct-LLAMAIFIED-ik-GGUF
-  - key: yanlabs/seed-oss-36b-instruct-mpoa-v1-gguf
+  - key: YanLabs/Seed-OSS-36B-Instruct-MPOA-v1-GGUF
     sources:
       - type: huggingface
         user: YanLabs
         repo: Seed-OSS-36B-Instruct-MPOA-v1-GGUF
-  - key: mradermacher/seed-oss-36b-instruct-mpoa-v1-i1-gguf
+  - key: mradermacher/Seed-OSS-36B-Instruct-MPOA-v1-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Seed-OSS-36B-Instruct-MPOA-v1-i1-GGUF
-  - key: lovedheart/seed-oss-36b-instruct-gguf
+  - key: lovedheart/Seed-OSS-36B-Instruct-GGUF
     sources:
       - type: huggingface
         user: lovedheart
         repo: Seed-OSS-36B-Instruct-GGUF
-  - key: headofcatering/seed-oss-36b-base-instruct-karcher-merge-q5_k_m-gguf
+  - key: Headofcatering/Seed-OSS-36B-Base-Instruct-Karcher-Merge-Q5_K_M-GGUF
     sources:
       - type: huggingface
         user: Headofcatering
         repo: Seed-OSS-36B-Base-Instruct-Karcher-Merge-Q5_K_M-GGUF
-  - key: mradermacher/seed-oss-36b-instruct-mpoa-v1-gguf
+  - key: mradermacher/Seed-OSS-36B-Instruct-MPOA-v1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Seed-OSS-36B-Instruct-MPOA-v1-GGUF
-  - key: guodayang/seed-oss-36b-instruct-q8_0-gguf
+  - key: guodayang/Seed-OSS-36B-Instruct-Q8_0-GGUF
     sources:
       - type: huggingface
         user: guodayang

@@ -7,12 +7,12 @@ base:
       - type: huggingface
         user: NousResearch
         repo: Hermes-4-14B-GGUF
-  - key: mradermacher/hermes-4-14b-bf16-abliterated-gguf
+  - key: mradermacher/Hermes-4-14B-BF16-abliterated-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Hermes-4-14B-BF16-abliterated-GGUF
-  - key: gabriellarson/hermes-4-14b-gguf
+  - key: gabriellarson/Hermes-4-14B-GGUF
     sources:
       - type: huggingface
         user: gabriellarson
@@ -27,57 +27,57 @@ base:
       - type: huggingface
         user: mradermacher
         repo: Hermes-4-14B-i11-GGUF
-  - key: mradermacher/hermes-4-14b-gguf
+  - key: mradermacher/Hermes-4-14B-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Hermes-4-14B-GGUF
-  - key: mungert/hermes-4-14b-gguf
+  - key: Mungert/Hermes-4-14B-GGUF
     sources:
       - type: huggingface
         user: Mungert
         repo: Hermes-4-14B-GGUF
-  - key: devquasar/nousresearch.hermes-4-14b-gguf
+  - key: DevQuasar/NousResearch.Hermes-4-14B-GGUF
     sources:
       - type: huggingface
         user: DevQuasar
         repo: NousResearch.Hermes-4-14B-GGUF
-  - key: nikolaykozloff/hermes-4-14b-q4_k_m-gguf
+  - key: NikolayKozloff/Hermes-4-14B-Q4_K_M-GGUF
     sources:
       - type: huggingface
         user: NikolayKozloff
         repo: Hermes-4-14B-Q4_K_M-GGUF
-  - key: macandchiz/hermes-4-14b-gguf
+  - key: macandchiz/Hermes-4-14B-GGUF
     sources:
       - type: huggingface
         user: macandchiz
         repo: Hermes-4-14B-GGUF
-  - key: n0kovo/hermes-4-14b-bf16-abliterated-q8_0-gguf
+  - key: n0kovo/Hermes-4-14B-BF16-abliterated-Q8_0-GGUF
     sources:
       - type: huggingface
         user: n0kovo
         repo: Hermes-4-14B-BF16-abliterated-Q8_0-GGUF
-  - key: nikolaykozloff/hermes-4-14b-q5_k_m-gguf
+  - key: NikolayKozloff/Hermes-4-14B-Q5_K_M-GGUF
     sources:
       - type: huggingface
         user: NikolayKozloff
         repo: Hermes-4-14B-Q5_K_M-GGUF
-  - key: nikolaykozloff/hermes-4-14b-q4_k_s-gguf
+  - key: NikolayKozloff/Hermes-4-14B-Q4_K_S-GGUF
     sources:
       - type: huggingface
         user: NikolayKozloff
         repo: Hermes-4-14B-Q4_K_S-GGUF
-  - key: sandlogictechnologies/hermes-4-14b-gguf
+  - key: SandLogicTechnologies/Hermes-4-14B-GGUF
     sources:
       - type: huggingface
         user: SandLogicTechnologies
         repo: Hermes-4-14B-GGUF
-  - key: n0kovo/hermes-4-14b-bf16-abliterated-q6_k-gguf
+  - key: n0kovo/Hermes-4-14B-BF16-abliterated-Q6_K-GGUF
     sources:
       - type: huggingface
         user: n0kovo
         repo: Hermes-4-14B-BF16-abliterated-Q6_K-GGUF
-  - key: gustav0-freind/hermes-4-14b-q4_k_m-gguf
+  - key: Gustav0-Freind/Hermes-4-14B-Q4_K_M-GGUF
     sources:
       - type: huggingface
         user: Gustav0-Freind
@@ -87,57 +87,57 @@ base:
       - type: huggingface
         user: mradermacher
         repo: SYNERGETIC_COGNITION_V1_Hermes-4-14B_v1-i11-GGUF
-  - key: tsorsdc/hermes-4-14b-gguf
+  - key: tsorsdc/Hermes-4-14B-GGUF
     sources:
       - type: huggingface
         user: tsorsdc
         repo: Hermes-4-14B-GGUF
-  - key: themindexpansionnetwork/synergetic_cognition_v1_hermes-4-14b_v1-q4_k_m-gguf
+  - key: TheMindExpansionNetwork/SYNERGETIC_COGNITION_V1_Hermes-4-14B_v1-Q4_K_M-GGUF
     sources:
       - type: huggingface
         user: TheMindExpansionNetwork
         repo: SYNERGETIC_COGNITION_V1_Hermes-4-14B_v1-Q4_K_M-GGUF
-  - key: mradermacher/hermes-4-14b-chat-template-retrain-gguf
+  - key: mradermacher/Hermes-4-14b-chat-template-retrain-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Hermes-4-14b-chat-template-retrain-GGUF
-  - key: nikolaykozloff/hermes-4-14b-q5_k_s-gguf
+  - key: NikolayKozloff/Hermes-4-14B-Q5_K_S-GGUF
     sources:
       - type: huggingface
         user: NikolayKozloff
         repo: Hermes-4-14B-Q5_K_S-GGUF
-  - key: imagilux/hermes-4-14b-q8_0.gguf
+  - key: Imagilux/Hermes-4-14B-Q8_0.gguf
     sources:
       - type: huggingface
         user: Imagilux
         repo: Hermes-4-14B-Q8_0.gguf
-  - key: mradermacher/synergetic_cognition_v1_hermes-4-14b_v1-gguf
+  - key: mradermacher/SYNERGETIC_COGNITION_V1_Hermes-4-14B_v1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: SYNERGETIC_COGNITION_V1_Hermes-4-14B_v1-GGUF
-  - key: bartowski/nousresearch_hermes-4-14b-gguf
+  - key: bartowski/NousResearch_Hermes-4-14B-GGUF
     sources:
       - type: huggingface
         user: bartowski
         repo: NousResearch_Hermes-4-14B-GGUF
-  - key: mradermacher/hermes-4-14b-i1-gguf
+  - key: mradermacher/Hermes-4-14B-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Hermes-4-14B-i1-GGUF
-  - key: mradermacher/hermes-4-14b-bf16-abliterated-i1-gguf
+  - key: mradermacher/Hermes-4-14B-BF16-abliterated-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Hermes-4-14B-BF16-abliterated-i1-GGUF
-  - key: mradermacher/synergetic_cognition_v1_hermes-4-14b_v1-i1-gguf
+  - key: mradermacher/SYNERGETIC_COGNITION_V1_Hermes-4-14B_v1-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: SYNERGETIC_COGNITION_V1_Hermes-4-14B_v1-i1-GGUF
-  - key: gnigguhface/hermes-4-14b-q8_0-gguf
+  - key: gnigguhface/Hermes-4-14B-Q8_0-GGUF
     sources:
       - type: huggingface
         user: gnigguhface

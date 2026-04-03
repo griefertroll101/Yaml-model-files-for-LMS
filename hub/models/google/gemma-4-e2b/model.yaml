@@ -2,66 +2,76 @@
 # Learn more at https://modelyaml.org
 model: google/gemma-4-e2b
 base:
-  - key: lmstudio-community/gemma-4-e2b-it-gguf
+  - key: lmstudio-community/gemma-4-E2B-it-GGUF
     sources:
       - type: huggingface
         user: lmstudio-community
         repo: gemma-4-E2B-it-GGUF
-  - key: unsloth/gemma-4-e2b-it-gguf
+  - key: unsloth/gemma-4-E2B-it-GGUF
     sources:
       - type: huggingface
         user: unsloth
         repo: gemma-4-E2B-it-GGUF
-  - key: ggml-org/gemma-4-e2b-it-gguf
+  - key: ggml-org/gemma-4-E2B-it-GGUF
     sources:
       - type: huggingface
         user: ggml-org
         repo: gemma-4-E2B-it-GGUF
-  - key: bartowski/google_gemma-4-e2b-it-gguf
+  - key: bartowski/google_gemma-4-E2B-it-GGUF
     sources:
       - type: huggingface
         user: bartowski
         repo: google_gemma-4-E2B-it-GGUF
-  - key: chatpdflocal/gemma-4-e2b-it-gguf
+  - key: chatpdflocal/gemma-4-E2B-it-GGUF
     sources:
       - type: huggingface
         user: chatpdflocal
         repo: gemma-4-E2B-it-GGUF
-  - key: smoffyy/gemma4-e2b-instruct-pure-gguf
+  - key: Smoffyy/Gemma4-E2B-Instruct-Pure-GGUF
     sources:
       - type: huggingface
         user: Smoffyy
         repo: Gemma4-E2B-Instruct-Pure-GGUF
-  - key: trilogix1/gemma-4-e2b-it-gguf
+  - key: Trilogix1/gemma-4-E2B-it-GGUF
     sources:
       - type: huggingface
         user: Trilogix1
         repo: gemma-4-E2B-it-GGUF
-  - key: hauhaucs/gemma-4-e2b-uncensored-hauhaucs-aggressive
+  - key: HauhauCS/Gemma-4-E2B-Uncensored-HauhauCS-Aggressive
     sources:
       - type: huggingface
         user: HauhauCS
         repo: Gemma-4-E2B-Uncensored-HauhauCS-Aggressive
-  - key: kamjin/gemma-4-e2b-uncensored-hauhaucs-aggressive
+  - key: kamjin/Gemma-4-E2B-Uncensored-HauhauCS-Aggressive
     sources:
       - type: huggingface
         user: kamjin
         repo: Gemma-4-E2B-Uncensored-HauhauCS-Aggressive
-  - key: prithivmlmods/gemma-4-e2b-it-f32-gguf
+  - key: prithivMLmods/gemma-4-E2B-it-F32-GGUF
     sources:
       - type: huggingface
         user: prithivMLmods
         repo: gemma-4-E2B-it-F32-GGUF
-  - key: armand0e/gemma-4-e2b-it-claude-opus-distill-gguf
+  - key: armand0e/gemma-4-E2B-it-Claude-Opus-Distill-GGUF
     sources:
       - type: huggingface
         user: armand0e
         repo: gemma-4-E2B-it-Claude-Opus-Distill-GGUF
-  - key: ayodele01/gemma-4-e2b-gemini-3.1-pro-reasoning-distill-gguf
+  - key: Ayodele01/gemma-4-E2B-Gemini-3.1-Pro-Reasoning-Distill-GGUF
     sources:
       - type: huggingface
         user: Ayodele01
         repo: gemma-4-E2B-Gemini-3.1-Pro-Reasoning-Distill-GGUF
+  - key: tatsuyaaaaaaa/gemma-4-E2B-it-gguf
+    sources:
+      - type: huggingface
+        user: tatsuyaaaaaaa
+        repo: gemma-4-E2B-it-gguf
+  - key: tatsuyaaaaaaa/gemma-4-E2B-gguf
+    sources:
+      - type: huggingface
+        user: tatsuyaaaaaaa
+        repo: gemma-4-E2B-gguf
 config:
   operation:
     fields:

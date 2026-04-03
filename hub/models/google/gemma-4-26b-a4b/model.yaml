@@ -2,57 +2,57 @@
 # Learn more at https://modelyaml.org
 model: google/gemma-4-26b-a4b
 base:
-  - key: lmstudio-community/gemma-4-26b-a4b-it-gguf
+  - key: lmstudio-community/gemma-4-26B-A4B-it-GGUF
     sources:
       - type: huggingface
         user: lmstudio-community
         repo: gemma-4-26B-A4B-it-GGUF
-  - key: unsloth/gemma-4-26b-a4b-it-gguf
+  - key: unsloth/gemma-4-26B-A4B-it-GGUF
     sources:
       - type: huggingface
         user: unsloth
         repo: gemma-4-26B-A4B-it-GGUF
-  - key: ggml-org/gemma-4-26b-a4b-it-gguf
+  - key: ggml-org/gemma-4-26B-A4B-it-GGUF
     sources:
       - type: huggingface
         user: ggml-org
         repo: gemma-4-26B-A4B-it-GGUF
-  - key: nohurry/gemma-4-26b-a4b-it-heretic-guff
+  - key: nohurry/gemma-4-26B-A4B-it-heretic-GUFF
     sources:
       - type: huggingface
         user: nohurry
         repo: gemma-4-26B-A4B-it-heretic-GUFF
-  - key: bartowski/google_gemma-4-26b-a4b-it-gguf
+  - key: bartowski/google_gemma-4-26B-A4B-it-GGUF
     sources:
       - type: huggingface
         user: bartowski
         repo: google_gemma-4-26B-A4B-it-GGUF
-  - key: noctrex/gemma-4-26b-a4b-it-mxfp4_moe-gguf
+  - key: noctrex/gemma-4-26B-A4B-it-MXFP4_MOE-GGUF
     sources:
       - type: huggingface
         user: noctrex
         repo: gemma-4-26B-A4B-it-MXFP4_MOE-GGUF
-  - key: trilogix1/gemma-4-26b-a4b-it-gguf
+  - key: Trilogix1/gemma-4-26B-A4B-it-GGUF
     sources:
       - type: huggingface
         user: Trilogix1
         repo: gemma-4-26B-A4B-it-GGUF
-  - key: mudler/gemma-4-26b-a4b-it-apex-gguf
+  - key: mudler/gemma-4-26B-A4B-it-APEX-GGUF
     sources:
       - type: huggingface
         user: mudler
         repo: gemma-4-26B-A4B-it-APEX-GGUF
-  - key: devquasar/google.gemma-4-26b-a4b-it-gguf
+  - key: DevQuasar/google.gemma-4-26B-A4B-it-GGUF
     sources:
       - type: huggingface
         user: DevQuasar
         repo: google.gemma-4-26B-A4B-it-GGUF
-  - key: jjjunho/gemma-4-26b-a4b-gguf
+  - key: jjjunho/gemma-4-26B-A4B-GGUF
     sources:
       - type: huggingface
         user: jjjunho
         repo: gemma-4-26B-A4B-gguf
-  - key: jjjunho/gemma-4-26b-a4b-it-gguf
+  - key: jjjunho/gemma-4-26B-A4B-it-GGUF
     sources:
       - type: huggingface
         user: jjjunho
@@ -62,12 +62,12 @@ base:
       - type: huggingface
         user: hbdbdbd
         repo: gemma-4-26B-A4B-it-heretic-ara-gguf
-  - key: ccssne/gemma-4-26b-a4b-it-heretic-ara-gguf
+  - key: CCSSNE/gemma-4-26B-A4B-it-heretic-ara-gguf
     sources:
       - type: huggingface
         user: CCSSNE
         repo: gemma-4-26B-A4B-it-heretic-ara-gguf
-  - key: qwe1325/gemma-4-26b-a4b-it-heretic-ara-lora
+  - key: Qwe1325/gemma-4-26B-A4B-it-heretic-ara-lora
     sources:
       - type: huggingface
         user: Qwe1325
@@ -77,7 +77,7 @@ base:
       - type: huggingface
         user: tianrui6641
         repo: gemma-4-26b-a4b-gguf-mxfp4-moe
-  - key: prithivmlmods/gemma-4-26b-a4b-it-f32-gguf
+  - key: prithivMLmods/gemma-4-26B-A4B-it-F32-GGUF
     sources:
       - type: huggingface
         user: prithivMLmods

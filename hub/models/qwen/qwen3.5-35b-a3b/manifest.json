@@ -1,0 +1,22 @@
+{
+  "type": "model",
+  "owner": "qwen",
+  "name": "qwen3.5-35b-a3b",
+  "dependencies": [
+    {
+      "type": "model",
+      "purpose": "baseModel",
+      "modelKeys": [
+        "lmstudio-community/qwen3.5-35b-a3b-gguf"
+      ],
+      "sources": [
+        {
+          "type": "huggingface",
+          "user": "lmstudio-community",
+          "repo": "Qwen3.5-35B-A3B-GGUF"
+        }
+      ]
+    }
+  ],
+  "revision": 1
+}

@@ -2,47 +2,47 @@
 # Learn more at https://modelyaml.org
 model: nousresearch/hermes-4-70b
 base:
-  - key: mradermacher/hermes-4-70b-heretic-i1-gguf
+  - key: mradermacher/Hermes-4-70B-heretic-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Hermes-4-70B-heretic-i1-GGUF
-  - key: mradermacher/hermes-4-70b-heretic-gguf
+  - key: mradermacher/Hermes-4-70B-heretic-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Hermes-4-70B-heretic-GGUF
-  - key: mradermacher/hermes-4-70b-i1-gguf
+  - key: mradermacher/Hermes-4-70B-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Hermes-4-70B-i1-GGUF
-  - key: devquasar/nousresearch.hermes-4-70b-gguf
+  - key: DevQuasar/NousResearch.Hermes-4-70B-GGUF
     sources:
       - type: huggingface
         user: DevQuasar
         repo: NousResearch.Hermes-4-70B-GGUF
-  - key: macandchiz/hermes-4-70b-gguf
+  - key: macandchiz/Hermes-4-70B-GGUF
     sources:
       - type: huggingface
         user: macandchiz
         repo: Hermes-4-70B-GGUF
-  - key: mradermacher/hermes-4-70b-gguf
+  - key: mradermacher/Hermes-4-70B-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Hermes-4-70B-GGUF
-  - key: unsloth/hermes-4-70b-gguf
+  - key: unsloth/Hermes-4-70B-GGUF
     sources:
       - type: huggingface
         user: unsloth
         repo: Hermes-4-70B-GGUF
-  - key: bartowski/nousresearch_hermes-4-70b-gguf
+  - key: bartowski/NousResearch_Hermes-4-70B-GGUF
     sources:
       - type: huggingface
         user: bartowski
         repo: NousResearch_Hermes-4-70B-GGUF
-  - key: lmstudio-community/hermes-4-70b-gguf
+  - key: lmstudio-community/Hermes-4-70B-GGUF
     sources:
       - type: huggingface
         user: lmstudio-community

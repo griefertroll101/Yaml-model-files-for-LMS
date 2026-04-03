@@ -2,487 +2,487 @@
 # Learn more at https://modelyaml.org
 model: qwen/qwen3.5-122b-a10b
 base:
-  - key: unsloth/qwen3.5-122b-a10b-gguf
+  - key: unsloth/Qwen3.5-122B-A10B-GGUF
     sources:
       - type: huggingface
         user: unsloth
         repo: Qwen3.5-122B-A10B-GGUF
-  - key: mradermacher/qwen3.5-122b-a10b-heretic-i1-gguf
+  - key: mradermacher/Qwen3.5-122B-A10B-heretic-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-122B-A10B-heretic-i1-GGUF
-  - key: bartowski/qwen_qwen3.5-122b-a10b-gguf
+  - key: bartowski/Qwen_Qwen3.5-122B-A10B-GGUF
     sources:
       - type: huggingface
         user: bartowski
         repo: Qwen_Qwen3.5-122B-A10B-GGUF
-  - key: mradermacher/qwen3.5-122b-a10b-i1-gguf
+  - key: mradermacher/Qwen3.5-122B-A10B-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-122B-A10B-i1-GGUF
-  - key: mungert/qwen3.5-122b-a10b-gguf
+  - key: Mungert/Qwen3.5-122B-A10B-GGUF
     sources:
       - type: huggingface
         user: Mungert
         repo: Qwen3.5-122B-A10B-GGUF
-  - key: lmstudio-community/qwen3.5-122b-a10b-gguf
+  - key: lmstudio-community/Qwen3.5-122B-A10B-GGUF
     sources:
       - type: huggingface
         user: lmstudio-community
         repo: Qwen3.5-122B-A10B-GGUF
-  - key: aessedai/qwen3.5-122b-a10b-gguf
+  - key: AesSedai/Qwen3.5-122B-A10B-GGUF
     sources:
       - type: huggingface
         user: AesSedai
         repo: Qwen3.5-122B-A10B-GGUF
-  - key: ubergarm/qwen3.5-122b-a10b-gguf
+  - key: ubergarm/Qwen3.5-122B-A10B-GGUF
     sources:
       - type: huggingface
         user: ubergarm
         repo: Qwen3.5-122B-A10B-GGUF
-  - key: mradermacher/qwen3.5-122b-a10b-heretic-gguf
+  - key: mradermacher/Qwen3.5-122B-A10B-heretic-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-122B-A10B-heretic-GGUF
-  - key: tybuddy/qwen3.5-122b-a10b-gguf-archived
+  - key: tybuddy/Qwen3.5-122B-A10B-GGUF-archived
     sources:
       - type: huggingface
         user: tybuddy
         repo: Qwen3.5-122B-A10B-GGUF-archived
-  - key: tnt3530/qwen3.5-122b-a10b-abliterated-gguf
+  - key: TNT3530/Qwen3.5-122B-A10B-abliterated-GGUF
     sources:
       - type: huggingface
         user: TNT3530
         repo: Qwen3.5-122B-A10B-abliterated-GGUF
-  - key: sabomako/qwen3.5-122b-a10b-heretic-gguf
+  - key: Sabomako/Qwen3.5-122B-A10B-heretic-GGUF
     sources:
       - type: huggingface
         user: Sabomako
         repo: Qwen3.5-122B-A10B-heretic-GGUF
-  - key: mradermacher/qwen3.5-122b-a10b-gguf
+  - key: mradermacher/Qwen3.5-122B-A10B-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-122B-A10B-GGUF
-  - key: noctrex/qwen3.5-122b-a10b-mxfp4_moe-gguf
+  - key: noctrex/Qwen3.5-122B-A10B-MXFP4_MOE-GGUF
     sources:
       - type: huggingface
         user: noctrex
         repo: Qwen3.5-122B-A10B-MXFP4_MOE-GGUF
-  - key: ex0bit/qwen3.5-122b-a10b-prism-lite-gguf
+  - key: Ex0bit/Qwen3.5-122B-A10B-PRISM-LITE-GGUF
     sources:
       - type: huggingface
         user: Ex0bit
         repo: Qwen3.5-122B-A10B-PRISM-LITE-GGUF
-  - key: devquasar/qwen.qwen3.5-122b-a10b-gguf
+  - key: DevQuasar/Qwen.Qwen3.5-122B-A10B-GGUF
     sources:
       - type: huggingface
         user: DevQuasar
         repo: Qwen.Qwen3.5-122B-A10B-GGUF
-  - key: beinsezii/qwen3.5-122b-a10b-gguf-halo
+  - key: Beinsezii/Qwen3.5-122B-A10B-GGUF-HALO
     sources:
       - type: huggingface
         user: Beinsezii
         repo: Qwen3.5-122B-A10B-GGUF-HALO
-  - key: ex0bit/qwen3.5-122b-a10b-prism-pro-gguf
+  - key: Ex0bit/Qwen3.5-122B-A10B-PRISM-PRO-GGUF
     sources:
       - type: huggingface
         user: Ex0bit
         repo: Qwen3.5-122B-A10B-PRISM-PRO-GGUF
-  - key: mradermacher/qwen3.5-122b-a10b-abliterated-gguf
+  - key: mradermacher/Qwen3.5-122B-A10B-abliterated-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-122B-A10B-abliterated-GGUF
-  - key: mradermacher/qwen3.5-122b-a10b-abliterated-i1-gguf
+  - key: mradermacher/Qwen3.5-122B-A10B-abliterated-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-122B-A10B-abliterated-i1-GGUF
-  - key: hauhaucs/qwen3.5-122b-a10b-uncensored-hauhaucs-aggressive
+  - key: HauhauCS/Qwen3.5-122B-A10B-Uncensored-HauhauCS-Aggressive
     sources:
       - type: huggingface
         user: HauhauCS
         repo: Qwen3.5-122B-A10B-Uncensored-HauhauCS-Aggressive
-  - key: geoffmunn/qwen3.5-122b-a10b-f16
+  - key: geoffmunn/Qwen3.5-122B-A10B-f16
     sources:
       - type: huggingface
         user: geoffmunn
         repo: Qwen3.5-122B-A10B-f16
-  - key: mradermacher/qwen3.5-122b-a10b-heretic-v2-i1-gguf
+  - key: mradermacher/Qwen3.5-122B-A10B-heretic-v2-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-122B-A10B-heretic-v2-i1-GGUF
-  - key: mradermacher/qwen3.5-122b-a10b-abliterated-v1-i1-gguf
+  - key: mradermacher/Qwen3.5-122B-A10B-abliterated-v1-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-122B-A10B-abliterated-v1-i1-GGUF
-  - key: mradermacher/qwen3.5-122b-a10b-heretic-v2-gguf
+  - key: mradermacher/Qwen3.5-122B-A10B-heretic-v2-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-122B-A10B-heretic-v2-GGUF
-  - key: huihui-ai/huihui-qwen3.5-122b-a10b-abliterated-gguf
+  - key: huihui-ai/Huihui-Qwen3.5-122B-A10B-abliterated-GGUF
     sources:
       - type: huggingface
         user: huihui-ai
         repo: Huihui-Qwen3.5-122B-A10B-abliterated-GGUF
-  - key: danyda/unsloth_qwen3.5-122b-a10b-gguf_ud-iq4_xs-gguf-split
+  - key: DanyDA/unsloth_Qwen3.5-122B-A10B-GGUF_UD-IQ4_XS-GGUF-SPLIT
     sources:
       - type: huggingface
         user: DanyDA
         repo: unsloth_Qwen3.5-122B-A10B-GGUF_UD-IQ4_XS-GGUF-SPLIT
-  - key: mradermacher/qwen3.5-122b-a10b-abliterated-v1-gguf
+  - key: mradermacher/Qwen3.5-122B-A10B-abliterated-v1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-122B-A10B-abliterated-v1-GGUF
-  - key: zihuiliu7737/qwen3.5-122b-a10b-uncensored-hauhaucs-aggressive
+  - key: zihuiliu7737/Qwen3.5-122B-A10B-Uncensored-HauhauCS-Aggressive
     sources:
       - type: huggingface
         user: zihuiliu7737
         repo: Qwen3.5-122B-A10B-Uncensored-HauhauCS-Aggressive
-  - key: keinniemand/qwen3.5-122b-a10b-ik_gguf
+  - key: KeinNiemand/Qwen3.5-122B-A10B-IK_GGUF
     sources:
       - type: huggingface
         user: KeinNiemand
         repo: Qwen3.5-122B-A10B-IK_GGUF
-  - key: manuelznnmc/qwen3.5-122b-a10b-uncensored-hauhaucs-aggressive
+  - key: ManuelZnnmc/Qwen3.5-122B-A10B-Uncensored-HauhauCS-Aggressive
     sources:
       - type: huggingface
         user: ManuelZnnmc
         repo: Qwen3.5-122B-A10B-Uncensored-HauhauCS-Aggressive
-  - key: ccssne/hauhaucs-qwen3.5-122b-a10b-uncensored-hauhaucs-aggressive
+  - key: CCSSNE/HauhauCS-Qwen3.5-122B-A10B-Uncensored-HauhauCS-Aggressive
     sources:
       - type: huggingface
         user: CCSSNE
         repo: HauhauCS-Qwen3.5-122B-A10B-Uncensored-HauhauCS-Aggressive
-  - key: botp/qwen3.5-122b-a10b-uncensored-hauhaucs-aggressive
+  - key: botp/Qwen3.5-122B-A10B-Uncensored-HauhauCS-Aggressive
     sources:
       - type: huggingface
         user: botp
         repo: Qwen3.5-122B-A10B-Uncensored-HauhauCS-Aggressive
-  - key: grapev-ai/qwen3.5-122b-a10b-gguf
+  - key: grapeV-ai/Qwen3.5-122B-A10B-GGUF
     sources:
       - type: huggingface
         user: grapeV-ai
         repo: Qwen3.5-122B-A10B-GGUF
-  - key: trilogix1/qwen3.5-122b-a10b-abliterated-gguf
+  - key: Trilogix1/Qwen3.5-122B-A10B-abliterated-GGUF
     sources:
       - type: huggingface
         user: Trilogix1
         repo: Qwen3.5-122B-A10B-abliterated-GGUF
-  - key: jacehoi/qwen3.5-122b-a10b-gguf
+  - key: jacehoi/Qwen3.5-122B-A10B-GGUF
     sources:
       - type: huggingface
         user: jacehoi
         repo: Qwen3.5-122B-A10B-GGUF
-  - key: volko76/qwen3.5-122b-a10b-ud-iq4_xs-gguf-merged
+  - key: Volko76/Qwen3.5-122B-A10B-UD-IQ4_XS-GGUF-MERGED
     sources:
       - type: huggingface
         user: Volko76
         repo: Qwen3.5-122B-A10B-UD-IQ4_XS-GGUF-MERGED
-  - key: intel/qwen3.5-122b-a10b-gguf-q2ks-mixed-autoround
+  - key: Intel/Qwen3.5-122B-A10B-gguf-q2ks-mixed-AutoRound
     sources:
       - type: huggingface
         user: Intel
         repo: Qwen3.5-122B-A10B-gguf-q2ks-mixed-AutoRound
-  - key: timteh673/qwen3.5-122b-a10b-opus-reasoning-gguf
+  - key: timteh673/Qwen3.5-122B-A10B-Opus-Reasoning-GGUF
     sources:
       - type: huggingface
         user: timteh673
         repo: Qwen3.5-122B-A10B-Opus-Reasoning-GGUF
-  - key: thireus/qwen3.5-122b-a10b-thireus-iq1_kt-special_split
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-IQ1_KT-SPECIAL_SPLIT
     sources:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-122B-A10B-THIREUS-IQ1_KT-SPECIAL_SPLIT
-  - key: atanas1/qwen3.5-122b-a10b-abliterated-v2-gguf
+  - key: atanas1/Qwen3.5-122B-A10B-abliterated-v2-GGUF
     sources:
       - type: huggingface
         user: atanas1
         repo: Qwen3.5-122B-A10B-abliterated-v2-GGUF
-  - key: edurubina/huihui-qwen3.5-122b-a10b-abliterated-gguf
+  - key: edurubina/Huihui-Qwen3.5-122B-A10B-abliterated-GGUF
     sources:
       - type: huggingface
         user: edurubina
         repo: Huihui-Qwen3.5-122B-A10B-abliterated-GGUF
-  - key: thireus/qwen3.5-122b-a10b-thireus-bf16-special_split
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-BF16-SPECIAL_SPLIT
     sources:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-122B-A10B-THIREUS-BF16-SPECIAL_SPLIT
-  - key: jaromer/qwen3.5-122b-a10b-uncensored-hauhaucs-aggressive
+  - key: jaromer/Qwen3.5-122B-A10B-Uncensored-HauhauCS-Aggressive
     sources:
       - type: huggingface
         user: jaromer
         repo: Qwen3.5-122B-A10B-Uncensored-HauhauCS-Aggressive
-  - key: gbrennon/qwen3.5-122b-a10b-uncensored-hauhaucs-aggressive
+  - key: gbrennon/Qwen3.5-122B-A10B-Uncensored-HauhauCS-Aggressive
     sources:
       - type: huggingface
         user: gbrennon
         repo: Qwen3.5-122B-A10B-Uncensored-HauhauCS-Aggressive
-  - key: thireus/qwen3.5-122b-a10b-thireus-iq1_s_r4-special_split
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-IQ1_S_R4-SPECIAL_SPLIT
     sources:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-122B-A10B-THIREUS-IQ1_S_R4-SPECIAL_SPLIT
-  - key: thireus/qwen3.5-122b-a10b-thireus-iq5_ks-special_split
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-IQ5_KS-SPECIAL_SPLIT
     sources:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-122B-A10B-THIREUS-IQ5_KS-SPECIAL_SPLIT
-  - key: thireus/qwen3.5-122b-a10b-thireus-iq2_kt-special_split
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-IQ2_KT-SPECIAL_SPLIT
     sources:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-122B-A10B-THIREUS-IQ2_KT-SPECIAL_SPLIT
-  - key: thireus/qwen3.5-122b-a10b-thireus-iq4_kt-special_split
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-IQ4_KT-SPECIAL_SPLIT
     sources:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-122B-A10B-THIREUS-IQ4_KT-SPECIAL_SPLIT
-  - key: thireus/qwen3.5-122b-a10b-thireus-iq1_m_r4-special_split
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-IQ1_M_R4-SPECIAL_SPLIT
     sources:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-122B-A10B-THIREUS-IQ1_M_R4-SPECIAL_SPLIT
-  - key: thireus/qwen3.5-122b-a10b-thireus-iq2_ks-special_split
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-IQ2_KS-SPECIAL_SPLIT
     sources:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-122B-A10B-THIREUS-IQ2_KS-SPECIAL_SPLIT
-  - key: thireus/qwen3.5-122b-a10b-thireus-iq3_ks-special_split
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-IQ3_KS-SPECIAL_SPLIT
     sources:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-122B-A10B-THIREUS-IQ3_KS-SPECIAL_SPLIT
-  - key: thireus/qwen3.5-122b-a10b-thireus-iq3_kt-special_split
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-IQ3_KT-SPECIAL_SPLIT
     sources:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-122B-A10B-THIREUS-IQ3_KT-SPECIAL_SPLIT
-  - key: thireus/qwen3.5-122b-a10b-thireus-iq2_kl-special_split
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-IQ2_KL-SPECIAL_SPLIT
     sources:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-122B-A10B-THIREUS-IQ2_KL-SPECIAL_SPLIT
-  - key: thireus/qwen3.5-122b-a10b-thireus-iq4_kss-special_split
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-IQ4_KSS-SPECIAL_SPLIT
     sources:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-122B-A10B-THIREUS-IQ4_KSS-SPECIAL_SPLIT
-  - key: thireus/qwen3.5-122b-a10b-thireus-iq2_bn_r4-special_split
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-IQ2_BN_R4-SPECIAL_SPLIT
     sources:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-122B-A10B-THIREUS-IQ2_BN_R4-SPECIAL_SPLIT
-  - key: thireus/qwen3.5-122b-a10b-thireus-iq4_ks_r4-special_split
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-IQ4_KS_R4-SPECIAL_SPLIT
     sources:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-122B-A10B-THIREUS-IQ4_KS_R4-SPECIAL_SPLIT
-  - key: thireus/qwen3.5-122b-a10b-thireus-iq4_ks-special_split
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-IQ4_KS-SPECIAL_SPLIT
     sources:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-122B-A10B-THIREUS-IQ4_KS-SPECIAL_SPLIT
-  - key: thireus/qwen3.5-122b-a10b-thireus-iq5_ks_r4-special_split
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-IQ5_KS_R4-SPECIAL_SPLIT
     sources:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-122B-A10B-THIREUS-IQ5_KS_R4-SPECIAL_SPLIT
-  - key: thireus/qwen3.5-122b-a10b-thireus-iq2_bn-special_split
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-IQ2_BN-SPECIAL_SPLIT
     sources:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-122B-A10B-THIREUS-IQ2_BN-SPECIAL_SPLIT
-  - key: thireus/qwen3.5-122b-a10b-thireus-iq4_xs-special_split
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-IQ4_XS-SPECIAL_SPLIT
     sources:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-122B-A10B-THIREUS-IQ4_XS-SPECIAL_SPLIT
-  - key: thireus/qwen3.5-122b-a10b-thireus-iq3_k_r4-special_split
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-IQ3_K_R4-SPECIAL_SPLIT
     sources:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-122B-A10B-THIREUS-IQ3_K_R4-SPECIAL_SPLIT
-  - key: thireus/qwen3.5-122b-a10b-thireus-iq4_xs_r8-special_split
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-IQ4_XS_R8-SPECIAL_SPLIT
     sources:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-122B-A10B-THIREUS-IQ4_XS_R8-SPECIAL_SPLIT
-  - key: thireus/qwen3.5-122b-a10b-thireus-iq2_k_r4-special_split
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-IQ2_K_R4-SPECIAL_SPLIT
     sources:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-122B-A10B-THIREUS-IQ2_K_R4-SPECIAL_SPLIT
-  - key: thireus/qwen3.5-122b-a10b-thireus-iq3_k-special_split
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-IQ3_K-SPECIAL_SPLIT
     sources:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-122B-A10B-THIREUS-IQ3_K-SPECIAL_SPLIT
-  - key: thireus/qwen3.5-122b-a10b-thireus-iq4_k-special_split
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-IQ4_K-SPECIAL_SPLIT
     sources:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-122B-A10B-THIREUS-IQ4_K-SPECIAL_SPLIT
-  - key: rcorvohan/qwen3.5-122b-a10b-opus-reasoning-gguf
+  - key: rcorvohan/Qwen3.5-122B-A10B-Opus-Reasoning-GGUF
     sources:
       - type: huggingface
         user: rcorvohan
         repo: Qwen3.5-122B-A10B-Opus-Reasoning-GGUF
-  - key: thireus/qwen3.5-122b-a10b-thireus-iq2_s-special_split
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-IQ2_S-SPECIAL_SPLIT
     sources:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-122B-A10B-THIREUS-IQ2_S-SPECIAL_SPLIT
-  - key: thireus/qwen3.5-122b-a10b-thireus-iq1_bn-special_split
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-IQ1_BN-SPECIAL_SPLIT
     sources:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-122B-A10B-THIREUS-IQ1_BN-SPECIAL_SPLIT
-  - key: thireus/qwen3.5-122b-a10b-thireus-iq2_xs-special_split
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-IQ2_XS-SPECIAL_SPLIT
     sources:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-122B-A10B-THIREUS-IQ2_XS-SPECIAL_SPLIT
-  - key: thireus/qwen3.5-122b-a10b-thireus-iq2_xxs_r4-special_split
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-IQ2_XXS_R4-SPECIAL_SPLIT
     sources:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-122B-A10B-THIREUS-IQ2_XXS_R4-SPECIAL_SPLIT
-  - key: thireus/qwen3.5-122b-a10b-thireus-iq3_s-special_split
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-IQ3_S-SPECIAL_SPLIT
     sources:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-122B-A10B-THIREUS-IQ3_S-SPECIAL_SPLIT
-  - key: thireus/qwen3.5-122b-a10b-thireus-iq2_k-special_split
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-IQ2_K-SPECIAL_SPLIT
     sources:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-122B-A10B-THIREUS-IQ2_K-SPECIAL_SPLIT
-  - key: thireus/qwen3.5-122b-a10b-thireus-iq4_k_r4-special_split
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-IQ4_K_R4-SPECIAL_SPLIT
     sources:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-122B-A10B-THIREUS-IQ4_K_R4-SPECIAL_SPLIT
-  - key: thireus/qwen3.5-122b-a10b-thireus-iq2_xs_r4-special_split
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-IQ2_XS_R4-SPECIAL_SPLIT
     sources:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-122B-A10B-THIREUS-IQ2_XS_R4-SPECIAL_SPLIT
-  - key: thireus/qwen3.5-122b-a10b-thireus-iq3_xxs_r4-special_split
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-IQ3_XXS_R4-SPECIAL_SPLIT
     sources:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-122B-A10B-THIREUS-IQ3_XXS_R4-SPECIAL_SPLIT
-  - key: thireus/qwen3.5-122b-a10b-thireus-iq3_xxs-special_split
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-IQ3_XXS-SPECIAL_SPLIT
     sources:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-122B-A10B-THIREUS-IQ3_XXS-SPECIAL_SPLIT
-  - key: thireus/qwen3.5-122b-a10b-thireus-iq5_k_r4-special_split
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-IQ5_K_R4-SPECIAL_SPLIT
     sources:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-122B-A10B-THIREUS-IQ5_K_R4-SPECIAL_SPLIT
-  - key: thireus/qwen3.5-122b-a10b-thireus-iq3_s_r4-special_split
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-IQ3_S_R4-SPECIAL_SPLIT
     sources:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-122B-A10B-THIREUS-IQ3_S_R4-SPECIAL_SPLIT
-  - key: thireus/qwen3.5-122b-a10b-thireus-iq4_nl-special_split
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-IQ4_NL-SPECIAL_SPLIT
     sources:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-122B-A10B-THIREUS-IQ4_NL-SPECIAL_SPLIT
-  - key: thireus/qwen3.5-122b-a10b-thireus-iq2_xxs-special_split
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-IQ2_XXS-SPECIAL_SPLIT
     sources:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-122B-A10B-THIREUS-IQ2_XXS-SPECIAL_SPLIT
-  - key: wangzhang/qwen3.5-122b-a10b-abliterated-gguf
+  - key: wangzhang/Qwen3.5-122B-A10B-abliterated-GGUF
     sources:
       - type: huggingface
         user: wangzhang
         repo: Qwen3.5-122B-A10B-abliterated-GGUF
-  - key: kurtoi228chuvak/qwen3.5-122b-a10b-uncensored-hauhaucs-aggressive
+  - key: Kurtoi228Chuvak/Qwen3.5-122B-A10B-Uncensored-HauhauCS-Aggressive
     sources:
       - type: huggingface
         user: Kurtoi228Chuvak
         repo: Qwen3.5-122B-A10B-Uncensored-HauhauCS-Aggressive
-  - key: drros/qwen3.5-122b-a10b-nvfp4-gguf
+  - key: DrRos/Qwen3.5-122B-A10B-NVFP4-GGUF
     sources:
       - type: huggingface
         user: DrRos
         repo: Qwen3.5-122B-A10B-NVFP4-GGUF
-  - key: baa-ai/qwen3.5-122b-a10b-mint-128gb-gguf
+  - key: baa-ai/Qwen3.5-122B-A10B-MINT-128GB-GGUF
     sources:
       - type: huggingface
         user: baa-ai
         repo: Qwen3.5-122B-A10B-MINT-128GB-GGUF
-  - key: thireus/qwen3.5-122b-a10b-thireus-q6_k-special_split
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-Q6_K-SPECIAL_SPLIT
     sources:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-122B-A10B-THIREUS-Q6_K-SPECIAL_SPLIT
-  - key: thireus/qwen3.5-122b-a10b-thireus-q8_0_r8-special_split
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-Q8_0_R8-SPECIAL_SPLIT
     sources:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-122B-A10B-THIREUS-Q8_0_R8-SPECIAL_SPLIT
-  - key: thireus/qwen3.5-122b-a10b-thireus-q5_k_r4-special_split
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-Q5_K_R4-SPECIAL_SPLIT
     sources:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-122B-A10B-THIREUS-Q5_K_R4-SPECIAL_SPLIT
-  - key: thireus/qwen3.5-122b-a10b-thireus-q4_k_r4-special_split
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-Q4_K_R4-SPECIAL_SPLIT
     sources:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-122B-A10B-THIREUS-Q4_K_R4-SPECIAL_SPLIT
-  - key: thireus/qwen3.5-122b-a10b-thireus-q3_k-special_split
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-Q3_K-SPECIAL_SPLIT
     sources:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-122B-A10B-THIREUS-Q3_K-SPECIAL_SPLIT
-  - key: thireus/qwen3.5-122b-a10b-thireus-q2_k-special_split
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-Q2_K-SPECIAL_SPLIT
     sources:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-122B-A10B-THIREUS-Q2_K-SPECIAL_SPLIT
-  - key: thireus/qwen3.5-122b-a10b-thireus-iq1_s-special_split
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-IQ1_S-SPECIAL_SPLIT
     sources:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-122B-A10B-THIREUS-IQ1_S-SPECIAL_SPLIT
-  - key: thireus/qwen3.5-122b-a10b-thireus-q6_0_r4-special_split
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-Q6_0_R4-SPECIAL_SPLIT
     sources:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-122B-A10B-THIREUS-Q6_0_R4-SPECIAL_SPLIT
-  - key: thireus/qwen3.5-122b-a10b-thireus-q4_0_r8-special_split
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-Q4_0_R8-SPECIAL_SPLIT
     sources:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-122B-A10B-THIREUS-Q4_0_R8-SPECIAL_SPLIT
-  - key: thireus/qwen3.5-122b-a10b-thireus-q2_k_r4-special_split
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-Q2_K_R4-SPECIAL_SPLIT
     sources:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-122B-A10B-THIREUS-Q2_K_R4-SPECIAL_SPLIT
-  - key: thireus/qwen3.5-122b-a10b-thireus-q3_k_r4-special_split
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-Q3_K_R4-SPECIAL_SPLIT
     sources:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-122B-A10B-THIREUS-Q3_K_R4-SPECIAL_SPLIT
-  - key: thireus/qwen3.5-122b-a10b-thireus-q8_0-special_split
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-Q8_0-SPECIAL_SPLIT
     sources:
       - type: huggingface
         user: Thireus
@@ -502,17 +502,17 @@ base:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-122B-A10B-THIREUS-Q8_KV-SPECIAL_SPLIT
-  - key: kamjin/qwen3.5-122b-a10b-uncensored-hauhaucs-aggressive
+  - key: kamjin/Qwen3.5-122B-A10B-Uncensored-HauhauCS-Aggressive
     sources:
       - type: huggingface
         user: kamjin
         repo: Qwen3.5-122B-A10B-Uncensored-HauhauCS-Aggressive
-  - key: mudler/qwen3.5-122b-a10b-apex-gguf
+  - key: mudler/Qwen3.5-122B-A10B-APEX-GGUF
     sources:
       - type: huggingface
         user: mudler
         repo: Qwen3.5-122B-A10B-APEX-GGUF
-  - key: thireus/qwen3.5-122b-a10b-thireus-iq5_k-special_split
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-IQ5_K-SPECIAL_SPLIT
     sources:
       - type: huggingface
         user: Thireus
