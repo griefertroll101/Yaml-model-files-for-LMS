@@ -502,20 +502,21 @@ base:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-122B-A10B-THIREUS-Q8_KV-SPECIAL_SPLIT
-metadataOverrides:
-  domain: llm
-  architectures:
-    - qwen35moe
-  compatibilityTypes:
-    - gguf
-  paramsStrings:
-    - 122B
-  minMemoryUsageBytes: 21000000000
-  contextLengths:
-    - 262144
-  vision: true
-  reasoning: true
-  trainedForToolUse: true
+  - key: kamjin/qwen3.5-122b-a10b-uncensored-hauhaucs-aggressive
+    sources:
+      - type: huggingface
+        user: kamjin
+        repo: Qwen3.5-122B-A10B-Uncensored-HauhauCS-Aggressive
+  - key: mudler/qwen3.5-122b-a10b-apex-gguf
+    sources:
+      - type: huggingface
+        user: mudler
+        repo: Qwen3.5-122B-A10B-APEX-GGUF
+  - key: thireus/qwen3.5-122b-a10b-thireus-iq5_k-special_split
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: Qwen3.5-122B-A10B-THIREUS-IQ5_K-SPECIAL_SPLIT
 config:
   operation:
     fields:
@@ -531,6 +532,10 @@ config:
         value:
           checked: false
           value: 0
+      - key: llm.prediction.llama.presencePenalty
+        value:
+          checked: true
+          value: 1.5
 customFields:
   - key: enableThinking
     displayName: Enable Thinking
@@ -540,3 +545,17 @@ customFields:
     effects:
       - type: setJinjaVariable
         variable: enable_thinking
+metadataOverrides:
+  domain: llm
+  architectures:
+    - qwen35moe
+  compatibilityTypes:
+    - gguf
+  paramsStrings:
+    - 122B
+  minMemoryUsageBytes: 21000000000
+  contextLengths:
+    - 262144
+  vision: true
+  reasoning: true
+  trainedForToolUse: true

@@ -187,6 +187,17 @@ base:
       - type: huggingface
         user: thad0ctor
         repo: MiniMax-M2.5-Q6_K-GGUF
+config:
+  operation:
+    fields:
+      - key: llm.prediction.temperature
+        value: 1.0
+      - key: llm.prediction.topKSampling
+        value: 40
+      - key: llm.prediction.topPSampling
+        value:
+          checked: true
+          value: 0.95
 metadataOverrides:
   domain: llm
   architectures:
@@ -202,14 +213,3 @@ metadataOverrides:
   vision: false
   reasoning: true
   trainedForToolUse: true
-config:
-  operation:
-    fields:
-      - key: llm.prediction.temperature
-        value: 1.0
-      - key: llm.prediction.topKSampling
-        value: 40
-      - key: llm.prediction.topPSampling
-        value:
-          checked: true
-          value: 0.95

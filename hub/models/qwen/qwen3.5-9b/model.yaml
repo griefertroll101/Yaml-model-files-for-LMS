@@ -477,20 +477,41 @@ base:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-9B-DeepSeek-3.2-Intense-Auto-Variable-Thinking-i1-GGUF
-metadataOverrides:
-  domain: llm
-  architectures:
-    - qwen35
-  compatibilityTypes:
-    - gguf
-  paramsStrings:
-    - 9B
-  minMemoryUsageBytes: 7000000000
-  contextLengths:
-    - 262144
-  vision: true
-  reasoning: true
-  trainedForToolUse: true
+  - key: djlougen/qwen3.5-9b-harmonic-gguf
+    sources:
+      - type: huggingface
+        user: DJLougen
+        repo: Qwen3.5-9B-Harmonic-GGUF
+  - key: mradermacher/qwen3.5-9b-base-thoughtful-interiority-i1-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-9B-Base-Thoughtful-Interiority-i1-GGUF
+  - key: manojb/qwen3.5-9b-uncensored-hauhaucs-aggressive-q4_k_m.gguf
+    sources:
+      - type: huggingface
+        user: Manojb
+        repo: Qwen3.5-9B-Uncensored-HauhauCS-Aggressive-Q4_K_M.gguf
+  - key: mradermacher/geollm-qwen3.5-9b-i1-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: GeoLLM-Qwen3.5-9B-i1-GGUF
+  - key: mradermacher/qwen3.5-9b-nsfw-captioning-v2-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: qwen3.5-9b-nsfw-captioning-v2-GGUF
+  - key: mradermacher/qwen3.5-9b-star-trek-tng-ds9-heretic-uncensored-thinking-i1-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-9B-Star-Trek-TNG-DS9-Heretic-Uncensored-Thinking-i1-GGUF
+  - key: mradermacher/llmfan46-qwen3.5-9b-ultra-heretic-i1-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: llmfan46-Qwen3.5-9B-ultra-heretic-i1-GGUF
 config:
   operation:
     fields:
@@ -506,10 +527,6 @@ config:
         value:
           checked: false
           value: 0
-      - key: llm.prediction.repeatPenalty
-        value:
-          checked: false
-          value: 1.0
       - key: llm.prediction.llama.presencePenalty
         value:
           checked: true
@@ -523,3 +540,17 @@ customFields:
     effects:
       - type: setJinjaVariable
         variable: enable_thinking
+metadataOverrides:
+  domain: llm
+  architectures:
+    - qwen35
+  compatibilityTypes:
+    - gguf
+  paramsStrings:
+    - 9B
+  minMemoryUsageBytes: 7000000000
+  contextLengths:
+    - 262144
+  vision: true
+  reasoning: true
+  trainedForToolUse: true

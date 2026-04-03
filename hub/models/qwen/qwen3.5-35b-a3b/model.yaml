@@ -597,6 +597,11 @@ base:
       - type: huggingface
         user: grapeV-ai
         repo: Qwen3.5-35B-A3B-GGUF
+  - key: tomstrong/qwen3.5-35b-a3b-uncensored-hauhaucs-aggressive
+    sources:
+      - type: huggingface
+        user: tomstrong
+        repo: Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive
 config:
   operation:
     fields:
@@ -612,6 +617,10 @@ config:
         value:
           checked: false
           value: 0
+      - key: llm.prediction.llama.presencePenalty
+        value:
+          checked: true
+          value: 1.5
 customFields:
   - key: enableThinking
     displayName: Enable Thinking

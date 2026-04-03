@@ -52,6 +52,16 @@ base:
       - type: huggingface
         user: prithivMLmods
         repo: gemma-4-E2B-it-F32-GGUF
+  - key: armand0e/gemma-4-e2b-it-claude-opus-distill-gguf
+    sources:
+      - type: huggingface
+        user: armand0e
+        repo: gemma-4-E2B-it-Claude-Opus-Distill-GGUF
+  - key: ayodele01/gemma-4-e2b-gemini-3.1-pro-reasoning-distill-gguf
+    sources:
+      - type: huggingface
+        user: Ayodele01
+        repo: gemma-4-E2B-Gemini-3.1-Pro-Reasoning-Distill-GGUF
 config:
   operation:
     fields:

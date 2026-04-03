@@ -203,14 +203,6 @@ customFields:
     effects:
       - type: setJinjaVariable
         variable: enable_thinking
-  - key: truncateThinkingHistory
-    displayName: Truncate Thinking History
-    description: Controls whether thinking history will be truncated to save context space
-    type: boolean
-    defaultValue: true
-    effects:
-      - type: setJinjaVariable
-        variable: truncate_history_thinking
 metadataOverrides:
   domain: llm
   architectures:

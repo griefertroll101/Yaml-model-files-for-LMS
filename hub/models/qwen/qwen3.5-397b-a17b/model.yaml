@@ -517,6 +517,10 @@ config:
         value:
           checked: false
           value: 0
+      - key: llm.prediction.llama.presencePenalty
+        value:
+          checked: true
+          value: 1.5
 customFields:
   - key: enableThinking
     displayName: Enable Thinking

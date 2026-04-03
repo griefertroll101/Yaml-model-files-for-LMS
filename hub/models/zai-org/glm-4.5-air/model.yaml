@@ -2,12 +2,12 @@
 # Learn more at https://modelyaml.org
 model: zai-org/glm-4.5-air
 base:
-  - key: unsloth/GLM-4.5-Air-GGUF
+  - key: unsloth/glm-4.5-air-gguf
     sources:
       - type: huggingface
         user: unsloth
         repo: GLM-4.5-Air-GGUF
-  - key: lmstudio-community/GLM-4.5-Air-GGUF
+  - key: lmstudio-community/glm-4.5-air-gguf
     sources:
       - type: huggingface
         user: lmstudio-community
@@ -519,7 +519,7 @@ customFields:
 metadataOverrides:
   domain: llm
   architectures:
-    - glm4_moe_lite
+    - glm4moe
   compatibilityTypes:
     - gguf
   paramsStrings:
