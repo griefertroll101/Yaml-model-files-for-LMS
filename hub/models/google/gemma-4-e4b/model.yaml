@@ -1,0 +1,98 @@
+# model.yaml is an open standard for defining cross-platform, composable AI models
+# Learn more at https://modelyaml.org
+model: google/gemma-4-e4b
+base:
+  - key: lmstudio-community/gemma-4-e4b-it-gguf
+    sources:
+      - type: huggingface
+        user: lmstudio-community
+        repo: gemma-4-E4B-it-GGUF
+  - key: unsloth/gemma-4-e4b-it-gguf
+    sources:
+      - type: huggingface
+        user: unsloth
+        repo: gemma-4-E4B-it-GGUF
+  - key: ggml-org/gemma-4-e4b-it-gguf
+    sources:
+      - type: huggingface
+        user: ggml-org
+        repo: gemma-4-E4B-it-GGUF
+  - key: bartowski/google_gemma-4-e4b-it-gguf
+    sources:
+      - type: huggingface
+        user: bartowski
+        repo: google_gemma-4-E4B-it-GGUF
+  - key: chatpdflocal/gemma-4-e4b-it-gguf
+    sources:
+      - type: huggingface
+        user: chatpdflocal
+        repo: gemma-4-E4B-it-GGUF
+  - key: smoffyy/gemma4-e4b-instruct-pure-gguf
+    sources:
+      - type: huggingface
+        user: Smoffyy
+        repo: Gemma4-E4B-Instruct-Pure-GGUF
+  - key: hauhaucs/gemma-4-e4b-uncensored-hauhaucs-aggressive
+    sources:
+      - type: huggingface
+        user: HauhauCS
+        repo: Gemma-4-E4B-Uncensored-HauhauCS-Aggressive
+  - key: frescohf/gemma-4-e4b-gguf
+    sources:
+      - type: huggingface
+        user: FrescoHF
+        repo: gemma-4-E4B-GGUF
+  - key: stabhappy/gemma-4-e4b-it-gguf
+    sources:
+      - type: huggingface
+        user: Stabhappy
+        repo: gemma-4-E4B-it-GGUF
+  - key: kamjin/gemma-4-e4b-uncensored-hauhaucs-aggressive
+    sources:
+      - type: huggingface
+        user: kamjin
+        repo: Gemma-4-E4B-Uncensored-HauhauCS-Aggressive
+  - key: devquasar/google.gemma-4-e4b-it-gguf
+    sources:
+      - type: huggingface
+        user: DevQuasar
+        repo: google.gemma-4-E4B-it-GGUF
+config:
+  operation:
+    fields:
+      - key: llm.prediction.temperature
+        value: 1.0
+      - key: llm.prediction.topPSampling
+        value:
+          checked: true
+          value: 0.95
+      - key: llm.prediction.topKSampling
+        value: 64
+      - key: llm.prediction.reasoning.parsing
+        value:
+          enabled: true
+          startString: "<|channel>thought"
+          endString: "<channel|>"
+customFields:
+  - key: enableThinking
+    displayName: Enable Thinking
+    description: Controls whether the model will think before replying
+    type: boolean
+    defaultValue: true
+    effects:
+      - type: setJinjaVariable
+        variable: enable_thinking
+metadataOverrides:
+  domain: llm
+  architectures:
+    - gemma4
+  compatibilityTypes:
+    - gguf
+  paramsStrings:
+    - 4B
+  minMemoryUsageBytes: 2500000000
+  contextLengths:
+    - 262144
+  vision: true
+  reasoning: true
+  trainedForToolUse: true

@@ -6,6 +6,21 @@ base:
     sources:
       - type: huggingface
         user: unsloth
+        repo: qwen3.5-27b@q8_k_xl
+  - key: unsloth/qwen3.5-27b@q8_k_xl
+    sources:
+      - type: huggingface
+        user: unsloth
+        repo: qwen3.5-27b@q8_k_xl
+  - key: unsloth/qwen3.5-27b@q8_k_xl
+    sources:
+      - type: huggingface
+        user: unsloth
+        repo: Qwen3.5-27B-GGUF
+  - key: unsloth/Qwen3.5-27B-GGUF
+    sources:
+      - type: huggingface
+        user: unsloth
         repo: Qwen3.5-27B-GGUF
   - key: bartowski/Qwen_Qwen3.5-27B-GGUF
     sources:
@@ -452,6 +467,356 @@ base:
       - type: huggingface
         user: mradermacher
         repo: Ostrich-27B-Qwen3.5-260305-GGUF
+  - key: jackrong/qwen3.5-27b-claude-4.6-opus-reasoning-distilled-v2-gguf
+    sources:
+      - type: huggingface
+        user: Jackrong
+        repo: Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF
+  - key: mradermacher/qwen3.5-27b-claude-4.6-opus-reasoning-distilled-heretic-i1-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-heretic-i1-GGUF
+  - key: mradermacher/qwen3.5-27b-guardpoint-i1-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-Guardpoint-i1-GGUF
+  - key: llmfan46/qwen3.5-27b-ultra-uncensored-heretic-v1-gguf
+    sources:
+      - type: huggingface
+        user: llmfan46
+        repo: Qwen3.5-27B-ultra-uncensored-heretic-v1-GGUF
+  - key: mradermacher/qwen3.5-27b-esper3.1-i1-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-Esper3.1-i1-GGUF
+  - key: luffythefox/qwen3.5-27b-claude-4.6-opus-uncensored-v2-kullback-leibler-gguf
+    sources:
+      - type: huggingface
+        user: LuffyTheFox
+        repo: Qwen3.5-27B-Claude-4.6-Opus-Uncensored-V2-Kullback-Leibler-GGUF
+  - key: mradermacher/qwen3.5-27b-writer-i1-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-Writer-i1-GGUF
+  - key: eugenehp/qwen3.5-27b-claude-4.6-opus-reasoning-distilled-gguf
+    sources:
+      - type: huggingface
+        user: eugenehp
+        repo: Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+  - key: mradermacher/huihui-qwen3.5-27b-claude-4.6-opus-abliterated-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Huihui-Qwen3.5-27B-Claude-4.6-Opus-abliterated-GGUF
+  - key: mradermacher/qwen3.5-27b-ds9-i1-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-DS9-i1-GGUF
+  - key: mradermacher/qwen3.5-27b-uncensored-i1-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-Uncensored-i1-GGUF
+  - key: mradermacher/qwen3.5-27b-unredacted-max-i1-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-Unredacted-MAX-i1-GGUF
+  - key: llmfan46/qwen3.5-27b-uncensored-heretic-gguf
+    sources:
+      - type: huggingface
+        user: llmfan46
+        repo: Qwen3.5-27B-uncensored-heretic-GGUF
+  - key: mradermacher/qwen3.5-27b-heretic-v3-i1-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-heretic-v3-i1-GGUF
+  - key: mradermacher/qwen3.5-27b-claude-4.6-opus-reasoning-distilled-heretic-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-heretic-GGUF
+  - key: luffythefox/qwen3.5-27b-claude-4.6-opus-uncensored-gguf
+    sources:
+      - type: huggingface
+        user: LuffyTheFox
+        repo: Qwen3.5-27B-Claude-4.6-Opus-Uncensored-GGUF
+  - key: mradermacher/qwen3.5-27b-deckard-pkd-heretic-uncensored-thinking-i1-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-Deckard-PKD-Heretic-Uncensored-Thinking-i1-GGUF
+  - key: mradermacher/qwen-3.5-27b-derestricted-i1-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen-3.5-27B-Derestricted-i1-GGUF
+  - key: mradermacher/qwen3.5-27b-claude-4.6-opus-reasoning-distilled-heretic-v2-i1-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-heretic-v2-i1-GGUF
+  - key: mradermacher/qwen3.5-27b-heretic-rys-xl-i1-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-heretic-RYS-XL-i1-GGUF
+  - key: mradermacher/huihui-qwen3.5-27b-claude-4.6-opus-abliterated-i1-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Huihui-Qwen3.5-27B-Claude-4.6-Opus-abliterated-i1-GGUF
+  - key: peterjohannmedina/medina-qwen3.5-27b-openclaw
+    sources:
+      - type: huggingface
+        user: peterjohannmedina
+        repo: Medina-Qwen3.5-27B-OpenClaw
+  - key: mradermacher/qwen3.5-27b-abliterated-v2-max-i1-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-abliterated-v2-MAX-i1-GGUF
+  - key: mradermacher/qwen3.5-27b_homebrew-i1-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B_Homebrew-i1-GGUF
+  - key: mradermacher/qwen3.5-27b-marvin-dpo-v2-i1-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-Marvin-DPO-V2-i1-GGUF
+  - key: mradermacher/qwen3.5-27b-gemini-3.1-pro-reasoning-distill-i1-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-Gemini-3.1-Pro-Reasoning-Distill-i1-GGUF
+  - key: mradermacher/qwen3.5-27b-dag-reasoning-i1-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-DAG-Reasoning-i1-GGUF
+  - key: mradermacher/qwen3.5-27b-heretic-polaris-advanced-thinking-alpha-uncensored-i1-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-HERETIC-Polaris-Advanced-Thinking-Alpha-uncensored-i1-GGUF
+  - key: bartowski/coniccat_qwen3.5-27b-writer-gguf
+    sources:
+      - type: huggingface
+        user: bartowski
+        repo: ConicCat_Qwen3.5-27B-Writer-GGUF
+  - key: mradermacher/qwen3.5-27b-claude-4.6-os-instruct-i1-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-Claude-4.6-OS-INSTRUCT-i1-GGUF
+  - key: mradermacher/qwen3.5-27b-finetree-v2.1-i1-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-FineTree-V2.1-i1-GGUF
+  - key: mradermacher/qwen3.5-27b-derestricted-i1-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-Derestricted-i1-GGUF
+  - key: jackrong/qwen3.5-27b-gemini-3.1-pro-reasoning-distill-gguf
+    sources:
+      - type: huggingface
+        user: Jackrong
+        repo: Qwen3.5-27B-Gemini-3.1-Pro-Reasoning-Distill-GGUF
+  - key: mradermacher/qwen3.5-27b-claude-4.6-os-auto-variable-heretic-uncensored-thinking-i1-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-Claude-4.6-OS-Auto-Variable-Heretic-Uncensored-Thinking-i1-GGUF
+  - key: mradermacher/qwen3.5-27b-heretic-v3-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-heretic-v3-GGUF
+  - key: mradermacher/qwen3.5-27b-claude-4.6-os-instruct-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-Claude-4.6-OS-INSTRUCT-GGUF
+  - key: mradermacher/qwen3.5-27b-writer-v2-i1-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-Writer-V2-i1-GGUF
+  - key: mradermacher/luna-qwen3.5-27b-v5-i1-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Luna-Qwen3.5-27B-v5-i1-GGUF
+  - key: mradermacher/qwen-3.5-27b-derestricted-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen-3.5-27B-Derestricted-GGUF
+  - key: mradermacher/brayniac-qwen3.5-27b-heretic-i1-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: brayniac-Qwen3.5-27B-heretic-i1-GGUF
+  - key: mradermacher/qwen3.5-27b-distilled-korean-sft-260320-i1-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-Distilled-Korean-SFT-260320-i1-GGUF
+  - key: mradermacher/csai-qwen3.5-27b-i1-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: csai-qwen3.5-27b-i1-GGUF
+  - key: mradermacher/qwen3.5-27b-claude-4.6-opus-reasoning-distilled-heretic-v2-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-heretic-v2-GGUF
+  - key: mradermacher/qwen3.5-27b-antirep-v1-i1-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-Antirep-V1-i1-GGUF
+  - key: spencersun/qwen3.5-27b-heretic-v3-i1-gguf
+    sources:
+      - type: huggingface
+        user: SpencerSun
+        repo: Qwen3.5-27B-heretic-v3-i1-GGUF
+  - key: mradermacher/qwen3.5-27b-heretic-polaris-advanced-thinking-alpha-uncensored-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-HERETIC-Polaris-Advanced-Thinking-Alpha-uncensored-GGUF
+  - key: mradermacher/qwen3.5-27b-writer-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-Writer-GGUF
+  - key: mradermacher/uwu-qwen3.5-27b-v0.1-i1-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: UwU-Qwen3.5-27B-v0.1-i1-GGUF
+  - key: sepolian/huihui-qwen3.5-27b-claude-4.6-opus-abliterated-q4_k_m
+    sources:
+      - type: huggingface
+        user: Sepolian
+        repo: Huihui-Qwen3.5-27B-Claude-4.6-Opus-abliterated-Q4_K_M
+  - key: mradermacher/qwen3.5-27b-unredacted-max-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-Unredacted-MAX-GGUF
+  - key: mradermacher/qwen3.5-27b-webnovel-writer-zh-i1-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-WebNovel-Writer-zh-i1-GGUF
+  - key: duolaf/qwen3.5-27b-gguf
+    sources:
+      - type: huggingface
+        user: duolaf
+        repo: Qwen3.5-27B-GGUF
+  - key: mradermacher/qwen3.5-27b-gemini-3.1-pro-reasoning-distill-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-Gemini-3.1-Pro-Reasoning-Distill-GGUF
+  - key: mradermacher/qwen3.5-27b-deckard-pkd-heretic-uncensored-thinking-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-Deckard-PKD-Heretic-Uncensored-Thinking-GGUF
+  - key: mradermacher/qwen3.5-27b-heretic-marvin-v1-i1-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-Heretic-Marvin-V1-i1-GGUF
+  - key: mradermacher/qwen3.5-27b-engineer-deckard-claude-i1-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-Engineer-Deckard-Claude-i1-GGUF
+  - key: mradermacher/geollm-qwen3.5-27b-i1-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: GeoLLM-Qwen3.5-27B-i1-GGUF
+  - key: dlindsey/qwen3.5-27b-claude-4.6-opus-reasoning-distilled-i1-gguf
+    sources:
+      - type: huggingface
+        user: dlindsey
+        repo: Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-i1-GGUF
+  - key: mradermacher/qwen3.5-27b-engineer-deckard-gemini-i1-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-Engineer-Deckard-Gemini-i1-GGUF
+  - key: darkhn-quants-3/qwen3.5-27b-animus-v13.0-gguf
+    sources:
+      - type: huggingface
+        user: Darkhn-Quants-3
+        repo: Qwen3.5-27B-Animus-V13.0-GGUF
+  - key: llmfan46/qwen3.5-27b-ultra-uncensored-heretic-v2-gguf
+    sources:
+      - type: huggingface
+        user: llmfan46
+        repo: Qwen3.5-27B-ultra-uncensored-heretic-v2-GGUF
+  - key: ddh0/qwen3.5-27b-heretic-marvin-v1-gguf
+    sources:
+      - type: huggingface
+        user: ddh0
+        repo: Qwen3.5-27B-Heretic-Marvin-V1-GGUF
+  - key: khtsly/qwen3.5-27b-abliterated-claude-4.6-opus-distilled-32k-gguf
+    sources:
+      - type: huggingface
+        user: khtsly
+        repo: Qwen3.5-27B-Abliterated-Claude-4.6-Opus-Distilled-32k-GGUF
+  - key: mradermacher/qwen3.5-27b-heretic-rys-xl-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-heretic-RYS-XL-GGUF
+  - key: mradermacher/qwen3.5-27b-derestricted-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-Derestricted-GGUF
+  - key: gammaception/qwen3.5-27b-thireus-16gb-optimized-gguf
+    sources:
+      - type: huggingface
+        user: Gammaception
+        repo: Qwen3.5-27B-Thireus-16gb-optimized-GGUF
+  - key: jagjeevanak/qwen3.5-27b-claude-4.6-opus-reasoning-distilled-gguf
+    sources:
+      - type: huggingface
+        user: JagjeevanAK
+        repo: Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-gguf
+  - key: mradermacher/qwen3.5-27b-writer-v2-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-Writer-V2-GGUF
+  - key: freddm/qwen3.5-27b-claude-4.6-opus-reasoning-distilled-gguf
+    sources:
+      - type: huggingface
+        user: freddm
+        repo: Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+  - key: mradermacher/qwen3.5-27b-esper3.1-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-Esper3.1-GGUF
 metadataOverrides:
   domain: llm
   architectures:

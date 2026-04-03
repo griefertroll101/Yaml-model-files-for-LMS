@@ -1,0 +1,215 @@
+# model.yaml is an open standard for defining cross-platform, composable AI models
+# Learn more at https://modelyaml.org
+model: minimax/minimax-m2.5
+base:
+  - key: lmstudio-community/minimax-m2.5-mlx-4bit
+    sources:
+      - type: huggingface
+        user: lmstudio-community
+        repo: MiniMax-M2.5-MLX-4bit
+  - key: lmstudio-community/minimax-m2.5-mlx-6bit
+    sources:
+      - type: huggingface
+        user: lmstudio-community
+        repo: MiniMax-M2.5-MLX-6bit
+  - key: lmstudio-community/minimax-m2.5-mlx-8bit
+    sources:
+      - type: huggingface
+        user: lmstudio-community
+        repo: MiniMax-M2.5-MLX-8bit
+  - key: lmstudio-community/minimax-m2.5-gguf
+    sources:
+      - type: huggingface
+        user: lmstudio-community
+        repo: MiniMax-M2.5-GGUF
+  - key: unsloth/minimax-m2.5-gguf
+    sources:
+      - type: huggingface
+        user: unsloth
+        repo: MiniMax-M2.5-GGUF
+  - key: mradermacher/minimax-m2.5-carve-v1-bf16-i1-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: MiniMax-M2.5-CARVE-v1-BF16-i1-GGUF
+  - key: ox-ox/minimax-m2.5-gguf
+    sources:
+      - type: huggingface
+        user: ox-ox
+        repo: MiniMax-M2.5-GGUF
+  - key: mradermacher/minimax-m2.5-reap-139b-a10b-i1-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: MiniMax-M2.5-REAP-139B-A10B-i1-GGUF
+  - key: mradermacher/minimax-m2.5-reap-172b-a10b-i1-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: MiniMax-M2.5-REAP-172B-A10B-i1-GGUF
+  - key: mradermacher/minimax-m2.5-i1-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: MiniMax-M2.5-i1-GGUF
+  - key: aessedai/minimax-m2.5-gguf
+    sources:
+      - type: huggingface
+        user: AesSedai
+        repo: MiniMax-M2.5-GGUF
+  - key: mradermacher/minimax-m2.5-reap-172b-a10b-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: MiniMax-M2.5-REAP-172B-A10B-GGUF
+  - key: ubergarm/minimax-m2.5-gguf
+    sources:
+      - type: huggingface
+        user: ubergarm
+        repo: MiniMax-M2.5-GGUF
+  - key: jiaojjjjje/minimax-m2.5-abliterated-q4_k_m-gguf
+    sources:
+      - type: huggingface
+        user: jiaojjjjje
+        repo: MiniMax-M2.5-abliterated-Q4_K_M-GGUF
+  - key: mradermacher/minimax-m2.5-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: MiniMax-M2.5-GGUF
+  - key: ex0bit/minimax-m2.5-prism-lite
+    sources:
+      - type: huggingface
+        user: Ex0bit
+        repo: MiniMax-M2.5-PRISM-LITE
+  - key: nitrox/minimax-m2.5-abliterated-q4_k_m-gguf
+    sources:
+      - type: huggingface
+        user: nitrox
+        repo: MiniMax-M2.5-abliterated-Q4_K_M-GGUF
+  - key: mradermacher/minimax-m2.5-reap-139b-a10b-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: MiniMax-M2.5-REAP-139B-A10B-GGUF
+  - key: tomngdev/minimax-m2.5-reap-139b-a10b-gguf
+    sources:
+      - type: huggingface
+        user: tomngdev
+        repo: MiniMax-M2.5-REAP-139B-A10B-GGUF
+  - key: ex0bit/minimax-m2.5-prism-pro
+    sources:
+      - type: huggingface
+        user: Ex0bit
+        repo: MiniMax-M2.5-PRISM-PRO
+  - key: wimmmm/minimax-m2.5-reap-172b-a10b-gguf
+    sources:
+      - type: huggingface
+        user: wimmmm
+        repo: MiniMax-M2.5-REAP-172B-A10B-GGUF
+  - key: remyskye/minimax-m2.5-reap-50-gguf
+    sources:
+      - type: huggingface
+        user: RemySkye
+        repo: MiniMax-M2.5-REAP-50-GGUF
+  - key: exdysa/minimax-m2.5-reap-172b-a10b-gguf-q4_k_m
+    sources:
+      - type: huggingface
+        user: exdysa
+        repo: MiniMax-M2.5-REAP-172B-A10B-GGUF-Q4_K_M
+  - key: mradermacher/minimax-m2.5-carve-v1-bf16-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: MiniMax-M2.5-CARVE-v1-BF16-GGUF
+  - key: marksverdhei/minimax-m2.5-gguf
+    sources:
+      - type: huggingface
+        user: marksverdhei
+        repo: MiniMax-M2.5-GGUF
+  - key: devquasar/minimaxai.minimax-m2.5-gguf
+    sources:
+      - type: huggingface
+        user: DevQuasar
+        repo: MiniMaxAI.MiniMax-M2.5-GGUF
+  - key: noctrex/minimax-m2.5-reap-172b-a10b-mxfp4_moe-gguf
+    sources:
+      - type: huggingface
+        user: noctrex
+        repo: MiniMax-M2.5-REAP-172B-A10B-MXFP4_MOE-GGUF
+  - key: bennydaball/minimax-m2.5-reap-139b-a10b-mxfp4
+    sources:
+      - type: huggingface
+        user: BennyDaBall
+        repo: MiniMax-M2.5-REAP-139B-A10B-MXFP4
+  - key: freddm/minimax-m2.5-gguf
+    sources:
+      - type: huggingface
+        user: freddm
+        repo: MiniMax-M2.5-GGUF
+  - key: noctrex/minimax-m2.5-mxfp4_moe-gguf
+    sources:
+      - type: huggingface
+        user: noctrex
+        repo: MiniMax-M2.5-MXFP4_MOE-GGUF
+  - key: noctrex/minimax-m2.5-reap-139b-a10b-mxfp4_moe-gguf
+    sources:
+      - type: huggingface
+        user: noctrex
+        repo: MiniMax-M2.5-REAP-139B-A10B-MXFP4_MOE-GGUF
+  - key: bennydaball/minimax-m2.5-reap-139b-a10b-gguf
+    sources:
+      - type: huggingface
+        user: BennyDaBall
+        repo: MiniMax-M2.5-REAP-139B-A10B-GGUF
+  - key: felladrin/gguf-q2_k_s-mixed-autoround-minimax-m2.5
+    sources:
+      - type: huggingface
+        user: Felladrin
+        repo: gguf-Q2_K_S-Mixed-AutoRound-MiniMax-M2.5
+  - key: felladrin/gguf-q4_k_m-mixed-autoround-minimax-m2.5
+    sources:
+      - type: huggingface
+        user: Felladrin
+        repo: gguf-Q4_K_M-Mixed-AutoRound-MiniMax-M2.5
+  - key: open4bits/minimax-m2.5-gguf
+    sources:
+      - type: huggingface
+        user: Open4bits
+        repo: MiniMax-M2.5-GGUF
+  - key: baa-ai/minimax-m2.5-mint-179gb-gguf
+    sources:
+      - type: huggingface
+        user: baa-ai
+        repo: MiniMax-M2.5-MINT-179GB-GGUF
+  - key: thad0ctor/minimax-m2.5-q6_k-gguf
+    sources:
+      - type: huggingface
+        user: thad0ctor
+        repo: MiniMax-M2.5-Q6_K-GGUF
+metadataOverrides:
+  domain: llm
+  architectures:
+    - minimax-m2
+  compatibilityTypes:
+    - safetensors
+    - gguf
+  paramsStrings:
+    - 230B
+  minMemoryUsageBytes: 121000000000
+  contextLengths:
+    - 196608
+  vision: false
+  reasoning: true
+  trainedForToolUse: true
+config:
+  operation:
+    fields:
+      - key: llm.prediction.temperature
+        value: 1.0
+      - key: llm.prediction.topKSampling
+        value: 40
+      - key: llm.prediction.topPSampling
+        value:
+          checked: true
+          value: 0.95

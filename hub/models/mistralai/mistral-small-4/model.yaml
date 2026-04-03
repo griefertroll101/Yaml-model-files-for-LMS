@@ -1,0 +1,122 @@
+# model.yaml is an open standard for defining cross-platform, composable AI models
+# Learn more at https://modelyaml.org
+model: mistralai/mistral-small-4
+base:
+  - key: lmstudio-community/mistral-small-4-119b-2603-gguf
+    sources:
+      - type: huggingface
+        user: lmstudio-community
+        repo: Mistral-Small-4-119B-2603-GGUF
+  - key: unsloth/Mistral-Small-4-119B-2603-GGUF
+    sources:
+      - type: huggingface
+        user: lmstudio-community
+        repo: Mistral-Small-4-119B-2603-GGUF
+  - key: bartowski/mistralai_Mistral-Small-4-119B-2603-GGUF
+    sources:
+      - type: huggingface
+        user: bartowski
+        repo: mistralai_Mistral-Small-4-119B-2603-GGUF
+  - key: mradermacher/mistral-small-4-119b-2603-i1-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Mistral-Small-4-119B-2603-i1-GGUF
+  - key: aaryank/mistral-small-4-119b-2603-gguf
+    sources:
+      - type: huggingface
+        user: AaryanK
+        repo: Mistral-Small-4-119B-2603-GGUF
+  - key: mradermacher/mistral-small-4-119b-2603-gguf
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Mistral-Small-4-119B-2603-GGUF
+  - key: aessedai/mistral-small-4-119b-2603-gguf
+    sources:
+      - type: huggingface
+        user: AesSedai
+        repo: Mistral-Small-4-119B-2603-GGUF
+  - key: huihui-ai/huihui-mistral-small-4-119b-2603-bf16-abliterated-gguf
+    sources:
+      - type: huggingface
+        user: huihui-ai
+        repo: Huihui-Mistral-Small-4-119B-2603-BF16-abliterated-GGUF
+  - key: timteh673/mistral-small-4-119b-uncensored-gguf
+    sources:
+      - type: huggingface
+        user: timteh673
+        repo: Mistral-Small-4-119B-Uncensored-GGUF
+  - key: huihui-ai/huihui-mistral-small-4-119b-2603-bf16-abliterated-v2-gguf
+    sources:
+      - type: huggingface
+        user: huihui-ai
+        repo: Huihui-Mistral-Small-4-119B-2603-BF16-abliterated-v2-GGUF
+  - key: devquasar/mistralai.mistral-small-4-119b-2603-gguf
+    sources:
+      - type: huggingface
+        user: DevQuasar
+        repo: mistralai.Mistral-Small-4-119B-2603-GGUF
+  - key: noctrex/mistral-small-4-119b-2603-mxfp4_moe-gguf
+    sources:
+      - type: huggingface
+        user: noctrex
+        repo: Mistral-Small-4-119B-2603-MXFP4_MOE-GGUF
+  - key: jenerallee78/mistral-small-4-119b-2603-obliterated-q4_k_m-gguf
+    sources:
+      - type: huggingface
+        user: jenerallee78
+        repo: Mistral-Small-4-119B-2603-obliterated-Q4_K_M-GGUF
+  - key: beinsezii/mistral-small-4-119b-2603-gguf-halo
+    sources:
+      - type: huggingface
+        user: Beinsezii
+        repo: Mistral-Small-4-119B-2603-GGUF-HALO
+  - key: danyda/unsloth_mistral-small-4-119b-2603-ud-q4_k_m-gguf-split
+    sources:
+      - type: huggingface
+        user: DanyDA
+        repo: unsloth_Mistral-Small-4-119B-2603-UD-Q4_K_M-GGUF-SPLIT
+  - key: stefan-terdell-cleura/mistral-small-4-119b-2603-gguf
+    sources:
+      - type: huggingface
+        user: stefan-terdell-cleura
+        repo: Mistral-Small-4-119B-2603-GGUF
+customFields:
+  - key: reasoningEffort
+    displayName: Reasoning Effort
+    description: Controls how much reasoning the model should perform.
+    type: select
+    defaultValue: high
+    options:
+      - value: none
+        label: None
+      - value: high
+        label: High
+    effects:
+      - type: setJinjaVariable
+        variable: reasoning_effort
+metadataOverrides:
+  domain: llm
+  architectures:
+    - mistral4
+  compatibilityTypes:
+    - gguf
+  paramsStrings:
+    - 119B
+  minMemoryUsageBytes: 65000000000
+  contextLengths:
+    - 262144
+  vision: true
+  reasoning: true
+  trainedForToolUse: true
+config:
+  operation:
+    fields:
+      - key: llm.prediction.temperature
+        value: 0.15
+      - key: llm.prediction.reasoning.parsing
+        value:
+          enabled: true
+          startString: "[THINK]"
+          endString: "[/THINK]"

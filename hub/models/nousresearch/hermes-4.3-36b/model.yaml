@@ -1,6 +1,6 @@
 # model.yaml is an open standard for defining cross-platform, composable AI models
 # Learn more at https://modelyaml.org
-model: nousresearch/hermes-4-70b
+model: nousresearch/hermes-4.3-36b
 base:
   - key: mradermacher/Hermes-4.3-36B-heretic-i1-GGUF
     sources:
@@ -87,6 +87,11 @@ base:
       - type: huggingface
         user: darkc0de
         repo: Hermes-4.3-36B-heretic-Q5_K_S-GGUF
+  - key: gnigguhface/hermes-4.3-36b-q4_k_m-gguf
+    sources:
+      - type: huggingface
+        user: gnigguhface
+        repo: Hermes-4.3-36B-Q4_K_M-GGUF
 metadataOverrides:
   domain: llm
   architectures:
@@ -94,7 +99,7 @@ metadataOverrides:
   compatibilityTypes:
     - gguf
   paramsStrings:
-    - 405B
+    - 36B
   minMemoryUsageBytes: 39835821670
   contextLengths:
     - 131072
