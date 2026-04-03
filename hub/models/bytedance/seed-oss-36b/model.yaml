@@ -266,24 +266,24 @@ customFields:
     displayName: Thinking Budget
     description: Sets the maximum number of tokens the model can use for internal reasoning
     type: select
-    defaultValue: -1
+    defaultValue: "-1"
     options:
-      - value: -1
-        label: Unlimited
-      - value: 0
-        label: 0
-      - value: 512
-        label: 512
-      - value: 1024
-        label: 1024
-      - value: 2048
-        label: 2048
-      - value: 4096
-        label: 4096
-      - value: 8192
-        label: 8192
-      - value: 16384
-        label: 16384
+      - value: "-1"
+        label: "Unlimited"
+      - value: "0"
+        label: "0"
+      - value: "512"
+        label: "512"
+      - value: "1024"
+        label: "1024"
+      - value: "2048"
+        label: "2048"
+      - value: "4096"
+        label: "4096"
+      - value: "8192"
+        label: "8192"
+      - value: "16384"
+        label: "16384"
     effects:
       - type: setJinjaVariable
         variable: thinking_budget
