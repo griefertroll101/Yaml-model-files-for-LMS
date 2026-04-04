@@ -1,6 +1,6 @@
 # model.yaml is an open standard for defining cross-platform, composable AI models
 # Learn more at https://modelyaml.org
-model: griefertroll-yaml/qwen3.5-9b
+model: qwen/qwen3.5-9b
 base:
   - key: lmstudio-community/Qwen3.5-9B-GGUF
     sources:
@@ -542,6 +542,16 @@ base:
       - type: huggingface
         user: bogservi
         repo: Qwen3.5-9B-GGUF
+  - key: ykarout/Qwen3.5-9b-Opus-Openclaw-Distilled-GGUF
+    sources:
+      - type: huggingface
+        user: ykarout
+        repo: Qwen3.5-9b-Opus-Openclaw-Distilled-GGUF
+  - key: llmfan46/Qwen3.5-9B-ultra-uncensored-heretic-v2-GGUF
+    sources:
+      - type: huggingface
+        user: llmfan46
+        repo: Qwen3.5-9B-ultra-uncensored-heretic-v2-GGUF
 config:
   operation:
     fields:

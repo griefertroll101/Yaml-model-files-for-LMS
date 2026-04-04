@@ -1,6 +1,6 @@
 # model.yaml is an open standard for defining cross-platform, composable AI models
 # Learn more at https://modelyaml.org
-model: griefertroll-yaml/qwen3.5-35b-a3b
+model: qwen/qwen3.5-35b-a3b
 base:
   - key: unsloth/Qwen3.5-35B-A3B-GGUF
     sources:
@@ -607,6 +607,36 @@ base:
       - type: huggingface
         user: Bruhtyyy
         repo: Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive
+  - key: cahlen/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive-GGUF
+    sources:
+      - type: huggingface
+        user: cahlen
+        repo: Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive-GGUF
+  - key: lactroiii/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive
+    sources:
+      - type: huggingface
+        user: lactroiii
+        repo: Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive
+  - key: Jhon676/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive
+    sources:
+      - type: huggingface
+        user: Jhon676
+        repo: Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive
+  - key: mudler/Qwen3.5-35B-A3B-APEX-TQ-GGUF
+    sources:
+      - type: huggingface
+        user: mudler
+        repo: Qwen3.5-35B-A3B-APEX-TQ-GGUF
+  - key: baa-ai/Qwen3.5-35B-A3B-MINT-48GB-GGUF
+    sources:
+      - type: huggingface
+        user: baa-ai
+        repo: Qwen3.5-35B-A3B-MINT-48GB-GGUF
+  - key: baa-ai/Qwen3.5-35B-A3B-MINT-21GB-GGUF
+    sources:
+      - type: huggingface
+        user: baa-ai
+        repo: Qwen3.5-35B-A3B-MINT-21GB-GGUF
 config:
   operation:
     fields:

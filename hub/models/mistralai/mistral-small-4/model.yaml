@@ -1,6 +1,6 @@
 # model.yaml is an open standard for defining cross-platform, composable AI models
 # Learn more at https://modelyaml.org
-model: griefertroll-yaml/mistral-small-4
+model: mistralai/mistral-small-4
 base:
   - key: lmstudio-community/Mistral-Small-4-119B-2603-GGUF
     sources:

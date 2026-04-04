@@ -1,6 +1,6 @@
 # model.yaml is an open standard for defining cross-platform, composable AI models
 # Learn more at https://modelyaml.org
-model: griefertroll-yaml/hermes-4-14b
+model: nousresearch/hermes-4-14b
 base:
   - key: nousresearch/hermes-4-14b-gguf
     sources:

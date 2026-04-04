@@ -1,6 +1,6 @@
 # model.yaml is an open standard for defining cross-platform, composable AI models
 # Learn more at https://modelyaml.org
-model: griefertroll-yaml/qwen3.5-27b
+model: qwen/qwen3.5-27b
 base:
   - key: unsloth/Qwen3.5-27B-GGUF
     sources:
@@ -797,6 +797,21 @@ base:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-27B-abliterated-v2-MAX-GGUF
+  - key: mradermacher/Qwen3.5-27B-ultra-uncensored-heretic-v2-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-ultra-uncensored-heretic-v2-GGUF
+  - key: YTan2000/Qwen3.5-27B-TQ3_1S
+    sources:
+      - type: huggingface
+        user: YTan2000
+        repo: Qwen3.5-27B-TQ3_1S
+  - key: mradermacher/Qwen3.5-27B-uncensored-heretic-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-uncensored-heretic-i1-GGUF
 config:
   operation:
     fields:

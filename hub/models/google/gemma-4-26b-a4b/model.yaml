@@ -1,6 +1,6 @@
 # model.yaml is an open standard for defining cross-platform, composable AI models
 # Learn more at https://modelyaml.org
-model: griefertroll-yaml/gemma-4-26b-a4b
+model: google/gemma-4-26b-a4b
 base:
   - key: lmstudio-community/gemma-4-26B-A4B-it-GGUF
     sources:
@@ -112,6 +112,31 @@ base:
       - type: huggingface
         user: Sabomako
         repo: gemma-4-26B-A4B-it-heretic-ara-GGUF
+  - key: grapeV-ai/gemma-4-26B-A4B-it-gguf
+    sources:
+      - type: huggingface
+        user: grapeV-ai
+        repo: gemma-4-26B-A4B-it-gguf
+  - key: armand0e/gemma-4-26B-A4B-it-Claude-Opus-Distill-GGUF
+    sources:
+      - type: huggingface
+        user: armand0e
+        repo: gemma-4-26B-A4B-it-Claude-Opus-Distill-GGUF
+  - key: wolfliu/gemma-4-26B-A4B-it-GGUF
+    sources:
+      - type: huggingface
+        user: wolfliu
+        repo: gemma-4-26B-A4B-it-GGUF
+  - key: steampunque/gemma-4-26B-A4B-it-MP-GGUF
+    sources:
+      - type: huggingface
+        user: steampunque
+        repo: gemma-4-26B-A4B-it-MP-GGUF
+  - key: mradermacher/gemma-4-26B-A4B-it-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-26B-A4B-it-heretic-GGUF
 config:
   operation:
     fields:

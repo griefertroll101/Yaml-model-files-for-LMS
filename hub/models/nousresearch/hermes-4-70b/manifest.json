@@ -1,69 +1,13 @@
 {
   "type": "model",
-  "owner": "griefertroll-yaml",
+  "owner": "nousresearch",
   "name": "hermes-4-70b",
-  "dependencies": [
+  "version": 1,
+  "files": [
     {
-      "type": "model",
-      "modelKeys": [
-        "mradermacher/Hermes-4-70B-heretic-i1-GGUF",
-        "mradermacher/Hermes-4-70B-heretic-GGUF",
-        "mradermacher/Hermes-4-70B-i1-GGUF",
-        "DevQuasar/NousResearch.Hermes-4-70B-GGUF",
-        "macandchiz/Hermes-4-70B-GGUF",
-        "mradermacher/Hermes-4-70B-GGUF",
-        "unsloth/Hermes-4-70B-GGUF",
-        "bartowski/NousResearch_Hermes-4-70B-GGUF",
-        "lmstudio-community/Hermes-4-70B-GGUF"
-      ],
-      "sources": [
-        {
-          "type": "huggingface",
-          "user": "mradermacher",
-          "repo": "Hermes-4-70B-heretic-i1-GGUF"
-        },
-        {
-          "type": "huggingface",
-          "user": "mradermacher",
-          "repo": "Hermes-4-70B-heretic-GGUF"
-        },
-        {
-          "type": "huggingface",
-          "user": "mradermacher",
-          "repo": "Hermes-4-70B-i1-GGUF"
-        },
-        {
-          "type": "huggingface",
-          "user": "DevQuasar",
-          "repo": "NousResearch.Hermes-4-70B-GGUF"
-        },
-        {
-          "type": "huggingface",
-          "user": "macandchiz",
-          "repo": "Hermes-4-70B-GGUF"
-        },
-        {
-          "type": "huggingface",
-          "user": "mradermacher",
-          "repo": "Hermes-4-70B-GGUF"
-        },
-        {
-          "type": "huggingface",
-          "user": "unsloth",
-          "repo": "Hermes-4-70B-GGUF"
-        },
-        {
-          "type": "huggingface",
-          "user": "bartowski",
-          "repo": "NousResearch_Hermes-4-70B-GGUF"
-        },
-        {
-          "type": "huggingface",
-          "user": "lmstudio-community",
-          "repo": "Hermes-4-70B-GGUF"
-        }
-      ],
-      "purpose": "baseModel"
+      "path": "model.yaml",
+      "sha256": "97985541f7c4f78e4a779b15f9bdfabb6547cd25b18e576eb89f20b976f40522",
+      "size": 2554
     }
   ]
 }

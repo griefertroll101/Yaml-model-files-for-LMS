@@ -1,6 +1,6 @@
 # model.yaml is an open standard for defining cross-platform, composable AI models
 # Learn more at https://modelyaml.org
-model: griefertroll-yaml/qwen3.5-397b-a17b
+model: qwen/qwen3.5-397b-a17b
 base:
   - key: unsloth/Qwen3.5-397B-A17B-GGUF
     sources:

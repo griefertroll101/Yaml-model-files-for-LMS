@@ -1,6 +1,6 @@
 # model.yaml is an open standard for defining cross-platform, composable AI models
 # Learn more at https://modelyaml.org
-model: griefertroll-yaml/gpt-oss-20b
+model: openai/gpt-oss-20b
 base:
   - key: unsloth/gpt-oss-20b-GGUF
     sources:
@@ -452,6 +452,16 @@ base:
       - type: huggingface
         user: mradermacher
         repo: gpt-oss-20B-vietnamese-i1-GGUF
+  - key: mradermacher/gpt-oss-20b-algo-books-trained-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gpt-oss-20b-algo-books-trained-GGUF
+  - key: mradermacher/OPD-sycophancy-gpt-oss-20b-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: OPD-sycophancy-gpt-oss-20b-GGUF
 config:
   operation:
     fields:

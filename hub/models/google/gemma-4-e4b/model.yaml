@@ -1,6 +1,6 @@
 # model.yaml is an open standard for defining cross-platform, composable AI models
 # Learn more at https://modelyaml.org
-model: griefertroll-yaml/gemma-4-e4b
+model: google/gemma-4-e4b
 base:
   - key: lmstudio-community/gemma-4-E4B-it-GGUF
     sources:
@@ -47,16 +47,81 @@ base:
       - type: huggingface
         user: Stabhappy
         repo: gemma-4-E4B-it-GGUF
-  - key: kamjin/gemma-4-e4b-uncensored-hauhaucs-aggressive
+  - key: kamjin/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive
     sources:
       - type: huggingface
         user: kamjin
         repo: Gemma-4-E4B-Uncensored-HauhauCS-Aggressive
-  - key: devquasar/google.gemma-4-e4b-it-gguf
+  - key: DevQuasar/google.gemma-4-E4B-it-GGUF
     sources:
       - type: huggingface
         user: DevQuasar
         repo: google.gemma-4-E4B-it-GGUF
+  - key: tatsuyaaaaaaa/gemma-4-E4B-it-gguf
+    sources:
+      - type: huggingface
+        user: tatsuyaaaaaaa
+        repo: gemma-4-E4B-it-gguf
+  - key: tatsuyaaaaaaa/gemma-4-E4B-gguf
+    sources:
+      - type: huggingface
+        user: tatsuyaaaaaaa
+        repo: gemma-4-E4B-gguf
+  - key: prithivMLmods/gemma-4-E4B-it-F32-GGUF
+    sources:
+      - type: huggingface
+        user: prithivMLmods
+        repo: gemma-4-E4B-it-F32-GGUF
+  - key: Abhiray/gemma-4-E4B-it-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: Abhiray
+        repo: gemma-4-E4B-it-heretic-GGUF
+  - key: Cannae-AI/Gemini-3.1-pro-Gemma-4-E4B-Distill-gguf
+    sources:
+      - type: huggingface
+        user: Cannae-AI
+        repo: Gemini-3.1-pro-Gemma-4-E4B-Distill-gguf
+  - key: JeanLima2024/dggirl-gemma-4-e4b-it-6bits
+    sources:
+      - type: huggingface
+        user: JeanLima2024
+        repo: dggirl-gemma-4-e4b-it-6bits
+  - key: nuofang/gemma-4-E4B-it-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: nuofang
+        repo: gemma-4-E4B-it-heretic-GGUF
+  - key: stronman/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive
+    sources:
+      - type: huggingface
+        user: stronman
+        repo: Gemma-4-E4B-Uncensored-HauhauCS-Aggressive
+  - key: JeanLima2024/dggirl-gemma-4-e4b-it
+    sources:
+      - type: huggingface
+        user: JeanLima2024
+        repo: dggirl-gemma-4-e4b-it
+  - key: Ayodele01/gemma-4-E4B-Gemini-3.1-Pro-Reasoning-Distill-GGUF
+    sources:
+      - type: huggingface
+        user: Ayodele01
+        repo: gemma-4-E4B-Gemini-3.1-Pro-Reasoning-Distill-GGUF
+  - key: wkplhc/gemma-4-E4B-it-GGUF
+    sources:
+      - type: huggingface
+        user: wkplhc
+        repo: gemma-4-E4B-it-GGUF
+  - key: StageMind/gemma-4-e4b
+    sources:
+      - type: huggingface
+        user: StageMind
+        repo: gemma-4-e4b
+  - key: Qwe1325/gemma-4-E4B-it-heretic-lora
+    sources:
+      - type: huggingface
+        user: Qwe1325
+        repo: gemma-4-E4B-it-heretic-lora
 config:
   operation:
     fields:

@@ -1,111 +1,13 @@
 {
   "type": "model",
-  "owner": "griefertroll-yaml",
+  "owner": "mistralai",
   "name": "mistral-small-4",
-  "dependencies": [
+  "version": 1,
+  "files": [
     {
-      "type": "model",
-      "modelKeys": [
-        "lmstudio-community/Mistral-Small-4-119B-2603-GGUF",
-        "unsloth/Mistral-Small-4-119B-2603-GGUF",
-        "bartowski/mistralai_Mistral-Small-4-119B-2603-GGUF",
-        "mradermacher/Mistral-Small-4-119B-2603-i1-GGUF",
-        "AaryanK/Mistral-Small-4-119B-2603-GGUF",
-        "mradermacher/Mistral-Small-4-119B-2603-GGUF",
-        "AesSedai/Mistral-Small-4-119B-2603-GGUF",
-        "huihui-ai/Huihui-Mistral-Small-4-119B-2603-BF16-abliterated-GGUF",
-        "timteh673/Mistral-Small-4-119B-Uncensored-GGUF",
-        "huihui-ai/Huihui-Mistral-Small-4-119B-2603-BF16-abliterated-v2-GGUF",
-        "DevQuasar/mistralai.Mistral-Small-4-119B-2603-GGUF",
-        "noctrex/Mistral-Small-4-119B-2603-MXFP4_MOE-GGUF",
-        "jenerallee78/Mistral-Small-4-119B-2603-obliterated-Q4_K_M-GGUF",
-        "Beinsezii/Mistral-Small-4-119B-2603-GGUF-HALO",
-        "DanyDA/unsloth_Mistral-Small-4-119B-2603-UD-Q4_K_M-GGUF-SPLIT",
-        "stefan-terdell-cleura/Mistral-Small-4-119B-2603-GGUF"
-      ],
-      "sources": [
-        {
-          "type": "huggingface",
-          "user": "lmstudio-community",
-          "repo": "Mistral-Small-4-119B-2603-GGUF"
-        },
-        {
-          "type": "huggingface",
-          "user": "lmstudio-community",
-          "repo": "Mistral-Small-4-119B-2603-GGUF"
-        },
-        {
-          "type": "huggingface",
-          "user": "bartowski",
-          "repo": "mistralai_Mistral-Small-4-119B-2603-GGUF"
-        },
-        {
-          "type": "huggingface",
-          "user": "mradermacher",
-          "repo": "Mistral-Small-4-119B-2603-i1-GGUF"
-        },
-        {
-          "type": "huggingface",
-          "user": "AaryanK",
-          "repo": "Mistral-Small-4-119B-2603-GGUF"
-        },
-        {
-          "type": "huggingface",
-          "user": "mradermacher",
-          "repo": "Mistral-Small-4-119B-2603-GGUF"
-        },
-        {
-          "type": "huggingface",
-          "user": "AesSedai",
-          "repo": "Mistral-Small-4-119B-2603-GGUF"
-        },
-        {
-          "type": "huggingface",
-          "user": "huihui-ai",
-          "repo": "Huihui-Mistral-Small-4-119B-2603-BF16-abliterated-GGUF"
-        },
-        {
-          "type": "huggingface",
-          "user": "timteh673",
-          "repo": "Mistral-Small-4-119B-Uncensored-GGUF"
-        },
-        {
-          "type": "huggingface",
-          "user": "huihui-ai",
-          "repo": "Huihui-Mistral-Small-4-119B-2603-BF16-abliterated-v2-GGUF"
-        },
-        {
-          "type": "huggingface",
-          "user": "DevQuasar",
-          "repo": "mistralai.Mistral-Small-4-119B-2603-GGUF"
-        },
-        {
-          "type": "huggingface",
-          "user": "noctrex",
-          "repo": "Mistral-Small-4-119B-2603-MXFP4_MOE-GGUF"
-        },
-        {
-          "type": "huggingface",
-          "user": "jenerallee78",
-          "repo": "Mistral-Small-4-119B-2603-obliterated-Q4_K_M-GGUF"
-        },
-        {
-          "type": "huggingface",
-          "user": "Beinsezii",
-          "repo": "Mistral-Small-4-119B-2603-GGUF-HALO"
-        },
-        {
-          "type": "huggingface",
-          "user": "DanyDA",
-          "repo": "unsloth_Mistral-Small-4-119B-2603-UD-Q4_K_M-GGUF-SPLIT"
-        },
-        {
-          "type": "huggingface",
-          "user": "stefan-terdell-cleura",
-          "repo": "Mistral-Small-4-119B-2603-GGUF"
-        }
-      ],
-      "purpose": "baseModel"
+      "path": "model.yaml",
+      "sha256": "2c9338298442e0e0d59bb20bcb90b626ecd2efb70c7ab51eb5fdf663fbc940f2",
+      "size": 3987
     }
   ]
 }
