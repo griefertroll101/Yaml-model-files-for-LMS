@@ -1,5 +1,5 @@
 # Issue regarding some models
-Currently working on fix for the qwen3.5-4b, gemma-4-31b, Gemma -4,e4b, Gemma-4-e2b and glm-4.5-air as I think I know the issue now. Still work but just double models because LMS bs.
+Currently working on fix for the qwen3.5-4b, gemma-4-31b, Gemma -4-e4b, Gemma-4-e2b and glm-4.5-air as I think I know the issue now. Still work but just double models because LMS bs.
 # Yaml Model Files For LMS
 Note: This is maintained by GrieferTroll in the LM Studio discord. Please do not bother Yags or Yorkie they have better things to do. DM me if an issue is here or use the issues tab here.
 
