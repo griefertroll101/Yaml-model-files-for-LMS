@@ -1,0 +1,969 @@
+{
+  "type": "model",
+  "owner": "griefertroll-yaml",
+  "name": "qwen3.5-27b",
+  "dependencies": [
+    {
+      "type": "model",
+      "modelKeys": [
+        "unsloth/Qwen3.5-27B-GGUF",
+        "unsloth/qwen3.5-27b@q8_k_xl",
+        "bartowski/Qwen_Qwen3.5-27B-GGUF",
+        "lmstudio-community/Qwen3.5-27B-GGUF",
+        "mradermacher/Huihui-Qwen3.5-27B-abliterated-GGUF",
+        "mradermacher/Qwen3.5-27B-heretic-GGUF",
+        "tatsuyaaaaaa/qwen3.5-27b-gguf",
+        "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
+        "mradermacher/Huihui-Qwen3.5-27B-abliterated-i1-GGUF",
+        "mradermacher/Qwen3.5-27B-heretic-i1-GGUF",
+        "llmfan46/qwen3.5-27b-heretic-v1-gguf",
+        "llmfan46/qwen3.5-27b-heretic-v2-gguf",
+        "mradermacher/Qwen3.5-27B-i1-GGUF",
+        "mradermacher/Qwen3.5-27B-heretic-v2-i1-GGUF",
+        "TeichAI/Qwen3.5-27B-Claude-Opus-4.6-Distill-GGUF",
+        "seanbailey518/qwen3.5-27b-gguf",
+        "mradermacher/qwen3.5-27b-gguf",
+        "llmfan46/qwen3.5-27b-ultimate-irrefusable-heretic-gguf",
+        "mradermacher/qwen3.5-27b-tainted-heresy-i1-gguf",
+        "mradermacher/Qwen3.5-27B-ultimate-heretic-i1-GGUF",
+        "heyujie/qwen3.5-27b-abliterated-gguf",
+        "mradermacher/Qwen3.5-27B-heretic-v2-GGUF",
+        "mradermacher/qwen3.5-27b-ultimate-heretic-gguf",
+        "ubergarm/Qwen3.5-27B-GGUF",
+        "gokmakog/qwen3.5-27b-gguf",
+        "juanml82/qwen3.5-27b-heretic-gguf",
+        "mradermacher/qwen3.5-27b-tainted-heresy-gguf",
+        "sokann/qwen3.5-27b-gguf-4.165bpw",
+        "alexdenton/qwen3.5-27b-heretic-gguf",
+        "cyberenchanteer/qwen3.5-27b-sc2-gguf",
+        "cs2764/huihui-qwen3.5-27b-abliterated-q8_0-gguf",
+        "stiofanz/qwen3.5-27b-gguf",
+        "nesy1/qwen3.5-27b-heretic-v2-iq4_xs",
+        "beinsezii/llmfan46-qwen3.5-27b-heretic-v2-gguf-6.11bpw",
+        "steampunque/qwen3.5-27b-mp-gguf",
+        "tybuddy/qwen3.5-27b-gguf-archived",
+        "beinsezii/qwen3.5-27b-6.11bpw-gguf",
+        "devquasar/qwen.qwen3.5-27b-gguf",
+        "mradermacher/qwen3.5-27b-heretic-v1-gguf",
+        "cmp-nct/qwen3.5-27b-gguf",
+        "merileijona/qwen3.5-27b-iq4_xs-gguf",
+        "manojb/qwen_qwen3.5-27b-iq4_xs.gguf",
+        "dinerburger/Qwen3.5-27B-GGUF",
+        "manojb/qwen_qwen3.5-27b-iq3_m.gguf",
+        "cvgro/qwen3.5-27b-heretic-v2-gguf",
+        "manojb/qwen_qwen3.5-27b-iq3_xs.gguf",
+        "cs2764/huihui-qwen3.5-27b-abliterated-q6_k-gguf",
+        "manojb/qwen3.5-27b-q3_k_m.gguf",
+        "gghfez/qwen3.5-27b-control-vectors",
+        "toastypigeon/qwen3.5-27b-stage1-q4_k_m-gguf",
+        "manojb/qwen_qwen3.5-27b-q3_k_l.gguf",
+        "manojb/qwen3.5-27b-q2_k.gguf",
+        "manojb/qwen_qwen3.5-27b-q3_k_m.gguf",
+        "futurema/qwen3.5-27b-skills-gguf",
+        "manojb/qwen_qwen3.5-27b-q3_k_s.gguf",
+        "manojb/qwen3.5-27b-q3_k_s.gguf",
+        "mradermacher/Qwen3.5-27B-Gemini3-Pro-High-Reasoning-Compact-Thinking-i1-GGUF",
+        "DevQuasar/huihui-ai.Huihui-Qwen3.5-27B-abliterated-GGUF",
+        "mradermacher/qwen3.5-27b-gemini3-pro-high-reasoning-compact-thinking-gguf",
+        "rvncto/qwen3.5-27b-heritic-polaris-advanced-thinking-alpha-uncensored-q5_k_m-gguf",
+        "mradermacher/Qwen3.5-27B-ultimate-irrefusable-heretic-i1-GGUF",
+        "mradermacher/qwen3.5-27b-ultimate-irrefusable-heretic-gguf",
+        "mradermacher/qwen3.5-27b-heritic-polaris-advanced-thinking-alpha-uncensored-i1-gguf",
+        "mradermacher/qwen3.5-27b-heritic-polaris-advanced-thinking-alpha-uncensored-gguf",
+        "junlee88999/qwen3.5-27b-heretic-v2-gguf",
+        "toastypigeon/qwen3.5-27b-v2-stage1-q4_k_m-gguf",
+        "Mungert/Qwen3.5-27B-GGUF",
+        "apocalypseparty/qwen3.5-27b-sft-1-gguf",
+        "apocalypseparty/qwen3.5-27b-cpt-1-sft-2-gguf",
+        "apocalypseparty/qwen3.5-27b-cpt-1-sft-1-gguf",
+        "mradermacher/Qwen3.5-27B-GLM-4.7-Flash-Thinking-ALPHA-i1-GGUF",
+        "ayodele01/openmath-qwen3.5-27b",
+        "mradermacher/qwen3.5-27b-glm-4.7-flash-thinking-alpha-gguf",
+        "mradermacher/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-i1-GGUF",
+        "mradermacher/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
+        "etemiz/ostrich-27b-qwen3.5-260305-gguf",
+        "HauhauCS/Qwen3.5-27B-Uncensored-HauhauCS-Aggressive",
+        "llmware/qwen3.5-27b-gguf",
+        "mradermacher/ostrich-27b-qwen3.5-260305-i1-gguf",
+        "khtsly/Qwen3.5-27B-Claude-4.6-Opus-Distilled-32k-GGUF",
+        "mradermacher/ostrich-27b-qwen3.5-260305-gguf",
+        "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
+        "mradermacher/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-heretic-i1-GGUF",
+        "mradermacher/Qwen3.5-27B-Guardpoint-i1-GGUF",
+        "llmfan46/Qwen3.5-27B-ultra-uncensored-heretic-v1-GGUF",
+        "mradermacher/Qwen3.5-27B-Esper3.1-i1-GGUF",
+        "LuffyTheFox/Qwen3.5-27B-Claude-4.6-Opus-Uncensored-V2-Kullback-Leibler-GGUF",
+        "mradermacher/Qwen3.5-27B-Writer-i1-GGUF",
+        "eugenehp/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
+        "mradermacher/Huihui-Qwen3.5-27B-Claude-4.6-Opus-abliterated-GGUF",
+        "mradermacher/Qwen3.5-27B-DS9-i1-GGUF",
+        "mradermacher/Qwen3.5-27B-Uncensored-i1-GGUF",
+        "mradermacher/Qwen3.5-27B-Unredacted-MAX-i1-GGUF",
+        "llmfan46/Qwen3.5-27B-uncensored-heretic-GGUF",
+        "mradermacher/Qwen3.5-27B-heretic-v3-i1-GGUF",
+        "mradermacher/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-heretic-GGUF",
+        "LuffyTheFox/Qwen3.5-27B-Claude-4.6-Opus-Uncensored-GGUF",
+        "mradermacher/Qwen3.5-27B-Deckard-PKD-Heretic-Uncensored-Thinking-i1-GGUF",
+        "mradermacher/Qwen-3.5-27B-Derestricted-i1-GGUF",
+        "mradermacher/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-heretic-v2-i1-GGUF",
+        "mradermacher/Qwen3.5-27B-heretic-RYS-XL-i1-GGUF",
+        "mradermacher/Huihui-Qwen3.5-27B-Claude-4.6-Opus-abliterated-i1-GGUF",
+        "peterjohannmedina/Medina-Qwen3.5-27B-OpenClaw",
+        "mradermacher/Qwen3.5-27B-abliterated-v2-MAX-i1-GGUF",
+        "mradermacher/Qwen3.5-27B_Homebrew-i1-GGUF",
+        "mradermacher/Qwen3.5-27B-Marvin-DPO-V2-i1-GGUF",
+        "mradermacher/Qwen3.5-27B-Gemini-3.1-Pro-Reasoning-Distill-i1-GGUF",
+        "mradermacher/Qwen3.5-27B-DAG-Reasoning-i1-GGUF",
+        "mradermacher/Qwen3.5-27B-HERETIC-Polaris-Advanced-Thinking-Alpha-uncensored-i1-GGUF",
+        "bartowski/ConicCat_Qwen3.5-27B-Writer-GGUF",
+        "mradermacher/Qwen3.5-27B-Claude-4.6-OS-INSTRUCT-i1-GGUF",
+        "mradermacher/Qwen3.5-27B-FineTree-V2.1-i1-GGUF",
+        "mradermacher/Qwen3.5-27B-Derestricted-i1-GGUF",
+        "Jackrong/Qwen3.5-27B-Gemini-3.1-Pro-Reasoning-Distill-GGUF",
+        "mradermacher/Qwen3.5-27B-Claude-4.6-OS-Auto-Variable-Heretic-Uncensored-Thinking-i1-GGUF",
+        "mradermacher/Qwen3.5-27B-heretic-v3-GGUF",
+        "mradermacher/Qwen3.5-27B-Claude-4.6-OS-INSTRUCT-GGUF",
+        "mradermacher/Qwen3.5-27B-Writer-V2-i1-GGUF",
+        "mradermacher/Luna-Qwen3.5-27B-v5-i1-GGUF",
+        "mradermacher/Qwen-3.5-27B-Derestricted-GGUF",
+        "mradermacher/brayniac-Qwen3.5-27B-heretic-i1-GGUF",
+        "mradermacher/Qwen3.5-27B-Distilled-Korean-SFT-260320-i1-GGUF",
+        "mradermacher/csai-qwen3.5-27b-i1-GGUF",
+        "mradermacher/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-heretic-v2-GGUF",
+        "mradermacher/Qwen3.5-27B-Antirep-V1-i1-GGUF",
+        "SpencerSun/Qwen3.5-27B-heretic-v3-i1-GGUF",
+        "mradermacher/Qwen3.5-27B-HERETIC-Polaris-Advanced-Thinking-Alpha-uncensored-GGUF",
+        "mradermacher/Qwen3.5-27B-Writer-GGUF",
+        "mradermacher/UwU-Qwen3.5-27B-v0.1-i1-GGUF",
+        "Sepolian/Huihui-Qwen3.5-27B-Claude-4.6-Opus-abliterated-Q4_K_M",
+        "mradermacher/Qwen3.5-27B-Unredacted-MAX-GGUF",
+        "mradermacher/Qwen3.5-27B-WebNovel-Writer-zh-i1-GGUF",
+        "duolaf/Qwen3.5-27B-GGUF",
+        "mradermacher/Qwen3.5-27B-Gemini-3.1-Pro-Reasoning-Distill-GGUF",
+        "mradermacher/Qwen3.5-27B-Deckard-PKD-Heretic-Uncensored-Thinking-GGUF",
+        "mradermacher/Qwen3.5-27B-Heretic-Marvin-V1-i1-GGUF",
+        "mradermacher/Qwen3.5-27B-Engineer-Deckard-Claude-i1-GGUF",
+        "mradermacher/GeoLLM-Qwen3.5-27B-i1-GGUF",
+        "dlindsey/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-i1-GGUF",
+        "mradermacher/Qwen3.5-27B-Engineer-Deckard-Gemini-i1-GGUF",
+        "Darkhn-Quants-3/Qwen3.5-27B-Animus-V13.0-GGUF",
+        "llmfan46/Qwen3.5-27B-ultra-uncensored-heretic-v2-GGUF",
+        "ddh0/Qwen3.5-27B-Heretic-Marvin-V1-GGUF",
+        "khtsly/Qwen3.5-27B-Abliterated-Claude-4.6-Opus-Distilled-32k-GGUF",
+        "mradermacher/Qwen3.5-27B-heretic-RYS-XL-GGUF",
+        "mradermacher/Qwen3.5-27B-Derestricted-GGUF",
+        "Gammaception/Qwen3.5-27B-Thireus-16gb-optimized-GGUF",
+        "jagjeevanak/qwen3.5-27b-claude-4.6-opus-reasoning-distilled-gguf",
+        "mradermacher/qwen3.5-27b-writer-v2-gguf",
+        "freddm/qwen3.5-27b-claude-4.6-opus-reasoning-distilled-gguf",
+        "mradermacher/qwen3.5-27b-esper3.1-gguf",
+        "mradermacher/Qwen3.5-27B-ultra-uncensored-heretic-v1-i1-GGUF",
+        "mradermacher/Qwen3.5-27B-ultra-uncensored-heretic-v2-i1-GGUF",
+        "mradermacher/Huihui-Qwen3.5-27B-abliterated-Athanorlite-ORPO-i1-GGUF",
+        "mradermacher/Qwen3.5-27B-Marvin-V2-i1-GGUF",
+        "Flakily6416/Qwen3.5-27B-Opus-Reasoning-v2-Abliterated-EvoPress-GGUF",
+        "YTan2000/Qwen3.5-27B-TQ3_4S",
+        "mradermacher/Qwen3.5-27B-Marvin-V2-GGUF",
+        "mradermacher/Qwen3.5-27B-abliterated-v2-MAX-GGUF"
+      ],
+      "sources": [
+        {
+          "type": "huggingface",
+          "user": "unsloth",
+          "repo": "qwen3.5-27b@q8_k_xl"
+        },
+        {
+          "type": "huggingface",
+          "user": "unsloth",
+          "repo": "qwen3.5-27b@q8_k_xl"
+        },
+        {
+          "type": "huggingface",
+          "user": "bartowski",
+          "repo": "Qwen_Qwen3.5-27B-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "lmstudio-community",
+          "repo": "Qwen3.5-27B-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Huihui-Qwen3.5-27B-abliterated-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-heretic-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "tatsuyaaaaaa",
+          "repo": "Qwen3.5-27B-gguf"
+        },
+        {
+          "type": "huggingface",
+          "user": "Jackrong",
+          "repo": "Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Huihui-Qwen3.5-27B-abliterated-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-heretic-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "llmfan46",
+          "repo": "Qwen3.5-27B-heretic-v1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "llmfan46",
+          "repo": "Qwen3.5-27B-heretic-v2-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-heretic-v2-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "TeichAI",
+          "repo": "Qwen3.5-27B-Claude-Opus-4.6-Distill-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "seanbailey518",
+          "repo": "Qwen3.5-27B-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "llmfan46",
+          "repo": "Qwen3.5-27B-ultimate-irrefusable-heretic-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-tainted-heresy-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-ultimate-heretic-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "HeYujie",
+          "repo": "Qwen3.5-27B-abliterated-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-heretic-v2-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-ultimate-heretic-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "ubergarm",
+          "repo": "Qwen3.5-27B-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "gokmakog",
+          "repo": "Qwen3.5-27B-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "juanml82",
+          "repo": "Qwen3.5-27B-heretic-gguf"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-tainted-heresy-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "sokann",
+          "repo": "Qwen3.5-27B-GGUF-4.165bpw"
+        },
+        {
+          "type": "huggingface",
+          "user": "alexdenton",
+          "repo": "Qwen3.5-27B-heretic-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "cyberenchanteer",
+          "repo": "qwen3.5-27B-SC2-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "cs2764",
+          "repo": "Huihui-Qwen3.5-27B-abliterated-Q8_0-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "StiofanZ",
+          "repo": "Qwen3.5-27B-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "Nesy1",
+          "repo": "Qwen3.5-27B-heretic-v2-IQ4_XS"
+        },
+        {
+          "type": "huggingface",
+          "user": "Beinsezii",
+          "repo": "llmfan46-Qwen3.5-27B-heretic-v2-GGUF-6.11BPW"
+        },
+        {
+          "type": "huggingface",
+          "user": "steampunque",
+          "repo": "Qwen3.5-27B-MP-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "tybuddy",
+          "repo": "Qwen3.5-27B-GGUF-archived"
+        },
+        {
+          "type": "huggingface",
+          "user": "Beinsezii",
+          "repo": "Qwen3.5-27B-6.11BPW-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "DevQuasar",
+          "repo": "Qwen.Qwen3.5-27B-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-heretic-v1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "cmp-nct",
+          "repo": "Qwen3.5-27B-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "merileijona",
+          "repo": "Qwen3.5-27B-IQ4_XS-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "Manojb",
+          "repo": "Qwen_Qwen3.5-27B-IQ4_XS.gguf"
+        },
+        {
+          "type": "huggingface",
+          "user": "dinerburger",
+          "repo": "Qwen3.5-27B-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "Manojb",
+          "repo": "Qwen_Qwen3.5-27B-IQ3_M.gguf"
+        },
+        {
+          "type": "huggingface",
+          "user": "cvgro",
+          "repo": "Qwen3.5-27B-heretic-V2-gguf"
+        },
+        {
+          "type": "huggingface",
+          "user": "Manojb",
+          "repo": "Qwen_Qwen3.5-27B-IQ3_XS.gguf"
+        },
+        {
+          "type": "huggingface",
+          "user": "cs2764",
+          "repo": "Huihui-Qwen3.5-27B-abliterated-Q6_K-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "Manojb",
+          "repo": "Qwen3.5-27B-Q3_K_M.gguf"
+        },
+        {
+          "type": "huggingface",
+          "user": "gghfez",
+          "repo": "Qwen3.5-27b-control-vectors"
+        },
+        {
+          "type": "huggingface",
+          "user": "ToastyPigeon",
+          "repo": "qwen3.5-27b-stage1-Q4_K_M-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "Manojb",
+          "repo": "Qwen_Qwen3.5-27B-Q3_K_L.gguf"
+        },
+        {
+          "type": "huggingface",
+          "user": "Manojb",
+          "repo": "Qwen3.5-27B-Q2_K.gguf"
+        },
+        {
+          "type": "huggingface",
+          "user": "Manojb",
+          "repo": "Qwen_Qwen3.5-27B-Q3_K_M.gguf"
+        },
+        {
+          "type": "huggingface",
+          "user": "FutureMa",
+          "repo": "Qwen3.5-27B-Skills-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "Manojb",
+          "repo": "Qwen_Qwen3.5-27B-Q3_K_S.gguf"
+        },
+        {
+          "type": "huggingface",
+          "user": "Manojb",
+          "repo": "Qwen3.5-27B-Q3_K_S.gguf"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-Gemini3-Pro-High-Reasoning-Compact-Thinking-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "DevQuasar",
+          "repo": "huihui-ai.Huihui-Qwen3.5-27B-abliterated-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-Gemini3-Pro-High-Reasoning-Compact-Thinking-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "rvncto",
+          "repo": "Qwen3.5-27B-HERITIC-Polaris-Advanced-Thinking-Alpha-uncensored-Q5_K_M-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-ultimate-irrefusable-heretic-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-ultimate-irrefusable-heretic-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-HERITIC-Polaris-Advanced-Thinking-Alpha-uncensored-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-HERITIC-Polaris-Advanced-Thinking-Alpha-uncensored-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "JunLee88999",
+          "repo": "Qwen3.5-27B-heretic-v2-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "ToastyPigeon",
+          "repo": "qwen3.5-27b-v2-stage1-Q4_K_M-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "Mungert",
+          "repo": "Qwen3.5-27B-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "ApocalypseParty",
+          "repo": "Qwen3.5-27B-SFT-1-gguf"
+        },
+        {
+          "type": "huggingface",
+          "user": "ApocalypseParty",
+          "repo": "Qwen3.5-27B-CPT-1-SFT-2-gguf"
+        },
+        {
+          "type": "huggingface",
+          "user": "ApocalypseParty",
+          "repo": "Qwen3.5-27B-CPT-1-SFT-1-gguf"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-GLM-4.7-Flash-Thinking-ALPHA-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "Ayodele01",
+          "repo": "OpenMath-Qwen3.5-27B"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-GLM-4.7-Flash-Thinking-ALPHA-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "etemiz",
+          "repo": "Ostrich-27B-Qwen3.5-260305-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "HauhauCS",
+          "repo": "Qwen3.5-27B-Uncensored-HauhauCS-Aggressive"
+        },
+        {
+          "type": "huggingface",
+          "user": "llmware",
+          "repo": "qwen3.5-27b-gguf"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Ostrich-27B-Qwen3.5-260305-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "khtsly",
+          "repo": "Qwen3.5-27B-Claude-4.6-Opus-Distilled-32k-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Ostrich-27B-Qwen3.5-260305-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "Jackrong",
+          "repo": "Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-heretic-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-Guardpoint-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "llmfan46",
+          "repo": "Qwen3.5-27B-ultra-uncensored-heretic-v1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-Esper3.1-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "LuffyTheFox",
+          "repo": "Qwen3.5-27B-Claude-4.6-Opus-Uncensored-V2-Kullback-Leibler-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-Writer-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "eugenehp",
+          "repo": "Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Huihui-Qwen3.5-27B-Claude-4.6-Opus-abliterated-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-DS9-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-Uncensored-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-Unredacted-MAX-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "llmfan46",
+          "repo": "Qwen3.5-27B-uncensored-heretic-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-heretic-v3-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-heretic-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "LuffyTheFox",
+          "repo": "Qwen3.5-27B-Claude-4.6-Opus-Uncensored-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-Deckard-PKD-Heretic-Uncensored-Thinking-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen-3.5-27B-Derestricted-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-heretic-v2-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-heretic-RYS-XL-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Huihui-Qwen3.5-27B-Claude-4.6-Opus-abliterated-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "peterjohannmedina",
+          "repo": "Medina-Qwen3.5-27B-OpenClaw"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-abliterated-v2-MAX-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B_Homebrew-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-Marvin-DPO-V2-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-Gemini-3.1-Pro-Reasoning-Distill-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-DAG-Reasoning-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-HERETIC-Polaris-Advanced-Thinking-Alpha-uncensored-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "bartowski",
+          "repo": "ConicCat_Qwen3.5-27B-Writer-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-Claude-4.6-OS-INSTRUCT-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-FineTree-V2.1-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-Derestricted-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "Jackrong",
+          "repo": "Qwen3.5-27B-Gemini-3.1-Pro-Reasoning-Distill-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-Claude-4.6-OS-Auto-Variable-Heretic-Uncensored-Thinking-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-heretic-v3-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-Claude-4.6-OS-INSTRUCT-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-Writer-V2-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Luna-Qwen3.5-27B-v5-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen-3.5-27B-Derestricted-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "brayniac-Qwen3.5-27B-heretic-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-Distilled-Korean-SFT-260320-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "csai-qwen3.5-27b-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-heretic-v2-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-Antirep-V1-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "SpencerSun",
+          "repo": "Qwen3.5-27B-heretic-v3-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-HERETIC-Polaris-Advanced-Thinking-Alpha-uncensored-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-Writer-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "UwU-Qwen3.5-27B-v0.1-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "Sepolian",
+          "repo": "Huihui-Qwen3.5-27B-Claude-4.6-Opus-abliterated-Q4_K_M"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-Unredacted-MAX-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-WebNovel-Writer-zh-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "duolaf",
+          "repo": "Qwen3.5-27B-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-Gemini-3.1-Pro-Reasoning-Distill-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-Deckard-PKD-Heretic-Uncensored-Thinking-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-Heretic-Marvin-V1-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-Engineer-Deckard-Claude-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "GeoLLM-Qwen3.5-27B-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "dlindsey",
+          "repo": "Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-Engineer-Deckard-Gemini-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "Darkhn-Quants-3",
+          "repo": "Qwen3.5-27B-Animus-V13.0-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "llmfan46",
+          "repo": "Qwen3.5-27B-ultra-uncensored-heretic-v2-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "ddh0",
+          "repo": "Qwen3.5-27B-Heretic-Marvin-V1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "khtsly",
+          "repo": "Qwen3.5-27B-Abliterated-Claude-4.6-Opus-Distilled-32k-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-heretic-RYS-XL-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-Derestricted-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "Gammaception",
+          "repo": "Qwen3.5-27B-Thireus-16gb-optimized-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "JagjeevanAK",
+          "repo": "Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-gguf"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-Writer-V2-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "freddm",
+          "repo": "Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-Esper3.1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-ultra-uncensored-heretic-v1-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-ultra-uncensored-heretic-v2-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Huihui-Qwen3.5-27B-abliterated-Athanorlite-ORPO-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-Marvin-V2-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "Flakily6416",
+          "repo": "Qwen3.5-27B-Opus-Reasoning-v2-Abliterated-EvoPress-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "YTan2000",
+          "repo": "Qwen3.5-27B-TQ3_4S"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-Marvin-V2-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-abliterated-v2-MAX-GGUF"
+        }
+      ],
+      "purpose": "baseModel"
+    }
+  ]
+}

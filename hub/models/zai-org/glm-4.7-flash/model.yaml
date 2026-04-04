@@ -1,6 +1,6 @@
 # model.yaml is an open standard for defining cross-platform, composable AI models
 # Learn more at https://modelyaml.org
-model: zai-org/glm-4.7-flash
+model: griefertroll-yaml/glm-4.7-flash
 base:
   - key: unsloth/GLM-4.7-Flash-GGUF
     sources:
@@ -607,6 +607,16 @@ base:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-21B-GLM-4.7-Flash-Deckard-Heretic-Uncensored-Thinking-GGUF
+  - key: mradermacher/gemma-3-12b-it-vl-GLM-4.7-Flash-Polaris-Thinking-Heretic-Uncensored-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-3-12b-it-vl-GLM-4.7-Flash-Polaris-Thinking-Heretic-Uncensored-i1-GGUF
+  - key: mradermacher/GLM-4.7-Flash-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: GLM-4.7-Flash-GGUF
 config:
   operation:
     fields:

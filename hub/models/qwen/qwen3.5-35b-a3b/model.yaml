@@ -1,6 +1,6 @@
 # model.yaml is an open standard for defining cross-platform, composable AI models
 # Learn more at https://modelyaml.org
-model: qwen/qwen3.5-35b-a3b
+model: griefertroll-yaml/qwen3.5-35b-a3b
 base:
   - key: unsloth/Qwen3.5-35B-A3B-GGUF
     sources:
@@ -592,7 +592,7 @@ base:
       - type: huggingface
         user: valchy
         repo: Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive
-  - key: grapev-ai/qwen3.5-35b-a3b-gguf
+  - key: grapeV-ai/Qwen3.5-35B-A3B-GGUF
     sources:
       - type: huggingface
         user: grapeV-ai
@@ -601,6 +601,11 @@ base:
     sources:
       - type: huggingface
         user: tomstrong
+        repo: Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive
+  - key: Bruhtyyy/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive
+    sources:
+      - type: huggingface
+        user: Bruhtyyy
         repo: Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive
 config:
   operation:

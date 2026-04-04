@@ -1,6 +1,6 @@
 # model.yaml is an open standard for defining cross-platform, composable AI models
 # Learn more at https://modelyaml.org
-model: nvidia/nemotron-3-super
+model: griefertroll-yaml/nemotron-3-super
 base:
   - key: unsloth/NVIDIA-Nemotron-3-Super-120B-A12B-GGUF
     sources:

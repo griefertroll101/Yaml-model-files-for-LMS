@@ -1,0 +1,177 @@
+{
+  "type": "model",
+  "owner": "griefertroll-yaml",
+  "name": "nemotron-3-super",
+  "dependencies": [
+    {
+      "type": "model",
+      "modelKeys": [
+        "unsloth/NVIDIA-Nemotron-3-Super-120B-A12B-GGUF",
+        "lmstudio-community/NVIDIA-Nemotron-3-Super-120B-A12B-GGUF",
+        "bartowski/nvidia_Nemotron-3-Super-120B-A12B-GGUF",
+        "mradermacher/NVIDIA-Nemotron-3-Super-120B-A12B-BF16-heretic-i1-GGUF",
+        "mradermacher/NVIDIA-Nemotron-3-Super-120B-A12B-BF16-i1-GGUF",
+        "Mungert/NVIDIA-Nemotron-3-Super-120B-A12B-BF16-GGUF",
+        "AesSedai/NVIDIA-Nemotron-3-Super-120B-A12B-GGUF",
+        "mradermacher/NVIDIA-Nemotron-3-Super-120B-A12B-BF16-heretic-GGUF",
+        "ggml-org/Nemotron-3-Super-120B-GGUF",
+        "DevQuasar/nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16-GGUF",
+        "timteh673/Nemotron-3-Super-120B-A12B-Uncensored-GGUF",
+        "jdziat/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4-GGUF",
+        "blobbybob/Nemotron-3-Super-120B-A12B-GGUF-Claude-4.6-Opus-Reasoning-Distilled",
+        "ddh0/NVIDIA-Nemotron-3-Super-120B-A12B-GGUF",
+        "mradermacher/NVIDIA-Nemotron-3-Super-120B-A12B-BF16-GGUF",
+        "coughmedicine/NVIDIA-Nemotron-3-Super-120B-A12B-Base-GGUF",
+        "Beinsezii/Nemotron-3-Super-120B-A12B-GGUF-HALO",
+        "ApocalypseParty/Nemotron-3-Super-120B-SFT-5-high-gguf",
+        "ApocalypseParty/Nemotron-3-Super-120B-SFT-6-gguf",
+        "Sabomako/NVIDIA-Nemotron-3-Super-120B-A12B-BF16-heretic-v2-GGUF",
+        "ApocalypseParty/Nemotron-3-Super-120B-SFT-5-mid-gguf",
+        "avar6/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16-gguf",
+        "ApocalypseParty/Nemotron-3-Super-120B-SFT-5-low2-gguf",
+        "farshidtz/NVIDIA-Nemotron-3-Super-120B-A12B-UD-Q4_K_M-5G",
+        "baa-ai/Nemotron-3-Super-120B-A12B-MINT-GGUF",
+        "ApocalypseParty/Nemotron-3-Super-120B-SFT-5-gguf",
+        "ApocalypseParty/Nemotron-3-Super-120B-SFT-8-gguf"
+      ],
+      "sources": [
+        {
+          "type": "huggingface",
+          "user": "unsloth",
+          "repo": "NVIDIA-Nemotron-3-Super-120B-A12B-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "lmstudio-community",
+          "repo": "NVIDIA-Nemotron-3-Super-120B-A12B-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "bartowski",
+          "repo": "nvidia_Nemotron-3-Super-120B-A12B-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "NVIDIA-Nemotron-3-Super-120B-A12B-BF16-heretic-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "NVIDIA-Nemotron-3-Super-120B-A12B-BF16-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "Mungert",
+          "repo": "NVIDIA-Nemotron-3-Super-120B-A12B-BF16-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "AesSedai",
+          "repo": "NVIDIA-Nemotron-3-Super-120B-A12B-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "NVIDIA-Nemotron-3-Super-120B-A12B-BF16-heretic-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "ggml-org",
+          "repo": "Nemotron-3-Super-120B-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "DevQuasar",
+          "repo": "nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "timteh673",
+          "repo": "Nemotron-3-Super-120B-A12B-Uncensored-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "jdziat",
+          "repo": "NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "blobbybob",
+          "repo": "Nemotron-3-Super-120B-A12B-GGUF-Claude-4.6-Opus-Reasoning-Distilled"
+        },
+        {
+          "type": "huggingface",
+          "user": "ddh0",
+          "repo": "NVIDIA-Nemotron-3-Super-120B-A12B-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "NVIDIA-Nemotron-3-Super-120B-A12B-BF16-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "coughmedicine",
+          "repo": "NVIDIA-Nemotron-3-Super-120B-A12B-Base-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "Beinsezii",
+          "repo": "Nemotron-3-Super-120B-A12B-GGUF-HALO"
+        },
+        {
+          "type": "huggingface",
+          "user": "ApocalypseParty",
+          "repo": "Nemotron-3-Super-120B-SFT-5-high-gguf"
+        },
+        {
+          "type": "huggingface",
+          "user": "ApocalypseParty",
+          "repo": "Nemotron-3-Super-120B-SFT-6-gguf"
+        },
+        {
+          "type": "huggingface",
+          "user": "Sabomako",
+          "repo": "NVIDIA-Nemotron-3-Super-120B-A12B-BF16-heretic-v2-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "ApocalypseParty",
+          "repo": "Nemotron-3-Super-120B-SFT-5-mid-gguf"
+        },
+        {
+          "type": "huggingface",
+          "user": "avar6",
+          "repo": "NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16-gguf"
+        },
+        {
+          "type": "huggingface",
+          "user": "ApocalypseParty",
+          "repo": "Nemotron-3-Super-120B-SFT-5-low2-gguf"
+        },
+        {
+          "type": "huggingface",
+          "user": "farshidtz",
+          "repo": "NVIDIA-Nemotron-3-Super-120B-A12B-UD-Q4_K_M-5G"
+        },
+        {
+          "type": "huggingface",
+          "user": "baa-ai",
+          "repo": "Nemotron-3-Super-120B-A12B-MINT-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "ApocalypseParty",
+          "repo": "Nemotron-3-Super-120B-SFT-5-gguf"
+        },
+        {
+          "type": "huggingface",
+          "user": "ApocalypseParty",
+          "repo": "Nemotron-3-Super-120B-SFT-8-gguf"
+        }
+      ],
+      "purpose": "baseModel"
+    }
+  ]
+}

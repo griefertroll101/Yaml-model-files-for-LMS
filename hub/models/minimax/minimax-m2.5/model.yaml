@@ -1,6 +1,6 @@
 # model.yaml is an open standard for defining cross-platform, composable AI models
 # Learn more at https://modelyaml.org
-model: minimax/minimax-m2.5
+model: griefertroll-yaml/minimax-m2.5
 base:
   - key: lmstudio-community/minimax-m2.5-mlx-4bit
     sources:

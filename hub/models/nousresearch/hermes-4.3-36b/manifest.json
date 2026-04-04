@@ -1,0 +1,123 @@
+{
+  "type": "model",
+  "owner": "griefertroll-yaml",
+  "name": "hermes-4.3-36b",
+  "dependencies": [
+    {
+      "type": "model",
+      "modelKeys": [
+        "mradermacher/Hermes-4.3-36B-heretic-i1-GGUF",
+        "mradermacher/Hermes-4.3-36B-heretic-GGUF",
+        "EloyOn/Hermes-4.3-36B-Q5_0-GGUF",
+        "FBTMAML/Hermes-4.3-36B",
+        "MaziyarPanahi/Hermes-4.3-36B-GGUF",
+        "mradermacher/Hermes-4.3-36B-i1-GGUF",
+        "mradermacher/Hermes-4.3-36B-GGUF",
+        "mradermacher/hermes4.3-z-i1-gguf",
+        "mradermacher/hermes4.3-z-gguf",
+        "DevQuasar/NousResearch.Hermes-4.3-36B-GGUF",
+        "bartowski/NousResearch_Hermes-4.3-36B-GGUF",
+        "NousResearch/Hermes-4.3-36B-GGUF",
+        "gnigguhface/Hermes-4.3-36B-Q5_K_M-GGUF",
+        "ThijsL202/Hermes-4.3-36B-heretic-Q6_K-GGUF",
+        "CrocoCpp/Hermes-4.3-36B-heretic-Q8_0-GGUF",
+        "SerialKicked/Hermes-4.3-36B-heretic-GGUF-IQ4_XS",
+        "darkc0de/hermes-4.3-36b-heretic-q5_k_s-gguf",
+        "gnigguhface/Hermes-4.3-36B-Q4_K_M-GGUF"
+      ],
+      "sources": [
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Hermes-4.3-36B-heretic-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Hermes-4.3-36B-heretic-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "EloyOn",
+          "repo": "Hermes-4.3-36B-Q5_0-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "FBTMAML",
+          "repo": "Hermes-4.3-36B"
+        },
+        {
+          "type": "huggingface",
+          "user": "MaziyarPanahi",
+          "repo": "Hermes-4.3-36B-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Hermes-4.3-36B-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Hermes-4.3-36B-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Hermes4.3-Z-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Hermes4.3-Z-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "DevQuasar",
+          "repo": "NousResearch.Hermes-4.3-36B-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "bartowski",
+          "repo": "NousResearch_Hermes-4.3-36B-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "NousResearch",
+          "repo": "Hermes-4.3-36B-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "gnigguhface",
+          "repo": "Hermes-4.3-36B-Q5_K_M-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "ThijsL202",
+          "repo": "Hermes-4.3-36B-heretic-Q6_K-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "CrocoCpp",
+          "repo": "Hermes-4.3-36B-heretic-Q8_0-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "SerialKicked",
+          "repo": "Hermes-4.3-36B-heretic-GGUF-IQ4_XS"
+        },
+        {
+          "type": "huggingface",
+          "user": "darkc0de",
+          "repo": "Hermes-4.3-36B-heretic-Q5_K_S-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "gnigguhface",
+          "repo": "Hermes-4.3-36B-Q4_K_M-GGUF"
+        }
+      ],
+      "purpose": "baseModel"
+    }
+  ]
+}

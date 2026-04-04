@@ -1,6 +1,6 @@
 # model.yaml is an open standard for defining cross-platform, composable AI models
 # Learn more at https://modelyaml.org
-model: nvidia/nemotron-3-nano-4b
+model: griefertroll-yaml/nemotron-3-nano-4b
 base:
   - key: lmstudio-community/NVIDIA-Nemotron-3-Nano-4B-GGUF
     sources:

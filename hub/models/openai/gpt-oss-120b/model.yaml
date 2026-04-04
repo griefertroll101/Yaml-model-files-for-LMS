@@ -1,6 +1,6 @@
 # model.yaml is an open standard for defining cross-platform, composable AI models
 # Learn more at https://modelyaml.org
-model: openai/gpt-oss-120b
+model: griefertroll-yaml/gpt-oss-120b
 base:
   - key: ggml-org/gpt-oss-120b-GGUF
     sources:

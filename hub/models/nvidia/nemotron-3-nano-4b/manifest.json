@@ -1,0 +1,105 @@
+{
+  "type": "model",
+  "owner": "griefertroll-yaml",
+  "name": "nemotron-3-nano-4b",
+  "dependencies": [
+    {
+      "type": "model",
+      "modelKeys": [
+        "lmstudio-community/NVIDIA-Nemotron-3-Nano-4B-GGUF",
+        "unsloth/NVIDIA-Nemotron-3-Nano-4B-GGUF",
+        "nvidia/NVIDIA-Nemotron-3-Nano-4B-GGUF",
+        "HauhauCS/Nemotron3-Nano-4B-Uncensored-HauhauCS-Aggressive",
+        "bartowski/nvidia_Nemotron-3-Nano-4B-GGUF",
+        "tatsuyaaaaaaa/NVIDIA-Nemotron-3-Nano-4B-BF16-gguf",
+        "mradermacher/NVIDIA-Nemotron-3-Nano-4B-BF16-i1-GGUF",
+        "ddh0/NVIDIA-Nemotron-3-Nano-4B-GGUF",
+        "ggml-org/Nemotron-3-Nano-4B-GGUF",
+        "mradermacher/NVIDIA-Nemotron-3-Nano-4B-BF16-GGUF",
+        "HauhauCS/Nemotron3-Nano-4B-Uncensored-HauhauCS-Aggressive-GenRM",
+        "jaromer/Nemotron3-Nano-4B-Uncensored-HauhauCS-Aggressive",
+        "DevQuasar/nvidia.NVIDIA-Nemotron-3-Nano-4B-BF16-GGUF",
+        "lm-kit/nemotron-3-nano-4b-gguf",
+        "memoryco-ai/Nemotron-3-Nano-4B-GGUF"
+      ],
+      "sources": [
+        {
+          "type": "huggingface",
+          "user": "lmstudio-community",
+          "repo": "NVIDIA-Nemotron-3-Nano-4B-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "unsloth",
+          "repo": "NVIDIA-Nemotron-3-Nano-4B-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "nvidia",
+          "repo": "NVIDIA-Nemotron-3-Nano-4B-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "HauhauCS",
+          "repo": "Nemotron3-Nano-4B-Uncensored-HauhauCS-Aggressive"
+        },
+        {
+          "type": "huggingface",
+          "user": "bartowski",
+          "repo": "nvidia_Nemotron-3-Nano-4B-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "tatsuyaaaaaaa",
+          "repo": "NVIDIA-Nemotron-3-Nano-4B-BF16-gguf"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "NVIDIA-Nemotron-3-Nano-4B-BF16-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "ddh0",
+          "repo": "NVIDIA-Nemotron-3-Nano-4B-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "ggml-org",
+          "repo": "Nemotron-3-Nano-4B-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "NVIDIA-Nemotron-3-Nano-4B-BF16-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "HauhauCS",
+          "repo": "Nemotron3-Nano-4B-Uncensored-HauhauCS-Aggressive-GenRM"
+        },
+        {
+          "type": "huggingface",
+          "user": "jaromer",
+          "repo": "Nemotron3-Nano-4B-Uncensored-HauhauCS-Aggressive"
+        },
+        {
+          "type": "huggingface",
+          "user": "DevQuasar",
+          "repo": "nvidia.NVIDIA-Nemotron-3-Nano-4B-BF16-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "lm-kit",
+          "repo": "nemotron-3-nano-4b-gguf"
+        },
+        {
+          "type": "huggingface",
+          "user": "memoryco-ai",
+          "repo": "Nemotron-3-Nano-4B-GGUF"
+        }
+      ],
+      "purpose": "baseModel"
+    }
+  ]
+}

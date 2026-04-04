@@ -1,0 +1,663 @@
+{
+  "type": "model",
+  "owner": "griefertroll-yaml",
+  "name": "qwen3.5-9b",
+  "dependencies": [
+    {
+      "type": "model",
+      "modelKeys": [
+        "lmstudio-community/Qwen3.5-9B-GGUF",
+        "unsloth/Qwen3.5-9B-GGUF",
+        "HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
+        "Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
+        "Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
+        "bartowski/Qwen_Qwen3.5-9B-GGUF",
+        "DavidAU/Qwen3.5-9B-Claude-4.6-OS-Auto-Variable-HERETIC-UNCENSORED-THINKING-MAX-NEOCODE-Imatrix-GGUF",
+        "LuffyTheFox/Qwen3.5-9B-Claude-4.6-Opus-Uncensored-Distilled-GGUF",
+        "mradermacher/Qwen3.5-9B-Claude-4.6-HighIQ-INSTRUCT-HERETIC-UNCENSORED-GGUF",
+        "lukey03/Qwen3.5-9B-abliterated-GGUF",
+        "jwest33/qwen3.5-9b-null-space-abliterated-GGUF",
+        "mradermacher/Gliese-Qwen3.5-9B-Abliterated-Caption-i1-GGUF",
+        "mradermacher/Qwen3.5-9B-Claude-4.6-HighIQ-THINKING-HERETIC-UNCENSORED-i1-GGUF",
+        "mradermacher/Huihui-Qwen3.5-9B-abliterated-GGUF",
+        "Jackrong/Qwen3.5-9B-Gemini-3.1-Pro-Reasoning-Distill-GGUF",
+        "mradermacher/Huihui-Qwen3.5-9B-abliterated-i1-GGUF",
+        "llmfan46/Qwen3.5-9B-ultra-uncensored-heretic-v1-GGUF",
+        "prithivMLmods/Gliese-Qwen3.5-9B-Abliterated-Caption",
+        "mradermacher/Qwen3.5-9B-heretic-GGUF",
+        "mradermacher/Qwen3.5-9B-OmniCoder-Claude-Polaris-i1-GGUF",
+        "mradermacher/Qwen3.5-9B-Base-Interiority-i1-GGUF",
+        "LEONW24/Qwen3.5-9B-Uncensored",
+        "dahara1/Qwen3.5-9B-UD-japanese-imatrix",
+        "mradermacher/Qwen3.5-9B-Claude-4.6-OS-HERETIC-UNCENSORED-INSTRUCT-i1-GGUF",
+        "Jackrong/Qwen3.5-9B-Python-Coder-GGUF",
+        "khtsly/Qwen3.5-9B-Claude-4.6-Opus-Distilled-32k-GGUF",
+        "mradermacher/Huihui-Qwen3.5-9B-Claude-4.6-Opus-abliterated-GGUF",
+        "mradermacher/Qwen3.5-9B-Unredacted-MAX-GGUF",
+        "mradermacher/Qwen3.5-9B-ultimate-irrefusable-heretic-i1-GGUF",
+        "mradermacher/Qwen3.5-9B-abliterated-i1-GGUF",
+        "mradermacher/Qwen3.5-9B-Unredacted-MAX-i1-GGUF",
+        "zuzett/qwen3.5-9b-imatrix-gguf",
+        "mradermacher/Qwen3.5-9B-Neo-heretic-i1-GGUF",
+        "mradermacher/Qwen3.5-9B-Claude-4.6-HighIQ-INSTRUCT-HERETIC-UNCENSORED-i1-GGUF",
+        "Momix-44/Qwen3.5-9B-gemini-3.1-opus-4.6-reasoning",
+        "mradermacher/qwen3.5-9b-ultra-heretic-i1-gguf",
+        "mradermacher/Qwen3.5-9B-Claude-4.6-OS-Auto-Variable-THINKING-i1-GGUF",
+        "LuffyTheFox/OmniClaw-Qwen3.5-9B-Claude-4.6-Opus-Uncensored-v2-GGUF",
+        "mradermacher/Huihui-Qwen3.5-9B-abliterated-TIES-Hemlock-SFT-i1-GGUF",
+        "mradermacher/Qwen3.5-9B-Casual-Thinker-i1-GGUF",
+        "LuffyTheFox/Qwen3.5-9B-Claude-4.6-Opus-Uncensored-Kullback-Leibler",
+        "bigatuna/Qwen3.5-9b-Sushi-Coder-RL-GGUF",
+        "Abhiray/Qwen3.5-9B-abliterated-GGUF",
+        "Jackrong/Qwen3.5-9B-Neo-GGUF",
+        "mradermacher/Qwen3.5-9B-Claude-4.6-OS-HERETIC-UNCENSORED-INSTRUCT-GGUF",
+        "mradermacher/Heretical-Qwen3.5-9B-i1-GGUF",
+        "Mungert/Qwen3.5-9B-GGUF",
+        "mradermacher/Luna-Qwen3.5-9B-v5-i1-GGUF",
+        "jc-builds/Qwen3.5-9B-Q4_K_M-GGUF",
+        "mradermacher/Qwen3.5-9B-gemini-3.1-opus-4.6-reasoning-i1-GGUF",
+        "mradermacher/qwen3.5-9b-null-space-abliterated-GGUF",
+        "mradermacher/Qwen3.5-9B-GLM-Wannabe-i1-GGUF",
+        "daniloreddy/Qwen3.5-9B_GGUF",
+        "mradermacher/Qwen3.5-9B-Writing-DPO-i1-GGUF",
+        "mradermacher/Huihui-Qwen3.5-9B-abliterated-Grimoire-SimPO-i1-GGUF",
+        "mradermacher/Qwen3.5-9B-Heretic-ARA-Refusals5-i1-GGUF",
+        "mradermacher/Qwen3.5-9B-i1-GGUF",
+        "mradermacher/Qwen3.5-9B-Claude-4.6-HighIQ-THINKING-HERETIC-UNCENSORED-GGUF",
+        "AIImageStudio/Qwen3.5-9b-heretic-v2-GGUF",
+        "mradermacher/qwen3.5-9b-null-space-abliterated-i1-gguf",
+        "mradermacher/Qwen3.5-9B-heretic-i1-GGUF",
+        "Abhiray/Huihui-Qwen3.5-9B-abliterated-GGUF",
+        "mradermacher/Qwen3.5-9B-Antirep-i1-GGUF",
+        "mradermacher/qwen3.5-9b-nsfw-captioning-v2-i1-GGUF",
+        "bartowski/Jackrong_Qwen3.5-9B-Neo-GGUF",
+        "mradermacher/qwen3.5-9b-claude-4.6-highiq-instruct-i1-gguf",
+        "mradermacher/Alternate-Qwen3.5-9B-Claude-4.6-Opus-i1-GGUF",
+        "mradermacher/Huihui-Qwen3.5-9B-abliterated-Grimoire-SFT-i1-GGUF",
+        "EganAI/qwen3.5-9b-terminal-merge",
+        "Lordmo/Heretical-Qwen3.5-9B-i1-GGUF",
+        "mradermacher/qwen3.5-9b-claude-4.6-highiq-thinking-i1-gguf",
+        "mradermacher/Qwen3.5-9B-ultimate-irrefusable-heretic-GGUF",
+        "byteshape/Qwen3.5-9B-GGUF",
+        "filvyb/qwen3.5-9b-claude-4.6-highiq-thinking-heretic-uncensored",
+        "Abhiray/Qwen3.5-9B-Abliterated-Claude-4.6-Opus-Reasoning-Distilled-v2",
+        "DavidAU/Qwen3.5-9B-Star-Trek-TNG-DS9-Heretic-Uncensored-Thinking-MAX-NEOCODE-GGUF",
+        "filvyb/Qwen3.5-9B-heretic-v2-GGUF",
+        "cmp-nct/Qwen3.5-9B-GGUF",
+        "mradermacher/Qwen3.5-9B-Claude-4.6-OS-Auto-Variable-HERETIC-UNCENSORED-THINKING-i1-GGUF",
+        "mradermacher/Qwen3.5-9B-Claude-4.6-HighIQ-INSTRUCT-GGUF",
+        "mradermacher/qwen3.5-9b-ultra-heretic-gguf",
+        "mradermacher/Qwen3.5-9B-Claude-4.6-Opus-Deckard-V4.2-Uncensored-Heretic-Thinking-i1-GGUF",
+        "mradermacher/qwen3.5-9b-nsfw-captioning-v3-i1-GGUF",
+        "LuffyTheFox/OmniCoder-Qwen3.5-9B-Claude-4.6-Opus-Uncensored-v2-GGUF",
+        "mradermacher/Qwen3.5-9B-Claude-4.6-OS-INSTRUCT-i1-GGUF",
+        "mradermacher/Huihui-Qwen3.5-9B-Claude-4.6-Opus-abliterated-heretic-i1-GGUF",
+        "mradermacher/Huihui-Qwen3.5-9B-abliterated-TIES-i1-GGUF",
+        "mradermacher/Qwen3.5-9B-YOYO-Thinking-i1-GGUF",
+        "mradermacher/Gliese-Qwen3.5-9B-Abliterated-Caption-GGUF",
+        "mradermacher/Qwen3.5-9B-MedReasoning-DT-i1-GGUF",
+        "mradermacher/Huihui-Qwen3.5-9B-abliterated-Grimoire-DPO-i1-GGUF",
+        "Ngixdev/OmniCoder-Qwen3.5-9B-Claude-4.6-Opus-Uncensored-v2-GGUF",
+        "mradermacher/agent-Qwen3.5-9B-Claude-4.6-Opus-abliterated-heretic-i1-GGUF",
+        "mradermacher/Qwen3.5-9B-YOYO-Instruct-i1-GGUF",
+        "mradermacher/Qwen3.5-9B-DeepSeek-3.2-Intense-Auto-Variable-Thinking-i1-GGUF",
+        "DJLougen/Qwen3.5-9B-Harmonic-GGUF",
+        "mradermacher/Qwen3.5-9B-Base-Thoughtful-Interiority-i1-GGUF",
+        "Manojb/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive-Q4_K_M.gguf",
+        "mradermacher/GeoLLM-Qwen3.5-9B-i1-GGUF",
+        "mradermacher/qwen3.5-9b-nsfw-captioning-v2-GGUF",
+        "mradermacher/Qwen3.5-9B-Star-Trek-TNG-DS9-Heretic-Uncensored-Thinking-i1-GGUF",
+        "mradermacher/llmfan46-Qwen3.5-9B-ultra-heretic-i1-GGUF",
+        "mradermacher/Qwen3.5-9B-Deckard-Claude-DIMOE-Uncensored-Heretic-Thinking-i1-GGUF",
+        "empero-ai/Qwen3.5-9B-Claude-Code-GGUF",
+        "Aikimi/Qwen3.5-9B-Japanese-awy",
+        "mradermacher/Qwen3.5-9B-SOM-MPOA-i1-GGUF",
+        "mradermacher/Qwen3.5-9B-Antirep-V2-i1-GGUF",
+        "bogservi/Qwen3.5-9B-GGUF"
+      ],
+      "sources": [
+        {
+          "type": "huggingface",
+          "user": "lmstudio-community",
+          "repo": "Qwen3.5-9B-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "unsloth",
+          "repo": "Qwen3.5-9B-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "HauhauCS",
+          "repo": "Qwen3.5-9B-Uncensored-HauhauCS-Aggressive"
+        },
+        {
+          "type": "huggingface",
+          "user": "Jackrong",
+          "repo": "Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "Jackrong",
+          "repo": "Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "bartowski",
+          "repo": "Qwen_Qwen3.5-9B-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "DavidAU",
+          "repo": "Qwen3.5-9B-Claude-4.6-OS-Auto-Variable-HERETIC-UNCENSORED-THINKING-MAX-NEOCODE-Imatrix-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "LuffyTheFox",
+          "repo": "Qwen3.5-9B-Claude-4.6-Opus-Uncensored-Distilled-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-9B-Claude-4.6-HighIQ-INSTRUCT-HERETIC-UNCENSORED-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "lukey03",
+          "repo": "Qwen3.5-9B-abliterated-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "jwest33",
+          "repo": "qwen3.5-9b-null-space-abliterated-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Gliese-Qwen3.5-9B-Abliterated-Caption-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-9B-Claude-4.6-HighIQ-THINKING-HERETIC-UNCENSORED-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Huihui-Qwen3.5-9B-abliterated-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "Jackrong",
+          "repo": "Qwen3.5-9B-Gemini-3.1-Pro-Reasoning-Distill-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Huihui-Qwen3.5-9B-abliterated-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "llmfan46",
+          "repo": "Qwen3.5-9B-ultra-uncensored-heretic-v1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "prithivMLmods",
+          "repo": "Gliese-Qwen3.5-9B-Abliterated-Caption"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-9B-heretic-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-9B-OmniCoder-Claude-Polaris-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-9B-Base-Interiority-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "LEONW24",
+          "repo": "Qwen3.5-9B-Uncensored"
+        },
+        {
+          "type": "huggingface",
+          "user": "dahara1",
+          "repo": "Qwen3.5-9B-UD-japanese-imatrix"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-9B-Claude-4.6-OS-HERETIC-UNCENSORED-INSTRUCT-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "Jackrong",
+          "repo": "Qwen3.5-9B-Python-Coder-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "khtsly",
+          "repo": "Qwen3.5-9B-Claude-4.6-Opus-Distilled-32k-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Huihui-Qwen3.5-9B-Claude-4.6-Opus-abliterated-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-9B-Unredacted-MAX-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-9B-ultimate-irrefusable-heretic-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-9B-abliterated-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-9B-Unredacted-MAX-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "ZuzeTt",
+          "repo": "Qwen3.5-9B-imatrix-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-9B-Neo-heretic-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-9B-Claude-4.6-HighIQ-INSTRUCT-HERETIC-UNCENSORED-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "Momix-44",
+          "repo": "Qwen3.5-9B-gemini-3.1-opus-4.6-reasoning"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-9B-ultra-heretic-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-9B-Claude-4.6-OS-Auto-Variable-THINKING-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "LuffyTheFox",
+          "repo": "OmniClaw-Qwen3.5-9B-Claude-4.6-Opus-Uncensored-v2-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Huihui-Qwen3.5-9B-abliterated-TIES-Hemlock-SFT-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-9B-Casual-Thinker-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "LuffyTheFox",
+          "repo": "Qwen3.5-9B-Claude-4.6-Opus-Uncensored-Kullback-Leibler"
+        },
+        {
+          "type": "huggingface",
+          "user": "bigatuna",
+          "repo": "Qwen3.5-9b-Sushi-Coder-RL-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "Abhiray",
+          "repo": "Qwen3.5-9B-abliterated-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "Jackrong",
+          "repo": "Qwen3.5-9B-Neo-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-9B-Claude-4.6-OS-HERETIC-UNCENSORED-INSTRUCT-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Heretical-Qwen3.5-9B-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "Mungert",
+          "repo": "Qwen3.5-9B-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Luna-Qwen3.5-9B-v5-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "jc-builds",
+          "repo": "Qwen3.5-9B-Q4_K_M-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-9B-gemini-3.1-opus-4.6-reasoning-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "qwen3.5-9b-null-space-abliterated-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-9B-GLM-Wannabe-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "daniloreddy",
+          "repo": "Qwen3.5-9B_GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-9B-Writing-DPO-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Huihui-Qwen3.5-9B-abliterated-Grimoire-SimPO-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-9B-Heretic-ARA-Refusals5-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-9B-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-9B-Claude-4.6-HighIQ-THINKING-HERETIC-UNCENSORED-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "AIImageStudio",
+          "repo": "Qwen3.5-9b-heretic-v2-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "qwen3.5-9b-null-space-abliterated-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-9B-heretic-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "Abhiray",
+          "repo": "Huihui-Qwen3.5-9B-abliterated-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-9B-Antirep-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "qwen3.5-9b-nsfw-captioning-v2-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "bartowski",
+          "repo": "Jackrong_Qwen3.5-9B-Neo-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-9B-Claude-4.6-HighIQ-INSTRUCT-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Alternate-Qwen3.5-9B-Claude-4.6-Opus-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Huihui-Qwen3.5-9B-abliterated-Grimoire-SFT-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "EganAI",
+          "repo": "qwen3.5-9b-terminal-merge"
+        },
+        {
+          "type": "huggingface",
+          "user": "Lordmo",
+          "repo": "Heretical-Qwen3.5-9B-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-9B-Claude-4.6-HighIQ-THINKING-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-9B-ultimate-irrefusable-heretic-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "byteshape",
+          "repo": "Qwen3.5-9B-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "filvyb",
+          "repo": "Qwen3.5-9B-Claude-4.6-HighIQ-THINKING-HERETIC-UNCENSORED"
+        },
+        {
+          "type": "huggingface",
+          "user": "Abhiray",
+          "repo": "Qwen3.5-9B-Abliterated-Claude-4.6-Opus-Reasoning-Distilled-v2"
+        },
+        {
+          "type": "huggingface",
+          "user": "DavidAU",
+          "repo": "Qwen3.5-9B-Star-Trek-TNG-DS9-Heretic-Uncensored-Thinking-MAX-NEOCODE-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "filvyb",
+          "repo": "Qwen3.5-9B-heretic-v2-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "cmp-nct",
+          "repo": "Qwen3.5-9B-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-9B-Claude-4.6-OS-Auto-Variable-HERETIC-UNCENSORED-THINKING-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-9B-Claude-4.6-HighIQ-INSTRUCT-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-9B-ultra-heretic-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-9B-Claude-4.6-Opus-Deckard-V4.2-Uncensored-Heretic-Thinking-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "qwen3.5-9b-nsfw-captioning-v3-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "LuffyTheFox",
+          "repo": "OmniCoder-Qwen3.5-9B-Claude-4.6-Opus-Uncensored-v2-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-9B-Claude-4.6-OS-INSTRUCT-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Huihui-Qwen3.5-9B-Claude-4.6-Opus-abliterated-heretic-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Huihui-Qwen3.5-9B-abliterated-TIES-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-9B-YOYO-Thinking-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Gliese-Qwen3.5-9B-Abliterated-Caption-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-9B-MedReasoning-DT-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Huihui-Qwen3.5-9B-abliterated-Grimoire-DPO-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "Ngixdev",
+          "repo": "OmniCoder-Qwen3.5-9B-Claude-4.6-Opus-Uncensored-v2-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "agent-Qwen3.5-9B-Claude-4.6-Opus-abliterated-heretic-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-9B-YOYO-Instruct-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-9B-DeepSeek-3.2-Intense-Auto-Variable-Thinking-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "DJLougen",
+          "repo": "Qwen3.5-9B-Harmonic-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-9B-Base-Thoughtful-Interiority-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "Manojb",
+          "repo": "Qwen3.5-9B-Uncensored-HauhauCS-Aggressive-Q4_K_M.gguf"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "GeoLLM-Qwen3.5-9B-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "qwen3.5-9b-nsfw-captioning-v2-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-9B-Star-Trek-TNG-DS9-Heretic-Uncensored-Thinking-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "llmfan46-Qwen3.5-9B-ultra-heretic-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-9B-Deckard-Claude-DIMOE-Uncensored-Heretic-Thinking-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "empero-ai",
+          "repo": "Qwen3.5-9B-Claude-Code-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "Aikimi",
+          "repo": "Qwen3.5-9B-Japanese-awy"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-9B-SOM-MPOA-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-9B-Antirep-V2-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "bogservi",
+          "repo": "Qwen3.5-9B-GGUF"
+        }
+      ],
+      "purpose": "baseModel"
+    }
+  ]
+}

@@ -1,0 +1,603 @@
+{
+  "type": "model",
+  "owner": "griefertroll-yaml",
+  "name": "glm-4.5-air",
+  "dependencies": [
+    {
+      "type": "model",
+      "modelKeys": [
+        "unsloth/GLM-4.5-Air-GGUF",
+        "lmstudio-community/GLM-4.5-Air-GGUF",
+        "bartowski/cerebras_GLM-4.5-Air-REAP-82B-A12B-GGUF",
+        "DevQuasar/zai-org.GLM-4.5-Air-GGUF",
+        "bartowski/ArliAI_GLM-4.5-Air-Derestricted-GGUF",
+        "bartowski/zai-org_GLM-4.5-Air-GGUF",
+        "ddh0/GLM-4.5-Air-GGUF",
+        "mradermacher/GLM-4.5-Air-Derestricted-i1-GGUF",
+        "Thireus/GLM-4.5-Air-THIREUS-IQ2_BN-SPECIAL_SPLIT",
+        "Thireus/GLM-4.5-Air-THIREUS-IQ1_M_R4-SPECIAL_SPLIT",
+        "Thireus/GLM-4.5-Air-THIREUS-IQ2_BN_R4-SPECIAL_SPLIT",
+        "Thireus/GLM-4.5-Air-THIREUS-IQ1_KT-SPECIAL_SPLIT",
+        "jtl11/GLM-4.5-Air-REAP-82B-A12B-heretic-GGUF",
+        "gghfez/GLM-4.5-Air-control-vectors",
+        "noctrex/GLM-4.5-Air-Derestricted-MXFP4_MOE-GGUF",
+        "huihui-ai/Huihui-GLM-4.5-Air-abliterated-GGUF",
+        "lovedheart/GLM-4.5-Air-GGUF-IQ1_M",
+        "ddh0/GLM-4.5-Air-Derestricted-GGUF",
+        "steampunque/GLM-4.5-Air-MP-GGUF",
+        "Thireus/GLM-4.5-Air-THIREUS-IQ1_BN-SPECIAL_SPLIT",
+        "Thireus/GLM-4.5-Air-THIREUS-IQ4_KT-SPECIAL_SPLIT",
+        "Thireus/GLM-4.5-Air-THIREUS-IQ4_KS-SPECIAL_SPLIT",
+        "Thireus/GLM-4.5-Air-THIREUS-IQ3_KT-SPECIAL_SPLIT",
+        "Thireus/GLM-4.5-Air-THIREUS-IQ5_KS_R4-SPECIAL_SPLIT",
+        "Thireus/GLM-4.5-Air-THIREUS-IQ2_KL-SPECIAL_SPLIT",
+        "Thireus/GLM-4.5-Air-THIREUS-IQ5_KS-SPECIAL_SPLIT",
+        "Thireus/GLM-4.5-Air-THIREUS-IQ3_KS-SPECIAL_SPLIT",
+        "Thireus/GLM-4.5-Air-THIREUS-IQ2_KT-SPECIAL_SPLIT",
+        "ubergarm/GLM-4.5-Air-GGUF",
+        "Thireus/GLM-4.5-Air-THIREUS-IQ2_KS-SPECIAL_SPLIT",
+        "Thireus/GLM-4.5-Air-THIREUS-IQ4_KS_R4-SPECIAL_SPLIT",
+        "Thireus/GLM-4.5-Air-THIREUS-IQ4_KSS-SPECIAL_SPLIT",
+        "mradermacher/GLM-4.5-Air-REAP-82B-A12B-i1-GGUF",
+        "Thireus/GLM-4.5-Air-THIREUS-Q6_K_R4-SPECIAL_SPLIT",
+        "mradermacher/Huihui-GLM-4.5-Air-abliterated-lossytensors-i1-GGUF",
+        "mradermacher/GLM-4.5-Air-Derestricted-GGUF",
+        "timowu/GLM-4.5-Air-Derestricted-Q8_0-FFN-IQ4_XS-IQ4_XS-Q5_0",
+        "Thireus/GLM-4.5-Air-THIREUS-BF16-SPECIAL_SPLIT",
+        "mradermacher/Huihui-GLM-4.5-Air-abliterated-lossytensors-GGUF",
+        "noctrex/GLM-4.5-Air-REAP-82B-A12B-MXFP4_MOE-GGUF",
+        "mradermacher/GLM-4.5-Air-i1-GGUF",
+        "DevQuasar/ArliAI.GLM-4.5-Air-Derestricted-GGUF",
+        "NexesQuants/zai-org_GLM-4.5-Air-bf16-iMat-IKL-CQ-GGUF",
+        "Face314/GLM-4.5-Air-MXFP4_MOE",
+        "mradermacher/GLM-4.5-Air-GLM-4.6-Distill-i1-GGUF",
+        "DevQuasar/cerebras.GLM-4.5-Air-REAP-82B-A12B-GGUF",
+        "Beinsezii/GLM-4.5-Air-Derestricted-IQ4F-Q8A-Q8SH-GGUF",
+        "mradermacher/GLM-4.5-Air-GGUF",
+        "mradermacher/GLM-4.5-Air-Base-GGUF",
+        "mradermacher/GLM-4.5-Air-REAP-82B-A12B-GGUF",
+        "mradermacher/GLM-4.5-Air-GLM-4.6-Distill-GGUF",
+        "anikifoss/GLM-4.5-Air-HQ4_K",
+        "DarkArtsForge/huihui-ai_Huihui-GLM-4.5-Air-abliterated-Q3_K_M-GGUF",
+        "Beinsezii/GLM-4.5-Air-Q4F-Q8A-Q8SH-GGUF",
+        "Thireus/GLM-4.5-Air-THIREUS-IQ2_K_R4-SPECIAL_SPLIT",
+        "Thireus/GLM-4.5-Air-THIREUS-Q5_0-SPECIAL_SPLIT",
+        "Thireus/GLM-4.5-Air-THIREUS-Q2_K-SPECIAL_SPLIT",
+        "Beinsezii/GLM-4.5-Air-IQ4F-Q8A-Q8SH-GGUF",
+        "Thireus/GLM-4.5-Air-THIREUS-IQ4_K-SPECIAL_SPLIT",
+        "Thireus/GLM-4.5-Air-THIREUS-IQ5_K-SPECIAL_SPLIT",
+        "Thireus/GLM-4.5-Air-THIREUS-Q4_K_R4-SPECIAL_SPLIT",
+        "Thireus/GLM-4.5-Air-THIREUS-Q5_K_R4-SPECIAL_SPLIT",
+        "AmpereComputing/glm-4.5-air-gguf",
+        "mradermacher/GLM-4.5-Air-Base-i1-GGUF",
+        "tachyphylaxis/Huihui-GLM-4.5-Air-abliterated-GGUF",
+        "Beinsezii/GLM-4.5-Air-Derestricted-Q4F-Q8A-Q8SH-GGUF",
+        "Thireus/GLM-4.5-Air-THIREUS-IQ4_XS_R8-SPECIAL_SPLIT",
+        "Thireus/GLM-4.5-Air-THIREUS-IQ3_K_R4-SPECIAL_SPLIT",
+        "John1604/GLM-4.5-Air-gguf",
+        "Thireus/GLM-4.5-Air-THIREUS-IQ3_XXS-SPECIAL_SPLIT",
+        "Thireus/GLM-4.5-Air-THIREUS-IQ3_K-SPECIAL_SPLIT",
+        "Thireus/GLM-4.5-Air-THIREUS-Q8_0-SPECIAL_SPLIT",
+        "Thireus/GLM-4.5-Air-THIREUS-Q6_0-SPECIAL_SPLIT",
+        "rakmik/GLM-4.5-Air-GGUF_part10G",
+        "Thireus/GLM-4.5-Air-THIREUS-IQ5_K_R4-SPECIAL_SPLIT",
+        "Thireus/GLM-4.5-Air-THIREUS-Q4_K-SPECIAL_SPLIT",
+        "Thireus/GLM-4.5-Air-THIREUS-Q5_0_R4-SPECIAL_SPLIT",
+        "Thireus/GLM-4.5-Air-THIREUS-IQ4_NL-SPECIAL_SPLIT",
+        "Thireus/GLM-4.5-Air-THIREUS-IQ6_K-SPECIAL_SPLIT",
+        "Thireus/GLM-4.5-Air-THIREUS-Q2_K_R4-SPECIAL_SPLIT",
+        "Thireus/GLM-4.5-Air-THIREUS-IQ4_XS-SPECIAL_SPLIT",
+        "Thireus/GLM-4.5-Air-THIREUS-Q3_K-SPECIAL_SPLIT",
+        "Thireus/GLM-4.5-Air-THIREUS-Q5_K-SPECIAL_SPLIT",
+        "Thireus/GLM-4.5-Air-THIREUS-Q4_0_R8-SPECIAL_SPLIT",
+        "Thireus/GLM-4.5-Air-THIREUS-Q5_1-SPECIAL_SPLIT",
+        "Thireus/GLM-4.5-Air-THIREUS-IQ3_S-SPECIAL_SPLIT",
+        "Thireus/GLM-4.5-Air-THIREUS-Q4_0-SPECIAL_SPLIT",
+        "Thireus/GLM-4.5-Air-THIREUS-Q4_1-SPECIAL_SPLIT",
+        "Thireus/GLM-4.5-Air-THIREUS-Q6_0_R4-SPECIAL_SPLIT",
+        "Thireus/GLM-4.5-Air-THIREUS-Q6_K-SPECIAL_SPLIT",
+        "Thireus/GLM-4.5-Air-THIREUS-IQ3_XXS_R4-SPECIAL_SPLIT",
+        "Thireus/GLM-4.5-Air-THIREUS-Q8_0_R8-SPECIAL_SPLIT",
+        "Thireus/GLM-4.5-Air-THIREUS-Q8_K_R8-SPECIAL_SPLIT",
+        "Thireus/GLM-4.5-Air-THIREUS-IQ4_NL_R4-SPECIAL_SPLIT",
+        "Thireus/GLM-4.5-Air-THIREUS-IQ1_M-SPECIAL_SPLIT",
+        "Thireus/GLM-4.5-Air-THIREUS-Q3_K_R4-SPECIAL_SPLIT",
+        "Thireus/GLM-4.5-Air-THIREUS-IQ2_K-SPECIAL_SPLIT",
+        "Thireus/GLM-4.5-Air-THIREUS-IQ3_S_R4-SPECIAL_SPLIT"
+      ],
+      "sources": [
+        {
+          "type": "huggingface",
+          "user": "unsloth",
+          "repo": "GLM-4.5-Air-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "lmstudio-community",
+          "repo": "GLM-4.5-Air-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "bartowski",
+          "repo": "cerebras_GLM-4.5-Air-REAP-82B-A12B-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "DevQuasar",
+          "repo": "zai-org.GLM-4.5-Air-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "bartowski",
+          "repo": "ArliAI_GLM-4.5-Air-Derestricted-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "bartowski",
+          "repo": "zai-org_GLM-4.5-Air-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "ddh0",
+          "repo": "GLM-4.5-Air-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "GLM-4.5-Air-Derestricted-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.5-Air-THIREUS-IQ2_BN-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.5-Air-THIREUS-IQ1_M_R4-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.5-Air-THIREUS-IQ2_BN_R4-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.5-Air-THIREUS-IQ1_KT-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "jtl11",
+          "repo": "GLM-4.5-Air-REAP-82B-A12B-heretic-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "gghfez",
+          "repo": "GLM-4.5-Air-control-vectors"
+        },
+        {
+          "type": "huggingface",
+          "user": "noctrex",
+          "repo": "GLM-4.5-Air-Derestricted-MXFP4_MOE-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "huihui-ai",
+          "repo": "Huihui-GLM-4.5-Air-abliterated-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "lovedheart",
+          "repo": "GLM-4.5-Air-GGUF-IQ1_M"
+        },
+        {
+          "type": "huggingface",
+          "user": "ddh0",
+          "repo": "GLM-4.5-Air-Derestricted-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "steampunque",
+          "repo": "GLM-4.5-Air-MP-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.5-Air-THIREUS-IQ1_BN-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.5-Air-THIREUS-IQ4_KT-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.5-Air-THIREUS-IQ4_KS-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.5-Air-THIREUS-IQ3_KT-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.5-Air-THIREUS-IQ5_KS_R4-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.5-Air-THIREUS-IQ2_KL-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.5-Air-THIREUS-IQ5_KS-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.5-Air-THIREUS-IQ3_KS-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.5-Air-THIREUS-IQ2_KT-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "ubergarm",
+          "repo": "GLM-4.5-Air-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.5-Air-THIREUS-IQ2_KS-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.5-Air-THIREUS-IQ4_KS_R4-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.5-Air-THIREUS-IQ4_KSS-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "GLM-4.5-Air-REAP-82B-A12B-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.5-Air-THIREUS-Q6_K_R4-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Huihui-GLM-4.5-Air-abliterated-lossytensors-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "GLM-4.5-Air-Derestricted-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "timowu",
+          "repo": "GLM-4.5-Air-Derestricted-Q8_0-FFN-IQ4_XS-IQ4_XS-Q5_0"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.5-Air-THIREUS-BF16-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Huihui-GLM-4.5-Air-abliterated-lossytensors-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "noctrex",
+          "repo": "GLM-4.5-Air-REAP-82B-A12B-MXFP4_MOE-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "GLM-4.5-Air-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "DevQuasar",
+          "repo": "ArliAI.GLM-4.5-Air-Derestricted-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "NexesQuants",
+          "repo": "zai-org_GLM-4.5-Air-bf16-iMat-IKL-CQ-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "Face314",
+          "repo": "GLM-4.5-Air-MXFP4_MOE"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "GLM-4.5-Air-GLM-4.6-Distill-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "DevQuasar",
+          "repo": "cerebras.GLM-4.5-Air-REAP-82B-A12B-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "Beinsezii",
+          "repo": "GLM-4.5-Air-Derestricted-IQ4F-Q8A-Q8SH-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "GLM-4.5-Air-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "GLM-4.5-Air-Base-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "GLM-4.5-Air-REAP-82B-A12B-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "GLM-4.5-Air-GLM-4.6-Distill-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "anikifoss",
+          "repo": "GLM-4.5-Air-HQ4_K"
+        },
+        {
+          "type": "huggingface",
+          "user": "DarkArtsForge",
+          "repo": "huihui-ai_Huihui-GLM-4.5-Air-abliterated-Q3_K_M-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "Beinsezii",
+          "repo": "GLM-4.5-Air-Q4F-Q8A-Q8SH-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.5-Air-THIREUS-IQ2_K_R4-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.5-Air-THIREUS-Q5_0-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.5-Air-THIREUS-Q2_K-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "Beinsezii",
+          "repo": "GLM-4.5-Air-IQ4F-Q8A-Q8SH-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.5-Air-THIREUS-IQ4_K-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.5-Air-THIREUS-IQ5_K-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.5-Air-THIREUS-Q4_K_R4-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.5-Air-THIREUS-Q5_K_R4-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "AmpereComputing",
+          "repo": "glm-4.5-air-gguf"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "GLM-4.5-Air-Base-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "tachyphylaxis",
+          "repo": "Huihui-GLM-4.5-Air-abliterated-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "Beinsezii",
+          "repo": "GLM-4.5-Air-Derestricted-Q4F-Q8A-Q8SH-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.5-Air-THIREUS-IQ4_XS_R8-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.5-Air-THIREUS-IQ3_K_R4-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "John1604",
+          "repo": "GLM-4.5-Air-gguf"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.5-Air-THIREUS-IQ3_XXS-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.5-Air-THIREUS-IQ3_K-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.5-Air-THIREUS-Q8_0-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.5-Air-THIREUS-Q6_0-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "rakmik",
+          "repo": "GLM-4.5-Air-GGUF_part10G"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.5-Air-THIREUS-IQ5_K_R4-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.5-Air-THIREUS-Q4_K-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.5-Air-THIREUS-Q5_0_R4-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.5-Air-THIREUS-IQ4_NL-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.5-Air-THIREUS-IQ6_K-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.5-Air-THIREUS-Q2_K_R4-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.5-Air-THIREUS-IQ4_XS-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.5-Air-THIREUS-Q3_K-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.5-Air-THIREUS-Q5_K-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.5-Air-THIREUS-Q4_0_R8-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.5-Air-THIREUS-Q5_1-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.5-Air-THIREUS-IQ3_S-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.5-Air-THIREUS-Q4_0-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.5-Air-THIREUS-Q4_1-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.5-Air-THIREUS-Q6_0_R4-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.5-Air-THIREUS-Q6_K-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.5-Air-THIREUS-IQ3_XXS_R4-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.5-Air-THIREUS-Q8_0_R8-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.5-Air-THIREUS-Q8_K_R8-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.5-Air-THIREUS-IQ4_NL_R4-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.5-Air-THIREUS-IQ1_M-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.5-Air-THIREUS-Q3_K_R4-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.5-Air-THIREUS-IQ2_K-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.5-Air-THIREUS-IQ3_S_R4-SPECIAL_SPLIT"
+        }
+      ],
+      "purpose": "baseModel"
+    }
+  ]
+}

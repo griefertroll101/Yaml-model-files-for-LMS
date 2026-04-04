@@ -1,0 +1,753 @@
+{
+  "type": "model",
+  "owner": "griefertroll-yaml",
+  "name": "glm-4.7-flash",
+  "dependencies": [
+    {
+      "type": "model",
+      "modelKeys": [
+        "unsloth/GLM-4.7-Flash-GGUF",
+        "DavidAU/GLM-4.7-Flash-Uncensored-Heretic-NEO-CODE-Imatrix-MAX-GGUF",
+        "TeichAI/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF",
+        "lmstudio-community/GLM-4.7-Flash-GGUF",
+        "unsloth/GLM-4.7-Flash-REAP-23B-A3B-GGUF",
+        "mradermacher/GLM-4.7-Flash-heretic-1.2.0-i1-GGUF",
+        "bartowski/zai-org_GLM-4.7-Flash-GGUF",
+        "mradermacher/GLM-4.7-Flash-absolute-heresy-i1-GGUF",
+        "mradermacher/GLM-4.7-Flash-REAP-23B-A3B-absolute-heresy-i1-GGUF",
+        "mradermacher/Dolphin-Mistral-GLM-4.7-Flash-24B-Venice-Edition-Thinking-Uncensored-i1-GGUF",
+        "mradermacher/GLM-4.7-Flash-heretic-MPOA-i1-GGUF",
+        "noctrex/GLM-4.7-Flash-MXFP4_MOE-GGUF",
+        "mradermacher/Huihui-GLM-4.7-Flash-abliterated-GGUF",
+        "mradermacher/Huihui-GLM-4.7-Flash-abliterated-i1-GGUF",
+        "noctrex/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill",
+        "DavidAU/GLM-4.7-Flash-Grande-Heretic-UNCENSORED-42B-A3B-GGUF",
+        "mradermacher/GLM-4.7-Flash-Derestricted-i1-GGUF",
+        "mradermacher/GLM-4.7-Flash-Derestricted-GGUF",
+        "Ex0bit/GLM-4.7-Flash-PRISM",
+        "mradermacher/GLM-4.7-Flash-REAP-23B-A3B-i1-GGUF",
+        "MuXodious/GLM-4.7-Flash-REAP-23B-A3B-absolute-heresy-GGUF",
+        "floria-n/glm-4.7-flash-gguf-config",
+        "ngxson/GLM-4.7-Flash-GGUF",
+        "DavidAU/GLM-4.7-Flash-NEO-CODE-Imatrix-MAX-GGUF",
+        "mradermacher/glm-4.7-flash-impotent-heresy-i1-gguf",
+        "evilfreelancer/glm-4.7-flash-gguf",
+        "mradermacher/glm-4.7-flash-49b-gguf",
+        "MuXodious/GLM-4.7-Flash-absolute-heresy-GGUF",
+        "mradermacher/glm-4.7-flash-absolute-heresy-gguf",
+        "mradermacher/Dolphin-Mistral-GLM-4.7-Flash-24B-Venice-Edition-Thinking-Uncensored-GGUF",
+        "mrbz/glm-4.7-flash-claude-opus-4.5-high-reasoning-distill-gguf",
+        "HauhauCS/GLM-4.7-Flash-Uncensored-HauhauCS-Aggressive",
+        "legendbl/glm-4.7-flash-uncensored-heretic-neo-code-imatrix-max-gguf",
+        "ggml-org/GLM-4.7-Flash-GGUF",
+        "andrewheins55/GLM-4.7-Flash-GGUF",
+        "HauhauCS/GLM-4.7-Flash-Uncensored-HauhauCS-Balanced",
+        "jo0natan/glm-4.7-flash-uncensored-heretic-neo-code-imatrix-max-gguf",
+        "mradermacher/Huihui-GLM-4.7-Flash-abliterated-57B-i1-GGUF",
+        "ubergarm/GLM-4.7-Flash-GGUF",
+        "mradermacher/GLM-4.7-Flash-REAP-23B-A3B-absolute-heresy-GGUF",
+        "mradermacher/GLM-4.7-Flash-i1-GGUF",
+        "91chenxs/GLM-4.7-Flash-Uncensored-Heretic-NEO-CODE-Imatrix-MAX-GGUF",
+        "lhabb213/glm-4.7-flash-uncensored-heretic-neo-code-imatrix-max-gguf",
+        "mradermacher/glm-4.7-flash-heretic-mpoa-gguf",
+        "botp/glm-4.7-flash-uncensored-heretic-neo-code-imatrix-max-gguf",
+        "mradermacher/creativesocialagent_glm_4.7_flash-gguf",
+        "mradermacher/glm-4.7-flash-think-alexia.sorete-1b-i1-gguf",
+        "haellsigh/glm-4.7-flash-uncensored",
+        "joshua-xia/glm-4.7-flash-claude-opus-4.5-high-reasoning-distill-gguf",
+        "paulzaff/glm-4.7-flash-claude-opus-4.5-high-reasoning-distill-gguf",
+        "mradermacher/glm-4.7-flash-heretic-1.2.0-gguf",
+        "rounakhchatait/glm-4.7-flash-claude-opus-4.5-high-reasoning-distill-gguf",
+        "noctrex/glm-4.7-flash-reap-23b-a3b-mxfp4_moe-gguf",
+        "mradermacher/GLM-4.7-Flash-Ilograph-i1-GGUF",
+        "mradermacher/GLM-4.7-Flash-ultra-heretic-i1-GGUF",
+        "mradermacher/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-v2-heretic-i1-GGUF",
+        "mradermacher/GLM-4.7-Flash-ultimate-uncensored-heretic-ayun-i1-GGUF",
+        "mradermacher/GLM-4.7-Flash-ultimate-irrefusable-heretic-i1-GGUF",
+        "mradermacher/GLM-4.7-Flash-heretic-i1-GGUF",
+        "mradermacher/CodgenX-GLM-4.7-Flash-i1-GGUF",
+        "mradermacher/GLM-4.7-Flash-Springdragon-i1-GGUF",
+        "mradermacher/GLM-4.7-Flash-ultra-uncensored-heretic-i1-GGUF",
+        "Andycurrent/Gemma-3-1B-it-GLM-4.7-Flash-Heretic-Uncensored-Thinking_GGUF",
+        "mradermacher/Qwen3.5-13B-GLM-4.7-Flash-Grande-Deep-Thinking-i1-GGUF",
+        "mradermacher/Qwen3.5-27B-GLM-4.7-Flash-Thinking-ALPHA-i1-GGUF",
+        "mradermacher/gemma-3-12b-it-vl-GLM-4.7-Flash-INSTRUCT-Thinking-Hybrid-Heretic-Uncensored-i1-GGUF",
+        "mradermacher/Qwen3.5-13B-GLM-4.7-Flash-DeepSeek-Polaris-Grande-Deep-Thinking-GGUF",
+        "mradermacher/GLM-4.7-Flash-ultimate-uncensored-heretic-i1-GGUF",
+        "mradermacher/gemma-3-12b-it-vl-GLM-4.7-Flash-Heretic-Uncensored-Thinking-i1-GGUF",
+        "mradermacher/Qwen3.5-13B-GLM-4.7-Flash-Grande-Deep-Thinking-GGUF",
+        "bartowski/jtl11_GLM-4.7-Flash-heretic-GGUF",
+        "mradermacher/Qwen3.5-13B-GLM-4.7-Flash-DeepSeek-Polaris-Grande-Deep-Thinking-i1-GGUF",
+        "mradermacher/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-v2-heretic-GGUF",
+        "aiworksofbt/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF",
+        "zsjTiger/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF",
+        "mradermacher/Qwen3-30B-A3B-Thinking-2507-GLM-4.7-Flash-High-Reasoning-i1-GGUF",
+        "mradermacher/Qwen3-VL-8B-GLM-4.7-Flash-Heretic-Uncensored-Thinking-GGUF",
+        "titantv090/GLM-4.7-Flash-Claude-Opus-4.6-High-Reasoning-Distill-GGUF",
+        "mradermacher/gemma-3-12b-it-vl-GLM-4.7-Flash-INSTRUCT-Thinking-Hybrid-Heretic-Uncensored-GGUF",
+        "mradermacher/GLM-4.7-Flash-Ilograph-GGUF",
+        "mradermacher/Qwen3.5-27B-GLM-4.7-Flash-Thinking-ALPHA-GGUF",
+        "mradermacher/GLM-4.7-Flash-ultra-heretic-GGUF",
+        "mradermacher/GLM-4.7-Flash-ultimate-irrefusable-heretic-GGUF",
+        "mradermacher/GLM-4.7-Flash-heretic-GGUF",
+        "mradermacher/LFM2.5-1.2B-GLM-4.7-Flash-Thinking-i1-GGUF",
+        "mradermacher/GLM-4.7-Flash-ultra-uncensored-heretic-GGUF",
+        "mradermacher/GLM-4.7-Flash-Springdragon-GGUF",
+        "mradermacher/gemma-3-16b-it-BIG-G-GLM4.7-Flash-Valhalla-Heretic-Uncensored-Deep-Thinking-i1-GGUF",
+        "mradermacher/GLM-4.7-Flash-ultimate-uncensored-heretic-ayun-GGUF",
+        "mradermacher/Gemma-3-1B-it-GLM-4.7-Flash-Heretic-Uncensored-Thinking-i1-GGUF",
+        "mradermacher/GLM-4.7-Flash-ultimate-uncensored-heretic-GGUF",
+        "mradermacher/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-v2-GGUF",
+        "mradermacher/Gemma-3-4B-VL-it-GLM-4.7-Flash-Heretic-Uncensored-Thinking-GGUF",
+        "mradermacher/Qwen3-32B-VL-GLM-4.7-Flash-HI16-Heretic-Uncensored-Thinking-GGUF",
+        "mradermacher/gemma-3-12b-it-vl-Polaris-GLM-4.7-Flash-VAR-Thinking-Instruct-Heretic-Uncensored-i1-GGUF",
+        "mradermacher/gemma-3-12b-it-vl-GLM-4.7-Flash-Heretic-Uncensored-Thinking-GGUF",
+        "mradermacher/Qwen3-32B-VL-GLM-4.7-Flash-HI16-Heretic-Uncensored-Thinking-i1-GGUF",
+        "Dimisipimidale4otintrigi/GLM-4.7-Flash-Grande-Heretic-UNCENSORED-42B-A3B-GGUF",
+        "mradermacher/CodgenX-GLM-4.7-Flash-GGUF",
+        "gaionaus/GLM-4.7-Flash-REAP-50_Q4_K_M_GGUF",
+        "mradermacher/gemma-3-16b-it-BIG-G-GLM4.7-Flash-Valhalla-Heretic-Uncensored-Deep-Thinking-GGUF",
+        "mradermacher/Qwen3-30B-A3B-Thinking-2507-GLM-4.7-Flash-High-Reasoning-GGUF",
+        "mradermacher/Qwen3-30B-A3B-YOYO-V2-GLM-4.7-Flash-Instruct-i1-GGUF",
+        "Xlnk/Gemma-3-1B-it-GLM-4.7-Flash-Heretic-Uncensored-Thinking-i1-GGUF",
+        "mradermacher/Gemma-3-27b-it-vl-GLM-4.7-Flash-HI16-Heretic-Uncensored-Thinking-i1-GGUF",
+        "mradermacher/Gemma-3-1B-it-GLM-4.7-Flash-Heretic-Uncensored-Thinking-GGUF",
+        "mradermacher/gemma-3-12b-it-vl-Polaris-GLM-4.7-Flash-VAR-Thinking-Instruct-Heretic-Uncensored-GGUF",
+        "mradermacher/Gemma-3-27b-it-vl-GLM-4.7-Flash-HI16-Heretic-Uncensored-Thinking-GGUF",
+        "Arxell/GLM-4.7-Flash-MXFP4",
+        "Akicou/GLM-4.7-Flash-REAP-50-GGUF",
+        "Thireus/GLM-4.7-Flash-THIREUS-IQ2_KL-SPECIAL_SPLIT",
+        "Thireus/GLM-4.7-Flash-THIREUS-IQ5_KS_R4-SPECIAL_SPLIT",
+        "Thireus/GLM-4.7-Flash-THIREUS-IQ2_BN_R4-SPECIAL_SPLIT",
+        "Thireus/GLM-4.7-Flash-THIREUS-IQ1_S_R4-SPECIAL_SPLIT",
+        "thireus/glm-4.7-flash-thireus-iq4_kt-special_split",
+        "thireus/glm-4.7-flash-thireus-iq4_kss-special_split",
+        "thireus/glm-4.7-flash-thireus-iq4_ks-special_split",
+        "mradermacher/Qwen3.5-21B-GLM-4.7-Flash-Deckard-Heretic-Uncensored-Thinking-i1-GGUF",
+        "mradermacher/Qwen3.5-21B-GLM-4.7-Flash-Heretic-Uncensored-Thinking-i1-GGUF",
+        "mradermacher/Qwen3.5-21B-GLM-4.7-Flash-Heretic-Uncensored-Thinking-GGUF",
+        "mradermacher/Qwen3.5-21B-GLM-4.7-Flash-Deckard-Heretic-Uncensored-Thinking-GGUF",
+        "mradermacher/gemma-3-12b-it-vl-GLM-4.7-Flash-Polaris-Thinking-Heretic-Uncensored-i1-GGUF",
+        "mradermacher/GLM-4.7-Flash-GGUF"
+      ],
+      "sources": [
+        {
+          "type": "huggingface",
+          "user": "unsloth",
+          "repo": "GLM-4.7-Flash-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "DavidAU",
+          "repo": "GLM-4.7-Flash-Uncensored-Heretic-NEO-CODE-Imatrix-MAX-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "TeichAI",
+          "repo": "GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "lmstudio-community",
+          "repo": "GLM-4.7-Flash-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "unsloth",
+          "repo": "GLM-4.7-Flash-REAP-23B-A3B-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "GLM-4.7-Flash-heretic-1.2.0-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "bartowski",
+          "repo": "zai-org_GLM-4.7-Flash-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "GLM-4.7-Flash-absolute-heresy-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "GLM-4.7-Flash-REAP-23B-A3B-absolute-heresy-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Dolphin-Mistral-GLM-4.7-Flash-24B-Venice-Edition-Thinking-Uncensored-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "GLM-4.7-Flash-heretic-MPOA-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "noctrex",
+          "repo": "GLM-4.7-Flash-MXFP4_MOE-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Huihui-GLM-4.7-Flash-abliterated-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Huihui-GLM-4.7-Flash-abliterated-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "noctrex",
+          "repo": "GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill"
+        },
+        {
+          "type": "huggingface",
+          "user": "DavidAU",
+          "repo": "GLM-4.7-Flash-Grande-Heretic-UNCENSORED-42B-A3B-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "GLM-4.7-Flash-Derestricted-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "GLM-4.7-Flash-Derestricted-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "Ex0bit",
+          "repo": "GLM-4.7-Flash-PRISM"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "GLM-4.7-Flash-REAP-23B-A3B-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "MuXodious",
+          "repo": "GLM-4.7-Flash-REAP-23B-A3B-absolute-heresy-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "floria-n",
+          "repo": "GLM-4.7-Flash-GGUF-Config"
+        },
+        {
+          "type": "huggingface",
+          "user": "ngxson",
+          "repo": "GLM-4.7-Flash-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "DavidAU",
+          "repo": "GLM-4.7-Flash-NEO-CODE-Imatrix-MAX-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "GLM-4.7-Flash-impotent-heresy-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "evilfreelancer",
+          "repo": "GLM-4.7-Flash-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "GLM-4.7-Flash-49B-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "MuXodious",
+          "repo": "GLM-4.7-Flash-absolute-heresy-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "GLM-4.7-Flash-absolute-heresy-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Dolphin-Mistral-GLM-4.7-Flash-24B-Venice-Edition-Thinking-Uncensored-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mrbz",
+          "repo": "GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "HauhauCS",
+          "repo": "GLM-4.7-Flash-Uncensored-HauhauCS-Aggressive"
+        },
+        {
+          "type": "huggingface",
+          "user": "legendbl",
+          "repo": "GLM-4.7-Flash-Uncensored-Heretic-NEO-CODE-Imatrix-MAX-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "ggml-org",
+          "repo": "GLM-4.7-Flash-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "andrewheins55",
+          "repo": "GLM-4.7-Flash-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "HauhauCS",
+          "repo": "GLM-4.7-Flash-Uncensored-HauhauCS-Balanced"
+        },
+        {
+          "type": "huggingface",
+          "user": "jo0natan",
+          "repo": "GLM-4.7-Flash-Uncensored-Heretic-NEO-CODE-Imatrix-MAX-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Huihui-GLM-4.7-Flash-abliterated-57B-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "ubergarm",
+          "repo": "GLM-4.7-Flash-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "GLM-4.7-Flash-REAP-23B-A3B-absolute-heresy-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "GLM-4.7-Flash-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "91chenxs",
+          "repo": "GLM-4.7-Flash-Uncensored-Heretic-NEO-CODE-Imatrix-MAX-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "lhabb213",
+          "repo": "GLM-4.7-Flash-Uncensored-Heretic-NEO-CODE-Imatrix-MAX-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "GLM-4.7-Flash-heretic-MPOA-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "botp",
+          "repo": "GLM-4.7-Flash-Uncensored-Heretic-NEO-CODE-Imatrix-MAX-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "CreativeSocialAgent_GLM_4.7_Flash-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "GLM-4.7-Flash-Think-Alexia.Sorete-1B-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "haellsigh",
+          "repo": "glm-4.7-flash-uncensored"
+        },
+        {
+          "type": "huggingface",
+          "user": "Joshua-Xia",
+          "repo": "GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "PaulZaff",
+          "repo": "GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "GLM-4.7-Flash-heretic-1.2.0-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "rounakhchatait",
+          "repo": "GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "noctrex",
+          "repo": "GLM-4.7-Flash-REAP-23B-A3B-MXFP4_MOE-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "GLM-4.7-Flash-Ilograph-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "GLM-4.7-Flash-ultra-heretic-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-v2-heretic-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "GLM-4.7-Flash-ultimate-uncensored-heretic-ayun-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "GLM-4.7-Flash-ultimate-irrefusable-heretic-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "GLM-4.7-Flash-heretic-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "CodgenX-GLM-4.7-Flash-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "GLM-4.7-Flash-Springdragon-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "GLM-4.7-Flash-ultra-uncensored-heretic-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "Andycurrent",
+          "repo": "Gemma-3-1B-it-GLM-4.7-Flash-Heretic-Uncensored-Thinking_GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-13B-GLM-4.7-Flash-Grande-Deep-Thinking-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-GLM-4.7-Flash-Thinking-ALPHA-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "gemma-3-12b-it-vl-GLM-4.7-Flash-INSTRUCT-Thinking-Hybrid-Heretic-Uncensored-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-13B-GLM-4.7-Flash-DeepSeek-Polaris-Grande-Deep-Thinking-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "GLM-4.7-Flash-ultimate-uncensored-heretic-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "gemma-3-12b-it-vl-GLM-4.7-Flash-Heretic-Uncensored-Thinking-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-13B-GLM-4.7-Flash-Grande-Deep-Thinking-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "bartowski",
+          "repo": "jtl11_GLM-4.7-Flash-heretic-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-13B-GLM-4.7-Flash-DeepSeek-Polaris-Grande-Deep-Thinking-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-v2-heretic-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "aiworksofbt",
+          "repo": "GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "zsjTiger",
+          "repo": "GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3-30B-A3B-Thinking-2507-GLM-4.7-Flash-High-Reasoning-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3-VL-8B-GLM-4.7-Flash-Heretic-Uncensored-Thinking-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "titantv090",
+          "repo": "GLM-4.7-Flash-Claude-Opus-4.6-High-Reasoning-Distill-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "gemma-3-12b-it-vl-GLM-4.7-Flash-INSTRUCT-Thinking-Hybrid-Heretic-Uncensored-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "GLM-4.7-Flash-Ilograph-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-27B-GLM-4.7-Flash-Thinking-ALPHA-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "GLM-4.7-Flash-ultra-heretic-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "GLM-4.7-Flash-ultimate-irrefusable-heretic-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "GLM-4.7-Flash-heretic-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "LFM2.5-1.2B-GLM-4.7-Flash-Thinking-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "GLM-4.7-Flash-ultra-uncensored-heretic-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "GLM-4.7-Flash-Springdragon-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "gemma-3-16b-it-BIG-G-GLM4.7-Flash-Valhalla-Heretic-Uncensored-Deep-Thinking-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "GLM-4.7-Flash-ultimate-uncensored-heretic-ayun-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Gemma-3-1B-it-GLM-4.7-Flash-Heretic-Uncensored-Thinking-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "GLM-4.7-Flash-ultimate-uncensored-heretic-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-v2-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Gemma-3-4B-VL-it-GLM-4.7-Flash-Heretic-Uncensored-Thinking-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3-32B-VL-GLM-4.7-Flash-HI16-Heretic-Uncensored-Thinking-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "gemma-3-12b-it-vl-Polaris-GLM-4.7-Flash-VAR-Thinking-Instruct-Heretic-Uncensored-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "gemma-3-12b-it-vl-GLM-4.7-Flash-Heretic-Uncensored-Thinking-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3-32B-VL-GLM-4.7-Flash-HI16-Heretic-Uncensored-Thinking-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "Dimisipimidale4otintrigi",
+          "repo": "GLM-4.7-Flash-Grande-Heretic-UNCENSORED-42B-A3B-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "CodgenX-GLM-4.7-Flash-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "gaionaus",
+          "repo": "GLM-4.7-Flash-REAP-50_Q4_K_M_GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "gemma-3-16b-it-BIG-G-GLM4.7-Flash-Valhalla-Heretic-Uncensored-Deep-Thinking-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3-30B-A3B-Thinking-2507-GLM-4.7-Flash-High-Reasoning-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3-30B-A3B-YOYO-V2-GLM-4.7-Flash-Instruct-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "Xlnk",
+          "repo": "Gemma-3-1B-it-GLM-4.7-Flash-Heretic-Uncensored-Thinking-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Gemma-3-27b-it-vl-GLM-4.7-Flash-HI16-Heretic-Uncensored-Thinking-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Gemma-3-1B-it-GLM-4.7-Flash-Heretic-Uncensored-Thinking-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "gemma-3-12b-it-vl-Polaris-GLM-4.7-Flash-VAR-Thinking-Instruct-Heretic-Uncensored-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Gemma-3-27b-it-vl-GLM-4.7-Flash-HI16-Heretic-Uncensored-Thinking-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "Arxell",
+          "repo": "GLM-4.7-Flash-MXFP4"
+        },
+        {
+          "type": "huggingface",
+          "user": "Akicou",
+          "repo": "GLM-4.7-Flash-REAP-50-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.7-Flash-THIREUS-IQ2_KL-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.7-Flash-THIREUS-IQ5_KS_R4-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.7-Flash-THIREUS-IQ2_BN_R4-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.7-Flash-THIREUS-IQ1_S_R4-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.7-Flash-THIREUS-IQ4_KT-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.7-Flash-THIREUS-IQ4_KSS-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "Thireus",
+          "repo": "GLM-4.7-Flash-THIREUS-IQ4_KS-SPECIAL_SPLIT"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-21B-GLM-4.7-Flash-Deckard-Heretic-Uncensored-Thinking-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-21B-GLM-4.7-Flash-Heretic-Uncensored-Thinking-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-21B-GLM-4.7-Flash-Heretic-Uncensored-Thinking-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Qwen3.5-21B-GLM-4.7-Flash-Deckard-Heretic-Uncensored-Thinking-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "gemma-3-12b-it-vl-GLM-4.7-Flash-Polaris-Thinking-Heretic-Uncensored-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "GLM-4.7-Flash-GGUF"
+        }
+      ],
+      "purpose": "baseModel"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # model.yaml is an open standard for defining cross-platform, composable AI models
 # Learn more at https://modelyaml.org
-model: google/gemma-4-e4b
+model: griefertroll-yaml/gemma-4-e4b
 base:
   - key: lmstudio-community/gemma-4-E4B-it-GGUF
     sources:

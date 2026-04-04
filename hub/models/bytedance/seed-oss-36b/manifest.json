@@ -1,0 +1,309 @@
+{
+  "type": "model",
+  "owner": "griefertroll-yaml",
+  "name": "seed-oss-36b",
+  "dependencies": [
+    {
+      "type": "model",
+      "modelKeys": [
+        "mradermacher/seed-oss-36b-chat-i1-GGUF",
+        "mradermacher/Seed-OSS-36B-Instruct-heretic-i1-GGUF",
+        "lmstudio-community/Seed-OSS-36B-Instruct-GGUF",
+        "mradermacher/Smoothie-Seed-OSS-36B-Instruct-i1-GGUF",
+        "giladgd/Seed-OSS-36B-Instruct-GGUF",
+        "unsloth/Seed-OSS-36B-Instruct-GGUF",
+        "mradermacher/Seed-OSS-36B-Base-woSyn-i1-GGUF",
+        "mradermacher/Seed-OSS-36B-Instruct-heretic-GGUF",
+        "mradermacher/Seed-OSS-36B-Erotic-i1-GGUF",
+        "mradermacher/Seed-OSS-36B-Instruct-biprojected-norm-preserving-abliterated-i1-GGUF",
+        "bartowski/ByteDance-Seed_Seed-OSS-36B-Instruct-GGUF",
+        "magiccodingman/Seed-OSS-36B-Instruct-unsloth-MagicQuant-Hybrid-GGUF",
+        "mradermacher/Seed-OSS-36B-Erotic-GGUF",
+        "mradermacher/seed-oss-36b-chat-GGUF",
+        "mradermacher/Seed-OSS-36B-Instruct-abliterated-GGUF",
+        "mradermacher/Seed-OSS-36B-Instruct-biprojected-norm-preserving-abliterated-GGUF",
+        "mradermacher/Seed-OSS-36B-Instruct-abliterated-i1-GGUF",
+        "mradermacher/Seed-OSS-36B-Base-Instruct-Karcher-Merge-i1-GGUF",
+        "mradermacher/Seed-OSS-36B-Instruct-i1-GGUF",
+        "altomek/Seed-OSS-36B-Instruct-XXL-GGUF",
+        "yarikdevcom/Seed-OSS-36B-Instruct-GGUF",
+        "mradermacher/Seed-OSS-36B-Base-absolute-heresy-GGUF",
+        "second-state/Seed-OSS-36B-Instruct-GGUF",
+        "RDson/Seed-OSS-36B-Instruct-GGUF",
+        "mradermacher/Seed-OSS-36B-Instruct-GGUF",
+        "EloyOn/Seed-OSS-36B-Erotic-Q5_0-GGUF",
+        "YanLabs/Seed-OSS-36B-Instruct-MPOA-GGUF",
+        "mradermacher/Seed-OSS-36B-Base-Instruct-Karcher-Merge-GGUF",
+        "mradermacher/Seed-OSS-36B-Base-absolute-heresy-i1-GGUF",
+        "gaianet/Seed-OSS-36B-Instruct-GGUF",
+        "DevQuasar/ByteDance-Seed.Seed-OSS-36B-Base-woSyn-GGUF",
+        "DevQuasar/ByteDance-Seed.Seed-OSS-36B-Instruct-GGUF",
+        "jworks/Seed-OSS-36B-Instruct-abliterated-GGUF",
+        "mradermacher/Seed-OSS-36B-Base-GGUF",
+        "mradermacher/Seed-OSS-36B-Base-i1-GGUF",
+        "DevQuasar/ByteDance-Seed.Seed-OSS-36B-Base-GGUF",
+        "OpenMOSE/RWKV-Seed-OSS-36B-Hybrid-GGUF",
+        "gabriellarson/Seed-OSS-36B-Instruct-GGUF",
+        "magiccodingman/Seed-OSS-36B-Instruct-Unsloth-MXFP4-Hybrid-GGUF",
+        "drmcbride/Seed-OSS-36B-Base-woSyn-Q4_K_M-GGUF",
+        "mradermacher/Seed-OSS-36B-Base-woSyn-GGUF",
+        "mradermacher/Smoothie-Seed-OSS-36B-Instruct-GGUF",
+        "dinerburger/Seed-OSS-36B-Instruct-LLAMAIFIED-ik-GGUF",
+        "YanLabs/Seed-OSS-36B-Instruct-MPOA-v1-GGUF",
+        "mradermacher/Seed-OSS-36B-Instruct-MPOA-v1-i1-GGUF",
+        "lovedheart/Seed-OSS-36B-Instruct-GGUF",
+        "Headofcatering/Seed-OSS-36B-Base-Instruct-Karcher-Merge-Q5_K_M-GGUF",
+        "mradermacher/Seed-OSS-36B-Instruct-MPOA-v1-GGUF",
+        "guodayang/Seed-OSS-36B-Instruct-Q8_0-GGUF"
+      ],
+      "sources": [
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "seed-oss-36b-chat-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Seed-OSS-36B-Instruct-heretic-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "lmstudio-community",
+          "repo": "Seed-OSS-36B-Instruct-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Smoothie-Seed-OSS-36B-Instruct-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "giladgd",
+          "repo": "Seed-OSS-36B-Instruct-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "unsloth",
+          "repo": "Seed-OSS-36B-Instruct-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Seed-OSS-36B-Base-woSyn-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Seed-OSS-36B-Instruct-heretic-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Seed-OSS-36B-Erotic-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Seed-OSS-36B-Instruct-biprojected-norm-preserving-abliterated-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "bartowski",
+          "repo": "ByteDance-Seed_Seed-OSS-36B-Instruct-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "magiccodingman",
+          "repo": "Seed-OSS-36B-Instruct-unsloth-MagicQuant-Hybrid-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Seed-OSS-36B-Erotic-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "seed-oss-36b-chat-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Seed-OSS-36B-Instruct-abliterated-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Seed-OSS-36B-Instruct-biprojected-norm-preserving-abliterated-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Seed-OSS-36B-Instruct-abliterated-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Seed-OSS-36B-Base-Instruct-Karcher-Merge-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Seed-OSS-36B-Instruct-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "altomek",
+          "repo": "Seed-OSS-36B-Instruct-XXL-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "yarikdevcom",
+          "repo": "Seed-OSS-36B-Instruct-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Seed-OSS-36B-Base-absolute-heresy-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "second-state",
+          "repo": "Seed-OSS-36B-Instruct-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "RDson",
+          "repo": "Seed-OSS-36B-Instruct-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Seed-OSS-36B-Instruct-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "EloyOn",
+          "repo": "Seed-OSS-36B-Erotic-Q5_0-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "YanLabs",
+          "repo": "Seed-OSS-36B-Instruct-MPOA-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Seed-OSS-36B-Base-Instruct-Karcher-Merge-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Seed-OSS-36B-Base-absolute-heresy-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "gaianet",
+          "repo": "Seed-OSS-36B-Instruct-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "DevQuasar",
+          "repo": "ByteDance-Seed.Seed-OSS-36B-Base-woSyn-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "DevQuasar",
+          "repo": "ByteDance-Seed.Seed-OSS-36B-Instruct-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "jworks",
+          "repo": "Seed-OSS-36B-Instruct-abliterated-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Seed-OSS-36B-Base-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Seed-OSS-36B-Base-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "DevQuasar",
+          "repo": "ByteDance-Seed.Seed-OSS-36B-Base-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "OpenMOSE",
+          "repo": "RWKV-Seed-OSS-36B-Hybrid-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "gabriellarson",
+          "repo": "Seed-OSS-36B-Instruct-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "magiccodingman",
+          "repo": "Seed-OSS-36B-Instruct-Unsloth-MXFP4-Hybrid-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "drmcbride",
+          "repo": "Seed-OSS-36B-Base-woSyn-Q4_K_M-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Seed-OSS-36B-Base-woSyn-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Smoothie-Seed-OSS-36B-Instruct-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "dinerburger",
+          "repo": "Seed-OSS-36B-Instruct-LLAMAIFIED-ik-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "YanLabs",
+          "repo": "Seed-OSS-36B-Instruct-MPOA-v1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Seed-OSS-36B-Instruct-MPOA-v1-i1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "lovedheart",
+          "repo": "Seed-OSS-36B-Instruct-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "Headofcatering",
+          "repo": "Seed-OSS-36B-Base-Instruct-Karcher-Merge-Q5_K_M-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "mradermacher",
+          "repo": "Seed-OSS-36B-Instruct-MPOA-v1-GGUF"
+        },
+        {
+          "type": "huggingface",
+          "user": "guodayang",
+          "repo": "Seed-OSS-36B-Instruct-Q8_0-GGUF"
+        }
+      ],
+      "purpose": "baseModel"
+    }
+  ]
+}

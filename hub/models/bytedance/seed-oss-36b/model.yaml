@@ -1,6 +1,6 @@
 # model.yaml is an open standard for defining cross-platform, composable AI models
 # Learn more at https://modelyaml.org
-model: bytedance/seed-oss-36b
+model: griefertroll-yaml/seed-oss-36b
 base:
   - key: mradermacher/seed-oss-36b-chat-i1-GGUF
     sources:

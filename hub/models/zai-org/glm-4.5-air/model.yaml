@@ -1,6 +1,6 @@
 # model.yaml is an open standard for defining cross-platform, composable AI models
 # Learn more at https://modelyaml.org
-model: zai-org/glm-4.5-air
+model: griefertroll-yaml/glm-4.5-air
 base:
   - key: unsloth/GLM-4.5-Air-GGUF
     sources:
