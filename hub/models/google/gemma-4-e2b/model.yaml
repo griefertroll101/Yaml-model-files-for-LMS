@@ -1,0 +1,203 @@
+# model.yaml is an open standard for defining cross-platform, composable AI models
+# Learn more at https://modelyaml.org
+model: google/gemma-4-e2b
+base:
+  - key: lmstudio-community/gemma-4-E2B-it-GGUF
+    sources:
+      - type: huggingface
+        user: lmstudio-community
+        repo: gemma-4-E2B-it-GGUF
+  - key: unsloth/gemma-4-E2B-it-GGUF
+    sources:
+      - type: huggingface
+        user: unsloth
+        repo: gemma-4-E2B-it-GGUF
+  - key: ggml-org/gemma-4-E2B-it-GGUF
+    sources:
+      - type: huggingface
+        user: ggml-org
+        repo: gemma-4-E2B-it-GGUF
+  - key: bartowski/google_gemma-4-E2B-it-GGUF
+    sources:
+      - type: huggingface
+        user: bartowski
+        repo: google_gemma-4-E2B-it-GGUF
+  - key: chatpdflocal/gemma-4-E2B-it-GGUF
+    sources:
+      - type: huggingface
+        user: chatpdflocal
+        repo: gemma-4-E2B-it-GGUF
+  - key: Smoffyy/Gemma4-E2B-Instruct-Pure-GGUF
+    sources:
+      - type: huggingface
+        user: Smoffyy
+        repo: Gemma4-E2B-Instruct-Pure-GGUF
+  - key: Trilogix1/gemma-4-E2B-it-GGUF
+    sources:
+      - type: huggingface
+        user: Trilogix1
+        repo: gemma-4-E2B-it-GGUF
+  - key: HauhauCS/Gemma-4-E2B-Uncensored-HauhauCS-Aggressive
+    sources:
+      - type: huggingface
+        user: HauhauCS
+        repo: Gemma-4-E2B-Uncensored-HauhauCS-Aggressive
+  - key: kamjin/Gemma-4-E2B-Uncensored-HauhauCS-Aggressive
+    sources:
+      - type: huggingface
+        user: kamjin
+        repo: Gemma-4-E2B-Uncensored-HauhauCS-Aggressive
+  - key: prithivMLmods/gemma-4-E2B-it-F32-GGUF
+    sources:
+      - type: huggingface
+        user: prithivMLmods
+        repo: gemma-4-E2B-it-F32-GGUF
+  - key: armand0e/gemma-4-E2B-it-Claude-Opus-Distill-GGUF
+    sources:
+      - type: huggingface
+        user: armand0e
+        repo: gemma-4-E2B-it-Claude-Opus-Distill-GGUF
+  - key: Ayodele01/gemma-4-E2B-Gemini-3.1-Pro-Reasoning-Distill-GGUF
+    sources:
+      - type: huggingface
+        user: Ayodele01
+        repo: gemma-4-E2B-Gemini-3.1-Pro-Reasoning-Distill-GGUF
+  - key: tatsuyaaaaaaa/gemma-4-E2B-it-gguf
+    sources:
+      - type: huggingface
+        user: tatsuyaaaaaaa
+        repo: gemma-4-E2B-it-gguf
+  - key: tatsuyaaaaaaa/gemma-4-E2B-gguf
+    sources:
+      - type: huggingface
+        user: tatsuyaaaaaaa
+        repo: gemma-4-E2B-gguf
+  - key: StageMind/gemma-4-e2b
+    sources:
+      - type: huggingface
+        user: StageMind
+        repo: gemma-4-e2b
+  - key: smkrv/gemma-4-E2B-abl-GGUF
+    sources:
+      - type: huggingface
+        user: smkrv
+        repo: gemma-4-E2B-abl-GGUF
+  - key: Nesuwka/gemma-4-E2B-it-heretic-ara-Q4_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: Nesuwka
+        repo: gemma-4-E2B-it-heretic-ara-Q4_K_M-GGUF
+  - key: Stabhappy/gemma-4-E2B-it-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: Stabhappy
+        repo: gemma-4-E2B-it-heretic-GGUF
+  - key: hypaai/Hypa-Gemma-4-E2B-it-2026-04-03-GGUF
+    sources:
+      - type: huggingface
+        user: hypaai
+        repo: Hypa-Gemma-4-E2B-it-2026-04-03-GGUF
+  - key: sowilow/gemma-4-e2b-it-GGUF
+    sources:
+      - type: huggingface
+        user: sowilow
+        repo: gemma-4-e2b-it-GGUF
+  - key: roelfrenkema/gemma-4-E2B-it.Q4_K_M-med.gguf
+    sources:
+      - type: huggingface
+        user: roelfrenkema
+        repo: gemma-4-E2B-it.Q4_K_M-med.gguf
+  - key: Stinger2311/whybook-gemma4-e2b-gguf
+    sources:
+      - type: huggingface
+        user: Stinger2311
+        repo: whybook-gemma4-e2b-gguf
+  - key: mradermacher/gemma-4-E2B-it-heretic-ara-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E2B-it-heretic-ara-GGUF
+  - key: SporkySporkness/gemma-4-E2B-GGUF
+    sources:
+      - type: huggingface
+        user: SporkySporkness
+        repo: gemma-4-E2B-GGUF
+  - key: sowilow/gemma-4-e2b-it-DGX-Spark-GGUF
+    sources:
+      - type: huggingface
+        user: sowilow
+        repo: gemma-4-e2b-it-DGX-Spark-GGUF
+  - key: TrevorJS/gemma-4-E2B-it-uncensored-GGUF
+    sources:
+      - type: huggingface
+        user: TrevorJS
+        repo: gemma-4-E2B-it-uncensored-GGUF
+  - key: rocky232/gemma4-e2b-atlas-synthesis
+    sources:
+      - type: huggingface
+        user: rocky232
+        repo: gemma4-e2b-atlas-synthesis
+  - key: shaogan384/gemma-4-E2B-it-GGUF
+    sources:
+      - type: huggingface
+        user: shaogan384
+        repo: gemma-4-E2B-it-GGUF
+  - key: Satyam449/gyaan-gemma4-e2b-indian-teacher
+    sources:
+      - type: huggingface
+        user: Satyam449
+        repo: gyaan-gemma4-e2b-indian-teacher
+  - key: daniloreddy/gemma-4-E2B-it_GGUF
+    sources:
+      - type: huggingface
+        user: daniloreddy
+        repo: gemma-4-E2B-it_GGUF
+  - key: Anachronox39/gemma-4-E2B-it-uncensored-GGUF
+    sources:
+      - type: huggingface
+        user: Anachronox39
+        repo: gemma-4-E2B-it-uncensored-GGUF
+  - key: professorf/gemma-4-E2B-it-gguf
+    sources:
+      - type: huggingface
+        user: professorf
+        repo: gemma-4-E2B-it-gguf
+config:
+  operation:
+    fields:
+      - key: llm.prediction.temperature
+        value: 1.0
+      - key: llm.prediction.topKSampling
+        value: 64
+      - key: llm.prediction.topPSampling
+        value:
+          checked: true
+          value: 0.95
+      - key: llm.prediction.reasoning.parsing
+        value:
+          enabled: true
+          startString: "<|channel>thought"
+          endString: "<channel|>"
+customFields:
+  - key: enableThinking
+    displayName: Enable Thinking
+    description: Controls whether the model will think before replying
+    type: boolean
+    defaultValue: true
+    effects:
+      - type: setJinjaVariable
+        variable: enable_thinking
+metadataOverrides:
+  domain: llm
+  architectures:
+    - gemma4
+  compatibilityTypes:
+    - gguf
+  paramsStrings:
+    - 2B
+  minMemoryUsageBytes: 1500000000
+  contextLengths:
+    - 262144
+  vision: true
+  reasoning: true
+  trainedForToolUse: true

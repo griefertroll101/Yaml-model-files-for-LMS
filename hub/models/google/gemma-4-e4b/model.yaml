@@ -1,0 +1,208 @@
+# model.yaml is an open standard for defining cross-platform, composable AI models
+# Learn more at https://modelyaml.org
+model: google/gemma-4-e4b
+base:
+  - key: lmstudio-community/gemma-4-E4B-it-GGUF
+    sources:
+      - type: huggingface
+        user: lmstudio-community
+        repo: gemma-4-E4B-it-GGUF
+  - key: unsloth/gemma-4-E4B-it-GGUF
+    sources:
+      - type: huggingface
+        user: unsloth
+        repo: gemma-4-E4B-it-GGUF
+  - key: ggml-org/gemma-4-E4B-it-GGUF
+    sources:
+      - type: huggingface
+        user: ggml-org
+        repo: gemma-4-E4B-it-GGUF
+  - key: bartowski/google_gemma-4-E4B-it-GGUF
+    sources:
+      - type: huggingface
+        user: bartowski
+        repo: google_gemma-4-E4B-it-GGUF
+  - key: chatpdflocal/gemma-4-E4B-it-GGUF
+    sources:
+      - type: huggingface
+        user: chatpdflocal
+        repo: gemma-4-E4B-it-GGUF
+  - key: Smoffyy/Gemma4-E4B-Instruct-Pure-GGUF
+    sources:
+      - type: huggingface
+        user: Smoffyy
+        repo: Gemma4-E4B-Instruct-Pure-GGUF
+  - key: HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive
+    sources:
+      - type: huggingface
+        user: HauhauCS
+        repo: Gemma-4-E4B-Uncensored-HauhauCS-Aggressive
+  - key: frescohf/gemma-4-e4b-gguf
+    sources:
+      - type: huggingface
+        user: FrescoHF
+        repo: gemma-4-E4B-GGUF
+  - key: Stabhappy/gemma-4-E4B-it-GGUF
+    sources:
+      - type: huggingface
+        user: Stabhappy
+        repo: gemma-4-E4B-it-GGUF
+  - key: kamjin/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive
+    sources:
+      - type: huggingface
+        user: kamjin
+        repo: Gemma-4-E4B-Uncensored-HauhauCS-Aggressive
+  - key: DevQuasar/google.gemma-4-E4B-it-GGUF
+    sources:
+      - type: huggingface
+        user: DevQuasar
+        repo: google.gemma-4-E4B-it-GGUF
+  - key: tatsuyaaaaaaa/gemma-4-E4B-it-gguf
+    sources:
+      - type: huggingface
+        user: tatsuyaaaaaaa
+        repo: gemma-4-E4B-it-gguf
+  - key: tatsuyaaaaaaa/gemma-4-E4B-gguf
+    sources:
+      - type: huggingface
+        user: tatsuyaaaaaaa
+        repo: gemma-4-E4B-gguf
+  - key: prithivMLmods/gemma-4-E4B-it-F32-GGUF
+    sources:
+      - type: huggingface
+        user: prithivMLmods
+        repo: gemma-4-E4B-it-F32-GGUF
+  - key: Abhiray/gemma-4-E4B-it-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: Abhiray
+        repo: gemma-4-E4B-it-heretic-GGUF
+  - key: Cannae-AI/Gemini-3.1-pro-Gemma-4-E4B-Distill-gguf
+    sources:
+      - type: huggingface
+        user: Cannae-AI
+        repo: Gemini-3.1-pro-Gemma-4-E4B-Distill-gguf
+  - key: JeanLima2024/dggirl-gemma-4-e4b-it-6bits
+    sources:
+      - type: huggingface
+        user: JeanLima2024
+        repo: dggirl-gemma-4-e4b-it-6bits
+  - key: nuofang/gemma-4-E4B-it-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: nuofang
+        repo: gemma-4-E4B-it-heretic-GGUF
+  - key: stronman/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive
+    sources:
+      - type: huggingface
+        user: stronman
+        repo: Gemma-4-E4B-Uncensored-HauhauCS-Aggressive
+  - key: JeanLima2024/dggirl-gemma-4-e4b-it
+    sources:
+      - type: huggingface
+        user: JeanLima2024
+        repo: dggirl-gemma-4-e4b-it
+  - key: Ayodele01/gemma-4-E4B-Gemini-3.1-Pro-Reasoning-Distill-GGUF
+    sources:
+      - type: huggingface
+        user: Ayodele01
+        repo: gemma-4-E4B-Gemini-3.1-Pro-Reasoning-Distill-GGUF
+  - key: wkplhc/gemma-4-E4B-it-GGUF
+    sources:
+      - type: huggingface
+        user: wkplhc
+        repo: gemma-4-E4B-it-GGUF
+  - key: StageMind/gemma-4-e4b
+    sources:
+      - type: huggingface
+        user: StageMind
+        repo: gemma-4-e4b
+  - key: Qwe1325/gemma-4-E4B-it-heretic-lora
+    sources:
+      - type: huggingface
+        user: Qwe1325
+        repo: gemma-4-E4B-it-heretic-lora
+  - key: NullpoLab/gemma-4-E4B-it-Heretic-ARA-Refusals5-GGUF
+    sources:
+      - type: huggingface
+        user: NullpoLab
+        repo: gemma-4-E4B-it-Heretic-ARA-Refusals5-GGUF
+  - key: NullpoLab/gemma-4-E4B-it-Heretic-ARA-Refusals8-GGUF
+    sources:
+      - type: huggingface
+        user: NullpoLab
+        repo: gemma-4-E4B-it-Heretic-ARA-Refusals8-GGUF
+  - key: NullpoLab/gemma-4-E4B-it-Heretic-ARA-Refusals3-GGUF
+    sources:
+      - type: huggingface
+        user: NullpoLab
+        repo: gemma-4-E4B-it-Heretic-ARA-Refusals3-GGUF
+  - key: q7741732/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive
+    sources:
+      - type: huggingface
+        user: q7741732
+        repo: Gemma-4-E4B-Uncensored-HauhauCS-Aggressive
+  - key: igorls/gemma-4-E4B-it-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: igorls
+        repo: gemma-4-E4B-it-heretic-GGUF
+  - key: kmoore0/nist-gemma4-e4b-GGUF
+    sources:
+      - type: huggingface
+        user: kmoore0
+        repo: nist-gemma4-e4b-GGUF
+  - key: Abhiray/gemma-4-E4B-Gemini-3.1-Pro-Reasoning-Distill-GGUF
+    sources:
+      - type: huggingface
+        user: Abhiray
+        repo: gemma-4-E4B-Gemini-3.1-Pro-Reasoning-Distill-GGUF
+  - key: johnjg75/gemma-4-E4B-it-GGUF-pruned-Eng
+    sources:
+      - type: huggingface
+        user: johnjg75
+        repo: gemma-4-E4B-it-GGUF-pruned-Eng
+  - key: SporkySporkness/gemma-4-E4B-GGUF
+    sources:
+      - type: huggingface
+        user: SporkySporkness
+        repo: gemma-4-E4B-GGUF
+config:
+  operation:
+    fields:
+      - key: llm.prediction.temperature
+        value: 1.0
+      - key: llm.prediction.topPSampling
+        value:
+          checked: true
+          value: 0.95
+      - key: llm.prediction.topKSampling
+        value: 64
+      - key: llm.prediction.reasoning.parsing
+        value:
+          enabled: true
+          startString: "<|channel>thought"
+          endString: "<channel|>"
+customFields:
+  - key: enableThinking
+    displayName: Enable Thinking
+    description: Controls whether the model will think before replying
+    type: boolean
+    defaultValue: true
+    effects:
+      - type: setJinjaVariable
+        variable: enable_thinking
+metadataOverrides:
+  domain: llm
+  architectures:
+    - gemma4
+  compatibilityTypes:
+    - gguf
+  paramsStrings:
+    - 4B
+  minMemoryUsageBytes: 2500000000
+  contextLengths:
+    - 262144
+  vision: true
+  reasoning: true
+  trainedForToolUse: true

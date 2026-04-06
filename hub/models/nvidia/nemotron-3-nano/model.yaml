@@ -1,0 +1,238 @@
+# model.yaml is an open standard for defining cross-platform, composable AI models
+# Learn more at https://modelyaml.org
+model: nvidia/nemotron-3-nano
+base:
+  - key: unsloth/Nemotron-3-Nano-30B-A3B-GGUF
+    sources:
+      - type: huggingface
+        user: unsloth
+        repo: Nemotron-3-Nano-30B-A3B-GGUF
+  - key: lmstudio-community/NVIDIA-Nemotron-3-Nano-4B-GGUF
+    sources:
+      - type: huggingface
+        user: lmstudio-community
+        repo: NVIDIA-Nemotron-3-Nano-4B-GGUF
+  - key: lmstudio-community/NVIDIA-Nemotron-3-Nano-30B-A3B-GGUF
+    sources:
+      - type: huggingface
+        user: lmstudio-community
+        repo: NVIDIA-Nemotron-3-Nano-30B-A3B-GGUF
+  - key: unsloth/NVIDIA-Nemotron-3-Nano-4B-GGUF
+    sources:
+      - type: huggingface
+        user: unsloth
+        repo: NVIDIA-Nemotron-3-Nano-4B-GGUF
+  - key: nvidia/NVIDIA-Nemotron-3-Nano-4B-GGUF
+    sources:
+      - type: huggingface
+        user: nvidia
+        repo: NVIDIA-Nemotron-3-Nano-4B-GGUF
+  - key: bartowski/nvidia_Nemotron-3-Nano-30B-A3B-GGUF
+    sources:
+      - type: huggingface
+        user: bartowski
+        repo: nvidia_Nemotron-3-Nano-30B-A3B-GGUF
+  - key: Mungert/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16-GGUF
+    sources:
+      - type: huggingface
+        user: Mungert
+        repo: NVIDIA-Nemotron-3-Nano-30B-A3B-BF16-GGUF
+  - key: HauhauCS/Nemotron3-Nano-4B-Uncensored-HauhauCS-Aggressive
+    sources:
+      - type: huggingface
+        user: HauhauCS
+        repo: Nemotron3-Nano-4B-Uncensored-HauhauCS-Aggressive
+  - key: mradermacher/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16-heretic-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: NVIDIA-Nemotron-3-Nano-30B-A3B-BF16-heretic-i1-GGUF
+  - key: bartowski/nvidia_Nemotron-3-Nano-4B-GGUF
+    sources:
+      - type: huggingface
+        user: bartowski
+        repo: nvidia_Nemotron-3-Nano-4B-GGUF
+  - key: tatsuyaaaaaaa/NVIDIA-Nemotron-3-Nano-4B-BF16-gguf
+    sources:
+      - type: huggingface
+        user: tatsuyaaaaaaa
+        repo: NVIDIA-Nemotron-3-Nano-4B-BF16-gguf
+  - key: mradermacher/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: NVIDIA-Nemotron-3-Nano-30B-A3B-BF16-i1-GGUF
+  - key: Ex0bit/Elbaz-NVIDIA-Nemotron-3-Nano-30B-A3B-PRISM
+    sources:
+      - type: huggingface
+        user: Ex0bit
+        repo: Elbaz-NVIDIA-Nemotron-3-Nano-30B-A3B-PRISM
+  - key: mradermacher/NVIDIA-Nemotron-3-Nano-4B-BF16-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: NVIDIA-Nemotron-3-Nano-4B-BF16-i1-GGUF
+  - key: mradermacher/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: NVIDIA-Nemotron-3-Nano-30B-A3B-BF16-heretic-GGUF
+  - key: ddh0/NVIDIA-Nemotron-3-Nano-4B-GGUF
+    sources:
+      - type: huggingface
+        user: ddh0
+        repo: NVIDIA-Nemotron-3-Nano-4B-GGUF
+  - key: ggml-org/Nemotron-3-Nano-4B-GGUF
+    sources:
+      - type: huggingface
+        user: ggml-org
+        repo: Nemotron-3-Nano-4B-GGUF
+  - key: mradermacher/NVIDIA-Nemotron-3-Nano-30B-A3B-novelrp-BF16-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: NVIDIA-Nemotron-3-Nano-30B-A3B-novelrp-BF16-i1-GGUF
+  - key: mradermacher/NVIDIA-Nemotron-3-Nano-4B-BF16-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: NVIDIA-Nemotron-3-Nano-4B-BF16-GGUF
+  - key: noctrex/Nemotron-3-Nano-30B-A3B-MXFP4_MOE-GGUF
+    sources:
+      - type: huggingface
+        user: noctrex
+        repo: Nemotron-3-Nano-30B-A3B-MXFP4_MOE-GGUF
+  - key: DevQuasar/nvidia.NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16-GGUF
+    sources:
+      - type: huggingface
+        user: DevQuasar
+        repo: nvidia.NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16-GGUF
+  - key: HauhauCS/Nemotron3-Nano-4B-Uncensored-HauhauCS-Aggressive-GenRM
+    sources:
+      - type: huggingface
+        user: HauhauCS
+        repo: Nemotron3-Nano-4B-Uncensored-HauhauCS-Aggressive-GenRM
+  - key: jaromer/Nemotron3-Nano-4B-Uncensored-HauhauCS-Aggressive
+    sources:
+      - type: huggingface
+        user: jaromer
+        repo: Nemotron3-Nano-4B-Uncensored-HauhauCS-Aggressive
+  - key: mradermacher/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: NVIDIA-Nemotron-3-Nano-30B-A3B-BF16-GGUF
+  - key: moxin-org/Nemotron-3-Nano-30B-A3B-GGUF
+    sources:
+      - type: huggingface
+        user: moxin-org
+        repo: Nemotron-3-Nano-30B-A3B-GGUF
+  - key: DevQuasar/nvidia.NVIDIA-Nemotron-3-Nano-4B-BF16-GGUF
+    sources:
+      - type: huggingface
+        user: DevQuasar
+        repo: nvidia.NVIDIA-Nemotron-3-Nano-4B-BF16-GGUF
+  - key: QuietImpostor/Nemotron-3-Nano-REAP-21B-A3B-MXFP4-GGUF
+    sources:
+      - type: huggingface
+        user: QuietImpostor
+        repo: Nemotron-3-Nano-REAP-21B-A3B-MXFP4-GGUF
+  - key: modelfix/NVIDIA-Nemotron-3-Nano-30B-A3B-FP8-GGUF
+    sources:
+      - type: huggingface
+        user: modelfix
+        repo: NVIDIA-Nemotron-3-Nano-30B-A3B-FP8-GGUF
+  - key: lm-kit/nemotron-3-nano-4b-gguf
+    sources:
+      - type: huggingface
+        user: lm-kit
+        repo: nemotron-3-nano-4b-gguf
+  - key: icefog72/Elbaz-NVIDIA-Nemotron-3-Nano-30B-A3B-PRISM-Q5_K_M
+    sources:
+      - type: huggingface
+        user: icefog72
+        repo: Elbaz-NVIDIA-Nemotron-3-Nano-30B-A3B-PRISM-Q5_K_M
+  - key: Tinker-Stack/Nemotron-3-Nano-30B-A3B-IQ4_XS-GGUF
+    sources:
+      - type: huggingface
+        user: Tinker-Stack
+        repo: Nemotron-3-Nano-30B-A3B-IQ4_XS-GGUF
+  - key: DevQuasar/nvidia.NVIDIA-Nemotron-3-Nano-30B-A3B-BF16-GGUF
+    sources:
+      - type: huggingface
+        user: DevQuasar
+        repo: nvidia.NVIDIA-Nemotron-3-Nano-30B-A3B-BF16-GGUF
+  - key: mradermacher/NVIDIA-Nemotron-3-Nano-30B-A3B-novelrp-BF16-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: NVIDIA-Nemotron-3-Nano-30B-A3B-novelrp-BF16-GGUF
+  - key: altomek/Nemotron-3-Nano-30B-A3B-XXL-GGUF
+    sources:
+      - type: huggingface
+        user: altomek
+        repo: Nemotron-3-Nano-30B-A3B-XXL-GGUF
+  - key: forkjoin-ai/nvidia-nemotron-3-nano-30b-a3b-bf16-gguf
+    sources:
+      - type: huggingface
+        user: forkjoin-ai
+        repo: nvidia-nemotron-3-nano-30b-a3b-bf16-gguf
+  - key: memoryco-ai/Nemotron-3-Nano-4B-GGUF
+    sources:
+      - type: huggingface
+        user: memoryco-ai
+        repo: Nemotron-3-Nano-4B-GGUF
+  - key: lm-kit/nemotron-3-nano-30b-a3b-gguf
+    sources:
+      - type: huggingface
+        user: lm-kit
+        repo: nemotron-3-nano-30b-a3b-gguf
+  - key: mudler/Nemotron-3-Nano-30B-A3B-APEX-GGUF
+    sources:
+      - type: huggingface
+        user: mudler
+        repo: Nemotron-3-Nano-30B-A3B-APEX-GGUF
+  - key: aoiandroid/NVIDIA-Nemotron3-Nano-4B-Q4_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: aoiandroid
+        repo: NVIDIA-Nemotron3-Nano-4B-Q4_K_M-GGUF
+config:
+  operation:
+    fields:
+      - key: llm.prediction.repeatPenalty
+        value:
+          checked: true
+          value: 1.0
+customFields:
+  - key: enableThinking
+    displayName: Enable Thinking
+    description: Controls whether the model will think before replying
+    type: boolean
+    defaultValue: true
+    effects:
+      - type: setJinjaVariable
+        variable: enable_thinking
+  - key: truncateThinkingHistory
+    displayName: Truncate Thinking History
+    description: Controls whether thinking history will be truncated to save context space
+    type: boolean
+    defaultValue: false
+    effects:
+      - type: setJinjaVariable
+        variable: truncate_history_thinking
+metadataOverrides:
+  domain: llm
+  architectures:
+    - nemotron_h_moe
+  compatibilityTypes:
+    - gguf
+    - safetensors
+  paramsStrings:
+    - 30B
+  minMemoryUsageBytes: 16000000000
+  contextLengths:
+    - 1048576
+  vision: false
+  reasoning: true
+  trainedForToolUse: true
