@@ -502,6 +502,11 @@ base:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-397B-A17B-THIREUS-IQ1_S-SPECIAL_SPLIT
+  - key: Goldkoron/Qwen3.5-397B-A17B
+    sources:
+      - type: huggingface
+        user: Goldkoron
+        repo: Qwen3.5-397B-A17B
 config:
   operation:
     fields:
@@ -517,10 +522,6 @@ config:
         value:
           checked: false
           value: 0
-      - key: llm.prediction.llama.presencePenalty
-        value:
-          checked: true
-          value: 1.5
 customFields:
   - key: enableThinking
     displayName: Enable Thinking

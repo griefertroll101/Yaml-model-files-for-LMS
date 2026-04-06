@@ -552,6 +552,16 @@ base:
       - type: huggingface
         user: llmfan46
         repo: Qwen3.5-9B-ultra-uncensored-heretic-v2-GGUF
+  - key: mradermacher/nsfwvision-v4_qwen3.5-9b-sft-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: nsfwvision-v4_qwen3.5-9b-sft-i1-GGUF
+  - key: mradermacher/Qwen3.5-9b-Opus-Openclaw-Distilled-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-9b-Opus-Openclaw-Distilled-i1-GGUF
 config:
   operation:
     fields:
@@ -567,6 +577,10 @@ config:
         value:
           checked: false
           value: 0
+      - key: llm.prediction.repeatPenalty
+        value:
+          checked: false
+          value: 1.0
       - key: llm.prediction.llama.presencePenalty
         value:
           checked: true

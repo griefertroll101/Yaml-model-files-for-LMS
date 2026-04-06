@@ -417,7 +417,7 @@ base:
       - type: huggingface
         user: aiworksofbt
         repo: gpt-oss-20b-GGUF
-  - key: davidau/openai-gpt-oss-20b-moderate-uncensored-neo-imatrix-gguf
+  - key: DavidAU/OpenAi-GPT-oss-20b-MODERATE-uncensored-NEO-Imatrix-gguf
     sources:
       - type: huggingface
         user: DavidAU
@@ -462,6 +462,21 @@ base:
       - type: huggingface
         user: mradermacher
         repo: OPD-sycophancy-gpt-oss-20b-GGUF
+  - key: mradermacher/gpt-oss-20b-heretic-heretic-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gpt-oss-20b-heretic-heretic-i1-GGUF
+  - key: mradermacher/OPD-sycophancy-gpt-oss-20b-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: OPD-sycophancy-gpt-oss-20b-i1-GGUF
+  - key: Da-master/OpenAi-GPT-oss-20b-abliterated-uncensored-NEO-Imatrix-gguf
+    sources:
+      - type: huggingface
+        user: Da-master
+        repo: OpenAi-GPT-oss-20b-abliterated-uncensored-NEO-Imatrix-gguf
 config:
   operation:
     fields:

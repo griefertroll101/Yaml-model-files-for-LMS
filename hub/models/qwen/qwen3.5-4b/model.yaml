@@ -927,6 +927,11 @@ base:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-4B-Claude-Opus-Reasoning-GGUF
+  - key: mradermacher/NSFW-RP-Qwen3.5-4B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: NSFW-RP-Qwen3.5-4B-GGUF
 config:
   operation:
     fields:
@@ -942,6 +947,10 @@ config:
         value:
           checked: false
           value: 0
+      - key: llm.prediction.repeatPenalty
+        value:
+          checked: false
+          value: 1.0
       - key: llm.prediction.llama.presencePenalty
         value:
           checked: true

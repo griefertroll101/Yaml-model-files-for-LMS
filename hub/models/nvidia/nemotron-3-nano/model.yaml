@@ -187,6 +187,16 @@ base:
       - type: huggingface
         user: lm-kit
         repo: nemotron-3-nano-30b-a3b-gguf
+  - key: mudler/Nemotron-3-Nano-30B-A3B-APEX-GGUF
+    sources:
+      - type: huggingface
+        user: mudler
+        repo: Nemotron-3-Nano-30B-A3B-APEX-GGUF
+  - key: aoiandroid/NVIDIA-Nemotron3-Nano-4B-Q4_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: aoiandroid
+        repo: NVIDIA-Nemotron3-Nano-4B-Q4_K_M-GGUF
 config:
   operation:
     fields:
@@ -203,6 +213,14 @@ customFields:
     effects:
       - type: setJinjaVariable
         variable: enable_thinking
+  - key: truncateThinkingHistory
+    displayName: Truncate Thinking History
+    description: Controls whether thinking history will be truncated to save context space
+    type: boolean
+    defaultValue: false
+    effects:
+      - type: setJinjaVariable
+        variable: truncate_history_thinking
 metadataOverrides:
   domain: llm
   architectures:

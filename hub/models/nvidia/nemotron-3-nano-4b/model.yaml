@@ -77,6 +77,24 @@ base:
       - type: huggingface
         user: memoryco-ai
         repo: Nemotron-3-Nano-4B-GGUF
+  - key: aoiandroid/NVIDIA-Nemotron3-Nano-4B-Q4_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: aoiandroid
+        repo: NVIDIA-Nemotron3-Nano-4B-Q4_K_M-GGUF
+config:
+  operation:
+    fields:
+      - key: llm.prediction.temperature
+        value: 1.0
+      - key: llm.prediction.topPSampling
+        value:
+          checked: true
+          value: 0.95
+      - key: llm.prediction.repeatPenalty
+        value:
+          checked: true
+          value: 1.0
 customFields:
   - key: enableThinking
     displayName: Enable Thinking

@@ -637,6 +637,21 @@ base:
       - type: huggingface
         user: baa-ai
         repo: Qwen3.5-35B-A3B-MINT-21GB-GGUF
+  - key: stronman/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive
+    sources:
+      - type: huggingface
+        user: stronman
+        repo: Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive
+  - key: krampenschiesser/Qwen3.5-35B-A3B-NVFP4.gguf
+    sources:
+      - type: huggingface
+        user: krampenschiesser
+        repo: Qwen3.5-35B-A3B-NVFP4.gguf
+  - key: LuffyTheFox/Qwen3.5-35B-A3B-Claude-4.6-Opus-Uncensored-KL-UD-V2-GGUF
+    sources:
+      - type: huggingface
+        user: LuffyTheFox
+        repo: Qwen3.5-35B-A3B-Claude-4.6-Opus-Uncensored-KL-UD-V2-GGUF
 config:
   operation:
     fields:
@@ -652,10 +667,6 @@ config:
         value:
           checked: false
           value: 0
-      - key: llm.prediction.llama.presencePenalty
-        value:
-          checked: true
-          value: 1.5
 customFields:
   - key: enableThinking
     displayName: Enable Thinking

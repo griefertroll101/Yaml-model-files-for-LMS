@@ -622,6 +622,16 @@ base:
       - type: huggingface
         user: grizzfu
         repo: GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-v2-heretic-i1-GGUF
+  - key: mudler/GLM-4.7-Flash-APEX-GGUF
+    sources:
+      - type: huggingface
+        user: mudler
+        repo: GLM-4.7-Flash-APEX-GGUF
+  - key: Mungert/GLM-4.7-Flash-GGUF
+    sources:
+      - type: huggingface
+        user: Mungert
+        repo: GLM-4.7-Flash-GGUF
 config:
   operation:
     fields:

@@ -112,6 +112,56 @@ base:
       - type: huggingface
         user: Stinger2311
         repo: whybook-gemma4-e2b-gguf
+  - key: mradermacher/gemma-4-E2B-it-heretic-ara-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E2B-it-heretic-ara-GGUF
+  - key: SporkySporkness/gemma-4-E2B-GGUF
+    sources:
+      - type: huggingface
+        user: SporkySporkness
+        repo: gemma-4-E2B-GGUF
+  - key: sowilow/gemma-4-e2b-it-DGX-Spark-GGUF
+    sources:
+      - type: huggingface
+        user: sowilow
+        repo: gemma-4-e2b-it-DGX-Spark-GGUF
+  - key: TrevorJS/gemma-4-E2B-it-uncensored-GGUF
+    sources:
+      - type: huggingface
+        user: TrevorJS
+        repo: gemma-4-E2B-it-uncensored-GGUF
+  - key: rocky232/gemma4-e2b-atlas-synthesis
+    sources:
+      - type: huggingface
+        user: rocky232
+        repo: gemma4-e2b-atlas-synthesis
+  - key: shaogan384/gemma-4-E2B-it-GGUF
+    sources:
+      - type: huggingface
+        user: shaogan384
+        repo: gemma-4-E2B-it-GGUF
+  - key: Satyam449/gyaan-gemma4-e2b-indian-teacher
+    sources:
+      - type: huggingface
+        user: Satyam449
+        repo: gyaan-gemma4-e2b-indian-teacher
+  - key: daniloreddy/gemma-4-E2B-it_GGUF
+    sources:
+      - type: huggingface
+        user: daniloreddy
+        repo: gemma-4-E2B-it_GGUF
+  - key: Anachronox39/gemma-4-E2B-it-uncensored-GGUF
+    sources:
+      - type: huggingface
+        user: Anachronox39
+        repo: gemma-4-E2B-it-uncensored-GGUF
+  - key: professorf/gemma-4-E2B-it-gguf
+    sources:
+      - type: huggingface
+        user: professorf
+        repo: gemma-4-E2B-it-gguf
 config:
   operation:
     fields:

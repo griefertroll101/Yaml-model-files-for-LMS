@@ -137,6 +137,71 @@ base:
       - type: huggingface
         user: mradermacher
         repo: gemma-4-26B-A4B-it-heretic-GGUF
+  - key: TeichAI/gemma-4-26B-A4B-it-Claude-Opus-Distill-GGUF
+    sources:
+      - type: huggingface
+        user: TeichAI
+        repo: gemma-4-26B-A4B-it-Claude-Opus-Distill-GGUF
+  - key: SporkySporkness/gemma-4-26B-A4B-GGUF
+    sources:
+      - type: huggingface
+        user: SporkySporkness
+        repo: gemma-4-26B-A4B-GGUF
+  - key: mudler/gemma-4-26B-A4B-it-heretic-APEX-GGUF
+    sources:
+      - type: huggingface
+        user: mudler
+        repo: gemma-4-26B-A4B-it-heretic-APEX-GGUF
+  - key: Smoffyy/Gemma4-26B-A4B-Instruct-Pure-GGUF
+    sources:
+      - type: huggingface
+        user: Smoffyy
+        repo: Gemma4-26B-A4B-Instruct-Pure-GGUF
+  - key: sowilow/gemma-4-26b-a4b-it-DGX-Spark-GGUF
+    sources:
+      - type: huggingface
+        user: sowilow
+        repo: gemma-4-26b-a4b-it-DGX-Spark-GGUF
+  - key: mudler/gemma-4-26B-A4B-it-Claude-Opus-Distill-APEX-GGUF
+    sources:
+      - type: huggingface
+        user: mudler
+        repo: gemma-4-26B-A4B-it-Claude-Opus-Distill-APEX-GGUF
+  - key: dawsonamf/gemma-4-26b-a4b-it-heretic-ara-r9-kl1077-GGUF
+    sources:
+      - type: huggingface
+        user: dawsonamf
+        repo: gemma-4-26b-a4b-it-heretic-ara-r9-kl1077-GGUF
+  - key: dawsonamf/gemma-4-26b-a4b-it-heretic-ara-r3-kl4059-GGUF
+    sources:
+      - type: huggingface
+        user: dawsonamf
+        repo: gemma-4-26b-a4b-it-heretic-ara-r3-kl4059-GGUF
+  - key: altomek/Gemma-4-26B-A4B-it-XXL-GGUF
+    sources:
+      - type: huggingface
+        user: altomek
+        repo: Gemma-4-26B-A4B-it-XXL-GGUF
+  - key: TrevorJS/gemma-4-26B-A4B-it-uncensored-GGUF
+    sources:
+      - type: huggingface
+        user: TrevorJS
+        repo: gemma-4-26B-A4B-it-uncensored-GGUF
+  - key: techhermit/gemma-4-26B-A4B-it-reap126
+    sources:
+      - type: huggingface
+        user: techhermit
+        repo: gemma-4-26B-A4B-it-reap126
+  - key: mradermacher/gemma-4-26B-A4B-it-heretic-ara-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-26B-A4B-it-heretic-ara-GGUF
+  - key: mradermacher/gemma-4-26B-A4B-it-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-26B-A4B-it-GGUF
 config:
   operation:
     fields:

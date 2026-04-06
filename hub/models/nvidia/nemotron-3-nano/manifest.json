@@ -1,13 +1,13 @@
 {
   "type": "model",
-  "owner": "griefertroll-yaml",
+  "owner": "nvidia",
   "name": "nemotron-3-nano",
   "version": 1,
   "files": [
     {
       "path": "model.yaml",
-      "sha256": "ed8366ceeba5ce8c2110780ee1e77101b16c34ca5cfcdd1f24aff5083d498b16",
-      "size": 7546
+      "sha256": "edbd1cc6f0c88817efea1c218aaa6510f3178aaf0b54e920f9080abb05b80e74",
+      "size": 8180
     }
   ]
 }

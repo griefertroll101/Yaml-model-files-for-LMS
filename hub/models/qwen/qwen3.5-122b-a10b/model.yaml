@@ -517,6 +517,31 @@ base:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-122B-A10B-THIREUS-IQ5_K-SPECIAL_SPLIT
+  - key: mradermacher/trohrbaugh-Qwen3.5-122B-A10B-heretic-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: trohrbaugh-Qwen3.5-122B-A10B-heretic-i1-GGUF
+  - key: mradermacher/trohrbaugh-Qwen3.5-122B-A10B-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: trohrbaugh-Qwen3.5-122B-A10B-heretic-GGUF
+  - key: TxemAI/Qwen3.5-122B-A10B-Q4_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: TxemAI
+        repo: Qwen3.5-122B-A10B-Q4_K_M-GGUF
+  - key: TxemAI/Qwen3.5-122B-A10B-Q6_K-GGUF
+    sources:
+      - type: huggingface
+        user: TxemAI
+        repo: Qwen3.5-122B-A10B-Q6_K-GGUF
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-IQ6_K-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: Qwen3.5-122B-A10B-THIREUS-IQ6_K-SPECIAL_SPLIT
 config:
   operation:
     fields:
@@ -532,10 +557,6 @@ config:
         value:
           checked: false
           value: 0
-      - key: llm.prediction.llama.presencePenalty
-        value:
-          checked: true
-          value: 1.5
 customFields:
   - key: enableThinking
     displayName: Enable Thinking

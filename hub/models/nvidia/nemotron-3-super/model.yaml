@@ -137,6 +137,11 @@ base:
       - type: huggingface
         user: ApocalypseParty
         repo: Nemotron-3-Super-120B-SFT-8-gguf
+  - key: mudler/NVIDIA-Nemotron-3-Super-120B-A12B-APEX-GGUF
+    sources:
+      - type: huggingface
+        user: mudler
+        repo: NVIDIA-Nemotron-3-Super-120B-A12B-APEX-GGUF
 config:
   operation:
     fields:

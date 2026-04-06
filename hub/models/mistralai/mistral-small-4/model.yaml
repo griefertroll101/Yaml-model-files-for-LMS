@@ -82,6 +82,11 @@ base:
       - type: huggingface
         user: stefan-terdell-cleura
         repo: Mistral-Small-4-119B-2603-GGUF
+  - key: mudler/Mistral-Small-4-119B-2603-APEX-GGUF
+    sources:
+      - type: huggingface
+        user: mudler
+        repo: Mistral-Small-4-119B-2603-APEX-GGUF
 config:
   operation:
     fields:

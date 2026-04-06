@@ -197,6 +197,71 @@ base:
       - type: huggingface
         user: mradermacher
         repo: gemma-4-31B-it-heretic-GGUF
+  - key: gubernac/gemma-4-31B-it-heretic-v2-gguf
+    sources:
+      - type: huggingface
+        user: gubernac
+        repo: gemma-4-31B-it-heretic-v2-gguf
+  - key: s1arsky/Gemma-4-31B-Cognitive-Unshackled-Q4_KS_GGUF
+    sources:
+      - type: huggingface
+        user: s1arsky
+        repo: Gemma-4-31B-Cognitive-Unshackled-Q4_KS_GGUF
+  - key: SporkySporkness/gemma-4-31B-GGUF
+    sources:
+      - type: huggingface
+        user: SporkySporkness
+        repo: gemma-4-31B-GGUF
+  - key: TrevorJS/gemma-4-31B-it-uncensored-GGUF
+    sources:
+      - type: huggingface
+        user: TrevorJS
+        repo: gemma-4-31B-it-uncensored-GGUF
+  - key: gecfdo/gemma-4-31B-it-GGUF_HB16
+    sources:
+      - type: huggingface
+        user: gecfdo
+        repo: gemma-4-31B-it-GGUF_HB16
+  - key: lactroiii/gemma-4-31B-it-uncensored-GGUF
+    sources:
+      - type: huggingface
+        user: lactroiii
+        repo: gemma-4-31B-it-uncensored-GGUF
+  - key: mradermacher/Gemma-4-31B-Cognitive-Unshackled-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Gemma-4-31B-Cognitive-Unshackled-GGUF
+  - key: jzofe/Gemma-4-31B-Uncensored-Heretic-GGUF
+    sources:
+      - type: huggingface
+        user: jzofe
+        repo: Gemma-4-31B-Uncensored-Heretic-GGUF
+  - key: mradermacher/gemma-4-31b-it-heretic-ara-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-31b-it-heretic-ara-GGUF
+  - key: s1arsky/Gemma-4-31B-FT-it-Q4_KS-GGUF
+    sources:
+      - type: huggingface
+        user: s1arsky
+        repo: Gemma-4-31B-FT-it-Q4_KS-GGUF
+  - key: Ilya626/gemma-4-31B-it-SDFT-Heretic
+    sources:
+      - type: huggingface
+        user: Ilya626
+        repo: gemma-4-31B-it-SDFT-Heretic
+  - key: Darkhn-Quants-3/Gemma-4-31B-Animus-V14.0-GGUF
+    sources:
+      - type: huggingface
+        user: Darkhn-Quants-3
+        repo: Gemma-4-31B-Animus-V14.0-GGUF
+  - key: okanity/gemma-4-31B-it-uncensored-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: okanity
+        repo: gemma-4-31B-it-uncensored-heretic-GGUF
 config:
   operation:
     fields:

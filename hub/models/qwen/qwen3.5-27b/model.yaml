@@ -812,6 +812,21 @@ base:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-27B-uncensored-heretic-i1-GGUF
+  - key: mradermacher/Qwen3.5-27B-kimi-k2.5-Reasoning-Distilled-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-kimi-k2.5-Reasoning-Distilled-i1-GGUF
+  - key: mradermacher/qwen3.5-27b-unslop-good-lora-v1-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: qwen3.5-27b-unslop-good-lora-v1-i1-GGUF
+  - key: mradermacher/Qwen3.5-27B-kimi-k2.5-Reasoning-Distilled-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-kimi-k2.5-Reasoning-Distilled-GGUF
 config:
   operation:
     fields:
@@ -827,6 +842,10 @@ config:
         value:
           checked: false
           value: 0
+      - key: llm.prediction.repeatPenalty
+        value:
+          checked: false
+          value: 1.0
       - key: llm.prediction.llama.presencePenalty
         value:
           checked: true
