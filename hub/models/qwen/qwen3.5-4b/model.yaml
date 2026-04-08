@@ -152,7 +152,7 @@ base:
       - type: huggingface
         user: StageMind
         repo: qwen3.5-4b
-  - key: hinny/qwen3.5-4b-gguf-q4_k_m
+  - key: hinny/Qwen3.5-4B-GGUF-Q4_K_M
     sources:
       - type: huggingface
         user: hinny
@@ -932,6 +932,36 @@ base:
       - type: huggingface
         user: mradermacher
         repo: NSFW-RP-Qwen3.5-4B-GGUF
+  - key: mradermacher/Huihui-Qwen3.5-4B-abliterated-Athanorlite-ORPO-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Huihui-Qwen3.5-4B-abliterated-Athanorlite-ORPO-i1-GGUF
+  - key: mradermacher/Qwen3.5-4B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-4B-GGUF
+  - key: sakamakismile/Huihui-Qwen3.5-4B-abliterated-NVFP4
+    sources:
+      - type: huggingface
+        user: sakamakismile
+        repo: Huihui-Qwen3.5-4B-abliterated-NVFP4
+  - key: julien-c/Qwen3.5-4B-uncensored-GGUF
+    sources:
+      - type: huggingface
+        user: julien-c
+        repo: Qwen3.5-4B-uncensored-GGUF
+  - key: mradermacher/Qwen3.5-4B-Deckard-HERETIC-UNCENSORED-Thinking-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-4B-Deckard-HERETIC-UNCENSORED-Thinking-GGUF
+  - key: mradermacher/Qwen3.5-4B-MiniFantasy-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-4B-MiniFantasy-GGUF
 config:
   operation:
     fields:

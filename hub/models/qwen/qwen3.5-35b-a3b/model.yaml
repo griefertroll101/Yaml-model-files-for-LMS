@@ -652,6 +652,36 @@ base:
       - type: huggingface
         user: LuffyTheFox
         repo: Qwen3.5-35B-A3B-Claude-4.6-Opus-Uncensored-KL-UD-V2-GGUF
+  - key: mudler/Qwen3.5-35B-A3B-Claude-Distilled-APEX-GGUF
+    sources:
+      - type: huggingface
+        user: mudler
+        repo: Qwen3.5-35B-A3B-Claude-Distilled-APEX-GGUF
+  - key: nikodrum/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive
+    sources:
+      - type: huggingface
+        user: nikodrum
+        repo: Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive
+  - key: Baxxx/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive
+    sources:
+      - type: huggingface
+        user: Baxxx
+        repo: Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive
+  - key: Smoffyy/Qwen3.5-35B-A3B-Instruct-Pure-GGUF
+    sources:
+      - type: huggingface
+        user: Smoffyy
+        repo: Qwen3.5-35B-A3B-Instruct-Pure-GGUF
+  - key: ponytang3/Qwen3.5-35B-A3B-Opus-Reasoning-Distilled-Uncensored-GGUF
+    sources:
+      - type: huggingface
+        user: ponytang3
+        repo: Qwen3.5-35B-A3B-Opus-Reasoning-Distilled-Uncensored-GGUF
+  - key: ponytang3/Qwen3.5-35B-A3B-Opus-Reasoning-Distilled-GGUF
+    sources:
+      - type: huggingface
+        user: ponytang3
+        repo: Qwen3.5-35B-A3B-Opus-Reasoning-Distilled-GGUF
 config:
   operation:
     fields:

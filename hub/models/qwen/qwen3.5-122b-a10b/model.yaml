@@ -542,6 +542,11 @@ base:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-122B-A10B-THIREUS-IQ6_K-SPECIAL_SPLIT
+  - key: Goldkoron/Qwen3.5-122B-A10B
+    sources:
+      - type: huggingface
+        user: Goldkoron
+        repo: Qwen3.5-122B-A10B
 config:
   operation:
     fields:

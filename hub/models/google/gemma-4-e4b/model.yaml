@@ -167,6 +167,81 @@ base:
       - type: huggingface
         user: SporkySporkness
         repo: gemma-4-E4B-GGUF
+  - key: mradermacher/gemma-4-E4B-it-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E4B-it-heretic-GGUF
+  - key: daniloreddy/gemma-4-E4B-it_GGUF
+    sources:
+      - type: huggingface
+        user: daniloreddy
+        repo: gemma-4-E4B-it_GGUF
+  - key: TrevorJS/gemma-4-E4B-it-uncensored-GGUF
+    sources:
+      - type: huggingface
+        user: TrevorJS
+        repo: gemma-4-E4B-it-uncensored-GGUF
+  - key: DuoNeural/Archon-Gemma-4-E4B
+    sources:
+      - type: huggingface
+        user: DuoNeural
+        repo: Archon-Gemma-4-E4B
+  - key: NullpoLab/gemma-4-E4B-it-Heretic-ARA-Refusals6-attn-gguf
+    sources:
+      - type: huggingface
+        user: NullpoLab
+        repo: gemma-4-E4B-it-Heretic-ARA-Refusals6-attn-gguf
+  - key: llmfan46/gemma-4-E4B-it-ultra-uncensored-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: llmfan46
+        repo: gemma-4-E4B-it-ultra-uncensored-heretic-GGUF
+  - key: NullpoLab/gemma-4-E4B-it-Heretic-ARA-Refusals8-attn-gguf
+    sources:
+      - type: huggingface
+        user: NullpoLab
+        repo: gemma-4-E4B-it-Heretic-ARA-Refusals8-attn-gguf
+  - key: InfinimindCreations/gemma-4-E4B-it-uncensored
+    sources:
+      - type: huggingface
+        user: InfinimindCreations
+        repo: gemma-4-E4B-it-uncensored
+  - key: llmfan46/gemma-4-E4B-it-uncensored-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: llmfan46
+        repo: gemma-4-E4B-it-uncensored-heretic-GGUF
+  - key: sesaily/gemma-4-E4B-Frends-it-GGUF
+    sources:
+      - type: huggingface
+        user: sesaily
+        repo: gemma-4-E4B-Frends-it-GGUF
+  - key: arsovskidev/Gemma-4-E4B-Claude-4.6-Opus-Reasoning-Distilled
+    sources:
+      - type: huggingface
+        user: arsovskidev
+        repo: Gemma-4-E4B-Claude-4.6-Opus-Reasoning-Distilled
+  - key: professorf/gemma-4-E4B-it-gguf
+    sources:
+      - type: huggingface
+        user: professorf
+        repo: gemma-4-E4B-it-gguf
+  - key: DuoNeural/Gemma-4-E4B-Q4_K_M
+    sources:
+      - type: huggingface
+        user: DuoNeural
+        repo: Gemma-4-E4B-Q4_K_M
+  - key: DuoNeural/Archon-Gemma-4-E4B-v2
+    sources:
+      - type: huggingface
+        user: DuoNeural
+        repo: Archon-Gemma-4-E4B-v2
+  - key: mradermacher/gemma-4-E4B-it-heretic-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E4B-it-heretic-i1-GGUF
 config:
   operation:
     fields:

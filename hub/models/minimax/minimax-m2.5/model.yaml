@@ -192,6 +192,11 @@ base:
       - type: huggingface
         user: mudler
         repo: MiniMax-M2.5-APEX-GGUF
+  - key: mradermacher/MiniMax-M2.5-bf16-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: MiniMax-M2.5-bf16-heretic-GGUF
 config:
   operation:
     fields:

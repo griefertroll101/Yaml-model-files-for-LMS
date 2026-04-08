@@ -142,6 +142,11 @@ base:
       - type: huggingface
         user: mudler
         repo: NVIDIA-Nemotron-3-Super-120B-A12B-APEX-GGUF
+  - key: W0lfland/Nemotron-3-Super-120B-A12B-Greg-Knee-GGUF
+    sources:
+      - type: huggingface
+        user: W0lfland
+        repo: Nemotron-3-Super-120B-A12B-Greg-Knee-GGUF
 config:
   operation:
     fields:

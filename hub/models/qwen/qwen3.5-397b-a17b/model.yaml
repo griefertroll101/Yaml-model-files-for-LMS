@@ -507,6 +507,11 @@ base:
       - type: huggingface
         user: Goldkoron
         repo: Qwen3.5-397B-A17B
+  - key: mudler/Qwen3.5-397B-A17B-APEX-GGUF
+    sources:
+      - type: huggingface
+        user: mudler
+        repo: Qwen3.5-397B-A17B-APEX-GGUF
 config:
   operation:
     fields:

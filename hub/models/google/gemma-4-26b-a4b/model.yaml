@@ -202,6 +202,71 @@ base:
       - type: huggingface
         user: mradermacher
         repo: gemma-4-26B-A4B-it-GGUF
+  - key: mradermacher/gemma-4-26B-A4B-it-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-26B-A4B-it-i1-GGUF
+  - key: mradermacher/gemma-4-26B-A4B-it-heretic-ara-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-26B-A4B-it-heretic-ara-i1-GGUF
+  - key: jenerallee78/gemma-4-26B-A4B-it-ara-abliterated
+    sources:
+      - type: huggingface
+        user: jenerallee78
+        repo: gemma-4-26B-A4B-it-ara-abliterated
+  - key: LuffyTheFox/gemma-4-26B-A4B-it-Claude-Opus-Heretic-ara-GGUF
+    sources:
+      - type: huggingface
+        user: LuffyTheFox
+        repo: gemma-4-26B-A4B-it-Claude-Opus-Heretic-ara-GGUF
+  - key: elpirater312/nohurry-gemma-4-26B-A4B-it-heretic-Q4_0-imtrx-GUFF
+    sources:
+      - type: huggingface
+        user: elpirater312
+        repo: nohurry-gemma-4-26B-A4B-it-heretic-Q4_0-imtrx-GUFF
+  - key: llmfan46/gemma-4-26B-A4B-it-ultra-uncensored-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: llmfan46
+        repo: gemma-4-26B-A4B-it-ultra-uncensored-heretic-GGUF
+  - key: llmfan46/gemma-4-26B-A4B-it-uncensored-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: llmfan46
+        repo: gemma-4-26B-A4B-it-uncensored-heretic-GGUF
+  - key: batiai/Gemma-4-26B-A4B-it-GGUF
+    sources:
+      - type: huggingface
+        user: batiai
+        repo: Gemma-4-26B-A4B-it-GGUF
+  - key: elpirater312/nohurry-gemma-4-26B-A4B-it-heretic-IQ4_NL-ud-imtrx-GUFF
+    sources:
+      - type: huggingface
+        user: elpirater312
+        repo: nohurry-gemma-4-26B-A4B-it-heretic-IQ4_NL-ud-imtrx-GUFF
+  - key: mradermacher/gemma-4-26B-A4B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-26B-A4B-GGUF
+  - key: mradermacher/gemma-4-26B-A4B-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-26B-A4B-i1-GGUF
+  - key: samuelstolicny/claudie-expert-gemma4-26b-a4b
+    sources:
+      - type: huggingface
+        user: samuelstolicny
+        repo: claudie-expert-gemma4-26b-a4b
+  - key: samuelstolicny/claudie-expert-gemma4-26b-a4b-gguf
+    sources:
+      - type: huggingface
+        user: samuelstolicny
+        repo: claudie-expert-gemma4-26b-a4b-gguf
 config:
   operation:
     fields:

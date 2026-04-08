@@ -572,7 +572,7 @@ base:
       - type: huggingface
         user: Thireus
         repo: GLM-4.7-Flash-THIREUS-IQ1_S_R4-SPECIAL_SPLIT
-  - key: thireus/glm-4.7-flash-thireus-iq4_kt-special_split
+  - key: Thireus/GLM-4.7-Flash-THIREUS-IQ4_KT-SPECIAL_SPLIT
     sources:
       - type: huggingface
         user: Thireus
@@ -632,6 +632,21 @@ base:
       - type: huggingface
         user: Mungert
         repo: GLM-4.7-Flash-GGUF
+  - key: AaryanK/GLM-4.7-Flash-GGUF
+    sources:
+      - type: huggingface
+        user: AaryanK
+        repo: GLM-4.7-Flash-GGUF
+  - key: Olafangensan/GLM-4.7-Flash-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: Olafangensan
+        repo: GLM-4.7-Flash-heretic-GGUF
+  - key: fy168/GLM-4.7-Flash-REAP-50_Q4_K_M_GGUF
+    sources:
+      - type: huggingface
+        user: fy168
+        repo: GLM-4.7-Flash-REAP-50_Q4_K_M_GGUF
 config:
   operation:
     fields:

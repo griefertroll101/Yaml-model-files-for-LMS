@@ -562,6 +562,26 @@ base:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-9b-Opus-Openclaw-Distilled-i1-GGUF
+  - key: Zirconium419122/Qwen3.5-9B-GGUF
+    sources:
+      - type: huggingface
+        user: Zirconium419122
+        repo: Qwen3.5-9B-GGUF
+  - key: Smoffyy/Qwen3.5-9B-Instruct-Pure-GGUF
+    sources:
+      - type: huggingface
+        user: Smoffyy
+        repo: Qwen3.5-9B-Instruct-Pure-GGUF
+  - key: DavidAU/Qwen3.5-9B-Claude-4.6-Opus-Deckard-V4.2-Uncensored-Heretic-Thinking-GGUF
+    sources:
+      - type: huggingface
+        user: DavidAU
+        repo: Qwen3.5-9B-Claude-4.6-Opus-Deckard-V4.2-Uncensored-Heretic-Thinking-GGUF
+  - key: prithivMLmods/Qwen3.5-9B-abliterated-v2-MAX
+    sources:
+      - type: huggingface
+        user: prithivMLmods
+        repo: Qwen3.5-9B-abliterated-v2-MAX
 config:
   operation:
     fields:

@@ -827,6 +827,31 @@ base:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-27B-kimi-k2.5-Reasoning-Distilled-GGUF
+  - key: mradermacher/Qwen3.5-27B-Samantha-Uncensored-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-Samantha-Uncensored-i1-GGUF
+  - key: mradermacher/Floppa-qwen3.5-27B-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Floppa-qwen3.5-27B-i1-GGUF
+  - key: mradermacher/Floppa_Qwen3.5-27B-v2-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Floppa_Qwen3.5-27B-v2-i1-GGUF
+  - key: mradermacher/XORTRON.CriminalComputing.Qwen3.5-27B-Claude-Opus-4.6-Distill-darkc0de-heretic-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: XORTRON.CriminalComputing.Qwen3.5-27B-Claude-Opus-4.6-Distill-darkc0de-heretic-i1-GGUF
+  - key: Oysiyl/qwen3.5-27b-unslop-good-lora-v1
+    sources:
+      - type: huggingface
+        user: Oysiyl
+        repo: qwen3.5-27b-unslop-good-lora-v1
 config:
   operation:
     fields:

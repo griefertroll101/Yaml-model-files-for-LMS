@@ -162,6 +162,136 @@ base:
       - type: huggingface
         user: professorf
         repo: gemma-4-E2B-it-gguf
+  - key: dahara1/gemma-4-E2B-it-UD-japanese-imatrix
+    sources:
+      - type: huggingface
+        user: dahara1
+        repo: gemma-4-E2B-it-UD-japanese-imatrix
+  - key: hypaai/Hypa-Gemma-4-E2B-it-2026-04-06-GGUF
+    sources:
+      - type: huggingface
+        user: hypaai
+        repo: Hypa-Gemma-4-E2B-it-2026-04-06-GGUF
+  - key: ChrisNalder/Gemma4-e2b-Herme
+    sources:
+      - type: huggingface
+        user: ChrisNalder
+        repo: Gemma4-e2b-Herme
+  - key: raytilde/humandb-gemma4-e2b
+    sources:
+      - type: huggingface
+        user: raytilde
+        repo: humandb-gemma4-e2b
+  - key: imranulhaquenoor/gemma4-e2b-urdu-tutor-GGUF
+    sources:
+      - type: huggingface
+        user: imranulhaquenoor
+        repo: gemma4-e2b-urdu-tutor-GGUF
+  - key: mradermacher/gemma-4-E2B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E2B-GGUF
+  - key: mradermacher/gemma-4-E2B-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E2B-i1-GGUF
+  - key: fridaycandour/gemma-4-E2B-it-GGUF
+    sources:
+      - type: huggingface
+        user: fridaycandour
+        repo: gemma-4-E2B-it-GGUF
+  - key: dahus/gemma-4-e2b-Q2_K-GGUF
+    sources:
+      - type: huggingface
+        user: dahus
+        repo: gemma-4-e2b-Q2_K-GGUF
+  - key: dahus/gemma-4-e2b-Q4_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: dahus
+        repo: gemma-4-e2b-Q4_K_M-GGUF
+  - key: dahus/gemma-4-e2b-Q8_0-GGUF
+    sources:
+      - type: huggingface
+        user: dahus
+        repo: gemma-4-e2b-Q8_0-GGUF
+  - key: filipwx/gemma-4-E2B-it-Opus-4.6-Reasoning-GGUF
+    sources:
+      - type: huggingface
+        user: filipwx
+        repo: gemma-4-E2B-it-Opus-4.6-Reasoning-GGUF
+  - key: dahus/gemma-4-e2b-Q3_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: dahus
+        repo: gemma-4-e2b-Q3_K_M-GGUF
+  - key: dahus/gemma-4-e2b-Q3_K_S-GGUF
+    sources:
+      - type: huggingface
+        user: dahus
+        repo: gemma-4-e2b-Q3_K_S-GGUF
+  - key: dahus/gemma-4-e2b-Q4_K_S-GGUF
+    sources:
+      - type: huggingface
+        user: dahus
+        repo: gemma-4-e2b-Q4_K_S-GGUF
+  - key: dahus/gemma-4-e2b-Q5_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: dahus
+        repo: gemma-4-e2b-Q5_K_M-GGUF
+  - key: dahus/gemma-4-e2b-Q5_K_S-GGUF
+    sources:
+      - type: huggingface
+        user: dahus
+        repo: gemma-4-e2b-Q5_K_S-GGUF
+  - key: dahus/gemma-4-e2b-Q6_K-GGUF
+    sources:
+      - type: huggingface
+        user: dahus
+        repo: gemma-4-e2b-Q6_K-GGUF
+  - key: MichaelZag/gemma-4-E2B-it-GGUF
+    sources:
+      - type: huggingface
+        user: MichaelZag
+        repo: gemma-4-E2B-it-GGUF
+  - key: mradermacher/gemma-4-E2B-it-uncensored-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E2B-it-uncensored-GGUF
+  - key: hypaai/Hypa-Gemma-4-E2B-it-2026-04-07-GGUF
+    sources:
+      - type: huggingface
+        user: hypaai
+        repo: Hypa-Gemma-4-E2B-it-2026-04-07-GGUF
+  - key: TheTokenFactory/gemma-4-E2B-sec-extraction-GGUF
+    sources:
+      - type: huggingface
+        user: TheTokenFactory
+        repo: gemma-4-E2B-sec-extraction-GGUF
+  - key: koifishlabs/Kurogo-Gemma-4-E2B-text-GGUF
+    sources:
+      - type: huggingface
+        user: koifishlabs
+        repo: Kurogo-Gemma-4-E2B-text-GGUF
+  - key: ozgurpolat/gemma-4-E2B-it-text-only-GGUF
+    sources:
+      - type: huggingface
+        user: ozgurpolat
+        repo: gemma-4-E2B-it-text-only-GGUF
+  - key: batiai/gemma-4-E2B-it-GGUF
+    sources:
+      - type: huggingface
+        user: batiai
+        repo: gemma-4-E2B-it-GGUF
+  - key: kshitizz36/provn-gemma4-e2b-q4km
+    sources:
+      - type: huggingface
+        user: kshitizz36
+        repo: provn-gemma4-e2b-q4km
 config:
   operation:
     fields:
