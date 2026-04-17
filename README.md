@@ -1,5 +1,5 @@
 # Issue regarding some models
-Currently working on fix for the qwen3.5-4b, qwen3.5-27b and glm-4.5-air as I think I know the issue now. Still work but just double models because LMS bs.
+qwen3.5-4b, qwen3.5-27b, qwen-122b-a10b and glm-4.5-air as I think I know the issue now. Still work but just double models because LMS bs.
 # Yaml Model Files For LMS
 Note: This is maintained by GrieferTroll in the LM Studio discord. Please do not bother Yags or Yorkie they have better things to do. DM me if an issue is here or use the issues tab here.
 
@@ -8,7 +8,7 @@ Plan to add MLX but may be a week or 2 before I do.
 Quickly did these up. They contain all/most quants currently available (8th of April 2026) including lmstudio-community but not MLX quants. Now able to update easily, so every month likely or when a new model comes out it will be getting done daily/weekly
 
 ## Models Done
-Google Gemma 4 E2B, E4B, 26B-A4B, 31B | Qwen 3.5 9B, 35B-A3B, 122B-A10B, 397B-A17B | OpenAI GPT-OSS 20B | Z.ai GLM 4.7 Flash, 4.5 Air | NVIDIA Nemotron 3 Nano 4B, Nano 30B, Super | ByteDance Seed-OSS 36B | NousResearch Hermes 4 14B, 70B, 405B, Hermes 4.3 36B | MistralAI Mistral Small 4 | MiniMax M2.5
+Google Gemma 4 E2B, E4B, 26B-A4B, 31B | Qwen 3.5 9B, 35B-A3B, 122B-A10B, 397B-A17B | Qwen 3.6 35B-A3B | OpenAI GPT-OSS 20B, GPT-OSS-120B | Z.ai GLM 5.1, GLM 5, GLM 4.7 Flash, GLM 4.5 Air | NVIDIA Nemotron 3 Nano 4B, Nano 30B, Super | ByteDance Seed-OSS 36B | NousResearch Hermes 4 14B, 70B, 405B, Hermes 4.3 36B | MistralAI Mistral Small 4 |
 
 Soon to be added: Other GLM models
 
