@@ -452,6 +452,170 @@ base:
       - type: huggingface
         user: diodel
         repo: Qwen3.5-2B-Q4_K_M-GGUF
+  - key: ENOSYS/Qwen3.5-2B-heretic-250-v1-GGUF
+    sources:
+      - type: huggingface
+        user: ENOSYS
+        repo: Qwen3.5-2B-heretic-250-v1-GGUF
+  - key: mradermacher/Qwen3.5-2B-Claude-Opus-4.6-high-resoning-Base-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-2B-Claude-Opus-4.6-high-resoning-Base-i1-GGUF
+  - key: mradermacher/Uni-MuMER-Qwen3.5-2B-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Uni-MuMER-Qwen3.5-2B-i1-GGUF
+  - key: mradermacher/Qwen3.5-2B-uncensored-ara-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-2B-uncensored-ara-i1-GGUF
+  - key: mradermacher/A3-Qwen3.5-2B-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: A3-Qwen3.5-2B-i1-GGUF
+  - key: mradermacher/Huihui-Qwen3.5-2B-abliterated-Athanorlite-ORPO-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Huihui-Qwen3.5-2B-abliterated-Athanorlite-ORPO-i1-GGUF
+  - key: mradermacher/Qwen3.5-2B-uncensored-ara-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-2B-uncensored-ara-GGUF
+  - key: mradermacher/A3-Qwen3.5-2B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: A3-Qwen3.5-2B-GGUF
+  - key: mradermacher/Uni-MuMER-Qwen3.5-2B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Uni-MuMER-Qwen3.5-2B-GGUF
+  - key: mradermacher/Huihui-Qwen3.5-2B-abliterated-Athanorlite-ORPO-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Huihui-Qwen3.5-2B-abliterated-Athanorlite-ORPO-GGUF
+  - key: mradermacher/Qwen3.5-2B-Claude-Opus-4.6-high-resoning-Base-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-2B-Claude-Opus-4.6-high-resoning-Base-GGUF
+  - key: xprilion/Qwen3.5-2B-coder
+    sources:
+      - type: huggingface
+        user: xprilion
+        repo: Qwen3.5-2B-coder
+  - key: mradermacher/ObjNav-Qwen3.5-2B-SFT-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: ObjNav-Qwen3.5-2B-SFT-GGUF
+  - key: MdSufiyan005/Qwen3.5-2B-BF16.GGUF
+    sources:
+      - type: huggingface
+        user: MdSufiyan005
+        repo: Qwen3.5-2B-BF16.GGUF
+  - key: sowilow/Qwen3.5-2B-DGX-Spark-GGUF
+    sources:
+      - type: huggingface
+        user: sowilow
+        repo: Qwen3.5-2B-DGX-Spark-GGUF
+  - key: ertghiu256/Qwen3.5-2b-Kimi-and-Opus-Distillation-gguf
+    sources:
+      - type: huggingface
+        user: ertghiu256
+        repo: Qwen3.5-2b-Kimi-and-Opus-Distillation-gguf
+  - key: mradermacher/TQL-Coder-Qwen3.5-2B-sft-thinking-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: TQL-Coder-Qwen3.5-2B-sft-thinking-GGUF
+  - key: CCSSNE/HauhauCS-Qwen3.5-2B-Uncensored-HauhauCS-Aggressive
+    sources:
+      - type: huggingface
+        user: CCSSNE
+        repo: HauhauCS-Qwen3.5-2B-Uncensored-HauhauCS-Aggressive
+  - key: mradermacher/TQL-Coder-Qwen3.5-2B-sft-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: TQL-Coder-Qwen3.5-2B-sft-GGUF
+  - key: SyedAffan/qwen3.5-2b-llm-gguf
+    sources:
+      - type: huggingface
+        user: SyedAffan
+        repo: qwen3.5-2b-llm-gguf
+  - key: louisguthmann/qwen3.5-2b-shellcommand-linux-gguf
+    sources:
+      - type: huggingface
+        user: louisguthmann
+        repo: qwen3.5-2b-shellcommand-linux-gguf
+  - key: mradermacher/Qwen3.5-2B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-2B-GGUF
+  - key: enacimie/Qwen3.5-2B-Q4_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: enacimie
+        repo: Qwen3.5-2B-Q4_K_M-GGUF
+  - key: mradermacher/bartleby-dlo-qwen3.5-2b_v2-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: bartleby-dlo-qwen3.5-2b_v2-GGUF
+  - key: MdSajjadurRahaman/Qwen3.5-2B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+    sources:
+      - type: huggingface
+        user: MdSajjadurRahaman
+        repo: Qwen3.5-2B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+  - key: drissea-ai/drissy-qwen3.5-2b-GGUF
+    sources:
+      - type: huggingface
+        user: drissea-ai
+        repo: drissy-qwen3.5-2b-GGUF
+  - key: mradermacher/FinSenti-Qwen3.5-2B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: FinSenti-Qwen3.5-2B-GGUF
+  - key: mradermacher/bartleby-dlo-qwen3.5-2b-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: bartleby-dlo-qwen3.5-2b-GGUF
+  - key: VECTORVV1/Qwen3.5-2B-Aggressive
+    sources:
+      - type: huggingface
+        user: VECTORVV1
+        repo: Qwen3.5-2B-Aggressive
+  - key: XpressAI/Qwen3.5-2B-RYS-UD-Q4_K_XL-GGUF
+    sources:
+      - type: huggingface
+        user: XpressAI
+        repo: Qwen3.5-2B-RYS-UD-Q4_K_XL-GGUF
+metadataOverrides:
+  domain: llm
+  architectures:
+    - qwen35
+  compatibilityTypes:
+    - gguf
+  paramsStrings:
+    - 2B
+  minMemoryUsageBytes: 1500000000
+  contextLengths:
+    - 262144
+  vision: true
+  reasoning: true
+  trainedForToolUse: true
 config:
   operation:
     fields:
@@ -484,17 +648,3 @@ customFields:
     effects:
       - type: setJinjaVariable
         variable: enable_thinking
-metadataOverrides:
-  domain: llm
-  architectures:
-    - qwen35
-  compatibilityTypes:
-    - gguf
-  paramsStrings:
-    - 2B
-  minMemoryUsageBytes: 1500000000
-  contextLengths:
-    - 262144
-  vision: true
-  reasoning: true
-  trainedForToolUse: true

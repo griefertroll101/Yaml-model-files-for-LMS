@@ -962,6 +962,130 @@ base:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-4B-MiniFantasy-GGUF
+  - key: mradermacher/Qwen3.5-4B-uncensored-ara-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-4B-uncensored-ara-i1-GGUF
+  - key: mradermacher/Uni-MuMER-Qwen3.5-4B-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Uni-MuMER-Qwen3.5-4B-i1-GGUF
+  - key: mradermacher/Qwen3.5-4B-uncensored-zero-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-4B-uncensored-zero-i1-GGUF
+  - key: mradermacher/A3-Qwen3.5-4B-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: A3-Qwen3.5-4B-i1-GGUF
+  - key: lolzinventor/Qwen3.5-4B-Base-ZitGen-V1
+    sources:
+      - type: huggingface
+        user: lolzinventor
+        repo: Qwen3.5-4B-Base-ZitGen-V1
+  - key: continuum-ai/qwen3.5-4b-code-forged
+    sources:
+      - type: huggingface
+        user: continuum-ai
+        repo: qwen3.5-4b-code-forged
+  - key: eaddario/Qwen3.5-4B-GGUF
+    sources:
+      - type: huggingface
+        user: eaddario
+        repo: Qwen3.5-4B-GGUF
+  - key: mradermacher/Qwen3.5-4B-Base-ZitGen-V1-heretic-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-4B-Base-ZitGen-V1-heretic-i1-GGUF
+  - key: bubiche/Qwen3.5-4B-GGUF
+    sources:
+      - type: huggingface
+        user: bubiche
+        repo: Qwen3.5-4B-GGUF
+  - key: continuum-ai/qwen3.5-4b-code-forged-defragged
+    sources:
+      - type: huggingface
+        user: continuum-ai
+        repo: qwen3.5-4b-code-forged-defragged
+  - key: mradermacher/Qwen3.5-4B-NSFW-Literotica-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-4B-NSFW-Literotica-GGUF
+  - key: sukai-123/Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+    sources:
+      - type: huggingface
+        user: sukai-123
+        repo: Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+  - key: mradermacher/Qwen3.5-4B-Neo-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-4B-Neo-heretic-GGUF
+  - key: mradermacher/Qwen3.5-4B-uncensored-zero-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-4B-uncensored-zero-GGUF
+  - key: mradermacher/A3-Qwen3.5-4B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: A3-Qwen3.5-4B-GGUF
+  - key: mradermacher/Qwen3.5-4B-uncensored-ara-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-4B-uncensored-ara-GGUF
+  - key: mradermacher/Uni-MuMER-Qwen3.5-4B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Uni-MuMER-Qwen3.5-4B-GGUF
+  - key: mradermacher/Qwen3.5-4B-Claude-Opus-Reasoning-Distill-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-4B-Claude-Opus-Reasoning-Distill-GGUF
+  - key: mradermacher/qwen3.5-4b-andalusian-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: qwen3.5-4b-andalusian-GGUF
+  - key: mradermacher/Qwen3.5-4B-Neo-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-4B-Neo-GGUF
+  - key: mradermacher/tvall43-Qwen3.5-4B-heretic-v2-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: tvall43-Qwen3.5-4B-heretic-v2-GGUF
+  - key: mradermacher/ObjNav-Qwen3.5-4B-SFT-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: ObjNav-Qwen3.5-4B-SFT-GGUF
+metadataOverrides:
+  domain: llm
+  architectures:
+    - qwen35
+  compatibilityTypes:
+    - gguf
+  paramsStrings:
+    - 35B
+  minMemoryUsageBytes: 21000000000
+  contextLengths:
+    - 262144
+  vision: true
+  reasoning: true
+  trainedForToolUse: true
 config:
   operation:
     fields:
@@ -994,17 +1118,3 @@ customFields:
     effects:
       - type: setJinjaVariable
         variable: enable_thinking
-metadataOverrides:
-  domain: llm
-  architectures:
-    - qwen35
-  compatibilityTypes:
-    - gguf
-  paramsStrings:
-    - 35B
-  minMemoryUsageBytes: 21000000000
-  contextLengths:
-    - 262144
-  vision: true
-  reasoning: true
-  trainedForToolUse: true

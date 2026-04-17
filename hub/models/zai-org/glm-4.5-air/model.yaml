@@ -492,30 +492,11 @@ base:
       - type: huggingface
         user: Thireus
         repo: GLM-4.5-Air-THIREUS-IQ3_S_R4-SPECIAL_SPLIT
-config:
-  operation:
-    fields:
-      - key: llm.prediction.temperature
-        value: 0.2
-      - key: llm.prediction.topKSampling
-        value: 50
-      - key: llm.prediction.topPSampling
-        value:
-          checked: true
-          value: 0.95
-      - key: llm.prediction.repeatPenalty
-        value:
-          checked: false
-          value: 0
-customFields:
-  - key: enableThinking
-    displayName: Enable Thinking
-    description: Controls whether the model will think before replying
-    type: boolean
-    defaultValue: true
-    effects:
-      - type: setJinjaVariable
-        variable: enable_thinking
+  - key: TMNE/ArliAI_GLM-4.5-Air-Derestricted-GGUF
+    sources:
+      - type: huggingface
+        user: TMNE
+        repo: ArliAI_GLM-4.5-Air-Derestricted-GGUF
 metadataOverrides:
   domain: llm
   architectures:
@@ -530,3 +511,29 @@ metadataOverrides:
   vision: false
   reasoning: true
   trainedForToolUse: true
+config:
+  operation:
+    fields:
+      - key: llm.prediction.temperature
+        value: 0.6
+      - key: llm.prediction.topPSampling
+        value:
+          checked: true
+          value: 0.95
+      - key: llm.prediction.minPSampling
+        value:
+          checked: true
+          value: 0.01
+      - key: llm.prediction.repeatPenalty
+        value:
+          checked: false
+          value: 1.0
+customFields:
+  - key: enableThinking
+    displayName: Enable Thinking
+    description: Controls whether the model will think before replying
+    type: boolean
+    defaultValue: true
+    effects:
+      - type: setJinjaVariable
+        variable: enable_thinking

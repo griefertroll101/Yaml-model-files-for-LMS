@@ -82,6 +82,55 @@ base:
       - type: huggingface
         user: aoiandroid
         repo: NVIDIA-Nemotron3-Nano-4B-Q4_K_M-GGUF
+  - key: nazihara/Nemotron3-Nano-4B-Aggressive
+    sources:
+      - type: huggingface
+        user: nazihara
+        repo: Nemotron3-Nano-4B-Aggressive
+  - key: majentik/Nemotron-3-Nano-4B-RotorQuant-GGUF-IQ4_XS
+    sources:
+      - type: huggingface
+        user: majentik
+        repo: Nemotron-3-Nano-4B-RotorQuant-GGUF-IQ4_XS
+  - key: VECTORVV1/Nemotron3-Nano-4B-Aggressive-GenRM
+    sources:
+      - type: huggingface
+        user: VECTORVV1
+        repo: Nemotron3-Nano-4B-Aggressive-GenRM
+  - key: majentik/Nemotron-3-Nano-4B-TurboQuant-GGUF-Q4_K_M
+    sources:
+      - type: huggingface
+        user: majentik
+        repo: Nemotron-3-Nano-4B-TurboQuant-GGUF-Q4_K_M
+  - key: majentik/Nemotron-3-Nano-4B-RotorQuant-GGUF-Q4_K_M
+    sources:
+      - type: huggingface
+        user: majentik
+        repo: Nemotron-3-Nano-4B-RotorQuant-GGUF-Q4_K_M
+  - key: majentik/Nemotron-3-Nano-4B-RotorQuant-GGUF-Q3_K_M
+    sources:
+      - type: huggingface
+        user: majentik
+        repo: Nemotron-3-Nano-4B-RotorQuant-GGUF-Q3_K_M
+  - key: majentik/Nemotron-3-Nano-4B-RotorQuant-GGUF-Q2_K
+    sources:
+      - type: huggingface
+        user: majentik
+        repo: Nemotron-3-Nano-4B-RotorQuant-GGUF-Q2_K
+metadataOverrides:
+  domain: llm
+  architectures:
+    - nemotron_h
+  compatibilityTypes:
+    - gguf
+  paramsStrings:
+    - 4B
+  minMemoryUsageBytes: 4500000000
+  contextLengths:
+    - 262144
+  vision: false
+  reasoning: true
+  trainedForToolUse: true
 config:
   operation:
     fields:
@@ -112,17 +161,3 @@ customFields:
     effects:
       - type: setJinjaVariable
         variable: truncate_history_thinking
-metadataOverrides:
-  domain: llm
-  architectures:
-    - nemotron_h
-  compatibilityTypes:
-    - gguf
-  paramsStrings:
-    - 4B
-  minMemoryUsageBytes: 4500000000
-  contextLengths:
-    - 262144
-  vision: false
-  reasoning: true
-  trainedForToolUse: true

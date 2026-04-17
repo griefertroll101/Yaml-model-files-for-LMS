@@ -682,6 +682,125 @@ base:
       - type: huggingface
         user: ponytang3
         repo: Qwen3.5-35B-A3B-Opus-Reasoning-Distilled-GGUF
+  - key: llmfan46/Qwen3.5-35B-A3B-ultra-uncensored-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: llmfan46
+        repo: Qwen3.5-35B-A3B-ultra-uncensored-heretic-GGUF
+  - key: mradermacher/Qwen3.5-35B-A3B-heretic-v2-Opus-4.6-Distilled-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-35B-A3B-heretic-v2-Opus-4.6-Distilled-i1-GGUF
+  - key: mradermacher/Qwen3.5-35B-A3B-abliterated-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-35B-A3B-abliterated-i1-GGUF
+  - key: CCSSNE/HauhauCS-Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive
+    sources:
+      - type: huggingface
+        user: CCSSNE
+        repo: HauhauCS-Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive
+  - key: byteshape/Qwen3.5-35B-A3B-GGUF
+    sources:
+      - type: huggingface
+        user: byteshape
+        repo: Qwen3.5-35B-A3B-GGUF
+  - key: llmfan46/Qwen3.5-35B-A3B-uncensored-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: llmfan46
+        repo: Qwen3.5-35B-A3B-uncensored-heretic-GGUF
+  - key: LuffyTheFox/Qwen3.5-35B-A3B-Uncensored-FernflowerAI-safetensors
+    sources:
+      - type: huggingface
+        user: LuffyTheFox
+        repo: Qwen3.5-35B-A3B-Uncensored-FernflowerAI-safetensors
+  - key: ayylmaonade/Qwen3.5-35B-A3B-UD-MXFP4-GGUF
+    sources:
+      - type: huggingface
+        user: ayylmaonade
+        repo: Qwen3.5-35B-A3B-UD-MXFP4-GGUF
+  - key: mradermacher/Qwen3.5-35B-A3B-heretic-v2-Opus-4.6-Distilled-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-35B-A3B-heretic-v2-Opus-4.6-Distilled-GGUF
+  - key: prithivMLmods/Qwen3.5-35B-A3B-abliterated-v2-MAX
+    sources:
+      - type: huggingface
+        user: prithivMLmods
+        repo: Qwen3.5-35B-A3B-abliterated-v2-MAX
+  - key: mradermacher/Qwen3.5-35B-A3B-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-35B-A3B-abliterated-GGUF
+  - key: Musiclove/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive
+    sources:
+      - type: huggingface
+        user: Musiclove
+        repo: Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive
+  - key: HERN88822/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive
+    sources:
+      - type: huggingface
+        user: HERN88822
+        repo: Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive
+  - key: Tokeys/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive
+    sources:
+      - type: huggingface
+        user: Tokeys
+        repo: Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive
+  - key: Amariturner/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive
+    sources:
+      - type: huggingface
+        user: Amariturner
+        repo: Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive
+  - key: vetteintheiser/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive
+    sources:
+      - type: huggingface
+        user: vetteintheiser
+        repo: Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive
+  - key: xie071214/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive
+    sources:
+      - type: huggingface
+        user: xie071214
+        repo: Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive
+  - key: jorge-erdb/Qwen3.5-35B-A3B-heretic-Opus-4.6-Distilled-4bit-GGUF
+    sources:
+      - type: huggingface
+        user: jorge-erdb
+        repo: Qwen3.5-35B-A3B-heretic-Opus-4.6-Distilled-4bit-GGUF
+  - key: VECTORVV1/Qwen3.5-35B-A3B-Aggressive
+    sources:
+      - type: huggingface
+        user: VECTORVV1
+        repo: Qwen3.5-35B-A3B-Aggressive
+  - key: jorge-erdb/Qwen3.5-35B-A3B-Derestricted-GGUF
+    sources:
+      - type: huggingface
+        user: jorge-erdb
+        repo: Qwen3.5-35B-A3B-Derestricted-GGUF
+  - key: EliseT123/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive
+    sources:
+      - type: huggingface
+        user: EliseT123
+        repo: Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive
+metadataOverrides:
+  domain: llm
+  architectures:
+    - qwen35moe
+  compatibilityTypes:
+    - gguf
+  paramsStrings:
+    - 35B
+  minMemoryUsageBytes: 21000000000
+  contextLengths:
+    - 262144
+  vision: true
+  reasoning: true
+  trainedForToolUse: true
 config:
   operation:
     fields:
@@ -706,17 +825,3 @@ customFields:
     effects:
       - type: setJinjaVariable
         variable: enable_thinking
-metadataOverrides:
-  domain: llm
-  architectures:
-    - qwen35moe
-  compatibilityTypes:
-    - gguf
-  paramsStrings:
-    - 35B
-  minMemoryUsageBytes: 21000000000
-  contextLengths:
-    - 262144
-  vision: true
-  reasoning: true
-  trainedForToolUse: true

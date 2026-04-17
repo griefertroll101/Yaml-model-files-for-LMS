@@ -267,31 +267,276 @@ base:
       - type: huggingface
         user: samuelstolicny
         repo: claudie-expert-gemma4-26b-a4b-gguf
-config:
-  operation:
-    fields:
-      - key: llm.prediction.temperature
-        value: 1.0
-      - key: llm.prediction.topPSampling
-        value:
-          checked: true
-          value: 0.95
-      - key: llm.prediction.topKSampling
-        value: 64
-      - key: llm.prediction.reasoning.parsing
-        value:
-          enabled: true
-          startString: "<|channel>thought"
-          endString: "<channel|>"
-customFields:
-  - key: enableThinking
-    displayName: Enable Thinking
-    description: Controls whether the model will think before replying
-    type: boolean
-    defaultValue: true
-    effects:
-      - type: setJinjaVariable
-        variable: enable_thinking
+  - key: groxaxo/Huihui-gemma-4-26B-A4B-it-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: groxaxo
+        repo: Huihui-gemma-4-26B-A4B-it-abliterated-GGUF
+  - key: TeichAI/gemma-4-26B-A4B-it-Claude-Opus-Distill-v2-GGUF
+    sources:
+      - type: huggingface
+        user: TeichAI
+        repo: gemma-4-26B-A4B-it-Claude-Opus-Distill-v2-GGUF
+  - key: MoonRide/gemma-4-26B-A4B-it-heretic-ara-GGUF
+    sources:
+      - type: huggingface
+        user: MoonRide
+        repo: gemma-4-26B-A4B-it-heretic-ara-GGUF
+  - key: mradermacher/gemma-4-26B-A4B-it-abliterated-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-26B-A4B-it-abliterated-i1-GGUF
+  - key: mradermacher/gemma-4-26B-A4B-it-uncensored-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-26B-A4B-it-uncensored-i1-GGUF
+  - key: mradermacher/gemma-4-26B-A4B-it-ultra-uncensored-heretic-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-26B-A4B-it-ultra-uncensored-heretic-i1-GGUF
+  - key: bullerwins/Huihui-gemma-4-26B-A4B-it-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: bullerwins
+        repo: Huihui-gemma-4-26B-A4B-it-abliterated-GGUF
+  - key: mradermacher/gemma-4-26B-A4B-it-uncensored-heretic-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-26B-A4B-it-uncensored-heretic-i1-GGUF
+  - key: mradermacher/gemma-4-26B-A4B-it-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-26B-A4B-it-abliterated-GGUF
+  - key: mradermacher/gemma-4-26B-A4B-it-heretic-ara-v2-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-26B-A4B-it-heretic-ara-v2-i1-GGUF
+  - key: Camcarroll120/gemma-4-26B-A4B-it-GGUF
+    sources:
+      - type: huggingface
+        user: Camcarroll120
+        repo: gemma-4-26B-A4B-it-GGUF
+  - key: mradermacher/Huihui-gemma-4-26B-A4B-it-abliterated-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Huihui-gemma-4-26B-A4B-it-abliterated-i1-GGUF
+  - key: prithivMLmods/gemma-4-26B-A4B-it-Uncensored-MAX-GGUF
+    sources:
+      - type: huggingface
+        user: prithivMLmods
+        repo: gemma-4-26B-A4B-it-Uncensored-MAX-GGUF
+  - key: invincible-jha/gemma-4-26B-A4B-it-GGUF
+    sources:
+      - type: huggingface
+        user: invincible-jha
+        repo: gemma-4-26B-A4B-it-GGUF
+  - key: ygoayu/gemma-4-26B-A4B-it-GGUF
+    sources:
+      - type: huggingface
+        user: ygoayu
+        repo: gemma-4-26B-A4B-it-GGUF
+  - key: mradermacher/gemma-4-26B-A4B-it-ultra-uncensored-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-26B-A4B-it-ultra-uncensored-heretic-GGUF
+  - key: Vastopian/gemma-4-26B-A4B-it-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: Vastopian
+        repo: gemma-4-26B-A4B-it-abliterated-GGUF
+  - key: Ex0bit/Gemma4-26B-A4B-PRISM-PRO-DQ-GGUF
+    sources:
+      - type: huggingface
+        user: Ex0bit
+        repo: Gemma4-26B-A4B-PRISM-PRO-DQ-GGUF
+  - key: noctrex/Huihui-gemma-4-26B-A4B-it-abliterated-MXFP4_MOE-GGUF
+    sources:
+      - type: huggingface
+        user: noctrex
+        repo: Huihui-gemma-4-26B-A4B-it-abliterated-MXFP4_MOE-GGUF
+  - key: Kivichek/gemma-4-26B-A4B-it-GGUF
+    sources:
+      - type: huggingface
+        user: Kivichek
+        repo: gemma-4-26B-A4B-it-GGUF
+  - key: mradermacher/gemma-4-26B-A4B-it-uncensored-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-26B-A4B-it-uncensored-GGUF
+  - key: mradermacher/Huihui-gemma-4-26B-A4B-it-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Huihui-gemma-4-26B-A4B-it-abliterated-GGUF
+  - key: mradermacher/gemma-4-26B-A4B-it-heretic-ara-v2-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-26B-A4B-it-heretic-ara-v2-GGUF
+  - key: professorf/gemma-4-26B-A4B-it-gguf
+    sources:
+      - type: huggingface
+        user: professorf
+        repo: gemma-4-26B-A4B-it-gguf
+  - key: DuoNeural/Gemma-4-26B-A4B-Abliterated
+    sources:
+      - type: huggingface
+        user: DuoNeural
+        repo: Gemma-4-26B-A4B-Abliterated
+  - key: DavCd/gemma-4-26B-A4B-it-heretic-ara-v2-GGUF
+    sources:
+      - type: huggingface
+        user: DavCd
+        repo: gemma-4-26B-A4B-it-heretic-ara-v2-GGUF
+  - key: chfm/gemma-4-26B-A4B-it-Claude-Opus-Distill-v2-GGUF
+    sources:
+      - type: huggingface
+        user: chfm
+        repo: gemma-4-26B-A4B-it-Claude-Opus-Distill-v2-GGUF
+  - key: mradermacher/gemma-4-26B-A4B-it-uncensored-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-26B-A4B-it-uncensored-heretic-GGUF
+  - key: majentik/gemma-4-26B-A4B-it-RotorQuant-GGUF-IQ4_XS
+    sources:
+      - type: huggingface
+        user: majentik
+        repo: gemma-4-26B-A4B-it-RotorQuant-GGUF-IQ4_XS
+  - key: keyuan01/Gemma-4-26B-A4B-it-MixQ-13G-GGUF
+    sources:
+      - type: huggingface
+        user: keyuan01
+        repo: Gemma-4-26B-A4B-it-MixQ-13G-GGUF
+  - key: doromiert/gemma-4-26B-A4B-it-uncensored-IQ3_XXS
+    sources:
+      - type: huggingface
+        user: doromiert
+        repo: gemma-4-26B-A4B-it-uncensored-IQ3_XXS
+  - key: s3dev-ai/gemma-4-26B-A4B-it-gguf
+    sources:
+      - type: huggingface
+        user: s3dev-ai
+        repo: gemma-4-26B-A4B-it-gguf
+  - key: Vastopian/gemma-4-26B-A4B-it-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: Vastopian
+        repo: gemma-4-26B-A4B-it-heretic-GGUF
+  - key: DuoNeural/Gemma-4-26B-A4B-Abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: DuoNeural
+        repo: Gemma-4-26B-A4B-Abliterated-GGUF
+  - key: majentik/gemma-4-26B-A4B-RotorQuant-GGUF-Q4_K_M
+    sources:
+      - type: huggingface
+        user: majentik
+        repo: gemma-4-26B-A4B-RotorQuant-GGUF-Q4_K_M
+  - key: mad-lab-ai/google-gemma-4-26b-a4b-tq3_1s.gguf
+    sources:
+      - type: huggingface
+        user: mad-lab-ai
+        repo: google-gemma-4-26b-a4b-tq3_1s.gguf
+  - key: dwojcik/gemma4-26b-a4b-it-codex-gguf-4bit
+    sources:
+      - type: huggingface
+        user: dwojcik
+        repo: gemma4-26b-a4b-it-codex-gguf-4bit
+  - key: majentik/gemma-4-26B-A4B-RotorQuant-GGUF-IQ4_XS
+    sources:
+      - type: huggingface
+        user: majentik
+        repo: gemma-4-26B-A4B-RotorQuant-GGUF-IQ4_XS
+  - key: tarruda/gemma-4-26B-A4B-it-GGUF
+    sources:
+      - type: huggingface
+        user: tarruda
+        repo: gemma-4-26B-A4B-it-GGUF
+  - key: TT0518/google_gemma-4-26B-A4B-it-Q4_K_M
+    sources:
+      - type: huggingface
+        user: TT0518
+        repo: google_gemma-4-26B-A4B-it-Q4_K_M
+  - key: Beinsezii/gemma-4-26B-A4B-it-GGUF-6.52BPW-static
+    sources:
+      - type: huggingface
+        user: Beinsezii
+        repo: gemma-4-26B-A4B-it-GGUF-6.52BPW-static
+  - key: ruygar/gemma-4-26B-A4B-it-GGUF
+    sources:
+      - type: huggingface
+        user: ruygar
+        repo: gemma-4-26B-A4B-it-GGUF
+  - key: ponytang3/gemma-4-26B-A4B-Claude-Opus-Distill-Q4_NL-GGUF
+    sources:
+      - type: huggingface
+        user: ponytang3
+        repo: gemma-4-26B-A4B-Claude-Opus-Distill-Q4_NL-GGUF
+  - key: majentik/gemma-4-26B-A4B-it-RotorQuant-GGUF-Q2_K
+    sources:
+      - type: huggingface
+        user: majentik
+        repo: gemma-4-26B-A4B-it-RotorQuant-GGUF-Q2_K
+  - key: majentik/gemma-4-26B-A4B-it-RotorQuant-GGUF-Q4_K_M
+    sources:
+      - type: huggingface
+        user: majentik
+        repo: gemma-4-26B-A4B-it-RotorQuant-GGUF-Q4_K_M
+  - key: majentik/gemma-4-26B-A4B-it-RotorQuant-GGUF-Q5_K_M
+    sources:
+      - type: huggingface
+        user: majentik
+        repo: gemma-4-26B-A4B-it-RotorQuant-GGUF-Q5_K_M
+  - key: DuoNeural/gemma-4-26B-A4B-it-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: DuoNeural
+        repo: gemma-4-26B-A4B-it-abliterated-GGUF
+  - key: majentik/gemma-4-26B-A4B-it-RotorQuant-GGUF-Q3_K_M
+    sources:
+      - type: huggingface
+        user: majentik
+        repo: gemma-4-26B-A4B-it-RotorQuant-GGUF-Q3_K_M
+  - key: AiAF/gemma-4-26B-A4B-it_GGUF
+    sources:
+      - type: huggingface
+        user: AiAF
+        repo: gemma-4-26B-A4B-it_GGUF
+  - key: majentik/gemma-4-26B-A4B-RotorQuant-GGUF-Q2_K
+    sources:
+      - type: huggingface
+        user: majentik
+        repo: gemma-4-26B-A4B-RotorQuant-GGUF-Q2_K
+  - key: wraith-painter/gemma-4-26b-a4b-heretic-Q4_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: wraith-painter
+        repo: gemma-4-26b-a4b-heretic-Q4_K_M-GGUF
+  - key: majentik/gemma-4-26B-A4B-RotorQuant-GGUF-Q3_K_M
+    sources:
+      - type: huggingface
+        user: majentik
+        repo: gemma-4-26B-A4B-RotorQuant-GGUF-Q3_K_M
+  - key: aidenyyy/gemma-4-26B-A4B-it-GGUF-Q4
+    sources:
+      - type: huggingface
+        user: aidenyyy
+        repo: gemma-4-26B-A4B-it-GGUF-Q4
+  - key: DuoNeural/Gemma-4-26B-A4B-it-GGUF
+    sources:
+      - type: huggingface
+        user: DuoNeural
+        repo: Gemma-4-26B-A4B-it-GGUF
 metadataOverrides:
   domain: llm
   architectures:
@@ -306,3 +551,32 @@ metadataOverrides:
   vision: true
   reasoning: true
   trainedForToolUse: true
+config:
+  operation:
+    fields:
+      - key: llm.prediction.temperature
+        value: 1.0
+      - key: llm.prediction.topKSampling
+        value: 64
+      - key: llm.prediction.topPSampling
+        value:
+          checked: true
+          value: 0.95
+      - key: llm.prediction.minPSampling
+        value:
+          checked: false
+          value: 0.0
+      - key: llm.prediction.reasoning.parsing
+        value:
+          enabled: true
+          startString: "<|channel>thought"
+          endString: "<channel|>"
+customFields:
+  - key: enableThinking
+    displayName: Enable Thinking
+    description: Controls whether the model will think before replying
+    type: boolean
+    defaultValue: true
+    effects:
+      - type: setJinjaVariable
+        variable: enable_thinking

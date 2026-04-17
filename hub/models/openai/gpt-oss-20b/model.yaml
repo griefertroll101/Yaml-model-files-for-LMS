@@ -407,7 +407,7 @@ base:
       - type: huggingface
         user: oki0ki
         repo: gpt-oss-20b
-  - key: mradermacher/openai-gpt-oss-20b-gpt5.1-5.2-distill-heretic-uncensored-mxfp4-gguf
+  - key: mradermacher/OpenAI-gpt-oss-20B-GPT5.1-5.2-DISTILL-Heretic-Uncensored-MXFP4-GGUF
     sources:
       - type: huggingface
         user: mradermacher
@@ -477,41 +477,81 @@ base:
       - type: huggingface
         user: Da-master
         repo: OpenAi-GPT-oss-20b-abliterated-uncensored-NEO-Imatrix-gguf
-config:
-  operation:
-    fields:
-      - key: llm.prediction.temperature
-        value: 0.8
-      - key: llm.prediction.topKSampling
-        value: 40
-      - key: llm.prediction.topPSampling
-        value:
-          checked: true
-          value: 0.8
-      - key: llm.prediction.repeatPenalty
-        value:
-          checked: true
-          value: 1.1
-      - key: llm.prediction.minPSampling
-        value:
-          checked: true
-          value: 0.05
-customFields:
-  - key: reasoningEffort
-    displayName: Reasoning Effort
-    description: Controls how much reasoning the model should perform.
-    type: select
-    defaultValue: low
-    options:
-      - value: low
-        label: Low
-      - value: medium
-        label: Medium
-      - value: high
-        label: High
-    effects:
-      - type: setJinjaVariable
-        variable: reasoning_effort
+  - key: mradermacher/gpt-oss-20b-abliterated-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gpt-oss-20b-abliterated-i1-GGUF
+  - key: mradermacher/med-gpt-oss-20b-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: med-gpt-oss-20b-i1-GGUF
+  - key: mradermacher/GPT-OSS-20B-Code-BF16-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: GPT-OSS-20B-Code-BF16-i1-GGUF
+  - key: mradermacher/gpt-oss-20b-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gpt-oss-20b-abliterated-GGUF
+  - key: mradermacher/TQL-Coder-GPT-OSS-20B-sft-thinking-harmony-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: TQL-Coder-GPT-OSS-20B-sft-thinking-harmony-GGUF
+  - key: mradermacher/gpt-oss-20b-heretic-v2-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gpt-oss-20b-heretic-v2-GGUF
+  - key: mradermacher/GPT-OSS-20B-Code-BF16-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: GPT-OSS-20B-Code-BF16-GGUF
+  - key: mradermacher/gpt-oss-20b-glm-4.6-distill-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gpt-oss-20b-glm-4.6-distill-GGUF
+  - key: mradermacher/gpt-oss-20b-ru-reasoner-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gpt-oss-20b-ru-reasoner-i1-GGUF
+  - key: mradermacher/gpt-oss-20b-claude-4-distill-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gpt-oss-20b-claude-4-distill-GGUF
+  - key: mradermacher/ELM-gpt-oss-20b-NSFW-v0.2-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: ELM-gpt-oss-20b-NSFW-v0.2-GGUF
+  - key: jorge-erdb/gpt-oss-20b-Derestricted-4bit-GGUF
+    sources:
+      - type: huggingface
+        user: jorge-erdb
+        repo: gpt-oss-20b-Derestricted-4bit-GGUF
+  - key: Alelcv27/GPT-OSS-20B-Math-GGUF
+    sources:
+      - type: huggingface
+        user: Alelcv27
+        repo: GPT-OSS-20B-Math-GGUF
+  - key: pommes1/gptoss20bios
+    sources:
+      - type: huggingface
+        user: pommes1
+        repo: gptoss20bios
+  - key: darealmelo/OpenAi-GPT-oss-20b-abliterated-uncensored-NEO-Imatrix-gguf
+    sources:
+      - type: huggingface
+        user: darealmelo
+        repo: OpenAi-GPT-oss-20b-abliterated-uncensored-NEO-Imatrix-gguf
 metadataOverrides:
   domain: llm
   architectures:
@@ -527,3 +567,28 @@ metadataOverrides:
   vision: false
   reasoning: true
   trainedForToolUse: true
+config:
+  operation:
+    fields:
+      - key: llm.prediction.temperature
+        value: 1.0
+      - key: llm.prediction.topPSampling
+        value:
+          checked: true
+          value: 1.0
+customFields:
+  - key: reasoningEffort
+    displayName: Reasoning Effort
+    description: Controls how much reasoning the model should perform.
+    type: select
+    defaultValue: "low"
+    options:
+      - value: "low"
+        label: "Low"
+      - value: "medium"
+        label: "Medium"
+      - value: "high"
+        label: "High"
+    effects:
+      - type: setJinjaVariable
+        variable: reasoning_effort

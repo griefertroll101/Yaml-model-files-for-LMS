@@ -417,31 +417,186 @@ base:
       - type: huggingface
         user: mtita
         repo: gemma4-31b-tool-calling-q4_k_m-GGUF
-config:
-  operation:
-    fields:
-      - key: llm.prediction.temperature
-        value: 1.0
-      - key: llm.prediction.topPSampling
-        value:
-          checked: true
-          value: 0.95
-      - key: llm.prediction.topKSampling
-        value: 64
-      - key: llm.prediction.reasoning.parsing
-        value:
-          enabled: true
-          startString: "<|channel>thought"
-          endString: "<channel|>"
-customFields:
-  - key: enableThinking
-    displayName: Enable Thinking
-    description: Controls whether the model will think before replying
-    type: boolean
-    defaultValue: true
-    effects:
-      - type: setJinjaVariable
-        variable: enable_thinking
+  - key: mradermacher/gemma-4-31B-it-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-31B-it-abliterated-GGUF
+  - key: mradermacher/gemma-4-31B-it-The-DECKARD-HERETIC-UNCENSORED-Thinking-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-31B-it-The-DECKARD-HERETIC-UNCENSORED-Thinking-i1-GGUF
+  - key: MoonRide/gemma-4-31B-it-heretic-ara-GGUF
+    sources:
+      - type: huggingface
+        user: MoonRide
+        repo: gemma-4-31B-it-heretic-ara-GGUF
+  - key: lazywoof/Huihui-gemma-4-31B-it-abliterated-v2-Q4_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: lazywoof
+        repo: Huihui-gemma-4-31B-it-abliterated-v2-Q4_K_M-GGUF
+  - key: mradermacher/gemma-4-31B-it-Grand-Horror-X-INTENSE-HERETIC-UNCENSORED-Thinking-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-31B-it-Grand-Horror-X-INTENSE-HERETIC-UNCENSORED-Thinking-i1-GGUF
+  - key: mradermacher/DarkIdol-Gemma-4-31B-it-FT-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: DarkIdol-Gemma-4-31B-it-FT-i1-GGUF
+  - key: mradermacher/DarkIdol-Gemma-4-31B-it-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: DarkIdol-Gemma-4-31B-it-i1-GGUF
+  - key: mradermacher/gemma-4-31B-it-abliterated-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-31B-it-abliterated-i1-GGUF
+  - key: mradermacher/gemma-4-31B-it-heretic-v2-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-31B-it-heretic-v2-i1-GGUF
+  - key: Abiray/gemma-4-31B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+    sources:
+      - type: huggingface
+        user: Abiray
+        repo: gemma-4-31B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+  - key: TeichAI/gemma-4-31B-it-Claude-Opus-Distill-v2-GGUF
+    sources:
+      - type: huggingface
+        user: TeichAI
+        repo: gemma-4-31B-it-Claude-Opus-Distill-v2-GGUF
+  - key: mradermacher/gemma-4-31B-it-uncensored-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-31B-it-uncensored-i1-GGUF
+  - key: fractaldactal/gemma-4-31B-it-GGUF
+    sources:
+      - type: huggingface
+        user: fractaldactal
+        repo: gemma-4-31B-it-GGUF
+  - key: mradermacher/gemma-4-31B-it-heretic-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-31B-it-heretic-i1-GGUF
+  - key: mradermacher/gemma-4-31B-it-uncensored-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-31B-it-uncensored-GGUF
+  - key: invincible-jha/gemma-4-31B-it-GGUF
+    sources:
+      - type: huggingface
+        user: invincible-jha
+        repo: gemma-4-31B-it-GGUF
+  - key: prithivMLmods/gemma-4-31B-it-Uncensored-MAX-GGUF
+    sources:
+      - type: huggingface
+        user: prithivMLmods
+        repo: gemma-4-31B-it-Uncensored-MAX-GGUF
+  - key: groxaxo/Huihui-gemma-4-31B-it-abliterated-v2-GGUF
+    sources:
+      - type: huggingface
+        user: groxaxo
+        repo: Huihui-gemma-4-31B-it-abliterated-v2-GGUF
+  - key: mradermacher/gemma-4-31B-it-heretic-v2-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-31B-it-heretic-v2-GGUF
+  - key: KikoCis/gemma-4-31b-it-IQ3_XS-GGUF
+    sources:
+      - type: huggingface
+        user: KikoCis
+        repo: gemma-4-31b-it-IQ3_XS-GGUF
+  - key: ygoayu/gemma-4-31B-it-GGUF
+    sources:
+      - type: huggingface
+        user: ygoayu
+        repo: gemma-4-31B-it-GGUF
+  - key: lhca521/gemma-4-31B-it-abliterated-i1-GGUF
+    sources:
+      - type: huggingface
+        user: lhca521
+        repo: gemma-4-31B-it-abliterated-i1-GGUF
+  - key: edwardwallst/Gemma-4-31B-JANG_4M-CRACK-GGUF
+    sources:
+      - type: huggingface
+        user: edwardwallst
+        repo: Gemma-4-31B-JANG_4M-CRACK-GGUF
+  - key: mradermacher/DarkIdol-Gemma-4-31B-it-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: DarkIdol-Gemma-4-31B-it-GGUF
+  - key: RudiTheRude/google_gemma-4-31B-it-IQ4_NL-TQ4_1S.gguf
+    sources:
+      - type: huggingface
+        user: RudiTheRude
+        repo: google_gemma-4-31B-it-IQ4_NL-TQ4_1S.gguf
+  - key: KikoCis/gemma-4-31b-otter-v3-GGUF
+    sources:
+      - type: huggingface
+        user: KikoCis
+        repo: gemma-4-31b-otter-v3-GGUF
+  - key: mradermacher/DarkIdol-Gemma-4-31B-it-FT-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: DarkIdol-Gemma-4-31B-it-FT-GGUF
+  - key: ebircak/gemma-4-31B-it-GGUF
+    sources:
+      - type: huggingface
+        user: ebircak
+        repo: gemma-4-31B-it-GGUF
+  - key: professorf/gemma-4-31B-it-gguf
+    sources:
+      - type: huggingface
+        user: professorf
+        repo: gemma-4-31B-it-gguf
+  - key: jie1888/Gemma-4-31B-JANG_4M-CRACK-GGUF
+    sources:
+      - type: huggingface
+        user: jie1888
+        repo: Gemma-4-31B-JANG_4M-CRACK-GGUF
+  - key: batiai/gemma-4-31B-it-GGUF
+    sources:
+      - type: huggingface
+        user: batiai
+        repo: gemma-4-31B-it-GGUF
+  - key: Abiray/gemma-4-31B-it-Claude-Opus-Distill-GGUF
+    sources:
+      - type: huggingface
+        user: Abiray
+        repo: gemma-4-31B-it-Claude-Opus-Distill-GGUF
+  - key: majentik/gemma-4-31B-it-RotorQuant-GGUF-IQ4_XS
+    sources:
+      - type: huggingface
+        user: majentik
+        repo: gemma-4-31B-it-RotorQuant-GGUF-IQ4_XS
+  - key: Andu-bit/gemma-4-31B-it-uncensored-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: Andu-bit
+        repo: gemma-4-31B-it-uncensored-heretic-GGUF
+  - key: majentik/gemma-4-31B-RotorQuant-GGUF-IQ4_XS
+    sources:
+      - type: huggingface
+        user: majentik
+        repo: gemma-4-31B-RotorQuant-GGUF-IQ4_XS
+  - key: thetom-ai/Gemma-4-31B-it-TQPlus
+    sources:
+      - type: huggingface
+        user: thetom-ai
+        repo: Gemma-4-31B-it-TQPlus
 metadataOverrides:
   domain: llm
   architectures:
@@ -456,3 +611,32 @@ metadataOverrides:
   vision: true
   reasoning: true
   trainedForToolUse: true
+config:
+  operation:
+    fields:
+      - key: llm.prediction.temperature
+        value: 1.0
+      - key: llm.prediction.topKSampling
+        value: 64
+      - key: llm.prediction.topPSampling
+        value:
+          checked: true
+          value: 0.95
+      - key: llm.prediction.minPSampling
+        value:
+          checked: false
+          value: 0.0
+      - key: llm.prediction.reasoning.parsing
+        value:
+          enabled: true
+          startString: "<|channel>thought"
+          endString: "<channel|>"
+customFields:
+  - key: enableThinking
+    displayName: Enable Thinking
+    description: Controls whether the model will think before replying
+    type: boolean
+    defaultValue: true
+    effects:
+      - type: setJinjaVariable
+        variable: enable_thinking

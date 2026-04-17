@@ -447,41 +447,46 @@ base:
       - type: huggingface
         user: hydaitw
         repo: gpt-oss-120b-mandarin-thinking
-config:
-  operation:
-    fields:
-      - key: llm.prediction.temperature
-        value: 0.8
-      - key: llm.prediction.topKSampling
-        value: 40
-      - key: llm.prediction.topPSampling
-        value:
-          checked: true
-          value: 0.8
-      - key: llm.prediction.repeatPenalty
-        value:
-          checked: true
-          value: 1.1
-      - key: llm.prediction.minPSampling
-        value:
-          checked: true
-          value: 0.05
-customFields:
-  - key: reasoningEffort
-    displayName: Reasoning Effort
-    description: Controls how much reasoning the model should perform.
-    type: select
-    defaultValue: low
-    options:
-      - value: low
-        label: Low
-      - value: medium
-        label: Medium
-      - value: high
-        label: High
-    effects:
-      - type: setJinjaVariable
-        variable: reasoning_effort
+  - key: xiaoniao000/huizimao_gpt-oss-120b-uncensored-bf16-GGUF
+    sources:
+      - type: huggingface
+        user: xiaoniao000
+        repo: huizimao_gpt-oss-120b-uncensored-bf16-GGUF
+  - key: VECTORVV1/GPTOSS-120B-Aggressive
+    sources:
+      - type: huggingface
+        user: VECTORVV1
+        repo: GPTOSS-120B-Aggressive
+  - key: majentik/gpt-oss-120b-RotorQuant-GGUF-IQ4_XS
+    sources:
+      - type: huggingface
+        user: majentik
+        repo: gpt-oss-120b-RotorQuant-GGUF-IQ4_XS
+  - key: majentik/gpt-oss-120b-RotorQuant-GGUF-Q5_K_M
+    sources:
+      - type: huggingface
+        user: majentik
+        repo: gpt-oss-120b-RotorQuant-GGUF-Q5_K_M
+  - key: majentik/gpt-oss-120b-RotorQuant-GGUF-Q4_K_M
+    sources:
+      - type: huggingface
+        user: majentik
+        repo: gpt-oss-120b-RotorQuant-GGUF-Q4_K_M
+  - key: majentik/gpt-oss-120b-RotorQuant-GGUF-Q2_K
+    sources:
+      - type: huggingface
+        user: majentik
+        repo: gpt-oss-120b-RotorQuant-GGUF-Q2_K
+  - key: majentik/gpt-oss-120b-RotorQuant-GGUF-Q3_K_M
+    sources:
+      - type: huggingface
+        user: majentik
+        repo: gpt-oss-120b-RotorQuant-GGUF-Q3_K_M
+  - key: majentik/gpt-oss-120b-RotorQuant-GGUF-Q8_0
+    sources:
+      - type: huggingface
+        user: majentik
+        repo: gpt-oss-120b-RotorQuant-GGUF-Q8_0
 metadataOverrides:
   domain: llm
   architectures:
@@ -497,3 +502,28 @@ metadataOverrides:
   vision: false
   reasoning: true
   trainedForToolUse: true
+config:
+  operation:
+    fields:
+      - key: llm.prediction.temperature
+        value: 1.0
+      - key: llm.prediction.topPSampling
+        value:
+          checked: true
+          value: 1.0
+customFields:
+  - key: reasoningEffort
+    displayName: Reasoning Effort
+    description: Controls how much reasoning the model should perform.
+    type: select
+    defaultValue: "low"
+    options:
+      - value: "low"
+        label: "Low"
+      - value: "medium"
+        label: "Medium"
+      - value: "high"
+        label: "High"
+    effects:
+      - type: setJinjaVariable
+        variable: reasoning_effort

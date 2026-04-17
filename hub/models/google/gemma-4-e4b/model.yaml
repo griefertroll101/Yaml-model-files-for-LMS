@@ -242,31 +242,291 @@ base:
       - type: huggingface
         user: mradermacher
         repo: gemma-4-E4B-it-heretic-i1-GGUF
-config:
-  operation:
-    fields:
-      - key: llm.prediction.temperature
-        value: 1.0
-      - key: llm.prediction.topPSampling
-        value:
-          checked: true
-          value: 0.95
-      - key: llm.prediction.topKSampling
-        value: 64
-      - key: llm.prediction.reasoning.parsing
-        value:
-          enabled: true
-          startString: "<|channel>thought"
-          endString: "<channel|>"
-customFields:
-  - key: enableThinking
-    displayName: Enable Thinking
-    description: Controls whether the model will think before replying
-    type: boolean
-    defaultValue: true
-    effects:
-      - type: setJinjaVariable
-        variable: enable_thinking
+  - key: Abiray/gemma-4-E4B-it-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: Abiray
+        repo: gemma-4-E4B-it-heretic-GGUF
+  - key: dahara1/gemma-4-E4B-it-UD-japanese-imatrix
+    sources:
+      - type: huggingface
+        user: dahara1
+        repo: gemma-4-E4B-it-UD-japanese-imatrix
+  - key: mradermacher/gemma-4-E4B-it-ultra-uncensored-heretic-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E4B-it-ultra-uncensored-heretic-i1-GGUF
+  - key: mradermacher/gemma-4-E4B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E4B-GGUF
+  - key: mradermacher/gemma-4-E4B-it-mentalchat16k-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E4B-it-mentalchat16k-i1-GGUF
+  - key: swazona/adam-gemma4-e4b
+    sources:
+      - type: huggingface
+        user: swazona
+        repo: adam-gemma4-e4b
+  - key: mradermacher/gemma4-e4b-obliterus-default-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma4-e4b-obliterus-default-i1-GGUF
+  - key: Abiray/gemma-4-E4B-Gemini-3.1-Pro-Reasoning-Distill-GGUF
+    sources:
+      - type: huggingface
+        user: Abiray
+        repo: gemma-4-E4B-Gemini-3.1-Pro-Reasoning-Distill-GGUF
+  - key: mradermacher/gemma-4-E4B-it-ultra-uncensored-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E4B-it-ultra-uncensored-heretic-GGUF
+  - key: MoonRide/gemma-4-E4B-it-heretic-ara-GGUF
+    sources:
+      - type: huggingface
+        user: MoonRide
+        repo: gemma-4-E4B-it-heretic-ara-GGUF
+  - key: mradermacher/gemma-4-E4B-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E4B-i1-GGUF
+  - key: mradermacher/gemma-4-E4B-it-uncensored-heretic-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E4B-it-uncensored-heretic-i1-GGUF
+  - key: DavidAU/gemma-4-E4B-it-The-DECKARD-Expresso-Universe-HERETIC-UNCENSORED-Thinking-GGUF
+    sources:
+      - type: huggingface
+        user: DavidAU
+        repo: gemma-4-E4B-it-The-DECKARD-Expresso-Universe-HERETIC-UNCENSORED-Thinking-GGUF
+  - key: mradermacher/Huihui-gemma-4-E4B-it-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Huihui-gemma-4-E4B-it-abliterated-GGUF
+  - key: mradermacher/gemma-4-E4B-it-heretic-ara-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E4B-it-heretic-ara-GGUF
+  - key: Abiray/gemma-4-E4B-it-The-DECKARD-HERETIC-UNCENSORED-Thinking-GGUF
+    sources:
+      - type: huggingface
+        user: Abiray
+        repo: gemma-4-E4B-it-The-DECKARD-HERETIC-UNCENSORED-Thinking-GGUF
+  - key: mradermacher/Huihui-gemma-4-E4B-it-abliterated-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Huihui-gemma-4-E4B-it-abliterated-i1-GGUF
+  - key: mradermacher/gemma-4-E4B-it-abliterated-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E4B-it-abliterated-i1-GGUF
+  - key: mradermacher/gemma-4-E4B-it-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E4B-it-i1-GGUF
+  - key: mradermacher/Darkidol-Gemma-4-E4B-it-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Darkidol-Gemma-4-E4B-it-i1-GGUF
+  - key: mradermacher/gemma-4-E4B-it-The-DECKARD-Expresso-Universe-HERETIC-UNCENSORED-Thinking-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E4B-it-The-DECKARD-Expresso-Universe-HERETIC-UNCENSORED-Thinking-i1-GGUF
+  - key: mradermacher/gemma4-e4b-obliterus-custom-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma4-e4b-obliterus-custom-i1-GGUF
+  - key: mradermacher/gemma-4-E4B-base-heretic-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E4B-base-heretic-i1-GGUF
+  - key: mradermacher/gemma-4-E4B-it-The-DECKARD-Claude-Opus-Expresso-Universe-HERETIC-UNCENSORED-Thinking-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E4B-it-The-DECKARD-Claude-Opus-Expresso-Universe-HERETIC-UNCENSORED-Thinking-i1-GGUF
+  - key: mradermacher/gemma4-E4B-it-abliterated-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma4-E4B-it-abliterated-i1-GGUF
+  - key: qiufeng001/gemma-4-E4B-it-GGUF
+    sources:
+      - type: huggingface
+        user: qiufeng001
+        repo: gemma-4-E4B-it-GGUF
+  - key: dragonboat/gemma-4-E4B-it-GGUF
+    sources:
+      - type: huggingface
+        user: dragonboat
+        repo: gemma-4-E4B-it-GGUF
+  - key: bubiche/gemma-4-E4B-it-GGUF
+    sources:
+      - type: huggingface
+        user: bubiche
+        repo: gemma-4-E4B-it-GGUF
+  - key: jyz8270202/gemma-4-E4B-it-GGUF
+    sources:
+      - type: huggingface
+        user: jyz8270202
+        repo: gemma-4-E4B-it-GGUF
+  - key: Jhhjjjjj/gemma-4-E4B-it-GGUF
+    sources:
+      - type: huggingface
+        user: Jhhjjjjj
+        repo: gemma-4-E4B-it-GGUF
+  - key: mradermacher/gemma-4-E4B-it-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E4B-it-abliterated-GGUF
+  - key: invincible-jha/gemma-4-E4B-it-GGUF
+    sources:
+      - type: huggingface
+        user: invincible-jha
+        repo: gemma-4-E4B-it-GGUF
+  - key: mradermacher/gemma-4-E4B-it-The-DECKARD-V2-Strong-HERETIC-UNCENSORED-Thinking-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E4B-it-The-DECKARD-V2-Strong-HERETIC-UNCENSORED-Thinking-i1-GGUF
+  - key: mradermacher/gemma-4-E4B-it-uncensored-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E4B-it-uncensored-i1-GGUF
+  - key: mradermacher/gemma-4-E4B-it-The-DECKARD-HERETIC-UNCENSORED-Thinking-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E4B-it-The-DECKARD-HERETIC-UNCENSORED-Thinking-i1-GGUF
+  - key: mradermacher/gemma-4-E4B-it-Claude-Opus-4.5-HERETIC-UNCENSORED-Thinking-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E4B-it-Claude-Opus-4.5-HERETIC-UNCENSORED-Thinking-i1-GGUF
+  - key: mradermacher/gemma-4-E4B-it-heretic-v1-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E4B-it-heretic-v1-i1-GGUF
+  - key: Handyfff/Gemma-4-E4B-it-uncensored-pruned-TextOnly-EnglishOnly-GGUF
+    sources:
+      - type: huggingface
+        user: Handyfff
+        repo: Gemma-4-E4B-it-uncensored-pruned-TextOnly-EnglishOnly-GGUF
+  - key: prithivMLmods/gemma-4-E4B-it-Uncensored-MAX-GGUF
+    sources:
+      - type: huggingface
+        user: prithivMLmods
+        repo: gemma-4-E4B-it-Uncensored-MAX-GGUF
+  - key: mradermacher/gemma4-e4b-obliterus-default-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma4-e4b-obliterus-default-GGUF
+  - key: mradermacher/gemma-4-E4B-it-heretic-ara-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E4B-it-heretic-ara-i1-GGUF
+  - key: mradermacher/gemma-4-E4B-it-GLM-4.7-Flash-HERETIC-UNCENSORED-Thinking-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E4B-it-GLM-4.7-Flash-HERETIC-UNCENSORED-Thinking-i1-GGUF
+  - key: mradermacher/gemma-4-E4B-it-The-DECKARD-Claude-Opus-Expresso-Universe-HERETIC-UNCENSORED-Thinking-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E4B-it-The-DECKARD-Claude-Opus-Expresso-Universe-HERETIC-UNCENSORED-Thinking-GGUF
+  - key: mradermacher/gemma-4-E4B-it-uncensored-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E4B-it-uncensored-GGUF
+  - key: tulongtulong/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive
+    sources:
+      - type: huggingface
+        user: tulongtulong
+        repo: Gemma-4-E4B-Uncensored-HauhauCS-Aggressive
+  - key: mradermacher/gemma-4-E4B-it-Claude-Opus-4.5-HERETIC-UNCENSORED-Thinking-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E4B-it-Claude-Opus-4.5-HERETIC-UNCENSORED-Thinking-GGUF
+  - key: WeilPesi/gemma-4-E4B-it-uncensored-GGUF
+    sources:
+      - type: huggingface
+        user: WeilPesi
+        repo: gemma-4-E4B-it-uncensored-GGUF
+  - key: mradermacher/gemma4-e4b-obliterus-custom-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma4-e4b-obliterus-custom-GGUF
+  - key: mradermacher/gemma-4-E4B-it-The-DECKARD-Expresso-Universe-HERETIC-UNCENSORED-Thinking-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E4B-it-The-DECKARD-Expresso-Universe-HERETIC-UNCENSORED-Thinking-GGUF
+  - key: mradermacher/gemma-4-E4B-it-uncensored-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E4B-it-uncensored-heretic-GGUF
+  - key: TRACCERR/gemma-4-E4B-it-FT-GGUF
+    sources:
+      - type: huggingface
+        user: TRACCERR
+        repo: gemma-4-E4B-it-FT-GGUF
+  - key: mradermacher/gemma-4-E4B-it-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E4B-it-GGUF
+  - key: batiai/gemma-4-E4B-it-GGUF
+    sources:
+      - type: huggingface
+        user: batiai
+        repo: gemma-4-E4B-it-GGUF
+  - key: mradermacher/gemma-4-E4B-it-heretic-v1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E4B-it-heretic-v1-GGUF
+  - key: mradermacher/gemma-4-E4B-base-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E4B-base-heretic-GGUF
+  - key: mradermacher/gemma-4-E4B-it-The-DECKARD-V2-Strong-HERETIC-UNCENSORED-Thinking-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E4B-it-The-DECKARD-V2-Strong-HERETIC-UNCENSORED-Thinking-GGUF
+  - key: DuoNeural/Gemma-4-E4B-Claude-Abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: DuoNeural
+        repo: Gemma-4-E4B-Claude-Abliterated-GGUF
 metadataOverrides:
   domain: llm
   architectures:
@@ -281,3 +541,32 @@ metadataOverrides:
   vision: true
   reasoning: true
   trainedForToolUse: true
+config:
+  operation:
+    fields:
+      - key: llm.prediction.temperature
+        value: 1.0
+      - key: llm.prediction.topKSampling
+        value: 64
+      - key: llm.prediction.topPSampling
+        value:
+          checked: true
+          value: 0.95
+      - key: llm.prediction.minPSampling
+        value:
+          checked: false
+          value: 0.0
+      - key: llm.prediction.reasoning.parsing
+        value:
+          enabled: true
+          startString: "<|channel>thought"
+          endString: "<channel|>"
+customFields:
+  - key: enableThinking
+    displayName: Enable Thinking
+    description: Controls whether the model will think before replying
+    type: boolean
+    defaultValue: true
+    effects:
+      - type: setJinjaVariable
+        variable: enable_thinking

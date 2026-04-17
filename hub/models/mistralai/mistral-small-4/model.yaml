@@ -87,30 +87,6 @@ base:
       - type: huggingface
         user: mudler
         repo: Mistral-Small-4-119B-2603-APEX-GGUF
-config:
-  operation:
-    fields:
-      - key: llm.prediction.temperature
-        value: 0.15
-      - key: llm.prediction.reasoning.parsing
-        value:
-          enabled: true
-          startString: "[THINK]"
-          endString: "[/THINK]"
-customFields:
-  - key: reasoningEffort
-    displayName: Reasoning Effort
-    description: Controls how much reasoning the model should perform.
-    type: select
-    defaultValue: high
-    options:
-      - value: none
-        label: None
-      - value: high
-        label: High
-    effects:
-      - type: setJinjaVariable
-        variable: reasoning_effort
 metadataOverrides:
   domain: llm
   architectures:
@@ -125,3 +101,27 @@ metadataOverrides:
   vision: true
   reasoning: true
   trainedForToolUse: true
+config:
+  operation:
+    fields:
+      - key: llm.prediction.temperature
+        value: 0.7
+      - key: llm.prediction.reasoning.parsing
+        value:
+          enabled: true
+          startString: "[THINK]"
+          endString: "[/THINK]"
+customFields:
+  - key: reasoningEffort
+    displayName: Reasoning Effort
+    description: Controls how much reasoning the model should perform.
+    type: select
+    defaultValue: "high"
+    options:
+      - value: "none"
+        label: "None"
+      - value: "high"
+        label: "High"
+    effects:
+      - type: setJinjaVariable
+        variable: reasoning_effort

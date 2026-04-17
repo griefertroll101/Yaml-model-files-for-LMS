@@ -147,6 +147,80 @@ base:
       - type: huggingface
         user: W0lfland
         repo: Nemotron-3-Super-120B-A12B-Greg-Knee-GGUF
+  - key: majentik/Nemotron-3-Super-120B-A12B-RotorQuant-GGUF-Q3_K_M
+    sources:
+      - type: huggingface
+        user: majentik
+        repo: Nemotron-3-Super-120B-A12B-RotorQuant-GGUF-Q3_K_M
+  - key: majentik/Nemotron-3-Super-120B-A12B-RotorQuant-GGUF-Q4_K_M
+    sources:
+      - type: huggingface
+        user: majentik
+        repo: Nemotron-3-Super-120B-A12B-RotorQuant-GGUF-Q4_K_M
+  - key: majentik/Nemotron-3-Super-120B-A12B-TurboQuant-GGUF-Q8_0
+    sources:
+      - type: huggingface
+        user: majentik
+        repo: Nemotron-3-Super-120B-A12B-TurboQuant-GGUF-Q8_0
+  - key: majentik/Nemotron-3-Super-120B-A12B-RotorQuant-GGUF-Q5_K_M
+    sources:
+      - type: huggingface
+        user: majentik
+        repo: Nemotron-3-Super-120B-A12B-RotorQuant-GGUF-Q5_K_M
+  - key: majentik/Nemotron-3-Super-120B-A12B-TurboQuant-GGUF-Q2_K
+    sources:
+      - type: huggingface
+        user: majentik
+        repo: Nemotron-3-Super-120B-A12B-TurboQuant-GGUF-Q2_K
+  - key: majentik/Nemotron-3-Super-120B-A12B-TurboQuant-GGUF-Q4_K_M
+    sources:
+      - type: huggingface
+        user: majentik
+        repo: Nemotron-3-Super-120B-A12B-TurboQuant-GGUF-Q4_K_M
+  - key: majentik/Nemotron-3-Super-120B-A12B-TurboQuant-GGUF-Q6_K
+    sources:
+      - type: huggingface
+        user: majentik
+        repo: Nemotron-3-Super-120B-A12B-TurboQuant-GGUF-Q6_K
+  - key: majentik/Nemotron-3-Super-120B-A12B-TurboQuant-GGUF-Q3_K_M
+    sources:
+      - type: huggingface
+        user: majentik
+        repo: Nemotron-3-Super-120B-A12B-TurboQuant-GGUF-Q3_K_M
+  - key: majentik/Nemotron-3-Super-120B-A12B-RotorQuant-GGUF-Q6_K
+    sources:
+      - type: huggingface
+        user: majentik
+        repo: Nemotron-3-Super-120B-A12B-RotorQuant-GGUF-Q6_K
+  - key: majentik/Nemotron-3-Super-120B-A12B-TurboQuant-GGUF-Q5_K_M
+    sources:
+      - type: huggingface
+        user: majentik
+        repo: Nemotron-3-Super-120B-A12B-TurboQuant-GGUF-Q5_K_M
+  - key: majentik/Nemotron-3-Super-120B-A12B-RotorQuant-GGUF-Q2_K
+    sources:
+      - type: huggingface
+        user: majentik
+        repo: Nemotron-3-Super-120B-A12B-RotorQuant-GGUF-Q2_K
+  - key: majentik/Nemotron-3-Super-120B-A12B-RotorQuant-GGUF-Q8_0
+    sources:
+      - type: huggingface
+        user: majentik
+        repo: Nemotron-3-Super-120B-A12B-RotorQuant-GGUF-Q8_0
+metadataOverrides:
+  domain: llm
+  architectures:
+    - nemotron_h_moe
+  compatibilityTypes:
+    - gguf
+  paramsStrings:
+    - 120B
+  minMemoryUsageBytes: 83000000000
+  contextLengths:
+    - 1048576
+  vision: false
+  reasoning: true
+  trainedForToolUse: true
 config:
   operation:
     fields:
@@ -185,17 +259,3 @@ customFields:
     effects:
       - type: setJinjaVariable
         variable: truncate_history_thinking
-metadataOverrides:
-  domain: llm
-  architectures:
-    - nemotron_h_moe
-  compatibilityTypes:
-    - gguf
-  paramsStrings:
-    - 120B
-  minMemoryUsageBytes: 83000000000
-  contextLengths:
-    - 1048576
-  vision: false
-  reasoning: true
-  trainedForToolUse: true

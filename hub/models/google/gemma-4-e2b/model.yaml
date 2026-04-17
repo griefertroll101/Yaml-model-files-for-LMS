@@ -292,31 +292,311 @@ base:
       - type: huggingface
         user: kshitizz36
         repo: provn-gemma4-e2b-q4km
-config:
-  operation:
-    fields:
-      - key: llm.prediction.temperature
-        value: 1.0
-      - key: llm.prediction.topKSampling
-        value: 64
-      - key: llm.prediction.topPSampling
-        value:
-          checked: true
-          value: 0.95
-      - key: llm.prediction.reasoning.parsing
-        value:
-          enabled: true
-          startString: "<|channel>thought"
-          endString: "<channel|>"
-customFields:
-  - key: enableThinking
-    displayName: Enable Thinking
-    description: Controls whether the model will think before replying
-    type: boolean
-    defaultValue: true
-    effects:
-      - type: setJinjaVariable
-        variable: enable_thinking
+  - key: mradermacher/gemma4-E2B-it-abliterated-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma4-E2B-it-abliterated-i1-GGUF
+  - key: mradermacher/Huihui-gemma-4-E2B-it-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Huihui-gemma-4-E2B-it-abliterated-GGUF
+  - key: mradermacher/gemma-4-E2B-it-uncensored-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E2B-it-uncensored-i1-GGUF
+  - key: mradermacher/gemma-4-E2B-it-uncensored-v1-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E2B-it-uncensored-v1-i1-GGUF
+  - key: mradermacher/Huihui-gemma-4-E2B-it-abliterated-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Huihui-gemma-4-E2B-it-abliterated-i1-GGUF
+  - key: prithivMLmods/gemma-4-E2B-it-Uncensored-MAX-GGUF
+    sources:
+      - type: huggingface
+        user: prithivMLmods
+        repo: gemma-4-E2B-it-Uncensored-MAX-GGUF
+  - key: Handyfff/Gemma-4-E2B-uncensored-pruned-TextOnly-EnglishOnly-GGUF
+    sources:
+      - type: huggingface
+        user: Handyfff
+        repo: Gemma-4-E2B-uncensored-pruned-TextOnly-EnglishOnly-GGUF
+  - key: mradermacher/gemma-4-E2B-it-heretic-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E2B-it-heretic-i1-GGUF
+  - key: bubiche/gemma-4-E2B-it-GGUF
+    sources:
+      - type: huggingface
+        user: bubiche
+        repo: gemma-4-E2B-it-GGUF
+  - key: mradermacher/Huihui-gemma-4-E2B-it-abliterated-v2-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Huihui-gemma-4-E2B-it-abliterated-v2-GGUF
+  - key: mradermacher/Huihui-gemma-4-E2B-it-abliterated-v2-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Huihui-gemma-4-E2B-it-abliterated-v2-i1-GGUF
+  - key: mradermacher/Darkidol-Gemma-4-E2B-it-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Darkidol-Gemma-4-E2B-it-i1-GGUF
+  - key: mradermacher/gemma-4-E2B-it-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E2B-it-heretic-GGUF
+  - key: RAFABTX/gemma-4-E2B-abliterated-btx-GGUF
+    sources:
+      - type: huggingface
+        user: RAFABTX
+        repo: gemma-4-E2B-abliterated-btx-GGUF
+  - key: mradermacher/gemma-4-E2B-it-heretic-ara-custom-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E2B-it-heretic-ara-custom-i1-GGUF
+  - key: mradermacher/gemma-4-E2B-it-abliterated-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E2B-it-abliterated-i1-GGUF
+  - key: mradermacher/gemma-4-E2B-it-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E2B-it-abliterated-GGUF
+  - key: Momix-44/Huihui-gemma-4-E2B-it-abliterated-v2
+    sources:
+      - type: huggingface
+        user: Momix-44
+        repo: Huihui-gemma-4-E2B-it-abliterated-v2
+  - key: mradermacher/gemma-4-E2B-it-uncensored-v1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E2B-it-uncensored-v1-GGUF
+  - key: mradermacher/gemma-4-E2B-it-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E2B-it-i1-GGUF
+  - key: DJLougen/gemma-4-E2B-it-saber-GGUF
+    sources:
+      - type: huggingface
+        user: DJLougen
+        repo: gemma-4-E2B-it-saber-GGUF
+  - key: mradermacher/gemma-4-E2B-it-heretic-ara-custom-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E2B-it-heretic-ara-custom-GGUF
+  - key: gguf-org/gemma-4-e2b-it-gguf
+    sources:
+      - type: huggingface
+        user: gguf-org
+        repo: gemma-4-e2b-it-gguf
+  - key: dudeidkwhattodo/gemma-4-E2B-it-GGUF
+    sources:
+      - type: huggingface
+        user: dudeidkwhattodo
+        repo: gemma-4-E2B-it-GGUF
+  - key: Shariyat/gemma-4-E2B-it-GGUF
+    sources:
+      - type: huggingface
+        user: Shariyat
+        repo: gemma-4-E2B-it-GGUF
+  - key: mradermacher/Darkidol-Gemma-4-E2B-it-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Darkidol-Gemma-4-E2B-it-GGUF
+  - key: mradermacher/gemma4-E2B-it-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma4-E2B-it-abliterated-GGUF
+  - key: mradermacher/gemma-4-E2B-it-Uncensored-MAX-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E2B-it-Uncensored-MAX-i1-GGUF
+  - key: mradermacher/gemma-4-E2B-it-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E2B-it-GGUF
+  - key: majentik/gemma-4-E2B-it-RotorQuant-GGUF-IQ4_XS
+    sources:
+      - type: huggingface
+        user: majentik
+        repo: gemma-4-E2B-it-RotorQuant-GGUF-IQ4_XS
+  - key: dahus/gemma-4-e2b-it-Q4_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: dahus
+        repo: gemma-4-e2b-it-Q4_K_M-GGUF
+  - key: Bingsu/gemma-4-E2B-it-GGUF
+    sources:
+      - type: huggingface
+        user: Bingsu
+        repo: gemma-4-E2B-it-GGUF
+  - key: mradermacher/gemma-4-E2B-it-Uncensored-MAX-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E2B-it-Uncensored-MAX-GGUF
+  - key: dahus/gemma-4-e2b-it-Q2_K-GGUF
+    sources:
+      - type: huggingface
+        user: dahus
+        repo: gemma-4-e2b-it-Q2_K-GGUF
+  - key: s3dev-ai/gemma-4-E2B-it-gguf
+    sources:
+      - type: huggingface
+        user: s3dev-ai
+        repo: gemma-4-E2B-it-gguf
+  - key: mrgnw/gemma-4-e2b-svelte5
+    sources:
+      - type: huggingface
+        user: mrgnw
+        repo: gemma-4-e2b-svelte5
+  - key: majentik/gemma-4-E2B-RotorQuant-GGUF-IQ4_XS
+    sources:
+      - type: huggingface
+        user: majentik
+        repo: gemma-4-E2B-RotorQuant-GGUF-IQ4_XS
+  - key: keisuke-miyako/gemma-4-E2B-it-gguf-blog
+    sources:
+      - type: huggingface
+        user: keisuke-miyako
+        repo: gemma-4-E2B-it-gguf-blog
+  - key: aungzaythant/gemma-4-E2B-astrology-v2
+    sources:
+      - type: huggingface
+        user: aungzaythant
+        repo: gemma-4-E2B-astrology-v2
+  - key: acidsound/gyeongsang_dialect_unsloth_gemma-4-e2b-it_q4_k_m
+    sources:
+      - type: huggingface
+        user: acidsound
+        repo: gyeongsang_dialect_unsloth_gemma-4-e2b-it_q4_k_m
+  - key: dahus/gemma-4-e2b-it-Q8_0-GGUF
+    sources:
+      - type: huggingface
+        user: dahus
+        repo: gemma-4-e2b-it-Q8_0-GGUF
+  - key: kof1467/Gemma-4-E2B-Uncensored-HauhauCS-Aggressive
+    sources:
+      - type: huggingface
+        user: kof1467
+        repo: Gemma-4-E2B-Uncensored-HauhauCS-Aggressive
+  - key: Rosexh/Gemma-4-E2B-Uncensored-HauhauCS-Aggressive
+    sources:
+      - type: huggingface
+        user: Rosexh
+        repo: Gemma-4-E2B-Uncensored-HauhauCS-Aggressive
+  - key: aungzaythant/gemma-4-E2B-astrology-v3
+    sources:
+      - type: huggingface
+        user: aungzaythant
+        repo: gemma-4-E2B-astrology-v3
+  - key: keisuke-miyako/gemma-4-E2B-it-gguf-tn-kb-0.2
+    sources:
+      - type: huggingface
+        user: keisuke-miyako
+        repo: gemma-4-E2B-it-gguf-tn-kb-0.2
+  - key: aungzaythant/gemma-4-E2B-astrology-v4
+    sources:
+      - type: huggingface
+        user: aungzaythant
+        repo: gemma-4-E2B-astrology-v4
+  - key: dahus/gemma-4-e2b-it-Q5_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: dahus
+        repo: gemma-4-e2b-it-Q5_K_M-GGUF
+  - key: TheTokenFactory/gemma-4-E2B-sec-extraction-GGUF-v3
+    sources:
+      - type: huggingface
+        user: TheTokenFactory
+        repo: gemma-4-E2B-sec-extraction-GGUF-v3
+  - key: thejemish/crop-disease-finder-gemma4-e2b-GGUF
+    sources:
+      - type: huggingface
+        user: thejemish
+        repo: crop-disease-finder-gemma4-e2b-GGUF
+  - key: dahus/gemma-4-e2b-it-Q3_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: dahus
+        repo: gemma-4-e2b-it-Q3_K_M-GGUF
+  - key: dahus/gemma-4-e2b-it-Q4_K_S-GGUF
+    sources:
+      - type: huggingface
+        user: dahus
+        repo: gemma-4-e2b-it-Q4_K_S-GGUF
+  - key: Tamek/Mirai_gemma-4-e2b-GGUF-16f_Q4_K_M
+    sources:
+      - type: huggingface
+        user: Tamek
+        repo: Mirai_gemma-4-e2b-GGUF-16f_Q4_K_M
+  - key: dahus/gemma-4-e2b-it-Q5_K_S-GGUF
+    sources:
+      - type: huggingface
+        user: dahus
+        repo: gemma-4-e2b-it-Q5_K_S-GGUF
+  - key: DuoNeural/Gemma-4-E2B-Abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: DuoNeural
+        repo: Gemma-4-E2B-Abliterated-GGUF
+  - key: sangwon1472/gemma4-e2b-mud
+    sources:
+      - type: huggingface
+        user: sangwon1472
+        repo: gemma4-e2b-mud
+  - key: dahus/gemma-4-e2b-it-Q3_K_S-GGUF
+    sources:
+      - type: huggingface
+        user: dahus
+        repo: gemma-4-e2b-it-Q3_K_S-GGUF
+  - key: bjivanovich/Gemma4-E2B-Vision-GGUF
+    sources:
+      - type: huggingface
+        user: bjivanovich
+        repo: Gemma4-E2B-Vision-GGUF
+  - key: haifeng1976/provn-gemma4-e2b-q4km
+    sources:
+      - type: huggingface
+        user: haifeng1976
+        repo: provn-gemma4-e2b-q4km
+  - key: Open4bits/gemma-4-E2B-GGUF
+    sources:
+      - type: huggingface
+        user: Open4bits
+        repo: gemma-4-E2B-GGUF
+  - key: TheTokenFactory/gemma-4-E2B-sec-extraction-GGUF-v2
+    sources:
+      - type: huggingface
+        user: TheTokenFactory
+        repo: gemma-4-E2B-sec-extraction-GGUF-v2
+  - key: Jackapan/gemma-4-E2B-it-Q4_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: Jackapan
+        repo: gemma-4-E2B-it-Q4_K_M-GGUF
 metadataOverrides:
   domain: llm
   architectures:
@@ -331,3 +611,32 @@ metadataOverrides:
   vision: true
   reasoning: true
   trainedForToolUse: true
+config:
+  operation:
+    fields:
+      - key: llm.prediction.temperature
+        value: 1.0
+      - key: llm.prediction.topKSampling
+        value: 64
+      - key: llm.prediction.topPSampling
+        value:
+          checked: true
+          value: 0.95
+      - key: llm.prediction.minPSampling
+        value:
+          checked: false
+          value: 0.0
+      - key: llm.prediction.reasoning.parsing
+        value:
+          enabled: true
+          startString: "<|channel>thought"
+          endString: "<channel|>"
+customFields:
+  - key: enableThinking
+    displayName: Enable Thinking
+    description: Controls whether the model will think before replying
+    type: boolean
+    defaultValue: true
+    effects:
+      - type: setJinjaVariable
+        variable: enable_thinking

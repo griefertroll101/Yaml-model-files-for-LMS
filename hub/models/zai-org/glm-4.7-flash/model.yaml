@@ -142,7 +142,7 @@ base:
       - type: huggingface
         user: MuXodious
         repo: GLM-4.7-Flash-absolute-heresy-GGUF
-  - key: mradermacher/glm-4.7-flash-absolute-heresy-gguf
+  - key: mradermacher/GLM-4.7-Flash-absolute-heresy-GGUF
     sources:
       - type: huggingface
         user: mradermacher
@@ -647,21 +647,93 @@ base:
       - type: huggingface
         user: fy168
         repo: GLM-4.7-Flash-REAP-50_Q4_K_M_GGUF
+  - key: ENOSYS/GLM-4.7-Flash-Uncensored-750-v1-GGUF
+    sources:
+      - type: huggingface
+        user: ENOSYS
+        repo: GLM-4.7-Flash-Uncensored-750-v1-GGUF
+  - key: mradermacher/gemma-4-E4B-it-GLM-4.7-Flash-HERETIC-UNCENSORED-Thinking-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E4B-it-GLM-4.7-Flash-HERETIC-UNCENSORED-Thinking-i1-GGUF
+  - key: mradermacher/gemma-4-E4B-it-GLM-4.7-Flash-HERETIC-UNCENSORED-Thinking-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E4B-it-GLM-4.7-Flash-HERETIC-UNCENSORED-Thinking-GGUF
+  - key: ash1shkushwaha/GLM-4.7-Flash-Uncensored-Heretic-NEO-CODE-Imatrix-MAX-GGUF
+    sources:
+      - type: huggingface
+        user: ash1shkushwaha
+        repo: GLM-4.7-Flash-Uncensored-Heretic-NEO-CODE-Imatrix-MAX-GGUF
+  - key: tripolskypetr/GLM-4.7-Flash-Uncensored-Aggressive-GGUF
+    sources:
+      - type: huggingface
+        user: tripolskypetr
+        repo: GLM-4.7-Flash-Uncensored-Aggressive-GGUF
+  - key: mradermacher/GLM-4.7-Flash-impotent-heresy-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: GLM-4.7-Flash-impotent-heresy-GGUF
+  - key: mradermacher/Huihui-GLM-4.7-Flash-abliterated-60B_DEPTHONLY-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Huihui-GLM-4.7-Flash-abliterated-60B_DEPTHONLY-i1-GGUF
+  - key: tutuchen2000/Huihui-GLM-4.7-Flash-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: tutuchen2000
+        repo: Huihui-GLM-4.7-Flash-abliterated-GGUF
+  - key: mradermacher/GLM-4.7-Flash-REAP-23B-A3B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: GLM-4.7-Flash-REAP-23B-A3B-GGUF
+  - key: Thireus/GLM-4.7-Flash-THIREUS-IQ5_KS-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: GLM-4.7-Flash-THIREUS-IQ5_KS-SPECIAL_SPLIT
+  - key: Thireus/GLM-4.7-Flash-THIREUS-IQ2_KS-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: GLM-4.7-Flash-THIREUS-IQ2_KS-SPECIAL_SPLIT
+metadataOverrides:
+  domain: llm
+  architectures:
+    - glm4_moe_lite
+  compatibilityTypes:
+    - gguf
+    - safetensors
+  paramsStrings:
+    - 30B
+  minMemoryUsageBytes: 16000000000
+  contextLengths:
+    - 131072
+  vision: false
+  reasoning: true
+  trainedForToolUse: true
 config:
   operation:
     fields:
       - key: llm.prediction.temperature
-        value: 0.2
-      - key: llm.prediction.topKSampling
-        value: 50
+        value: 1.0
       - key: llm.prediction.topPSampling
         value:
           checked: true
           value: 0.95
+      - key: llm.prediction.minPSampling
+        value:
+          checked: true
+          value: 0.01
       - key: llm.prediction.repeatPenalty
         value:
           checked: false
-          value: 0
+          value: 1.0
 customFields:
   - key: enableThinking
     displayName: Enable Thinking
@@ -679,18 +751,3 @@ customFields:
     effects:
       - type: setJinjaVariable
         variable: clear_thinking
-metadataOverrides:
-  domain: llm
-  architectures:
-    - glm4_moe_lite
-  compatibilityTypes:
-    - gguf
-    - safetensors
-  paramsStrings:
-    - 30B
-  minMemoryUsageBytes: 16000000000
-  contextLengths:
-    - 131072
-  vision: false
-  reasoning: true
-  trainedForToolUse: true
