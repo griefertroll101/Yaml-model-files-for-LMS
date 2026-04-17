@@ -1,5 +1,5 @@
 # Issue regarding some models
-qwen3.5-4b, qwen3.5-27b, qwen-122b-a10b and glm-4.5-air as I think I know the issue now. Still work but just double models because LMS bs.
+A couple models but overall 90% have no problem. Problem models still work but just double models because LMS bs.
 # Yaml Model Files For LMS
 Note: This is maintained by GrieferTroll in the LM Studio discord. Please do not bother Yags or Yorkie they have better things to do. DM me if an issue is here or use the issues tab here.
 
