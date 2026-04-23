@@ -577,12 +577,12 @@ base:
       - type: huggingface
         user: Thireus
         repo: GLM-4.7-Flash-THIREUS-IQ4_KT-SPECIAL_SPLIT
-  - key: thireus/glm-4.7-flash-thireus-iq4_kss-special_split
+  - key: Thireus/GLM-4.7-Flash-THIREUS-IQ4_KSS-SPECIAL_SPLIT
     sources:
       - type: huggingface
         user: Thireus
         repo: GLM-4.7-Flash-THIREUS-IQ4_KSS-SPECIAL_SPLIT
-  - key: thireus/glm-4.7-flash-thireus-iq4_ks-special_split
+  - key: Thireus/GLM-4.7-Flash-THIREUS-IQ4_KS-SPECIAL_SPLIT
     sources:
       - type: huggingface
         user: Thireus
@@ -702,6 +702,56 @@ base:
       - type: huggingface
         user: Thireus
         repo: GLM-4.7-Flash-THIREUS-IQ2_KS-SPECIAL_SPLIT
+  - key: mradermacher/LFM2-8B-A1B-SpeedDemon-GLM-4.7-Flash-Thinking-Instruct-Hybrid-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: LFM2-8B-A1B-SpeedDemon-GLM-4.7-Flash-Thinking-Instruct-Hybrid-i1-GGUF
+  - key: mradermacher/LFM2-8B-A1B-SpeedDemon-GLM-4.7-Flash-Thinking-Instruct-Hybrid-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: LFM2-8B-A1B-SpeedDemon-GLM-4.7-Flash-Thinking-Instruct-Hybrid-GGUF
+  - key: claudieshannon/GLM-4.7-Flash-Claudie-LoRA-GGUF
+    sources:
+      - type: huggingface
+        user: claudieshannon
+        repo: GLM-4.7-Flash-Claudie-LoRA-GGUF
+  - key: Thireus/GLM-4.7-Flash-THIREUS-IQ2_KT-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: GLM-4.7-Flash-THIREUS-IQ2_KT-SPECIAL_SPLIT
+  - key: Thireus/GLM-4.7-Flash-THIREUS-IQ1_M_R4-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: GLM-4.7-Flash-THIREUS-IQ1_M_R4-SPECIAL_SPLIT
+  - key: Thireus/GLM-4.7-Flash-THIREUS-IQ3_KT-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: GLM-4.7-Flash-THIREUS-IQ3_KT-SPECIAL_SPLIT
+  - key: Thireus/GLM-4.7-Flash-THIREUS-IQ4_KS_R4-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: GLM-4.7-Flash-THIREUS-IQ4_KS_R4-SPECIAL_SPLIT
+  - key: Thireus/GLM-4.7-Flash-THIREUS-IQ1_BN-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: GLM-4.7-Flash-THIREUS-IQ1_BN-SPECIAL_SPLIT
+  - key: Thireus/GLM-4.7-Flash-THIREUS-IQ1_KT-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: GLM-4.7-Flash-THIREUS-IQ1_KT-SPECIAL_SPLIT
+  - key: Thireus/GLM-4.7-Flash-THIREUS-IQ2_BN-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: GLM-4.7-Flash-THIREUS-IQ2_BN-SPECIAL_SPLIT
 metadataOverrides:
   domain: llm
   architectures:

@@ -382,6 +382,21 @@ base:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-9B-GLM5.1-Distill-v1-i1-GGUF
+  - key: Jackrong/Qwen3.5-27B-GLM5.1-Distill-v1-GGUF
+    sources:
+      - type: huggingface
+        user: Jackrong
+        repo: Qwen3.5-27B-GLM5.1-Distill-v1-GGUF
+  - key: Thireus/GLM-5.1-THIREUS-IQ4_XS_R8-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: GLM-5.1-THIREUS-IQ4_XS_R8-SPECIAL_SPLIT
+  - key: 0xSero/GLM-5.1-REAP
+    sources:
+      - type: huggingface
+        user: 0xSero
+        repo: GLM-5.1-REAP
 metadataOverrides:
   domain: llm
   architectures:

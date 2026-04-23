@@ -597,6 +597,81 @@ base:
       - type: huggingface
         user: Jackapan
         repo: gemma-4-E2B-it-Q4_K_M-GGUF
+  - key: mradermacher/gemma-4-E2B-it-ARA-heresy-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E2B-it-ARA-heresy-i1-GGUF
+  - key: mradermacher/gemma-4-E2B-OBLITERATED-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E2B-OBLITERATED-i1-GGUF
+  - key: sunil-pathak/gemma-4-E2B-it-IQ4_NL
+    sources:
+      - type: huggingface
+        user: sunil-pathak
+        repo: gemma-4-E2B-it-IQ4_NL
+  - key: mradermacher/gemma-4-E2B-it-ARA-heresy-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E2B-it-ARA-heresy-GGUF
+  - key: Alienstro/Gemma4-E2B-Opus-4.6-Reasoning-3000-GGUF
+    sources:
+      - type: huggingface
+        user: Alienstro
+        repo: Gemma4-E2B-Opus-4.6-Reasoning-3000-GGUF
+  - key: mradermacher/Gemma4-E2B-SFT-Claude-Opus-Reasoning-Unsloth-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Gemma4-E2B-SFT-Claude-Opus-Reasoning-Unsloth-GGUF
+  - key: artofai2030/unsloth_gemma-4-E2B-it_1776540311-gguf
+    sources:
+      - type: huggingface
+        user: artofai2030
+        repo: unsloth_gemma-4-E2B-it_1776540311-gguf
+  - key: ermiaazarkhalili/Gemma4-E2B-SFT-Claude-Opus-Reasoning-Unsloth-GGUF
+    sources:
+      - type: huggingface
+        user: ermiaazarkhalili
+        repo: Gemma4-E2B-SFT-Claude-Opus-Reasoning-Unsloth-GGUF
+  - key: mradermacher/gemma-4-E2B-OBLITERATED-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E2B-OBLITERATED-GGUF
+  - key: ermiaazarkhalili/Gemma4-E2B-Function-Calling-xLAM-Unsloth-GGUF
+    sources:
+      - type: huggingface
+        user: ermiaazarkhalili
+        repo: Gemma4-E2B-Function-Calling-xLAM-Unsloth-GGUF
+  - key: CQSystems/Google-Gemma-4-E2B-It
+    sources:
+      - type: huggingface
+        user: CQSystems
+        repo: Google-Gemma-4-E2B-It
+  - key: eaddario/gemma-4-E2B-it-GGUF
+    sources:
+      - type: huggingface
+        user: eaddario
+        repo: gemma-4-E2B-it-GGUF
+  - key: BlankHtmlPage/gemma-4-E2B-Claude-4.6-Opus-Reasoning-Distilled-IQ4_XS-GGUF
+    sources:
+      - type: huggingface
+        user: BlankHtmlPage
+        repo: gemma-4-E2B-Claude-4.6-Opus-Reasoning-Distilled-IQ4_XS-GGUF
+  - key: Cruxial/gemma4-E2B-recipe-vision-gguf
+    sources:
+      - type: huggingface
+        user: Cruxial
+        repo: gemma4-E2B-recipe-vision-gguf
+  - key: cang1103/Gemma-4-E2B-Uncensored-HauhauCS-Aggressive
+    sources:
+      - type: huggingface
+        user: cang1103
+        repo: Gemma-4-E2B-Uncensored-HauhauCS-Aggressive
 metadataOverrides:
   domain: llm
   architectures:

@@ -912,6 +912,66 @@ base:
       - type: huggingface
         user: Pawellll
         repo: Qwen3.5-27B-IQ4_KS-GGUF
+  - key: mradermacher/Qwen3.5-27B-Anko-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-Anko-i1-GGUF
+  - key: mradermacher/Qwen3.5-27B-Writer-V2-uncensored-heretic-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-Writer-V2-uncensored-heretic-i1-GGUF
+  - key: Jackrong/Qwen3.5-27B-GLM5.1-Distill-v1-GGUF
+    sources:
+      - type: huggingface
+        user: Jackrong
+        repo: Qwen3.5-27B-GLM5.1-Distill-v1-GGUF
+  - key: mradermacher/Qwen3.5-27B-Thinking-SFT-V2-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-Thinking-SFT-V2-i1-GGUF
+  - key: mradermacher/Qwen3.5-27B-Star-Trek-TNG-DS9-Heretic-Uncensored-Thinking-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-Star-Trek-TNG-DS9-Heretic-Uncensored-Thinking-i1-GGUF
+  - key: mradermacher/Qwen3.5-27B-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-abliterated-GGUF
+  - key: mradermacher/Huihui-Qwen3.5-27B-abliterated-Athanorlite-ORPO-v2-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Huihui-Qwen3.5-27B-abliterated-Athanorlite-ORPO-v2-i1-GGUF
+  - key: llmfan46/Qwen3.5-27B-Writer-V2-uncensored-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: llmfan46
+        repo: Qwen3.5-27B-Writer-V2-uncensored-heretic-GGUF
+  - key: mikehenken/Qwen3.5-27B-Gemini-3.1-Pro-Reasoning-Distill-GGUF
+    sources:
+      - type: huggingface
+        user: mikehenken
+        repo: Qwen3.5-27B-Gemini-3.1-Pro-Reasoning-Distill-GGUF
+  - key: continuum-ai/qwen3.5-27b-code-forged-mlx-4bit
+    sources:
+      - type: huggingface
+        user: continuum-ai
+        repo: qwen3.5-27b-code-forged-mlx-4bit
+  - key: mradermacher/Qwen3.5-27B-Writer-V2-uncensored-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-Writer-V2-uncensored-heretic-GGUF
+  - key: mradermacher/qwen3.5-27b-unslop-good-lora-v1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: qwen3.5-27b-unslop-good-lora-v1-GGUF
 metadataOverrides:
   domain: llm
   architectures:

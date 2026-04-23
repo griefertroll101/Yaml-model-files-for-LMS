@@ -537,6 +537,106 @@ base:
       - type: huggingface
         user: DuoNeural
         repo: Gemma-4-26B-A4B-it-GGUF
+  - key: mradermacher/gemma-4-26B-A4B-it-Uncensored-MAX-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-26B-A4B-it-Uncensored-MAX-i1-GGUF
+  - key: mradermacher/gemma-4-26B-A4B-it-abliterix-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-26B-A4B-it-abliterix-i1-GGUF
+  - key: eaddario/gemma-4-26B-A4B-it-GGUF
+    sources:
+      - type: huggingface
+        user: eaddario
+        repo: gemma-4-26B-A4B-it-GGUF
+  - key: mradermacher/gemma-4-26B-A4B-it-ARA-heresy-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-26B-A4B-it-ARA-heresy-i1-GGUF
+  - key: mradermacher/gemma-4-26B-A4B-ARA-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-26B-A4B-ARA-i1-GGUF
+  - key: mradermacher/gemma-4-26B-A4B-it-Uncensored-MAX-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-26B-A4B-it-Uncensored-MAX-GGUF
+  - key: MuXodious/gemma-4-26B-A4B-it-ARA-heresy-GGUF
+    sources:
+      - type: huggingface
+        user: MuXodious
+        repo: gemma-4-26B-A4B-it-ARA-heresy-GGUF
+  - key: mradermacher/gemma-4-26B-A4B-it-ARA-heresy-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-26B-A4B-it-ARA-heresy-GGUF
+  - key: mradermacher/gemma-4-26B-A4B-it-abliterix-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-26B-A4B-it-abliterix-GGUF
+  - key: CompressedGemma/gemma-4-26B-A4B-it-compressed
+    sources:
+      - type: huggingface
+        user: CompressedGemma
+        repo: gemma-4-26B-A4B-it-compressed
+  - key: AgentAnon/gemma-4-26B-A4B-it-uncensored-GGUF
+    sources:
+      - type: huggingface
+        user: AgentAnon
+        repo: gemma-4-26B-A4B-it-uncensored-GGUF
+  - key: sphaela/gemma-4-26B-A4B-it-AutoRound-GGUF
+    sources:
+      - type: huggingface
+        user: sphaela
+        repo: gemma-4-26B-A4B-it-AutoRound-GGUF
+  - key: wangzhang/gemma-4-26B-A4B-it-abliterix
+    sources:
+      - type: huggingface
+        user: wangzhang
+        repo: gemma-4-26B-A4B-it-abliterix
+  - key: Arue-2026/gemma-4-26B-A4B-it-ultra-uncensored-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: Arue-2026
+        repo: gemma-4-26B-A4B-it-ultra-uncensored-heretic-GGUF
+  - key: Arue-2026/gemma-4-26B-A4B-it-uncensored-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: Arue-2026
+        repo: gemma-4-26B-A4B-it-uncensored-heretic-GGUF
+  - key: KikoCis/gemma-4-26B-A4B-it-IQ2_M-GGUF
+    sources:
+      - type: huggingface
+        user: KikoCis
+        repo: gemma-4-26B-A4B-it-IQ2_M-GGUF
+  - key: mradermacher/Gemma-4-26B-A4B-Abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Gemma-4-26B-A4B-Abliterated-GGUF
+  - key: wangzhang/gemma-4-26B-A4B-it-abliterix-GGUF
+    sources:
+      - type: huggingface
+        user: wangzhang
+        repo: gemma-4-26B-A4B-it-abliterix-GGUF
+  - key: mradermacher/gemma-4-26B-A4B-it-Claude-Opus-Distill-v2-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-26B-A4B-it-Claude-Opus-Distill-v2-GGUF
+  - key: mradermacher/Gemma4-26B-A4B-Korean-Opus-4.6-Distilled-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Gemma4-26B-A4B-Korean-Opus-4.6-Distilled-GGUF
 metadataOverrides:
   domain: llm
   architectures:

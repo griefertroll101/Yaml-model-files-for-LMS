@@ -512,6 +512,11 @@ base:
       - type: huggingface
         user: mudler
         repo: Qwen3.5-397B-A17B-APEX-GGUF
+  - key: SECWIKI/AliceThirty-Qwen3.5-397B-A17B-heretic-gguf
+    sources:
+      - type: huggingface
+        user: SECWIKI
+        repo: AliceThirty-Qwen3.5-397B-A17B-heretic-gguf
 metadataOverrides:
   domain: llm
   architectures:

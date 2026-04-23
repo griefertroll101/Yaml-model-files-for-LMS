@@ -602,6 +602,56 @@ base:
       - type: huggingface
         user: XpressAI
         repo: Qwen3.5-2B-RYS-UD-Q4_K_XL-GGUF
+  - key: khazarai/Qwen3.5-2B-Qwen3.6-plus-Distilled-GGUF
+    sources:
+      - type: huggingface
+        user: khazarai
+        repo: Qwen3.5-2B-Qwen3.6-plus-Distilled-GGUF
+  - key: ermiaazarkhalili/Qwen3.5-2B-Function-Calling-xLAM-Unsloth-GGUF
+    sources:
+      - type: huggingface
+        user: ermiaazarkhalili
+        repo: Qwen3.5-2B-Function-Calling-xLAM-Unsloth-GGUF
+  - key: kanakjr/homebot-qwen3.5-2b-gguf
+    sources:
+      - type: huggingface
+        user: kanakjr
+        repo: homebot-qwen3.5-2b-gguf
+  - key: NhZtw/Qwen3.5-2B-UCO-6to4-TruthFix-GGUF
+    sources:
+      - type: huggingface
+        user: NhZtw
+        repo: Qwen3.5-2B-UCO-6to4-TruthFix-GGUF
+  - key: tsilva/unsloth_Qwen3.5-2B-Uncensored
+    sources:
+      - type: huggingface
+        user: tsilva
+        repo: unsloth_Qwen3.5-2B-Uncensored
+  - key: botp/Qwen3.5-2B-Uncensored-HauhauCS-Aggressive
+    sources:
+      - type: huggingface
+        user: botp
+        repo: Qwen3.5-2B-Uncensored-HauhauCS-Aggressive
+  - key: hpham307/qwen3.5-2b-math-gguf
+    sources:
+      - type: huggingface
+        user: hpham307
+        repo: qwen3.5-2b-math-gguf
+  - key: mradermacher/Qwen3.5-2B_Abliterated-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-2B_Abliterated-i1-GGUF
+  - key: Thireus/Qwen3.5-2B-THIREUS-IQ2_BN_R4-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: Qwen3.5-2B-THIREUS-IQ2_BN_R4-SPECIAL_SPLIT
+  - key: Thireus/Qwen3.5-2B-THIREUS-IQ2_KS-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: Qwen3.5-2B-THIREUS-IQ2_KS-SPECIAL_SPLIT
 metadataOverrides:
   domain: llm
   architectures:

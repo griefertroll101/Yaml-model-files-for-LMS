@@ -552,6 +552,51 @@ base:
       - type: huggingface
         user: darealmelo
         repo: OpenAi-GPT-oss-20b-abliterated-uncensored-NEO-Imatrix-gguf
+  - key: mradermacher/gpt-oss-20b-heretic-B-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gpt-oss-20b-heretic-B-i1-GGUF
+  - key: mradermacher/gpt-oss-20b-claude-opus-sonnet-reasoning-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gpt-oss-20b-claude-opus-sonnet-reasoning-i1-GGUF
+  - key: mradermacher/gpt-oss-20b-claude-opus-sonnet-reasoning-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gpt-oss-20b-claude-opus-sonnet-reasoning-GGUF
+  - key: mradermacher/gpt-oss-20B-jail-broke-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gpt-oss-20B-jail-broke-i1-GGUF
+  - key: mradermacher/gpt-oss-20b-heretic-B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gpt-oss-20b-heretic-B-GGUF
+  - key: wangzhang/gpt-oss-20b-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: wangzhang
+        repo: gpt-oss-20b-abliterated-GGUF
+  - key: mradermacher/gpt-oss-20b-ShiningValiant3-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gpt-oss-20b-ShiningValiant3-i1-GGUF
+  - key: mradermacher/gpt-oss-20b-VietMind-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gpt-oss-20b-VietMind-i1-GGUF
+  - key: Mungert/gpt-oss-20b-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: Mungert
+        repo: gpt-oss-20b-heretic-GGUF
 metadataOverrides:
   domain: llm
   architectures:

@@ -597,6 +597,71 @@ base:
       - type: huggingface
         user: thetom-ai
         repo: Gemma-4-31B-it-TQPlus
+  - key: mradermacher/gemma-4-31B-it-abliterated-v2-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-31B-it-abliterated-v2-i1-GGUF
+  - key: mradermacher/Fabled-Gemma4-31B-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Fabled-Gemma4-31B-i1-GGUF
+  - key: mradermacher/gemma-4-31B-it-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-31B-it-i1-GGUF
+  - key: mradermacher/Huihui-gemma-4-31B-it-abliterated-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Huihui-gemma-4-31B-it-abliterated-i1-GGUF
+  - key: CISCai/gemma-4-31B-it-NVFP4-turbo-GGUF
+    sources:
+      - type: huggingface
+        user: CISCai
+        repo: gemma-4-31B-it-NVFP4-turbo-GGUF
+  - key: mradermacher/Huihui-gemma-4-31B-it-abliterated-v2-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Huihui-gemma-4-31B-it-abliterated-v2-i1-GGUF
+  - key: mradermacher/gemma-4-31B-it-Uncensored-MAX-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-31B-it-Uncensored-MAX-i1-GGUF
+  - key: mradermacher/Huihui-gemma-4-31B-it-abliterated-v2-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Huihui-gemma-4-31B-it-abliterated-v2-GGUF
+  - key: mradermacher/gemma-4-31B-it-abliterated-v2-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-31B-it-abliterated-v2-GGUF
+  - key: mradermacher/gemma-4-31B-it-Uncensored-MAX-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-31B-it-Uncensored-MAX-GGUF
+  - key: mradermacher/gemma-4-31B-it-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-31B-it-GGUF
+  - key: mradermacher/Huihui-gemma-4-31B-it-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Huihui-gemma-4-31B-it-abliterated-GGUF
+  - key: mradermacher/Fabled-Gemma4-31B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Fabled-Gemma4-31B-GGUF
 metadataOverrides:
   domain: llm
   architectures:

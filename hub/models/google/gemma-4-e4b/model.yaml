@@ -527,6 +527,56 @@ base:
       - type: huggingface
         user: DuoNeural
         repo: Gemma-4-E4B-Claude-Abliterated-GGUF
+  - key: OBLITERATUS/gemma-4-E4B-it-OBLITERATED
+    sources:
+      - type: huggingface
+        user: OBLITERATUS
+        repo: gemma-4-E4B-it-OBLITERATED
+  - key: Abiray/gemma-4-E4B-it-OBLITERATED-GGUF
+    sources:
+      - type: huggingface
+        user: Abiray
+        repo: gemma-4-E4B-it-OBLITERATED-GGUF
+  - key: mradermacher/gemma-4-E4B-it-OBLITERATED-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E4B-it-OBLITERATED-i1-GGUF
+  - key: mradermacher/gemma-4-E4B-it-abliterix-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E4B-it-abliterix-i1-GGUF
+  - key: mradermacher/gemma-4-E4B-it-OBLITERATED-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E4B-it-OBLITERATED-GGUF
+  - key: mradermacher/gemma-4-E4B-it-Uncensored-MAX-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E4B-it-Uncensored-MAX-i1-GGUF
+  - key: mradermacher/dggirl-gemma-4-E4B-it-merged-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: dggirl-gemma-4-E4B-it-merged-i1-GGUF
+  - key: sunil-pathak/gemma-4-E4B-it-IQ4_NL
+    sources:
+      - type: huggingface
+        user: sunil-pathak
+        repo: gemma-4-E4B-it-IQ4_NL
+  - key: Centara/gemma-4-E4B-it-OBLITERATED-Q8_0-GGUF
+    sources:
+      - type: huggingface
+        user: Centara
+        repo: gemma-4-E4B-it-OBLITERATED-Q8_0-GGUF
+  - key: DuoNeural/Gemma-4-E4B-Abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: DuoNeural
+        repo: Gemma-4-E4B-Abliterated-GGUF
 metadataOverrides:
   domain: llm
   architectures:

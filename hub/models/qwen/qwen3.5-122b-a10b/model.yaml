@@ -517,6 +517,56 @@ base:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-122B-A10B-THIREUS-Q2_K-SPECIAL_SPLIT
+  - key: dog3-l0ver/Qwen3.5-122B-A10B-Claude-distill-GGUF
+    sources:
+      - type: huggingface
+        user: dog3-l0ver
+        repo: Qwen3.5-122B-A10B-Claude-distill-GGUF
+  - key: Sherckuith/Qwen3.5-122B-A10B-Uncensored-HauhauCS-Aggressive
+    sources:
+      - type: huggingface
+        user: Sherckuith
+        repo: Qwen3.5-122B-A10B-Uncensored-HauhauCS-Aggressive
+  - key: SassyDiffusion/Qwen3.5-122B-A10B-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: SassyDiffusion
+        repo: Qwen3.5-122B-A10B-heretic-GGUF
+  - key: baa-ai/Qwen3.5-122B-A10B-RAM-164GB-GGUF
+    sources:
+      - type: huggingface
+        user: baa-ai
+        repo: Qwen3.5-122B-A10B-RAM-164GB-GGUF
+  - key: baa-ai/Qwen3.5-122B-A10B-RAM-94GB-GGUF
+    sources:
+      - type: huggingface
+        user: baa-ai
+        repo: Qwen3.5-122B-A10B-RAM-94GB-GGUF
+  - key: Volko76/Qwen3.5-122B-A10B-Q3_K_S-MERGED
+    sources:
+      - type: huggingface
+        user: Volko76
+        repo: Qwen3.5-122B-A10B-Q3_K_S-MERGED
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-IQ1_S-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: Qwen3.5-122B-A10B-THIREUS-IQ1_S-SPECIAL_SPLIT
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-Q5_K-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: Qwen3.5-122B-A10B-THIREUS-Q5_K-SPECIAL_SPLIT
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-IQ1_M-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: Qwen3.5-122B-A10B-THIREUS-IQ1_M-SPECIAL_SPLIT
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-Q4_K-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: Qwen3.5-122B-A10B-THIREUS-Q4_K-SPECIAL_SPLIT
 metadataOverrides:
   domain: llm
   architectures:

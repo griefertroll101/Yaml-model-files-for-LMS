@@ -1072,6 +1072,41 @@ base:
       - type: huggingface
         user: mradermacher
         repo: ObjNav-Qwen3.5-4B-SFT-GGUF
+  - key: mradermacher/Qwen3.5-4b-EBOS-GRPO-v1-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-4b-EBOS-GRPO-v1-i1-GGUF
+  - key: mradermacher/qwen3.5-4b-demon-angel-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: qwen3.5-4b-demon-angel-i1-GGUF
+  - key: mradermacher/Qwen3.5-4B-EBOS-v2-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-4B-EBOS-v2-i1-GGUF
+  - key: mradermacher/Qwen3.5-4b-EBOS-GRPO-v1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-4b-EBOS-GRPO-v1-GGUF
+  - key: Shumatsurontek/Qwen3.5-4B-neo
+    sources:
+      - type: huggingface
+        user: Shumatsurontek
+        repo: Qwen3.5-4B-neo
+  - key: mradermacher/qwen3.5-4b-demon-angel-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: qwen3.5-4b-demon-angel-GGUF
+  - key: mradermacher/Huihui-Qwen3.5-4B-abliterated-Athanorlite-ORPO-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Huihui-Qwen3.5-4B-abliterated-Athanorlite-ORPO-GGUF
 metadataOverrides:
   domain: llm
   architectures:

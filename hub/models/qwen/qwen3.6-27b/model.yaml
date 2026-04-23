@@ -1,0 +1,253 @@
+# model.yaml is an open standard for defining cross-platform, composable AI models
+# Learn more at https://modelyaml.org
+model: qwen/qwen3.6-27b
+base:
+  - key: unsloth/Qwen3.6-27B-GGUF
+    sources:
+      - type: huggingface
+        user: unsloth
+        repo: Qwen3.6-27B-GGUF
+  - key: Jackrong/Qwen3.6-27B-GGUF
+    sources:
+      - type: huggingface
+        user: Jackrong
+        repo: Qwen3.6-27B-GGUF
+  - key: lmstudio-community/Qwen3.6-27B-GGUF
+    sources:
+      - type: huggingface
+        user: lmstudio-community
+        repo: Qwen3.6-27B-GGUF
+  - key: HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive
+    sources:
+      - type: huggingface
+        user: HauhauCS
+        repo: Qwen3.6-27B-Uncensored-HauhauCS-Aggressive
+  - key: prithivMLmods/Qwen3.6-27B-GGUF
+    sources:
+      - type: huggingface
+        user: prithivMLmods
+        repo: Qwen3.6-27B-GGUF
+  - key: sm54/Qwen3.6-27B-Q4_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: sm54
+        repo: Qwen3.6-27B-Q4_K_M-GGUF
+  - key: cmp-nct/Qwen3.6-27B-GGUF
+    sources:
+      - type: huggingface
+        user: cmp-nct
+        repo: Qwen3.6-27B-GGUF
+  - key: sm54/Qwen3.6-27B-Q6_K-GGUF
+    sources:
+      - type: huggingface
+        user: sm54
+        repo: Qwen3.6-27B-Q6_K-GGUF
+  - key: Ankushbl6/Qwen3.6-27B-GGUF
+    sources:
+      - type: huggingface
+        user: Ankushbl6
+        repo: Qwen3.6-27B-GGUF
+  - key: etemiz/Qwen3.6-27B-GGUF
+    sources:
+      - type: huggingface
+        user: etemiz
+        repo: Qwen3.6-27B-GGUF
+  - key: YTan2000/Qwen3.6-27B-TQ3_4S
+    sources:
+      - type: huggingface
+        user: YTan2000
+        repo: Qwen3.6-27B-TQ3_4S
+  - key: islameissa/Qwen3.6-27B_IQ4_GGUF
+    sources:
+      - type: huggingface
+        user: islameissa
+        repo: Qwen3.6-27B_IQ4_GGUF
+  - key: mad-lab-ai/Qwen3.6-27B-tq-gguf
+    sources:
+      - type: huggingface
+        user: mad-lab-ai
+        repo: Qwen3.6-27B-tq-gguf
+  - key: AaryanK/Qwen3.6-27B-GGUF
+    sources:
+      - type: huggingface
+        user: AaryanK
+        repo: Qwen3.6-27B-GGUF
+  - key: ggml-org/Qwen3.6-27B-GGUF
+    sources:
+      - type: huggingface
+        user: ggml-org
+        repo: Qwen3.6-27B-GGUF
+  - key: tim-janik/Qwen3.6-27B-GGUF
+    sources:
+      - type: huggingface
+        user: tim-janik
+        repo: Qwen3.6-27B-GGUF
+  - key: Beinsezii/Qwen3.6-27B-5.10BPW-GGUF
+    sources:
+      - type: huggingface
+        user: Beinsezii
+        repo: Qwen3.6-27B-5.10BPW-GGUF
+  - key: freddm/Qwen3.6-27B-GGUF
+    sources:
+      - type: huggingface
+        user: freddm
+        repo: Qwen3.6-27B-GGUF
+  - key: fauzanazz/Qwen3.6-27B-Q3_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: fauzanazz
+        repo: Qwen3.6-27B-Q3_K_M-GGUF
+  - key: gghfez/Qwen3.6-27B-Q8_0-GGUF
+    sources:
+      - type: huggingface
+        user: gghfez
+        repo: Qwen3.6-27B-Q8_0-GGUF
+  - key: cmp-nct/Qwen3.6-27B-BK-GGUF
+    sources:
+      - type: huggingface
+        user: cmp-nct
+        repo: Qwen3.6-27B-BK-GGUF
+  - key: gaoqianshen/Qwen3.6-27B-FP8-Q4_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: gaoqianshen
+        repo: Qwen3.6-27B-FP8-Q4_K_M-GGUF
+  - key: SECWIKI/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive
+    sources:
+      - type: huggingface
+        user: SECWIKI
+        repo: Qwen3.6-27B-Uncensored-HauhauCS-Aggressive
+  - key: lactroiii/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive
+    sources:
+      - type: huggingface
+        user: lactroiii
+        repo: Qwen3.6-27B-Uncensored-HauhauCS-Aggressive
+  - key: gaoqianshen/Qwen3.6-27B-Q4_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: gaoqianshen
+        repo: Qwen3.6-27B-Q4_K_M-GGUF
+  - key: noclip84/Qwen3.6-27B-heretic-ARA-gguf
+    sources:
+      - type: huggingface
+        user: noclip84
+        repo: Qwen3.6-27B-heretic-ARA-gguf
+  - key: bartowski/Qwen_Qwen3.6-27B-GGUF
+    sources:
+      - type: huggingface
+        user: bartowski
+        repo: Qwen_Qwen3.6-27B-GGUF
+  - key: LogicBombaklot/Qwen3.6-27B-RYS-XL-GGUF
+    sources:
+      - type: huggingface
+        user: LogicBombaklot
+        repo: Qwen3.6-27B-RYS-XL-GGUF
+  - key: Youssofal/Qwen3.6-27B-Abliterated-Heretic-Uncensored-GGUF
+    sources:
+      - type: huggingface
+        user: Youssofal
+        repo: Qwen3.6-27B-Abliterated-Heretic-Uncensored-GGUF
+  - key: jerry07111/Qwen3.6-27B-NVFP4-GGUF
+    sources:
+      - type: huggingface
+        user: jerry07111
+        repo: Qwen3.6-27B-NVFP4-GGUF
+  - key: DevQuasar/Qwen.Qwen3.6-27B-GGUF
+    sources:
+      - type: huggingface
+        user: DevQuasar
+        repo: Qwen.Qwen3.6-27B-GGUF
+  - key: mradermacher/Qwen3.6-27B-Esper3.1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.6-27B-Esper3.1-GGUF
+  - key: Abiray/Qwen3.6-27B-heretic-ARA-GGUF
+    sources:
+      - type: huggingface
+        user: Abiray
+        repo: Qwen3.6-27B-heretic-ARA-GGUF
+  - key: batiai/Qwen3.6-27B-GGUF
+    sources:
+      - type: huggingface
+        user: batiai
+        repo: Qwen3.6-27B-GGUF
+  - key: DavidAU/Qwen3.6-27B-NEO-CODE-Di-IMatrix-MAX-GGUF
+    sources:
+      - type: huggingface
+        user: DavidAU
+        repo: Qwen3.6-27B-NEO-CODE-Di-IMatrix-MAX-GGUF
+  - key: mradermacher/Qwen3.6-27B-Esper3.1-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.6-27B-Esper3.1-i1-GGUF
+  - key: grapeV-ai/Qwen3.6-27B-GGUF
+    sources:
+      - type: huggingface
+        user: grapeV-ai
+        repo: Qwen3.6-27B-GGUF
+  - key: mradermacher/Qwen3.6-27B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.6-27B-GGUF
+  - key: namemane/Qwen3.6-27B-abliterated-Q4_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: namemane
+        repo: Qwen3.6-27B-abliterated-Q4_K_M-GGUF
+metadataOverrides:
+  domain: llm
+  architectures:
+    - qwen35
+  compatibilityTypes:
+    - gguf
+  paramsStrings:
+    - 27B
+  minMemoryUsageBytes: 16000000000
+  contextLengths:
+    - 262144
+  vision: true
+  reasoning: true
+  trainedForToolUse: true
+config:
+  operation:
+    fields:
+      - key: llm.prediction.temperature
+        value: 1.0
+      - key: llm.prediction.topKSampling
+        value: 20
+      - key: llm.prediction.topPSampling
+        value:
+          checked: true
+          value: 0.95
+      - key: llm.prediction.minPSampling
+        value:
+          checked: false
+          value: 0
+      - key: llm.prediction.repeatPenalty
+        value:
+          checked: false
+          value: 1.0
+      - key: llm.prediction.llama.presencePenalty
+        value:
+          checked: true
+          value: 1.5
+customFields:
+  - key: enableThinking
+    displayName: Enable Thinking
+    description: Controls whether the model will think before replying
+    type: boolean
+    defaultValue: true
+    effects:
+      - type: setJinjaVariable
+        variable: enable_thinking
+  - key: preserveThinking
+    displayName: Preserve Thinking
+    description: Preserve reasoning content in all prior assistant turns instead of only the most recent one
+    type: boolean
+    defaultValue: false
+    effects:
+      - type: setJinjaVariable
+        variable: preserve_thinking

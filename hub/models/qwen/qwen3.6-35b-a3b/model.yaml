@@ -237,6 +237,306 @@ base:
       - type: huggingface
         user: baa-ai
         repo: Qwen3.6-35B-A3B-RAM-19GB-GGUF
+  - key: hesamation/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+    sources:
+      - type: huggingface
+        user: hesamation
+        repo: Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+  - key: mradermacher/Qwen3.6-35B-A3B-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.6-35B-A3B-abliterated-GGUF
+  - key: googlecs/Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-Q4_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: googlecs
+        repo: Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-Q4_K_M-GGUF
+  - key: mradermacher/Qwen3.6-35B-A3B-Opus-Reasoning-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.6-35B-A3B-Opus-Reasoning-i1-GGUF
+  - key: mradermacher/Qwen3.6-35B-A3B-abliterated-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.6-35B-A3B-abliterated-i1-GGUF
+  - key: LuffyTheFox/Qwen3.6-35B-A3B-Plus-Uncensored-Wasserstein-GGUF
+    sources:
+      - type: huggingface
+        user: LuffyTheFox
+        repo: Qwen3.6-35B-A3B-Plus-Uncensored-Wasserstein-GGUF
+  - key: mradermacher/Huihui-Qwen3.6-35B-A3B-abliterated-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Huihui-Qwen3.6-35B-A3B-abliterated-i1-GGUF
+  - key: mradermacher/Qwen3.6-35B-A3B-Esper3.1-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.6-35B-A3B-Esper3.1-i1-GGUF
+  - key: mradermacher/Qwen3.6-35B-A3B-uncensored-heretic-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.6-35B-A3B-uncensored-heretic-i1-GGUF
+  - key: mudler/Qwen3.6-35B-A3B-uncensored-heretic-APEX-GGUF
+    sources:
+      - type: huggingface
+        user: mudler
+        repo: Qwen3.6-35B-A3B-uncensored-heretic-APEX-GGUF
+  - key: Abiray/Huihui-Qwen3.6-35B-A3B-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: Abiray
+        repo: Huihui-Qwen3.6-35B-A3B-abliterated-GGUF
+  - key: shennguyen/Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-Q4_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: shennguyen
+        repo: Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-Q4_K_M-GGUF
+  - key: llmfan46/Qwen3.6-35B-A3B-uncensored-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: llmfan46
+        repo: Qwen3.6-35B-A3B-uncensored-heretic-GGUF
+  - key: mradermacher/Huihui-Qwen3.6-35B-A3B-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Huihui-Qwen3.6-35B-A3B-abliterated-GGUF
+  - key: mradermacher/Qwen3.6-35B-A3B-abliterated-v2-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.6-35B-A3B-abliterated-v2-i1-GGUF
+  - key: mradermacher/Qwen3.6-35B-A3B-abliterated-MAX-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.6-35B-A3B-abliterated-MAX-i1-GGUF
+  - key: mradermacher/Qwen3.6-35B-A3B-uncensored-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.6-35B-A3B-uncensored-heretic-GGUF
+  - key: mudler/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-APEX-GGUF
+    sources:
+      - type: huggingface
+        user: mudler
+        repo: Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-APEX-GGUF
+  - key: prithivMLmods/Qwen3.6-35B-A3B-abliterated-MAX-F32-GGUF
+    sources:
+      - type: huggingface
+        user: prithivMLmods
+        repo: Qwen3.6-35B-A3B-abliterated-MAX-F32-GGUF
+  - key: lym00/Qwen3.6-35B-A3B-DFlash-GGUF-Test
+    sources:
+      - type: huggingface
+        user: lym00
+        repo: Qwen3.6-35B-A3B-DFlash-GGUF-Test
+  - key: bartowski/allura-org_Qwen3.6-35B-A3B-Anko-GGUF
+    sources:
+      - type: huggingface
+        user: bartowski
+        repo: allura-org_Qwen3.6-35B-A3B-Anko-GGUF
+  - key: lordx64/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled-IQ4_XS-GGUF
+    sources:
+      - type: huggingface
+        user: lordx64
+        repo: Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled-IQ4_XS-GGUF
+  - key: DuoNeural/Qwen3.6-35B-A3B-Code-imatrix-GGUF
+    sources:
+      - type: huggingface
+        user: DuoNeural
+        repo: Qwen3.6-35B-A3B-Code-imatrix-GGUF
+  - key: worthdoing/Qwen3.6-35B-A3B-GGUF
+    sources:
+      - type: huggingface
+        user: worthdoing
+        repo: Qwen3.6-35B-A3B-GGUF
+  - key: MuVeraAI/Qwen3.6-35B-A3B-GGUF
+    sources:
+      - type: huggingface
+        user: MuVeraAI
+        repo: Qwen3.6-35B-A3B-GGUF
+  - key: ggml-org/Qwen3.6-35B-A3B-GGUF
+    sources:
+      - type: huggingface
+        user: ggml-org
+        repo: Qwen3.6-35B-A3B-GGUF
+  - key: 0xSero/Qwen3.6-35B-A3B-GGUF-Strix
+    sources:
+      - type: huggingface
+        user: 0xSero
+        repo: Qwen3.6-35B-A3B-GGUF-Strix
+  - key: Shananhux/Qwen3.6-35B-A3B-GGUF
+    sources:
+      - type: huggingface
+        user: Shananhux
+        repo: Qwen3.6-35B-A3B-GGUF
+  - key: jerpyjerp/Qwen3.6-35B-A3B-GGUF
+    sources:
+      - type: huggingface
+        user: jerpyjerp
+        repo: Qwen3.6-35B-A3B-GGUF
+  - key: yangzikang/Qwen3.6-35B-A3B-GGUF
+    sources:
+      - type: huggingface
+        user: yangzikang
+        repo: Qwen3.6-35B-A3B-GGUF
+  - key: sphaela/Qwen3.6-35B-A3B-AutoRound-GGUF
+    sources:
+      - type: huggingface
+        user: sphaela
+        repo: Qwen3.6-35B-A3B-AutoRound-GGUF
+  - key: prithivMLmods/Qwen3.6-35B-A3B-F32-GGUF
+    sources:
+      - type: huggingface
+        user: prithivMLmods
+        repo: Qwen3.6-35B-A3B-F32-GGUF
+  - key: odexus/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive
+    sources:
+      - type: huggingface
+        user: odexus
+        repo: Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive
+  - key: LittleDesignSolution/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive
+    sources:
+      - type: huggingface
+        user: LittleDesignSolution
+        repo: Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive
+  - key: grapeV-ai/Qwen3.6-35B-A3B-GGUF
+    sources:
+      - type: huggingface
+        user: grapeV-ai
+        repo: Qwen3.6-35B-A3B-GGUF
+  - key: lamianlbe/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive
+    sources:
+      - type: huggingface
+        user: lamianlbe
+        repo: Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive
+  - key: mradermacher/Qwen3.6-35B-A3B-abliterated-v2-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.6-35B-A3B-abliterated-v2-GGUF
+  - key: TonyLLL/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive
+    sources:
+      - type: huggingface
+        user: TonyLLL
+        repo: Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive
+  - key: mradermacher/Qwen3.6-35B-A3B-Opus-Reasoning-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.6-35B-A3B-Opus-Reasoning-GGUF
+  - key: mradermacher/Qwen3.6-35B-A3B-Esper3.1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.6-35B-A3B-Esper3.1-GGUF
+  - key: SECWIKI/LuffyTheFox-Qwen3.6-35B-A3B-Uncensored-Wasserstein-GGUF
+    sources:
+      - type: huggingface
+        user: SECWIKI
+        repo: LuffyTheFox-Qwen3.6-35B-A3B-Uncensored-Wasserstein-GGUF
+  - key: realgen4/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive
+    sources:
+      - type: huggingface
+        user: realgen4
+        repo: Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive
+  - key: gopi87/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled-Q4_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: gopi87
+        repo: Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled-Q4_K_M-GGUF
+  - key: KilomAkel/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive
+    sources:
+      - type: huggingface
+        user: KilomAkel
+        repo: Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive
+  - key: Rubertigno/Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-Q8_0-GGUF
+    sources:
+      - type: huggingface
+        user: Rubertigno
+        repo: Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-Q8_0-GGUF
+  - key: elbelga/Huihui-Qwen3.6-35B-A3B-abliterated_MXFP4_MOE
+    sources:
+      - type: huggingface
+        user: elbelga
+        repo: Huihui-Qwen3.6-35B-A3B-abliterated_MXFP4_MOE
+  - key: Creat3/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive
+    sources:
+      - type: huggingface
+        user: Creat3
+        repo: Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive
+  - key: Abiray/Huihui-Qwen3.6-35B-A3B-abliterated-Q4_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: Abiray
+        repo: Huihui-Qwen3.6-35B-A3B-abliterated-Q4_K_M-GGUF
+  - key: saracen9/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive
+    sources:
+      - type: huggingface
+        user: saracen9
+        repo: Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive
+  - key: baa-ai/Qwen3.6-35B-A3B-RAM-26GB-GGUF
+    sources:
+      - type: huggingface
+        user: baa-ai
+        repo: Qwen3.6-35B-A3B-RAM-26GB-GGUF
+  - key: RDson/Qwen3.6-35B-A3B-IQ4_KS-GGUF
+    sources:
+      - type: huggingface
+        user: RDson
+        repo: Qwen3.6-35B-A3B-IQ4_KS-GGUF
+  - key: whoya/Huihui-Qwen3.6-35B-A3B-Claude-4.6-Opus-abliterated-Q4_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: whoya
+        repo: Huihui-Qwen3.6-35B-A3B-Claude-4.6-Opus-abliterated-Q4_K_M-GGUF
+  - key: jokobaba/Qwen3.6-35B-A3B-FP8-Q4_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: jokobaba
+        repo: Qwen3.6-35B-A3B-FP8-Q4_K_M-GGUF
+  - key: DeadBranches/Qwen3.6-35B-A3B-Plus-Uncensored-Wasserstein-GGUF
+    sources:
+      - type: huggingface
+        user: DeadBranches
+        repo: Qwen3.6-35B-A3B-Plus-Uncensored-Wasserstein-GGUF
+  - key: Rubertigno/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled-Q8_0-GGUF
+    sources:
+      - type: huggingface
+        user: Rubertigno
+        repo: Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled-Q8_0-GGUF
+  - key: groxaxo/Qwen3.6-35B-A3B-Abliterated-Heretic-GGUF
+    sources:
+      - type: huggingface
+        user: groxaxo
+        repo: Qwen3.6-35B-A3B-Abliterated-Heretic-GGUF
+  - key: Krasnopjorovs/Qwen3.6-35B-A3B-IQ4_XS-Imatrix
+    sources:
+      - type: huggingface
+        user: Krasnopjorovs
+        repo: Qwen3.6-35B-A3B-IQ4_XS-Imatrix
+  - key: nabi-chan/Qwen3.6-35B-A3B-Opus-Reasoning-GGUF
+    sources:
+      - type: huggingface
+        user: nabi-chan
+        repo: Qwen3.6-35B-A3B-Opus-Reasoning-GGUF
+  - key: mradermacher/Qwen3.6-35B-A3B-abliterated-MAX-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.6-35B-A3B-abliterated-MAX-GGUF
+  - key: end000/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-IQ4_XS-GGUF
+    sources:
+      - type: huggingface
+        user: end000
+        repo: Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-IQ4_XS-GGUF
 metadataOverrides:
   domain: llm
   architectures:

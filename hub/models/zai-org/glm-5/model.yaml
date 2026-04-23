@@ -332,6 +332,76 @@ base:
       - type: huggingface
         user: Thireus
         repo: GLM-5.1-THIREUS-IQ4_KS-SPECIAL_SPLIT
+  - key: mradermacher/Qwen3.5-9B-GLM5.1-Distill-v1-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-9B-GLM5.1-Distill-v1-i1-GGUF
+  - key: Jackrong/Qwen3.5-27B-GLM5.1-Distill-v1-GGUF
+    sources:
+      - type: huggingface
+        user: Jackrong
+        repo: Qwen3.5-27B-GLM5.1-Distill-v1-GGUF
+  - key: mradermacher/Qwen3.5-9B-GLM5.1-Distill-v1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-9B-GLM5.1-Distill-v1-GGUF
+  - key: huihui-ai/Huihui-GLM-5.1-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: huihui-ai
+        repo: Huihui-GLM-5.1-abliterated-GGUF
+  - key: 0xSero/GLM-5.1-555B-A14B-REAP-GGUF
+    sources:
+      - type: huggingface
+        user: 0xSero
+        repo: GLM-5.1-555B-A14B-REAP-GGUF
+  - key: Thireus/GLM-5.1-THIREUS-Q8_0_R8-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: GLM-5.1-THIREUS-Q8_0_R8-SPECIAL_SPLIT
+  - key: Thireus/GLM-5.1-THIREUS-Q6_K_R4-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: GLM-5.1-THIREUS-Q6_K_R4-SPECIAL_SPLIT
+  - key: Thireus/GLM-5.1-THIREUS-Q5_1-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: GLM-5.1-THIREUS-Q5_1-SPECIAL_SPLIT
+  - key: Thireus/GLM-5.1-THIREUS-Q4_0_R8-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: GLM-5.1-THIREUS-Q4_0_R8-SPECIAL_SPLIT
+  - key: Thireus/GLM-5.1-THIREUS-Q5_0-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: GLM-5.1-THIREUS-Q5_0-SPECIAL_SPLIT
+  - key: Thireus/GLM-5.1-THIREUS-Q8_K_R8-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: GLM-5.1-THIREUS-Q8_K_R8-SPECIAL_SPLIT
+  - key: Thireus/GLM-5.1-THIREUS-IQ4_NL_R4-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: GLM-5.1-THIREUS-IQ4_NL_R4-SPECIAL_SPLIT
+  - key: Thireus/GLM-5.1-THIREUS-IQ2_K-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: GLM-5.1-THIREUS-IQ2_K-SPECIAL_SPLIT
+  - key: Thireus/GLM-5.1-THIREUS-IQ5_K_R4-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: GLM-5.1-THIREUS-IQ5_K_R4-SPECIAL_SPLIT
 metadataOverrides:
   domain: llm
   architectures:

@@ -677,6 +677,66 @@ base:
       - type: huggingface
         user: marcoariette
         repo: Qwen3.5-9B-Claude-4.6-Opus-Uncensored-Distilled-GGUF
+  - key: Jackrong/Qwen3.5-9B-GLM5.1-Distill-v1-GGUF
+    sources:
+      - type: huggingface
+        user: Jackrong
+        repo: Qwen3.5-9B-GLM5.1-Distill-v1-GGUF
+  - key: mradermacher/Qwen3.5-9B-GLM5.1-Distill-v1-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-9B-GLM5.1-Distill-v1-i1-GGUF
+  - key: Jackrong/Qwen3.5-9B-GLM5.1-Distill-v1
+    sources:
+      - type: huggingface
+        user: Jackrong
+        repo: Qwen3.5-9B-GLM5.1-Distill-v1
+  - key: mradermacher/Qwen3.5-9B-ultra-uncensored-heretic-v1-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-9B-ultra-uncensored-heretic-v1-i1-GGUF
+  - key: mradermacher/Qwen3.5-9B-abliterated-v2-MAX-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-9B-abliterated-v2-MAX-i1-GGUF
+  - key: CCSSNE/LuffyTheFox-OmniClaw-Qwen3.5-9B-Claude-4.6-Opus-Uncensored-v2-GGUF
+    sources:
+      - type: huggingface
+        user: CCSSNE
+        repo: LuffyTheFox-OmniClaw-Qwen3.5-9B-Claude-4.6-Opus-Uncensored-v2-GGUF
+  - key: SassyDiffusion/Qwen3.5-9B-heretic-ara-GGUF
+    sources:
+      - type: huggingface
+        user: SassyDiffusion
+        repo: Qwen3.5-9B-heretic-ara-GGUF
+  - key: mradermacher/Huihui-Qwen3.5-9B-Claude-4.6-Opus-abliterated-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Huihui-Qwen3.5-9B-Claude-4.6-Opus-abliterated-i1-GGUF
+  - key: mradermacher/Qwen3.5-9B-GLM5.1-Distill-v1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-9B-GLM5.1-Distill-v1-GGUF
+  - key: Vladimir13569/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive
+    sources:
+      - type: huggingface
+        user: Vladimir13569
+        repo: Qwen3.5-9B-Uncensored-HauhauCS-Aggressive
+  - key: mradermacher/nsfwvision-v4_qwen3.5-9b-sft-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: nsfwvision-v4_qwen3.5-9b-sft-GGUF
+  - key: mradermacher/Qwen3.5-9B-imabari-v2-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-9B-imabari-v2-i1-GGUF
 metadataOverrides:
   domain: llm
   architectures:

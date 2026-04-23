@@ -787,6 +787,56 @@ base:
       - type: huggingface
         user: EliseT123
         repo: Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive
+  - key: mradermacher/Qwen3.5-35B-A3B-abliterated-v2-MAX-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-35B-A3B-abliterated-v2-MAX-i1-GGUF
+  - key: LuffyTheFox/Qwen3.5-35B-A3B-Uncensored-Wasserstein-GGUF
+    sources:
+      - type: huggingface
+        user: LuffyTheFox
+        repo: Qwen3.5-35B-A3B-Uncensored-Wasserstein-GGUF
+  - key: mradermacher/Qwen3.5-35B-A3B-abliterated-v2-MAX-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-35B-A3B-abliterated-v2-MAX-GGUF
+  - key: simranpinki1983/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive
+    sources:
+      - type: huggingface
+        user: simranpinki1983
+        repo: Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive
+  - key: sowilow/Qwen3.5-35B-A3B-DGX-Spark-GGUF
+    sources:
+      - type: huggingface
+        user: sowilow
+        repo: Qwen3.5-35B-A3B-DGX-Spark-GGUF
+  - key: jorge-erdb/Qwen3.5-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-4bit-GGUF
+    sources:
+      - type: huggingface
+        user: jorge-erdb
+        repo: Qwen3.5-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-4bit-GGUF
+  - key: jorge-erdb/Qwen3.5-35B-A3B-heretic-4bit-GGUF
+    sources:
+      - type: huggingface
+        user: jorge-erdb
+        repo: Qwen3.5-35B-A3B-heretic-4bit-GGUF
+  - key: batiai/Qwen3.5-35B-A3B-GGUF
+    sources:
+      - type: huggingface
+        user: batiai
+        repo: Qwen3.5-35B-A3B-GGUF
+  - key: rachpradhan/Qwen3.5-35B-A3B-Turbo-SWE-v0.0.1
+    sources:
+      - type: huggingface
+        user: rachpradhan
+        repo: Qwen3.5-35B-A3B-Turbo-SWE-v0.0.1
+  - key: nguyenthilaitrieulong/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive
+    sources:
+      - type: huggingface
+        user: nguyenthilaitrieulong
+        repo: Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive
 metadataOverrides:
   domain: llm
   architectures:
