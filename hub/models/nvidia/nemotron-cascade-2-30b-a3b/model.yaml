@@ -1,0 +1,125 @@
+# model.yaml is an open standard for defining cross-platform, composable AI models
+# Learn more at https://modelyaml.org
+model: nvidia/nemotron-cascade-2-30b-a3b
+base:
+  - key: bartowski/nvidia_Nemotron-Cascade-2-30B-A3B-GGUF
+    sources:
+      - type: huggingface
+        user: bartowski
+        repo: nvidia_Nemotron-Cascade-2-30B-A3B-GGUF
+  - key: mradermacher/Nemotron-Cascade-2-30B-A3B-heretic-ara-uncensored-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Nemotron-Cascade-2-30B-A3B-heretic-ara-uncensored-i1-GGUF
+  - key: mradermacher/Nemotron-Cascade-2-30B-A3B-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Nemotron-Cascade-2-30B-A3B-i1-GGUF
+  - key: mradermacher/Nemotron-Cascade-2-30B-A3B-heretic-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Nemotron-Cascade-2-30B-A3B-heretic-i1-GGUF
+  - key: mradermacher/Nemotron-Cascade-2-30B-A3B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Nemotron-Cascade-2-30B-A3B-GGUF
+  - key: michaelw9999/Nemotron-Cascade-2-30B-A3B-NVFP4-GGUF
+    sources:
+      - type: huggingface
+        user: michaelw9999
+        repo: Nemotron-Cascade-2-30B-A3B-NVFP4-GGUF
+  - key: mradermacher/Nemotron-Cascade-2-30B-A3B-heretic-ara-uncensored-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Nemotron-Cascade-2-30B-A3B-heretic-ara-uncensored-GGUF
+  - key: AesSedai/Nemotron-Cascade-2-30B-A3B-GGUF
+    sources:
+      - type: huggingface
+        user: AesSedai
+        repo: Nemotron-Cascade-2-30B-A3B-GGUF
+  - key: mradermacher/Nemotron-Cascade-2-30B-A3B-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Nemotron-Cascade-2-30B-A3B-heretic-GGUF
+  - key: noctrex/Nemotron-Cascade-2-30B-A3B-MXFP4_MOE-GGUF
+    sources:
+      - type: huggingface
+        user: noctrex
+        repo: Nemotron-Cascade-2-30B-A3B-MXFP4_MOE-GGUF
+  - key: freddm/Nemotron-Cascade-2-30B-A3B-GGUF
+    sources:
+      - type: huggingface
+        user: freddm
+        repo: Nemotron-Cascade-2-30B-A3B-GGUF
+  - key: DevQuasar/nvidia.Nemotron-Cascade-2-30B-A3B-GGUF
+    sources:
+      - type: huggingface
+        user: DevQuasar
+        repo: nvidia.Nemotron-Cascade-2-30B-A3B-GGUF
+  - key: shiny-plan/Nemotron-Cascade-2-30B-A3B-Q4_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: shiny-plan
+        repo: Nemotron-Cascade-2-30B-A3B-Q4_K_M-GGUF
+  - key: AdrienBrault/Nemotron-Cascade-2-30B-A3B-Q5_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: AdrienBrault
+        repo: Nemotron-Cascade-2-30B-A3B-Q5_K_M-GGUF
+  - key: NitrAI/Nemotron-Cascade-2-30B-A3B-Q6_K-GGUF
+    sources:
+      - type: huggingface
+        user: NitrAI
+        repo: Nemotron-Cascade-2-30B-A3B-Q6_K-GGUF
+  - key: AdrienBrault/Nemotron-Cascade-2-30B-A3B-Q5_1-GGUF
+    sources:
+      - type: huggingface
+        user: AdrienBrault
+        repo: Nemotron-Cascade-2-30B-A3B-Q5_1-GGUF
+config:
+  operation:
+    fields:
+      - key: llm.prediction.temperature
+        value: 1.0
+      - key: llm.prediction.topPSampling
+        value:
+          checked: true
+          value: 0.95
+customFields:
+  - key: enableThinking
+    displayName: Enable Thinking
+    description: Controls whether the model will think before replying
+    type: boolean
+    defaultValue: true
+    effects:
+      - type: setJinjaVariable
+        variable: enable_thinking
+  - key: truncateThinkingHistory
+    displayName: Truncate Thinking History
+    description: Controls whether thinking history will be truncated to save context space
+    type: boolean
+    defaultValue: true
+    effects:
+      - type: setJinjaVariable
+        variable: truncate_history_thinking
+metadataOverrides:
+  domain: llm
+  architectures:
+    - nemotron_h_moe
+  compatibilityTypes:
+    - gguf
+    - safetensors
+  paramsStrings:
+    - 30B-A3B
+  minMemoryUsageBytes: 16000000000
+  contextLengths:
+    - 1048576
+  vision: false
+  reasoning: true
+  trainedForToolUse: true
