@@ -517,20 +517,6 @@ base:
       - type: huggingface
         user: SECWIKI
         repo: AliceThirty-Qwen3.5-397B-A17B-heretic-gguf
-metadataOverrides:
-  domain: llm
-  architectures:
-    - qwen35moe
-  compatibilityTypes:
-    - gguf
-  paramsStrings:
-    - 397B
-  minMemoryUsageBytes: 21000000000
-  contextLengths:
-    - 262144
-  vision: true
-  reasoning: true
-  trainedForToolUse: true
 config:
   operation:
     fields:
@@ -555,3 +541,17 @@ customFields:
     effects:
       - type: setJinjaVariable
         variable: enable_thinking
+metadataOverrides:
+  domain: llm
+  architectures:
+    - qwen35moe
+  compatibilityTypes:
+    - gguf
+  paramsStrings:
+    - 397B
+  minMemoryUsageBytes: 21000000000
+  contextLengths:
+    - 262144
+  vision: true
+  reasoning: true
+  trainedForToolUse: true

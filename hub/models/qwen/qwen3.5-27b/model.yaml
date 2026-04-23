@@ -972,20 +972,6 @@ base:
       - type: huggingface
         user: mradermacher
         repo: qwen3.5-27b-unslop-good-lora-v1-GGUF
-metadataOverrides:
-  domain: llm
-  architectures:
-    - qwen35
-  compatibilityTypes:
-    - gguf
-  paramsStrings:
-    - 27B
-  minMemoryUsageBytes: 21000000000
-  contextLengths:
-    - 262144
-  vision: true
-  reasoning: true
-  trainedForToolUse: true
 config:
   operation:
     fields:
@@ -1018,3 +1004,17 @@ customFields:
     effects:
       - type: setJinjaVariable
         variable: enable_thinking
+metadataOverrides:
+  domain: llm
+  architectures:
+    - qwen35
+  compatibilityTypes:
+    - gguf
+  paramsStrings:
+    - 27B
+  minMemoryUsageBytes: 21000000000
+  contextLengths:
+    - 262144
+  vision: true
+  reasoning: true
+  trainedForToolUse: true

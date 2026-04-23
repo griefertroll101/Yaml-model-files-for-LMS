@@ -142,20 +142,6 @@ base:
       - type: huggingface
         user: gnigguhface
         repo: Hermes-4-14B-Q8_0-GGUF
-metadataOverrides:
-  domain: llm
-  architectures:
-    - llama
-  compatibilityTypes:
-    - gguf
-  paramsStrings:
-    - 14B
-  minMemoryUsageBytes: 8000000000
-  contextLengths:
-    - 131072
-  vision: false
-  reasoning: true
-  trainedForToolUse: true
 config:
   operation:
     fields:
@@ -184,3 +170,17 @@ customFields:
     effects:
       - type: setJinjaVariable
         variable: keep_cots
+metadataOverrides:
+  domain: llm
+  architectures:
+    - llama
+  compatibilityTypes:
+    - gguf
+  paramsStrings:
+    - 14B
+  minMemoryUsageBytes: 8000000000
+  contextLengths:
+    - 131072
+  vision: false
+  reasoning: true
+  trainedForToolUse: true

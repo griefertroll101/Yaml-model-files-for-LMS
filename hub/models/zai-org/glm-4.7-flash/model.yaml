@@ -752,38 +752,21 @@ base:
       - type: huggingface
         user: Thireus
         repo: GLM-4.7-Flash-THIREUS-IQ2_BN-SPECIAL_SPLIT
-metadataOverrides:
-  domain: llm
-  architectures:
-    - glm4_moe_lite
-  compatibilityTypes:
-    - gguf
-    - safetensors
-  paramsStrings:
-    - 30B
-  minMemoryUsageBytes: 16000000000
-  contextLengths:
-    - 131072
-  vision: false
-  reasoning: true
-  trainedForToolUse: true
 config:
   operation:
     fields:
       - key: llm.prediction.temperature
-        value: 1.0
+        value: 0.2
+      - key: llm.prediction.topKSampling
+        value: 50
       - key: llm.prediction.topPSampling
         value:
           checked: true
           value: 0.95
-      - key: llm.prediction.minPSampling
-        value:
-          checked: true
-          value: 0.01
       - key: llm.prediction.repeatPenalty
         value:
           checked: false
-          value: 1.0
+          value: 0
 customFields:
   - key: enableThinking
     displayName: Enable Thinking
@@ -801,3 +784,18 @@ customFields:
     effects:
       - type: setJinjaVariable
         variable: clear_thinking
+metadataOverrides:
+  domain: llm
+  architectures:
+    - glm4_moe_lite
+  compatibilityTypes:
+    - gguf
+    - safetensors
+  paramsStrings:
+    - 30B
+  minMemoryUsageBytes: 16000000000
+  contextLengths:
+    - 131072
+  vision: false
+  reasoning: true
+  trainedForToolUse: true

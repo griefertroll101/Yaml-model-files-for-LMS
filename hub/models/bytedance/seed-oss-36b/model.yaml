@@ -247,21 +247,6 @@ base:
       - type: huggingface
         user: guodayang
         repo: Seed-OSS-36B-Instruct-Q8_0-GGUF
-metadataOverrides:
-  domain: llm
-  architectures:
-    - seed_oss
-  compatibilityTypes:
-    - gguf
-    - safetensors
-  paramsStrings:
-    - 36B
-  minMemoryUsageBytes: 21000000000
-  contextLengths:
-    - 524288
-  vision: false
-  reasoning: true
-  trainedForToolUse: true
 config:
   operation:
     fields:
@@ -302,3 +287,18 @@ customFields:
     effects:
       - type: setJinjaVariable
         variable: thinking_budget
+metadataOverrides:
+  domain: llm
+  architectures:
+    - seed_oss
+  compatibilityTypes:
+    - gguf
+    - safetensors
+  paramsStrings:
+    - 36B
+  minMemoryUsageBytes: 21000000000
+  contextLengths:
+    - 524288
+  vision: false
+  reasoning: true
+  trainedForToolUse: true

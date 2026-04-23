@@ -132,20 +132,6 @@ base:
       - type: huggingface
         user: andersonscode
         repo: Nemotron-3-Nano-4B-HIPE
-metadataOverrides:
-  domain: llm
-  architectures:
-    - nemotron_h
-  compatibilityTypes:
-    - gguf
-  paramsStrings:
-    - 4B
-  minMemoryUsageBytes: 4500000000
-  contextLengths:
-    - 262144
-  vision: false
-  reasoning: true
-  trainedForToolUse: true
 config:
   operation:
     fields:
@@ -176,3 +162,17 @@ customFields:
     effects:
       - type: setJinjaVariable
         variable: truncate_history_thinking
+metadataOverrides:
+  domain: llm
+  architectures:
+    - nemotron_h
+  compatibilityTypes:
+    - gguf
+  paramsStrings:
+    - 4B
+  minMemoryUsageBytes: 4500000000
+  contextLengths:
+    - 262144
+  vision: false
+  reasoning: true
+  trainedForToolUse: true

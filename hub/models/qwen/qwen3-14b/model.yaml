@@ -1,0 +1,497 @@
+# model.yaml is an open standard for defining cross-platform, composable AI models
+# Learn more at https://modelyaml.org
+model: qwen/qwen3-14b
+base:
+  - key: MaziyarPanahi/Qwen3-14B-GGUF
+    sources:
+      - type: huggingface
+        user: MaziyarPanahi
+        repo: Qwen3-14B-GGUF
+  - key: Qwen/Qwen3-14B-GGUF
+    sources:
+      - type: huggingface
+        user: Qwen
+        repo: Qwen3-14B-GGUF
+  - key: TeichAI/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill-GGUF
+    sources:
+      - type: huggingface
+        user: TeichAI
+        repo: Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill-GGUF
+  - key: unsloth/Qwen3-14B-GGUF
+    sources:
+      - type: huggingface
+        user: unsloth
+        repo: Qwen3-14B-GGUF
+  - key: geoffmunn/Qwen3-14B-f16
+    sources:
+      - type: huggingface
+        user: geoffmunn
+        repo: Qwen3-14B-f16
+  - key: lmstudio-community/Qwen3-14B-GGUF
+    sources:
+      - type: huggingface
+        user: lmstudio-community
+        repo: Qwen3-14B-GGUF
+  - key: TeichAI/Qwen3-14B-DeepSeek-v3.2-Speciale-Distill-GGUF
+    sources:
+      - type: huggingface
+        user: TeichAI
+        repo: Qwen3-14B-DeepSeek-v3.2-Speciale-Distill-GGUF
+  - key: bartowski/Goekdeniz-Guelmez_Josiefied-Qwen3-14B-abliterated-v3-GGUF
+    sources:
+      - type: huggingface
+        user: bartowski
+        repo: Goekdeniz-Guelmez_Josiefied-Qwen3-14B-abliterated-v3-GGUF
+  - key: bartowski/Qwen_Qwen3-14B-GGUF
+    sources:
+      - type: huggingface
+        user: bartowski
+        repo: Qwen_Qwen3-14B-GGUF
+  - key: bartowski/huihui-ai_Qwen3-14B-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: bartowski
+        repo: huihui-ai_Qwen3-14B-abliterated-GGUF
+  - key: worstplayer/Qwen3-14B-sk-GGUF
+    sources:
+      - type: huggingface
+        user: worstplayer
+        repo: Qwen3-14B-sk-GGUF
+  - key: mradermacher/Qwen3-14B-Uncensored-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3-14B-Uncensored-GGUF
+  - key: TeichAI/Qwen3-14B-GPT-5.2-High-Reasoning-Distill-GGUF
+    sources:
+      - type: huggingface
+        user: TeichAI
+        repo: Qwen3-14B-GPT-5.2-High-Reasoning-Distill-GGUF
+  - key: bartowski/mlabonne_Qwen3-14B-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: bartowski
+        repo: mlabonne_Qwen3-14B-abliterated-GGUF
+  - key: mradermacher/Qwen3-14B-Esper3Mix-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3-14B-Esper3Mix-i1-GGUF
+  - key: bartowski/mrm8488_Qwen3-14B-ft-limo-GGUF
+    sources:
+      - type: huggingface
+        user: bartowski
+        repo: mrm8488_Qwen3-14B-ft-limo-GGUF
+  - key: mradermacher/Gemini-3.1-Pro-Qwen3-14B-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Gemini-3.1-Pro-Qwen3-14B-i1-GGUF
+  - key: TeichAI/Qwen3-14B-Claude-Sonnet-4.5-Reasoning-Distill-GGUF
+    sources:
+      - type: huggingface
+        user: TeichAI
+        repo: Qwen3-14B-Claude-Sonnet-4.5-Reasoning-Distill-GGUF
+  - key: ggml-org/Qwen3-14B-GGUF
+    sources:
+      - type: huggingface
+        user: ggml-org
+        repo: Qwen3-14B-GGUF
+  - key: lm-kit/qwen-3-14b-instruct-gguf
+    sources:
+      - type: huggingface
+        user: lm-kit
+        repo: qwen-3-14b-instruct-gguf
+  - key: mradermacher/QiMing-Holos-Plus-Qwen3-14B-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: QiMing-Holos-Plus-Qwen3-14B-i1-GGUF
+  - key: XueNian/XueNian-Qwen3-14B-furry-novel-gguf
+    sources:
+      - type: huggingface
+        user: XueNian
+        repo: XueNian-Qwen3-14B-furry-novel-gguf
+  - key: mradermacher/Paper-Summarizer-Qwen3-14B-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Paper-Summarizer-Qwen3-14B-i1-GGUF
+  - key: mradermacher/GrayLine-Qwen3-14B-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: GrayLine-Qwen3-14B-i1-GGUF
+  - key: mradermacher/Fast-Math-Qwen3-14B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Fast-Math-Qwen3-14B-GGUF
+  - key: tensorblock/Qwen_Qwen3-14B-GGUF
+    sources:
+      - type: huggingface
+        user: tensorblock
+        repo: Qwen_Qwen3-14B-GGUF
+  - key: bartowski/soob3123_GrayLine-Qwen3-14B-GGUF
+    sources:
+      - type: huggingface
+        user: bartowski
+        repo: soob3123_GrayLine-Qwen3-14B-GGUF
+  - key: mmnga-o/ABEJA-Qwen3-14B-Agentic-256k-v0.1-gguf
+    sources:
+      - type: huggingface
+        user: mmnga-o
+        repo: ABEJA-Qwen3-14B-Agentic-256k-v0.1-gguf
+  - key: unsloth/Qwen3-14B-128K-GGUF
+    sources:
+      - type: huggingface
+        user: unsloth
+        repo: Qwen3-14B-128K-GGUF
+  - key: mradermacher/Qwen3-14B-Guardpoint-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3-14B-Guardpoint-GGUF
+  - key: sabine812/Qwen3-14B-128K-GGUF
+    sources:
+      - type: huggingface
+        user: sabine812
+        repo: Qwen3-14B-128K-GGUF
+  - key: mradermacher/Qwen3-14B-Griffon-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3-14B-Griffon-i1-GGUF
+  - key: mradermacher/UniReason-Qwen3-14B-think-SFT-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: UniReason-Qwen3-14B-think-SFT-i1-GGUF
+  - key: TeichAI/Qwen3-14B-Gemini-3-Pro-Preview-High-Reasoning-Distill-GGUF
+    sources:
+      - type: huggingface
+        user: TeichAI
+        repo: Qwen3-14B-Gemini-3-Pro-Preview-High-Reasoning-Distill-GGUF
+  - key: mradermacher/Qwen3-14B-Uncensored-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3-14B-Uncensored-i1-GGUF
+  - key: mradermacher/amoral-qwen3-14B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: amoral-qwen3-14B-GGUF
+  - key: richardyoung/Qwen3-14B-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: richardyoung
+        repo: Qwen3-14B-abliterated-GGUF
+  - key: Aldaris/Qwen3-14B-Q4_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: Aldaris
+        repo: Qwen3-14B-Q4_K_M-GGUF
+  - key: mradermacher/Gemini-3.1-Pro-Qwen3-14B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Gemini-3.1-Pro-Qwen3-14B-GGUF
+  - key: duyntnet/Qwen3-14B-imatrix-GGUF
+    sources:
+      - type: huggingface
+        user: duyntnet
+        repo: Qwen3-14B-imatrix-GGUF
+  - key: bartowski/lemon07r_VellumMini-0.1-Qwen3-14B-GGUF
+    sources:
+      - type: huggingface
+        user: bartowski
+        repo: lemon07r_VellumMini-0.1-Qwen3-14B-GGUF
+  - key: mradermacher/Qwen3-14B-ft-limo-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3-14B-ft-limo-i1-GGUF
+  - key: stefancosma/Qwen3-14B-Instruct-Q4_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: stefancosma
+        repo: Qwen3-14B-Instruct-Q4_K_M-GGUF
+  - key: mradermacher/Qwen3-14B-RefusalDirection-ThinkingAware-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3-14B-RefusalDirection-ThinkingAware-i1-GGUF
+  - key: Mungert/Qwen3-14B-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: Mungert
+        repo: Qwen3-14B-abliterated-GGUF
+  - key: mradermacher/Qwen3-14B-Esper3Grayline-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3-14B-Esper3Grayline-i1-GGUF
+  - key: mradermacher/Huihui-Qwen3-14B-abliterated-v2-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Huihui-Qwen3-14B-abliterated-v2-GGUF
+  - key: Cannae-AI/Gemini-3.1-Pro-Qwen3-14B.gguf
+    sources:
+      - type: huggingface
+        user: Cannae-AI
+        repo: Gemini-3.1-Pro-Qwen3-14B.gguf
+  - key: mradermacher/Qwen3-14B-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3-14B-heretic-GGUF
+  - key: mradermacher/Qwen3-14B-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3-14B-i1-GGUF
+  - key: mradermacher/Paper-Summarizer-Qwen3-14B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Paper-Summarizer-Qwen3-14B-GGUF
+  - key: mradermacher/Qwen3-14B-Cobalt2-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3-14B-Cobalt2-i1-GGUF
+  - key: waratuman/claudius-qwen3-14b
+    sources:
+      - type: huggingface
+        user: waratuman
+        repo: claudius-qwen3-14b
+  - key: mradermacher/Ophiuchi-Qwen3-14B-Instruct-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Ophiuchi-Qwen3-14B-Instruct-i1-GGUF
+  - key: mradermacher/Josiefied-Qwen3-14B-abliterated-v3-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Josiefied-Qwen3-14B-abliterated-v3-GGUF
+  - key: mradermacher/Qwen3-14B-RefusalDirection-ThinkingAware-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3-14B-RefusalDirection-ThinkingAware-GGUF
+  - key: gishikai/unsloth-qwen3-14B
+    sources:
+      - type: huggingface
+        user: gishikai
+        repo: unsloth-qwen3-14B
+  - key: mradermacher/Qwen3-14B-abliterated-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3-14B-abliterated-i1-GGUF
+  - key: mradermacher/UniReason-Qwen3-14B-RL-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: UniReason-Qwen3-14B-RL-i1-GGUF
+  - key: mradermacher/Ophiuchi-Qwen3-14B-Instruct-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Ophiuchi-Qwen3-14B-Instruct-GGUF
+  - key: peterjohannmedina/Medina-Qwen3-14B-OpenClaw
+    sources:
+      - type: huggingface
+        user: peterjohannmedina
+        repo: Medina-Qwen3-14B-OpenClaw
+  - key: ericek111/Qwen3-14B-sk-Q4_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: ericek111
+        repo: Qwen3-14B-sk-Q4_K_M-GGUF
+  - key: Antigma/Qwen3-14B-GGUF
+    sources:
+      - type: huggingface
+        user: Antigma
+        repo: Qwen3-14B-GGUF
+  - key: mradermacher/Qwen3-14B-Esper3-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3-14B-Esper3-i1-GGUF
+  - key: Apokalyptikon/tei-entity-linker-qwen3-14b-GGUF
+    sources:
+      - type: huggingface
+        user: Apokalyptikon
+        repo: tei-entity-linker-qwen3-14b-GGUF
+  - key: mradermacher/qwen3-14b-code-reasoning-conversational-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: qwen3-14b-code-reasoning-conversational-GGUF
+  - key: mradermacher/R3-Qwen3-14B-LoRA-15K-v1.1-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: R3-Qwen3-14B-LoRA-15K-v1.1-i1-GGUF
+  - key: mradermacher/claudius-qwen3-14b-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: claudius-qwen3-14b-GGUF
+  - key: mradermacher/Qwen-3-14B-Gemini-v0.1-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen-3-14B-Gemini-v0.1-i1-GGUF
+  - key: mradermacher/Josiefied-Qwen3-14B-abliterated-v3-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Josiefied-Qwen3-14B-abliterated-v3-i1-GGUF
+  - key: mradermacher/Vitus-Qwen3-14B-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Vitus-Qwen3-14B-i1-GGUF
+  - key: ericek111/Qwen3-14B-sk-Q5_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: ericek111
+        repo: Qwen3-14B-sk-Q5_K_M-GGUF
+  - key: Gaston895/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill-GGUF
+    sources:
+      - type: huggingface
+        user: Gaston895
+        repo: Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill-GGUF
+  - key: mradermacher/Qwen3-14B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3-14B-GGUF
+  - key: Alcoft/Qwen_Qwen3-14B-GGUF
+    sources:
+      - type: huggingface
+        user: Alcoft
+        repo: Qwen_Qwen3-14B-GGUF
+  - key: mradermacher/R3-Qwen3-14B-LoRA-4k-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: R3-Qwen3-14B-LoRA-4k-i1-GGUF
+  - key: Mungert/Qwen3-14B-GGUF
+    sources:
+      - type: huggingface
+        user: Mungert
+        repo: Qwen3-14B-GGUF
+  - key: mradermacher/QiMing-Pantheon-Qwen3-14B-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: QiMing-Pantheon-Qwen3-14B-i1-GGUF
+  - key: mradermacher/Huihui-Qwen3-14B-abliterated-v2-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Huihui-Qwen3-14B-abliterated-v2-i1-GGUF
+  - key: jamezoon/qwen3-14b-medmcqa-gguf
+    sources:
+      - type: huggingface
+        user: jamezoon
+        repo: qwen3-14b-medmcqa-gguf
+  - key: tomg42/Qwen3-14B-sk-Q6_K.gguf
+    sources:
+      - type: huggingface
+        user: tomg42
+        repo: Qwen3-14B-sk-Q6_K.gguf
+  - key: mradermacher/Medina-Qwen3-14B-OpenClaw-Merged-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Medina-Qwen3-14B-OpenClaw-Merged-GGUF
+  - key: AlicanKiraz0/Qwen3-14B-BaronLLM-v2-Q4_0-GGUF
+    sources:
+      - type: huggingface
+        user: AlicanKiraz0
+        repo: Qwen3-14B-BaronLLM-v2-Q4_0-GGUF
+  - key: Creamory/qwen3-14b-turkish-headlines-gguf
+    sources:
+      - type: huggingface
+        user: Creamory
+        repo: qwen3-14b-turkish-headlines-gguf
+  - key: mradermacher/UniReason-Qwen3-14B-no-think-SFT-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: UniReason-Qwen3-14B-no-think-SFT-i1-GGUF
+  - key: mradermacher/Qwen3-14B-KE-indecisive-r32-full-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3-14B-KE-indecisive-r32-full-GGUF
+  - key: MBMV666/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill-GGUF
+    sources:
+      - type: huggingface
+        user: MBMV666
+        repo: Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill-GGUF
+  - key: mradermacher/R3-Qwen3-14B-Skywork-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: R3-Qwen3-14B-Skywork-i1-GGUF
+  - key: mradermacher/Qwen3-14B-MASA-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3-14B-MASA-GGUF
+  - key: mradermacher/Qwen3-14B-Polaris-Alpha-Distill-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3-14B-Polaris-Alpha-Distill-GGUF
+  - key: mradermacher/Smoothie-Qwen3-14B-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Smoothie-Qwen3-14B-i1-GGUF
+  - key: mradermacher/Qwen3-14B-Esper3Mix-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3-14B-Esper3Mix-GGUF
+config:
+  operation:
+    fields:
+      - key: llm.prediction.topKSampling
+        value: 20
+      - key: llm.prediction.minPSampling
+        value:
+          checked: true
+          value: 0
+customFields:
+  - key: enableThinking
+    displayName: Enable Thinking
+    description: Controls whether the model will think before replying
+    type: boolean
+    defaultValue: true
+    effects:
+      - type: setJinjaVariable
+        variable: enable_thinking
+metadataOverrides:
+  domain: llm
+  architectures:
+    - qwen3
+  compatibilityTypes:
+    - gguf
+    - safetensors
+  paramsStrings:
+    - 14B
+  minMemoryUsageBytes: 8000000000
+  contextLengths:
+    - 32768
+  vision: false
+  reasoning: true
+  trainedForToolUse: true

@@ -1107,20 +1107,6 @@ base:
       - type: huggingface
         user: mradermacher
         repo: Huihui-Qwen3.5-4B-abliterated-Athanorlite-ORPO-GGUF
-metadataOverrides:
-  domain: llm
-  architectures:
-    - qwen35
-  compatibilityTypes:
-    - gguf
-  paramsStrings:
-    - 35B
-  minMemoryUsageBytes: 21000000000
-  contextLengths:
-    - 262144
-  vision: true
-  reasoning: true
-  trainedForToolUse: true
 config:
   operation:
     fields:
@@ -1153,3 +1139,17 @@ customFields:
     effects:
       - type: setJinjaVariable
         variable: enable_thinking
+metadataOverrides:
+  domain: llm
+  architectures:
+    - qwen35
+  compatibilityTypes:
+    - gguf
+  paramsStrings:
+    - 35B
+  minMemoryUsageBytes: 21000000000
+  contextLengths:
+    - 262144
+  vision: true
+  reasoning: true
+  trainedForToolUse: true

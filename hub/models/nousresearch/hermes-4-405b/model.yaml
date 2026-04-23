@@ -27,20 +27,6 @@ base:
       - type: huggingface
         user: lmstudio-community
         repo: Hermes-4-405B-GGUF
-metadataOverrides:
-  domain: llm
-  architectures:
-    - llama
-  compatibilityTypes:
-    - gguf
-  paramsStrings:
-    - 405B
-  minMemoryUsageBytes: 39835821670
-  contextLengths:
-    - 131072
-  vision: false
-  reasoning: true
-  trainedForToolUse: true
 config:
   operation:
     fields:
@@ -69,3 +55,17 @@ customFields:
     effects:
       - type: setJinjaVariable
         variable: keep_cots
+metadataOverrides:
+  domain: llm
+  architectures:
+    - llama
+  compatibilityTypes:
+    - gguf
+  paramsStrings:
+    - 405B
+  minMemoryUsageBytes: 39835821670
+  contextLengths:
+    - 131072
+  vision: false
+  reasoning: true
+  trainedForToolUse: true

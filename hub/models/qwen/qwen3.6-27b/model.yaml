@@ -197,20 +197,26 @@ base:
       - type: huggingface
         user: namemane
         repo: Qwen3.6-27B-abliterated-Q4_K_M-GGUF
-metadataOverrides:
-  domain: llm
-  architectures:
-    - qwen35
-  compatibilityTypes:
-    - gguf
-  paramsStrings:
-    - 27B
-  minMemoryUsageBytes: 16000000000
-  contextLengths:
-    - 262144
-  vision: true
-  reasoning: true
-  trainedForToolUse: true
+  - key: rico03/qwen3.6-27B-opus-reasoning-GGUF
+    sources:
+      - type: huggingface
+        user: rico03
+        repo: qwen3.6-27B-opus-reasoning-GGUF
+  - key: rico03/Qwen3.6-27B-Opus-Reasoning-Distilled-GGUF
+    sources:
+      - type: huggingface
+        user: rico03
+        repo: Qwen3.6-27B-Opus-Reasoning-Distilled-GGUF
+  - key: SassyDiffusion/Qwen3.6-27B-heretic-ara-GGUF
+    sources:
+      - type: huggingface
+        user: SassyDiffusion
+        repo: Qwen3.6-27B-heretic-ara-GGUF
+  - key: rico03/Qwen3.6-27B-Claude-Opus-Reasoning-Distilled-GGUF
+    sources:
+      - type: huggingface
+        user: rico03
+        repo: Qwen3.6-27B-Claude-Opus-Reasoning-Distilled-GGUF
 config:
   operation:
     fields:
@@ -245,9 +251,24 @@ customFields:
         variable: enable_thinking
   - key: preserveThinking
     displayName: Preserve Thinking
-    description: Preserve reasoning content in all prior assistant turns instead of only the most recent one
+    description: Retains reasoning context across conversation history
     type: boolean
-    defaultValue: false
+    defaultValue: true
     effects:
       - type: setJinjaVariable
         variable: preserve_thinking
+metadataOverrides:
+  domain: llm
+  architectures:
+    - qwen35
+  compatibilityTypes:
+    - gguf
+    - safetensors
+  paramsStrings:
+    - 27B
+  minMemoryUsageBytes: 16000000000
+  contextLengths:
+    - 262144
+  vision: true
+  reasoning: true
+  trainedForToolUse: true

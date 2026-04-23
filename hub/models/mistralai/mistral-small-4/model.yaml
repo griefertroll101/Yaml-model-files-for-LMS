@@ -87,25 +87,11 @@ base:
       - type: huggingface
         user: mudler
         repo: Mistral-Small-4-119B-2603-APEX-GGUF
-metadataOverrides:
-  domain: llm
-  architectures:
-    - mistral4
-  compatibilityTypes:
-    - gguf
-  paramsStrings:
-    - 119B
-  minMemoryUsageBytes: 65000000000
-  contextLengths:
-    - 262144
-  vision: true
-  reasoning: true
-  trainedForToolUse: true
 config:
   operation:
     fields:
       - key: llm.prediction.temperature
-        value: 0.7
+        value: 0.15
       - key: llm.prediction.reasoning.parsing
         value:
           enabled: true
@@ -125,3 +111,17 @@ customFields:
     effects:
       - type: setJinjaVariable
         variable: reasoning_effort
+metadataOverrides:
+  domain: llm
+  architectures:
+    - mistral4
+  compatibilityTypes:
+    - gguf
+  paramsStrings:
+    - 119B
+  minMemoryUsageBytes: 65000000000
+  contextLengths:
+    - 262144
+  vision: true
+  reasoning: true
+  trainedForToolUse: true

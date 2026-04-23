@@ -652,20 +652,6 @@ base:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-2B-THIREUS-IQ2_KS-SPECIAL_SPLIT
-metadataOverrides:
-  domain: llm
-  architectures:
-    - qwen35
-  compatibilityTypes:
-    - gguf
-  paramsStrings:
-    - 2B
-  minMemoryUsageBytes: 1500000000
-  contextLengths:
-    - 262144
-  vision: true
-  reasoning: true
-  trainedForToolUse: true
 config:
   operation:
     fields:
@@ -698,3 +684,17 @@ customFields:
     effects:
       - type: setJinjaVariable
         variable: enable_thinking
+metadataOverrides:
+  domain: llm
+  architectures:
+    - qwen35
+  compatibilityTypes:
+    - gguf
+  paramsStrings:
+    - 2B
+  minMemoryUsageBytes: 1500000000
+  contextLengths:
+    - 262144
+  vision: true
+  reasoning: true
+  trainedForToolUse: true

@@ -1,0 +1,222 @@
+# model.yaml is an open standard for defining cross-platform, composable AI models
+# Learn more at https://modelyaml.org
+model: qwen/qwen3-4b
+base:
+  - key: MaziyarPanahi/Qwen3-4B-GGUF
+    sources:
+      - type: huggingface
+        user: MaziyarPanahi
+        repo: Qwen3-4B-GGUF
+  - key: MaziyarPanahi/Qwen3-4B-Instruct-2507-GGUF
+    sources:
+      - type: huggingface
+        user: MaziyarPanahi
+        repo: Qwen3-4B-Instruct-2507-GGUF
+  - key: khazarai/Qwen3-4B-Qwen3.6-plus-Reasoning-Distilled-GGUF
+    sources:
+      - type: huggingface
+        user: khazarai
+        repo: Qwen3-4B-Qwen3.6-plus-Reasoning-Distilled-GGUF
+  - key: unsloth/Qwen3-4B-GGUF
+    sources:
+      - type: huggingface
+        user: unsloth
+        repo: Qwen3-4B-GGUF
+  - key: unsloth/Qwen3-4B-Instruct-2507-GGUF
+    sources:
+      - type: huggingface
+        user: unsloth
+        repo: Qwen3-4B-Instruct-2507-GGUF
+  - key: Qwen/Qwen3-4B-GGUF
+    sources:
+      - type: huggingface
+        user: Qwen
+        repo: Qwen3-4B-GGUF
+  - key: BennyDaBall/Qwen3-4b-Z-Image-Turbo-AbliteratedV1
+    sources:
+      - type: huggingface
+        user: BennyDaBall
+        repo: Qwen3-4b-Z-Image-Turbo-AbliteratedV1
+  - key: BennyDaBall/Qwen3-4b-Z-Image-Engineer-V4
+    sources:
+      - type: huggingface
+        user: BennyDaBall
+        repo: Qwen3-4b-Z-Image-Engineer-V4
+  - key: Chun121/Qwen3-4B-RPG-Roleplay-V2
+    sources:
+      - type: huggingface
+        user: Chun121
+        repo: Qwen3-4B-RPG-Roleplay-V2
+  - key: lmstudio-community/Qwen3-4B-Thinking-2507-GGUF
+    sources:
+      - type: huggingface
+        user: lmstudio-community
+        repo: Qwen3-4B-Thinking-2507-GGUF
+  - key: khazarai/Qwen3-4B-Kimi2.5-Reasoning-Distilled-GGUF
+    sources:
+      - type: huggingface
+        user: khazarai
+        repo: Qwen3-4B-Kimi2.5-Reasoning-Distilled-GGUF
+  - key: MaziyarPanahi/Qwen3-4B-Thinking-2507-GGUF
+    sources:
+      - type: huggingface
+        user: MaziyarPanahi
+        repo: Qwen3-4B-Thinking-2507-GGUF
+  - key: geoffmunn/Qwen3-4B-f16
+    sources:
+      - type: huggingface
+        user: geoffmunn
+        repo: Qwen3-4B-f16
+  - key: lmstudio-community/Qwen3-4B-Instruct-2507-GGUF
+    sources:
+      - type: huggingface
+        user: lmstudio-community
+        repo: Qwen3-4B-Instruct-2507-GGUF
+  - key: bartowski/Qwen_Qwen3-4B-Instruct-2507-GGUF
+    sources:
+      - type: huggingface
+        user: bartowski
+        repo: Qwen_Qwen3-4B-Instruct-2507-GGUF
+  - key: Manojb/Qwen3-4B-toolcalling-gguf-codex
+    sources:
+      - type: huggingface
+        user: Manojb
+        repo: Qwen3-4B-toolcalling-gguf-codex
+  - key: lmstudio-community/Qwen3-4B-GGUF
+    sources:
+      - type: huggingface
+        user: lmstudio-community
+        repo: Qwen3-4B-GGUF
+  - key: TeichAI/Qwen3-4B-Thinking-2507-MiMo-V2-Flash-Distill-GGUF
+    sources:
+      - type: huggingface
+        user: TeichAI
+        repo: Qwen3-4B-Thinking-2507-MiMo-V2-Flash-Distill-GGUF
+  - key: Lockout/qwen3-4b-heretic-zimage
+    sources:
+      - type: huggingface
+        user: Lockout
+        repo: qwen3-4b-heretic-zimage
+  - key: mradermacher/NaijaPidgin-Qwen3-4B-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: NaijaPidgin-Qwen3-4B-i1-GGUF
+  - key: mradermacher/LTE-Qwen3-4B-Base-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: LTE-Qwen3-4B-Base-i1-GGUF
+  - key: bartowski/mlabonne_Qwen3-4B-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: bartowski
+        repo: mlabonne_Qwen3-4B-abliterated-GGUF
+  - key: Jackrong/GPT-5-Distill-Qwen3-4B-Instruct-GGUF
+    sources:
+      - type: huggingface
+        user: Jackrong
+        repo: GPT-5-Distill-Qwen3-4B-Instruct-GGUF
+  - key: mradermacher/HalluGuard-Qwen3-4B-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: HalluGuard-Qwen3-4B-i1-GGUF
+  - key: mradermacher/qwen3-4b-unslop-good-lora-v1-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: qwen3-4b-unslop-good-lora-v1-i1-GGUF
+  - key: bartowski/Qwen_Qwen3-4B-GGUF
+    sources:
+      - type: huggingface
+        user: bartowski
+        repo: Qwen_Qwen3-4B-GGUF
+  - key: unsloth/Qwen3-4B-Thinking-2507-GGUF
+    sources:
+      - type: huggingface
+        user: unsloth
+        repo: Qwen3-4B-Thinking-2507-GGUF
+  - key: mradermacher/Qwen3-4B-Nymphaea-RP-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3-4B-Nymphaea-RP-i1-GGUF
+  - key: mradermacher/Qwen3-4B-Instruct-2507-SOM-MPOA-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3-4B-Instruct-2507-SOM-MPOA-i1-GGUF
+  - key: HauhauCS/Qwen3-4B-2507-Instruct-Uncensored-HauhauCS-Aggressive
+    sources:
+      - type: huggingface
+        user: HauhauCS
+        repo: Qwen3-4B-2507-Instruct-Uncensored-HauhauCS-Aggressive
+  - key: mradermacher/Qwen3-4B-heretic-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3-4B-heretic-i1-GGUF
+  - key: mradermacher/Qwen3-4B-Wrist-On-Hermes-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3-4B-Wrist-On-Hermes-i1-GGUF
+  - key: TeichAI/Qwen3-4B-Thinking-2507-DeepSeek-v3.2-Speciale-Code-Distill-GGUF
+    sources:
+      - type: huggingface
+        user: TeichAI
+        repo: Qwen3-4B-Thinking-2507-DeepSeek-v3.2-Speciale-Code-Distill-GGUF
+  - key: Mungert/Qwen3-4B-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: Mungert
+        repo: Qwen3-4B-abliterated-GGUF
+  - key: mradermacher/Qwen3-4B-Qwen3.6-plus-Reasoning-Slerp-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3-4B-Qwen3.6-plus-Reasoning-Slerp-i1-GGUF
+  - key: BennyDaBall/qwen3-4b-Z-Image-Engineer
+    sources:
+      - type: huggingface
+        user: BennyDaBall
+        repo: qwen3-4b-Z-Image-Engineer
+  - key: mradermacher/sphinx-qwen3-4b-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: sphinx-qwen3-4b-i1-GGUF
+config:
+  operation:
+    fields:
+      - key: llm.prediction.topKSampling
+        value: 20
+      - key: llm.prediction.minPSampling
+        value:
+          checked: true
+          value: 0
+customFields:
+  - key: enableThinking
+    displayName: Enable Thinking
+    description: Controls whether the model will think before replying
+    type: boolean
+    defaultValue: true
+    effects:
+      - type: setJinjaVariable
+        variable: enable_thinking
+metadataOverrides:
+  domain: llm
+  architectures:
+    - qwen3
+  compatibilityTypes:
+    - gguf
+    - safetensors
+  paramsStrings:
+    - 4B
+  minMemoryUsageBytes: 2500000000
+  contextLengths:
+    - 32768
+  vision: false
+  reasoning: true
+  trainedForToolUse: true

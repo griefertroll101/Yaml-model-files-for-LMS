@@ -837,20 +837,6 @@ base:
       - type: huggingface
         user: nguyenthilaitrieulong
         repo: Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive
-metadataOverrides:
-  domain: llm
-  architectures:
-    - qwen35moe
-  compatibilityTypes:
-    - gguf
-  paramsStrings:
-    - 35B
-  minMemoryUsageBytes: 21000000000
-  contextLengths:
-    - 262144
-  vision: true
-  reasoning: true
-  trainedForToolUse: true
 config:
   operation:
     fields:
@@ -875,3 +861,17 @@ customFields:
     effects:
       - type: setJinjaVariable
         variable: enable_thinking
+metadataOverrides:
+  domain: llm
+  architectures:
+    - qwen35moe
+  compatibilityTypes:
+    - gguf
+  paramsStrings:
+    - 35B
+  minMemoryUsageBytes: 21000000000
+  contextLengths:
+    - 262144
+  vision: true
+  reasoning: true
+  trainedForToolUse: true

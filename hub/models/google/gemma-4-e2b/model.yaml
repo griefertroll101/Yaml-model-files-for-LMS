@@ -672,20 +672,6 @@ base:
       - type: huggingface
         user: cang1103
         repo: Gemma-4-E2B-Uncensored-HauhauCS-Aggressive
-metadataOverrides:
-  domain: llm
-  architectures:
-    - gemma4
-  compatibilityTypes:
-    - gguf
-  paramsStrings:
-    - 2B
-  minMemoryUsageBytes: 1500000000
-  contextLengths:
-    - 262144
-  vision: true
-  reasoning: true
-  trainedForToolUse: true
 config:
   operation:
     fields:
@@ -697,10 +683,6 @@ config:
         value:
           checked: true
           value: 0.95
-      - key: llm.prediction.minPSampling
-        value:
-          checked: false
-          value: 0.0
       - key: llm.prediction.reasoning.parsing
         value:
           enabled: true
@@ -715,3 +697,17 @@ customFields:
     effects:
       - type: setJinjaVariable
         variable: enable_thinking
+metadataOverrides:
+  domain: llm
+  architectures:
+    - gemma4
+  compatibilityTypes:
+    - gguf
+  paramsStrings:
+    - 2B
+  minMemoryUsageBytes: 1500000000
+  contextLengths:
+    - 262144
+  vision: true
+  reasoning: true
+  trainedForToolUse: true

@@ -207,20 +207,6 @@ base:
       - type: huggingface
         user: majentik
         repo: Nemotron-3-Super-120B-A12B-RotorQuant-GGUF-Q8_0
-metadataOverrides:
-  domain: llm
-  architectures:
-    - nemotron_h_moe
-  compatibilityTypes:
-    - gguf
-  paramsStrings:
-    - 120B
-  minMemoryUsageBytes: 83000000000
-  contextLengths:
-    - 1048576
-  vision: false
-  reasoning: true
-  trainedForToolUse: true
 config:
   operation:
     fields:
@@ -259,3 +245,17 @@ customFields:
     effects:
       - type: setJinjaVariable
         variable: truncate_history_thinking
+metadataOverrides:
+  domain: llm
+  architectures:
+    - nemotron_h_moe
+  compatibilityTypes:
+    - gguf
+  paramsStrings:
+    - 120B
+  minMemoryUsageBytes: 83000000000
+  contextLengths:
+    - 1048576
+  vision: false
+  reasoning: true
+  trainedForToolUse: true

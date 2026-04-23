@@ -597,30 +597,25 @@ base:
       - type: huggingface
         user: Mungert
         repo: gpt-oss-20b-heretic-GGUF
-metadataOverrides:
-  domain: llm
-  architectures:
-    - gpt-oss
-  compatibilityTypes:
-    - gguf
-    - safetensors
-  paramsStrings:
-    - 20B
-  minMemoryUsageBytes: 12000000000
-  contextLengths:
-    - 131072
-  vision: false
-  reasoning: true
-  trainedForToolUse: true
 config:
   operation:
     fields:
       - key: llm.prediction.temperature
-        value: 1.0
+        value: 0.8
+      - key: llm.prediction.topKSampling
+        value: 40
       - key: llm.prediction.topPSampling
         value:
           checked: true
-          value: 1.0
+          value: 0.8
+      - key: llm.prediction.repeatPenalty
+        value:
+          checked: true
+          value: 1.1
+      - key: llm.prediction.minPSampling
+        value:
+          checked: true
+          value: 0.05
 customFields:
   - key: reasoningEffort
     displayName: Reasoning Effort
@@ -637,3 +632,18 @@ customFields:
     effects:
       - type: setJinjaVariable
         variable: reasoning_effort
+metadataOverrides:
+  domain: llm
+  architectures:
+    - gpt-oss
+  compatibilityTypes:
+    - gguf
+    - safetensors
+  paramsStrings:
+    - 20B
+  minMemoryUsageBytes: 12000000000
+  contextLengths:
+    - 131072
+  vision: false
+  reasoning: true
+  trainedForToolUse: true

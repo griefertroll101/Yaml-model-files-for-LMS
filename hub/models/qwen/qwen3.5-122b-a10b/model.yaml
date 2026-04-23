@@ -16,7 +16,7 @@ base:
     sources:
       - type: huggingface
         user: bartowski
-        repo: 	qwen_qwen3.5-122b-a10b
+        repo: qwen_qwen3.5-122b-a10b
   - key: mradermacher/Qwen3.5-122B-A10B-i1-GGUF
     sources:
       - type: huggingface
@@ -567,20 +567,6 @@ base:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-122B-A10B-THIREUS-Q4_K-SPECIAL_SPLIT
-metadataOverrides:
-  domain: llm
-  architectures:
-    - qwen35moe
-  compatibilityTypes:
-    - gguf
-  paramsStrings:
-    - 122B
-  minMemoryUsageBytes: 21000000000
-  contextLengths:
-    - 262144
-  vision: true
-  reasoning: true
-  trainedForToolUse: true
 config:
   operation:
     fields:
@@ -605,3 +591,17 @@ customFields:
     effects:
       - type: setJinjaVariable
         variable: enable_thinking
+metadataOverrides:
+  domain: llm
+  architectures:
+    - qwen35moe
+  compatibilityTypes:
+    - gguf
+  paramsStrings:
+    - 122B
+  minMemoryUsageBytes: 21000000000
+  contextLengths:
+    - 262144
+  vision: true
+  reasoning: true
+  trainedForToolUse: true

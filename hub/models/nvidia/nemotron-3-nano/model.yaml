@@ -197,6 +197,101 @@ base:
       - type: huggingface
         user: aoiandroid
         repo: NVIDIA-Nemotron3-Nano-4B-Q4_K_M-GGUF
+  - key: andersonscode/Nemotron-3-Nano-4B
+    sources:
+      - type: huggingface
+        user: andersonscode
+        repo: Nemotron-3-Nano-4B
+  - key: majentik/Nemotron-3-Nano-4B-RotorQuant-GGUF-IQ4_XS
+    sources:
+      - type: huggingface
+        user: majentik
+        repo: Nemotron-3-Nano-4B-RotorQuant-GGUF-IQ4_XS
+  - key: majentik/Nemotron-3-Nano-30B-A3B-RotorQuant-GGUF-IQ4_XS
+    sources:
+      - type: huggingface
+        user: majentik
+        repo: Nemotron-3-Nano-30B-A3B-RotorQuant-GGUF-IQ4_XS
+  - key: nazihara/Nemotron3-Nano-4B-Aggressive
+    sources:
+      - type: huggingface
+        user: nazihara
+        repo: Nemotron3-Nano-4B-Aggressive
+  - key: andersonscode/Nemotron-3-Nano-4B-oss-20b
+    sources:
+      - type: huggingface
+        user: andersonscode
+        repo: Nemotron-3-Nano-4B-oss-20b
+  - key: tripolskypetr/Nemotron3-Nano-Uncensored-Aggressive
+    sources:
+      - type: huggingface
+        user: tripolskypetr
+        repo: Nemotron3-Nano-Uncensored-Aggressive
+  - key: majentik/Nemotron-3-Nano-4B-TurboQuant-GGUF-Q4_K_M
+    sources:
+      - type: huggingface
+        user: majentik
+        repo: Nemotron-3-Nano-4B-TurboQuant-GGUF-Q4_K_M
+  - key: majentik/Nemotron-3-Nano-30B-A3B-TurboQuant-GGUF-Q4_K_M
+    sources:
+      - type: huggingface
+        user: majentik
+        repo: Nemotron-3-Nano-30B-A3B-TurboQuant-GGUF-Q4_K_M
+  - key: majentik/Nemotron-3-Nano-30B-A3B-RotorQuant-GGUF-Q4_K_M
+    sources:
+      - type: huggingface
+        user: majentik
+        repo: Nemotron-3-Nano-30B-A3B-RotorQuant-GGUF-Q4_K_M
+  - key: majentik/Nemotron-3-Nano-4B-RotorQuant-GGUF-Q4_K_M
+    sources:
+      - type: huggingface
+        user: majentik
+        repo: Nemotron-3-Nano-4B-RotorQuant-GGUF-Q4_K_M
+  - key: andersonscode/Nemotron-3-Nano-4B-HIPE
+    sources:
+      - type: huggingface
+        user: andersonscode
+        repo: Nemotron-3-Nano-4B-HIPE
+  - key: majentik/Nemotron-3-Nano-30B-A3B-RotorQuant-GGUF-Q5_K_M
+    sources:
+      - type: huggingface
+        user: majentik
+        repo: Nemotron-3-Nano-30B-A3B-RotorQuant-GGUF-Q5_K_M
+  - key: majentik/Nemotron-3-Nano-30B-A3B-RotorQuant-GGUF-Q2_K
+    sources:
+      - type: huggingface
+        user: majentik
+        repo: Nemotron-3-Nano-30B-A3B-RotorQuant-GGUF-Q2_K
+  - key: majentik/Nemotron-3-Nano-30B-A3B-RotorQuant-GGUF-Q3_K_M
+    sources:
+      - type: huggingface
+        user: majentik
+        repo: Nemotron-3-Nano-30B-A3B-RotorQuant-GGUF-Q3_K_M
+  - key: majentik/Nemotron-3-Nano-4B-RotorQuant-GGUF-Q2_K
+    sources:
+      - type: huggingface
+        user: majentik
+        repo: Nemotron-3-Nano-4B-RotorQuant-GGUF-Q2_K
+  - key: majentik/Nemotron-3-Nano-4B-RotorQuant-GGUF-Q3_K_M
+    sources:
+      - type: huggingface
+        user: majentik
+        repo: Nemotron-3-Nano-4B-RotorQuant-GGUF-Q3_K_M
+  - key: VECTORVV1/Nemotron3-Nano-4B-Aggressive-GenRM
+    sources:
+      - type: huggingface
+        user: VECTORVV1
+        repo: Nemotron3-Nano-4B-Aggressive-GenRM
+  - key: majentik/Nemotron-3-Nano-30B-A3B-TurboQuant-GGUF-Q8_0
+    sources:
+      - type: huggingface
+        user: majentik
+        repo: Nemotron-3-Nano-30B-A3B-TurboQuant-GGUF-Q8_0
+  - key: majentik/Nemotron-3-Nano-30B-A3B-RotorQuant-GGUF-Q8_0
+    sources:
+      - type: huggingface
+        user: majentik
+        repo: Nemotron-3-Nano-30B-A3B-RotorQuant-GGUF-Q8_0
 config:
   operation:
     fields:
@@ -230,7 +325,7 @@ metadataOverrides:
     - safetensors
   paramsStrings:
     - 30B
-  minMemoryUsageBytes: 16000000000
+  minMemoryUsageBytes: 24620000000
   contextLengths:
     - 1048576
   vision: false
