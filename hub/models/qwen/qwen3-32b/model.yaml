@@ -252,6 +252,16 @@ base:
       - type: huggingface
         user: mradermacher
         repo: Qwen3-32B-abliterated-i1-GGUF
+  - key: steampunque/Qwen3-32B-MP-GGUF
+    sources:
+      - type: huggingface
+        user: steampunque
+        repo: Qwen3-32B-MP-GGUF
+  - key: yybl/Qwen3-32B-VL-Instruct-Polaris-HI16-Heretic-Uncensored-Q5_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: yybl
+        repo: Qwen3-32B-VL-Instruct-Polaris-HI16-Heretic-Uncensored-Q5_K_M-GGUF
 config:
   operation:
     fields:

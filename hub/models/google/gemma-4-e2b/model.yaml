@@ -672,6 +672,31 @@ base:
       - type: huggingface
         user: cang1103
         repo: Gemma-4-E2B-Uncensored-HauhauCS-Aggressive
+  - key: MoonRide/gemma-4-E2B-it-heretic-ara-GGUF
+    sources:
+      - type: huggingface
+        user: MoonRide
+        repo: gemma-4-E2B-it-heretic-ara-GGUF
+  - key: Arabic250/gemma-4-E2B-it-GGU
+    sources:
+      - type: huggingface
+        user: Arabic250
+        repo: gemma-4-E2B-it-GGU
+  - key: 0x3/gemma-4-E2B-it-GGUF
+    sources:
+      - type: huggingface
+        user: 0x3
+        repo: gemma-4-E2B-it-GGUF
+  - key: Kasper-Bankler/gemma-4-E2B-uncensored
+    sources:
+      - type: huggingface
+        user: Kasper-Bankler
+        repo: gemma-4-E2B-uncensored
+  - key: sphaela/gemma-4-E2B-it-AutoRound-GGUF
+    sources:
+      - type: huggingface
+        user: sphaela
+        repo: gemma-4-E2B-it-AutoRound-GGUF
 config:
   operation:
     fields:

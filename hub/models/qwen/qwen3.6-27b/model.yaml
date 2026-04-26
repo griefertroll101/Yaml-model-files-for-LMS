@@ -217,6 +217,291 @@ base:
       - type: huggingface
         user: rico03
         repo: Qwen3.6-27B-Claude-Opus-Reasoning-Distilled-GGUF
+  - key: MoonRide/Qwen3.6-27B-heretic-ara-GGUF
+    sources:
+      - type: huggingface
+        user: MoonRide
+        repo: Qwen3.6-27B-heretic-ara-GGUF
+  - key: googlecs/Huihui-Qwen3.6-27B-abliterated-Q4_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: googlecs
+        repo: Huihui-Qwen3.6-27B-abliterated-Q4_K_M-GGUF
+  - key: HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Balanced
+    sources:
+      - type: huggingface
+        user: HauhauCS
+        repo: Qwen3.6-27B-Uncensored-HauhauCS-Balanced
+  - key: mradermacher/Qwen3.6-27B-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.6-27B-i1-GGUF
+  - key: LuffyTheFox/Qwen3.6-27B-Uncensored-Wasserstein
+    sources:
+      - type: huggingface
+        user: LuffyTheFox
+        repo: Qwen3.6-27B-Uncensored-Wasserstein
+  - key: andyjack/Huihui-Qwen3.6-27B-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: andyjack
+        repo: Huihui-Qwen3.6-27B-abliterated-GGUF
+  - key: TeichAI/Qwen3.6-27B-Claude-Opus-Reasoning-Distill-v2-GGUF
+    sources:
+      - type: huggingface
+        user: TeichAI
+        repo: Qwen3.6-27B-Claude-Opus-Reasoning-Distill-v2-GGUF
+  - key: Abiray/Huihui-Qwen3.6-27B-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: Abiray
+        repo: Huihui-Qwen3.6-27B-abliterated-GGUF
+  - key: ubergarm/Qwen3.6-27B-GGUF
+    sources:
+      - type: huggingface
+        user: ubergarm
+        repo: Qwen3.6-27B-GGUF
+  - key: MuVeraAI/Qwen3.6-27B-GGUF
+    sources:
+      - type: huggingface
+        user: MuVeraAI
+        repo: Qwen3.6-27B-GGUF
+  - key: Johnblick187/Qwen3.6-27B-NEO-CODE-Di-IMatrix-MAX-GGUF
+    sources:
+      - type: huggingface
+        user: Johnblick187
+        repo: Qwen3.6-27B-NEO-CODE-Di-IMatrix-MAX-GGUF
+  - key: eewwq/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive
+    sources:
+      - type: huggingface
+        user: eewwq
+        repo: Qwen3.6-27B-Uncensored-HauhauCS-Aggressive
+  - key: Freenixi/Abiray-Qwen3.6-27B-NVFP4-GGUF
+    sources:
+      - type: huggingface
+        user: Freenixi
+        repo: Abiray-Qwen3.6-27B-NVFP4-GGUF
+  - key: prithivMLmods/Qwen3.6-27B-abliterated-rMAX-GGUF
+    sources:
+      - type: huggingface
+        user: prithivMLmods
+        repo: Qwen3.6-27B-abliterated-rMAX-GGUF
+  - key: RDson/Qwen3.6-27B-IQ4_KS-GGUF
+    sources:
+      - type: huggingface
+        user: RDson
+        repo: Qwen3.6-27B-IQ4_KS-GGUF
+  - key: TeichAI/Qwen3.6-27B-Claude-Opus-Reasoning-Distill-GGUF
+    sources:
+      - type: huggingface
+        user: TeichAI
+        repo: Qwen3.6-27B-Claude-Opus-Reasoning-Distill-GGUF
+  - key: spiritbuun/Qwen3.6-27B-DFlash-GGUF
+    sources:
+      - type: huggingface
+        user: spiritbuun
+        repo: Qwen3.6-27B-DFlash-GGUF
+  - key: etemiz/Qwen3.6-27B-PonderQuant-GGUF
+    sources:
+      - type: huggingface
+        user: etemiz
+        repo: Qwen3.6-27B-PonderQuant-GGUF
+  - key: sphaela/Qwen3.6-27B-AutoRound-GGUF
+    sources:
+      - type: huggingface
+        user: sphaela
+        repo: Qwen3.6-27B-AutoRound-GGUF
+  - key: Stabhappy/Qwen3.6-27B-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: Stabhappy
+        repo: Qwen3.6-27B-abliterated-GGUF
+  - key: Abiray/Huihui-Qwen3.6-27B-abliterated-Q4_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: Abiray
+        repo: Huihui-Qwen3.6-27B-abliterated-Q4_K_M-GGUF
+  - key: openresearchtools/Qwen3.6-27B-instruct-GGUF
+    sources:
+      - type: huggingface
+        user: openresearchtools
+        repo: Qwen3.6-27B-instruct-GGUF
+  - key: wangzhang/Qwen3.6-27B-abliterated-v2-GGUF
+    sources:
+      - type: huggingface
+        user: wangzhang
+        repo: Qwen3.6-27B-abliterated-v2-GGUF
+  - key: openresearchtools/Qwen3.6-27B-GGUF
+    sources:
+      - type: huggingface
+        user: openresearchtools
+        repo: Qwen3.6-27B-GGUF
+  - key: doctoridiot/Qwen3.6-27B-abliterated-rMAX-Q5_K_S-GGUF
+    sources:
+      - type: huggingface
+        user: doctoridiot
+        repo: Qwen3.6-27B-abliterated-rMAX-Q5_K_S-GGUF
+  - key: llmfan46/Qwen3.6-27B-uncensored-heretic-v1-GGUF
+    sources:
+      - type: huggingface
+        user: llmfan46
+        repo: Qwen3.6-27B-uncensored-heretic-v1-GGUF
+  - key: llmfan46/Qwen3.6-27B-uncensored-heretic-v2-GGUF
+    sources:
+      - type: huggingface
+        user: llmfan46
+        repo: Qwen3.6-27B-uncensored-heretic-v2-GGUF
+  - key: steampunque/Qwen3.6-27B-MP-GGUF
+    sources:
+      - type: huggingface
+        user: steampunque
+        repo: Qwen3.6-27B-MP-GGUF
+  - key: stevelikesrhino/Qwen3.6-27B-Q8-NVFP4-GGUF
+    sources:
+      - type: huggingface
+        user: stevelikesrhino
+        repo: Qwen3.6-27B-Q8-NVFP4-GGUF
+  - key: s3brr/Qwen3.6-27B-relaxed-100-GGUF
+    sources:
+      - type: huggingface
+        user: s3brr
+        repo: Qwen3.6-27B-relaxed-100-GGUF
+  - key: Ununnilium/Qwen3.6-27B-IQ4_XS-pure-GGUF
+    sources:
+      - type: huggingface
+        user: Ununnilium
+        repo: Qwen3.6-27B-IQ4_XS-pure-GGUF
+  - key: aaardpark/Qwen3.6-27B-GGUF
+    sources:
+      - type: huggingface
+        user: aaardpark
+        repo: Qwen3.6-27B-GGUF
+  - key: prithivMLmods/Qwen3.6-27B-abliterated-rMAX-Q4_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: prithivMLmods
+        repo: Qwen3.6-27B-abliterated-rMAX-Q4_K_M-GGUF
+  - key: lym00/Qwen3.6-27B-DFlash-GGUF-Test
+    sources:
+      - type: huggingface
+        user: lym00
+        repo: Qwen3.6-27B-DFlash-GGUF-Test
+  - key: XpressAI/Qwen3.6-27B-RYS-UD-Q4_K_XL-GGUF
+    sources:
+      - type: huggingface
+        user: XpressAI
+        repo: Qwen3.6-27B-RYS-UD-Q4_K_XL-GGUF
+  - key: tdbxgf222/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive
+    sources:
+      - type: huggingface
+        user: tdbxgf222
+        repo: Qwen3.6-27B-Uncensored-HauhauCS-Aggressive
+  - key: lkjiop8/CyberSentinel-Qwen3.6-27B-GGUF-Q8_0
+    sources:
+      - type: huggingface
+        user: lkjiop8
+        repo: CyberSentinel-Qwen3.6-27B-GGUF-Q8_0
+  - key: aaardpark/Qwen3.6-27B-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: aaardpark
+        repo: Qwen3.6-27B-abliterated-GGUF
+  - key: mradermacher/Huihui-Qwen3.6-27B-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Huihui-Qwen3.6-27B-abliterated-GGUF
+  - key: mradermacher/Huihui-Qwen3.6-27B-abliterated-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Huihui-Qwen3.6-27B-abliterated-i1-GGUF
+  - key: mradermacher/Qwen3.6-27B-SOM-MPOA-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.6-27B-SOM-MPOA-GGUF
+  - key: mradermacher/Qwen3.6-27B-SOM-MPOA-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.6-27B-SOM-MPOA-i1-GGUF
+  - key: lambsea/Qwen3.6-27B-Abliterated-Heretic-Uncensored-UD-GGUF
+    sources:
+      - type: huggingface
+        user: lambsea
+        repo: Qwen3.6-27B-Abliterated-Heretic-Uncensored-UD-GGUF
+  - key: Thireus/Qwen3.6-27B-THIREUS-BF16-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: Qwen3.6-27B-THIREUS-BF16-SPECIAL_SPLIT
+  - key: acgs/Qwen3.6-27B-GGUF
+    sources:
+      - type: huggingface
+        user: acgs
+        repo: Qwen3.6-27B-GGUF
+  - key: sokann/Qwen3.6-27B-GGUF-5.076bpw
+    sources:
+      - type: huggingface
+        user: sokann
+        repo: Qwen3.6-27B-GGUF-5.076bpw
+  - key: ghostxwafi/Qwen3.6-27B-IslamQA-Athari
+    sources:
+      - type: huggingface
+        user: ghostxwafi
+        repo: Qwen3.6-27B-IslamQA-Athari
+  - key: Thireus/Qwen3.6-27B-THIREUS-IQ1_S_R4-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: Qwen3.6-27B-THIREUS-IQ1_S_R4-SPECIAL_SPLIT
+  - key: Thireus/Qwen3.6-27B-THIREUS-IQ1_S-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: Qwen3.6-27B-THIREUS-IQ1_S-SPECIAL_SPLIT
+  - key: Thireus/Qwen3.6-27B-THIREUS-IQ1_BN-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: Qwen3.6-27B-THIREUS-IQ1_BN-SPECIAL_SPLIT
+  - key: Thireus/Qwen3.6-27B-THIREUS-IQ1_KT-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: Qwen3.6-27B-THIREUS-IQ1_KT-SPECIAL_SPLIT
+  - key: Thireus/Qwen3.6-27B-THIREUS-IQ1_M-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: Qwen3.6-27B-THIREUS-IQ1_M-SPECIAL_SPLIT
+  - key: Thireus/Qwen3.6-27B-THIREUS-IQ1_M_R4-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: Qwen3.6-27B-THIREUS-IQ1_M_R4-SPECIAL_SPLIT
+  - key: Thireus/Qwen3.6-27B-THIREUS-IQ2_BN-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: Qwen3.6-27B-THIREUS-IQ2_BN-SPECIAL_SPLIT
+  - key: Thireus/Qwen3.6-27B-THIREUS-IQ2_BN_R4-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: Qwen3.6-27B-THIREUS-IQ2_BN_R4-SPECIAL_SPLIT
+  - key: Thireus/Qwen3.6-27B-THIREUS-IQ4_NL-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: Qwen3.6-27B-THIREUS-IQ4_NL-SPECIAL_SPLIT
+  - key: Thireus/Qwen3.6-27B-THIREUS-Q8_0-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: Qwen3.6-27B-THIREUS-Q8_0-SPECIAL_SPLIT
 config:
   operation:
     fields:

@@ -397,6 +397,11 @@ base:
       - type: huggingface
         user: 0xSero
         repo: GLM-5.1-REAP
+  - key: chrisdemonxxx/Huihui-GLM-5.1-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: chrisdemonxxx
+        repo: Huihui-GLM-5.1-abliterated-GGUF
 metadataOverrides:
   domain: llm
   architectures:

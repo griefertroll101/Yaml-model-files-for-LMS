@@ -597,6 +597,16 @@ base:
       - type: huggingface
         user: Mungert
         repo: gpt-oss-20b-heretic-GGUF
+  - key: mradermacher/gpt-oss-20b-DAG-Reasoning-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gpt-oss-20b-DAG-Reasoning-i1-GGUF
+  - key: beenyb/financial-gpt-oss-20b-q8
+    sources:
+      - type: huggingface
+        user: beenyb
+        repo: financial-gpt-oss-20b-q8
 config:
   operation:
     fields:

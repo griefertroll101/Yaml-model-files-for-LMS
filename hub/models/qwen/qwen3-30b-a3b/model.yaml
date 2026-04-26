@@ -242,6 +242,31 @@ base:
       - type: huggingface
         user: mradermacher
         repo: Huihui-Qwen3-30B-A3B-Instruct-2507-abliterated-i1-GGUF
+  - key: mradermacher/Qwen3-30B-A3B-Claude-4.5-Opus-High-Reasoning-2507-V2-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3-30B-A3B-Claude-4.5-Opus-High-Reasoning-2507-V2-i1-GGUF
+  - key: mradermacher/OmniAtlas-Qwen3-30B-A3B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: OmniAtlas-Qwen3-30B-A3B-GGUF
+  - key: mradermacher/Qwen3-30B-A3B-Thinking-2507-GLM-4.7-Flash-High-Reasoning-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3-30B-A3B-Thinking-2507-GLM-4.7-Flash-High-Reasoning-i1-GGUF
+  - key: mradermacher/Qwen3-30B-A3B-Gemini-Pro-High-Reasoning-2507-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3-30B-A3B-Gemini-Pro-High-Reasoning-2507-i1-GGUF
+  - key: mradermacher/Huihui-Qwen3-30B-A3B-Thinking-2507-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Huihui-Qwen3-30B-A3B-Thinking-2507-abliterated-GGUF
 config:
   operation:
     fields:

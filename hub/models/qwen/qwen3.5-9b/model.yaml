@@ -737,6 +737,21 @@ base:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-9B-imabari-v2-i1-GGUF
+  - key: mradermacher/Qwen3.5-9B-Base-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-9B-Base-i1-GGUF
+  - key: w-ahmad/Qwen3.5-9B-GGUF-MoQ
+    sources:
+      - type: huggingface
+        user: w-ahmad
+        repo: Qwen3.5-9B-GGUF-MoQ
+  - key: mradermacher/TQL-Coder-Qwen3.5-9B-thinking-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: TQL-Coder-Qwen3.5-9B-thinking-GGUF
 config:
   operation:
     fields:

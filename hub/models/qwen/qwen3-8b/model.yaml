@@ -307,6 +307,11 @@ base:
       - type: huggingface
         user: mradermacher
         repo: Qwen3-8B-HoneyBadger-EXP-i1-GGUF
+  - key: mradermacher/s1.1-Qwen3-8B-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: s1.1-Qwen3-8B-i1-GGUF
 config:
   operation:
     fields:

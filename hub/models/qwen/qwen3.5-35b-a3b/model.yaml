@@ -837,6 +837,21 @@ base:
       - type: huggingface
         user: nguyenthilaitrieulong
         repo: Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive
+  - key: Olonilu/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive
+    sources:
+      - type: huggingface
+        user: Olonilu
+        repo: Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive
+  - key: Bubblesbash/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive
+    sources:
+      - type: huggingface
+        user: Bubblesbash
+        repo: Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive
+  - key: elpirater312/LuffyTheFox-Qwen3.5-35B-A3B-Uncensored-FernflowerAI-IQ4_NL-GGUF
+    sources:
+      - type: huggingface
+        user: elpirater312
+        repo: LuffyTheFox-Qwen3.5-35B-A3B-Uncensored-FernflowerAI-IQ4_NL-GGUF
 config:
   operation:
     fields:

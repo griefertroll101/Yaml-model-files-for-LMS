@@ -662,6 +662,41 @@ base:
       - type: huggingface
         user: mradermacher
         repo: Fabled-Gemma4-31B-GGUF
+  - key: mradermacher/gemma-4-31B-it-Guardpoint-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-31B-it-Guardpoint-i1-GGUF
+  - key: mradermacher/gemma4-31b-opus-reasoning-v5-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma4-31b-opus-reasoning-v5-i1-GGUF
+  - key: mradermacher/gemma-4-31b-abliterated-v1.1-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-31b-abliterated-v1.1-i1-GGUF
+  - key: mradermacher/gemma-4-31BHERETIC-Thinking-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-31BHERETIC-Thinking-i1-GGUF
+  - key: mradermacher/gemma-4-31B-it-Guardpoint-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-31B-it-Guardpoint-GGUF
+  - key: mradermacher/gemma-4-31BHERETIC-Thinking-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-31BHERETIC-Thinking-GGUF
+  - key: mradermacher/gemma4-31b-opus-reasoning-v5-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma4-31b-opus-reasoning-v5-GGUF
 config:
   operation:
     fields:

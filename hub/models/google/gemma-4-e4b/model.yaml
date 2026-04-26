@@ -577,6 +577,21 @@ base:
       - type: huggingface
         user: DuoNeural
         repo: Gemma-4-E4B-Abliterated-GGUF
+  - key: metaltiger775/gemma-4-E4B-it-OBLITERATED-gguf
+    sources:
+      - type: huggingface
+        user: metaltiger775
+        repo: gemma-4-E4B-it-OBLITERATED-gguf
+  - key: Arabic250/gemma-4-E4B-it-GGUF
+    sources:
+      - type: huggingface
+        user: Arabic250
+        repo: gemma-4-E4B-it-GGUF
+  - key: mlx-community/gemma-4-E4B-it-OBLITERATED-mlx-8Bit
+    sources:
+      - type: huggingface
+        user: mlx-community
+        repo: gemma-4-E4B-it-OBLITERATED-mlx-8Bit
 config:
   operation:
     fields:

@@ -972,6 +972,16 @@ base:
       - type: huggingface
         user: mradermacher
         repo: qwen3.5-27b-unslop-good-lora-v1-GGUF
+  - key: mradermacher/Qwen3.5-27B-uncensored-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-uncensored-heretic-GGUF
+  - key: mradermacher/Qwen3.5-27B-Uncensored-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-Uncensored-GGUF
 config:
   operation:
     fields:

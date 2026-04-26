@@ -517,6 +517,16 @@ base:
       - type: huggingface
         user: SECWIKI
         repo: AliceThirty-Qwen3.5-397B-A17B-heretic-gguf
+  - key: SilverMan99/Qwen3.5-397B-A17B-Opus-4.6-Reasoning-Uncensored-GGUF
+    sources:
+      - type: huggingface
+        user: SilverMan99
+        repo: Qwen3.5-397B-A17B-Opus-4.6-Reasoning-Uncensored-GGUF
+  - key: VECTORVV1/Qwen3.5-397B-A17B-Opus-4.6-Reasoning
+    sources:
+      - type: huggingface
+        user: VECTORVV1
+        repo: Qwen3.5-397B-A17B-Opus-4.6-Reasoning
 config:
   operation:
     fields:

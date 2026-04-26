@@ -652,6 +652,36 @@ base:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-2B-THIREUS-IQ2_KS-SPECIAL_SPLIT
+  - key: mradermacher/Qwen3.5-2B-Base-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-2B-Base-i1-GGUF
+  - key: mradermacher/Qwen3.5-2B-Base-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-2B-Base-GGUF
+  - key: lee3251/Qwen3.5-2B-gguf
+    sources:
+      - type: huggingface
+        user: lee3251
+        repo: Qwen3.5-2B-gguf
+  - key: Thireus/Qwen3.5-2B-THIREUS-IQ2_KL-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: Qwen3.5-2B-THIREUS-IQ2_KL-SPECIAL_SPLIT
+  - key: Thireus/Qwen3.5-2B-THIREUS-IQ3_KT-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: Qwen3.5-2B-THIREUS-IQ3_KT-SPECIAL_SPLIT
+  - key: Thireus/Qwen3.5-2B-THIREUS-IQ1_S_R4-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: Qwen3.5-2B-THIREUS-IQ1_S_R4-SPECIAL_SPLIT
 config:
   operation:
     fields:

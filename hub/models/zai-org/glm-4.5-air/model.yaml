@@ -497,6 +497,11 @@ base:
       - type: huggingface
         user: TMNE
         repo: ArliAI_GLM-4.5-Air-Derestricted-GGUF
+  - key: Thireus/GLM-4.5-Air-THIREUS-IQ4_K_R4-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: GLM-4.5-Air-THIREUS-IQ4_K_R4-SPECIAL_SPLIT
 config:
   operation:
     fields:

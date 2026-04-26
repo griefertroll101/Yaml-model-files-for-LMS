@@ -87,6 +87,16 @@ base:
       - type: huggingface
         user: mudler
         repo: Mistral-Small-4-119B-2603-APEX-GGUF
+  - key: Rioky/Mistral-Small-4-119B-2603-heretic-i1-gguf
+    sources:
+      - type: huggingface
+        user: Rioky
+        repo: Mistral-Small-4-119B-2603-heretic-i1-gguf
+  - key: Rioky/Mistral-Small-4-119B-2603-heretic-gguf
+    sources:
+      - type: huggingface
+        user: Rioky
+        repo: Mistral-Small-4-119B-2603-heretic-gguf
 config:
   operation:
     fields:

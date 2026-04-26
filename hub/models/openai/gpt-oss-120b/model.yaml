@@ -487,6 +487,16 @@ base:
       - type: huggingface
         user: majentik
         repo: gpt-oss-120b-RotorQuant-GGUF-Q8_0
+  - key: mradermacher/gpt-oss-120b-abliterated-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gpt-oss-120b-abliterated-i1-GGUF
+  - key: mradermacher/gpt-oss-120b-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gpt-oss-120b-abliterated-GGUF
 config:
   operation:
     fields:

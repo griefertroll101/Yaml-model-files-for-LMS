@@ -462,6 +462,31 @@ base:
       - type: huggingface
         user: mradermacher
         repo: Qwen3-14B-Esper3Mix-GGUF
+  - key: mradermacher/Qwen3-14B-YOYO-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3-14B-YOYO-GGUF
+  - key: mradermacher/R3-Qwen3-14B-14k-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: R3-Qwen3-14B-14k-GGUF
+  - key: mradermacher/Qwen3-14B-v0.2-deepresearch-no-think-300-step-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3-14B-v0.2-deepresearch-no-think-300-step-GGUF
+  - key: mradermacher/Qwen3-14B-DAG-Reasoning-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3-14B-DAG-Reasoning-GGUF
+  - key: steampunque/Qwen3-14B-MP-GGUF
+    sources:
+      - type: huggingface
+        user: steampunque
+        repo: Qwen3-14B-MP-GGUF
 config:
   operation:
     fields:

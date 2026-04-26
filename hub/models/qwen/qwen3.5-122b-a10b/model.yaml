@@ -87,7 +87,7 @@ base:
       - type: huggingface
         user: Beinsezii
         repo: Qwen3.5-122B-A10B-GGUF-HALO
-  - key: ex0bit/qwen3.5-122b-a10b-prism-pro-gguf
+  - key: Ex0bit/Qwen3.5-122B-A10B-PRISM-PRO-GGUF
     sources:
       - type: huggingface
         user: Ex0bit
@@ -567,6 +567,31 @@ base:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-122B-A10B-THIREUS-Q4_K-SPECIAL_SPLIT
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-IQ6_K-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: Qwen3.5-122B-A10B-THIREUS-IQ6_K-SPECIAL_SPLIT
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-IQ5_K-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: Qwen3.5-122B-A10B-THIREUS-IQ5_K-SPECIAL_SPLIT
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-Q3_K-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: Qwen3.5-122B-A10B-THIREUS-Q3_K-SPECIAL_SPLIT
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-Q8_0-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: Qwen3.5-122B-A10B-THIREUS-Q8_0-SPECIAL_SPLIT
+  - key: Thireus/Qwen3.5-122B-A10B-THIREUS-Q4_0_R8-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: Qwen3.5-122B-A10B-THIREUS-Q4_0_R8-SPECIAL_SPLIT
 config:
   operation:
     fields:

@@ -637,6 +637,41 @@ base:
       - type: huggingface
         user: mradermacher
         repo: Gemma4-26B-A4B-Korean-Opus-4.6-Distilled-GGUF
+  - key: mradermacher/gemma-4-26B-A4B-it-abliterix-v6-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-26B-A4B-it-abliterix-v6-i1-GGUF
+  - key: mradermacher/Gemma4-26B-A4B-Korean-Opus-4.6-Distilled-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Gemma4-26B-A4B-Korean-Opus-4.6-Distilled-i1-GGUF
+  - key: mradermacher/Gemma-4-26B-A4B-Abliterated-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Gemma-4-26B-A4B-Abliterated-i1-GGUF
+  - key: mradermacher/gemma-4-26B-A4B-it-abliterix-v6-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-26B-A4B-it-abliterix-v6-GGUF
+  - key: Krasnopjorovs/gemma-4-26b-a4b-it-Imatrix-IQ4_XS-GGUF
+    sources:
+      - type: huggingface
+        user: Krasnopjorovs
+        repo: gemma-4-26b-a4b-it-Imatrix-IQ4_XS-GGUF
+  - key: mradermacher/gemma-4-26B-A4B-ARA-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-26B-A4B-ARA-GGUF
+  - key: mradermacher/gemma-4-26b-a4b-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-26b-a4b-heretic-GGUF
 config:
   operation:
     fields:

@@ -267,6 +267,16 @@ base:
       - type: huggingface
         user: ubergarm
         repo: Qwen3-235B-A22B-GGUF
+  - key: lovedheart/Qwen3-235B-A22B-Thinking-2507-GGUF-IQ1-M
+    sources:
+      - type: huggingface
+        user: lovedheart
+        repo: Qwen3-235B-A22B-Thinking-2507-GGUF-IQ1-M
+  - key: ggml-org/Qwen3-235B-A22B-GGUF
+    sources:
+      - type: huggingface
+        user: ggml-org
+        repo: Qwen3-235B-A22B-GGUF
 config:
   operation:
     fields:
