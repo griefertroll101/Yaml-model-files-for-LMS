@@ -132,6 +132,31 @@ base:
       - type: huggingface
         user: andersonscode
         repo: Nemotron-3-Nano-4B-HIPE
+  - key: DuoNeural/NVIDIA-Nemotron-3-Nano-4B-GGUF
+    sources:
+      - type: huggingface
+        user: DuoNeural
+        repo: NVIDIA-Nemotron-3-Nano-4B-GGUF
+  - key: mailroomdevelopers-del/NVIDIA-Nemotron-3-Nano-4B-GGUF
+    sources:
+      - type: huggingface
+        user: mailroomdevelopers-del
+        repo: NVIDIA-Nemotron-3-Nano-4B-GGUF
+  - key: andersonscode/Nemotron-3-Nano-4B-HIPE-step-fast
+    sources:
+      - type: huggingface
+        user: andersonscode
+        repo: Nemotron-3-Nano-4B-HIPE-step-fast
+  - key: andersonscode/Nemotron-3-Nano-4B-HIPE-po-geta
+    sources:
+      - type: huggingface
+        user: andersonscode
+        repo: Nemotron-3-Nano-4B-HIPE-po-geta
+  - key: shazzadulimun/NDP-Nemotron-3-Nano-4B-tool-calling
+    sources:
+      - type: huggingface
+        user: shazzadulimun
+        repo: NDP-Nemotron-3-Nano-4B-tool-calling
 config:
   operation:
     fields:

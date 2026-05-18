@@ -22,7 +22,7 @@ base:
       - type: huggingface
         user: bartowski
         repo: google_gemma-4-31B-it-GGUF
-  - key: paperscarecrow/gemma-4-31b-it-abliterated-gguf
+  - key: paperscarecrow/Gemma-4-31B-it-abliterated-gguf
     sources:
       - type: huggingface
         user: paperscarecrow
@@ -697,6 +697,16 @@ base:
       - type: huggingface
         user: mradermacher
         repo: gemma4-31b-opus-reasoning-v5-GGUF
+  - key: Radamanthys11/Gemma-4-31B-it-assistant-GGUF
+    sources:
+      - type: huggingface
+        user: Radamanthys11
+        repo: Gemma-4-31B-it-assistant-GGUF
+  - key: mradermacher/gemma-4-31B-it-obliterated-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-31B-it-obliterated-i1-GGUF
 config:
   operation:
     fields:

@@ -697,6 +697,51 @@ base:
       - type: huggingface
         user: sphaela
         repo: gemma-4-E2B-it-AutoRound-GGUF
+  - key: llmfan46/gemma-4-E2B-it-ultra-uncensored-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: llmfan46
+        repo: gemma-4-E2B-it-ultra-uncensored-heretic-GGUF
+  - key: mradermacher/gemma-4-e2b-yemeni-arabic-assistant-merged-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-e2b-yemeni-arabic-assistant-merged-i1-GGUF
+  - key: mradermacher/gemma4-E2B-it-Abliterated-AND-Disinhibited-USE-THIS-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma4-E2B-it-Abliterated-AND-Disinhibited-USE-THIS-i1-GGUF
+  - key: mradermacher/Gemma-4-E2B-Heretic-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Gemma-4-E2B-Heretic-i1-GGUF
+  - key: mradermacher/gemma4-E2B-it-disinhibited-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma4-E2B-it-disinhibited-i1-GGUF
+  - key: lukasdrews/Gemma-4-E2B-IT-SFT-RLVR-Medical-GGUF
+    sources:
+      - type: huggingface
+        user: lukasdrews
+        repo: Gemma-4-E2B-IT-SFT-RLVR-Medical-GGUF
+  - key: yemeni-ai-lab/gemma-4-e2b-yemeni-arabic-assistant-GGUF
+    sources:
+      - type: huggingface
+        user: yemeni-ai-lab
+        repo: gemma-4-e2b-yemeni-arabic-assistant-GGUF
+  - key: mradermacher/gemma-4-E2B-it-ultra-uncensored-heretic-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-E2B-it-ultra-uncensored-heretic-i1-GGUF
+  - key: Alienstro/Gemma4-E2B-it-Deepseek-V4-8000x
+    sources:
+      - type: huggingface
+        user: Alienstro
+        repo: Gemma4-E2B-it-Deepseek-V4-8000x
 config:
   operation:
     fields:

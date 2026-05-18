@@ -97,12 +97,12 @@ base:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-122B-A10B-abliterated-GGUF
-  - key: lmstudio-community/qwen3.5-35b-a3b-gguf
+  - key: lmstudio-community/Qwen3.5-35B-A3B-GGUF
     sources:
       - type: huggingface
         user: lmstudio-community
         repo: Qwen3.5-35B-A3B-GGUF
-  - key: AesSedai/Qwen3.5-35b-a3b-GGUF
+  - key: AesSedai/Qwen3.5-35B-A3B-GGUF
     sources:
       - type: huggingface
         user: AesSedai
@@ -592,6 +592,36 @@ base:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-122B-A10B-THIREUS-Q4_0_R8-SPECIAL_SPLIT
+  - key: mradermacher/Qwen3.5-122B-A10B-Claude-distill-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-122B-A10B-Claude-distill-i1-GGUF
+  - key: mradermacher/Qwen3.5-122B-A10B-Claude-Distill-v2-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-122B-A10B-Claude-Distill-v2-i1-GGUF
+  - key: unsloth/Qwen3.5-122B-A10B-MTP-GGUF
+    sources:
+      - type: huggingface
+        user: unsloth
+        repo: Qwen3.5-122B-A10B-MTP-GGUF
+  - key: mradermacher/Qwen3.5-122B-A10B-Claude-distill-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-122B-A10B-Claude-distill-GGUF
+  - key: Incarnas/Qwen3.5-122B-A10B-NVFP4-GGUF
+    sources:
+      - type: huggingface
+        user: Incarnas
+        repo: Qwen3.5-122B-A10B-NVFP4-GGUF
+  - key: Incarnas/Qwen3.5-122B-A10B-NVFP4-MTP-GGUF
+    sources:
+      - type: huggingface
+        user: Incarnas
+        repo: Qwen3.5-122B-A10B-NVFP4-MTP-GGUF
 config:
   operation:
     fields:

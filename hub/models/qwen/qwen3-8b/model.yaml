@@ -7,12 +7,12 @@ base:
       - type: huggingface
         user: lmstudio-community
         repo: Qwen3-8B-GGUF
-  - key: lmstudio-community/qwen3-8b-mlx-4bit
+  - key: lmstudio-community/Qwen3-8B-MLX-4bit
     sources:
       - type: huggingface
         user: lmstudio-community
         repo: Qwen3-8B-MLX-4bit
-  - key: lmstudio-community/qwen3-8b-mlx-8bit
+  - key: lmstudio-community/Qwen3-8B-MLX-8bit
     sources:
       - type: huggingface
         user: lmstudio-community
@@ -312,6 +312,11 @@ base:
       - type: huggingface
         user: mradermacher
         repo: s1.1-Qwen3-8B-i1-GGUF
+  - key: mradermacher/remnant-qwen3-8b-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: remnant-qwen3-8b-GGUF
 config:
   operation:
     fields:

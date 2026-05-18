@@ -292,6 +292,56 @@ base:
       - type: huggingface
         user: majentik
         repo: Nemotron-3-Nano-30B-A3B-RotorQuant-GGUF-Q8_0
+  - key: lmstudio-community/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF
+    sources:
+      - type: huggingface
+        user: lmstudio-community
+        repo: Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF
+  - key: unsloth/NVIDIA-Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF
+    sources:
+      - type: huggingface
+        user: unsloth
+        repo: NVIDIA-Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF
+  - key: mudler/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-APEX-GGUF
+    sources:
+      - type: huggingface
+        user: mudler
+        repo: Nemotron-3-Nano-Omni-30B-A3B-Reasoning-APEX-GGUF
+  - key: batiai/Nemotron-3-Nano-Omni-30B-Text-Only-GGUF
+    sources:
+      - type: huggingface
+        user: batiai
+        repo: Nemotron-3-Nano-Omni-30B-Text-Only-GGUF
+  - key: MuVeraAI/NVIDIA-Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF
+    sources:
+      - type: huggingface
+        user: MuVeraAI
+        repo: NVIDIA-Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF
+  - key: noctrex/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-MXFP4_MOE-GGUF
+    sources:
+      - type: huggingface
+        user: noctrex
+        repo: Nemotron-3-Nano-Omni-30B-A3B-Reasoning-MXFP4_MOE-GGUF
+  - key: batiai/Nemotron-3-Nano-30B-A3B-GGUF
+    sources:
+      - type: huggingface
+        user: batiai
+        repo: Nemotron-3-Nano-30B-A3B-GGUF
+  - key: eepos/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-NVFP4-GGUF
+    sources:
+      - type: huggingface
+        user: eepos
+        repo: Nemotron-3-Nano-Omni-30B-A3B-Reasoning-NVFP4-GGUF
+  - key: majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-Q4_K_M
+    sources:
+      - type: huggingface
+        user: majentik
+        repo: Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-Q4_K_M
+  - key: ggml-org/NVIDIA-Nemotron-3-Nano-Omni
+    sources:
+      - type: huggingface
+        user: ggml-org
+        repo: NVIDIA-Nemotron-3-Nano-Omni
 config:
   operation:
     fields:

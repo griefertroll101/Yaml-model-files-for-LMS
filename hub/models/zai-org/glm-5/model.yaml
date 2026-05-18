@@ -477,6 +477,56 @@ base:
       - type: huggingface
         user: Thireus
         repo: GLM-5.1-THIREUS-Q6_0-SPECIAL_SPLIT
+  - key: mradermacher/Q3.5-9B-GLM-5.1-DA-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Q3.5-9B-GLM-5.1-DA-i1-GGUF
+  - key: prithivMLmods/Q3.6-27B-GLM-5.1-DA-GGUF
+    sources:
+      - type: huggingface
+        user: prithivMLmods
+        repo: Q3.6-27B-GLM-5.1-DA-GGUF
+  - key: mradermacher/Q3.6-27B-GLM-5.1-DA-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Q3.6-27B-GLM-5.1-DA-i1-GGUF
+  - key: mradermacher/Q3.6-27B-GLM-5.1-DA-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Q3.6-27B-GLM-5.1-DA-GGUF
+  - key: prithivMLmods/Q3.5-9B-GLM-5.1-DA-GGUF
+    sources:
+      - type: huggingface
+        user: prithivMLmods
+        repo: Q3.5-9B-GLM-5.1-DA-GGUF
+  - key: batiai/GLM-5.1-GGUF
+    sources:
+      - type: huggingface
+        user: batiai
+        repo: GLM-5.1-GGUF
+  - key: AesSedai/GLM-5.1-GGUF
+    sources:
+      - type: huggingface
+        user: AesSedai
+        repo: GLM-5.1-GGUF
+  - key: mradermacher/Q3.5-9B-GLM-5.1-DA-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Q3.5-9B-GLM-5.1-DA-GGUF
+  - key: storagejuju/glm-5.1-mxfp4-moe-juju
+    sources:
+      - type: huggingface
+        user: storagejuju
+        repo: glm-5.1-mxfp4-moe-juju
+  - key: storagejuju/glm-5.1-ud-iq2-m-juju
+    sources:
+      - type: huggingface
+        user: storagejuju
+        repo: glm-5.1-ud-iq2-m-juju
 metadataOverrides:
   domain: llm
   architectures:

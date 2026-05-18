@@ -32,7 +32,7 @@ base:
       - type: huggingface
         user: DevQuasar
         repo: Qwen.Qwen3.5-397B-A17B-GGUF
-  - key: infinityai/qwen3.5-397b-reap-50-iq3_m
+  - key: infinityai/Qwen3.5-397B-REAP-50-IQ3_M
     sources:
       - type: huggingface
         user: infinityai
@@ -52,7 +52,7 @@ base:
       - type: huggingface
         user: Sabomako
         repo: Qwen3.5-397B-A17B-heretic-GGUF
-  - key: infinityai/qwen3.5-397b-reap-55-q3_k_m
+  - key: infinityai/Qwen3.5-397B-REAP-55-Q3_K_M
     sources:
       - type: huggingface
         user: infinityai
@@ -527,6 +527,36 @@ base:
       - type: huggingface
         user: VECTORVV1
         repo: Qwen3.5-397B-A17B-Opus-4.6-Reasoning
+  - key: unsloth/Qwen3.5-397B-A17B-MTP-GGUF
+    sources:
+      - type: huggingface
+        user: unsloth
+        repo: Qwen3.5-397B-A17B-MTP-GGUF
+  - key: mradermacher/Qwen3.5-397B-A17B-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-397B-A17B-i1-GGUF
+  - key: paragon-of-brah/Qwen3.5-397B-A17B-IQ5_k-MTP-GGUF
+    sources:
+      - type: huggingface
+        user: paragon-of-brah
+        repo: Qwen3.5-397B-A17B-IQ5_k-MTP-GGUF
+  - key: snoweddy/Qwen3.5-397B-A17B-heretic-Q8_0-GGUF
+    sources:
+      - type: huggingface
+        user: snoweddy
+        repo: Qwen3.5-397B-A17B-heretic-Q8_0-GGUF
+  - key: mradermacher/Qwen3.5-397B-A17B-heretic-fixed-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-397B-A17B-heretic-fixed-GGUF
+  - key: meshllm/Qwen3.5-397B-A17B-UD-Q4_K_XL-layers
+    sources:
+      - type: huggingface
+        user: meshllm
+        repo: Qwen3.5-397B-A17B-UD-Q4_K_XL-layers
 config:
   operation:
     fields:

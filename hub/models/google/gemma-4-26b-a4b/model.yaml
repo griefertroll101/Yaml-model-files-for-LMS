@@ -51,13 +51,13 @@ base:
     sources:
       - type: huggingface
         user: jjjunho
-        repo: gemma-4-26B-A4B-gguf
+        repo: gemma-4-26B-A4B-GGUF
   - key: jjjunho/gemma-4-26B-A4B-it-GGUF
     sources:
       - type: huggingface
         user: jjjunho
-        repo: gemma-4-26B-A4B-it-gguf
-  - key: hbdbdbd/gemma-4-26b-a4b-it-heretic-ara-gguf
+        repo: gemma-4-26B-A4B-it-GGUF
+  - key: hbdbdbd/gemma-4-26B-A4B-it-heretic-ara-gguf
     sources:
       - type: huggingface
         user: hbdbdbd
@@ -672,6 +672,16 @@ base:
       - type: huggingface
         user: mradermacher
         repo: gemma-4-26b-a4b-heretic-GGUF
+  - key: AtomicChat/gemma-4-26B-A4B-it-assistant-GGUF
+    sources:
+      - type: huggingface
+        user: AtomicChat
+        repo: gemma-4-26B-A4B-it-assistant-GGUF
+  - key: HauhauCS/Gemma4-26B-A4B-Uncensored-HauhauCS-Balanced
+    sources:
+      - type: huggingface
+        user: HauhauCS
+        repo: Gemma4-26B-A4B-Uncensored-HauhauCS-Balanced
 config:
   operation:
     fields:

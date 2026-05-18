@@ -157,7 +157,7 @@ base:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-9B-Unredacted-MAX-i1-GGUF
-  - key: zuzett/qwen3.5-9b-imatrix-gguf
+  - key: ZuzeTt/Qwen3.5-9B-imatrix-GGUF
     sources:
       - type: huggingface
         user: ZuzeTt
@@ -177,7 +177,7 @@ base:
       - type: huggingface
         user: Momix-44
         repo: Qwen3.5-9B-gemini-3.1-opus-4.6-reasoning
-  - key: mradermacher/qwen3.5-9b-ultra-heretic-i1-gguf
+  - key: mradermacher/Qwen3.5-9B-ultra-heretic-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
@@ -297,7 +297,7 @@ base:
       - type: huggingface
         user: AIImageStudio
         repo: Qwen3.5-9b-heretic-v2-GGUF
-  - key: mradermacher/qwen3.5-9b-null-space-abliterated-i1-gguf
+  - key: mradermacher/qwen3.5-9b-null-space-abliterated-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
@@ -327,7 +327,7 @@ base:
       - type: huggingface
         user: bartowski
         repo: Jackrong_Qwen3.5-9B-Neo-GGUF
-  - key: mradermacher/qwen3.5-9b-claude-4.6-highiq-instruct-i1-gguf
+  - key: mradermacher/Qwen3.5-9B-Claude-4.6-HighIQ-INSTRUCT-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
@@ -352,7 +352,7 @@ base:
       - type: huggingface
         user: Lordmo
         repo: Heretical-Qwen3.5-9B-i1-GGUF
-  - key: mradermacher/qwen3.5-9b-claude-4.6-highiq-thinking-i1-gguf
+  - key: mradermacher/Qwen3.5-9B-Claude-4.6-HighIQ-THINKING-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
@@ -367,7 +367,7 @@ base:
       - type: huggingface
         user: byteshape
         repo: Qwen3.5-9B-GGUF
-  - key: filvyb/qwen3.5-9b-claude-4.6-highiq-thinking-heretic-uncensored
+  - key: filvyb/Qwen3.5-9B-Claude-4.6-HighIQ-THINKING-HERETIC-UNCENSORED
     sources:
       - type: huggingface
         user: filvyb
@@ -402,7 +402,7 @@ base:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-9B-Claude-4.6-HighIQ-INSTRUCT-GGUF
-  - key: mradermacher/qwen3.5-9b-ultra-heretic-gguf
+  - key: mradermacher/Qwen3.5-9B-ultra-heretic-GGUF
     sources:
       - type: huggingface
         user: mradermacher
@@ -752,6 +752,21 @@ base:
       - type: huggingface
         user: mradermacher
         repo: TQL-Coder-Qwen3.5-9B-thinking-GGUF
+  - key: Jackrong/Qwen3.5-9B-DeepSeek-V4-Flash-GGUF
+    sources:
+      - type: huggingface
+        user: Jackrong
+        repo: Qwen3.5-9B-DeepSeek-V4-Flash-GGUF
+  - key: unsloth/Qwen3.5-9B-MTP-GGUF
+    sources:
+      - type: huggingface
+        user: unsloth
+        repo: Qwen3.5-9B-MTP-GGUF
+  - key: mradermacher/Qwen3.5-9B-DeepSeek-V4-Flash-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-9B-DeepSeek-V4-Flash-GGUF
 config:
   operation:
     fields:

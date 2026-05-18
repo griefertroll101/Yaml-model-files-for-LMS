@@ -12,7 +12,7 @@ base:
       - type: huggingface
         user: lmstudio-community
         repo: Qwen3.5-35B-A3B-GGUF
-  - key: hauhaucs/qwen3.5-35b-a3b-uncensored-hauhaucs-aggressive-q8_0
+  - key: HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive-Q8_0
     sources:
       - type: huggingface
         user: HauhauCS
@@ -22,7 +22,7 @@ base:
       - type: huggingface
         user: bartowski
         repo: Qwen_Qwen3.5-35B-A3B-GGUF
-  - key: tatsuyaaaaaaa/qwen3.5-35b-a3b-gguf
+  - key: tatsuyaaaaaaa/Qwen3.5-35B-A3B-gguf
     sources:
       - type: huggingface
         user: tatsuyaaaaaaa
@@ -92,7 +92,7 @@ base:
       - type: huggingface
         user: ubergarm
         repo: Qwen3.5-35B-A3B-GGUF
-  - key: titan0115/qwen3.5-35b-a3b
+  - key: titan0115/Qwen3.5-35B-A3B
     sources:
       - type: huggingface
         user: titan0115
@@ -102,12 +102,12 @@ base:
       - type: huggingface
         user: alexdenton
         repo: Qwen3.5-35B-A3B-heretic-GGUF
-  - key: leadfootthrottlecock/qwen3.5-35b-a3b-heretic-gguf
+  - key: LeadFootThrottleCock/Qwen3.5-35B-A3B-heretic-GGUF
     sources:
       - type: huggingface
         user: LeadFootThrottleCock
         repo: Qwen3.5-35B-A3B-heretic-GGUF
-  - key: paul-wang/qwen3.5-35b-a3b-gguf
+  - key: Paul-Wang/Qwen3.5-35B-A3B-GGUF
     sources:
       - type: huggingface
         user: Paul-Wang
@@ -137,27 +137,27 @@ base:
       - type: huggingface
         user: cs2764
         repo: Huihui-Qwen3.5-35B-A3B-abliterated-Q8_0-GGUF
-  - key: enzgamers/qwen3.5-35b-a3b-gguf
+  - key: EnzGamers/Qwen3.5-35B-A3B-GGUF
     sources:
       - type: huggingface
         user: EnzGamers
         repo: Qwen3.5-35B-A3B-GGUF
-  - key: hossamdaoud/qwen3.5-35b-a3b-gguf
+  - key: hossamdaoud/Qwen3.5-35B-A3B-GGUF
     sources:
       - type: huggingface
         user: hossamdaoud
         repo: Qwen3.5-35B-A3B-GGUF
-  - key: devquasar/qwen.qwen3.5-35b-a3b-gguf
+  - key: DevQuasar/Qwen.Qwen3.5-35B-A3B-GGUF
     sources:
       - type: huggingface
         user: DevQuasar
         repo: Qwen.Qwen3.5-35B-A3B-GGUF
-  - key: gokmakog/qwen3.5-35b-a3b-gguf
+  - key: gokmakog/Qwen3.5-35B-A3B-GGUF
     sources:
       - type: huggingface
         user: gokmakog
         repo: Qwen3.5-35B-A3B-GGUF
-  - key: cs2764/huihui-qwen3.5-35b-a3b-abliterated-q6_k-gguf
+  - key: cs2764/Huihui-Qwen3.5-35B-A3B-abliterated-Q6_K-GGUF
     sources:
       - type: huggingface
         user: cs2764
@@ -167,12 +167,12 @@ base:
       - type: huggingface
         user: unsloth
         repo: Qwen3.5-35B-A3B-Experiments-GGUF
-  - key: sandeshrajx/qwen3.5-35b-reap-pruned-gguf
+  - key: sandeshrajx/qwen3.5-35b-reap-pruned-GGUF
     sources:
       - type: huggingface
         user: sandeshrajx
         repo: qwen3.5-35b-reap-pruned-GGUF
-  - key: sabomako/qwen3.5-35b-a3b-heretic-v2-gguf
+  - key: Sabomako/Qwen3.5-35B-A3B-heretic-v2-GGUF
     sources:
       - type: huggingface
         user: Sabomako
@@ -192,17 +192,17 @@ base:
       - type: huggingface
         user: Dinosaur-tothe-sky
         repo: Qwen3.5-35B-A3B-GGUF
-  - key: shadowx-corp/qwen3.5-35b-a3b-heretic-v1-gguf
+  - key: ShadowX-Corp/Qwen3.5-35B-A3B-heretic-v1-GGUF
     sources:
       - type: huggingface
         user: ShadowX-Corp
         repo: Qwen3.5-35B-A3B-heretic-v1-GGUF
-  - key: meridianvector/qwen3.5-35b-a3b-baked-q2_k
+  - key: MeridianVector/Qwen3.5-35B-A3B-BAKED-Q2_K
     sources:
       - type: huggingface
         user: MeridianVector
         repo: Qwen3.5-35B-A3B-BAKED-Q2_K
-  - key: meridianvector/qwen3.5-35b-a3b-baked-q4_k_m
+  - key: MeridianVector/Qwen3.5-35B-A3B-BAKED-Q4_K_M
     sources:
       - type: huggingface
         user: MeridianVector
@@ -227,22 +227,22 @@ base:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-35B-A3B-heretic-v1-GGUF
-  - key: junlee88999/qwen3.5-35b-a3b-heretic-v2-gguf
+  - key: JunLee88999/Qwen3.5-35B-A3B-heretic-v2-GGUF
     sources:
       - type: huggingface
         user: JunLee88999
         repo: Qwen3.5-35B-A3B-heretic-v2-GGUF
-  - key: altomek/qwen3.5-35b-a3b-xxl-gguf
+  - key: altomek/Qwen3.5-35B-A3B-XXL-GGUF
     sources:
       - type: huggingface
         user: altomek
         repo: Qwen3.5-35B-A3B-XXL-GGUF
-  - key: jasperz111/huihui-qwen3.5-35b-abliterated-iq4_xs-gguf
+  - key: jasperz111/Huihui-Qwen3.5-35B-Abliterated-IQ4_XS-GGUF
     sources:
       - type: huggingface
         user: jasperz111
         repo: Huihui-Qwen3.5-35B-Abliterated-IQ4_XS-GGUF
-  - key: jasperz111/huihui-qwen3.5-35b-a3b-iq4_xs-gguf
+  - key: jasperz111/Huihui-Qwen3.5-35B-A3B-IQ4_XS-GGUF
     sources:
       - type: huggingface
         user: jasperz111
@@ -852,6 +852,26 @@ base:
       - type: huggingface
         user: elpirater312
         repo: LuffyTheFox-Qwen3.5-35B-A3B-Uncensored-FernflowerAI-IQ4_NL-GGUF
+  - key: unsloth/Qwen3.5-35B-A3B-MTP-GGUF
+    sources:
+      - type: huggingface
+        user: unsloth
+        repo: Qwen3.5-35B-A3B-MTP-GGUF
+  - key: mradermacher/Qwen3.5-35B-A3B-uncensored-heretic-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-35B-A3B-uncensored-heretic-i1-GGUF
+  - key: mudler/Qwen3.5-35B-A3B-Uncensored-FernflowerAI-APEX-GGUF
+    sources:
+      - type: huggingface
+        user: mudler
+        repo: Qwen3.5-35B-A3B-Uncensored-FernflowerAI-APEX-GGUF
+  - key: mradermacher/Qwen3.5-35B-A3B-HighIQ-Prototype-II-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-35B-A3B-HighIQ-Prototype-II-i1-GGUF
 config:
   operation:
     fields:

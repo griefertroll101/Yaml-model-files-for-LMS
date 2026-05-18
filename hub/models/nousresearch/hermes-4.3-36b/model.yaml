@@ -37,12 +37,12 @@ base:
       - type: huggingface
         user: mradermacher
         repo: Hermes-4.3-36B-GGUF
-  - key: mradermacher/hermes4.3-z-i1-gguf
+  - key: mradermacher/Hermes4.3-Z-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: Hermes4.3-Z-i1-GGUF
-  - key: mradermacher/hermes4.3-z-gguf
+  - key: mradermacher/Hermes4.3-Z-GGUF
     sources:
       - type: huggingface
         user: mradermacher
@@ -82,7 +82,7 @@ base:
       - type: huggingface
         user: SerialKicked
         repo: Hermes-4.3-36B-heretic-GGUF-IQ4_XS
-  - key: darkc0de/hermes-4.3-36b-heretic-q5_k_s-gguf
+  - key: darkc0de/Hermes-4.3-36B-heretic-Q5_K_S-GGUF
     sources:
       - type: huggingface
         user: darkc0de
@@ -92,6 +92,16 @@ base:
       - type: huggingface
         user: gnigguhface
         repo: Hermes-4.3-36B-Q4_K_M-GGUF
+  - key: mradermacher/Hermes-4.3-36B-ABLITERATED-heretic-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Hermes-4.3-36B-ABLITERATED-heretic-i1-GGUF
+  - key: mradermacher/Hermes-4.3-36B-ABLITERATED-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Hermes-4.3-36B-ABLITERATED-heretic-GGUF
 config:
   operation:
     fields:

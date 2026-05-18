@@ -37,7 +37,7 @@ base:
       - type: huggingface
         user: HauhauCS
         repo: Gemma-4-E4B-Uncensored-HauhauCS-Aggressive
-  - key: frescohf/gemma-4-e4b-gguf
+  - key: FrescoHF/gemma-4-E4B-GGUF
     sources:
       - type: huggingface
         user: FrescoHF
@@ -592,6 +592,16 @@ base:
       - type: huggingface
         user: mlx-community
         repo: gemma-4-E4B-it-OBLITERATED-mlx-8Bit
+  - key: AtomicChat/gemma-4-E4B-it-assistant-GGUF
+    sources:
+      - type: huggingface
+        user: AtomicChat
+        repo: gemma-4-E4B-it-assistant-GGUF
+  - key: bekoozkan/godot-gemma-4-e4b-it-GGUF
+    sources:
+      - type: huggingface
+        user: bekoozkan
+        repo: godot-gemma-4-e4b-it-GGUF
 config:
   operation:
     fields:

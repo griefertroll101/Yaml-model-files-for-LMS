@@ -212,6 +212,16 @@ base:
       - type: huggingface
         user: Max-and-Omnis
         repo: Nemotron-3-Super-64B-A12B-Math-REAP-GGUF
+  - key: grumd0/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4-GGUF
+    sources:
+      - type: huggingface
+        user: grumd0
+        repo: NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4-GGUF
+  - key: batiai/Nemotron-3-Super-120B-A12B-GGUF
+    sources:
+      - type: huggingface
+        user: batiai
+        repo: Nemotron-3-Super-120B-A12B-GGUF
 config:
   operation:
     fields:

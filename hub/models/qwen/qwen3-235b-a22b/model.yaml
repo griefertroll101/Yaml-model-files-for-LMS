@@ -277,6 +277,11 @@ base:
       - type: huggingface
         user: ggml-org
         repo: Qwen3-235B-A22B-GGUF
+  - key: meshllm/Qwen3-235B-A22B-UD-Q4_K_XL-layers
+    sources:
+      - type: huggingface
+        user: meshllm
+        repo: Qwen3-235B-A22B-UD-Q4_K_XL-layers
 config:
   operation:
     fields:

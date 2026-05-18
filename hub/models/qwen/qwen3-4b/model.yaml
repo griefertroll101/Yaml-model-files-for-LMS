@@ -187,6 +187,11 @@ base:
       - type: huggingface
         user: mradermacher
         repo: sphinx-qwen3-4b-i1-GGUF
+  - key: mradermacher/Qwen3-4B-Instruct-2507-NanoWriter-v2-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3-4B-Instruct-2507-NanoWriter-v2-GGUF
 config:
   operation:
     fields:

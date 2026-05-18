@@ -497,6 +497,11 @@ base:
       - type: huggingface
         user: mradermacher
         repo: gpt-oss-120b-abliterated-GGUF
+  - key: jerryzhuang/gpt-oss-120b-GGUF
+    sources:
+      - type: huggingface
+        user: jerryzhuang
+        repo: gpt-oss-120b-GGUF
 config:
   operation:
     fields:

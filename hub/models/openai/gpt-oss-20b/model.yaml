@@ -387,7 +387,7 @@ base:
       - type: huggingface
         user: Felladrin
         repo: gguf-MXFP4-gpt-oss-20b-Derestricted
-  - key: mradermacher/gpt-oss-20b-uncensored-heretic-i1-gguf
+  - key: mradermacher/gpt-oss-20b-uncensored-heretic-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
@@ -607,6 +607,11 @@ base:
       - type: huggingface
         user: beenyb
         repo: financial-gpt-oss-20b-q8
+  - key: AbteeXAILab/lumynax-reasoning-gpt-oss-20b-gguf
+    sources:
+      - type: huggingface
+        user: AbteeXAILab
+        repo: lumynax-reasoning-gpt-oss-20b-gguf
 config:
   operation:
     fields:

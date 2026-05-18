@@ -402,6 +402,76 @@ base:
       - type: huggingface
         user: chrisdemonxxx
         repo: Huihui-GLM-5.1-abliterated-GGUF
+  - key: mradermacher/Q3.5-9B-GLM-5.1-DA-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Q3.5-9B-GLM-5.1-DA-i1-GGUF
+  - key: prithivMLmods/Q3.6-27B-GLM-5.1-DA-GGUF
+    sources:
+      - type: huggingface
+        user: prithivMLmods
+        repo: Q3.6-27B-GLM-5.1-DA-GGUF
+  - key: mradermacher/Q3.6-27B-GLM-5.1-DA-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Q3.6-27B-GLM-5.1-DA-i1-GGUF
+  - key: mradermacher/Q3.6-27B-GLM-5.1-DA-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Q3.6-27B-GLM-5.1-DA-GGUF
+  - key: prithivMLmods/Q3.5-9B-GLM-5.1-DA-GGUF
+    sources:
+      - type: huggingface
+        user: prithivMLmods
+        repo: Q3.5-9B-GLM-5.1-DA-GGUF
+  - key: batiai/GLM-5.1-GGUF
+    sources:
+      - type: huggingface
+        user: batiai
+        repo: GLM-5.1-GGUF
+  - key: AesSedai/GLM-5.1-GGUF
+    sources:
+      - type: huggingface
+        user: AesSedai
+        repo: GLM-5.1-GGUF
+  - key: mradermacher/Q3.5-9B-GLM-5.1-DA-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Q3.5-9B-GLM-5.1-DA-GGUF
+  - key: mradermacher/Distil-GLM5.1-Minute.Codex.NSFW-0.1B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Distil-GLM5.1-Minute.Codex.NSFW-0.1B-GGUF
+  - key: yasserrmd/glm5.1-distill-GGUF
+    sources:
+      - type: huggingface
+        user: yasserrmd
+        repo: glm5.1-distill-GGUF
+  - key: storagejuju/glm-5.1-mxfp4-moe-juju
+    sources:
+      - type: huggingface
+        user: storagejuju
+        repo: glm-5.1-mxfp4-moe-juju
+  - key: storagejuju/glm-5.1-ud-iq2-m-juju
+    sources:
+      - type: huggingface
+        user: storagejuju
+        repo: glm-5.1-ud-iq2-m-juju
+  - key: sakamakismile/GLM-5.1-Abliterated-Dynamic-IQ3
+    sources:
+      - type: huggingface
+        user: sakamakismile
+        repo: GLM-5.1-Abliterated-Dynamic-IQ3
+  - key: meshllm/GLM-5.1-UD-Q4_K_XL-layers
+    sources:
+      - type: huggingface
+        user: meshllm
+        repo: GLM-5.1-UD-Q4_K_XL-layers
 metadataOverrides:
   domain: llm
   architectures:

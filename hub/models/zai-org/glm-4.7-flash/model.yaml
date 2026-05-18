@@ -107,7 +107,7 @@ base:
       - type: huggingface
         user: MuXodious
         repo: GLM-4.7-Flash-REAP-23B-A3B-absolute-heresy-GGUF
-  - key: floria-n/glm-4.7-flash-gguf-config
+  - key: floria-n/GLM-4.7-Flash-GGUF-Config
     sources:
       - type: huggingface
         user: floria-n
@@ -122,17 +122,17 @@ base:
       - type: huggingface
         user: DavidAU
         repo: GLM-4.7-Flash-NEO-CODE-Imatrix-MAX-GGUF
-  - key: mradermacher/glm-4.7-flash-impotent-heresy-i1-gguf
+  - key: mradermacher/GLM-4.7-Flash-impotent-heresy-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: GLM-4.7-Flash-impotent-heresy-i1-GGUF
-  - key: evilfreelancer/glm-4.7-flash-gguf
+  - key: evilfreelancer/GLM-4.7-Flash-GGUF
     sources:
       - type: huggingface
         user: evilfreelancer
         repo: GLM-4.7-Flash-GGUF
-  - key: mradermacher/glm-4.7-flash-49b-gguf
+  - key: mradermacher/GLM-4.7-Flash-49B-GGUF
     sources:
       - type: huggingface
         user: mradermacher
@@ -152,7 +152,7 @@ base:
       - type: huggingface
         user: mradermacher
         repo: Dolphin-Mistral-GLM-4.7-Flash-24B-Venice-Edition-Thinking-Uncensored-GGUF
-  - key: mrbz/glm-4.7-flash-claude-opus-4.5-high-reasoning-distill-gguf
+  - key: mrbz/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF
     sources:
       - type: huggingface
         user: mrbz
@@ -162,7 +162,7 @@ base:
       - type: huggingface
         user: HauhauCS
         repo: GLM-4.7-Flash-Uncensored-HauhauCS-Aggressive
-  - key: legendbl/glm-4.7-flash-uncensored-heretic-neo-code-imatrix-max-gguf
+  - key: legendbl/GLM-4.7-Flash-Uncensored-Heretic-NEO-CODE-Imatrix-MAX-GGUF
     sources:
       - type: huggingface
         user: legendbl
@@ -182,7 +182,7 @@ base:
       - type: huggingface
         user: HauhauCS
         repo: GLM-4.7-Flash-Uncensored-HauhauCS-Balanced
-  - key: jo0natan/glm-4.7-flash-uncensored-heretic-neo-code-imatrix-max-gguf
+  - key: jo0natan/GLM-4.7-Flash-Uncensored-Heretic-NEO-CODE-Imatrix-MAX-GGUF
     sources:
       - type: huggingface
         user: jo0natan
@@ -212,27 +212,27 @@ base:
       - type: huggingface
         user: 91chenxs
         repo: GLM-4.7-Flash-Uncensored-Heretic-NEO-CODE-Imatrix-MAX-GGUF
-  - key: lhabb213/glm-4.7-flash-uncensored-heretic-neo-code-imatrix-max-gguf
+  - key: lhabb213/GLM-4.7-Flash-Uncensored-Heretic-NEO-CODE-Imatrix-MAX-GGUF
     sources:
       - type: huggingface
         user: lhabb213
         repo: GLM-4.7-Flash-Uncensored-Heretic-NEO-CODE-Imatrix-MAX-GGUF
-  - key: mradermacher/glm-4.7-flash-heretic-mpoa-gguf
+  - key: mradermacher/GLM-4.7-Flash-heretic-MPOA-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: GLM-4.7-Flash-heretic-MPOA-GGUF
-  - key: botp/glm-4.7-flash-uncensored-heretic-neo-code-imatrix-max-gguf
+  - key: botp/GLM-4.7-Flash-Uncensored-Heretic-NEO-CODE-Imatrix-MAX-GGUF
     sources:
       - type: huggingface
         user: botp
         repo: GLM-4.7-Flash-Uncensored-Heretic-NEO-CODE-Imatrix-MAX-GGUF
-  - key: mradermacher/creativesocialagent_glm_4.7_flash-gguf
+  - key: mradermacher/CreativeSocialAgent_GLM_4.7_Flash-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: CreativeSocialAgent_GLM_4.7_Flash-GGUF
-  - key: mradermacher/glm-4.7-flash-think-alexia.sorete-1b-i1-gguf
+  - key: mradermacher/GLM-4.7-Flash-Think-Alexia.Sorete-1B-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
@@ -242,27 +242,27 @@ base:
       - type: huggingface
         user: haellsigh
         repo: glm-4.7-flash-uncensored
-  - key: joshua-xia/glm-4.7-flash-claude-opus-4.5-high-reasoning-distill-gguf
+  - key: Joshua-Xia/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF
     sources:
       - type: huggingface
         user: Joshua-Xia
         repo: GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF
-  - key: paulzaff/glm-4.7-flash-claude-opus-4.5-high-reasoning-distill-gguf
+  - key: PaulZaff/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF
     sources:
       - type: huggingface
         user: PaulZaff
         repo: GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF
-  - key: mradermacher/glm-4.7-flash-heretic-1.2.0-gguf
+  - key: mradermacher/GLM-4.7-Flash-heretic-1.2.0-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: GLM-4.7-Flash-heretic-1.2.0-GGUF
-  - key: rounakhchatait/glm-4.7-flash-claude-opus-4.5-high-reasoning-distill-gguf
+  - key: rounakhchatait/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF
     sources:
       - type: huggingface
         user: rounakhchatait
         repo: GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF
-  - key: noctrex/glm-4.7-flash-reap-23b-a3b-mxfp4_moe-gguf
+  - key: noctrex/GLM-4.7-Flash-REAP-23B-A3B-MXFP4_MOE-GGUF
     sources:
       - type: huggingface
         user: noctrex

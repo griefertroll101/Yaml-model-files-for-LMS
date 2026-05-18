@@ -502,6 +502,46 @@ base:
       - type: huggingface
         user: Thireus
         repo: Qwen3.6-27B-THIREUS-Q8_0-SPECIAL_SPLIT
+  - key: DavidAU/Qwen3.6-27B-Heretic-Uncensored-FINETUNE-NEO-CODE-Di-IMatrix-MAX-GGUF
+    sources:
+      - type: huggingface
+        user: DavidAU
+        repo: Qwen3.6-27B-Heretic-Uncensored-FINETUNE-NEO-CODE-Di-IMatrix-MAX-GGUF
+  - key: unsloth/Qwen3.6-27B-MTP-GGUF
+    sources:
+      - type: huggingface
+        user: unsloth
+        repo: Qwen3.6-27B-MTP-GGUF
+  - key: froggeric/Qwen3.6-27B-MTP-GGUF
+    sources:
+      - type: huggingface
+        user: froggeric
+        repo: Qwen3.6-27B-MTP-GGUF
+  - key: havenoammo/Qwen3.6-27B-MTP-UD-GGUF
+    sources:
+      - type: huggingface
+        user: havenoammo
+        repo: Qwen3.6-27B-MTP-UD-GGUF
+  - key: Abiray/Qwen3.6-27B-AEON-Ultimate-Uncensored-GGUF
+    sources:
+      - type: huggingface
+        user: Abiray
+        repo: Qwen3.6-27B-AEON-Ultimate-Uncensored-GGUF
+  - key: llmfan46/Qwen3.6-27B-uncensored-heretic-v2-Native-MTP-Preserved-GGUF
+    sources:
+      - type: huggingface
+        user: llmfan46
+        repo: Qwen3.6-27B-uncensored-heretic-v2-Native-MTP-Preserved-GGUF
+  - key: ManniX-ITA/Qwen3.6-27B-Omnimerge-v4-GGUF
+    sources:
+      - type: huggingface
+        user: ManniX-ITA
+        repo: Qwen3.6-27B-Omnimerge-v4-GGUF
+  - key: mradermacher/Qwen3.6-27B-Ultimate-Uncensored-heretic-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.6-27B-Ultimate-Uncensored-heretic-i1-GGUF
 config:
   operation:
     fields:

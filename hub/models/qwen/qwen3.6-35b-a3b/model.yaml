@@ -627,6 +627,46 @@ base:
       - type: huggingface
         user: eepos
         repo: RedHatAI_Qwen3.6-35B-A3B-NVFP4-GGUF
+  - key: unsloth/Qwen3.6-35B-A3B-MTP-GGUF
+    sources:
+      - type: huggingface
+        user: unsloth
+        repo: Qwen3.6-35B-A3B-MTP-GGUF
+  - key: mudler/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled-APEX-GGUF
+    sources:
+      - type: huggingface
+        user: mudler
+        repo: Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled-APEX-GGUF
+  - key: shennguyen/Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: shennguyen
+        repo: Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-GGUF
+  - key: juan1995-dev/Qwen3.6-35B-A3B-UD-Q4_K_M_GGUF
+    sources:
+      - type: huggingface
+        user: juan1995-dev
+        repo: Qwen3.6-35B-A3B-UD-Q4_K_M_GGUF
+  - key: havenoammo/Qwen3.6-35B-A3B-MTP-GGUF
+    sources:
+      - type: huggingface
+        user: havenoammo
+        repo: Qwen3.6-35B-A3B-MTP-GGUF
+  - key: mradermacher/Qwen3.6-35B-A3B-Abliterix-EGA-abliterated-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.6-35B-A3B-Abliterix-EGA-abliterated-i1-GGUF
+  - key: LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-GGUF
+    sources:
+      - type: huggingface
+        user: LuffyTheFox
+        repo: Qwen3.6-35B-A3B-Uncensored-Genesis-GGUF
+  - key: llmfan46/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved-GGUF
+    sources:
+      - type: huggingface
+        user: llmfan46
+        repo: Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved-GGUF
 config:
   operation:
     fields:

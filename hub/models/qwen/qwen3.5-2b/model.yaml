@@ -682,6 +682,31 @@ base:
       - type: huggingface
         user: Thireus
         repo: Qwen3.5-2B-THIREUS-IQ1_S_R4-SPECIAL_SPLIT
+  - key: unsloth/Qwen3.5-2B-MTP-GGUF
+    sources:
+      - type: huggingface
+        user: unsloth
+        repo: Qwen3.5-2B-MTP-GGUF
+  - key: mradermacher/Qwen3.5-2B-heretic-ara-high-kld-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-2B-heretic-ara-high-kld-i1-GGUF
+  - key: mradermacher/Qwen3.5-2B-heretic-ara-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-2B-heretic-ara-i1-GGUF
+  - key: mradermacher/Qwen3.5-2B-Ideal-TSUNDERE-Loli-Girl-Japanese-v1-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-2B-Ideal-TSUNDERE-Loli-Girl-Japanese-v1-i1-GGUF
+  - key: mradermacher/Qwen3.5-2B-Polaris-HighIQ-Thinking-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-2B-Polaris-HighIQ-Thinking-i1-GGUF
 config:
   operation:
     fields:

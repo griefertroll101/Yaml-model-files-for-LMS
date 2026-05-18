@@ -262,6 +262,16 @@ base:
       - type: huggingface
         user: yybl
         repo: Qwen3-32B-VL-Instruct-Polaris-HI16-Heretic-Uncensored-Q5_K_M-GGUF
+  - key: Yjuq/Qwen3-32B-abliterated-Q8_0-GGUF
+    sources:
+      - type: huggingface
+        user: Yjuq
+        repo: Qwen3-32B-abliterated-Q8_0-GGUF
+  - key: meshllm/Qwen3-32B-UD-Q4_K_XL-layers
+    sources:
+      - type: huggingface
+        user: meshllm
+        repo: Qwen3-32B-UD-Q4_K_XL-layers
 config:
   operation:
     fields:
