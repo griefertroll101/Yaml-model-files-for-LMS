@@ -87,11 +87,6 @@ base:
       - type: huggingface
         user: lmstudio-community
         repo: Qwen3-4B-GGUF
-  - key: TeichAI/Qwen3-4B-Thinking-2507-MiMo-V2-Flash-Distill-GGUF
-    sources:
-      - type: huggingface
-        user: TeichAI
-        repo: Qwen3-4B-Thinking-2507-MiMo-V2-Flash-Distill-GGUF
   - key: Lockout/qwen3-4b-heretic-zimage
     sources:
       - type: huggingface
@@ -162,11 +157,6 @@ base:
       - type: huggingface
         user: mradermacher
         repo: Qwen3-4B-Wrist-On-Hermes-i1-GGUF
-  - key: TeichAI/Qwen3-4B-Thinking-2507-DeepSeek-v3.2-Speciale-Code-Distill-GGUF
-    sources:
-      - type: huggingface
-        user: TeichAI
-        repo: Qwen3-4B-Thinking-2507-DeepSeek-v3.2-Speciale-Code-Distill-GGUF
   - key: Mungert/Qwen3-4B-abliterated-GGUF
     sources:
       - type: huggingface
@@ -192,6 +182,211 @@ base:
       - type: huggingface
         user: mradermacher
         repo: Qwen3-4B-Instruct-2507-NanoWriter-v2-GGUF
+  - key: NotHereNorThere/qwen3-4b-200html-distill-gpt-oss-120b
+    sources:
+      - type: huggingface
+        user: NotHereNorThere
+        repo: qwen3-4b-200html-distill-gpt-oss-120b
+  - key: ahmadabdulnasir/NaijaPidgin-Qwen3-4B
+    sources:
+      - type: huggingface
+        user: ahmadabdulnasir
+        repo: NaijaPidgin-Qwen3-4B
+  - key: ahmadabdulnasir/NaijaPidgin-Qwen3-4B-GGUF
+    sources:
+      - type: huggingface
+        user: ahmadabdulnasir
+        repo: NaijaPidgin-Qwen3-4B-GGUF
+  - key: Alcoft/dnotitia_Smoothie-Qwen3-4B-GGUF
+    sources:
+      - type: huggingface
+        user: Alcoft
+        repo: dnotitia_Smoothie-Qwen3-4B-GGUF
+  - key: Alcoft/Qwen3-4B-GGUF
+    sources:
+      - type: huggingface
+        user: Alcoft
+        repo: Qwen3-4B-GGUF
+  - key: Alcoft/Qwen_Qwen3-4B-GGUF
+    sources:
+      - type: huggingface
+        user: Alcoft
+        repo: Qwen_Qwen3-4B-GGUF
+  - key: AnandVelpuri/Qwen3-4B-GGUF
+    sources:
+      - type: huggingface
+        user: AnandVelpuri
+        repo: Qwen3-4B-GGUF
+  - key: andquant/Qwen3-4B-Q8_0-GGUF
+    sources:
+      - type: huggingface
+        user: andquant
+        repo: Qwen3-4B-Q8_0-GGUF
+  - key: Antigma/Qwen3-4B-GGUF
+    sources:
+      - type: huggingface
+        user: Antigma
+        repo: Qwen3-4B-GGUF
+  - key: arko-s/Qwen3-4B
+    sources:
+      - type: huggingface
+        user: arko-s
+        repo: Qwen3-4B
+  - key: atmatechai/qwen3-4b
+    sources:
+      - type: huggingface
+        user: atmatechai
+        repo: qwen3-4b
+  - key: Ayansk11/FinSenti-Qwen3-4B-GGUF
+    sources:
+      - type: huggingface
+        user: Ayansk11
+        repo: FinSenti-Qwen3-4B-GGUF
+  - key: Catnop/q4-qwen3-4b
+    sources:
+      - type: huggingface
+        user: Catnop
+        repo: q4-qwen3-4b
+  - key: chenjh283/qwen3-4b-gguf
+    sources:
+      - type: huggingface
+        user: chenjh283
+        repo: qwen3-4b-gguf
+  - key: clarkkitchen22/pokemon-red-commander-qwen3-4b
+    sources:
+      - type: huggingface
+        user: clarkkitchen22
+        repo: pokemon-red-commander-qwen3-4b
+  - key: clawdiaonduty/clawdia-qwen3-4b
+    sources:
+      - type: huggingface
+        user: clawdiaonduty
+        repo: clawdia-qwen3-4b
+  - key: Daerun/Qwen3-4B-Q4_0-GGUF
+    sources:
+      - type: huggingface
+        user: Daerun
+        repo: Qwen3-4B-Q4_0-GGUF
+  - key: ddh0/Qwen3-4B
+    sources:
+      - type: huggingface
+        user: ddh0
+        repo: Qwen3-4B
+  - key: debasmitadasgupta/tony-seba-qwen3-4b-gguf
+    sources:
+      - type: huggingface
+        user: debasmitadasgupta
+        repo: tony-seba-qwen3-4b-gguf
+  - key: DESUCLUB/Qwen3-4B-IQ4_XS-GGUF
+    sources:
+      - type: huggingface
+        user: DESUCLUB
+        repo: Qwen3-4B-IQ4_XS-GGUF
+  - key: DevQuasar/iapp.chinda-qwen3-4b-GGUF
+    sources:
+      - type: huggingface
+        user: DevQuasar
+        repo: iapp.chinda-qwen3-4b-GGUF
+  - key: DevQuasar/Qwen.Qwen3-4B-GGUF
+    sources:
+      - type: huggingface
+        user: DevQuasar
+        repo: Qwen.Qwen3-4B-GGUF
+  - key: Disya/magnum-qwen3-4b-Q8_0-GGUF
+    sources:
+      - type: huggingface
+        user: Disya
+        repo: magnum-qwen3-4b-Q8_0-GGUF
+  - key: dougiefresh/jade_qwen3_4b_gguf
+    sources:
+      - type: huggingface
+        user: dougiefresh
+        repo: jade_qwen3_4b_gguf
+  - key: DuoNeural/Qwen3-4B-GGUF
+    sources:
+      - type: huggingface
+        user: DuoNeural
+        repo: Qwen3-4B-GGUF
+  - key: EdgeCompress01/Qwen3-4B-GGUF
+    sources:
+      - type: huggingface
+        user: EdgeCompress01
+        repo: Qwen3-4B-GGUF
+  - key: eldar78/Qwen3-4B-GGUF
+    sources:
+      - type: huggingface
+        user: eldar78
+        repo: Qwen3-4B-GGUF
+  - key: electricpipelines/Qwen3-4B-GGUF
+    sources:
+      - type: huggingface
+        user: electricpipelines
+        repo: Qwen3-4B-GGUF
+  - key: enacimie/Qwen3-4B-Q8_0-GGUF
+    sources:
+      - type: huggingface
+        user: enacimie
+        repo: Qwen3-4B-Q8_0-GGUF
+  - key: ethicalabs/Kurtis-E1.1-Qwen3-4B-GGUF
+    sources:
+      - type: huggingface
+        user: ethicalabs
+        repo: Kurtis-E1.1-Qwen3-4B-GGUF
+  - key: fakezeta/amoral-Qwen3-4B-GGUF
+    sources:
+      - type: huggingface
+        user: fakezeta
+        repo: amoral-Qwen3-4B-GGUF
+  - key: Fastiraz/Qwen3-4B-GGUF
+    sources:
+      - type: huggingface
+        user: Fastiraz
+        repo: Qwen3-4B-GGUF
+  - key: fayzard/AgentDog-Qwen3-4B-GGUF
+    sources:
+      - type: huggingface
+        user: fayzard
+        repo: AgentDog-Qwen3-4B-GGUF
+  - key: Felladrin/gguf-sharded-UD-Q4_K_XL-Qwen3-4B
+    sources:
+      - type: huggingface
+        user: Felladrin
+        repo: gguf-sharded-UD-Q4_K_XL-Qwen3-4B
+  - key: FILM6912/typhoon2.5-qwen3-4b
+    sources:
+      - type: huggingface
+        user: FILM6912
+        repo: typhoon2.5-qwen3-4b
+  - key: Flexan/matonski-self-preservation-KREL-Qwen3-4B-GGUF
+    sources:
+      - type: huggingface
+        user: Flexan
+        repo: matonski-self-preservation-KREL-Qwen3-4B-GGUF
+  - key: forkjoin-ai/qwen3-4b-gguf
+    sources:
+      - type: huggingface
+        user: forkjoin-ai
+        repo: qwen3-4b-gguf
+  - key: frozenturtle/Qwen3-4B-Q8_0-GGUF
+    sources:
+      - type: huggingface
+        user: frozenturtle
+        repo: Qwen3-4B-Q8_0-GGUF
+  - key: gaianet/Qwen3-4B-GGUF
+    sources:
+      - type: huggingface
+        user: gaianet
+        repo: Qwen3-4B-GGUF
+  - key: ggml-org/Qwen3-4B-GGUF
+    sources:
+      - type: huggingface
+        user: ggml-org
+        repo: Qwen3-4B-GGUF
+  - key: gregochan/fuki_qwen3-4B
+    sources:
+      - type: huggingface
+        user: gregochan
+        repo: fuki_qwen3-4B
 config:
   operation:
     fields:

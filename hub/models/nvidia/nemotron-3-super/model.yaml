@@ -207,11 +207,6 @@ base:
       - type: huggingface
         user: majentik
         repo: Nemotron-3-Super-120B-A12B-RotorQuant-GGUF-Q8_0
-  - key: Max-and-Omnis/Nemotron-3-Super-64B-A12B-Math-REAP-GGUF
-    sources:
-      - type: huggingface
-        user: Max-and-Omnis
-        repo: Nemotron-3-Super-64B-A12B-Math-REAP-GGUF
   - key: grumd0/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4-GGUF
     sources:
       - type: huggingface

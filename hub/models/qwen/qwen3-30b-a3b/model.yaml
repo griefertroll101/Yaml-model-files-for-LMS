@@ -267,6 +267,216 @@ base:
       - type: huggingface
         user: mradermacher
         repo: Huihui-Qwen3-30B-A3B-Thinking-2507-abliterated-GGUF
+  - key: mradermacher/Qwen3-30B-A3B-Thinking-2507-GLM-4.7-Flash-High-Reasoning-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3-30B-A3B-Thinking-2507-GLM-4.7-Flash-High-Reasoning-GGUF
+  - key: mradermacher/Qwen3-30B-A3B-YOYO-V2-GLM-4.7-Flash-Instruct-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3-30B-A3B-YOYO-V2-GLM-4.7-Flash-Instruct-i1-GGUF
+  - key: cosmorocket100/Qwen3-30B-GGUF
+    sources:
+      - type: huggingface
+        user: cosmorocket100
+        repo: Qwen3-30B-GGUF
+  - key: kolosal/qwen3-30b
+    sources:
+      - type: huggingface
+        user: kolosal
+        repo: qwen3-30b
+  - key: AbteeXAILab/lumynax-infused-qwen3-30b-a3b-gguf
+    sources:
+      - type: huggingface
+        user: AbteeXAILab
+        repo: lumynax-infused-qwen3-30b-a3b-gguf
+  - key: Antigma/Qwen3-30B-A3B-GGUF
+    sources:
+      - type: huggingface
+        user: Antigma
+        repo: Qwen3-30B-A3B-GGUF
+  - key: BenevolenceMessiah/Qwen3-30B-A3B-Q8_0-GGUF
+    sources:
+      - type: huggingface
+        user: BenevolenceMessiah
+        repo: Qwen3-30B-A3B-Q8_0-GGUF
+  - key: cryptonaut/qwen3-30b-a3b
+    sources:
+      - type: huggingface
+        user: cryptonaut
+        repo: qwen3-30b-a3b
+  - key: DevQuasar/Qwen.Qwen3-30B-A3B-GGUF
+    sources:
+      - type: huggingface
+        user: DevQuasar
+        repo: Qwen.Qwen3-30B-A3B-GGUF
+  - key: eaddario/Qwen3-30B-A3B-GGUF
+    sources:
+      - type: huggingface
+        user: eaddario
+        repo: Qwen3-30B-A3B-GGUF
+  - key: fernandoruiz/Qwen3-30B-A3B-Q4_0-GGUF
+    sources:
+      - type: huggingface
+        user: fernandoruiz
+        repo: Qwen3-30B-A3B-Q4_0-GGUF
+  - key: FILM6912/typhoon2.5-qwen3-30b-a3b
+    sources:
+      - type: huggingface
+        user: FILM6912
+        repo: typhoon2.5-qwen3-30b-a3b
+  - key: frozenturtle/Qwen3-30B-A3B-Q8_0-GGUF
+    sources:
+      - type: huggingface
+        user: frozenturtle
+        repo: Qwen3-30B-A3B-Q8_0-GGUF
+  - key: gaianet/Qwen3-30B-A3B-GGUF
+    sources:
+      - type: huggingface
+        user: gaianet
+        repo: Qwen3-30B-A3B-GGUF
+  - key: ggml-org/Qwen3-30B-A3B-GGUF
+    sources:
+      - type: huggingface
+        user: ggml-org
+        repo: Qwen3-30B-A3B-GGUF
+  - key: grapevine-AI/Qwen3-30B-A3B-GGUF
+    sources:
+      - type: huggingface
+        user: grapevine-AI
+        repo: Qwen3-30B-A3B-GGUF
+  - key: ikawrakow/Qwen3-30B-A3B
+    sources:
+      - type: huggingface
+        user: ikawrakow
+        repo: Qwen3-30B-A3B
+  - key: introvoyz041/agrillm-Qwen3-30B-A3B-Q4_0-GGUF
+    sources:
+      - type: huggingface
+        user: introvoyz041
+        repo: agrillm-Qwen3-30B-A3B-Q4_0-GGUF
+  - key: jimney684/Qwen3-30B-A3B-Q2_K-GGUF
+    sources:
+      - type: huggingface
+        user: jimney684
+        repo: Qwen3-30B-A3B-Q2_K-GGUF
+  - key: LogicBombaklot/SWE-rebench-openhands-Qwen3-30B-A3B-Q8_0-GGUF
+    sources:
+      - type: huggingface
+        user: LogicBombaklot
+        repo: SWE-rebench-openhands-Qwen3-30B-A3B-Q8_0-GGUF
+  - key: mradermacher/agrillm-Qwen3-30B-A3B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: agrillm-Qwen3-30B-A3B-GGUF
+  - key: mradermacher/agrillm-Qwen3-30B-A3B-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: agrillm-Qwen3-30B-A3B-i1-GGUF
+  - key: mradermacher/OmniAtlas-Qwen3-30B-A3B-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: OmniAtlas-Qwen3-30B-A3B-i1-GGUF
+  - key: mradermacher/Qwen3-30B-A3B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3-30B-A3B-GGUF
+  - key: mradermacher/Qwen3-30B-A3B-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3-30B-A3B-i1-GGUF
+  - key: mradermacher/Smoothie-Qwen3-30B-A3B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Smoothie-Qwen3-30B-A3B-GGUF
+  - key: mradermacher/Smoothie-Qwen3-30B-A3B-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Smoothie-Qwen3-30B-A3B-i1-GGUF
+  - key: Mungert/Qwen3-30B-A3B-GGUF
+    sources:
+      - type: huggingface
+        user: Mungert
+        repo: Qwen3-30B-A3B-GGUF
+  - key: Nick0lay13/Qwen3-30B-A3B-Q6_K-GGUF
+    sources:
+      - type: huggingface
+        user: Nick0lay13
+        repo: Qwen3-30B-A3B-Q6_K-GGUF
+  - key: Nick0lay13/Qwen3-30B-A3B-Q8_0-GGUF
+    sources:
+      - type: huggingface
+        user: Nick0lay13
+        repo: Qwen3-30B-A3B-Q8_0-GGUF
+  - key: ReallyFloppyPenguin/Qwen3-30B-A3B-GGUF
+    sources:
+      - type: huggingface
+        user: ReallyFloppyPenguin
+        repo: Qwen3-30B-A3B-GGUF
+  - key: Rinshiwasu/Qwen3-30B-A3B-GGUF
+    sources:
+      - type: huggingface
+        user: Rinshiwasu
+        repo: Qwen3-30B-A3B-GGUF
+  - key: second-state/Qwen3-30B-A3B-GGUF
+    sources:
+      - type: huggingface
+        user: second-state
+        repo: Qwen3-30B-A3B-GGUF
+  - key: StageMind/qwen3-30b-a3b
+    sources:
+      - type: huggingface
+        user: StageMind
+        repo: qwen3-30b-a3b
+  - key: tensorblock/dnotitia_Smoothie-Qwen3-30B-A3B-GGUF
+    sources:
+      - type: huggingface
+        user: tensorblock
+        repo: dnotitia_Smoothie-Qwen3-30B-A3B-GGUF
+  - key: tensorblock/Qwen_Qwen3-30B-A3B-GGUF
+    sources:
+      - type: huggingface
+        user: tensorblock
+        repo: Qwen_Qwen3-30B-A3B-GGUF
+  - key: terasut/typhoon2.5-qwen3-30b-a3b-GGUF
+    sources:
+      - type: huggingface
+        user: terasut
+        repo: typhoon2.5-qwen3-30b-a3b-GGUF
+  - key: tommytracx/Qwen3-30B-A3B-Q8_0-GGUF
+    sources:
+      - type: huggingface
+        user: tommytracx
+        repo: Qwen3-30B-A3B-Q8_0-GGUF
+  - key: ubergarm/Qwen3-30B-A3B-GGUF
+    sources:
+      - type: huggingface
+        user: ubergarm
+        repo: Qwen3-30B-A3B-GGUF
+  - key: Userb1az/Qwen3-30B-A3B-GGUF
+    sources:
+      - type: huggingface
+        user: Userb1az
+        repo: Qwen3-30B-A3B-GGUF
+  - key: VECTORVV1/Qwen3-30B-A3B
+    sources:
+      - type: huggingface
+        user: VECTORVV1
+        repo: Qwen3-30B-A3B
+  - key: VolkerMauel/nebius-SWE-rebench-openhands-Qwen3-30B-A3B-GGUF
+    sources:
+      - type: huggingface
+        user: VolkerMauel
+        repo: nebius-SWE-rebench-openhands-Qwen3-30B-A3B-GGUF
 config:
   operation:
     fields:

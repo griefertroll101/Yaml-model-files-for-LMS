@@ -557,6 +557,166 @@ base:
       - type: huggingface
         user: meshllm
         repo: Qwen3.5-397B-A17B-UD-Q4_K_XL-layers
+  - key: dxx117/Qwen3.5-397B-A17B-GGUF-UD-IQ2_XXS-MTP-Q8_0
+    sources:
+      - type: huggingface
+        user: dxx117
+        repo: Qwen3.5-397B-A17B-GGUF-UD-IQ2_XXS-MTP-Q8_0
+  - key: dxx117/Qwen3.5-397B-A17B-heretic-GGUF-v2-MTP
+    sources:
+      - type: huggingface
+        user: dxx117
+        repo: Qwen3.5-397B-A17B-heretic-GGUF-v2-MTP
+  - key: brocchirodrigo/anotaai-ajuda-qwen3_5_Q4
+    sources:
+      - type: huggingface
+        user: brocchirodrigo
+        repo: anotaai-ajuda-qwen3_5_Q4
+  - key: Crowfeather/Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5
+    sources:
+      - type: huggingface
+        user: Crowfeather
+        repo: Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5
+  - key: Crownelius/Crow-4B-Opus-4.6-Distill-Heretic_Qwen3.5
+    sources:
+      - type: huggingface
+        user: Crownelius
+        repo: Crow-4B-Opus-4.6-Distill-Heretic_Qwen3.5
+  - key: Danterock/Qwen3.5
+    sources:
+      - type: huggingface
+        user: Danterock
+        repo: Qwen3.5
+  - key: ddh0/Qwen3.5-GGUF
+    sources:
+      - type: huggingface
+        user: ddh0
+        repo: Qwen3.5-GGUF
+  - key: Manojb/Crow-4B-Opus-4.6-Distill-Heretic_Qwen3.5.BF16.gguf
+    sources:
+      - type: huggingface
+        user: Manojb
+        repo: Crow-4B-Opus-4.6-Distill-Heretic_Qwen3.5.BF16.gguf
+  - key: Manojb/Crow-4B-Opus-4.6-Distill-Heretic_Qwen3.5.Q8_0.gguf
+    sources:
+      - type: huggingface
+        user: Manojb
+        repo: Crow-4B-Opus-4.6-Distill-Heretic_Qwen3.5.Q8_0.gguf
+  - key: mixer3d/qwen3.5-bf16-gguf
+    sources:
+      - type: huggingface
+        user: mixer3d
+        repo: qwen3.5-bf16-gguf
+  - key: modinformal/Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5
+    sources:
+      - type: huggingface
+        user: modinformal
+        repo: Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5
+  - key: mradermacher/Aureth-4B-Qwen3.5-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Aureth-4B-Qwen3.5-GGUF
+  - key: mradermacher/Aureth-4B-Qwen3.5-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Aureth-4B-Qwen3.5-i1-GGUF
+  - key: mradermacher/Crow-4B-Opus-4.6-Distill-Heretic_Qwen3.5-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Crow-4B-Opus-4.6-Distill-Heretic_Qwen3.5-GGUF
+  - key: mradermacher/Crow-4B-Opus-4.6-Distill-Heretic_Qwen3.5-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Crow-4B-Opus-4.6-Distill-Heretic_Qwen3.5-i1-GGUF
+  - key: mradermacher/Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5-GGUF
+  - key: mradermacher/Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5-i1-GGUF
+  - key: OusiaResearch/Aureth-4B-Qwen3.5
+    sources:
+      - type: huggingface
+        user: OusiaResearch
+        repo: Aureth-4B-Qwen3.5
+  - key: OusiaResearch/Aureth-9B-Qwen3.5
+    sources:
+      - type: huggingface
+        user: OusiaResearch
+        repo: Aureth-9B-Qwen3.5
+  - key: ZeeshanLiaqat/dark-pattern-qwen3.5
+    sources:
+      - type: huggingface
+        user: ZeeshanLiaqat
+        repo: dark-pattern-qwen3.5
+  - key: dirop1/qwen3.5-0.8-4Q-PUBG-gguf
+    sources:
+      - type: huggingface
+        user: dirop1
+        repo: qwen3.5-0.8-4Q-PUBG-gguf
+  - key: etemiz/Ostrich-27B-Qwen3.5-260305-GGUF
+    sources:
+      - type: huggingface
+        user: etemiz
+        repo: Ostrich-27B-Qwen3.5-260305-GGUF
+  - key: mradermacher/Ostrich-27B-Qwen3.5-260305-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Ostrich-27B-Qwen3.5-260305-GGUF
+  - key: mradermacher/Ostrich-27B-Qwen3.5-260305-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Ostrich-27B-Qwen3.5-260305-i1-GGUF
+  - key: etemiz/Ostrich-27B-Qwen3.5-260411-GGUF
+    sources:
+      - type: huggingface
+        user: etemiz
+        repo: Ostrich-27B-Qwen3.5-260411-GGUF
+  - key: mradermacher/Ostrich-27B-Qwen3.5-260411-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Ostrich-27B-Qwen3.5-260411-GGUF
+  - key: mradermacher/Ostrich-27B-Qwen3.5-260411-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Ostrich-27B-Qwen3.5-260411-i1-GGUF
+  - key: zhouyu199886/Qwen3.5-2Bq4_k_m
+    sources:
+      - type: huggingface
+        user: zhouyu199886
+        repo: Qwen3.5-2Bq4_k_m
+  - key: admijgjtjtjtjjg/Qwen3.5-34M-Micro
+    sources:
+      - type: huggingface
+        user: admijgjtjtjtjjg
+        repo: Qwen3.5-34M-Micro
+  - key: Anonymousfrog/Qwen3.5-800M-Abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: Anonymousfrog
+        repo: Qwen3.5-800M-Abliterated-GGUF
+  - key: tarundsflsdf/qwen3.5-8k-120-merged-gguf
+    sources:
+      - type: huggingface
+        user: tarundsflsdf
+        repo: qwen3.5-8k-120-merged-gguf
+  - key: prithivMLmods/Qwen3.5-abliterated-MAX-AIO-GGUF
+    sources:
+      - type: huggingface
+        user: prithivMLmods
+        repo: Qwen3.5-abliterated-MAX-AIO-GGUF
 config:
   operation:
     fields:

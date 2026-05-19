@@ -17,11 +17,6 @@ base:
       - type: huggingface
         user: nvidia
         repo: NVIDIA-Nemotron-3-Nano-4B-GGUF
-  - key: HauhauCS/Nemotron3-Nano-4B-Uncensored-HauhauCS-Aggressive
-    sources:
-      - type: huggingface
-        user: HauhauCS
-        repo: Nemotron3-Nano-4B-Uncensored-HauhauCS-Aggressive
   - key: bartowski/nvidia_Nemotron-3-Nano-4B-GGUF
     sources:
       - type: huggingface
@@ -52,16 +47,6 @@ base:
       - type: huggingface
         user: mradermacher
         repo: NVIDIA-Nemotron-3-Nano-4B-BF16-GGUF
-  - key: HauhauCS/Nemotron3-Nano-4B-Uncensored-HauhauCS-Aggressive-GenRM
-    sources:
-      - type: huggingface
-        user: HauhauCS
-        repo: Nemotron3-Nano-4B-Uncensored-HauhauCS-Aggressive-GenRM
-  - key: jaromer/Nemotron3-Nano-4B-Uncensored-HauhauCS-Aggressive
-    sources:
-      - type: huggingface
-        user: jaromer
-        repo: Nemotron3-Nano-4B-Uncensored-HauhauCS-Aggressive
   - key: DevQuasar/nvidia.NVIDIA-Nemotron-3-Nano-4B-BF16-GGUF
     sources:
       - type: huggingface
@@ -77,26 +62,11 @@ base:
       - type: huggingface
         user: memoryco-ai
         repo: Nemotron-3-Nano-4B-GGUF
-  - key: aoiandroid/NVIDIA-Nemotron3-Nano-4B-Q4_K_M-GGUF
-    sources:
-      - type: huggingface
-        user: aoiandroid
-        repo: NVIDIA-Nemotron3-Nano-4B-Q4_K_M-GGUF
-  - key: nazihara/Nemotron3-Nano-4B-Aggressive
-    sources:
-      - type: huggingface
-        user: nazihara
-        repo: Nemotron3-Nano-4B-Aggressive
   - key: majentik/Nemotron-3-Nano-4B-RotorQuant-GGUF-IQ4_XS
     sources:
       - type: huggingface
         user: majentik
         repo: Nemotron-3-Nano-4B-RotorQuant-GGUF-IQ4_XS
-  - key: VECTORVV1/Nemotron3-Nano-4B-Aggressive-GenRM
-    sources:
-      - type: huggingface
-        user: VECTORVV1
-        repo: Nemotron3-Nano-4B-Aggressive-GenRM
   - key: majentik/Nemotron-3-Nano-4B-TurboQuant-GGUF-Q4_K_M
     sources:
       - type: huggingface

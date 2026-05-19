@@ -142,6 +142,11 @@ base:
       - type: huggingface
         user: gnigguhface
         repo: Hermes-4-14B-Q8_0-GGUF
+  - key: wekW/NousResearch_Hermes-4
+    sources:
+      - type: huggingface
+        user: wekW
+        repo: NousResearch_Hermes-4
 config:
   operation:
     fields:

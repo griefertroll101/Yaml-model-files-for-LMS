@@ -37,16 +37,6 @@ base:
       - type: huggingface
         user: mradermacher
         repo: Hermes-4.3-36B-GGUF
-  - key: mradermacher/Hermes4.3-Z-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Hermes4.3-Z-i1-GGUF
-  - key: mradermacher/Hermes4.3-Z-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Hermes4.3-Z-GGUF
   - key: DevQuasar/NousResearch.Hermes-4.3-36B-GGUF
     sources:
       - type: huggingface
@@ -102,6 +92,11 @@ base:
       - type: huggingface
         user: mradermacher
         repo: Hermes-4.3-36B-ABLITERATED-heretic-GGUF
+  - key: wekW/NousResearch_Hermes-4
+    sources:
+      - type: huggingface
+        user: wekW
+        repo: NousResearch_Hermes-4
 config:
   operation:
     fields:

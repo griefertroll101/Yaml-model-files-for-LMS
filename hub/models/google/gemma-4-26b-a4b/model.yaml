@@ -152,11 +152,6 @@ base:
       - type: huggingface
         user: mudler
         repo: gemma-4-26B-A4B-it-heretic-APEX-GGUF
-  - key: Smoffyy/Gemma4-26B-A4B-Instruct-Pure-GGUF
-    sources:
-      - type: huggingface
-        user: Smoffyy
-        repo: Gemma4-26B-A4B-Instruct-Pure-GGUF
   - key: sowilow/gemma-4-26b-a4b-it-DGX-Spark-GGUF
     sources:
       - type: huggingface
@@ -257,16 +252,6 @@ base:
       - type: huggingface
         user: mradermacher
         repo: gemma-4-26B-A4B-i1-GGUF
-  - key: samuelstolicny/claudie-expert-gemma4-26b-a4b
-    sources:
-      - type: huggingface
-        user: samuelstolicny
-        repo: claudie-expert-gemma4-26b-a4b
-  - key: samuelstolicny/claudie-expert-gemma4-26b-a4b-gguf
-    sources:
-      - type: huggingface
-        user: samuelstolicny
-        repo: claudie-expert-gemma4-26b-a4b-gguf
   - key: groxaxo/Huihui-gemma-4-26B-A4B-it-abliterated-GGUF
     sources:
       - type: huggingface
@@ -352,11 +337,6 @@ base:
       - type: huggingface
         user: Vastopian
         repo: gemma-4-26B-A4B-it-abliterated-GGUF
-  - key: Ex0bit/Gemma4-26B-A4B-PRISM-PRO-DQ-GGUF
-    sources:
-      - type: huggingface
-        user: Ex0bit
-        repo: Gemma4-26B-A4B-PRISM-PRO-DQ-GGUF
   - key: noctrex/Huihui-gemma-4-26B-A4B-it-abliterated-MXFP4_MOE-GGUF
     sources:
       - type: huggingface
@@ -447,11 +427,6 @@ base:
       - type: huggingface
         user: mad-lab-ai
         repo: google-gemma-4-26b-a4b-tq3_1s.gguf
-  - key: dwojcik/gemma4-26b-a4b-it-codex-gguf-4bit
-    sources:
-      - type: huggingface
-        user: dwojcik
-        repo: gemma4-26b-a4b-it-codex-gguf-4bit
   - key: majentik/gemma-4-26B-A4B-RotorQuant-GGUF-IQ4_XS
     sources:
       - type: huggingface
@@ -632,21 +607,11 @@ base:
       - type: huggingface
         user: mradermacher
         repo: gemma-4-26B-A4B-it-Claude-Opus-Distill-v2-GGUF
-  - key: mradermacher/Gemma4-26B-A4B-Korean-Opus-4.6-Distilled-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Gemma4-26B-A4B-Korean-Opus-4.6-Distilled-GGUF
   - key: mradermacher/gemma-4-26B-A4B-it-abliterix-v6-i1-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: gemma-4-26B-A4B-it-abliterix-v6-i1-GGUF
-  - key: mradermacher/Gemma4-26B-A4B-Korean-Opus-4.6-Distilled-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Gemma4-26B-A4B-Korean-Opus-4.6-Distilled-i1-GGUF
   - key: mradermacher/Gemma-4-26B-A4B-Abliterated-i1-GGUF
     sources:
       - type: huggingface
@@ -677,11 +642,206 @@ base:
       - type: huggingface
         user: AtomicChat
         repo: gemma-4-26B-A4B-it-assistant-GGUF
-  - key: HauhauCS/Gemma4-26B-A4B-Uncensored-HauhauCS-Balanced
+  - key: gubernac/gemma-4-26b-gguf
     sources:
       - type: huggingface
-        user: HauhauCS
-        repo: Gemma4-26B-A4B-Uncensored-HauhauCS-Balanced
+        user: gubernac
+        repo: gemma-4-26b-gguf
+  - key: qnixsynapse/Gemma-4-26B-MXFP4-BF16-GGUF
+    sources:
+      - type: huggingface
+        user: qnixsynapse
+        repo: Gemma-4-26B-MXFP4-BF16-GGUF
+  - key: cyberneurova/cyberneurova-gemma-4-26B-A4B-GGUF
+    sources:
+      - type: huggingface
+        user: cyberneurova
+        repo: cyberneurova-gemma-4-26B-A4B-GGUF
+  - key: llmware/gemma-4-26b-a4b-gguf
+    sources:
+      - type: huggingface
+        user: llmware
+        repo: gemma-4-26b-a4b-gguf
+  - key: majentik/gemma-4-26B-A4B-RotorQuant-GGUF-Q8_0
+    sources:
+      - type: huggingface
+        user: majentik
+        repo: gemma-4-26B-A4B-RotorQuant-GGUF-Q8_0
+  - key: Darkhn-Quants-3/Gemma-4-26B-A4B-Animus-V14.1-FFT-GGUF
+    sources:
+      - type: huggingface
+        user: Darkhn-Quants-3
+        repo: Gemma-4-26B-A4B-Animus-V14.1-FFT-GGUF
+  - key: s1arsky/Gemma-4-26B-A4B-Animus-V14.1-FFT-iMatrix
+    sources:
+      - type: huggingface
+        user: s1arsky
+        repo: Gemma-4-26B-A4B-Animus-V14.1-FFT-iMatrix
+  - key: mac10190/gemma-4-26b-a4b-epi-gguf
+    sources:
+      - type: huggingface
+        user: mac10190
+        repo: gemma-4-26b-a4b-epi-gguf
+  - key: Seltaa/gemma-4-26b-a4b-finetune
+    sources:
+      - type: huggingface
+        user: Seltaa
+        repo: gemma-4-26b-a4b-finetune
+  - key: mradermacher/gemma-4-26b-a4b-heretic-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-26b-a4b-heretic-i1-GGUF
+  - key: Brunobkr/OFFELLIA-FNORD-gemma-4-26B-A4B-it-MXFP4_MOE.gguf
+    sources:
+      - type: huggingface
+        user: Brunobkr
+        repo: OFFELLIA-FNORD-gemma-4-26B-A4B-it-MXFP4_MOE.gguf
+  - key: CQSystems/CQ-Gemma-4-26B-A4B-It-GGUF
+    sources:
+      - type: huggingface
+        user: CQSystems
+        repo: CQ-Gemma-4-26B-A4B-It-GGUF
+  - key: gijl/gemma-4-26B-A4B-it-GGUF
+    sources:
+      - type: huggingface
+        user: gijl
+        repo: gemma-4-26B-A4B-it-GGUF
+  - key: indiansatoshi/google_gemma-4-26B-A4B-it-GGUF
+    sources:
+      - type: huggingface
+        user: indiansatoshi
+        repo: google_gemma-4-26B-A4B-it-GGUF
+  - key: ipsarkar/gemma-4-26B-A4B-it-GGUF
+    sources:
+      - type: huggingface
+        user: ipsarkar
+        repo: gemma-4-26B-A4B-it-GGUF
+  - key: majentik/gemma-4-26B-A4B-it-RotorQuant-GGUF-Q8_0
+    sources:
+      - type: huggingface
+        user: majentik
+        repo: gemma-4-26B-A4B-it-RotorQuant-GGUF-Q8_0
+  - key: pirola/gemma-4-26B-A4B-it-MXFP4-GGUF
+    sources:
+      - type: huggingface
+        user: pirola
+        repo: gemma-4-26B-A4B-it-MXFP4-GGUF
+  - key: rahul-shukla/gemma-4-26B-A4B-it-GGUF
+    sources:
+      - type: huggingface
+        user: rahul-shukla
+        repo: gemma-4-26B-A4B-it-GGUF
+  - key: andyjack/Huihui-gemma-4-26B-A4B-it-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: andyjack
+        repo: Huihui-gemma-4-26B-A4B-it-abliterated-GGUF
+  - key: iamhsouna/Huihui-gemma-4-26B-A4B-it-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: iamhsouna
+        repo: Huihui-gemma-4-26B-A4B-it-abliterated-GGUF
+  - key: puppert/Huihui-gemma-4-26B-A4B-it-abliterated-Q8_0-GGUF
+    sources:
+      - type: huggingface
+        user: puppert
+        repo: Huihui-gemma-4-26B-A4B-it-abliterated-Q8_0-GGUF
+  - key: Momix-44/gemma-4-26B-a4b-it-Adamus-SFT
+    sources:
+      - type: huggingface
+        user: Momix-44
+        repo: gemma-4-26B-a4b-it-Adamus-SFT
+  - key: mradermacher/gemma-4-26B-A4B-it-ara-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-26B-A4B-it-ara-abliterated-GGUF
+  - key: mradermacher/gemma-4-26B-A4B-it-ara-abliterated-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-26B-A4B-it-ara-abliterated-i1-GGUF
+  - key: mradermacher/gemma-4-26B-A4B-it-arli-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-26B-A4B-it-arli-GGUF
+  - key: mradermacher/gemma-4-26B-A4B-it-arli-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-26B-A4B-it-arli-i1-GGUF
+  - key: ji-farthing/gemma-4-26B-A4B-it-assistant-Q6_K-GGUF
+    sources:
+      - type: huggingface
+        user: ji-farthing
+        repo: gemma-4-26B-A4B-it-assistant-Q6_K-GGUF
+  - key: Radamanthys11/Gemma-4-26B-A4B-it-assistant-GGUF
+    sources:
+      - type: huggingface
+        user: Radamanthys11
+        repo: Gemma-4-26B-A4B-it-assistant-GGUF
+  - key: cafkafk/gemma-4-26B-A4B-it-assistant-GGUF-noimatrix
+    sources:
+      - type: huggingface
+        user: cafkafk
+        repo: gemma-4-26B-A4B-it-assistant-GGUF-noimatrix
+  - key: ji-farthing/gemma-4-26B-A4B-it-assistant-Q4_K_S-GGUF
+    sources:
+      - type: huggingface
+        user: ji-farthing
+        repo: gemma-4-26B-A4B-it-assistant-Q4_K_S-GGUF
+  - key: chandan989/prism-gemma-4-26B-A4B-it-bf16-v1
+    sources:
+      - type: huggingface
+        user: chandan989
+        repo: prism-gemma-4-26B-A4B-it-bf16-v1
+  - key: chandan989/prism-gemma-4-26B-A4B-it-bf16-v2
+    sources:
+      - type: huggingface
+        user: chandan989
+        repo: prism-gemma-4-26B-A4B-it-bf16-v2
+  - key: chandan989/prism-gemma-4-26B-A4B-it-bf16-v3
+    sources:
+      - type: huggingface
+        user: chandan989
+        repo: prism-gemma-4-26B-A4B-it-bf16-v3
+  - key: chandan989/prism-gemma-4-26B-A4B-it-bf16-v3.5
+    sources:
+      - type: huggingface
+        user: chandan989
+        repo: prism-gemma-4-26B-A4B-it-bf16-v3.5
+  - key: chandan989/prism-gemma-4-26B-A4B-it-bf16-v3.6
+    sources:
+      - type: huggingface
+        user: chandan989
+        repo: prism-gemma-4-26B-A4B-it-bf16-v3.6
+  - key: deucebucket/Gemma-4-26B-A4B-it-Cerebellum-GGUF
+    sources:
+      - type: huggingface
+        user: deucebucket
+        repo: Gemma-4-26B-A4B-it-Cerebellum-GGUF
+  - key: deucebucket/Gemma-4-26B-A4B-it-Cerebellum-v6-GGUF
+    sources:
+      - type: huggingface
+        user: deucebucket
+        repo: Gemma-4-26B-A4B-it-Cerebellum-v6-GGUF
+  - key: juan1995-dev/gemma-4-26B-A4B-it-Claude-Opus-Distill-GGUF
+    sources:
+      - type: huggingface
+        user: juan1995-dev
+        repo: gemma-4-26B-A4B-it-Claude-Opus-Distill-GGUF
+  - key: mradermacher/gemma-4-26B-A4B-it-Claude-Opus-Distill-v2-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-26B-A4B-it-Claude-Opus-Distill-v2-i1-GGUF
+  - key: Nielk38/gemma-4-26B-A4B-it-GGUF-SPLIT
+    sources:
+      - type: huggingface
+        user: Nielk38
+        repo: gemma-4-26B-A4B-it-GGUF-SPLIT
 config:
   operation:
     fields:

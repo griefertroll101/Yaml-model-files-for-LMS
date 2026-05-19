@@ -222,11 +222,6 @@ base:
       - type: huggingface
         user: mradermacher
         repo: CoReward-Qwen3-8B-Base-i1-GGUF
-  - key: TeichAI/Qwen3-8B-Gemini-2.5-Flash-Distill-GGUF
-    sources:
-      - type: huggingface
-        user: TeichAI
-        repo: Qwen3-8B-Gemini-2.5-Flash-Distill-GGUF
   - key: TeichAI/Qwen3-8B-Claude-Sonnet-4.5-Reasoning-Distill-GGUF
     sources:
       - type: huggingface
@@ -317,6 +312,211 @@ base:
       - type: huggingface
         user: mradermacher
         repo: remnant-qwen3-8b-GGUF
+  - key: mradermacher/Policy-Qwen3-8B_GPT-OSS-120B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Policy-Qwen3-8B_GPT-OSS-120B-GGUF
+  - key: aashish1904/Qwen3-8B-GGUF
+    sources:
+      - type: huggingface
+        user: aashish1904
+        repo: Qwen3-8B-GGUF
+  - key: AbteeXAILab/lumynax-infused-qwen3-8b-gguf
+    sources:
+      - type: huggingface
+        user: AbteeXAILab
+        repo: lumynax-infused-qwen3-8b-gguf
+  - key: admiralakber/DeepSeek-R1-0528-Qwen3-8B-Q8_0-GGUF
+    sources:
+      - type: huggingface
+        user: admiralakber
+        repo: DeepSeek-R1-0528-Qwen3-8B-Q8_0-GGUF
+  - key: akonnor/SLM_SC_Qwen3-8B
+    sources:
+      - type: huggingface
+        user: akonnor
+        repo: SLM_SC_Qwen3-8B
+  - key: Alcoft/Qwen3-8B-GGUF
+    sources:
+      - type: huggingface
+        user: Alcoft
+        repo: Qwen3-8B-GGUF
+  - key: Antigma/DeepSeek-R1-0528-Qwen3-8B-GGUF
+    sources:
+      - type: huggingface
+        user: Antigma
+        repo: DeepSeek-R1-0528-Qwen3-8B-GGUF
+  - key: Antigma/Qwen3-8B-GGUF
+    sources:
+      - type: huggingface
+        user: Antigma
+        repo: Qwen3-8B-GGUF
+  - key: avinashhm/Qwen3-8B-GGUF
+    sources:
+      - type: huggingface
+        user: avinashhm
+        repo: Qwen3-8B-GGUF
+  - key: Ayansk11/FinSenti-Qwen3-8B-GGUF
+    sources:
+      - type: huggingface
+        user: Ayansk11
+        repo: FinSenti-Qwen3-8B-GGUF
+  - key: brittlewis12/DeepSeek-R1-0528-Qwen3-8B-GGUF
+    sources:
+      - type: huggingface
+        user: brittlewis12
+        repo: DeepSeek-R1-0528-Qwen3-8B-GGUF
+  - key: bullerwins/DeepSeek-R1-0528-Qwen3-8B-GGUF
+    sources:
+      - type: huggingface
+        user: bullerwins
+        repo: DeepSeek-R1-0528-Qwen3-8B-GGUF
+  - key: bullerwins/Qwen3-8B-GGUF
+    sources:
+      - type: huggingface
+        user: bullerwins
+        repo: Qwen3-8B-GGUF
+  - key: cmp-nct/Qwen3-8B-GGUF
+    sources:
+      - type: huggingface
+        user: cmp-nct
+        repo: Qwen3-8B-GGUF
+  - key: codebasic/Qwen3-8B-GGUF
+    sources:
+      - type: huggingface
+        user: codebasic
+        repo: Qwen3-8B-GGUF
+  - key: Cyb3RQ/arabic-poetry-qwen3-8b-GGUF
+    sources:
+      - type: huggingface
+        user: Cyb3RQ
+        repo: arabic-poetry-qwen3-8b-GGUF
+  - key: daredevil467/hanoi-router-qwen3-8b-gguf
+    sources:
+      - type: huggingface
+        user: daredevil467
+        repo: hanoi-router-qwen3-8b-gguf
+  - key: Daubeny76/qwen3_8b_gguf
+    sources:
+      - type: huggingface
+        user: Daubeny76
+        repo: qwen3_8b_gguf
+  - key: DebadityaMalakar/DeepSeek-R1-0528-Qwen3-8B-Q8_0-GGUF
+    sources:
+      - type: huggingface
+        user: DebadityaMalakar
+        repo: DeepSeek-R1-0528-Qwen3-8B-Q8_0-GGUF
+  - key: devatar/Qwen3-8B-GGUF
+    sources:
+      - type: huggingface
+        user: devatar
+        repo: Qwen3-8B-GGUF
+  - key: devmasa/Qwen3-8B-Q6_K-GGUF
+    sources:
+      - type: huggingface
+        user: devmasa
+        repo: Qwen3-8B-Q6_K-GGUF
+  - key: devmasa/Qwen3-8B-Q8_0-GGUF
+    sources:
+      - type: huggingface
+        user: devmasa
+        repo: Qwen3-8B-Q8_0-GGUF
+  - key: DevQuasar/deepseek-ai.DeepSeek-R1-0528-Qwen3-8B-GGUF
+    sources:
+      - type: huggingface
+        user: DevQuasar
+        repo: deepseek-ai.DeepSeek-R1-0528-Qwen3-8B-GGUF
+  - key: DevQuasar/Qwen.Qwen3-8B-GGUF
+    sources:
+      - type: huggingface
+        user: DevQuasar
+        repo: Qwen.Qwen3-8B-GGUF
+  - key: DuoNeural/Qwen3-8B-GGUF
+    sources:
+      - type: huggingface
+        user: DuoNeural
+        repo: Qwen3-8B-GGUF
+  - key: eaddario/Qwen3-8B-GGUF
+    sources:
+      - type: huggingface
+        user: eaddario
+        repo: Qwen3-8B-GGUF
+  - key: electricpipelines/Qwen3-8B-GGUF
+    sources:
+      - type: huggingface
+        user: electricpipelines
+        repo: Qwen3-8B-GGUF
+  - key: enacimie/DeepSeek-R1-0528-Qwen3-8B-Q2_K-GGUF
+    sources:
+      - type: huggingface
+        user: enacimie
+        repo: DeepSeek-R1-0528-Qwen3-8B-Q2_K-GGUF
+  - key: EnlistedGhost/DeepSeek-R1-0528-Qwen3-8B-GGUF
+    sources:
+      - type: huggingface
+        user: EnlistedGhost
+        repo: DeepSeek-R1-0528-Qwen3-8B-GGUF
+  - key: EnlistedGhost/Qwen3-8B-GGUF
+    sources:
+      - type: huggingface
+        user: EnlistedGhost
+        repo: Qwen3-8B-GGUF
+  - key: Fastiraz/Qwen3-8B-GGUF
+    sources:
+      - type: huggingface
+        user: Fastiraz
+        repo: Qwen3-8B-GGUF
+  - key: forkjoin-ai/qwen3-8b-gguf
+    sources:
+      - type: huggingface
+        user: forkjoin-ai
+        repo: qwen3-8b-gguf
+  - key: frozenturtle/Qwen3-8B-Q8_0-GGUF
+    sources:
+      - type: huggingface
+        user: frozenturtle
+        repo: Qwen3-8B-Q8_0-GGUF
+  - key: fweyh/spinoza-qwen3-8b-gguf
+    sources:
+      - type: huggingface
+        user: fweyh
+        repo: spinoza-qwen3-8b-gguf
+  - key: gabriellarson/DeepSeek-R1-0528-Qwen3-8B-GGUF
+    sources:
+      - type: huggingface
+        user: gabriellarson
+        repo: DeepSeek-R1-0528-Qwen3-8B-GGUF
+  - key: gaianet/DeepSeek-R1-0528-Qwen3-8B-GGUF
+    sources:
+      - type: huggingface
+        user: gaianet
+        repo: DeepSeek-R1-0528-Qwen3-8B-GGUF
+  - key: gaianet/Qwen3-8B-GGUF
+    sources:
+      - type: huggingface
+        user: gaianet
+        repo: Qwen3-8B-GGUF
+  - key: ggfox00000/qwen3-8b-gguf
+    sources:
+      - type: huggingface
+        user: ggfox00000
+        repo: qwen3-8b-gguf
+  - key: grapevine-AI/DeepSeek-R1-0528-Qwen3-8B-GGUF
+    sources:
+      - type: huggingface
+        user: grapevine-AI
+        repo: DeepSeek-R1-0528-Qwen3-8B-GGUF
+  - key: gsshreyas/aci-qwen3-8b-gguf
+    sources:
+      - type: huggingface
+        user: gsshreyas
+        repo: aci-qwen3-8b-gguf
+  - key: humaan/Qwen3-8B
+    sources:
+      - type: huggingface
+        user: humaan
+        repo: Qwen3-8B
 config:
   operation:
     fields:

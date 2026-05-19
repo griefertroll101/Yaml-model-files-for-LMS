@@ -372,21 +372,11 @@ base:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-2B-Polaris-HighIQ-INSTRUCT-GGUF
-  - key: bjivanovich/Qwen3.5-2B-Vision-Edge-Agent-GGUF
-    sources:
-      - type: huggingface
-        user: bjivanovich
-        repo: Qwen3.5-2B-Vision-Edge-Agent-GGUF
   - key: mradermacher/drissy-qwen3.5-2b-GGUF
     sources:
       - type: huggingface
         user: mradermacher
         repo: drissy-qwen3.5-2b-GGUF
-  - key: bjivanovich/Qwen3.5-2B-Vision-GGUF
-    sources:
-      - type: huggingface
-        user: bjivanovich
-        repo: Qwen3.5-2B-Vision-GGUF
   - key: mradermacher/Transcript-Analytics-Qwen3.5-2B-GGUF
     sources:
       - type: huggingface
@@ -507,11 +497,6 @@ base:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-2B-Claude-Opus-4.6-high-resoning-Base-GGUF
-  - key: xprilion/Qwen3.5-2B-coder
-    sources:
-      - type: huggingface
-        user: xprilion
-        repo: Qwen3.5-2B-coder
   - key: mradermacher/ObjNav-Qwen3.5-2B-SFT-GGUF
     sources:
       - type: huggingface
@@ -632,11 +617,6 @@ base:
       - type: huggingface
         user: botp
         repo: Qwen3.5-2B-Uncensored-HauhauCS-Aggressive
-  - key: hpham307/qwen3.5-2b-math-gguf
-    sources:
-      - type: huggingface
-        user: hpham307
-        repo: qwen3.5-2b-math-gguf
   - key: mradermacher/Qwen3.5-2B_Abliterated-i1-GGUF
     sources:
       - type: huggingface
@@ -707,6 +687,216 @@ base:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-2B-Polaris-HighIQ-Thinking-i1-GGUF
+  - key: Felladri/gguf-sharded-Q4_K_S-Qwen_Qwen3.5-2B
+    sources:
+      - type: huggingface
+        user: Felladri
+        repo: gguf-sharded-Q4_K_S-Qwen_Qwen3.5-2B
+  - key: erics465/Qwen3.5-2B-GGUF
+    sources:
+      - type: huggingface
+        user: erics465
+        repo: Qwen3.5-2B-GGUF
+  - key: aashish1904/Qwen3.5-2B-GGUF
+    sources:
+      - type: huggingface
+        user: aashish1904
+        repo: Qwen3.5-2B-GGUF
+  - key: analist/gaia_qwen3.5_2B_gguf
+    sources:
+      - type: huggingface
+        user: analist
+        repo: gaia_qwen3.5_2B_gguf
+  - key: Ayansk11/FinSenti-Qwen3.5-2B-GGUF
+    sources:
+      - type: huggingface
+        user: Ayansk11
+        repo: FinSenti-Qwen3.5-2B-GGUF
+  - key: CoreWorxLab/caal-qwen3.5-2b
+    sources:
+      - type: huggingface
+        user: CoreWorxLab
+        repo: caal-qwen3.5-2b
+  - key: DevQuasar/Qwen.Qwen3.5-2B-GGUF
+    sources:
+      - type: huggingface
+        user: DevQuasar
+        repo: Qwen.Qwen3.5-2B-GGUF
+  - key: Egor1121/yoldas-qwen3.5-2b-gguf
+    sources:
+      - type: huggingface
+        user: Egor1121
+        repo: yoldas-qwen3.5-2b-gguf
+  - key: eyalnof123/football-fan-qwen3.5-2b-GGUF
+    sources:
+      - type: huggingface
+        user: eyalnof123
+        repo: football-fan-qwen3.5-2b-GGUF
+  - key: Felladrin/gguf-sharded-Q4_K_S-Qwen_Qwen3.5-2B
+    sources:
+      - type: huggingface
+        user: Felladrin
+        repo: gguf-sharded-Q4_K_S-Qwen_Qwen3.5-2B
+  - key: handsphotos770/Qwen3.5-2B-GGUF
+    sources:
+      - type: huggingface
+        user: handsphotos770
+        repo: Qwen3.5-2B-GGUF
+  - key: jivy26/Axiom-PRM-Qwen3.5-2B
+    sources:
+      - type: huggingface
+        user: jivy26
+        repo: Axiom-PRM-Qwen3.5-2B
+  - key: lxz8798/qwen3_5_2b_gguf
+    sources:
+      - type: huggingface
+        user: lxz8798
+        repo: qwen3_5_2b_gguf
+  - key: Manojb/Qwen3.5-2B-BF16.gguf
+    sources:
+      - type: huggingface
+        user: Manojb
+        repo: Qwen3.5-2B-BF16.gguf
+  - key: Manojb/Qwen3.5-2B-IQ4_NL.gguf
+    sources:
+      - type: huggingface
+        user: Manojb
+        repo: Qwen3.5-2B-IQ4_NL.gguf
+  - key: Manojb/Qwen3.5-2B-Q4_0.gguf
+    sources:
+      - type: huggingface
+        user: Manojb
+        repo: Qwen3.5-2B-Q4_0.gguf
+  - key: Manojb/Qwen3.5-2B-Q4_1.gguf
+    sources:
+      - type: huggingface
+        user: Manojb
+        repo: Qwen3.5-2B-Q4_1.gguf
+  - key: Manojb/Qwen3.5-2B-Q6_K.gguf
+    sources:
+      - type: huggingface
+        user: Manojb
+        repo: Qwen3.5-2B-Q6_K.gguf
+  - key: Manojb/Qwen3.5-2B-Q8_0.gguf
+    sources:
+      - type: huggingface
+        user: Manojb
+        repo: Qwen3.5-2B-Q8_0.gguf
+  - key: Manojb/Qwen3.5-2B.i1-IQ4_NL.gguf
+    sources:
+      - type: huggingface
+        user: Manojb
+        repo: Qwen3.5-2B.i1-IQ4_NL.gguf
+  - key: Manojb/Qwen3.5-2B.i1-IQ4_XS.gguf
+    sources:
+      - type: huggingface
+        user: Manojb
+        repo: Qwen3.5-2B.i1-IQ4_XS.gguf
+  - key: Manojb/Qwen3.5-2B.i1-Q4_0.gguf
+    sources:
+      - type: huggingface
+        user: Manojb
+        repo: Qwen3.5-2B.i1-Q4_0.gguf
+  - key: Manojb/Qwen3.5-2B.i1-Q4_1.gguf
+    sources:
+      - type: huggingface
+        user: Manojb
+        repo: Qwen3.5-2B.i1-Q4_1.gguf
+  - key: Manojb/Qwen3.5-2B.i1-Q6_K.gguf
+    sources:
+      - type: huggingface
+        user: Manojb
+        repo: Qwen3.5-2B.i1-Q6_K.gguf
+  - key: Manojb/Qwen_Qwen3.5-2B-bf16.gguf
+    sources:
+      - type: huggingface
+        user: Manojb
+        repo: Qwen_Qwen3.5-2B-bf16.gguf
+  - key: Manojb/Qwen_Qwen3.5-2B-Q4_1.gguf
+    sources:
+      - type: huggingface
+        user: Manojb
+        repo: Qwen_Qwen3.5-2B-Q4_1.gguf
+  - key: Manojb/Qwen_Qwen3.5-2B-Q6_K.gguf
+    sources:
+      - type: huggingface
+        user: Manojb
+        repo: Qwen_Qwen3.5-2B-Q6_K.gguf
+  - key: Manojb/Qwen_Qwen3.5-2B-Q8_0.gguf
+    sources:
+      - type: huggingface
+        user: Manojb
+        repo: Qwen_Qwen3.5-2B-Q8_0.gguf
+  - key: meetara-lab/meetara-qwen3.5-2b-gguf
+    sources:
+      - type: huggingface
+        user: meetara-lab
+        repo: meetara-qwen3.5-2b-gguf
+  - key: migarcoes/Qwen3.5-2B
+    sources:
+      - type: huggingface
+        user: migarcoes
+        repo: Qwen3.5-2B
+  - key: mohd98zaid/Qwen3.5-2B
+    sources:
+      - type: huggingface
+        user: mohd98zaid
+        repo: Qwen3.5-2B
+  - key: mradermacher/Heretical-Qwen3.5-2B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Heretical-Qwen3.5-2B-GGUF
+  - key: mradermacher/Mixture-Summarizer-Qwen3.5-2B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Mixture-Summarizer-Qwen3.5-2B-GGUF
+  - key: mradermacher/Mixture-Summarizer-Qwen3.5-2B-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Mixture-Summarizer-Qwen3.5-2B-i1-GGUF
+  - key: mradermacher/qmd-query-expansion-qwen3.5-2B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: qmd-query-expansion-qwen3.5-2B-GGUF
+  - key: nile-academy/qwen3.5-2b-gguf
+    sources:
+      - type: huggingface
+        user: nile-academy
+        repo: qwen3.5-2b-gguf
+  - key: openresearchtools/Qwen3.5-2B-GGUF
+    sources:
+      - type: huggingface
+        user: openresearchtools
+        repo: Qwen3.5-2B-GGUF
+  - key: ryhme246/Qwen3.5-2B-Q8_0-GGUF
+    sources:
+      - type: huggingface
+        user: ryhme246
+        repo: Qwen3.5-2B-Q8_0-GGUF
+  - key: SandLogicTechnologies/Qwen3.5-2B-GGUF
+    sources:
+      - type: huggingface
+        user: SandLogicTechnologies
+        repo: Qwen3.5-2B-GGUF
+  - key: staeiou/bartleby-dlo-qwen3.5-2b
+    sources:
+      - type: huggingface
+        user: staeiou
+        repo: bartleby-dlo-qwen3.5-2b
+  - key: staeiou/bartleby-qwen3.5-2B
+    sources:
+      - type: huggingface
+        user: staeiou
+        repo: bartleby-qwen3.5-2B
+  - key: StageMind/qwen3.5-2b
+    sources:
+      - type: huggingface
+        user: StageMind
+        repo: qwen3.5-2b
 config:
   operation:
     fields:

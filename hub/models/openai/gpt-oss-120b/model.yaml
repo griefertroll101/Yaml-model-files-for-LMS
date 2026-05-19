@@ -22,11 +22,6 @@ base:
       - type: huggingface
         user: mradermacher
         repo: gpt-oss-120b-heretic-v2-i1-GGUF
-  - key: HauhauCS/GPTOSS-120B-Uncensored-HauhauCS-Aggressive
-    sources:
-      - type: huggingface
-        user: HauhauCS
-        repo: GPTOSS-120B-Uncensored-HauhauCS-Aggressive
   - key: llmfan46/gpt-oss-120b-ultra-heretic-GGUF
     sources:
       - type: huggingface
@@ -182,11 +177,6 @@ base:
       - type: huggingface
         user: mradermacher
         repo: gpt-oss-120b-Distill-Llama3.1-8B-v2-i1-GGUF
-  - key: jaromer/GPTOSS-120B-Uncensored-HauhauCS-Aggressive
-    sources:
-      - type: huggingface
-        user: jaromer
-        repo: GPTOSS-120B-Uncensored-HauhauCS-Aggressive
   - key: gabriellarson/gpt-oss-120b-GGUF
     sources:
       - type: huggingface
@@ -302,11 +292,6 @@ base:
       - type: huggingface
         user: mradermacher
         repo: Gpt-oss-120B-Qwen3-Distill-GGUF
-  - key: mradermacher/GPTOSS-120B-Hanabi-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: GPTOSS-120B-Hanabi-GGUF
   - key: mradermacher/gpt-oss-120b-Distill-Llama3.1-8B-v2-GGUF
     sources:
       - type: huggingface
@@ -322,16 +307,6 @@ base:
       - type: huggingface
         user: Jackrong
         repo: gpt-oss-120b-Distill-Llama3.1-8B-v1-GGUF
-  - key: mradermacher/Policy-Qwen3-14B_GPT-OSS-120B-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Policy-Qwen3-14B_GPT-OSS-120B-GGUF
-  - key: NotHereNorThere/qwen3-4b-200html-distill-gpt-oss-120b
-    sources:
-      - type: huggingface
-        user: NotHereNorThere
-        repo: qwen3-4b-200html-distill-gpt-oss-120b
   - key: mradermacher/gpt-oss-120b-Derestricted-i1-GGUF
     sources:
       - type: huggingface
@@ -372,11 +347,6 @@ base:
       - type: huggingface
         user: mradermacher
         repo: gpt-oss-120b-i1-GGUF
-  - key: mradermacher/Policy-Qwen3-8B_GPT-OSS-120B-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Policy-Qwen3-8B_GPT-OSS-120B-GGUF
   - key: mradermacher/gpt-oss-120b-qwen3-8b-pointwise-no-think-distill-GGUF
     sources:
       - type: huggingface
@@ -392,11 +362,6 @@ base:
       - type: huggingface
         user: mradermacher
         repo: gpt-oss-120b-heretic-v2-bf16-i1-GGUF
-  - key: BlacknodeLTDAI/gptoss120B
-    sources:
-      - type: huggingface
-        user: BlacknodeLTDAI
-        repo: gptoss120B
   - key: michaelwaves/amoral-gpt-oss-120b-bfloat16-gguf
     sources:
       - type: huggingface
@@ -452,11 +417,6 @@ base:
       - type: huggingface
         user: xiaoniao000
         repo: huizimao_gpt-oss-120b-uncensored-bf16-GGUF
-  - key: VECTORVV1/GPTOSS-120B-Aggressive
-    sources:
-      - type: huggingface
-        user: VECTORVV1
-        repo: GPTOSS-120B-Aggressive
   - key: majentik/gpt-oss-120b-RotorQuant-GGUF-IQ4_XS
     sources:
       - type: huggingface
@@ -502,6 +462,196 @@ base:
       - type: huggingface
         user: jerryzhuang
         repo: gpt-oss-120b-GGUF
+  - key: lmstudio-community/gpt-oss-safeguard-120b-GGUF
+    sources:
+      - type: huggingface
+        user: lmstudio-community
+        repo: gpt-oss-safeguard-120b-GGUF
+  - key: mradermacher/gpt-oss-safeguard-120b-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gpt-oss-safeguard-120b-i1-GGUF
+  - key: unsloth/gpt-oss-safeguard-120b-GGUF
+    sources:
+      - type: huggingface
+        user: unsloth
+        repo: gpt-oss-safeguard-120b-GGUF
+  - key: elvezjp/GPT-OSS-Swallow-120B-RL-v0.1-gguf
+    sources:
+      - type: huggingface
+        user: elvezjp
+        repo: GPT-OSS-Swallow-120B-RL-v0.1-gguf
+  - key: mmnga-o/GPT-OSS-Swallow-120B-RL-v0.1-gguf
+    sources:
+      - type: huggingface
+        user: mmnga-o
+        repo: GPT-OSS-Swallow-120B-RL-v0.1-gguf
+  - key: mradermacher/GPT-OSS-Swallow-120B-RL-v0.1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: GPT-OSS-Swallow-120B-RL-v0.1-GGUF
+  - key: mradermacher/GPT-OSS-Swallow-120B-RL-v0.1-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: GPT-OSS-Swallow-120B-RL-v0.1-i1-GGUF
+  - key: nobikko/GPT-OSS-Swallow-120B-RL-v0.1-GGUF
+    sources:
+      - type: huggingface
+        user: nobikko
+        repo: GPT-OSS-Swallow-120B-RL-v0.1-GGUF
+  - key: mradermacher/big-gpt-oss-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: big-gpt-oss-GGUF
+  - key: mradermacher/big-gpt-oss-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: big-gpt-oss-i1-GGUF
+  - key: teleprint-me/gpt-oss
+    sources:
+      - type: huggingface
+        user: teleprint-me
+        repo: gpt-oss
+  - key: txn545/gpt-oss-gguf
+    sources:
+      - type: huggingface
+        user: txn545
+        repo: gpt-oss-gguf
+  - key: mradermacher/michaelwaves-Amoral-GPT-OSS-112E-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: michaelwaves-Amoral-GPT-OSS-112E-GGUF
+  - key: mradermacher/michaelwaves-Amoral-GPT-OSS-112E-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: michaelwaves-Amoral-GPT-OSS-112E-i1-GGUF
+  - key: cinnybun02/gpt-oss-12.0b-specialized-science-pruned-moe-only-17-experts-Q8_0-GGUF
+    sources:
+      - type: huggingface
+        user: cinnybun02
+        repo: gpt-oss-12.0b-specialized-science-pruned-moe-only-17-experts-Q8_0-GGUF
+  - key: ioiunius/GPT-OSS-20E-Abliterated-i1-GGUF
+    sources:
+      - type: huggingface
+        user: ioiunius
+        repo: GPT-OSS-20E-Abliterated-i1-GGUF
+  - key: mradermacher/GPT-OSS-20E-Abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: GPT-OSS-20E-Abliterated-GGUF
+  - key: mradermacher/GPT-OSS-20E-Abliterated-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: GPT-OSS-20E-Abliterated-i1-GGUF
+  - key: ioiunius/GPT-OSS-26E-Abliterated-i1-GGUF
+    sources:
+      - type: huggingface
+        user: ioiunius
+        repo: GPT-OSS-26E-Abliterated-i1-GGUF
+  - key: mradermacher/GPT-OSS-26E-Abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: GPT-OSS-26E-Abliterated-GGUF
+  - key: mradermacher/GPT-OSS-26E-Abliterated-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: GPT-OSS-26E-Abliterated-i1-GGUF
+  - key: Exorn/gpt-oss-504-GGUF
+    sources:
+      - type: huggingface
+        user: Exorn
+        repo: gpt-oss-504-GGUF
+  - key: DevQuasar/AmanPriyanshu.gpt-oss-6.0b-specialized-all-pruned-moe-only-7-experts-GGUF
+    sources:
+      - type: huggingface
+        user: DevQuasar
+        repo: AmanPriyanshu.gpt-oss-6.0b-specialized-all-pruned-moe-only-7-experts-GGUF
+  - key: leeminwaan/gpt-oss-6.0b-specialized-all-pruned-moe-only-7-experts-GGUF
+    sources:
+      - type: huggingface
+        user: leeminwaan
+        repo: gpt-oss-6.0b-specialized-all-pruned-moe-only-7-experts-GGUF
+  - key: mradermacher/gpt-oss-6.0b-specialized-all-pruned-moe-only-7-experts-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gpt-oss-6.0b-specialized-all-pruned-moe-only-7-experts-GGUF
+  - key: mradermacher/gpt-oss-6.0b-specialized-all-pruned-moe-only-7-experts-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gpt-oss-6.0b-specialized-all-pruned-moe-only-7-experts-i1-GGUF
+  - key: NikolayKozloff/gpt-oss-6.0b-specialized-all-pruned-moe-only-7-experts-Q8_0-GGUF
+    sources:
+      - type: huggingface
+        user: NikolayKozloff
+        repo: gpt-oss-6.0b-specialized-all-pruned-moe-only-7-experts-Q8_0-GGUF
+  - key: cof139/gpt-oss-6.0b-specialized-all-pruned-moe-only-7-experts-Q4_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: cof139
+        repo: gpt-oss-6.0b-specialized-all-pruned-moe-only-7-experts-Q4_K_M-GGUF
+  - key: siro-kr/gpt-oss-9.0b-specialized-all-pruned-moe-only-12-experts-Q4_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: siro-kr
+        repo: gpt-oss-9.0b-specialized-all-pruned-moe-only-12-experts-Q4_K_M-GGUF
+  - key: mradermacher/gpt-oss-climate-finetuned-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gpt-oss-climate-finetuned-GGUF
+  - key: mradermacher/gpt-oss-coderjs-v0.1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gpt-oss-coderjs-v0.1-GGUF
+  - key: mradermacher/gpt-oss-coderjs-v0.1-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gpt-oss-coderjs-v0.1-i1-GGUF
+  - key: RTannous/gpt-oss-finetuned-BF16-Q8_0-GGUF
+    sources:
+      - type: huggingface
+        user: RTannous
+        repo: gpt-oss-finetuned-BF16-Q8_0-GGUF
+  - key: m-polignano/ANITA-NEXT-20B-gpt-oss-ITA-GGUF
+    sources:
+      - type: huggingface
+        user: m-polignano
+        repo: ANITA-NEXT-20B-gpt-oss-ITA-GGUF
+  - key: mradermacher/ANITA-NEXT-20B-gpt-oss-ITA-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: ANITA-NEXT-20B-gpt-oss-ITA-GGUF
+  - key: mradermacher/ANITA-NEXT-20B-gpt-oss-ITA-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: ANITA-NEXT-20B-gpt-oss-ITA-i1-GGUF
+  - key: jianxiansheng/gpt-oss-nano
+    sources:
+      - type: huggingface
+        user: jianxiansheng
+        repo: gpt-oss-nano
+  - key: mradermacher/gpt-oss-nano-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gpt-oss-nano-GGUF
 config:
   operation:
     fields:

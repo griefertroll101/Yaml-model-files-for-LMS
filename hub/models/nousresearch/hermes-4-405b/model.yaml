@@ -27,6 +27,11 @@ base:
       - type: huggingface
         user: lmstudio-community
         repo: Hermes-4-405B-GGUF
+  - key: wekW/NousResearch_Hermes-4
+    sources:
+      - type: huggingface
+        user: wekW
+        repo: NousResearch_Hermes-4
 config:
   operation:
     fields:
