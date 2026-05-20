@@ -2,166 +2,176 @@
 # Learn more at https://modelyaml.org
 model: nvidia/nemotron-3-nano
 base:
-  - key: unsloth/Nemotron-3-Nano-30B-A3B-GGUF
+  - key: "unsloth/Nemotron-3-Nano-30B-A3B-GGUF"
     sources:
       - type: huggingface
-        user: unsloth
-        repo: Nemotron-3-Nano-30B-A3B-GGUF
-  - key: lmstudio-community/NVIDIA-Nemotron-3-Nano-30B-A3B-GGUF
+        user: "unsloth"
+        repo: "Nemotron-3-Nano-30B-A3B-GGUF"
+  - key: "lmstudio-community/NVIDIA-Nemotron-3-Nano-30B-A3B-GGUF"
     sources:
       - type: huggingface
-        user: lmstudio-community
-        repo: NVIDIA-Nemotron-3-Nano-30B-A3B-GGUF
-  - key: bartowski/nvidia_Nemotron-3-Nano-30B-A3B-GGUF
+        user: "lmstudio-community"
+        repo: "NVIDIA-Nemotron-3-Nano-30B-A3B-GGUF"
+  - key: "bartowski/nvidia_Nemotron-3-Nano-30B-A3B-GGUF"
     sources:
       - type: huggingface
-        user: bartowski
-        repo: nvidia_Nemotron-3-Nano-30B-A3B-GGUF
-  - key: Mungert/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16-GGUF
+        user: "bartowski"
+        repo: "nvidia_Nemotron-3-Nano-30B-A3B-GGUF"
+  - key: "Mungert/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16-GGUF"
     sources:
       - type: huggingface
-        user: Mungert
-        repo: NVIDIA-Nemotron-3-Nano-30B-A3B-BF16-GGUF
-  - key: mradermacher/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16-heretic-i1-GGUF
+        user: "Mungert"
+        repo: "NVIDIA-Nemotron-3-Nano-30B-A3B-BF16-GGUF"
+  - key: "mradermacher/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16-heretic-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: NVIDIA-Nemotron-3-Nano-30B-A3B-BF16-heretic-i1-GGUF
-  - key: mradermacher/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16-i1-GGUF
+        user: "mradermacher"
+        repo: "NVIDIA-Nemotron-3-Nano-30B-A3B-BF16-heretic-i1-GGUF"
+  - key: "mradermacher/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: NVIDIA-Nemotron-3-Nano-30B-A3B-BF16-i1-GGUF
-  - key: Ex0bit/Elbaz-NVIDIA-Nemotron-3-Nano-30B-A3B-PRISM
+        user: "mradermacher"
+        repo: "NVIDIA-Nemotron-3-Nano-30B-A3B-BF16-i1-GGUF"
+  - key: "Ex0bit/Elbaz-NVIDIA-Nemotron-3-Nano-30B-A3B-PRISM"
     sources:
       - type: huggingface
-        user: Ex0bit
-        repo: Elbaz-NVIDIA-Nemotron-3-Nano-30B-A3B-PRISM
-  - key: mradermacher/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16-heretic-GGUF
+        user: "Ex0bit"
+        repo: "Elbaz-NVIDIA-Nemotron-3-Nano-30B-A3B-PRISM"
+  - key: "mradermacher/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16-heretic-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: NVIDIA-Nemotron-3-Nano-30B-A3B-BF16-heretic-GGUF
-  - key: mradermacher/NVIDIA-Nemotron-3-Nano-30B-A3B-novelrp-BF16-i1-GGUF
+        user: "mradermacher"
+        repo: "NVIDIA-Nemotron-3-Nano-30B-A3B-BF16-heretic-GGUF"
+  - key: "mradermacher/NVIDIA-Nemotron-3-Nano-30B-A3B-novelrp-BF16-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: NVIDIA-Nemotron-3-Nano-30B-A3B-novelrp-BF16-i1-GGUF
-  - key: noctrex/Nemotron-3-Nano-30B-A3B-MXFP4_MOE-GGUF
+        user: "mradermacher"
+        repo: "NVIDIA-Nemotron-3-Nano-30B-A3B-novelrp-BF16-i1-GGUF"
+  - key: "noctrex/Nemotron-3-Nano-30B-A3B-MXFP4_MOE-GGUF"
     sources:
       - type: huggingface
-        user: noctrex
-        repo: Nemotron-3-Nano-30B-A3B-MXFP4_MOE-GGUF
-  - key: DevQuasar/nvidia.NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16-GGUF
+        user: "noctrex"
+        repo: "Nemotron-3-Nano-30B-A3B-MXFP4_MOE-GGUF"
+  - key: "DevQuasar/nvidia.NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16-GGUF"
     sources:
       - type: huggingface
-        user: DevQuasar
-        repo: nvidia.NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16-GGUF
-  - key: mradermacher/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16-GGUF
+        user: "DevQuasar"
+        repo: "nvidia.NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16-GGUF"
+  - key: "mradermacher/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: NVIDIA-Nemotron-3-Nano-30B-A3B-BF16-GGUF
-  - key: moxin-org/Nemotron-3-Nano-30B-A3B-GGUF
+        user: "mradermacher"
+        repo: "NVIDIA-Nemotron-3-Nano-30B-A3B-BF16-GGUF"
+  - key: "moxin-org/Nemotron-3-Nano-30B-A3B-GGUF"
     sources:
       - type: huggingface
-        user: moxin-org
-        repo: Nemotron-3-Nano-30B-A3B-GGUF
-  - key: QuietImpostor/Nemotron-3-Nano-REAP-21B-A3B-MXFP4-GGUF
+        user: "moxin-org"
+        repo: "Nemotron-3-Nano-30B-A3B-GGUF"
+  - key: "QuietImpostor/Nemotron-3-Nano-REAP-21B-A3B-MXFP4-GGUF"
     sources:
       - type: huggingface
-        user: QuietImpostor
-        repo: Nemotron-3-Nano-REAP-21B-A3B-MXFP4-GGUF
-  - key: modelfix/NVIDIA-Nemotron-3-Nano-30B-A3B-FP8-GGUF
+        user: "QuietImpostor"
+        repo: "Nemotron-3-Nano-REAP-21B-A3B-MXFP4-GGUF"
+  - key: "modelfix/NVIDIA-Nemotron-3-Nano-30B-A3B-FP8-GGUF"
     sources:
       - type: huggingface
-        user: modelfix
-        repo: NVIDIA-Nemotron-3-Nano-30B-A3B-FP8-GGUF
-  - key: icefog72/Elbaz-NVIDIA-Nemotron-3-Nano-30B-A3B-PRISM-Q5_K_M
+        user: "modelfix"
+        repo: "NVIDIA-Nemotron-3-Nano-30B-A3B-FP8-GGUF"
+  - key: "icefog72/Elbaz-NVIDIA-Nemotron-3-Nano-30B-A3B-PRISM-Q5_K_M"
     sources:
       - type: huggingface
-        user: icefog72
-        repo: Elbaz-NVIDIA-Nemotron-3-Nano-30B-A3B-PRISM-Q5_K_M
-  - key: Tinker-Stack/Nemotron-3-Nano-30B-A3B-IQ4_XS-GGUF
+        user: "icefog72"
+        repo: "Elbaz-NVIDIA-Nemotron-3-Nano-30B-A3B-PRISM-Q5_K_M"
+  - key: "Tinker-Stack/Nemotron-3-Nano-30B-A3B-IQ4_XS-GGUF"
     sources:
       - type: huggingface
-        user: Tinker-Stack
-        repo: Nemotron-3-Nano-30B-A3B-IQ4_XS-GGUF
-  - key: DevQuasar/nvidia.NVIDIA-Nemotron-3-Nano-30B-A3B-BF16-GGUF
+        user: "Tinker-Stack"
+        repo: "Nemotron-3-Nano-30B-A3B-IQ4_XS-GGUF"
+  - key: "DevQuasar/nvidia.NVIDIA-Nemotron-3-Nano-30B-A3B-BF16-GGUF"
     sources:
       - type: huggingface
-        user: DevQuasar
-        repo: nvidia.NVIDIA-Nemotron-3-Nano-30B-A3B-BF16-GGUF
-  - key: mradermacher/NVIDIA-Nemotron-3-Nano-30B-A3B-novelrp-BF16-GGUF
+        user: "DevQuasar"
+        repo: "nvidia.NVIDIA-Nemotron-3-Nano-30B-A3B-BF16-GGUF"
+  - key: "mradermacher/NVIDIA-Nemotron-3-Nano-30B-A3B-novelrp-BF16-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: NVIDIA-Nemotron-3-Nano-30B-A3B-novelrp-BF16-GGUF
-  - key: altomek/Nemotron-3-Nano-30B-A3B-XXL-GGUF
+        user: "mradermacher"
+        repo: "NVIDIA-Nemotron-3-Nano-30B-A3B-novelrp-BF16-GGUF"
+  - key: "altomek/Nemotron-3-Nano-30B-A3B-XXL-GGUF"
     sources:
       - type: huggingface
-        user: altomek
-        repo: Nemotron-3-Nano-30B-A3B-XXL-GGUF
-  - key: forkjoin-ai/nvidia-nemotron-3-nano-30b-a3b-bf16-gguf
+        user: "altomek"
+        repo: "Nemotron-3-Nano-30B-A3B-XXL-GGUF"
+  - key: "forkjoin-ai/nvidia-nemotron-3-nano-30b-a3b-bf16-gguf"
     sources:
       - type: huggingface
-        user: forkjoin-ai
-        repo: nvidia-nemotron-3-nano-30b-a3b-bf16-gguf
-  - key: lm-kit/nemotron-3-nano-30b-a3b-gguf
+        user: "forkjoin-ai"
+        repo: "nvidia-nemotron-3-nano-30b-a3b-bf16-gguf"
+  - key: "lm-kit/nemotron-3-nano-30b-a3b-gguf"
     sources:
       - type: huggingface
-        user: lm-kit
-        repo: nemotron-3-nano-30b-a3b-gguf
-  - key: mudler/Nemotron-3-Nano-30B-A3B-APEX-GGUF
+        user: "lm-kit"
+        repo: "nemotron-3-nano-30b-a3b-gguf"
+  - key: "mudler/Nemotron-3-Nano-30B-A3B-APEX-GGUF"
     sources:
       - type: huggingface
-        user: mudler
-        repo: Nemotron-3-Nano-30B-A3B-APEX-GGUF
-  - key: majentik/Nemotron-3-Nano-30B-A3B-RotorQuant-GGUF-IQ4_XS
+        user: "mudler"
+        repo: "Nemotron-3-Nano-30B-A3B-APEX-GGUF"
+  - key: "majentik/Nemotron-3-Nano-30B-A3B-RotorQuant-GGUF-IQ4_XS"
     sources:
       - type: huggingface
-        user: majentik
-        repo: Nemotron-3-Nano-30B-A3B-RotorQuant-GGUF-IQ4_XS
-  - key: majentik/Nemotron-3-Nano-30B-A3B-TurboQuant-GGUF-Q4_K_M
+        user: "majentik"
+        repo: "Nemotron-3-Nano-30B-A3B-RotorQuant-GGUF-IQ4_XS"
+  - key: "majentik/Nemotron-3-Nano-30B-A3B-TurboQuant-GGUF-Q4_K_M"
     sources:
       - type: huggingface
-        user: majentik
-        repo: Nemotron-3-Nano-30B-A3B-TurboQuant-GGUF-Q4_K_M
-  - key: majentik/Nemotron-3-Nano-30B-A3B-RotorQuant-GGUF-Q4_K_M
+        user: "majentik"
+        repo: "Nemotron-3-Nano-30B-A3B-TurboQuant-GGUF-Q4_K_M"
+  - key: "majentik/Nemotron-3-Nano-30B-A3B-RotorQuant-GGUF-Q4_K_M"
     sources:
       - type: huggingface
-        user: majentik
-        repo: Nemotron-3-Nano-30B-A3B-RotorQuant-GGUF-Q4_K_M
-  - key: majentik/Nemotron-3-Nano-30B-A3B-RotorQuant-GGUF-Q5_K_M
+        user: "majentik"
+        repo: "Nemotron-3-Nano-30B-A3B-RotorQuant-GGUF-Q4_K_M"
+  - key: "majentik/Nemotron-3-Nano-30B-A3B-RotorQuant-GGUF-Q5_K_M"
     sources:
       - type: huggingface
-        user: majentik
-        repo: Nemotron-3-Nano-30B-A3B-RotorQuant-GGUF-Q5_K_M
-  - key: majentik/Nemotron-3-Nano-30B-A3B-RotorQuant-GGUF-Q2_K
+        user: "majentik"
+        repo: "Nemotron-3-Nano-30B-A3B-RotorQuant-GGUF-Q5_K_M"
+  - key: "majentik/Nemotron-3-Nano-30B-A3B-RotorQuant-GGUF-Q2_K"
     sources:
       - type: huggingface
-        user: majentik
-        repo: Nemotron-3-Nano-30B-A3B-RotorQuant-GGUF-Q2_K
-  - key: majentik/Nemotron-3-Nano-30B-A3B-RotorQuant-GGUF-Q3_K_M
+        user: "majentik"
+        repo: "Nemotron-3-Nano-30B-A3B-RotorQuant-GGUF-Q2_K"
+  - key: "majentik/Nemotron-3-Nano-30B-A3B-RotorQuant-GGUF-Q3_K_M"
     sources:
       - type: huggingface
-        user: majentik
-        repo: Nemotron-3-Nano-30B-A3B-RotorQuant-GGUF-Q3_K_M
-  - key: majentik/Nemotron-3-Nano-30B-A3B-TurboQuant-GGUF-Q8_0
+        user: "majentik"
+        repo: "Nemotron-3-Nano-30B-A3B-RotorQuant-GGUF-Q3_K_M"
+  - key: "majentik/Nemotron-3-Nano-30B-A3B-TurboQuant-GGUF-Q8_0"
     sources:
       - type: huggingface
-        user: majentik
-        repo: Nemotron-3-Nano-30B-A3B-TurboQuant-GGUF-Q8_0
-  - key: majentik/Nemotron-3-Nano-30B-A3B-RotorQuant-GGUF-Q8_0
+        user: "majentik"
+        repo: "Nemotron-3-Nano-30B-A3B-TurboQuant-GGUF-Q8_0"
+  - key: "majentik/Nemotron-3-Nano-30B-A3B-RotorQuant-GGUF-Q8_0"
     sources:
       - type: huggingface
-        user: majentik
-        repo: Nemotron-3-Nano-30B-A3B-RotorQuant-GGUF-Q8_0
-  - key: batiai/Nemotron-3-Nano-30B-A3B-GGUF
+        user: "majentik"
+        repo: "Nemotron-3-Nano-30B-A3B-RotorQuant-GGUF-Q8_0"
+  - key: "batiai/Nemotron-3-Nano-30B-A3B-GGUF"
     sources:
       - type: huggingface
-        user: batiai
-        repo: Nemotron-3-Nano-30B-A3B-GGUF
+        user: "batiai"
+        repo: "Nemotron-3-Nano-30B-A3B-GGUF"
+  - key: "ExaltedSlayer/nvidia-nemotron-3-nano-30b-a3b-mlx-mxfp4"
+    sources:
+      - type: huggingface
+        user: "ExaltedSlayer"
+        repo: "nvidia-nemotron-3-nano-30b-a3b-mlx-mxfp4"
+  - key: "mlx-community/NVIDIA-Nemotron-3-Nano-30B-A3B-MLX-MXFP4"
+    sources:
+      - type: huggingface
+        user: "mlx-community"
+        repo: "NVIDIA-Nemotron-3-Nano-30B-A3B-MLX-MXFP4"
 config:
   operation:
     fields:

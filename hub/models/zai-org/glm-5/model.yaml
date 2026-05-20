@@ -2,51 +2,66 @@
 # Learn more at https://modelyaml.org
 model: zai-org/glm-5
 base:
-  - key: Doctor-Shotgun/GLM-5-GGUF
+  - key: "Doctor-Shotgun/GLM-5-GGUF"
     sources:
       - type: huggingface
-        user: Doctor-Shotgun
-        repo: GLM-5-GGUF
-  - key: ubergarm/GLM-5-GGUF
+        user: "Doctor-Shotgun"
+        repo: "GLM-5-GGUF"
+  - key: "ubergarm/GLM-5-GGUF"
     sources:
       - type: huggingface
-        user: ubergarm
-        repo: GLM-5-GGUF
-  - key: unsloth/GLM-5-GGUF
+        user: "ubergarm"
+        repo: "GLM-5-GGUF"
+  - key: "unsloth/GLM-5-GGUF"
     sources:
       - type: huggingface
-        user: unsloth
-        repo: GLM-5-GGUF
-  - key: gghfez/GLM-5-control-vectors
+        user: "unsloth"
+        repo: "GLM-5-GGUF"
+  - key: "gghfez/GLM-5-control-vectors"
     sources:
       - type: huggingface
-        user: gghfez
-        repo: GLM-5-control-vectors
-  - key: sokann/GLM-5-GGUF-1.594bpw
+        user: "gghfez"
+        repo: "GLM-5-control-vectors"
+  - key: "sokann/GLM-5-GGUF-1.594bpw"
     sources:
       - type: huggingface
-        user: sokann
-        repo: GLM-5-GGUF-1.594bpw
-  - key: Maklei/GLM-5-pruned-Q4_K_M-GGUF
+        user: "sokann"
+        repo: "GLM-5-GGUF-1.594bpw"
+  - key: "Maklei/GLM-5-pruned-Q4_K_M-GGUF"
     sources:
       - type: huggingface
-        user: Maklei
-        repo: GLM-5-pruned-Q4_K_M-GGUF
-  - key: 0xSero/GLM-5-REAP-50pct-BF16-GGUF
+        user: "Maklei"
+        repo: "GLM-5-pruned-Q4_K_M-GGUF"
+  - key: "0xSero/GLM-5-REAP-50pct-BF16-GGUF"
     sources:
       - type: huggingface
-        user: 0xSero
-        repo: GLM-5-REAP-50pct-BF16-GGUF
-  - key: 0xSero/GLM-5-REAP-50pct-UD-IQ2_M-GGUF
+        user: "0xSero"
+        repo: "GLM-5-REAP-50pct-BF16-GGUF"
+  - key: "0xSero/GLM-5-REAP-50pct-UD-IQ2_M-GGUF"
     sources:
       - type: huggingface
-        user: 0xSero
-        repo: GLM-5-REAP-50pct-UD-IQ2_M-GGUF
-  - key: DevQuasar/zai-org.GLM-5-GGUF
+        user: "0xSero"
+        repo: "GLM-5-REAP-50pct-UD-IQ2_M-GGUF"
+  - key: "DevQuasar/zai-org.GLM-5-GGUF"
     sources:
       - type: huggingface
-        user: DevQuasar
-        repo: zai-org.GLM-5-GGUF
+        user: "DevQuasar"
+        repo: "zai-org.GLM-5-GGUF"
+  - key: "amd/GLM-5-MXFP4"
+    sources:
+      - type: huggingface
+        user: "amd"
+        repo: "GLM-5-MXFP4"
+  - key: "mlx-community/GLM-5-MXFP4-Q8"
+    sources:
+      - type: huggingface
+        user: "mlx-community"
+        repo: "GLM-5-MXFP4-Q8"
+  - key: "wafer-ai/glm-5-mxfp4-mtp-finetuned"
+    sources:
+      - type: huggingface
+        user: "wafer-ai"
+        repo: "glm-5-mxfp4-mtp-finetuned"
 metadataOverrides:
   domain: llm
   architectures:

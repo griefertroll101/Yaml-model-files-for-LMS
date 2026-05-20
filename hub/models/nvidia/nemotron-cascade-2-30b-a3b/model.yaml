@@ -2,216 +2,236 @@
 # Learn more at https://modelyaml.org
 model: nvidia/nemotron-3-nano-omni
 base:
-  - key: lmstudio-community/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF
+  - key: "lmstudio-community/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF"
     sources:
       - type: huggingface
-        user: lmstudio-community
-        repo: Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF
-  - key: Abiray/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF
+        user: "lmstudio-community"
+        repo: "Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF"
+  - key: "Abiray/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF"
     sources:
       - type: huggingface
-        user: Abiray
-        repo: Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF
-  - key: DevQuasar/nvidia.Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16-GGUF
+        user: "Abiray"
+        repo: "Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF"
+  - key: "DevQuasar/nvidia.Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16-GGUF"
     sources:
       - type: huggingface
-        user: DevQuasar
-        repo: nvidia.Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16-GGUF
-  - key: majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-GGUF-IQ4_XS
+        user: "DevQuasar"
+        repo: "nvidia.Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16-GGUF"
+  - key: "majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-GGUF-IQ4_XS"
     sources:
       - type: huggingface
-        user: majentik
-        repo: Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-GGUF-IQ4_XS
-  - key: majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-GGUF-MXFP4_MOE
+        user: "majentik"
+        repo: "Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-GGUF-IQ4_XS"
+  - key: "majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-GGUF-MXFP4_MOE"
     sources:
       - type: huggingface
-        user: majentik
-        repo: Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-GGUF-MXFP4_MOE
-  - key: majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-GGUF-Q2_K
+        user: "majentik"
+        repo: "Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-GGUF-MXFP4_MOE"
+  - key: "majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-GGUF-Q2_K"
     sources:
       - type: huggingface
-        user: majentik
-        repo: Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-GGUF-Q2_K
-  - key: majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-GGUF-Q8_0
+        user: "majentik"
+        repo: "Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-GGUF-Q2_K"
+  - key: "majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-GGUF-Q8_0"
     sources:
       - type: huggingface
-        user: majentik
-        repo: Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-GGUF-Q8_0
-  - key: MuVeraAI/NVIDIA-Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF
+        user: "majentik"
+        repo: "Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-GGUF-Q8_0"
+  - key: "MuVeraAI/NVIDIA-Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF"
     sources:
       - type: huggingface
-        user: MuVeraAI
-        repo: NVIDIA-Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF
-  - key: noctrex/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-MXFP4_MOE-GGUF
+        user: "MuVeraAI"
+        repo: "NVIDIA-Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF"
+  - key: "noctrex/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-MXFP4_MOE-GGUF"
     sources:
       - type: huggingface
-        user: noctrex
-        repo: Nemotron-3-Nano-Omni-30B-A3B-Reasoning-MXFP4_MOE-GGUF
-  - key: RhinoWithAcape/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF
+        user: "noctrex"
+        repo: "Nemotron-3-Nano-Omni-30B-A3B-Reasoning-MXFP4_MOE-GGUF"
+  - key: "RhinoWithAcape/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF"
     sources:
       - type: huggingface
-        user: RhinoWithAcape
-        repo: Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF
-  - key: unsloth/NVIDIA-Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF
+        user: "RhinoWithAcape"
+        repo: "Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF"
+  - key: "unsloth/NVIDIA-Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF"
     sources:
       - type: huggingface
-        user: unsloth
-        repo: NVIDIA-Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF
-  - key: mudler/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-APEX-GGUF
+        user: "unsloth"
+        repo: "NVIDIA-Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF"
+  - key: "mudler/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-APEX-GGUF"
     sources:
       - type: huggingface
-        user: mudler
-        repo: Nemotron-3-Nano-Omni-30B-A3B-Reasoning-APEX-GGUF
-  - key: danbev/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16-mtmd-GGUF
+        user: "mudler"
+        repo: "Nemotron-3-Nano-Omni-30B-A3B-Reasoning-APEX-GGUF"
+  - key: "danbev/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16-mtmd-GGUF"
     sources:
       - type: huggingface
-        user: danbev
-        repo: Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16-mtmd-GGUF
-  - key: majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-mmproj-F16
+        user: "danbev"
+        repo: "Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16-mtmd-GGUF"
+  - key: "majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-mmproj-F16"
     sources:
       - type: huggingface
-        user: majentik
-        repo: Nemotron-3-Nano-Omni-30B-A3B-Reasoning-mmproj-F16
-  - key: eepos/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-NVFP4-GGUF
+        user: "majentik"
+        repo: "Nemotron-3-Nano-Omni-30B-A3B-Reasoning-mmproj-F16"
+  - key: "eepos/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-NVFP4-GGUF"
     sources:
       - type: huggingface
-        user: eepos
-        repo: Nemotron-3-Nano-Omni-30B-A3B-Reasoning-NVFP4-GGUF
-  - key: majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-GGUF-IQ4_XS-RQ-KV
+        user: "eepos"
+        repo: "Nemotron-3-Nano-Omni-30B-A3B-Reasoning-NVFP4-GGUF"
+  - key: "majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-GGUF-IQ4_XS-RQ-KV"
     sources:
       - type: huggingface
-        user: majentik
-        repo: Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-GGUF-IQ4_XS-RQ-KV
-  - key: majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-GGUF-MXFP4_MOE-RQ-KV
+        user: "majentik"
+        repo: "Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-GGUF-IQ4_XS-RQ-KV"
+  - key: "majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-GGUF-MXFP4_MOE-RQ-KV"
     sources:
       - type: huggingface
-        user: majentik
-        repo: Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-GGUF-MXFP4_MOE-RQ-KV
-  - key: majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-GGUF-Q2_K-RQ-KV
+        user: "majentik"
+        repo: "Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-GGUF-MXFP4_MOE-RQ-KV"
+  - key: "majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-GGUF-Q2_K-RQ-KV"
     sources:
       - type: huggingface
-        user: majentik
-        repo: Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-GGUF-Q2_K-RQ-KV
-  - key: majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-GGUF-Q3_K_M
+        user: "majentik"
+        repo: "Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-GGUF-Q2_K-RQ-KV"
+  - key: "majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-GGUF-Q3_K_M"
     sources:
       - type: huggingface
-        user: majentik
-        repo: Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-GGUF-Q3_K_M
-  - key: majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-GGUF-Q3_K_M-RQ-KV
+        user: "majentik"
+        repo: "Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-GGUF-Q3_K_M"
+  - key: "majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-GGUF-Q3_K_M-RQ-KV"
     sources:
       - type: huggingface
-        user: majentik
-        repo: Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-GGUF-Q3_K_M-RQ-KV
-  - key: majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-GGUF-Q4_K_M
+        user: "majentik"
+        repo: "Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-GGUF-Q3_K_M-RQ-KV"
+  - key: "majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-GGUF-Q4_K_M"
     sources:
       - type: huggingface
-        user: majentik
-        repo: Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-GGUF-Q4_K_M
-  - key: majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-GGUF-Q4_K_M-RQ-KV
+        user: "majentik"
+        repo: "Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-GGUF-Q4_K_M"
+  - key: "majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-GGUF-Q4_K_M-RQ-KV"
     sources:
       - type: huggingface
-        user: majentik
-        repo: Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-GGUF-Q4_K_M-RQ-KV
-  - key: majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-GGUF-Q5_K_M
+        user: "majentik"
+        repo: "Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-GGUF-Q4_K_M-RQ-KV"
+  - key: "majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-GGUF-Q5_K_M"
     sources:
       - type: huggingface
-        user: majentik
-        repo: Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-GGUF-Q5_K_M
-  - key: majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-GGUF-Q5_K_M-RQ-KV
+        user: "majentik"
+        repo: "Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-GGUF-Q5_K_M"
+  - key: "majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-GGUF-Q5_K_M-RQ-KV"
     sources:
       - type: huggingface
-        user: majentik
-        repo: Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-GGUF-Q5_K_M-RQ-KV
-  - key: majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-GGUF-Q8_0-RQ-KV
+        user: "majentik"
+        repo: "Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-GGUF-Q5_K_M-RQ-KV"
+  - key: "majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-GGUF-Q8_0-RQ-KV"
     sources:
       - type: huggingface
-        user: majentik
-        repo: Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-GGUF-Q8_0-RQ-KV
-  - key: majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-IQ4_XS
+        user: "majentik"
+        repo: "Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-GGUF-Q8_0-RQ-KV"
+  - key: "majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-IQ4_XS"
     sources:
       - type: huggingface
-        user: majentik
-        repo: Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-IQ4_XS
-  - key: majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-MXFP4_MOE
+        user: "majentik"
+        repo: "Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-IQ4_XS"
+  - key: "majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-MXFP4_MOE"
     sources:
       - type: huggingface
-        user: majentik
-        repo: Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-MXFP4_MOE
-  - key: majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-Q2_K
+        user: "majentik"
+        repo: "Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-MXFP4_MOE"
+  - key: "majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-Q2_K"
     sources:
       - type: huggingface
-        user: majentik
-        repo: Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-Q2_K
-  - key: majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-Q8_0
+        user: "majentik"
+        repo: "Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-Q2_K"
+  - key: "majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-Q8_0"
     sources:
       - type: huggingface
-        user: majentik
-        repo: Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-Q8_0
-  - key: majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-IQ4_XS-TQ-KV
+        user: "majentik"
+        repo: "Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-Q8_0"
+  - key: "majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-IQ4_XS-TQ-KV"
     sources:
       - type: huggingface
-        user: majentik
-        repo: Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-IQ4_XS-TQ-KV
-  - key: majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-MXFP4_MOE-TQ-KV
+        user: "majentik"
+        repo: "Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-IQ4_XS-TQ-KV"
+  - key: "majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-MXFP4_MOE-TQ-KV"
     sources:
       - type: huggingface
-        user: majentik
-        repo: Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-MXFP4_MOE-TQ-KV
-  - key: majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-Q2_K-TQ-KV
+        user: "majentik"
+        repo: "Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-MXFP4_MOE-TQ-KV"
+  - key: "majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-Q2_K-TQ-KV"
     sources:
       - type: huggingface
-        user: majentik
-        repo: Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-Q2_K-TQ-KV
-  - key: majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-Q3_K_M
+        user: "majentik"
+        repo: "Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-Q2_K-TQ-KV"
+  - key: "majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-Q3_K_M"
     sources:
       - type: huggingface
-        user: majentik
-        repo: Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-Q3_K_M
-  - key: majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-Q3_K_M-TQ-KV
+        user: "majentik"
+        repo: "Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-Q3_K_M"
+  - key: "majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-Q3_K_M-TQ-KV"
     sources:
       - type: huggingface
-        user: majentik
-        repo: Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-Q3_K_M-TQ-KV
-  - key: majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-Q4_K_M
+        user: "majentik"
+        repo: "Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-Q3_K_M-TQ-KV"
+  - key: "majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-Q4_K_M"
     sources:
       - type: huggingface
-        user: majentik
-        repo: Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-Q4_K_M
-  - key: majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-Q4_K_M-TQ-KV
+        user: "majentik"
+        repo: "Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-Q4_K_M"
+  - key: "majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-Q4_K_M-TQ-KV"
     sources:
       - type: huggingface
-        user: majentik
-        repo: Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-Q4_K_M-TQ-KV
-  - key: majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-Q5_K_M
+        user: "majentik"
+        repo: "Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-Q4_K_M-TQ-KV"
+  - key: "majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-Q5_K_M"
     sources:
       - type: huggingface
-        user: majentik
-        repo: Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-Q5_K_M
-  - key: majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-Q5_K_M-TQ-KV
+        user: "majentik"
+        repo: "Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-Q5_K_M"
+  - key: "majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-Q5_K_M-TQ-KV"
     sources:
       - type: huggingface
-        user: majentik
-        repo: Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-Q5_K_M-TQ-KV
-  - key: majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-Q8_0-TQ-KV
+        user: "majentik"
+        repo: "Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-Q5_K_M-TQ-KV"
+  - key: "majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-Q8_0-TQ-KV"
     sources:
       - type: huggingface
-        user: majentik
-        repo: Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-Q8_0-TQ-KV
-  - key: batiai/Nemotron-3-Nano-Omni-30B-Text-Only-GGUF
+        user: "majentik"
+        repo: "Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-Q8_0-TQ-KV"
+  - key: "batiai/Nemotron-3-Nano-Omni-30B-Text-Only-GGUF"
     sources:
       - type: huggingface
-        user: batiai
-        repo: Nemotron-3-Nano-Omni-30B-Text-Only-GGUF
-  - key: ggml-org/NVIDIA-Nemotron-3-Nano-Omni
+        user: "batiai"
+        repo: "Nemotron-3-Nano-Omni-30B-Text-Only-GGUF"
+  - key: "ggml-org/NVIDIA-Nemotron-3-Nano-Omni"
     sources:
       - type: huggingface
-        user: ggml-org
-        repo: NVIDIA-Nemotron-3-Nano-Omni
-  - key: hotdogs/Nemotron-3-Nano-Omni-AEON-Ultimate-Uncensored-GGUF
+        user: "ggml-org"
+        repo: "NVIDIA-Nemotron-3-Nano-Omni"
+  - key: "hotdogs/Nemotron-3-Nano-Omni-AEON-Ultimate-Uncensored-GGUF"
     sources:
       - type: huggingface
-        user: hotdogs
-        repo: Nemotron-3-Nano-Omni-AEON-Ultimate-Uncensored-GGUF
+        user: "hotdogs"
+        repo: "Nemotron-3-Nano-Omni-AEON-Ultimate-Uncensored-GGUF"
+  - key: "OsaurusAI/Nemotron-3-Nano-Omni-30B-A3B-MXFP4"
+    sources:
+      - type: huggingface
+        user: "OsaurusAI"
+        repo: "Nemotron-3-Nano-Omni-30B-A3B-MXFP4"
+  - key: "dealignai/Nemotron-3-Nano-Omni-30B-A3B-MXFP4-CRACK"
+    sources:
+      - type: huggingface
+        user: "dealignai"
+        repo: "Nemotron-3-Nano-Omni-30B-A3B-MXFP4-CRACK"
+  - key: "majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-MLX-MXFP4"
+    sources:
+      - type: huggingface
+        user: "majentik"
+        repo: "Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-MLX-MXFP4"
+  - key: "mlx-community/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-mxfp4"
+    sources:
+      - type: huggingface
+        user: "mlx-community"
+        repo: "Nemotron-3-Nano-Omni-30B-A3B-Reasoning-mxfp4"
 config:
   operation:
     fields:

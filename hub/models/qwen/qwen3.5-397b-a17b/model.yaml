@@ -2,871 +2,881 @@
 # Learn more at https://modelyaml.org
 model: qwen/qwen3.5-397b-a17b
 base:
-  - key: unsloth/Qwen3.5-397B-A17B-GGUF
+  - key: "unsloth/Qwen3.5-397B-A17B-GGUF"
     sources:
       - type: huggingface
-        user: unsloth
-        repo: Qwen3.5-397B-A17B-GGUF
-  - key: bartowski/Qwen_Qwen3.5-397B-A17B-GGUF
+        user: "unsloth"
+        repo: "Qwen3.5-397B-A17B-GGUF"
+  - key: "bartowski/Qwen_Qwen3.5-397B-A17B-GGUF"
     sources:
       - type: huggingface
-        user: bartowski
-        repo: Qwen_Qwen3.5-397B-A17B-GGUF
-  - key: ubergarm/Qwen3.5-397B-A17B-GGUF
+        user: "bartowski"
+        repo: "Qwen_Qwen3.5-397B-A17B-GGUF"
+  - key: "ubergarm/Qwen3.5-397B-A17B-GGUF"
     sources:
       - type: huggingface
-        user: ubergarm
-        repo: Qwen3.5-397B-A17B-GGUF
-  - key: lmstudio-community/Qwen3.5-397B-A17B-GGUF
+        user: "ubergarm"
+        repo: "Qwen3.5-397B-A17B-GGUF"
+  - key: "lmstudio-community/Qwen3.5-397B-A17B-GGUF"
     sources:
       - type: huggingface
-        user: lmstudio-community
-        repo: Qwen3.5-397B-A17B-GGUF
-  - key: AesSedai/Qwen3.5-397B-A17B-GGUF
+        user: "lmstudio-community"
+        repo: "Qwen3.5-397B-A17B-GGUF"
+  - key: "AesSedai/Qwen3.5-397B-A17B-GGUF"
     sources:
       - type: huggingface
-        user: AesSedai
-        repo: Qwen3.5-397B-A17B-GGUF
-  - key: DevQuasar/Qwen.Qwen3.5-397B-A17B-GGUF
+        user: "AesSedai"
+        repo: "Qwen3.5-397B-A17B-GGUF"
+  - key: "DevQuasar/Qwen.Qwen3.5-397B-A17B-GGUF"
     sources:
       - type: huggingface
-        user: DevQuasar
-        repo: Qwen.Qwen3.5-397B-A17B-GGUF
-  - key: infinityai/Qwen3.5-397B-REAP-50-IQ3_M
+        user: "DevQuasar"
+        repo: "Qwen.Qwen3.5-397B-A17B-GGUF"
+  - key: "infinityai/Qwen3.5-397B-REAP-50-IQ3_M"
     sources:
       - type: huggingface
-        user: infinityai
-        repo: Qwen3.5-397B-REAP-50-IQ3_M
-  - key: huihui-ai/Huihui-Qwen3.5-397B-A17B-abliterated-GGUF
+        user: "infinityai"
+        repo: "Qwen3.5-397B-REAP-50-IQ3_M"
+  - key: "huihui-ai/Huihui-Qwen3.5-397B-A17B-abliterated-GGUF"
     sources:
       - type: huggingface
-        user: huihui-ai
-        repo: Huihui-Qwen3.5-397B-A17B-abliterated-GGUF
-  - key: noctrex/Qwen3.5-397B-A17B-MXFP4_MOE-GGUF
+        user: "huihui-ai"
+        repo: "Huihui-Qwen3.5-397B-A17B-abliterated-GGUF"
+  - key: "noctrex/Qwen3.5-397B-A17B-MXFP4_MOE-GGUF"
     sources:
       - type: huggingface
-        user: noctrex
-        repo: Qwen3.5-397B-A17B-MXFP4_MOE-GGUF
-  - key: Sabomako/Qwen3.5-397B-A17B-heretic-GGUF
+        user: "noctrex"
+        repo: "Qwen3.5-397B-A17B-MXFP4_MOE-GGUF"
+  - key: "Sabomako/Qwen3.5-397B-A17B-heretic-GGUF"
     sources:
       - type: huggingface
-        user: Sabomako
-        repo: Qwen3.5-397B-A17B-heretic-GGUF
-  - key: infinityai/Qwen3.5-397B-REAP-55-Q3_K_M
+        user: "Sabomako"
+        repo: "Qwen3.5-397B-A17B-heretic-GGUF"
+  - key: "infinityai/Qwen3.5-397B-REAP-55-Q3_K_M"
     sources:
       - type: huggingface
-        user: infinityai
-        repo: Qwen3.5-397B-REAP-55-Q3_K_M
-  - key: mradermacher/Qwen3.5-397B-A17B-FP8-GGUF
+        user: "infinityai"
+        repo: "Qwen3.5-397B-REAP-55-Q3_K_M"
+  - key: "mradermacher/Qwen3.5-397B-A17B-FP8-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-397B-A17B-FP8-GGUF
-  - key: sokann/Qwen3.5-397B-A17B-GGUF-2.824bpw
+        user: "mradermacher"
+        repo: "Qwen3.5-397B-A17B-FP8-GGUF"
+  - key: "sokann/Qwen3.5-397B-A17B-GGUF-2.824bpw"
     sources:
       - type: huggingface
-        user: sokann
-        repo: Qwen3.5-397B-A17B-GGUF-2.824bpw
-  - key: Rick02280/Huihui-Qwen3.5-397B-A17B-abliterated-GGUF
+        user: "sokann"
+        repo: "Qwen3.5-397B-A17B-GGUF-2.824bpw"
+  - key: "Rick02280/Huihui-Qwen3.5-397B-A17B-abliterated-GGUF"
     sources:
       - type: huggingface
-        user: Rick02280
-        repo: Huihui-Qwen3.5-397B-A17B-abliterated-GGUF
-  - key: mradermacher/Qwen3.5-397B-A17B-GGUF
+        user: "Rick02280"
+        repo: "Huihui-Qwen3.5-397B-A17B-abliterated-GGUF"
+  - key: "mradermacher/Qwen3.5-397B-A17B-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-397B-A17B-GGUF
-  - key: Sabomako/Qwen3.5-397B-A17B-heretic-bf16-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-397B-A17B-GGUF"
+  - key: "Sabomako/Qwen3.5-397B-A17B-heretic-bf16-GGUF"
     sources:
       - type: huggingface
-        user: Sabomako
-        repo: Qwen3.5-397B-A17B-heretic-bf16-GGUF
-  - key: nohurry/Qwen3.5-397B-A17B-TQ1_0-GGUF
+        user: "Sabomako"
+        repo: "Qwen3.5-397B-A17B-heretic-bf16-GGUF"
+  - key: "nohurry/Qwen3.5-397B-A17B-TQ1_0-GGUF"
     sources:
       - type: huggingface
-        user: nohurry
-        repo: Qwen3.5-397B-A17B-TQ1_0-GGUF
-  - key: geoffmunn/Qwen3.5-397B-A17B-f16
+        user: "nohurry"
+        repo: "Qwen3.5-397B-A17B-TQ1_0-GGUF"
+  - key: "geoffmunn/Qwen3.5-397B-A17B-f16"
     sources:
       - type: huggingface
-        user: geoffmunn
-        repo: Qwen3.5-397B-A17B-f16
-  - key: timteh673/Qwen3.5-397B-A17B-Uncensored-GGUF
+        user: "geoffmunn"
+        repo: "Qwen3.5-397B-A17B-f16"
+  - key: "timteh673/Qwen3.5-397B-A17B-Uncensored-GGUF"
     sources:
       - type: huggingface
-        user: timteh673
-        repo: Qwen3.5-397B-A17B-Uncensored-GGUF
-  - key: tarruda/Qwen3.5-397B-A17B-heretic-smol-IQ2_XS-GGUF
+        user: "timteh673"
+        repo: "Qwen3.5-397B-A17B-Uncensored-GGUF"
+  - key: "tarruda/Qwen3.5-397B-A17B-heretic-smol-IQ2_XS-GGUF"
     sources:
       - type: huggingface
-        user: tarruda
-        repo: Qwen3.5-397B-A17B-heretic-smol-IQ2_XS-GGUF
-  - key: dxx117/Qwen3.5-397B-A17B-heretic-GGUF
+        user: "tarruda"
+        repo: "Qwen3.5-397B-A17B-heretic-smol-IQ2_XS-GGUF"
+  - key: "dxx117/Qwen3.5-397B-A17B-heretic-GGUF"
     sources:
       - type: huggingface
-        user: dxx117
-        repo: Qwen3.5-397B-A17B-heretic-GGUF
-  - key: Goldkoron/Qwen3.5-397B-A17B-REAP35
+        user: "dxx117"
+        repo: "Qwen3.5-397B-A17B-heretic-GGUF"
+  - key: "Goldkoron/Qwen3.5-397B-A17B-REAP35"
     sources:
       - type: huggingface
-        user: Goldkoron
-        repo: Qwen3.5-397B-A17B-REAP35
-  - key: CCSSNE/dxx117-Qwen3.5-397B-A17B-heretic-GGUF
+        user: "Goldkoron"
+        repo: "Qwen3.5-397B-A17B-REAP35"
+  - key: "CCSSNE/dxx117-Qwen3.5-397B-A17B-heretic-GGUF"
     sources:
       - type: huggingface
-        user: CCSSNE
-        repo: dxx117-Qwen3.5-397B-A17B-heretic-GGUF
-  - key: timteh673/Qwen3.5-397B-A17B-Opus-4.6-Reasoning-Uncensored-GGUF
+        user: "CCSSNE"
+        repo: "dxx117-Qwen3.5-397B-A17B-heretic-GGUF"
+  - key: "timteh673/Qwen3.5-397B-A17B-Opus-4.6-Reasoning-Uncensored-GGUF"
     sources:
       - type: huggingface
-        user: timteh673
-        repo: Qwen3.5-397B-A17B-Opus-4.6-Reasoning-Uncensored-GGUF
-  - key: Trilogix1/Qwen3.5-397B-A17B-abliterated-GGUF
+        user: "timteh673"
+        repo: "Qwen3.5-397B-A17B-Opus-4.6-Reasoning-Uncensored-GGUF"
+  - key: "Trilogix1/Qwen3.5-397B-A17B-abliterated-GGUF"
     sources:
       - type: huggingface
-        user: Trilogix1
-        repo: Qwen3.5-397B-A17B-abliterated-GGUF
-  - key: Goldkoron/Qwen3.5-397B-A17B-Uncensored-REAP35
+        user: "Trilogix1"
+        repo: "Qwen3.5-397B-A17B-abliterated-GGUF"
+  - key: "Goldkoron/Qwen3.5-397B-A17B-Uncensored-REAP35"
     sources:
       - type: huggingface
-        user: Goldkoron
-        repo: Qwen3.5-397B-A17B-Uncensored-REAP35
-  - key: CCSSNE/Sabomako-Qwen3.5-397B-A17B-heretic-bf16-GGUF
+        user: "Goldkoron"
+        repo: "Qwen3.5-397B-A17B-Uncensored-REAP35"
+  - key: "CCSSNE/Sabomako-Qwen3.5-397B-A17B-heretic-bf16-GGUF"
     sources:
       - type: huggingface
-        user: CCSSNE
-        repo: Sabomako-Qwen3.5-397B-A17B-heretic-bf16-GGUF
-  - key: tarruda/Qwen3.5-397B-A17B-GGUF
+        user: "CCSSNE"
+        repo: "Sabomako-Qwen3.5-397B-A17B-heretic-bf16-GGUF"
+  - key: "tarruda/Qwen3.5-397B-A17B-GGUF"
     sources:
       - type: huggingface
-        user: tarruda
-        repo: Qwen3.5-397B-A17B-GGUF
-  - key: nicolasmatta1/Huihui-Qwen3.5-397B-A17B-abliterated-GGUF
+        user: "tarruda"
+        repo: "Qwen3.5-397B-A17B-GGUF"
+  - key: "nicolasmatta1/Huihui-Qwen3.5-397B-A17B-abliterated-GGUF"
     sources:
       - type: huggingface
-        user: nicolasmatta1
-        repo: Huihui-Qwen3.5-397B-A17B-abliterated-GGUF
-  - key: baa-ai/Qwen3.5-397B-A17B-MINT-224GB-GGUF
+        user: "nicolasmatta1"
+        repo: "Huihui-Qwen3.5-397B-A17B-abliterated-GGUF"
+  - key: "baa-ai/Qwen3.5-397B-A17B-MINT-224GB-GGUF"
     sources:
       - type: huggingface
-        user: baa-ai
-        repo: Qwen3.5-397B-A17B-MINT-224GB-GGUF
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-IQ1_M_R4-SPECIAL_SPLIT
+        user: "baa-ai"
+        repo: "Qwen3.5-397B-A17B-MINT-224GB-GGUF"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-IQ1_M_R4-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-IQ1_M_R4-SPECIAL_SPLIT
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-IQ5_KS_R4-SPECIAL_SPLIT
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-IQ1_M_R4-SPECIAL_SPLIT"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-IQ5_KS_R4-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-IQ5_KS_R4-SPECIAL_SPLIT
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-IQ4_KS-SPECIAL_SPLIT
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-IQ5_KS_R4-SPECIAL_SPLIT"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-IQ4_KS-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-IQ4_KS-SPECIAL_SPLIT
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-IQ4_KSS-SPECIAL_SPLIT
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-IQ4_KS-SPECIAL_SPLIT"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-IQ4_KSS-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-IQ4_KSS-SPECIAL_SPLIT
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-IQ1_M-SPECIAL_SPLIT
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-IQ4_KSS-SPECIAL_SPLIT"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-IQ1_M-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-IQ1_M-SPECIAL_SPLIT
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-IQ4_KT-SPECIAL_SPLIT
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-IQ1_M-SPECIAL_SPLIT"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-IQ4_KT-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-IQ4_KT-SPECIAL_SPLIT
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-IQ5_KS-SPECIAL_SPLIT
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-IQ4_KT-SPECIAL_SPLIT"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-IQ5_KS-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-IQ5_KS-SPECIAL_SPLIT
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-IQ4_KS_R4-SPECIAL_SPLIT
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-IQ5_KS-SPECIAL_SPLIT"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-IQ4_KS_R4-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-IQ4_KS_R4-SPECIAL_SPLIT
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-IQ1_S_R4-SPECIAL_SPLIT
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-IQ4_KS_R4-SPECIAL_SPLIT"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-IQ1_S_R4-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-IQ1_S_R4-SPECIAL_SPLIT
-  - key: CCSSNE/tarruda-Qwen3.5-397B-A17B-heretic-smol-IQ2_XS-GGUF
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-IQ1_S_R4-SPECIAL_SPLIT"
+  - key: "CCSSNE/tarruda-Qwen3.5-397B-A17B-heretic-smol-IQ2_XS-GGUF"
     sources:
       - type: huggingface
-        user: CCSSNE
-        repo: tarruda-Qwen3.5-397B-A17B-heretic-smol-IQ2_XS-GGUF
-  - key: AliceThirty/Qwen3.5-397B-A17B-heretic-gguf
+        user: "CCSSNE"
+        repo: "tarruda-Qwen3.5-397B-A17B-heretic-smol-IQ2_XS-GGUF"
+  - key: "AliceThirty/Qwen3.5-397B-A17B-heretic-gguf"
     sources:
       - type: huggingface
-        user: AliceThirty
-        repo: Qwen3.5-397B-A17B-heretic-gguf
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-IQ2_KL-SPECIAL_SPLIT
+        user: "AliceThirty"
+        repo: "Qwen3.5-397B-A17B-heretic-gguf"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-IQ2_KL-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-IQ2_KL-SPECIAL_SPLIT
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-IQ2_KT-SPECIAL_SPLIT
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-IQ2_KL-SPECIAL_SPLIT"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-IQ2_KT-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-IQ2_KT-SPECIAL_SPLIT
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-IQ2_BN_R4-SPECIAL_SPLIT
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-IQ2_KT-SPECIAL_SPLIT"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-IQ2_BN_R4-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-IQ2_BN_R4-SPECIAL_SPLIT
-  - key: Intel/Qwen3.5-397B-A17B-gguf-q2ks-mixed-AutoRound
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-IQ2_BN_R4-SPECIAL_SPLIT"
+  - key: "Intel/Qwen3.5-397B-A17B-gguf-q2ks-mixed-AutoRound"
     sources:
       - type: huggingface
-        user: Intel
-        repo: Qwen3.5-397B-A17B-gguf-q2ks-mixed-AutoRound
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-IQ1_KT-SPECIAL_SPLIT
+        user: "Intel"
+        repo: "Qwen3.5-397B-A17B-gguf-q2ks-mixed-AutoRound"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-IQ1_KT-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-IQ1_KT-SPECIAL_SPLIT
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-IQ3_KS-SPECIAL_SPLIT
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-IQ1_KT-SPECIAL_SPLIT"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-IQ3_KS-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-IQ3_KS-SPECIAL_SPLIT
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-IQ1_BN-SPECIAL_SPLIT
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-IQ3_KS-SPECIAL_SPLIT"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-IQ1_BN-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-IQ1_BN-SPECIAL_SPLIT
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-IQ2_BN-SPECIAL_SPLIT
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-IQ1_BN-SPECIAL_SPLIT"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-IQ2_BN-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-IQ2_BN-SPECIAL_SPLIT
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-IQ3_KT-SPECIAL_SPLIT
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-IQ2_BN-SPECIAL_SPLIT"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-IQ3_KT-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-IQ3_KT-SPECIAL_SPLIT
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-IQ2_XXS-SPECIAL_SPLIT
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-IQ3_KT-SPECIAL_SPLIT"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-IQ2_XXS-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-IQ2_XXS-SPECIAL_SPLIT
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-IQ2_KS-SPECIAL_SPLIT
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-IQ2_XXS-SPECIAL_SPLIT"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-IQ2_KS-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-IQ2_KS-SPECIAL_SPLIT
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-IQ2_XS_R4-SPECIAL_SPLIT
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-IQ2_KS-SPECIAL_SPLIT"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-IQ2_XS_R4-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-IQ2_XS_R4-SPECIAL_SPLIT
-  - key: leroyjenk1nnnzz/Qwen3.5-397B-A17B-heretic-Q8_0-GGUF
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-IQ2_XS_R4-SPECIAL_SPLIT"
+  - key: "leroyjenk1nnnzz/Qwen3.5-397B-A17B-heretic-Q8_0-GGUF"
     sources:
       - type: huggingface
-        user: leroyjenk1nnnzz
-        repo: Qwen3.5-397B-A17B-heretic-Q8_0-GGUF
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-Q5_K-SPECIAL_SPLIT
+        user: "leroyjenk1nnnzz"
+        repo: "Qwen3.5-397B-A17B-heretic-Q8_0-GGUF"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-Q5_K-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-Q5_K-SPECIAL_SPLIT
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-BF16-SPECIAL_SPLIT
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-Q5_K-SPECIAL_SPLIT"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-BF16-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-BF16-SPECIAL_SPLIT
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-IQ2_K-SPECIAL_SPLIT
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-BF16-SPECIAL_SPLIT"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-IQ2_K-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-IQ2_K-SPECIAL_SPLIT
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-IQ3_S_R4-SPECIAL_SPLIT
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-IQ2_K-SPECIAL_SPLIT"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-IQ3_S_R4-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-IQ3_S_R4-SPECIAL_SPLIT
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-IQ3_XXS_R4-SPECIAL_SPLIT
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-IQ3_S_R4-SPECIAL_SPLIT"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-IQ3_XXS_R4-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-IQ3_XXS_R4-SPECIAL_SPLIT
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-IQ4_K-SPECIAL_SPLIT
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-IQ3_XXS_R4-SPECIAL_SPLIT"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-IQ4_K-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-IQ4_K-SPECIAL_SPLIT
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-IQ4_NL-SPECIAL_SPLIT
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-IQ4_K-SPECIAL_SPLIT"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-IQ4_NL-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-IQ4_NL-SPECIAL_SPLIT
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-IQ2_K_R4-SPECIAL_SPLIT
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-IQ4_NL-SPECIAL_SPLIT"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-IQ2_K_R4-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-IQ2_K_R4-SPECIAL_SPLIT
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-IQ3_S-SPECIAL_SPLIT
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-IQ2_K_R4-SPECIAL_SPLIT"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-IQ3_S-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-IQ3_S-SPECIAL_SPLIT
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-IQ2_XXS_R4-SPECIAL_SPLIT
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-IQ3_S-SPECIAL_SPLIT"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-IQ2_XXS_R4-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-IQ2_XXS_R4-SPECIAL_SPLIT
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-IQ3_XXS-SPECIAL_SPLIT
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-IQ2_XXS_R4-SPECIAL_SPLIT"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-IQ3_XXS-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-IQ3_XXS-SPECIAL_SPLIT
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-IQ3_K_R4-SPECIAL_SPLIT
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-IQ3_XXS-SPECIAL_SPLIT"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-IQ3_K_R4-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-IQ3_K_R4-SPECIAL_SPLIT
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-IQ4_XS-SPECIAL_SPLIT
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-IQ3_K_R4-SPECIAL_SPLIT"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-IQ4_XS-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-IQ4_XS-SPECIAL_SPLIT
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-Q5_K_R4-SPECIAL_SPLIT
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-IQ4_XS-SPECIAL_SPLIT"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-Q5_K_R4-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-Q5_K_R4-SPECIAL_SPLIT
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-IQ6_K-SPECIAL_SPLIT
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-Q5_K_R4-SPECIAL_SPLIT"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-IQ6_K-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-IQ6_K-SPECIAL_SPLIT
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-IQ5_K_R4-SPECIAL_SPLIT
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-IQ6_K-SPECIAL_SPLIT"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-IQ5_K_R4-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-IQ5_K_R4-SPECIAL_SPLIT
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-IQ2_S-SPECIAL_SPLIT
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-IQ5_K_R4-SPECIAL_SPLIT"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-IQ2_S-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-IQ2_S-SPECIAL_SPLIT
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-IQ4_NL_R4-SPECIAL_SPLIT
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-IQ2_S-SPECIAL_SPLIT"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-IQ4_NL_R4-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-IQ4_NL_R4-SPECIAL_SPLIT
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-Q6_K_R4-SPECIAL_SPLIT
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-IQ4_NL_R4-SPECIAL_SPLIT"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-Q6_K_R4-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-Q6_K_R4-SPECIAL_SPLIT
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-Q8_0_R8-SPECIAL_SPLIT
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-Q6_K_R4-SPECIAL_SPLIT"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-Q8_0_R8-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-Q8_0_R8-SPECIAL_SPLIT
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-Q8_0-SPECIAL_SPLIT
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-Q8_0_R8-SPECIAL_SPLIT"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-Q8_0-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-Q8_0-SPECIAL_SPLIT
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-IQ4_K_R4-SPECIAL_SPLIT
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-Q8_0-SPECIAL_SPLIT"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-IQ4_K_R4-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-IQ4_K_R4-SPECIAL_SPLIT
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-IQ4_XS_R8-SPECIAL_SPLIT
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-IQ4_K_R4-SPECIAL_SPLIT"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-IQ4_XS_R8-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-IQ4_XS_R8-SPECIAL_SPLIT
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-Q4_1-SPECIAL_SPLIT
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-IQ4_XS_R8-SPECIAL_SPLIT"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-Q4_1-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-Q4_1-SPECIAL_SPLIT
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-Q4_K_R4-SPECIAL_SPLIT
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-Q4_1-SPECIAL_SPLIT"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-Q4_K_R4-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-Q4_K_R4-SPECIAL_SPLIT
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-Q5_0_R4-SPECIAL_SPLIT
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-Q4_K_R4-SPECIAL_SPLIT"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-Q5_0_R4-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-Q5_0_R4-SPECIAL_SPLIT
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-IQ3_K-SPECIAL_SPLIT
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-Q5_0_R4-SPECIAL_SPLIT"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-IQ3_K-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-IQ3_K-SPECIAL_SPLIT
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-Q3_K-SPECIAL_SPLIT
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-IQ3_K-SPECIAL_SPLIT"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-Q3_K-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-Q3_K-SPECIAL_SPLIT
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-IQ2_XS-SPECIAL_SPLIT
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-Q3_K-SPECIAL_SPLIT"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-IQ2_XS-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-IQ2_XS-SPECIAL_SPLIT
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-Q6_0-SPECIAL_SPLIT
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-IQ2_XS-SPECIAL_SPLIT"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-Q6_0-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-Q6_0-SPECIAL_SPLIT
-  - key: DrRos/Qwen3.5-397B-A17B-NVFP4-GGUF
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-Q6_0-SPECIAL_SPLIT"
+  - key: "DrRos/Qwen3.5-397B-A17B-NVFP4-GGUF"
     sources:
       - type: huggingface
-        user: DrRos
-        repo: Qwen3.5-397B-A17B-NVFP4-GGUF
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-Q3_K_R4-SPECIAL_SPLIT
+        user: "DrRos"
+        repo: "Qwen3.5-397B-A17B-NVFP4-GGUF"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-Q3_K_R4-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-Q3_K_R4-SPECIAL_SPLIT
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-Q4_0_R8-SPECIAL_SPLIT
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-Q3_K_R4-SPECIAL_SPLIT"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-Q4_0_R8-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-Q4_0_R8-SPECIAL_SPLIT
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-Q6_0_R4-SPECIAL_SPLIT
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-Q4_0_R8-SPECIAL_SPLIT"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-Q6_0_R4-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-Q6_0_R4-SPECIAL_SPLIT
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-Q6_K-SPECIAL_SPLIT
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-Q6_0_R4-SPECIAL_SPLIT"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-Q6_K-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-Q6_K-SPECIAL_SPLIT
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-Q4_K-SPECIAL_SPLIT
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-Q6_K-SPECIAL_SPLIT"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-Q4_K-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-Q4_K-SPECIAL_SPLIT
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-Q2_K_R4-SPECIAL_SPLIT
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-Q4_K-SPECIAL_SPLIT"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-Q2_K_R4-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-Q2_K_R4-SPECIAL_SPLIT
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-Q4_0-SPECIAL_SPLIT
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-Q2_K_R4-SPECIAL_SPLIT"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-Q4_0-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-Q4_0-SPECIAL_SPLIT
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-Q8_KV-SPECIAL_SPLIT
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-Q4_0-SPECIAL_SPLIT"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-Q8_KV-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-Q8_KV-SPECIAL_SPLIT
-  - key: CCSSNE/AliceThirty-Qwen3.5-397B-A17B-heretic-gguf
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-Q8_KV-SPECIAL_SPLIT"
+  - key: "CCSSNE/AliceThirty-Qwen3.5-397B-A17B-heretic-gguf"
     sources:
       - type: huggingface
-        user: CCSSNE
-        repo: AliceThirty-Qwen3.5-397B-A17B-heretic-gguf
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-IQ5_K-SPECIAL_SPLIT
+        user: "CCSSNE"
+        repo: "AliceThirty-Qwen3.5-397B-A17B-heretic-gguf"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-IQ5_K-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-IQ5_K-SPECIAL_SPLIT
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-Q5_0-SPECIAL_SPLIT
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-IQ5_K-SPECIAL_SPLIT"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-Q5_0-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-Q5_0-SPECIAL_SPLIT
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-Q8_K_R8-SPECIAL_SPLIT
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-Q5_0-SPECIAL_SPLIT"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-Q8_K_R8-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-Q8_K_R8-SPECIAL_SPLIT
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-Q5_1-SPECIAL_SPLIT
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-Q8_K_R8-SPECIAL_SPLIT"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-Q5_1-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-Q5_1-SPECIAL_SPLIT
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-Q2_K-SPECIAL_SPLIT
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-Q5_1-SPECIAL_SPLIT"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-Q2_K-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-Q2_K-SPECIAL_SPLIT
-  - key: Thireus/Qwen3.5-397B-A17B-THIREUS-IQ1_S-SPECIAL_SPLIT
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-Q2_K-SPECIAL_SPLIT"
+  - key: "Thireus/Qwen3.5-397B-A17B-THIREUS-IQ1_S-SPECIAL_SPLIT"
     sources:
       - type: huggingface
-        user: Thireus
-        repo: Qwen3.5-397B-A17B-THIREUS-IQ1_S-SPECIAL_SPLIT
-  - key: Goldkoron/Qwen3.5-397B-A17B
+        user: "Thireus"
+        repo: "Qwen3.5-397B-A17B-THIREUS-IQ1_S-SPECIAL_SPLIT"
+  - key: "Goldkoron/Qwen3.5-397B-A17B"
     sources:
       - type: huggingface
-        user: Goldkoron
-        repo: Qwen3.5-397B-A17B
-  - key: mudler/Qwen3.5-397B-A17B-APEX-GGUF
+        user: "Goldkoron"
+        repo: "Qwen3.5-397B-A17B"
+  - key: "mudler/Qwen3.5-397B-A17B-APEX-GGUF"
     sources:
       - type: huggingface
-        user: mudler
-        repo: Qwen3.5-397B-A17B-APEX-GGUF
-  - key: SECWIKI/AliceThirty-Qwen3.5-397B-A17B-heretic-gguf
+        user: "mudler"
+        repo: "Qwen3.5-397B-A17B-APEX-GGUF"
+  - key: "SECWIKI/AliceThirty-Qwen3.5-397B-A17B-heretic-gguf"
     sources:
       - type: huggingface
-        user: SECWIKI
-        repo: AliceThirty-Qwen3.5-397B-A17B-heretic-gguf
-  - key: SilverMan99/Qwen3.5-397B-A17B-Opus-4.6-Reasoning-Uncensored-GGUF
+        user: "SECWIKI"
+        repo: "AliceThirty-Qwen3.5-397B-A17B-heretic-gguf"
+  - key: "SilverMan99/Qwen3.5-397B-A17B-Opus-4.6-Reasoning-Uncensored-GGUF"
     sources:
       - type: huggingface
-        user: SilverMan99
-        repo: Qwen3.5-397B-A17B-Opus-4.6-Reasoning-Uncensored-GGUF
-  - key: VECTORVV1/Qwen3.5-397B-A17B-Opus-4.6-Reasoning
+        user: "SilverMan99"
+        repo: "Qwen3.5-397B-A17B-Opus-4.6-Reasoning-Uncensored-GGUF"
+  - key: "VECTORVV1/Qwen3.5-397B-A17B-Opus-4.6-Reasoning"
     sources:
       - type: huggingface
-        user: VECTORVV1
-        repo: Qwen3.5-397B-A17B-Opus-4.6-Reasoning
-  - key: unsloth/Qwen3.5-397B-A17B-MTP-GGUF
+        user: "VECTORVV1"
+        repo: "Qwen3.5-397B-A17B-Opus-4.6-Reasoning"
+  - key: "unsloth/Qwen3.5-397B-A17B-MTP-GGUF"
     sources:
       - type: huggingface
-        user: unsloth
-        repo: Qwen3.5-397B-A17B-MTP-GGUF
-  - key: mradermacher/Qwen3.5-397B-A17B-i1-GGUF
+        user: "unsloth"
+        repo: "Qwen3.5-397B-A17B-MTP-GGUF"
+  - key: "mradermacher/Qwen3.5-397B-A17B-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-397B-A17B-i1-GGUF
-  - key: paragon-of-brah/Qwen3.5-397B-A17B-IQ5_k-MTP-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-397B-A17B-i1-GGUF"
+  - key: "paragon-of-brah/Qwen3.5-397B-A17B-IQ5_k-MTP-GGUF"
     sources:
       - type: huggingface
-        user: paragon-of-brah
-        repo: Qwen3.5-397B-A17B-IQ5_k-MTP-GGUF
-  - key: snoweddy/Qwen3.5-397B-A17B-heretic-Q8_0-GGUF
+        user: "paragon-of-brah"
+        repo: "Qwen3.5-397B-A17B-IQ5_k-MTP-GGUF"
+  - key: "snoweddy/Qwen3.5-397B-A17B-heretic-Q8_0-GGUF"
     sources:
       - type: huggingface
-        user: snoweddy
-        repo: Qwen3.5-397B-A17B-heretic-Q8_0-GGUF
-  - key: mradermacher/Qwen3.5-397B-A17B-heretic-fixed-GGUF
+        user: "snoweddy"
+        repo: "Qwen3.5-397B-A17B-heretic-Q8_0-GGUF"
+  - key: "mradermacher/Qwen3.5-397B-A17B-heretic-fixed-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-397B-A17B-heretic-fixed-GGUF
-  - key: meshllm/Qwen3.5-397B-A17B-UD-Q4_K_XL-layers
+        user: "mradermacher"
+        repo: "Qwen3.5-397B-A17B-heretic-fixed-GGUF"
+  - key: "meshllm/Qwen3.5-397B-A17B-UD-Q4_K_XL-layers"
     sources:
       - type: huggingface
-        user: meshllm
-        repo: Qwen3.5-397B-A17B-UD-Q4_K_XL-layers
-  - key: dxx117/Qwen3.5-397B-A17B-GGUF-UD-IQ2_XXS-MTP-Q8_0
+        user: "meshllm"
+        repo: "Qwen3.5-397B-A17B-UD-Q4_K_XL-layers"
+  - key: "dxx117/Qwen3.5-397B-A17B-GGUF-UD-IQ2_XXS-MTP-Q8_0"
     sources:
       - type: huggingface
-        user: dxx117
-        repo: Qwen3.5-397B-A17B-GGUF-UD-IQ2_XXS-MTP-Q8_0
-  - key: dxx117/Qwen3.5-397B-A17B-heretic-GGUF-v2-MTP
+        user: "dxx117"
+        repo: "Qwen3.5-397B-A17B-GGUF-UD-IQ2_XXS-MTP-Q8_0"
+  - key: "dxx117/Qwen3.5-397B-A17B-heretic-GGUF-v2-MTP"
     sources:
       - type: huggingface
-        user: dxx117
-        repo: Qwen3.5-397B-A17B-heretic-GGUF-v2-MTP
-  - key: brocchirodrigo/anotaai-ajuda-qwen3_5_Q4
+        user: "dxx117"
+        repo: "Qwen3.5-397B-A17B-heretic-GGUF-v2-MTP"
+  - key: "brocchirodrigo/anotaai-ajuda-qwen3_5_Q4"
     sources:
       - type: huggingface
-        user: brocchirodrigo
-        repo: anotaai-ajuda-qwen3_5_Q4
-  - key: Crowfeather/Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5
+        user: "brocchirodrigo"
+        repo: "anotaai-ajuda-qwen3_5_Q4"
+  - key: "Crowfeather/Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5"
     sources:
       - type: huggingface
-        user: Crowfeather
-        repo: Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5
-  - key: Crownelius/Crow-4B-Opus-4.6-Distill-Heretic_Qwen3.5
+        user: "Crowfeather"
+        repo: "Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5"
+  - key: "Crownelius/Crow-4B-Opus-4.6-Distill-Heretic_Qwen3.5"
     sources:
       - type: huggingface
-        user: Crownelius
-        repo: Crow-4B-Opus-4.6-Distill-Heretic_Qwen3.5
-  - key: Danterock/Qwen3.5
+        user: "Crownelius"
+        repo: "Crow-4B-Opus-4.6-Distill-Heretic_Qwen3.5"
+  - key: "Danterock/Qwen3.5"
     sources:
       - type: huggingface
-        user: Danterock
-        repo: Qwen3.5
-  - key: ddh0/Qwen3.5-GGUF
+        user: "Danterock"
+        repo: "Qwen3.5"
+  - key: "ddh0/Qwen3.5-GGUF"
     sources:
       - type: huggingface
-        user: ddh0
-        repo: Qwen3.5-GGUF
-  - key: Manojb/Crow-4B-Opus-4.6-Distill-Heretic_Qwen3.5.BF16.gguf
+        user: "ddh0"
+        repo: "Qwen3.5-GGUF"
+  - key: "Manojb/Crow-4B-Opus-4.6-Distill-Heretic_Qwen3.5.BF16.gguf"
     sources:
       - type: huggingface
-        user: Manojb
-        repo: Crow-4B-Opus-4.6-Distill-Heretic_Qwen3.5.BF16.gguf
-  - key: Manojb/Crow-4B-Opus-4.6-Distill-Heretic_Qwen3.5.Q8_0.gguf
+        user: "Manojb"
+        repo: "Crow-4B-Opus-4.6-Distill-Heretic_Qwen3.5.BF16.gguf"
+  - key: "Manojb/Crow-4B-Opus-4.6-Distill-Heretic_Qwen3.5.Q8_0.gguf"
     sources:
       - type: huggingface
-        user: Manojb
-        repo: Crow-4B-Opus-4.6-Distill-Heretic_Qwen3.5.Q8_0.gguf
-  - key: mixer3d/qwen3.5-bf16-gguf
+        user: "Manojb"
+        repo: "Crow-4B-Opus-4.6-Distill-Heretic_Qwen3.5.Q8_0.gguf"
+  - key: "mixer3d/qwen3.5-bf16-gguf"
     sources:
       - type: huggingface
-        user: mixer3d
-        repo: qwen3.5-bf16-gguf
-  - key: modinformal/Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5
+        user: "mixer3d"
+        repo: "qwen3.5-bf16-gguf"
+  - key: "modinformal/Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5"
     sources:
       - type: huggingface
-        user: modinformal
-        repo: Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5
-  - key: mradermacher/Aureth-4B-Qwen3.5-GGUF
+        user: "modinformal"
+        repo: "Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5"
+  - key: "mradermacher/Aureth-4B-Qwen3.5-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Aureth-4B-Qwen3.5-GGUF
-  - key: mradermacher/Aureth-4B-Qwen3.5-i1-GGUF
+        user: "mradermacher"
+        repo: "Aureth-4B-Qwen3.5-GGUF"
+  - key: "mradermacher/Aureth-4B-Qwen3.5-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Aureth-4B-Qwen3.5-i1-GGUF
-  - key: mradermacher/Crow-4B-Opus-4.6-Distill-Heretic_Qwen3.5-GGUF
+        user: "mradermacher"
+        repo: "Aureth-4B-Qwen3.5-i1-GGUF"
+  - key: "mradermacher/Crow-4B-Opus-4.6-Distill-Heretic_Qwen3.5-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Crow-4B-Opus-4.6-Distill-Heretic_Qwen3.5-GGUF
-  - key: mradermacher/Crow-4B-Opus-4.6-Distill-Heretic_Qwen3.5-i1-GGUF
+        user: "mradermacher"
+        repo: "Crow-4B-Opus-4.6-Distill-Heretic_Qwen3.5-GGUF"
+  - key: "mradermacher/Crow-4B-Opus-4.6-Distill-Heretic_Qwen3.5-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Crow-4B-Opus-4.6-Distill-Heretic_Qwen3.5-i1-GGUF
-  - key: mradermacher/Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5-GGUF
+        user: "mradermacher"
+        repo: "Crow-4B-Opus-4.6-Distill-Heretic_Qwen3.5-i1-GGUF"
+  - key: "mradermacher/Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5-GGUF
-  - key: mradermacher/Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5-i1-GGUF
+        user: "mradermacher"
+        repo: "Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5-GGUF"
+  - key: "mradermacher/Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5-i1-GGUF
-  - key: OusiaResearch/Aureth-4B-Qwen3.5
+        user: "mradermacher"
+        repo: "Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5-i1-GGUF"
+  - key: "OusiaResearch/Aureth-4B-Qwen3.5"
     sources:
       - type: huggingface
-        user: OusiaResearch
-        repo: Aureth-4B-Qwen3.5
-  - key: OusiaResearch/Aureth-9B-Qwen3.5
+        user: "OusiaResearch"
+        repo: "Aureth-4B-Qwen3.5"
+  - key: "OusiaResearch/Aureth-9B-Qwen3.5"
     sources:
       - type: huggingface
-        user: OusiaResearch
-        repo: Aureth-9B-Qwen3.5
-  - key: ZeeshanLiaqat/dark-pattern-qwen3.5
+        user: "OusiaResearch"
+        repo: "Aureth-9B-Qwen3.5"
+  - key: "ZeeshanLiaqat/dark-pattern-qwen3.5"
     sources:
       - type: huggingface
-        user: ZeeshanLiaqat
-        repo: dark-pattern-qwen3.5
-  - key: dirop1/qwen3.5-0.8-4Q-PUBG-gguf
+        user: "ZeeshanLiaqat"
+        repo: "dark-pattern-qwen3.5"
+  - key: "dirop1/qwen3.5-0.8-4Q-PUBG-gguf"
     sources:
       - type: huggingface
-        user: dirop1
-        repo: qwen3.5-0.8-4Q-PUBG-gguf
-  - key: etemiz/Ostrich-27B-Qwen3.5-260305-GGUF
+        user: "dirop1"
+        repo: "qwen3.5-0.8-4Q-PUBG-gguf"
+  - key: "etemiz/Ostrich-27B-Qwen3.5-260305-GGUF"
     sources:
       - type: huggingface
-        user: etemiz
-        repo: Ostrich-27B-Qwen3.5-260305-GGUF
-  - key: mradermacher/Ostrich-27B-Qwen3.5-260305-GGUF
+        user: "etemiz"
+        repo: "Ostrich-27B-Qwen3.5-260305-GGUF"
+  - key: "mradermacher/Ostrich-27B-Qwen3.5-260305-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Ostrich-27B-Qwen3.5-260305-GGUF
-  - key: mradermacher/Ostrich-27B-Qwen3.5-260305-i1-GGUF
+        user: "mradermacher"
+        repo: "Ostrich-27B-Qwen3.5-260305-GGUF"
+  - key: "mradermacher/Ostrich-27B-Qwen3.5-260305-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Ostrich-27B-Qwen3.5-260305-i1-GGUF
-  - key: etemiz/Ostrich-27B-Qwen3.5-260411-GGUF
+        user: "mradermacher"
+        repo: "Ostrich-27B-Qwen3.5-260305-i1-GGUF"
+  - key: "etemiz/Ostrich-27B-Qwen3.5-260411-GGUF"
     sources:
       - type: huggingface
-        user: etemiz
-        repo: Ostrich-27B-Qwen3.5-260411-GGUF
-  - key: mradermacher/Ostrich-27B-Qwen3.5-260411-GGUF
+        user: "etemiz"
+        repo: "Ostrich-27B-Qwen3.5-260411-GGUF"
+  - key: "mradermacher/Ostrich-27B-Qwen3.5-260411-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Ostrich-27B-Qwen3.5-260411-GGUF
-  - key: mradermacher/Ostrich-27B-Qwen3.5-260411-i1-GGUF
+        user: "mradermacher"
+        repo: "Ostrich-27B-Qwen3.5-260411-GGUF"
+  - key: "mradermacher/Ostrich-27B-Qwen3.5-260411-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Ostrich-27B-Qwen3.5-260411-i1-GGUF
-  - key: zhouyu199886/Qwen3.5-2Bq4_k_m
+        user: "mradermacher"
+        repo: "Ostrich-27B-Qwen3.5-260411-i1-GGUF"
+  - key: "zhouyu199886/Qwen3.5-2Bq4_k_m"
     sources:
       - type: huggingface
-        user: zhouyu199886
-        repo: Qwen3.5-2Bq4_k_m
-  - key: admijgjtjtjtjjg/Qwen3.5-34M-Micro
+        user: "zhouyu199886"
+        repo: "Qwen3.5-2Bq4_k_m"
+  - key: "admijgjtjtjtjjg/Qwen3.5-34M-Micro"
     sources:
       - type: huggingface
-        user: admijgjtjtjtjjg
-        repo: Qwen3.5-34M-Micro
-  - key: Anonymousfrog/Qwen3.5-800M-Abliterated-GGUF
+        user: "admijgjtjtjtjjg"
+        repo: "Qwen3.5-34M-Micro"
+  - key: "Anonymousfrog/Qwen3.5-800M-Abliterated-GGUF"
     sources:
       - type: huggingface
-        user: Anonymousfrog
-        repo: Qwen3.5-800M-Abliterated-GGUF
-  - key: tarundsflsdf/qwen3.5-8k-120-merged-gguf
+        user: "Anonymousfrog"
+        repo: "Qwen3.5-800M-Abliterated-GGUF"
+  - key: "tarundsflsdf/qwen3.5-8k-120-merged-gguf"
     sources:
       - type: huggingface
-        user: tarundsflsdf
-        repo: qwen3.5-8k-120-merged-gguf
-  - key: prithivMLmods/Qwen3.5-abliterated-MAX-AIO-GGUF
+        user: "tarundsflsdf"
+        repo: "qwen3.5-8k-120-merged-gguf"
+  - key: "prithivMLmods/Qwen3.5-abliterated-MAX-AIO-GGUF"
     sources:
       - type: huggingface
-        user: prithivMLmods
-        repo: Qwen3.5-abliterated-MAX-AIO-GGUF
-  - key: zapabobouj/qwen3.5-elt-l3
+        user: "prithivMLmods"
+        repo: "Qwen3.5-abliterated-MAX-AIO-GGUF"
+  - key: "zapabobouj/qwen3.5-elt-l3"
     sources:
       - type: huggingface
-        user: zapabobouj
-        repo: qwen3.5-elt-l3
-  - key: Sokheng/qwen3.5_finetune
+        user: "zapabobouj"
+        repo: "qwen3.5-elt-l3"
+  - key: "Sokheng/qwen3.5_finetune"
     sources:
       - type: huggingface
-        user: Sokheng
-        repo: qwen3.5_finetune
-  - key: summerMC/Qwen3.5-hack-down-gguf
+        user: "Sokheng"
+        repo: "qwen3.5_finetune"
+  - key: "summerMC/Qwen3.5-hack-down-gguf"
     sources:
       - type: huggingface
-        user: summerMC
-        repo: Qwen3.5-hack-down-gguf
-  - key: Soundsus/Qwen3.5-Jackrong-Opus4.6-Distilled-Fennel-UNTESTED-GGUF
+        user: "summerMC"
+        repo: "Qwen3.5-hack-down-gguf"
+  - key: "Soundsus/Qwen3.5-Jackrong-Opus4.6-Distilled-Fennel-UNTESTED-GGUF"
     sources:
       - type: huggingface
-        user: Soundsus
-        repo: Qwen3.5-Jackrong-Opus4.6-Distilled-Fennel-UNTESTED-GGUF
-  - key: anhi0008/qwen3.5_jl_v0.1_gguf
+        user: "Soundsus"
+        repo: "Qwen3.5-Jackrong-Opus4.6-Distilled-Fennel-UNTESTED-GGUF"
+  - key: "anhi0008/qwen3.5_jl_v0.1_gguf"
     sources:
       - type: huggingface
-        user: anhi0008
-        repo: qwen3.5_jl_v0.1_gguf
-  - key: Reytian/qwen3.5-legal-q5_k_m-gguf
+        user: "anhi0008"
+        repo: "qwen3.5_jl_v0.1_gguf"
+  - key: "Reytian/qwen3.5-legal-q5_k_m-gguf"
     sources:
       - type: huggingface
-        user: Reytian
-        repo: qwen3.5-legal-q5_k_m-gguf
-  - key: summerMC/qwen3.5-lockhack
+        user: "Reytian"
+        repo: "qwen3.5-legal-q5_k_m-gguf"
+  - key: "summerMC/qwen3.5-lockhack"
     sources:
       - type: huggingface
-        user: summerMC
-        repo: qwen3.5-lockhack
-  - key: malvalabel/Qwen3.5-MALVA-REAP-60exp-GGUF
+        user: "summerMC"
+        repo: "qwen3.5-lockhack"
+  - key: "malvalabel/Qwen3.5-MALVA-REAP-60exp-GGUF"
     sources:
       - type: huggingface
-        user: malvalabel
-        repo: Qwen3.5-MALVA-REAP-60exp-GGUF
-  - key: vadimbelsky/qwen3.5-medical-ft-stage3-dpo
+        user: "malvalabel"
+        repo: "Qwen3.5-MALVA-REAP-60exp-GGUF"
+  - key: "vadimbelsky/qwen3.5-medical-ft-stage3-dpo"
     sources:
       - type: huggingface
-        user: vadimbelsky
-        repo: qwen3.5-medical-ft-stage3-dpo
-  - key: ciscoriordan/lsjpre-qwen3-5-multitask
+        user: "vadimbelsky"
+        repo: "qwen3.5-medical-ft-stage3-dpo"
+  - key: "ciscoriordan/lsjpre-qwen3-5-multitask"
     sources:
       - type: huggingface
-        user: ciscoriordan
-        repo: lsjpre-qwen3-5-multitask
-  - key: mradermacher/Arabic-Qwen3.5-OCR-v4-GGUF
+        user: "ciscoriordan"
+        repo: "lsjpre-qwen3-5-multitask"
+  - key: "mradermacher/Arabic-Qwen3.5-OCR-v4-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Arabic-Qwen3.5-OCR-v4-GGUF
-  - key: eddy1111111/qwen3.5_opus
+        user: "mradermacher"
+        repo: "Arabic-Qwen3.5-OCR-v4-GGUF"
+  - key: "eddy1111111/qwen3.5_opus"
     sources:
       - type: huggingface
-        user: eddy1111111
-        repo: qwen3.5_opus
-  - key: clemsail/qwen3.5-opus-distilled-gguf
+        user: "eddy1111111"
+        repo: "qwen3.5_opus"
+  - key: "clemsail/qwen3.5-opus-distilled-gguf"
     sources:
       - type: huggingface
-        user: clemsail
-        repo: qwen3.5-opus-distilled-gguf
-  - key: Ex0bit/Qwen3.5-PRISM-Dynamic-Quant-GGUF
+        user: "clemsail"
+        repo: "qwen3.5-opus-distilled-gguf"
+  - key: "Ex0bit/Qwen3.5-PRISM-Dynamic-Quant-GGUF"
     sources:
       - type: huggingface
-        user: Ex0bit
-        repo: Qwen3.5-PRISM-Dynamic-Quant-GGUF
-  - key: Yusiko/qwen3.5-prompter
+        user: "Ex0bit"
+        repo: "Qwen3.5-PRISM-Dynamic-Quant-GGUF"
+  - key: "Yusiko/qwen3.5-prompter"
     sources:
       - type: huggingface
-        user: Yusiko
-        repo: qwen3.5-prompter
-  - key: Manojb/Crow-4B-Opus-4.6-Distill-Heretic_Qwen3.5.Q4_K_M.gguf
+        user: "Yusiko"
+        repo: "qwen3.5-prompter"
+  - key: "Manojb/Crow-4B-Opus-4.6-Distill-Heretic_Qwen3.5.Q4_K_M.gguf"
     sources:
       - type: huggingface
-        user: Manojb
-        repo: Crow-4B-Opus-4.6-Distill-Heretic_Qwen3.5.Q4_K_M.gguf
-  - key: Manojb/Crow-4B-Opus-4.6-Distill-Heretic_Qwen3.5.Q5_K_M.gguf
+        user: "Manojb"
+        repo: "Crow-4B-Opus-4.6-Distill-Heretic_Qwen3.5.Q4_K_M.gguf"
+  - key: "Manojb/Crow-4B-Opus-4.6-Distill-Heretic_Qwen3.5.Q5_K_M.gguf"
     sources:
       - type: huggingface
-        user: Manojb
-        repo: Crow-4B-Opus-4.6-Distill-Heretic_Qwen3.5.Q5_K_M.gguf
-  - key: ToastyPigeon/Qwen3.5-Test-GGUFs
+        user: "Manojb"
+        repo: "Crow-4B-Opus-4.6-Distill-Heretic_Qwen3.5.Q5_K_M.gguf"
+  - key: "ToastyPigeon/Qwen3.5-Test-GGUFs"
     sources:
       - type: huggingface
-        user: ToastyPigeon
-        repo: Qwen3.5-Test-GGUFs
-  - key: KamiZeRei/mila-qwen3.5-thai-distill
+        user: "ToastyPigeon"
+        repo: "Qwen3.5-Test-GGUFs"
+  - key: "KamiZeRei/mila-qwen3.5-thai-distill"
     sources:
       - type: huggingface
-        user: KamiZeRei
-        repo: mila-qwen3.5-thai-distill
-  - key: machinadeusex/Qwen3.5-Thinking-AIO-GGUF
+        user: "KamiZeRei"
+        repo: "mila-qwen3.5-thai-distill"
+  - key: "machinadeusex/Qwen3.5-Thinking-AIO-GGUF"
     sources:
       - type: huggingface
-        user: machinadeusex
-        repo: Qwen3.5-Thinking-AIO-GGUF
-  - key: mradermacher/Qwen3.5-397B-A17B-heretic-fixed-i1-GGUF
+        user: "machinadeusex"
+        repo: "Qwen3.5-Thinking-AIO-GGUF"
+  - key: "mradermacher/Qwen3.5-397B-A17B-heretic-fixed-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-397B-A17B-heretic-fixed-i1-GGUF
-  - key: nphearum/Qwen3.5-4bxOpus-4.7-sonic-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-397B-A17B-heretic-fixed-i1-GGUF"
+  - key: "nphearum/Qwen3.5-4bxOpus-4.7-sonic-GGUF"
     sources:
       - type: huggingface
-        user: nphearum
-        repo: Qwen3.5-4bxOpus-4.7-sonic-GGUF
-  - key: prithivMLmods/Qwen3.5-Thinking-AIO-GGUF
+        user: "nphearum"
+        repo: "Qwen3.5-4bxOpus-4.7-sonic-GGUF"
+  - key: "prithivMLmods/Qwen3.5-Thinking-AIO-GGUF"
     sources:
       - type: huggingface
-        user: prithivMLmods
-        repo: Qwen3.5-Thinking-AIO-GGUF
-  - key: mradermacher/Qwen3.5-uncensored-GGUF
+        user: "prithivMLmods"
+        repo: "Qwen3.5-Thinking-AIO-GGUF"
+  - key: "mradermacher/Qwen3.5-uncensored-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-uncensored-GGUF
-  - key: tripolskypetr/Qwen3.5-Uncensored-Aggressive-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-uncensored-GGUF"
+  - key: "tripolskypetr/Qwen3.5-Uncensored-Aggressive-GGUF"
     sources:
       - type: huggingface
-        user: tripolskypetr
-        repo: Qwen3.5-Uncensored-Aggressive-GGUF
-  - key: sanjana040/qwen3.5-unsloth-finetuned
+        user: "tripolskypetr"
+        repo: "Qwen3.5-Uncensored-Aggressive-GGUF"
+  - key: "sanjana040/qwen3.5-unsloth-finetuned"
     sources:
       - type: huggingface
-        user: sanjana040
-        repo: qwen3.5-unsloth-finetuned
-  - key: JohnTdi/Qwen3.5-Unsloth-GGUF-R9700-Benchmark
+        user: "sanjana040"
+        repo: "qwen3.5-unsloth-finetuned"
+  - key: "JohnTdi/Qwen3.5-Unsloth-GGUF-R9700-Benchmark"
     sources:
       - type: huggingface
-        user: JohnTdi
-        repo: Qwen3.5-Unsloth-GGUF-R9700-Benchmark
-  - key: mradermacher/qwen3-50m-insomnia-therapist-GGUF
+        user: "JohnTdi"
+        repo: "Qwen3.5-Unsloth-GGUF-R9700-Benchmark"
+  - key: "mradermacher/qwen3-50m-insomnia-therapist-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: qwen3-50m-insomnia-therapist-GGUF
-  - key: mradermacher/qwen3-50m-storyteller-GGUF
+        user: "mradermacher"
+        repo: "qwen3-50m-insomnia-therapist-GGUF"
+  - key: "mradermacher/qwen3-50m-storyteller-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: qwen3-50m-storyteller-GGUF
-  - key: Mark4444/PF_qwen3.5ab_v1.0.0
+        user: "mradermacher"
+        repo: "qwen3-50m-storyteller-GGUF"
+  - key: "Mark4444/PF_qwen3.5ab_v1.0.0"
     sources:
       - type: huggingface
-        user: Mark4444
-        repo: PF_qwen3.5ab_v1.0.0
+        user: "Mark4444"
+        repo: "PF_qwen3.5ab_v1.0.0"
+  - key: "amd/Qwen3.5-397B-A17B-MXFP4"
+    sources:
+      - type: huggingface
+        user: "amd"
+        repo: "Qwen3.5-397B-A17B-MXFP4"
+  - key: "djdeniro/Qwen3.5-397B-A17B-MXFP4"
+    sources:
+      - type: huggingface
+        user: "djdeniro"
+        repo: "Qwen3.5-397B-A17B-MXFP4"
 config:
   operation:
     fields:

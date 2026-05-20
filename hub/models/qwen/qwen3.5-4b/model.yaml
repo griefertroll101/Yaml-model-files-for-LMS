@@ -2,1246 +2,1296 @@
 # Learn more at https://modelyaml.org
 model: qwen/qwen3.5-4b
 base:
-  - key: unsloth/Qwen3.5-4B-GGUF
+  - key: "unsloth/Qwen3.5-4B-GGUF"
     sources:
       - type: huggingface
-        user: unsloth
-        repo: Qwen3.5-4B-GGUF
-  - key: tatsuyaaaaaa/qwen3.5-4b-gguf
+        user: "unsloth"
+        repo: "Qwen3.5-4B-GGUF"
+  - key: "tatsuyaaaaaa/qwen3.5-4b-gguf"
     sources:
       - type: huggingface
-        user: tatsuyaaaaaaa
-        repo: Qwen3.5-4B-gguf
-  - key: bartowski/Qwen_Qwen3.5-4B-GGUF
+        user: "tatsuyaaaaaaa"
+        repo: "Qwen3.5-4B-gguf"
+  - key: "bartowski/Qwen_Qwen3.5-4B-GGUF"
     sources:
       - type: huggingface
-        user: bartowski
-        repo: Qwen_Qwen3.5-4B-GGUF
-  - key: lmstudio-community/Qwen3.5-4B-GGUF
+        user: "bartowski"
+        repo: "Qwen_Qwen3.5-4B-GGUF"
+  - key: "lmstudio-community/Qwen3.5-4B-GGUF"
     sources:
       - type: huggingface
-        user: lmstudio-community
-        repo: Qwen3.5-4B-GGUF
-  - key: titan0115/Qwen3.5-4B-Base
+        user: "lmstudio-community"
+        repo: "Qwen3.5-4B-GGUF"
+  - key: "titan0115/Qwen3.5-4B-Base"
     sources:
       - type: huggingface
-        user: titan0115
-        repo: Qwen3.5-4B-Base
-  - key: titan0115/Qwen3.5-4B
+        user: "titan0115"
+        repo: "Qwen3.5-4B-Base"
+  - key: "titan0115/Qwen3.5-4B"
     sources:
       - type: huggingface
-        user: titan0115
-        repo: Qwen3.5-4B
-  - key: AaryanK/Qwen3.5-4B-GGUF
+        user: "titan0115"
+        repo: "Qwen3.5-4B"
+  - key: "AaryanK/Qwen3.5-4B-GGUF"
     sources:
       - type: huggingface
-        user: AaryanK
-        repo: Qwen3.5-4B-GGUF
-  - key: MerlinSafety/Qwen3.5-4B-Safety-Thinking
+        user: "AaryanK"
+        repo: "Qwen3.5-4B-GGUF"
+  - key: "MerlinSafety/Qwen3.5-4B-Safety-Thinking"
     sources:
       - type: huggingface
-        user: MerlinSafety
-        repo: Qwen3.5-4B-Safety-Thinking
-  - key: prithivMLmods/Qwen3.5-4B-f32-GGUF
+        user: "MerlinSafety"
+        repo: "Qwen3.5-4B-Safety-Thinking"
+  - key: "prithivMLmods/Qwen3.5-4B-f32-GGUF"
     sources:
       - type: huggingface
-        user: prithivMLmods
-        repo: Qwen3.5-4B-f32-GGUF
-  - key: chenly124/Qwen3.5-4B-PaperWitch-heresy-Q8_0-GGUF
+        user: "prithivMLmods"
+        repo: "Qwen3.5-4B-f32-GGUF"
+  - key: "chenly124/Qwen3.5-4B-PaperWitch-heresy-Q8_0-GGUF"
     sources:
       - type: huggingface
-        user: chenly124
-        repo: Qwen3.5-4B-PaperWitch-heresy-Q8_0-GGUF
-  - key: DevQuasar/Qwen.Qwen3.5-4B-GGUF
+        user: "chenly124"
+        repo: "Qwen3.5-4B-PaperWitch-heresy-Q8_0-GGUF"
+  - key: "DevQuasar/Qwen.Qwen3.5-4B-GGUF"
     sources:
       - type: huggingface
-        user: DevQuasar
-        repo: Qwen.Qwen3.5-4B-GGUF
-  - key: Open4bits/Qwen3.5-4B-GGUF
+        user: "DevQuasar"
+        repo: "Qwen.Qwen3.5-4B-GGUF"
+  - key: "Open4bits/Qwen3.5-4B-GGUF"
     sources:
       - type: huggingface
-        user: Open4bits
-        repo: Qwen3.5-4B-GGUF
-  - key: Jackrong/Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+        user: "Open4bits"
+        repo: "Qwen3.5-4B-GGUF"
+  - key: "Jackrong/Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled-GGUF"
     sources:
       - type: huggingface
-        user: Jackrong
-        repo: Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
-  - key: SicariusSicariiStuff/Qwen3.5-4B_Abliterated_GGUF
+        user: "Jackrong"
+        repo: "Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled-GGUF"
+  - key: "SicariusSicariiStuff/Qwen3.5-4B_Abliterated_GGUF"
     sources:
       - type: huggingface
-        user: SicariusSicariiStuff
-        repo: Qwen3.5-4B_Abliterated_GGUF
-  - key: ZuzeTt/Qwen3.5-4B-imatrix-GGUF
+        user: "SicariusSicariiStuff"
+        repo: "Qwen3.5-4B_Abliterated_GGUF"
+  - key: "ZuzeTt/Qwen3.5-4B-imatrix-GGUF"
     sources:
       - type: huggingface
-        user: ZuzeTt
-        repo: Qwen3.5-4B-imatrix-GGUF
-  - key: SicariusSicariiStuff/Qwen3.5-4B_Abliterated_ARM
+        user: "ZuzeTt"
+        repo: "Qwen3.5-4B-imatrix-GGUF"
+  - key: "SicariusSicariiStuff/Qwen3.5-4B_Abliterated_ARM"
     sources:
       - type: huggingface
-        user: SicariusSicariiStuff
-        repo: Qwen3.5-4B_Abliterated_ARM
-  - key: tvall43/Qwen3.5-4B-heretic-gguf
+        user: "SicariusSicariiStuff"
+        repo: "Qwen3.5-4B_Abliterated_ARM"
+  - key: "tvall43/Qwen3.5-4B-heretic-gguf"
     sources:
       - type: huggingface
-        user: tvall43
-        repo: Qwen3.5-4B-heretic-gguf
-  - key: Jagerfly/Qwen3.5-4b-PaperWitch-heresy-v2-gguf
+        user: "tvall43"
+        repo: "Qwen3.5-4B-heretic-gguf"
+  - key: "Jagerfly/Qwen3.5-4b-PaperWitch-heresy-v2-gguf"
     sources:
       - type: huggingface
-        user: Jagerfly
-        repo: Qwen3.5-4b-PaperWitch-heresy-v2-gguf
-  - key: mradermacher/Qwen3.5-4B_Abliterated-GGUF
+        user: "Jagerfly"
+        repo: "Qwen3.5-4b-PaperWitch-heresy-v2-gguf"
+  - key: "mradermacher/Qwen3.5-4B_Abliterated-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B_Abliterated-GGUF
-  - key: mradermacher/Qwen3.5-4B-PaperWitch-heresy-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B_Abliterated-GGUF"
+  - key: "mradermacher/Qwen3.5-4B-PaperWitch-heresy-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-PaperWitch-heresy-GGUF
-  - key: mradermacher/Qwen3.5-4B_Abliterated-i1-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-PaperWitch-heresy-GGUF"
+  - key: "mradermacher/Qwen3.5-4B_Abliterated-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B_Abliterated-i1-GGUF
-  - key: mradermacher/Qwen3.5-4B-PaperWitch-heresy-i1-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B_Abliterated-i1-GGUF"
+  - key: "mradermacher/Qwen3.5-4B-PaperWitch-heresy-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-PaperWitch-heresy-i1-GGUF
-  - key: lmstudio-community/qwen3.5-4b-abliterated-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-PaperWitch-heresy-i1-GGUF"
+  - key: "lmstudio-community/qwen3.5-4b-abliterated-GGUF"
     sources:
       - type: huggingface
-        user: lmstudio-community
-        repo: qwen3.5-4b-abliterated-GGUF
-  - key: HauhausCS/Qwen3.5-4B-Uncensored-HauhausCS-Aggressive
+        user: "lmstudio-community"
+        repo: "qwen3.5-4b-abliterated-GGUF"
+  - key: "HauhausCS/Qwen3.5-4B-Uncensored-HauhausCS-Aggressive"
     sources:
       - type: huggingface
-        user: HauhausCS
-        repo: Qwen3.5-4B-Uncensored-HauhausCS-Aggressive
-  - key: jc-builds/Qwen3.5-4B-Q4_K_M-GGUF
+        user: "HauhausCS"
+        repo: "Qwen3.5-4B-Uncensored-HauhausCS-Aggressive"
+  - key: "jc-builds/Qwen3.5-4B-Q4_K_M-GGUF"
     sources:
       - type: huggingface
-        user: jc-builds
-        repo: Qwen3.5-4B-Q4_K_M-GGUF
-  - key: Hack337/Qwen3.5-4B-high-reasoning-GGUF
+        user: "jc-builds"
+        repo: "Qwen3.5-4B-Q4_K_M-GGUF"
+  - key: "Hack337/Qwen3.5-4B-high-reasoning-GGUF"
     sources:
       - type: huggingface
-        user: Hack337
-        repo: Qwen3.5-4B-high-reasoning-GGUF
-  - key: jwest33/qwen3.5-4b-gabliterated-GGUF
+        user: "Hack337"
+        repo: "Qwen3.5-4B-high-reasoning-GGUF"
+  - key: "jwest33/qwen3.5-4b-gabliterated-GGUF"
     sources:
       - type: huggingface
-        user: jwest33
-        repo: qwen3.5-4b-gabliterated-GGUF
-  - key: StageMind/qwen3.5-4b
+        user: "jwest33"
+        repo: "qwen3.5-4b-gabliterated-GGUF"
+  - key: "StageMind/qwen3.5-4b"
     sources:
       - type: huggingface
-        user: StageMind
-        repo: qwen3.5-4b
-  - key: hinny/Qwen3.5-4B-GGUF-Q4_K_M
+        user: "StageMind"
+        repo: "qwen3.5-4b"
+  - key: "hinny/Qwen3.5-4B-GGUF-Q4_K_M"
     sources:
       - type: huggingface
-        user: hinny
-        repo: Qwen3.5-4B-GGUF-Q4_K_M
-  - key: LocalScribe/Qwen3.5-4B-Q4_K_M.gguf
+        user: "hinny"
+        repo: "Qwen3.5-4B-GGUF-Q4_K_M"
+  - key: "LocalScribe/Qwen3.5-4B-Q4_K_M.gguf"
     sources:
       - type: huggingface
-        user: LocalScribe
-        repo: Qwen3.5-4B-Q4_K_M.gguf
-  - key: Xlnk/Qwen3.5-4B-GGUF
+        user: "LocalScribe"
+        repo: "Qwen3.5-4B-Q4_K_M.gguf"
+  - key: "Xlnk/Qwen3.5-4B-GGUF"
     sources:
       - type: huggingface
-        user: Xlnk
-        repo: Qwen3.5-4B-GGUF
-  - key: mradermacher/Qwen3.5-4B-PaperWitch-heresy-v2-i11-GGUF
+        user: "Xlnk"
+        repo: "Qwen3.5-4B-GGUF"
+  - key: "mradermacher/Qwen3.5-4B-PaperWitch-heresy-v2-i11-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-PaperWitch-heresy-v2-i11-GGUF
-  - key: mradermacher/Qwen3.5-4B-PaperWitch-heresy-v2-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-PaperWitch-heresy-v2-i11-GGUF"
+  - key: "mradermacher/Qwen3.5-4B-PaperWitch-heresy-v2-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-PaperWitch-heresy-v2-GGUF
-  - key: staeiou/bartleby-qwen3.5-4b
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-PaperWitch-heresy-v2-GGUF"
+  - key: "staeiou/bartleby-qwen3.5-4b"
     sources:
       - type: huggingface
-        user: staeiou
-        repo: bartleby-qwen3.5-4b
-  - key: manuojvv/Qwen3.5-4B-gabliterated-Q8
+        user: "staeiou"
+        repo: "bartleby-qwen3.5-4b"
+  - key: "manuojvv/Qwen3.5-4B-gabliterated-Q8"
     sources:
       - type: huggingface
-        user: manuojvv
-        repo: Qwen3.5-4B-gabliterated-Q8
-  - key: montana888/qwen3.5-4B-options-finetune
+        user: "manuojvv"
+        repo: "Qwen3.5-4B-gabliterated-Q8"
+  - key: "montana888/qwen3.5-4B-options-finetune"
     sources:
       - type: huggingface
-        user: montana888
-        repo: qwen3.5-4B-options-finetune
-  - key: sjmtechcorp/Qwen3.5-4B-Q4_K_M.gguf
+        user: "montana888"
+        repo: "qwen3.5-4B-options-finetune"
+  - key: "sjmtechcorp/Qwen3.5-4B-Q4_K_M.gguf"
     sources:
       - type: huggingface
-        user: sjmtechcorp
-        repo: Qwen3.5-4B-Q4_K_M.gguf
-  - key: mradermacher/Qwen3.5-4B-heretic-GGUF
+        user: "sjmtechcorp"
+        repo: "Qwen3.5-4B-Q4_K_M.gguf"
+  - key: "mradermacher/Qwen3.5-4B-heretic-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-heretic-GGUF
-  - key: ZeroWw/Qwen3.5-4B-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-heretic-GGUF"
+  - key: "ZeroWw/Qwen3.5-4B-GGUF"
     sources:
       - type: huggingface
-        user: ZeroWw
-        repo: Qwen3.5-4B-GGUF
-  - key: steampunque/Qwen3.5-4B-MP-GGUF
+        user: "ZeroWw"
+        repo: "Qwen3.5-4B-GGUF"
+  - key: "steampunque/Qwen3.5-4B-MP-GGUF"
     sources:
       - type: huggingface
-        user: steampunque
-        repo: Qwen3.5-4B-MP-GGUF
-  - key: avnishrai1/qwen3.5-4b-gguf
+        user: "steampunque"
+        repo: "Qwen3.5-4B-MP-GGUF"
+  - key: "avnishrai1/qwen3.5-4b-gguf"
     sources:
       - type: huggingface
-        user: avnishrai1
-        repo: qwen3.5-4b-gguf
-  - key: filvyb/Qwen3.5-4B-heretic
+        user: "avnishrai1"
+        repo: "qwen3.5-4b-gguf"
+  - key: "filvyb/Qwen3.5-4B-heretic"
     sources:
       - type: huggingface
-        user: filvyb
-        repo: Qwen3.5-4B-heretic
-  - key: mradermacher/Qwen3.5-4B-heretic-i1-GGUF
+        user: "filvyb"
+        repo: "Qwen3.5-4B-heretic"
+  - key: "mradermacher/Qwen3.5-4B-heretic-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-heretic-i1-GGUF
-  - key: mradermacher/bartleby-qwen3.5-4b-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-heretic-i1-GGUF"
+  - key: "mradermacher/bartleby-qwen3.5-4b-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: bartleby-qwen3.5-4b-GGUF
-  - key: christopherwoodall/Qwen3.5-4B-abliterated-GGUF
+        user: "mradermacher"
+        repo: "bartleby-qwen3.5-4b-GGUF"
+  - key: "christopherwoodall/Qwen3.5-4B-abliterated-GGUF"
     sources:
       - type: huggingface
-        user: christopherwoodall
-        repo: Qwen3.5-4B-abliterated-GGUF
-  - key: Tofiq055/a4-qwen3.5-ros2-adversarial-4b-4096
+        user: "christopherwoodall"
+        repo: "Qwen3.5-4B-abliterated-GGUF"
+  - key: "Tofiq055/a4-qwen3.5-ros2-adversarial-4b-4096"
     sources:
       - type: huggingface
-        user: Tofiq055
-        repo: a4-qwen3.5-ros2-adversarial-4b-4096
-  - key: mradermacher/qwen3.5-4b-gabliterated-i1-GGUF
+        user: "Tofiq055"
+        repo: "a4-qwen3.5-ros2-adversarial-4b-4096"
+  - key: "mradermacher/qwen3.5-4b-gabliterated-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: qwen3.5-4b-gabliterated-i1-GGUF
-  - key: mradermacher/qwen3.5-4b-gabliterated-GGUF
+        user: "mradermacher"
+        repo: "qwen3.5-4b-gabliterated-i1-GGUF"
+  - key: "mradermacher/qwen3.5-4b-gabliterated-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: qwen3.5-4b-gabliterated-GGUF
-  - key: nfivez/Qwen3.5-4B-heretic-GGUF
+        user: "mradermacher"
+        repo: "qwen3.5-4b-gabliterated-GGUF"
+  - key: "nfivez/Qwen3.5-4B-heretic-GGUF"
     sources:
       - type: huggingface
-        user: nfivez
-        repo: Qwen3.5-4B-heretic-GGUF
-  - key: Aisho67/Qwen3.5-4b-Opus-4.6-Reasoning-Distilled-v1-GGUF
+        user: "nfivez"
+        repo: "Qwen3.5-4B-heretic-GGUF"
+  - key: "Aisho67/Qwen3.5-4b-Opus-4.6-Reasoning-Distilled-v1-GGUF"
     sources:
       - type: huggingface
-        user: Aisho67
-        repo: Qwen3.5-4b-Opus-4.6-Reasoning-Distilled-v1-GGUF
-  - key: mradermacher/Heretical-Qwen3.5-4B-i1-GGUF
+        user: "Aisho67"
+        repo: "Qwen3.5-4b-Opus-4.6-Reasoning-Distilled-v1-GGUF"
+  - key: "mradermacher/Heretical-Qwen3.5-4B-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Heretical-Qwen3.5-4B-i1-GGUF
-  - key: mradermacher/Heretical-Qwen3.5-4B-GGUF
+        user: "mradermacher"
+        repo: "Heretical-Qwen3.5-4B-i1-GGUF"
+  - key: "mradermacher/Heretical-Qwen3.5-4B-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Heretical-Qwen3.5-4B-GGUF
-  - key: RP3-AI/qwen3.5-4b-obliteratus-gguf
+        user: "mradermacher"
+        repo: "Heretical-Qwen3.5-4B-GGUF"
+  - key: "RP3-AI/qwen3.5-4b-obliteratus-gguf"
     sources:
       - type: huggingface
-        user: RP3-AI
-        repo: qwen3.5-4b-obliteratus-gguf
-  - key: avalon2244/Qwen3.5-4B-Claude-Opus-4.6-Distilled-GGUF
+        user: "RP3-AI"
+        repo: "qwen3.5-4b-obliteratus-gguf"
+  - key: "avalon2244/Qwen3.5-4B-Claude-Opus-4.6-Distilled-GGUF"
     sources:
       - type: huggingface
-        user: avalon2244
-        repo: Qwen3.5-4B-Claude-Opus-4.6-Distilled-GGUF
-  - key: avalon2244/Qwen3.5-4B-Claude-Opus-4.6-Distilled
+        user: "avalon2244"
+        repo: "Qwen3.5-4B-Claude-Opus-4.6-Distilled-GGUF"
+  - key: "avalon2244/Qwen3.5-4B-Claude-Opus-4.6-Distilled"
     sources:
       - type: huggingface
-        user: avalon2244
-        repo: Qwen3.5-4B-Claude-Opus-4.6-Distilled
-  - key: XformAI-india/Qwen3.5-4B-gguf
+        user: "avalon2244"
+        repo: "Qwen3.5-4B-Claude-Opus-4.6-Distilled"
+  - key: "XformAI-india/Qwen3.5-4B-gguf"
     sources:
       - type: huggingface
-        user: XformAI-india
-        repo: Qwen3.5-4B-gguf
-  - key: wesjos/Qwen3.5-4B-Fuck-GGUF
+        user: "XformAI-india"
+        repo: "Qwen3.5-4B-gguf"
+  - key: "wesjos/Qwen3.5-4B-Fuck-GGUF"
     sources:
       - type: huggingface
-        user: wesjos
-        repo: Qwen3.5-4B-Fuck-GGUF
-  - key: moinulmoin/Qwen3.5-4B-GGUF
+        user: "wesjos"
+        repo: "Qwen3.5-4B-Fuck-GGUF"
+  - key: "moinulmoin/Qwen3.5-4B-GGUF"
     sources:
       - type: huggingface
-        user: moinulmoin
-        repo: Qwen3.5-4B-GGUF
-  - key: mradermacher/Qwen3.5-4B_Homebrew-i1-GGUF
+        user: "moinulmoin"
+        repo: "Qwen3.5-4B-GGUF"
+  - key: "mradermacher/Qwen3.5-4B_Homebrew-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B_Homebrew-i1-GGUF
-  - key: mradermacher/Qwen3.5-4B_Homebrew-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B_Homebrew-i1-GGUF"
+  - key: "mradermacher/Qwen3.5-4B_Homebrew-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B_Homebrew-GGUF
-  - key: RX5950XTP/rx5950xt-digital-twin-Qwen3.5-4B
+        user: "mradermacher"
+        repo: "Qwen3.5-4B_Homebrew-GGUF"
+  - key: "RX5950XTP/rx5950xt-digital-twin-Qwen3.5-4B"
     sources:
       - type: huggingface
-        user: RX5950XTP
-        repo: rx5950xt-digital-twin-Qwen3.5-4B
-  - key: ghost-actual/Qwen3.5-4B-Claude-Opus-4.6-Distilled-heretic
+        user: "RX5950XTP"
+        repo: "rx5950xt-digital-twin-Qwen3.5-4B"
+  - key: "ghost-actual/Qwen3.5-4B-Claude-Opus-4.6-Distilled-heretic"
     sources:
       - type: huggingface
-        user: ghost-actual
-        repo: Qwen3.5-4B-Claude-Opus-4.6-Distilled-heretic
-  - key: HauhauCS/Qwen3.5-4B-Uncensored-HauhauCS-Aggressive
+        user: "ghost-actual"
+        repo: "Qwen3.5-4B-Claude-Opus-4.6-Distilled-heretic"
+  - key: "HauhauCS/Qwen3.5-4B-Uncensored-HauhauCS-Aggressive"
     sources:
       - type: huggingface
-        user: HauhauCS
-        repo: Qwen3.5-4B-Uncensored-HauhauCS-Aggressive
-  - key: Jackrong/Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF
+        user: "HauhauCS"
+        repo: "Qwen3.5-4B-Uncensored-HauhauCS-Aggressive"
+  - key: "Jackrong/Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF"
     sources:
       - type: huggingface
-        user: Jackrong
-        repo: Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF
-  - key: huihui-ai/Huihui-Qwen3.5-4B-abliterated
+        user: "Jackrong"
+        repo: "Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF"
+  - key: "huihui-ai/Huihui-Qwen3.5-4B-abliterated"
     sources:
       - type: huggingface
-        user: huihui-ai
-        repo: Huihui-Qwen3.5-4B-abliterated
-  - key: dahara1/Qwen3.5-4B-UD-japanese-imatrix
+        user: "huihui-ai"
+        repo: "Huihui-Qwen3.5-4B-abliterated"
+  - key: "dahara1/Qwen3.5-4B-UD-japanese-imatrix"
     sources:
       - type: huggingface
-        user: dahara1
-        repo: Qwen3.5-4B-UD-japanese-imatrix
-  - key: mradermacher/Qwen3.5-4B-Unredacted-MAX-i1-GGUF
+        user: "dahara1"
+        repo: "Qwen3.5-4B-UD-japanese-imatrix"
+  - key: "mradermacher/Qwen3.5-4B-Unredacted-MAX-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-Unredacted-MAX-i1-GGUF
-  - key: mradermacher/Huihui-Qwen3.5-4B-abliterated-i1-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-Unredacted-MAX-i1-GGUF"
+  - key: "mradermacher/Huihui-Qwen3.5-4B-abliterated-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Huihui-Qwen3.5-4B-abliterated-i1-GGUF
-  - key: mradermacher/Qwen3.5-4B-Element-i1-GGUF
+        user: "mradermacher"
+        repo: "Huihui-Qwen3.5-4B-abliterated-i1-GGUF"
+  - key: "mradermacher/Qwen3.5-4B-Element-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-Element-i1-GGUF
-  - key: mradermacher/Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distill-heretic-v3-i1-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-Element-i1-GGUF"
+  - key: "mradermacher/Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distill-heretic-v3-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distill-heretic-v3-i1-GGUF
-  - key: mradermacher/Huihui-Qwen3.5-4B-Claude-4.6-Opus-abliterated-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distill-heretic-v3-i1-GGUF"
+  - key: "mradermacher/Huihui-Qwen3.5-4B-Claude-4.6-Opus-abliterated-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Huihui-Qwen3.5-4B-Claude-4.6-Opus-abliterated-GGUF
-  - key: mradermacher/Qwen3.5-4B-Abliterated-Claude-4.6-Opus-Reasoning-Distilled-i1-GGUF
+        user: "mradermacher"
+        repo: "Huihui-Qwen3.5-4B-Claude-4.6-Opus-abliterated-GGUF"
+  - key: "mradermacher/Qwen3.5-4B-Abliterated-Claude-4.6-Opus-Reasoning-Distilled-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-Abliterated-Claude-4.6-Opus-Reasoning-Distilled-i1-GGUF
-  - key: mradermacher/Qwen3.5-4B-Claude-Opus-Reasoning-i1-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-Abliterated-Claude-4.6-Opus-Reasoning-Distilled-i1-GGUF"
+  - key: "mradermacher/Qwen3.5-4B-Claude-Opus-Reasoning-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-Claude-Opus-Reasoning-i1-GGUF
-  - key: mradermacher/Qwen3.5-4B-abliterated-i1-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-Claude-Opus-Reasoning-i1-GGUF"
+  - key: "mradermacher/Qwen3.5-4B-abliterated-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-abliterated-i1-GGUF
-  - key: mradermacher/Huihui-Qwen3.5-4B-abliterated-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-abliterated-i1-GGUF"
+  - key: "mradermacher/Huihui-Qwen3.5-4B-abliterated-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Huihui-Qwen3.5-4B-abliterated-GGUF
-  - key: khtsly/Qwen3.5-4B-Claude-4.6-Opus-Distilled-32k-GGUF
+        user: "mradermacher"
+        repo: "Huihui-Qwen3.5-4B-abliterated-GGUF"
+  - key: "khtsly/Qwen3.5-4B-Claude-4.6-Opus-Distilled-32k-GGUF"
     sources:
       - type: huggingface
-        user: khtsly
-        repo: Qwen3.5-4B-Claude-4.6-Opus-Distilled-32k-GGUF
-  - key: mradermacher/Qwen3.5-4B-NSFW-ARA-Heretic-Literotica-i1-GGUF
+        user: "khtsly"
+        repo: "Qwen3.5-4B-Claude-4.6-Opus-Distilled-32k-GGUF"
+  - key: "mradermacher/Qwen3.5-4B-NSFW-ARA-Heretic-Literotica-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-NSFW-ARA-Heretic-Literotica-i1-GGUF
-  - key: Andycurrent/Qwen3.5-4B-Uncensored-HauhauCS-Aggressive
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-NSFW-ARA-Heretic-Literotica-i1-GGUF"
+  - key: "Andycurrent/Qwen3.5-4B-Uncensored-HauhauCS-Aggressive"
     sources:
       - type: huggingface
-        user: Andycurrent
-        repo: Qwen3.5-4B-Uncensored-HauhauCS-Aggressive
-  - key: mradermacher/Qwen3.5-4B-heretic-v2-i1-GGUF
+        user: "Andycurrent"
+        repo: "Qwen3.5-4B-Uncensored-HauhauCS-Aggressive"
+  - key: "mradermacher/Qwen3.5-4B-heretic-v2-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-heretic-v2-i1-GGUF
-  - key: Jackrong/Qwen3.5-4B-Neo-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-heretic-v2-i1-GGUF"
+  - key: "Jackrong/Qwen3.5-4B-Neo-GGUF"
     sources:
       - type: huggingface
-        user: Jackrong
-        repo: Qwen3.5-4B-Neo-GGUF
-  - key: mradermacher/Qwen3.5-4B-SOMPOA-heresy-v2-i1-GGUF
+        user: "Jackrong"
+        repo: "Qwen3.5-4B-Neo-GGUF"
+  - key: "mradermacher/Qwen3.5-4B-SOMPOA-heresy-v2-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-SOMPOA-heresy-v2-i1-GGUF
-  - key: ZuzeTt/Qwen3.5-4B-heretic-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-SOMPOA-heresy-v2-i1-GGUF"
+  - key: "ZuzeTt/Qwen3.5-4B-heretic-GGUF"
     sources:
       - type: huggingface
-        user: ZuzeTt
-        repo: Qwen3.5-4B-heretic-GGUF
-  - key: mradermacher/Qwen3.5-4B-Gemini-Pro-HighIQ-THINKING-i1-GGUF
+        user: "ZuzeTt"
+        repo: "Qwen3.5-4B-heretic-GGUF"
+  - key: "mradermacher/Qwen3.5-4B-Gemini-Pro-HighIQ-THINKING-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-Gemini-Pro-HighIQ-THINKING-i1-GGUF
-  - key: mradermacher/Qwen3.5-4B-Unfiltered-i1-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-Gemini-Pro-HighIQ-THINKING-i1-GGUF"
+  - key: "mradermacher/Qwen3.5-4B-Unfiltered-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-Unfiltered-i1-GGUF
-  - key: TeichAI/Qwen3.5-4B-Claude-Opus-Reasoning-Distill-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-Unfiltered-i1-GGUF"
+  - key: "TeichAI/Qwen3.5-4B-Claude-Opus-Reasoning-Distill-GGUF"
     sources:
       - type: huggingface
-        user: TeichAI
-        repo: Qwen3.5-4B-Claude-Opus-Reasoning-Distill-GGUF
-  - key: mradermacher/Gliese-Qwen3.5-4B-Abliterated-Caption-i1-GGUF
+        user: "TeichAI"
+        repo: "Qwen3.5-4B-Claude-Opus-Reasoning-Distill-GGUF"
+  - key: "mradermacher/Gliese-Qwen3.5-4B-Abliterated-Caption-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Gliese-Qwen3.5-4B-Abliterated-Caption-i1-GGUF
-  - key: iforlouyou/Qwen3.5-4B-imatrix-GGUF
+        user: "mradermacher"
+        repo: "Gliese-Qwen3.5-4B-Abliterated-Caption-i1-GGUF"
+  - key: "iforlouyou/Qwen3.5-4B-imatrix-GGUF"
     sources:
       - type: huggingface
-        user: iforlouyou
-        repo: Qwen3.5-4B-imatrix-GGUF
-  - key: mradermacher/Qwen3.5-4B-Deckard-HERETIC-UNCENSORED-Thinking-i1-GGUF
+        user: "iforlouyou"
+        repo: "Qwen3.5-4B-imatrix-GGUF"
+  - key: "mradermacher/Qwen3.5-4B-Deckard-HERETIC-UNCENSORED-Thinking-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-Deckard-HERETIC-UNCENSORED-Thinking-i1-GGUF
-  - key: mradermacher/Qwen3.5-4B-Safety-Thinking-i1-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-Deckard-HERETIC-UNCENSORED-Thinking-i1-GGUF"
+  - key: "mradermacher/Qwen3.5-4B-Safety-Thinking-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-Safety-Thinking-i1-GGUF
-  - key: daniloreddy/Qwen3.5-4B_GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-Safety-Thinking-i1-GGUF"
+  - key: "daniloreddy/Qwen3.5-4B_GGUF"
     sources:
       - type: huggingface
-        user: daniloreddy
-        repo: Qwen3.5-4B_GGUF
-  - key: mradermacher/Qwen3.5-4B-TNG-DS9-HERETIC-UNCENSORED-Thinking-i1-GGUF
+        user: "daniloreddy"
+        repo: "Qwen3.5-4B_GGUF"
+  - key: "mradermacher/Qwen3.5-4B-TNG-DS9-HERETIC-UNCENSORED-Thinking-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-TNG-DS9-HERETIC-UNCENSORED-Thinking-i1-GGUF
-  - key: cmp-nct/Qwen3.5-4B-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-TNG-DS9-HERETIC-UNCENSORED-Thinking-i1-GGUF"
+  - key: "cmp-nct/Qwen3.5-4B-GGUF"
     sources:
       - type: huggingface
-        user: cmp-nct
-        repo: Qwen3.5-4B-GGUF
-  - key: Mungert/Qwen3.5-4B-GGUF
+        user: "cmp-nct"
+        repo: "Qwen3.5-4B-GGUF"
+  - key: "Mungert/Qwen3.5-4B-GGUF"
     sources:
       - type: huggingface
-        user: Mungert
-        repo: Qwen3.5-4B-GGUF
-  - key: mradermacher/Qwen3.5-4B-Singularity-Max-i1-GGUF
+        user: "Mungert"
+        repo: "Qwen3.5-4B-GGUF"
+  - key: "mradermacher/Qwen3.5-4B-Singularity-Max-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-Singularity-Max-i1-GGUF
-  - key: mradermacher/Qwen3.5-4B-ARA-heresy-v2-i1-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-Singularity-Max-i1-GGUF"
+  - key: "mradermacher/Qwen3.5-4B-ARA-heresy-v2-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-ARA-heresy-v2-i1-GGUF
-  - key: mradermacher/Luna-Qwen3.5-4B-v5-i1-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-ARA-heresy-v2-i1-GGUF"
+  - key: "mradermacher/Luna-Qwen3.5-4B-v5-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Luna-Qwen3.5-4B-v5-i1-GGUF
-  - key: mradermacher/Qwen3.5-4B-Neo-heretic-i1-GGUF
+        user: "mradermacher"
+        repo: "Luna-Qwen3.5-4B-v5-i1-GGUF"
+  - key: "mradermacher/Qwen3.5-4B-Neo-heretic-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-Neo-heretic-i1-GGUF
-  - key: mradermacher/Qwen3.5-4B-Claude-4.6-OS-Auto-Variable-HERETIC-UNCENSORED-THINKING-i1-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-Neo-heretic-i1-GGUF"
+  - key: "mradermacher/Qwen3.5-4B-Claude-4.6-OS-Auto-Variable-HERETIC-UNCENSORED-THINKING-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-Claude-4.6-OS-Auto-Variable-HERETIC-UNCENSORED-THINKING-i1-GGUF
-  - key: mradermacher/Qwen3.5-4B-ARA-heresy-i1-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-Claude-4.6-OS-Auto-Variable-HERETIC-UNCENSORED-THINKING-i1-GGUF"
+  - key: "mradermacher/Qwen3.5-4B-ARA-heresy-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-ARA-heresy-i1-GGUF
-  - key: mradermacher/Qwen3.5-4B-Claude-4.6-OS-Auto-Variable-HERETIC-UNCENSORED-THINKING-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-ARA-heresy-i1-GGUF"
+  - key: "mradermacher/Qwen3.5-4B-Claude-4.6-OS-Auto-Variable-HERETIC-UNCENSORED-THINKING-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-Claude-4.6-OS-Auto-Variable-HERETIC-UNCENSORED-THINKING-GGUF
-  - key: Abhiray/Qwen3.5-4B-Abliterated-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-Claude-4.6-OS-Auto-Variable-HERETIC-UNCENSORED-THINKING-GGUF"
+  - key: "Abhiray/Qwen3.5-4B-Abliterated-Claude-4.6-Opus-Reasoning-Distilled-GGUF"
     sources:
       - type: huggingface
-        user: Abhiray
-        repo: Qwen3.5-4B-Abliterated-Claude-4.6-Opus-Reasoning-Distilled-GGUF
-  - key: mradermacher/Qwen3.5-4B-PaperWitch-heresy-v2-i1-GGUF
+        user: "Abhiray"
+        repo: "Qwen3.5-4B-Abliterated-Claude-4.6-Opus-Reasoning-Distilled-GGUF"
+  - key: "mradermacher/Qwen3.5-4B-PaperWitch-heresy-v2-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-PaperWitch-heresy-v2-i1-GGUF
-  - key: mradermacher/Qwen3.5-4B-NSFW-Literotica-i1-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-PaperWitch-heresy-v2-i1-GGUF"
+  - key: "mradermacher/Qwen3.5-4B-NSFW-Literotica-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-NSFW-Literotica-i1-GGUF
-  - key: mradermacher/Qwen3.5-4B-NSFW-ARA-Heretic-Literotica-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-NSFW-Literotica-i1-GGUF"
+  - key: "mradermacher/Qwen3.5-4B-NSFW-ARA-Heretic-Literotica-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-NSFW-ARA-Heretic-Literotica-GGUF
-  - key: prithivMLmods/Gliese-Qwen3.5-4B-Abliterated-Caption
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-NSFW-ARA-Heretic-Literotica-GGUF"
+  - key: "prithivMLmods/Gliese-Qwen3.5-4B-Abliterated-Caption"
     sources:
       - type: huggingface
-        user: prithivMLmods
-        repo: Gliese-Qwen3.5-4B-Abliterated-Caption
-  - key: mradermacher/Qwen3.5-4B-Claude-4.6-HighIQ-THINKING-i1-GGUF
+        user: "prithivMLmods"
+        repo: "Gliese-Qwen3.5-4B-Abliterated-Caption"
+  - key: "mradermacher/Qwen3.5-4B-Claude-4.6-HighIQ-THINKING-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-Claude-4.6-HighIQ-THINKING-i1-GGUF
-  - key: mradermacher/Dan-Qwen3.5-4B-i1-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-Claude-4.6-HighIQ-THINKING-i1-GGUF"
+  - key: "mradermacher/Dan-Qwen3.5-4B-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Dan-Qwen3.5-4B-i1-GGUF
-  - key: mradermacher/Qwen3.5-4B-abliterated-aggressive-i1-GGUF
+        user: "mradermacher"
+        repo: "Dan-Qwen3.5-4B-i1-GGUF"
+  - key: "mradermacher/Qwen3.5-4B-abliterated-aggressive-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-abliterated-aggressive-i1-GGUF
-  - key: mradermacher/Qwen3.5-4B-LaTeX-i1-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-abliterated-aggressive-i1-GGUF"
+  - key: "mradermacher/Qwen3.5-4B-LaTeX-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-LaTeX-i1-GGUF
-  - key: mradermacher/Qwen3.5-4B-abliterated-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-LaTeX-i1-GGUF"
+  - key: "mradermacher/Qwen3.5-4B-abliterated-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-abliterated-GGUF
-  - key: mradermacher/Qwen3.5-4B-i1-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-abliterated-GGUF"
+  - key: "mradermacher/Qwen3.5-4B-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-i1-GGUF
-  - key: bartowski/Jackrong_Qwen3.5-4B-Neo-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-i1-GGUF"
+  - key: "bartowski/Jackrong_Qwen3.5-4B-Neo-GGUF"
     sources:
       - type: huggingface
-        user: bartowski
-        repo: Jackrong_Qwen3.5-4B-Neo-GGUF
-  - key: mradermacher/tvall43-Qwen3.5-4B-heretic-v2-i1-GGUF
+        user: "bartowski"
+        repo: "Jackrong_Qwen3.5-4B-Neo-GGUF"
+  - key: "mradermacher/tvall43-Qwen3.5-4B-heretic-v2-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: tvall43-Qwen3.5-4B-heretic-v2-i1-GGUF
-  - key: mradermacher/Qwen3.5-4B-SOMPOA-heresy-i1-GGUF
+        user: "mradermacher"
+        repo: "tvall43-Qwen3.5-4B-heretic-v2-i1-GGUF"
+  - key: "mradermacher/Qwen3.5-4B-SOMPOA-heresy-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-SOMPOA-heresy-i1-GGUF
-  - key: mradermacher/Huihui-Qwen3.5-4B-Claude-4.6-Opus-abliterated-i1-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-SOMPOA-heresy-i1-GGUF"
+  - key: "mradermacher/Huihui-Qwen3.5-4B-Claude-4.6-Opus-abliterated-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Huihui-Qwen3.5-4B-Claude-4.6-Opus-abliterated-i1-GGUF
-  - key: Sinbad-The-Sailor/Qwen3.5-4B-NSFW-ARA-Heretic-Literotica-i1-GGUF
+        user: "mradermacher"
+        repo: "Huihui-Qwen3.5-4B-Claude-4.6-Opus-abliterated-i1-GGUF"
+  - key: "Sinbad-The-Sailor/Qwen3.5-4B-NSFW-ARA-Heretic-Literotica-i1-GGUF"
     sources:
       - type: huggingface
-        user: Sinbad-The-Sailor
-        repo: Qwen3.5-4B-NSFW-ARA-Heretic-Literotica-i1-GGUF
-  - key: mradermacher/Qwen3.5-4B-SOMPOA-heresy-v2-GGUF
+        user: "Sinbad-The-Sailor"
+        repo: "Qwen3.5-4B-NSFW-ARA-Heretic-Literotica-i1-GGUF"
+  - key: "mradermacher/Qwen3.5-4B-SOMPOA-heresy-v2-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-SOMPOA-heresy-v2-GGUF
-  - key: mradermacher/Qwen3.5-4B-Unredacted-MAX-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-SOMPOA-heresy-v2-GGUF"
+  - key: "mradermacher/Qwen3.5-4B-Unredacted-MAX-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-Unredacted-MAX-GGUF
-  - key: mradermacher/Qwen3.5-4B-Neo-i1-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-Unredacted-MAX-GGUF"
+  - key: "mradermacher/Qwen3.5-4B-Neo-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-Neo-i1-GGUF
-  - key: Smoffyy/Qwen3.5-4B-Instruct-Pure-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-Neo-i1-GGUF"
+  - key: "Smoffyy/Qwen3.5-4B-Instruct-Pure-GGUF"
     sources:
       - type: huggingface
-        user: Smoffyy
-        repo: Qwen3.5-4B-Instruct-Pure-GGUF
-  - key: mradermacher/Qwen3.5-4B-heretic-v2-GGUF
+        user: "Smoffyy"
+        repo: "Qwen3.5-4B-Instruct-Pure-GGUF"
+  - key: "mradermacher/Qwen3.5-4B-heretic-v2-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-heretic-v2-GGUF
-  - key: mradermacher/Qwen3.5-4B-Abliterated-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-heretic-v2-GGUF"
+  - key: "mradermacher/Qwen3.5-4B-Abliterated-Claude-4.6-Opus-Reasoning-Distilled-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-Abliterated-Claude-4.6-Opus-Reasoning-Distilled-GGUF
-  - key: mradermacher/Gliese-Qwen3.5-4B-Abliterated-Caption-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-Abliterated-Claude-4.6-Opus-Reasoning-Distilled-GGUF"
+  - key: "mradermacher/Gliese-Qwen3.5-4B-Abliterated-Caption-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Gliese-Qwen3.5-4B-Abliterated-Caption-GGUF
-  - key: mradermacher/Qwen3.5-4B-Gemini-Pro-HighIQ-THINKING-GGUF
+        user: "mradermacher"
+        repo: "Gliese-Qwen3.5-4B-Abliterated-Caption-GGUF"
+  - key: "mradermacher/Qwen3.5-4B-Gemini-Pro-HighIQ-THINKING-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-Gemini-Pro-HighIQ-THINKING-GGUF
-  - key: mradermacher/Qwen3.5-4B-Unfiltered-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-Gemini-Pro-HighIQ-THINKING-GGUF"
+  - key: "mradermacher/Qwen3.5-4B-Unfiltered-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-Unfiltered-GGUF
-  - key: JIULANG/unsloth-Qwen3.5-4B-Instruct-CitationMarker-GGUG
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-Unfiltered-GGUF"
+  - key: "JIULANG/unsloth-Qwen3.5-4B-Instruct-CitationMarker-GGUG"
     sources:
       - type: huggingface
-        user: JIULANG
-        repo: unsloth-Qwen3.5-4B-Instruct-CitationMarker-GGUG
-  - key: sulpikar2/Qwen3.5-4B-Claude-4.6-Opus-Reasoning-openclaw
+        user: "JIULANG"
+        repo: "unsloth-Qwen3.5-4B-Instruct-CitationMarker-GGUG"
+  - key: "sulpikar2/Qwen3.5-4B-Claude-4.6-Opus-Reasoning-openclaw"
     sources:
       - type: huggingface
-        user: sulpikar2
-        repo: Qwen3.5-4B-Claude-4.6-Opus-Reasoning-openclaw
-  - key: mradermacher/NSFW-RP-Qwen3.5-4B-i1-GGUF
+        user: "sulpikar2"
+        repo: "Qwen3.5-4B-Claude-4.6-Opus-Reasoning-openclaw"
+  - key: "mradermacher/NSFW-RP-Qwen3.5-4B-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: NSFW-RP-Qwen3.5-4B-i1-GGUF
-  - key: mradermacher/Qwen3.5-4B-Claude-4.6-HighIQ-THINKING-GGUF
+        user: "mradermacher"
+        repo: "NSFW-RP-Qwen3.5-4B-i1-GGUF"
+  - key: "mradermacher/Qwen3.5-4B-Claude-4.6-HighIQ-THINKING-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-Claude-4.6-HighIQ-THINKING-GGUF
-  - key: mradermacher/Qwen3.5-4B-Singularity-Max-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-Claude-4.6-HighIQ-THINKING-GGUF"
+  - key: "mradermacher/Qwen3.5-4B-Singularity-Max-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-Singularity-Max-GGUF
-  - key: clearloop/Qwen3.5-4B-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-Singularity-Max-GGUF"
+  - key: "clearloop/Qwen3.5-4B-GGUF"
     sources:
       - type: huggingface
-        user: clearloop
-        repo: Qwen3.5-4B-GGUF
-  - key: mradermacher/Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled-v2-heretic-i1-GGUF
+        user: "clearloop"
+        repo: "Qwen3.5-4B-GGUF"
+  - key: "mradermacher/Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled-v2-heretic-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled-v2-heretic-i1-GGUF
-  - key: mradermacher/Qwen3.5-4B-Element-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled-v2-heretic-i1-GGUF"
+  - key: "mradermacher/Qwen3.5-4B-Element-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-Element-GGUF
-  - key: Benasd/Qwen3.5-4B-Instruct-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-Element-GGUF"
+  - key: "Benasd/Qwen3.5-4B-Instruct-GGUF"
     sources:
       - type: huggingface
-        user: Benasd
-        repo: Qwen3.5-4B-Instruct-GGUF
-  - key: MdSajjadurRahaman/Qwen3.5-4B-GGUF
+        user: "Benasd"
+        repo: "Qwen3.5-4B-Instruct-GGUF"
+  - key: "MdSajjadurRahaman/Qwen3.5-4B-GGUF"
     sources:
       - type: huggingface
-        user: MdSajjadurRahaman
-        repo: Qwen3.5-4B-GGUF
-  - key: mradermacher/Qwen3.5-4B-Claude-Opus-Reasoning-Distill-i1-GGUF
+        user: "MdSajjadurRahaman"
+        repo: "Qwen3.5-4B-GGUF"
+  - key: "mradermacher/Qwen3.5-4B-Claude-Opus-Reasoning-Distill-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-Claude-Opus-Reasoning-Distill-i1-GGUF
-  - key: mradermacher/Qwen3.5-4B-Claude-Opus-Reasoning-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-Claude-Opus-Reasoning-Distill-i1-GGUF"
+  - key: "mradermacher/Qwen3.5-4B-Claude-Opus-Reasoning-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-Claude-Opus-Reasoning-GGUF
-  - key: mradermacher/NSFW-RP-Qwen3.5-4B-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-Claude-Opus-Reasoning-GGUF"
+  - key: "mradermacher/NSFW-RP-Qwen3.5-4B-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: NSFW-RP-Qwen3.5-4B-GGUF
-  - key: mradermacher/Huihui-Qwen3.5-4B-abliterated-Athanorlite-ORPO-i1-GGUF
+        user: "mradermacher"
+        repo: "NSFW-RP-Qwen3.5-4B-GGUF"
+  - key: "mradermacher/Huihui-Qwen3.5-4B-abliterated-Athanorlite-ORPO-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Huihui-Qwen3.5-4B-abliterated-Athanorlite-ORPO-i1-GGUF
-  - key: mradermacher/Qwen3.5-4B-GGUF
+        user: "mradermacher"
+        repo: "Huihui-Qwen3.5-4B-abliterated-Athanorlite-ORPO-i1-GGUF"
+  - key: "mradermacher/Qwen3.5-4B-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-GGUF
-  - key: sakamakismile/Huihui-Qwen3.5-4B-abliterated-NVFP4
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-GGUF"
+  - key: "sakamakismile/Huihui-Qwen3.5-4B-abliterated-NVFP4"
     sources:
       - type: huggingface
-        user: sakamakismile
-        repo: Huihui-Qwen3.5-4B-abliterated-NVFP4
-  - key: julien-c/Qwen3.5-4B-uncensored-GGUF
+        user: "sakamakismile"
+        repo: "Huihui-Qwen3.5-4B-abliterated-NVFP4"
+  - key: "julien-c/Qwen3.5-4B-uncensored-GGUF"
     sources:
       - type: huggingface
-        user: julien-c
-        repo: Qwen3.5-4B-uncensored-GGUF
-  - key: mradermacher/Qwen3.5-4B-Deckard-HERETIC-UNCENSORED-Thinking-GGUF
+        user: "julien-c"
+        repo: "Qwen3.5-4B-uncensored-GGUF"
+  - key: "mradermacher/Qwen3.5-4B-Deckard-HERETIC-UNCENSORED-Thinking-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-Deckard-HERETIC-UNCENSORED-Thinking-GGUF
-  - key: mradermacher/Qwen3.5-4B-MiniFantasy-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-Deckard-HERETIC-UNCENSORED-Thinking-GGUF"
+  - key: "mradermacher/Qwen3.5-4B-MiniFantasy-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-MiniFantasy-GGUF
-  - key: mradermacher/Qwen3.5-4B-uncensored-ara-i1-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-MiniFantasy-GGUF"
+  - key: "mradermacher/Qwen3.5-4B-uncensored-ara-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-uncensored-ara-i1-GGUF
-  - key: mradermacher/Uni-MuMER-Qwen3.5-4B-i1-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-uncensored-ara-i1-GGUF"
+  - key: "mradermacher/Uni-MuMER-Qwen3.5-4B-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Uni-MuMER-Qwen3.5-4B-i1-GGUF
-  - key: mradermacher/Qwen3.5-4B-uncensored-zero-i1-GGUF
+        user: "mradermacher"
+        repo: "Uni-MuMER-Qwen3.5-4B-i1-GGUF"
+  - key: "mradermacher/Qwen3.5-4B-uncensored-zero-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-uncensored-zero-i1-GGUF
-  - key: mradermacher/A3-Qwen3.5-4B-i1-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-uncensored-zero-i1-GGUF"
+  - key: "mradermacher/A3-Qwen3.5-4B-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: A3-Qwen3.5-4B-i1-GGUF
-  - key: lolzinventor/Qwen3.5-4B-Base-ZitGen-V1
+        user: "mradermacher"
+        repo: "A3-Qwen3.5-4B-i1-GGUF"
+  - key: "lolzinventor/Qwen3.5-4B-Base-ZitGen-V1"
     sources:
       - type: huggingface
-        user: lolzinventor
-        repo: Qwen3.5-4B-Base-ZitGen-V1
-  - key: eaddario/Qwen3.5-4B-GGUF
+        user: "lolzinventor"
+        repo: "Qwen3.5-4B-Base-ZitGen-V1"
+  - key: "eaddario/Qwen3.5-4B-GGUF"
     sources:
       - type: huggingface
-        user: eaddario
-        repo: Qwen3.5-4B-GGUF
-  - key: mradermacher/Qwen3.5-4B-Base-ZitGen-V1-heretic-i1-GGUF
+        user: "eaddario"
+        repo: "Qwen3.5-4B-GGUF"
+  - key: "mradermacher/Qwen3.5-4B-Base-ZitGen-V1-heretic-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-Base-ZitGen-V1-heretic-i1-GGUF
-  - key: bubiche/Qwen3.5-4B-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-Base-ZitGen-V1-heretic-i1-GGUF"
+  - key: "bubiche/Qwen3.5-4B-GGUF"
     sources:
       - type: huggingface
-        user: bubiche
-        repo: Qwen3.5-4B-GGUF
-  - key: mradermacher/Qwen3.5-4B-NSFW-Literotica-GGUF
+        user: "bubiche"
+        repo: "Qwen3.5-4B-GGUF"
+  - key: "mradermacher/Qwen3.5-4B-NSFW-Literotica-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-NSFW-Literotica-GGUF
-  - key: sukai-123/Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-NSFW-Literotica-GGUF"
+  - key: "sukai-123/Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled-GGUF"
     sources:
       - type: huggingface
-        user: sukai-123
-        repo: Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
-  - key: mradermacher/Qwen3.5-4B-Neo-heretic-GGUF
+        user: "sukai-123"
+        repo: "Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled-GGUF"
+  - key: "mradermacher/Qwen3.5-4B-Neo-heretic-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-Neo-heretic-GGUF
-  - key: mradermacher/Qwen3.5-4B-uncensored-zero-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-Neo-heretic-GGUF"
+  - key: "mradermacher/Qwen3.5-4B-uncensored-zero-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-uncensored-zero-GGUF
-  - key: mradermacher/A3-Qwen3.5-4B-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-uncensored-zero-GGUF"
+  - key: "mradermacher/A3-Qwen3.5-4B-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: A3-Qwen3.5-4B-GGUF
-  - key: mradermacher/Qwen3.5-4B-uncensored-ara-GGUF
+        user: "mradermacher"
+        repo: "A3-Qwen3.5-4B-GGUF"
+  - key: "mradermacher/Qwen3.5-4B-uncensored-ara-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-uncensored-ara-GGUF
-  - key: mradermacher/Uni-MuMER-Qwen3.5-4B-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-uncensored-ara-GGUF"
+  - key: "mradermacher/Uni-MuMER-Qwen3.5-4B-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Uni-MuMER-Qwen3.5-4B-GGUF
-  - key: mradermacher/Qwen3.5-4B-Claude-Opus-Reasoning-Distill-GGUF
+        user: "mradermacher"
+        repo: "Uni-MuMER-Qwen3.5-4B-GGUF"
+  - key: "mradermacher/Qwen3.5-4B-Claude-Opus-Reasoning-Distill-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-Claude-Opus-Reasoning-Distill-GGUF
-  - key: mradermacher/qwen3.5-4b-andalusian-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-Claude-Opus-Reasoning-Distill-GGUF"
+  - key: "mradermacher/qwen3.5-4b-andalusian-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: qwen3.5-4b-andalusian-GGUF
-  - key: mradermacher/Qwen3.5-4B-Neo-GGUF
+        user: "mradermacher"
+        repo: "qwen3.5-4b-andalusian-GGUF"
+  - key: "mradermacher/Qwen3.5-4B-Neo-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-Neo-GGUF
-  - key: mradermacher/tvall43-Qwen3.5-4B-heretic-v2-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-Neo-GGUF"
+  - key: "mradermacher/tvall43-Qwen3.5-4B-heretic-v2-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: tvall43-Qwen3.5-4B-heretic-v2-GGUF
-  - key: mradermacher/ObjNav-Qwen3.5-4B-SFT-GGUF
+        user: "mradermacher"
+        repo: "tvall43-Qwen3.5-4B-heretic-v2-GGUF"
+  - key: "mradermacher/ObjNav-Qwen3.5-4B-SFT-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: ObjNav-Qwen3.5-4B-SFT-GGUF
-  - key: mradermacher/Qwen3.5-4b-EBOS-GRPO-v1-i1-GGUF
+        user: "mradermacher"
+        repo: "ObjNav-Qwen3.5-4B-SFT-GGUF"
+  - key: "mradermacher/Qwen3.5-4b-EBOS-GRPO-v1-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4b-EBOS-GRPO-v1-i1-GGUF
-  - key: mradermacher/qwen3.5-4b-demon-angel-i1-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4b-EBOS-GRPO-v1-i1-GGUF"
+  - key: "mradermacher/qwen3.5-4b-demon-angel-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: qwen3.5-4b-demon-angel-i1-GGUF
-  - key: mradermacher/Qwen3.5-4B-EBOS-v2-i1-GGUF
+        user: "mradermacher"
+        repo: "qwen3.5-4b-demon-angel-i1-GGUF"
+  - key: "mradermacher/Qwen3.5-4B-EBOS-v2-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-EBOS-v2-i1-GGUF
-  - key: mradermacher/Qwen3.5-4b-EBOS-GRPO-v1-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-EBOS-v2-i1-GGUF"
+  - key: "mradermacher/Qwen3.5-4b-EBOS-GRPO-v1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4b-EBOS-GRPO-v1-GGUF
-  - key: Shumatsurontek/Qwen3.5-4B-neo
+        user: "mradermacher"
+        repo: "Qwen3.5-4b-EBOS-GRPO-v1-GGUF"
+  - key: "Shumatsurontek/Qwen3.5-4B-neo"
     sources:
       - type: huggingface
-        user: Shumatsurontek
-        repo: Qwen3.5-4B-neo
-  - key: mradermacher/qwen3.5-4b-demon-angel-GGUF
+        user: "Shumatsurontek"
+        repo: "Qwen3.5-4B-neo"
+  - key: "mradermacher/qwen3.5-4b-demon-angel-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: qwen3.5-4b-demon-angel-GGUF
-  - key: mradermacher/Huihui-Qwen3.5-4B-abliterated-Athanorlite-ORPO-GGUF
+        user: "mradermacher"
+        repo: "qwen3.5-4b-demon-angel-GGUF"
+  - key: "mradermacher/Huihui-Qwen3.5-4B-abliterated-Athanorlite-ORPO-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Huihui-Qwen3.5-4B-abliterated-Athanorlite-ORPO-GGUF
-  - key: mradermacher/Qwen3.5-4B-Base-i1-GGUF
+        user: "mradermacher"
+        repo: "Huihui-Qwen3.5-4B-abliterated-Athanorlite-ORPO-GGUF"
+  - key: "mradermacher/Qwen3.5-4B-Base-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-Base-i1-GGUF
-  - key: mradermacher/TQL-Coder-Qwen3.5-4B-thinking-GGUF
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-Base-i1-GGUF"
+  - key: "mradermacher/TQL-Coder-Qwen3.5-4B-thinking-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: TQL-Coder-Qwen3.5-4B-thinking-GGUF
-  - key: Iter435/Qwen3.5-4B-Claude-4.6-Opus-Reasoning-openclaw
+        user: "mradermacher"
+        repo: "TQL-Coder-Qwen3.5-4B-thinking-GGUF"
+  - key: "Iter435/Qwen3.5-4B-Claude-4.6-Opus-Reasoning-openclaw"
     sources:
       - type: huggingface
-        user: Iter435
-        repo: Qwen3.5-4B-Claude-4.6-Opus-Reasoning-openclaw
-  - key: localweights/Qwen3.5-4B-MTP-BF16-GGUF
+        user: "Iter435"
+        repo: "Qwen3.5-4B-Claude-4.6-Opus-Reasoning-openclaw"
+  - key: "localweights/Qwen3.5-4B-MTP-BF16-GGUF"
     sources:
       - type: huggingface
-        user: localweights
-        repo: Qwen3.5-4B-MTP-BF16-GGUF
-  - key: unsloth/Qwen3.5-4B-MTP-GGUF
+        user: "localweights"
+        repo: "Qwen3.5-4B-MTP-BF16-GGUF"
+  - key: "unsloth/Qwen3.5-4B-MTP-GGUF"
     sources:
       - type: huggingface
-        user: unsloth
-        repo: Qwen3.5-4B-MTP-GGUF
-  - key: localweights/Qwen3.5-4B-MTP-Q4_K_M-GGUF
+        user: "unsloth"
+        repo: "Qwen3.5-4B-MTP-GGUF"
+  - key: "localweights/Qwen3.5-4B-MTP-Q4_K_M-GGUF"
     sources:
       - type: huggingface
-        user: localweights
-        repo: Qwen3.5-4B-MTP-Q4_K_M-GGUF
-  - key: mradermacher/Qwen3.5-4B-SFT-Claude-Opus-Reasoning-Unsloth-i1-GGUF
+        user: "localweights"
+        repo: "Qwen3.5-4B-MTP-Q4_K_M-GGUF"
+  - key: "mradermacher/Qwen3.5-4B-SFT-Claude-Opus-Reasoning-Unsloth-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-4B-SFT-Claude-Opus-Reasoning-Unsloth-i1-GGUF
-  - key: 4cast/Mythos-Qwen3.5_4b
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-SFT-Claude-Opus-Reasoning-Unsloth-i1-GGUF"
+  - key: "4cast/Mythos-Qwen3.5_4b"
     sources:
       - type: huggingface
-        user: 4cast
-        repo: Mythos-Qwen3.5_4b
-  - key: anazir/Qwen3.5-4B-GGUF
+        user: "4cast"
+        repo: "Mythos-Qwen3.5_4b"
+  - key: "anazir/Qwen3.5-4B-GGUF"
     sources:
       - type: huggingface
-        user: anazir
-        repo: Qwen3.5-4B-GGUF
-  - key: Animhaven/Qwen3.5-4B
+        user: "anazir"
+        repo: "Qwen3.5-4B-GGUF"
+  - key: "Animhaven/Qwen3.5-4B"
     sources:
       - type: huggingface
-        user: Animhaven
-        repo: Qwen3.5-4B
-  - key: Arxell/Qwen3.5-4B-Q4
+        user: "Animhaven"
+        repo: "Qwen3.5-4B"
+  - key: "Arxell/Qwen3.5-4B-Q4"
     sources:
       - type: huggingface
-        user: Arxell
-        repo: Qwen3.5-4B-Q4
-  - key: Ayansk11/FinSenti-Qwen3.5-4B-GGUF
+        user: "Arxell"
+        repo: "Qwen3.5-4B-Q4"
+  - key: "Ayansk11/FinSenti-Qwen3.5-4B-GGUF"
     sources:
       - type: huggingface
-        user: Ayansk11
-        repo: FinSenti-Qwen3.5-4B-GGUF
-  - key: C3DS/CARDS-Qwen3.5-4B-GGUF
+        user: "Ayansk11"
+        repo: "FinSenti-Qwen3.5-4B-GGUF"
+  - key: "C3DS/CARDS-Qwen3.5-4B-GGUF"
     sources:
       - type: huggingface
-        user: C3DS
-        repo: CARDS-Qwen3.5-4B-GGUF
-  - key: confamnode/Qwen3.5-4B-GGUF
+        user: "C3DS"
+        repo: "CARDS-Qwen3.5-4B-GGUF"
+  - key: "confamnode/Qwen3.5-4B-GGUF"
     sources:
       - type: huggingface
-        user: confamnode
-        repo: Qwen3.5-4B-GGUF
-  - key: CoreWorxLab/caal-qwen3.5-4b
+        user: "confamnode"
+        repo: "Qwen3.5-4B-GGUF"
+  - key: "CoreWorxLab/caal-qwen3.5-4b"
     sources:
       - type: huggingface
-        user: CoreWorxLab
-        repo: caal-qwen3.5-4b
-  - key: empulse/KiCAD-MCP-Qwen3.5-4B-GGUF
+        user: "CoreWorxLab"
+        repo: "caal-qwen3.5-4b"
+  - key: "empulse/KiCAD-MCP-Qwen3.5-4B-GGUF"
     sources:
       - type: huggingface
-        user: empulse
-        repo: KiCAD-MCP-Qwen3.5-4B-GGUF
-  - key: etrnya/T-qwen3.5-4B
+        user: "empulse"
+        repo: "KiCAD-MCP-Qwen3.5-4B-GGUF"
+  - key: "etrnya/T-qwen3.5-4B"
     sources:
       - type: huggingface
-        user: etrnya
-        repo: T-qwen3.5-4B
-  - key: g023/NeuronBlade-Qwen3.5-4B
+        user: "etrnya"
+        repo: "T-qwen3.5-4B"
+  - key: "g023/NeuronBlade-Qwen3.5-4B"
     sources:
       - type: huggingface
-        user: g023
-        repo: NeuronBlade-Qwen3.5-4B
-  - key: HMkumbo/blood-donation-qwen3.5-4b-gguf
+        user: "g023"
+        repo: "NeuronBlade-Qwen3.5-4B"
+  - key: "HMkumbo/blood-donation-qwen3.5-4b-gguf"
     sources:
       - type: huggingface
-        user: HMkumbo
-        repo: blood-donation-qwen3.5-4b-gguf
-  - key: IDONTCARELETMEIN/qwen3.5-4b
+        user: "HMkumbo"
+        repo: "blood-donation-qwen3.5-4b-gguf"
+  - key: "IDONTCARELETMEIN/qwen3.5-4b"
     sources:
       - type: huggingface
-        user: IDONTCARELETMEIN
-        repo: qwen3.5-4b
-  - key: indus7ry/pseudoz2-tuned-qwen3.5-4b
+        user: "IDONTCARELETMEIN"
+        repo: "qwen3.5-4b"
+  - key: "indus7ry/pseudoz2-tuned-qwen3.5-4b"
     sources:
       - type: huggingface
-        user: indus7ry
-        repo: pseudoz2-tuned-qwen3.5-4b
-  - key: kanakjr/homebot-qwen3.5-4b-gguf
+        user: "indus7ry"
+        repo: "pseudoz2-tuned-qwen3.5-4b"
+  - key: "kanakjr/homebot-qwen3.5-4b-gguf"
     sources:
       - type: huggingface
-        user: kanakjr
-        repo: homebot-qwen3.5-4b-gguf
-  - key: keyuan01/Qwen3.5-4B-GGUF
+        user: "kanakjr"
+        repo: "homebot-qwen3.5-4b-gguf"
+  - key: "keyuan01/Qwen3.5-4B-GGUF"
     sources:
       - type: huggingface
-        user: keyuan01
-        repo: Qwen3.5-4B-GGUF
-  - key: lainlives/Qwen3.5-4B-GGUF
+        user: "keyuan01"
+        repo: "Qwen3.5-4B-GGUF"
+  - key: "lainlives/Qwen3.5-4B-GGUF"
     sources:
       - type: huggingface
-        user: lainlives
-        repo: Qwen3.5-4B-GGUF
-  - key: Manojb/Qwen3.5-4B-BF16.gguf
+        user: "lainlives"
+        repo: "Qwen3.5-4B-GGUF"
+  - key: "Manojb/Qwen3.5-4B-BF16.gguf"
     sources:
       - type: huggingface
-        user: Manojb
-        repo: Qwen3.5-4B-BF16.gguf
-  - key: Manojb/Qwen3.5-4B-IQ4_NL.gguf
+        user: "Manojb"
+        repo: "Qwen3.5-4B-BF16.gguf"
+  - key: "Manojb/Qwen3.5-4B-IQ4_NL.gguf"
     sources:
       - type: huggingface
-        user: Manojb
-        repo: Qwen3.5-4B-IQ4_NL.gguf
-  - key: Manojb/Qwen3.5-4B-Q4_0.gguf
+        user: "Manojb"
+        repo: "Qwen3.5-4B-IQ4_NL.gguf"
+  - key: "Manojb/Qwen3.5-4B-Q4_0.gguf"
     sources:
       - type: huggingface
-        user: Manojb
-        repo: Qwen3.5-4B-Q4_0.gguf
-  - key: Manojb/Qwen3.5-4B-Q4_1.gguf
+        user: "Manojb"
+        repo: "Qwen3.5-4B-Q4_0.gguf"
+  - key: "Manojb/Qwen3.5-4B-Q4_1.gguf"
     sources:
       - type: huggingface
-        user: Manojb
-        repo: Qwen3.5-4B-Q4_1.gguf
-  - key: Manojb/Qwen3.5-4B-Q6_K.gguf
+        user: "Manojb"
+        repo: "Qwen3.5-4B-Q4_1.gguf"
+  - key: "Manojb/Qwen3.5-4B-Q6_K.gguf"
     sources:
       - type: huggingface
-        user: Manojb
-        repo: Qwen3.5-4B-Q6_K.gguf
-  - key: Manojb/Qwen3.5-4B-Q8_0.gguf
+        user: "Manojb"
+        repo: "Qwen3.5-4B-Q6_K.gguf"
+  - key: "Manojb/Qwen3.5-4B-Q8_0.gguf"
     sources:
       - type: huggingface
-        user: Manojb
-        repo: Qwen3.5-4B-Q8_0.gguf
-  - key: Manojb/Qwen3.5-4B.Q8_0.gguf
+        user: "Manojb"
+        repo: "Qwen3.5-4B-Q8_0.gguf"
+  - key: "Manojb/Qwen3.5-4B.Q8_0.gguf"
     sources:
       - type: huggingface
-        user: Manojb
-        repo: Qwen3.5-4B.Q8_0.gguf
-  - key: Manojb/Qwen_Qwen3.5-4B-bf16.gguf
+        user: "Manojb"
+        repo: "Qwen3.5-4B.Q8_0.gguf"
+  - key: "Manojb/Qwen_Qwen3.5-4B-bf16.gguf"
     sources:
       - type: huggingface
-        user: Manojb
-        repo: Qwen_Qwen3.5-4B-bf16.gguf
-  - key: Manojb/Qwen_Qwen3.5-4B-Q4_0.gguf
+        user: "Manojb"
+        repo: "Qwen_Qwen3.5-4B-bf16.gguf"
+  - key: "Manojb/Qwen_Qwen3.5-4B-Q4_0.gguf"
     sources:
       - type: huggingface
-        user: Manojb
-        repo: Qwen_Qwen3.5-4B-Q4_0.gguf
-  - key: Manojb/Qwen_Qwen3.5-4B-Q4_1.gguf
+        user: "Manojb"
+        repo: "Qwen_Qwen3.5-4B-Q4_0.gguf"
+  - key: "Manojb/Qwen_Qwen3.5-4B-Q4_1.gguf"
     sources:
       - type: huggingface
-        user: Manojb
-        repo: Qwen_Qwen3.5-4B-Q4_1.gguf
-  - key: Manojb/Qwen_Qwen3.5-4B-Q6_K.gguf
+        user: "Manojb"
+        repo: "Qwen_Qwen3.5-4B-Q4_1.gguf"
+  - key: "Manojb/Qwen_Qwen3.5-4B-Q6_K.gguf"
     sources:
       - type: huggingface
-        user: Manojb
-        repo: Qwen_Qwen3.5-4B-Q6_K.gguf
-  - key: Manojb/Qwen_Qwen3.5-4B-Q8_0.gguf
+        user: "Manojb"
+        repo: "Qwen_Qwen3.5-4B-Q6_K.gguf"
+  - key: "Manojb/Qwen_Qwen3.5-4B-Q8_0.gguf"
     sources:
       - type: huggingface
-        user: Manojb
-        repo: Qwen_Qwen3.5-4B-Q8_0.gguf
-  - key: meetara-lab/meetara-qwen3.5-4b-gguf
+        user: "Manojb"
+        repo: "Qwen_Qwen3.5-4B-Q8_0.gguf"
+  - key: "meetara-lab/meetara-qwen3.5-4b-gguf"
     sources:
       - type: huggingface
-        user: meetara-lab
-        repo: meetara-qwen3.5-4b-gguf
-  - key: migarcoes/Qwen3.5-4B
+        user: "meetara-lab"
+        repo: "meetara-qwen3.5-4b-gguf"
+  - key: "migarcoes/Qwen3.5-4B"
     sources:
       - type: huggingface
-        user: migarcoes
-        repo: Qwen3.5-4B
-  - key: mradermacher/CARDS-Qwen3.5-4B-GGUF
+        user: "migarcoes"
+        repo: "Qwen3.5-4B"
+  - key: "mradermacher/CARDS-Qwen3.5-4B-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: CARDS-Qwen3.5-4B-GGUF
-  - key: mradermacher/Cavil-Qwen3.5-4B-GGUF
+        user: "mradermacher"
+        repo: "CARDS-Qwen3.5-4B-GGUF"
+  - key: "mradermacher/Cavil-Qwen3.5-4B-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Cavil-Qwen3.5-4B-GGUF
-  - key: mradermacher/Dan-Qwen3.5-4B-GGUF
+        user: "mradermacher"
+        repo: "Cavil-Qwen3.5-4B-GGUF"
+  - key: "mradermacher/Dan-Qwen3.5-4B-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Dan-Qwen3.5-4B-GGUF
-  - key: mradermacher/Deliberation-Reflector-Qwen3.5-4B-GGUF
+        user: "mradermacher"
+        repo: "Dan-Qwen3.5-4B-GGUF"
+  - key: "mradermacher/Deliberation-Reflector-Qwen3.5-4B-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Deliberation-Reflector-Qwen3.5-4B-GGUF
-  - key: mradermacher/Deliberation-Reflector-Qwen3.5-4B-i1-GGUF
+        user: "mradermacher"
+        repo: "Deliberation-Reflector-Qwen3.5-4B-GGUF"
+  - key: "mradermacher/Deliberation-Reflector-Qwen3.5-4B-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Deliberation-Reflector-Qwen3.5-4B-i1-GGUF
-  - key: mradermacher/Deliberation-Toolcaller-Qwen3.5-4B-GGUF
+        user: "mradermacher"
+        repo: "Deliberation-Reflector-Qwen3.5-4B-i1-GGUF"
+  - key: "mradermacher/Deliberation-Toolcaller-Qwen3.5-4B-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Deliberation-Toolcaller-Qwen3.5-4B-GGUF
-  - key: mradermacher/Deliberation-Toolcaller-Qwen3.5-4B-i1-GGUF
+        user: "mradermacher"
+        repo: "Deliberation-Toolcaller-Qwen3.5-4B-GGUF"
+  - key: "mradermacher/Deliberation-Toolcaller-Qwen3.5-4B-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Deliberation-Toolcaller-Qwen3.5-4B-i1-GGUF
-  - key: mradermacher/Distillation-Learner-Qwen3.5-4B-GGUF
+        user: "mradermacher"
+        repo: "Deliberation-Toolcaller-Qwen3.5-4B-i1-GGUF"
+  - key: "mradermacher/Distillation-Learner-Qwen3.5-4B-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Distillation-Learner-Qwen3.5-4B-GGUF
-  - key: mradermacher/Distillation-Learner-Qwen3.5-4B-i1-GGUF
+        user: "mradermacher"
+        repo: "Distillation-Learner-Qwen3.5-4B-GGUF"
+  - key: "mradermacher/Distillation-Learner-Qwen3.5-4B-i1-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Distillation-Learner-Qwen3.5-4B-i1-GGUF
-  - key: mradermacher/FinSenti-Qwen3.5-4B-GGUF
+        user: "mradermacher"
+        repo: "Distillation-Learner-Qwen3.5-4B-i1-GGUF"
+  - key: "mradermacher/FinSenti-Qwen3.5-4B-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: FinSenti-Qwen3.5-4B-GGUF
-  - key: mradermacher/GCCL-Medical-LLM-Qwen3.5-4B-GGUF
+        user: "mradermacher"
+        repo: "FinSenti-Qwen3.5-4B-GGUF"
+  - key: "mradermacher/GCCL-Medical-LLM-Qwen3.5-4B-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: GCCL-Medical-LLM-Qwen3.5-4B-GGUF
-  - key: mradermacher/GeoLLM-Qwen3.5-4B-GGUF
+        user: "mradermacher"
+        repo: "GCCL-Medical-LLM-Qwen3.5-4B-GGUF"
+  - key: "mradermacher/GeoLLM-Qwen3.5-4B-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: GeoLLM-Qwen3.5-4B-GGUF
-  - key: mradermacher/hew-qwen3.5-4b-GGUF
+        user: "mradermacher"
+        repo: "GeoLLM-Qwen3.5-4B-GGUF"
+  - key: "mradermacher/hew-qwen3.5-4b-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: hew-qwen3.5-4b-GGUF
-  - key: mradermacher/PhishMe-12k-Qwen3.5-4B-GGUF
+        user: "mradermacher"
+        repo: "hew-qwen3.5-4b-GGUF"
+  - key: "mradermacher/PhishMe-12k-Qwen3.5-4B-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: PhishMe-12k-Qwen3.5-4B-GGUF
-  - key: mradermacher/Windy-Qwen3.5-4B-GGUF
+        user: "mradermacher"
+        repo: "PhishMe-12k-Qwen3.5-4B-GGUF"
+  - key: "mradermacher/Windy-Qwen3.5-4B-GGUF"
     sources:
       - type: huggingface
-        user: mradermacher
-        repo: Windy-Qwen3.5-4B-GGUF
-  - key: nile-academy/qwen3.5-4b-gguf
+        user: "mradermacher"
+        repo: "Windy-Qwen3.5-4B-GGUF"
+  - key: "nile-academy/qwen3.5-4b-gguf"
     sources:
       - type: huggingface
-        user: nile-academy
-        repo: qwen3.5-4b-gguf
-  - key: openresearchtools/Qwen3.5-4B-GGUF
+        user: "nile-academy"
+        repo: "qwen3.5-4b-gguf"
+  - key: "openresearchtools/Qwen3.5-4B-GGUF"
     sources:
       - type: huggingface
-        user: openresearchtools
-        repo: Qwen3.5-4B-GGUF
-  - key: ryhme246/Qwen3.5-4B-Q8_0-GGUF
+        user: "openresearchtools"
+        repo: "Qwen3.5-4B-GGUF"
+  - key: "ryhme246/Qwen3.5-4B-Q8_0-GGUF"
     sources:
       - type: huggingface
-        user: ryhme246
-        repo: Qwen3.5-4B-Q8_0-GGUF
-  - key: SandLogicTechnologies/Qwen3.5-4B-GGUF
+        user: "ryhme246"
+        repo: "Qwen3.5-4B-Q8_0-GGUF"
+  - key: "SandLogicTechnologies/Qwen3.5-4B-GGUF"
     sources:
       - type: huggingface
-        user: SandLogicTechnologies
-        repo: Qwen3.5-4B-GGUF
-  - key: SciMaker/T-qwen3.5-4B
+        user: "SandLogicTechnologies"
+        repo: "Qwen3.5-4B-GGUF"
+  - key: "SciMaker/T-qwen3.5-4B"
     sources:
       - type: huggingface
-        user: SciMaker
-        repo: T-qwen3.5-4B
-  - key: shinshekai/Sequential-Scaled-Solver-Qwen3.5-4B-Q8_0-GGUF
+        user: "SciMaker"
+        repo: "T-qwen3.5-4B"
+  - key: "shinshekai/Sequential-Scaled-Solver-Qwen3.5-4B-Q8_0-GGUF"
     sources:
       - type: huggingface
-        user: shinshekai
-        repo: Sequential-Scaled-Solver-Qwen3.5-4B-Q8_0-GGUF
-  - key: sleppistan/hew-lora-qwen3.5-4b
+        user: "shinshekai"
+        repo: "Sequential-Scaled-Solver-Qwen3.5-4B-Q8_0-GGUF"
+  - key: "sleppistan/hew-lora-qwen3.5-4b"
     sources:
       - type: huggingface
-        user: sleppistan
-        repo: hew-lora-qwen3.5-4b
-  - key: solarkyle/alibi-suspect-qwen3.5-4b-gguf
+        user: "sleppistan"
+        repo: "hew-lora-qwen3.5-4b"
+  - key: "solarkyle/alibi-suspect-qwen3.5-4b-gguf"
     sources:
       - type: huggingface
-        user: solarkyle
-        repo: alibi-suspect-qwen3.5-4b-gguf
-  - key: suvamdawn/qwen3.5-4b
+        user: "solarkyle"
+        repo: "alibi-suspect-qwen3.5-4b-gguf"
+  - key: "suvamdawn/qwen3.5-4b"
     sources:
       - type: huggingface
-        user: suvamdawn
-        repo: qwen3.5-4b
-  - key: tatsuyaaaaaaa/Qwen3.5-4B-gguf
+        user: "suvamdawn"
+        repo: "qwen3.5-4b"
+  - key: "tatsuyaaaaaaa/Qwen3.5-4B-gguf"
     sources:
       - type: huggingface
-        user: tatsuyaaaaaaa
-        repo: Qwen3.5-4B-gguf
-  - key: TirGun/Qwen3.5-4B-GGUF
+        user: "tatsuyaaaaaaa"
+        repo: "Qwen3.5-4B-gguf"
+  - key: "TirGun/Qwen3.5-4B-GGUF"
     sources:
       - type: huggingface
-        user: TirGun
-        repo: Qwen3.5-4B-GGUF
-  - key: TypeUnsafe/Qwen3.5-4B
+        user: "TirGun"
+        repo: "Qwen3.5-4B-GGUF"
+  - key: "TypeUnsafe/Qwen3.5-4B"
     sources:
       - type: huggingface
-        user: TypeUnsafe
-        repo: Qwen3.5-4B
-  - key: ugreen-ai/Qwen3.5-4B-GGUF
+        user: "TypeUnsafe"
+        repo: "Qwen3.5-4B"
+  - key: "ugreen-ai/Qwen3.5-4B-GGUF"
     sources:
       - type: huggingface
-        user: ugreen-ai
-        repo: Qwen3.5-4B-GGUF
-  - key: vipghost1k/qwen3.5-4b
+        user: "ugreen-ai"
+        repo: "Qwen3.5-4B-GGUF"
+  - key: "vipghost1k/qwen3.5-4b"
     sources:
       - type: huggingface
-        user: vipghost1k
-        repo: qwen3.5-4b
-  - key: zuozuoliang999/Qwen3.5-4B-Q6_K-GGUF
+        user: "vipghost1k"
+        repo: "qwen3.5-4b"
+  - key: "zuozuoliang999/Qwen3.5-4B-Q6_K-GGUF"
     sources:
       - type: huggingface
-        user: zuozuoliang999
-        repo: Qwen3.5-4B-Q6_K-GGUF
-  - key: zuozuoliang999/Qwen3.5-4B-Q8_0-GGUF
+        user: "zuozuoliang999"
+        repo: "Qwen3.5-4B-Q6_K-GGUF"
+  - key: "zuozuoliang999/Qwen3.5-4B-Q8_0-GGUF"
     sources:
       - type: huggingface
-        user: zuozuoliang999
-        repo: Qwen3.5-4B-Q8_0-GGUF
-  - key: MrTryAll/Qwen3.5-4B-01-IndCons-FT
+        user: "zuozuoliang999"
+        repo: "Qwen3.5-4B-Q8_0-GGUF"
+  - key: "MrTryAll/Qwen3.5-4B-01-IndCons-FT"
     sources:
       - type: huggingface
-        user: MrTryAll
-        repo: Qwen3.5-4B-01-IndCons-FT
-  - key: MrTryAll/Qwen3.5-4B-03-IndCons-FT
+        user: "MrTryAll"
+        repo: "Qwen3.5-4B-01-IndCons-FT"
+  - key: "MrTryAll/Qwen3.5-4B-03-IndCons-FT"
     sources:
       - type: huggingface
-        user: MrTryAll
-        repo: Qwen3.5-4B-03-IndCons-FT
-  - key: muratbuker/unsloth_Qwen3.5-4B_1778577832
+        user: "MrTryAll"
+        repo: "Qwen3.5-4B-03-IndCons-FT"
+  - key: "muratbuker/unsloth_Qwen3.5-4B_1778577832"
     sources:
       - type: huggingface
-        user: muratbuker
-        repo: unsloth_Qwen3.5-4B_1778577832
-  - key: smkrv/Qwen3.5-4B-abl-GGUF
+        user: "muratbuker"
+        repo: "unsloth_Qwen3.5-4B_1778577832"
+  - key: "smkrv/Qwen3.5-4B-abl-GGUF"
     sources:
       - type: huggingface
-        user: smkrv
-        repo: Qwen3.5-4B-abl-GGUF
-  - key: agrawal-prateek/qwen3.5-4b-abliterated-gguf
+        user: "smkrv"
+        repo: "Qwen3.5-4B-abl-GGUF"
+  - key: "agrawal-prateek/qwen3.5-4b-abliterated-gguf"
     sources:
       - type: huggingface
-        user: agrawal-prateek
-        repo: qwen3.5-4b-abliterated-gguf
-  - key: chocolatepoison/Huihui-Qwen3.5-4B-abliterated.i1-Q6_K
+        user: "agrawal-prateek"
+        repo: "qwen3.5-4b-abliterated-gguf"
+  - key: "chocolatepoison/Huihui-Qwen3.5-4B-abliterated.i1-Q6_K"
     sources:
       - type: huggingface
-        user: chocolatepoison
-        repo: Huihui-Qwen3.5-4B-abliterated.i1-Q6_K
-  - key: harimuliawan999/Huihui-Qwen3.5-4B-abliterated
+        user: "chocolatepoison"
+        repo: "Huihui-Qwen3.5-4B-abliterated.i1-Q6_K"
+  - key: "harimuliawan999/Huihui-Qwen3.5-4B-abliterated"
     sources:
       - type: huggingface
-        user: harimuliawan999
-        repo: Huihui-Qwen3.5-4B-abliterated
-  - key: Zhang-User-001/Huihui-Qwen3.5-4B-abliterated
+        user: "harimuliawan999"
+        repo: "Huihui-Qwen3.5-4B-abliterated"
+  - key: "Zhang-User-001/Huihui-Qwen3.5-4B-abliterated"
     sources:
       - type: huggingface
-        user: Zhang-User-001
-        repo: Huihui-Qwen3.5-4B-abliterated
+        user: "Zhang-User-001"
+        repo: "Huihui-Qwen3.5-4B-abliterated"
+  - key: "mlx-community/Qwen3.5-4B-mxfp4"
+    sources:
+      - type: huggingface
+        user: "mlx-community"
+        repo: "Qwen3.5-4B-mxfp4"
+  - key: "nightmedia/Qwen3.5-4B-mxfp4-mlx"
+    sources:
+      - type: huggingface
+        user: "nightmedia"
+        repo: "Qwen3.5-4B-mxfp4-mlx"
+  - key: "olka-fi/Qwen3.5-4B-MXFP4"
+    sources:
+      - type: huggingface
+        user: "olka-fi"
+        repo: "Qwen3.5-4B-MXFP4"
+  - key: "Rapid42/Qwen3.5-4B-MXFP4"
+    sources:
+      - type: huggingface
+        user: "Rapid42"
+        repo: "Qwen3.5-4B-MXFP4"
+  - key: "AlexWortega/qwen3.5-4b-abliterated-agent-20260515"
+    sources:
+      - type: huggingface
+        user: "AlexWortega"
+        repo: "qwen3.5-4b-abliterated-agent-20260515"
+  - key: "amkkk/Qwen3.5-4B-abliterated-aggressive-GGUF"
+    sources:
+      - type: huggingface
+        user: "amkkk"
+        repo: "Qwen3.5-4B-abliterated-aggressive-GGUF"
+  - key: "mradermacher/Qwen3.5-4B-abliterated-aggressive-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "Qwen3.5-4B-abliterated-aggressive-GGUF"
+  - key: "Abiray/Qwen3.5-4B-Abliterated-Claude-4.6-Opus-Reasoning-Distilled-GGUF"
+    sources:
+      - type: huggingface
+        user: "Abiray"
+        repo: "Qwen3.5-4B-Abliterated-Claude-4.6-Opus-Reasoning-Distilled-GGUF"
+  - key: "Asystemoffields/Huihui-Qwen3.5-4B-Abliterated-PMRA-GGUF"
+    sources:
+      - type: huggingface
+        user: "Asystemoffields"
+        repo: "Huihui-Qwen3.5-4B-Abliterated-PMRA-GGUF"
+  - key: "VECTORVV1/Qwen3.5-4B-Aggressive"
+    sources:
+      - type: huggingface
+        user: "VECTORVV1"
+        repo: "Qwen3.5-4B-Aggressive"
 config:
   operation:
     fields:
