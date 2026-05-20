@@ -482,6 +482,156 @@ base:
       - type: huggingface
         user: Thireus
         repo: Qwen3-235B-A22B-Instruct-2507-THIREUS-Q4_0_R8-SPECIAL_SPLIT
+  - key: Thireus/Qwen3-235B-A22B-Instruct-2507-THIREUS-Q4_0-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: Qwen3-235B-A22B-Instruct-2507-THIREUS-Q4_0-SPECIAL_SPLIT
+  - key: Thireus/Qwen3-235B-A22B-Instruct-2507-THIREUS-Q4_1-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: Qwen3-235B-A22B-Instruct-2507-THIREUS-Q4_1-SPECIAL_SPLIT
+  - key: Thireus/Qwen3-235B-A22B-Instruct-2507-THIREUS-Q4_K_R4-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: Qwen3-235B-A22B-Instruct-2507-THIREUS-Q4_K_R4-SPECIAL_SPLIT
+  - key: Thireus/Qwen3-235B-A22B-Instruct-2507-THIREUS-Q5_0_R4-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: Qwen3-235B-A22B-Instruct-2507-THIREUS-Q5_0_R4-SPECIAL_SPLIT
+  - key: Thireus/Qwen3-235B-A22B-Instruct-2507-THIREUS-Q5_0-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: Qwen3-235B-A22B-Instruct-2507-THIREUS-Q5_0-SPECIAL_SPLIT
+  - key: Thireus/Qwen3-235B-A22B-Instruct-2507-THIREUS-Q5_1-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: Qwen3-235B-A22B-Instruct-2507-THIREUS-Q5_1-SPECIAL_SPLIT
+  - key: Thireus/Qwen3-235B-A22B-Instruct-2507-THIREUS-Q5_K_R4-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: Qwen3-235B-A22B-Instruct-2507-THIREUS-Q5_K_R4-SPECIAL_SPLIT
+  - key: Thireus/Qwen3-235B-A22B-Instruct-2507-THIREUS-Q6_0_R4-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: Qwen3-235B-A22B-Instruct-2507-THIREUS-Q6_0_R4-SPECIAL_SPLIT
+  - key: Thireus/Qwen3-235B-A22B-Instruct-2507-THIREUS-Q6_0-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: Qwen3-235B-A22B-Instruct-2507-THIREUS-Q6_0-SPECIAL_SPLIT
+  - key: Thireus/Qwen3-235B-A22B-Instruct-2507-THIREUS-Q6_K_R4-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: Qwen3-235B-A22B-Instruct-2507-THIREUS-Q6_K_R4-SPECIAL_SPLIT
+  - key: Thireus/Qwen3-235B-A22B-Instruct-2507-THIREUS-Q6_K-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: Qwen3-235B-A22B-Instruct-2507-THIREUS-Q6_K-SPECIAL_SPLIT
+  - key: Thireus/Qwen3-235B-A22B-Instruct-2507-THIREUS-Q8_0_R8-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: Qwen3-235B-A22B-Instruct-2507-THIREUS-Q8_0_R8-SPECIAL_SPLIT
+  - key: Thireus/Qwen3-235B-A22B-Instruct-2507-THIREUS-Q8_0-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: Qwen3-235B-A22B-Instruct-2507-THIREUS-Q8_0-SPECIAL_SPLIT
+  - key: Thireus/Qwen3-235B-A22B-Instruct-2507-THIREUS-Q8_K_R8-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: Qwen3-235B-A22B-Instruct-2507-THIREUS-Q8_K_R8-SPECIAL_SPLIT
+  - key: HaileyStorm/Qwen3-235B-A22B-pruned104-GGUF-BF16
+    sources:
+      - type: huggingface
+        user: HaileyStorm
+        repo: Qwen3-235B-A22B-pruned104-GGUF-BF16
+  - key: HaileyStorm/Qwen3-235B-A22B-pruned104-GGUF-Q4_K_M
+    sources:
+      - type: huggingface
+        user: HaileyStorm
+        repo: Qwen3-235B-A22B-pruned104-GGUF-Q4_K_M
+  - key: HaileyStorm/Qwen3-235B-A22B-pruned104-v2-GGUF-BF16
+    sources:
+      - type: huggingface
+        user: HaileyStorm
+        repo: Qwen3-235B-A22B-pruned104-v2-GGUF-BF16
+  - key: Cortex0833/Qwen3-235B-A22B-Q3-Instruct-2507-abliterated
+    sources:
+      - type: huggingface
+        user: Cortex0833
+        repo: Qwen3-235B-A22B-Q3-Instruct-2507-abliterated
+  - key: bobchenyx/Qwen3-235B-A22B-Thinking-2507-GGUF
+    sources:
+      - type: huggingface
+        user: bobchenyx
+        repo: Qwen3-235B-A22B-Thinking-2507-GGUF
+  - key: essigpeng/Qwen3-235B-A22B-Thinking-2507-MXFP4-GGUF
+    sources:
+      - type: huggingface
+        user: essigpeng
+        repo: Qwen3-235B-A22B-Thinking-2507-MXFP4-GGUF
+  - key: mradermacher/Qwen3-235B-A22B-Thinking-2507-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3-235B-A22B-Thinking-2507-i1-GGUF
+  - key: sm54/Qwen3-235B-A22B-Thinking-2507-MXFP4_MOE
+    sources:
+      - type: huggingface
+        user: sm54
+        repo: Qwen3-235B-A22B-Thinking-2507-MXFP4_MOE
+  - key: ubergarm/Qwen3-235B-A22B-Thinking-2507-GGUF
+    sources:
+      - type: huggingface
+        user: ubergarm
+        repo: Qwen3-235B-A22B-Thinking-2507-GGUF
+  - key: OPEA/Qwen3-235B-A22B-Thinking-2507-gguf-q4km-AutoRound
+    sources:
+      - type: huggingface
+        user: OPEA
+        repo: Qwen3-235B-A22B-Thinking-2507-gguf-q4km-AutoRound
+  - key: anikifoss/Qwen3-235B-A22B-Thinking-2507-HQ4_K
+    sources:
+      - type: huggingface
+        user: anikifoss
+        repo: Qwen3-235B-A22B-Thinking-2507-HQ4_K
+  - key: sm54/Qwen3-235B-A22B-Thinking-2507-OPT-GGUF
+    sources:
+      - type: huggingface
+        user: sm54
+        repo: Qwen3-235B-A22B-Thinking-2507-OPT-GGUF
+  - key: Thireus/Qwen3-235B-A22B-Thinking-2507-THIREUS-BF16-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: Qwen3-235B-A22B-Thinking-2507-THIREUS-BF16-SPECIAL_SPLIT
+  - key: Thireus/Qwen3-235B-A22B-Thinking-2507-THIREUS-IQ2_K_R4-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: Qwen3-235B-A22B-Thinking-2507-THIREUS-IQ2_K_R4-SPECIAL_SPLIT
+  - key: Thireus/Qwen3-235B-A22B-Thinking-2507-THIREUS-IQ2_K-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: Qwen3-235B-A22B-Thinking-2507-THIREUS-IQ2_K-SPECIAL_SPLIT
+  - key: Thireus/Qwen3-235B-A22B-Thinking-2507-THIREUS-IQ3_K_R4-SPECIAL_SPLIT
+    sources:
+      - type: huggingface
+        user: Thireus
+        repo: Qwen3-235B-A22B-Thinking-2507-THIREUS-IQ3_K_R4-SPECIAL_SPLIT
 config:
   operation:
     fields:

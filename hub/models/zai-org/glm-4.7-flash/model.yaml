@@ -187,6 +187,156 @@ base:
       - type: huggingface
         user: unsloth
         repo: GLM-4.7-Flash-GGUF
+  - key: VECTORVV1/GLM-4.7-Flash
+    sources:
+      - type: huggingface
+        user: VECTORVV1
+        repo: GLM-4.7-Flash
+  - key: xrist0bg/GLM-4.7-Flash-MXFP4
+    sources:
+      - type: huggingface
+        user: xrist0bg
+        repo: GLM-4.7-Flash-MXFP4
+  - key: bloopez/Huihui-GLM-4.7-Flash-abliterated-BF16-GGUF
+    sources:
+      - type: huggingface
+        user: bloopez
+        repo: Huihui-GLM-4.7-Flash-abliterated-BF16-GGUF
+  - key: cs2764/Huihui-GLM-4.7-Flash-abliterated-Q6_K-GGUF
+    sources:
+      - type: huggingface
+        user: cs2764
+        repo: Huihui-GLM-4.7-Flash-abliterated-Q6_K-GGUF
+  - key: cs2764/Huihui-GLM-4.7-Flash-abliterated-Q8_0-GGUF
+    sources:
+      - type: huggingface
+        user: cs2764
+        repo: Huihui-GLM-4.7-Flash-abliterated-Q8_0-GGUF
+  - key: mradermacher/Huihui-GLM-4.7-Flash-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Huihui-GLM-4.7-Flash-abliterated-GGUF
+  - key: mradermacher/Huihui-GLM-4.7-Flash-abliterated-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Huihui-GLM-4.7-Flash-abliterated-i1-GGUF
+  - key: tutuchen2000/Huihui-GLM-4.7-Flash-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: tutuchen2000
+        repo: Huihui-GLM-4.7-Flash-abliterated-GGUF
+  - key: xTronz/GLM-4.7-Flash-Abliterated-GGUFs
+    sources:
+      - type: huggingface
+        user: xTronz
+        repo: GLM-4.7-Flash-Abliterated-GGUFs
+  - key: mradermacher/GLM-4.7-Flash-absolute-heresy-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: GLM-4.7-Flash-absolute-heresy-GGUF
+  - key: mradermacher/GLM-4.7-Flash-absolute-heresy-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: GLM-4.7-Flash-absolute-heresy-i1-GGUF
+  - key: MuXodious/GLM-4.7-Flash-absolute-heresy-GGUF
+    sources:
+      - type: huggingface
+        user: MuXodious
+        repo: GLM-4.7-Flash-absolute-heresy-GGUF
+  - key: wwlwwl/GLM-4.7-Flash-Absolute-Heresy-zh-RP-gguf
+    sources:
+      - type: huggingface
+        user: wwlwwl
+        repo: GLM-4.7-Flash-Absolute-Heresy-zh-RP-gguf
+  - key: joermd/GLM-4.7-Flash-Aggressive
+    sources:
+      - type: huggingface
+        user: joermd
+        repo: GLM-4.7-Flash-Aggressive
+  - key: mudler/GLM-4.7-Flash-APEX-GGUF
+    sources:
+      - type: huggingface
+        user: mudler
+        repo: GLM-4.7-Flash-APEX-GGUF
+  - key: nazihara/GLM-4.7-Flash-Balanced
+    sources:
+      - type: huggingface
+        user: nazihara
+        repo: GLM-4.7-Flash-Balanced
+  - key: Manojb/glm-4.7-flash-claude-4.5-opus.iq2_m.gguf
+    sources:
+      - type: huggingface
+        user: Manojb
+        repo: glm-4.7-flash-claude-4.5-opus.iq2_m.gguf
+  - key: Manojb/glm-4.7-flash-claude-4.5-opus.iq3_xs.gguf
+    sources:
+      - type: huggingface
+        user: Manojb
+        repo: glm-4.7-flash-claude-4.5-opus.iq3_xs.gguf
+  - key: Manojb/glm-4.7-flash-claude-4.5-opus.q3_k_s.gguf
+    sources:
+      - type: huggingface
+        user: Manojb
+        repo: glm-4.7-flash-claude-4.5-opus.q3_k_s.gguf
+  - key: aiworksofbt/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF
+    sources:
+      - type: huggingface
+        user: aiworksofbt
+        repo: GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF
+  - key: Joshua-Xia/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF
+    sources:
+      - type: huggingface
+        user: Joshua-Xia
+        repo: GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF
+  - key: mrbrz/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF
+    sources:
+      - type: huggingface
+        user: mrbrz
+        repo: GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF
+  - key: noctrex/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill
+    sources:
+      - type: huggingface
+        user: noctrex
+        repo: GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill
+  - key: PaulZaff/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF
+    sources:
+      - type: huggingface
+        user: PaulZaff
+        repo: GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF
+  - key: rounakchhatait/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF
+    sources:
+      - type: huggingface
+        user: rounakchhatait
+        repo: GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF
+  - key: TeichAI/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF
+    sources:
+      - type: huggingface
+        user: TeichAI
+        repo: GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF
+  - key: zsjTiger/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF
+    sources:
+      - type: huggingface
+        user: zsjTiger
+        repo: GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF
+  - key: mradermacher/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-v2-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-v2-GGUF
+  - key: grizzfu/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-v2-heretic-i1-GGUF
+    sources:
+      - type: huggingface
+        user: grizzfu
+        repo: GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-v2-heretic-i1-GGUF
+  - key: mradermacher/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-v2-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-v2-heretic-GGUF
 config:
   operation:
     fields:

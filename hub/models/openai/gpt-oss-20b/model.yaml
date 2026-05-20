@@ -847,6 +847,156 @@ base:
       - type: huggingface
         user: mradermacher
         repo: rsi-gpt-oss-20b-i1-GGUF
+  - key: nhay103/gpt-oss-20b-GGUF
+    sources:
+      - type: huggingface
+        user: nhay103
+        repo: gpt-oss-20b-GGUF
+  - key: NovaAI6868/gpt-oss-20b-q8_0-GGUF
+    sources:
+      - type: huggingface
+        user: NovaAI6868
+        repo: gpt-oss-20b-q8_0-GGUF
+  - key: oki692/gpt-oss-20b-GGUF
+    sources:
+      - type: huggingface
+        user: oki692
+        repo: gpt-oss-20b-GGUF
+  - key: OpenGenerativeAI/gpt-oss-20b-q5_0-GGUF
+    sources:
+      - type: huggingface
+        user: OpenGenerativeAI
+        repo: gpt-oss-20b-q5_0-GGUF
+  - key: professorf/gpt-oss-20b-mxfp4-gguf
+    sources:
+      - type: huggingface
+        user: professorf
+        repo: gpt-oss-20b-mxfp4-gguf
+  - key: recursechat/gpt-oss-20b-GGUF
+    sources:
+      - type: huggingface
+        user: recursechat
+        repo: gpt-oss-20b-GGUF
+  - key: RhinoWithAcape/gpt-oss-20b-Q2_K-GGUF
+    sources:
+      - type: huggingface
+        user: RhinoWithAcape
+        repo: gpt-oss-20b-Q2_K-GGUF
+  - key: Ripan/gpt-oss-20b-Q4
+    sources:
+      - type: huggingface
+        user: Ripan
+        repo: gpt-oss-20b-Q4
+  - key: RJTPP/scot0401s-gpt-oss-20b-gguf
+    sources:
+      - type: huggingface
+        user: RJTPP
+        repo: scot0401s-gpt-oss-20b-gguf
+  - key: rr0028/gpt-oss-20b-gguf
+    sources:
+      - type: huggingface
+        user: rr0028
+        repo: gpt-oss-20b-gguf
+  - key: Sci-fi-vy/gpt-oss-20b-GGUF
+    sources:
+      - type: huggingface
+        user: Sci-fi-vy
+        repo: gpt-oss-20b-GGUF
+  - key: second-state/gpt-oss-20b-GGUF
+    sources:
+      - type: huggingface
+        user: second-state
+        repo: gpt-oss-20b-GGUF
+  - key: Skymid/Jinx-gpt-oss-20b-Q2_K-GGUF
+    sources:
+      - type: huggingface
+        user: Skymid
+        repo: Jinx-gpt-oss-20b-Q2_K-GGUF
+  - key: tatsuyaaaaaaa/gpt-oss-20b-gguf
+    sources:
+      - type: huggingface
+        user: tatsuyaaaaaaa
+        repo: gpt-oss-20b-gguf
+  - key: tehkuhnz/gpt-oss-20b
+    sources:
+      - type: huggingface
+        user: tehkuhnz
+        repo: gpt-oss-20b
+  - key: ToddLLM/xyrus-cosmic-gpt-oss-20b-gguf
+    sources:
+      - type: huggingface
+        user: ToddLLM
+        repo: xyrus-cosmic-gpt-oss-20b-gguf
+  - key: tripolskypetr/gpt-oss-20b
+    sources:
+      - type: huggingface
+        user: tripolskypetr
+        repo: gpt-oss-20b
+  - key: tsorsdc/gpt-oss-20b-GGUF
+    sources:
+      - type: huggingface
+        user: tsorsdc
+        repo: gpt-oss-20b-GGUF
+  - key: Userb1az/gpt-oss-20b-GGUF
+    sources:
+      - type: huggingface
+        user: Userb1az
+        repo: gpt-oss-20b-GGUF
+  - key: watchfoxie/SonarSweep-java-gpt-oss-20b-GGUF
+    sources:
+      - type: huggingface
+        user: watchfoxie
+        repo: SonarSweep-java-gpt-oss-20b-GGUF
+  - key: XM4HFl2RbY/gpt-oss-20b-gguf
+    sources:
+      - type: huggingface
+        user: XM4HFl2RbY
+        repo: gpt-oss-20b-gguf
+  - key: yasutoshi-lab/gpt-oss-20b-gguf
+    sources:
+      - type: huggingface
+        user: yasutoshi-lab
+        repo: gpt-oss-20b-gguf
+  - key: YeonwooSung/gpt-oss-20b-gguf
+    sources:
+      - type: huggingface
+        user: YeonwooSung
+        repo: gpt-oss-20b-gguf
+  - key: mradermacher/TextBase-gpt-oss-20b-0120-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: TextBase-gpt-oss-20b-0120-GGUF
+  - key: mradermacher/TextBase-gpt-oss-20b-0120-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: TextBase-gpt-oss-20b-0120-i1-GGUF
+  - key: mradermacher/TextBase-gpt-oss-20b-1013-experimental-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: TextBase-gpt-oss-20b-1013-experimental-GGUF
+  - key: mradermacher/TextBase-gpt-oss-20b-1013-experimental-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: TextBase-gpt-oss-20b-1013-experimental-i1-GGUF
+  - key: swampfire/GPT-OSS-20B-20251015-QLoRA-F16-GGUF
+    sources:
+      - type: huggingface
+        user: swampfire
+        repo: GPT-OSS-20B-20251015-QLoRA-F16-GGUF
+  - key: GOBA-AI-Labs/PrunedHub-GPT-OSS-20B-27x-Zerobias
+    sources:
+      - type: huggingface
+        user: GOBA-AI-Labs
+        repo: PrunedHub-GPT-OSS-20B-27x-Zerobias
+  - key: GOBA-AI-Labs/PrunedHub-GPT-OSS-20B-28x
+    sources:
+      - type: huggingface
+        user: GOBA-AI-Labs
+        repo: PrunedHub-GPT-OSS-20B-28x
 config:
   operation:
     fields:

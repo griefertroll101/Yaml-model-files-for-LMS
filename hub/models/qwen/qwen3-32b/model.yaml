@@ -437,6 +437,156 @@ base:
       - type: huggingface
         user: StageMind
         repo: qwen3-32b
+  - key: stealurfaces/Qwen3-32B-Q6_K
+    sources:
+      - type: huggingface
+        user: stealurfaces
+        repo: Qwen3-32B-Q6_K
+  - key: tensorblock/dnotitia_Smoothie-Qwen3-32B-GGUF
+    sources:
+      - type: huggingface
+        user: tensorblock
+        repo: dnotitia_Smoothie-Qwen3-32B-GGUF
+  - key: tensorblock/willcb_Qwen3-32B-GGUF
+    sources:
+      - type: huggingface
+        user: tensorblock
+        repo: willcb_Qwen3-32B-GGUF
+  - key: TOTORONG/qwen3_32B_Q4
+    sources:
+      - type: huggingface
+        user: TOTORONG
+        repo: qwen3_32B_Q4
+  - key: tripolskypetr/Qwen3-32B-GGUF
+    sources:
+      - type: huggingface
+        user: tripolskypetr
+        repo: Qwen3-32B-GGUF
+  - key: usamakenway/Qwen3-32B-Q2_K-GGUF
+    sources:
+      - type: huggingface
+        user: usamakenway
+        repo: Qwen3-32B-Q2_K-GGUF
+  - key: Userb1az/Qwen3-32B-GGUF
+    sources:
+      - type: huggingface
+        user: Userb1az
+        repo: Qwen3-32B-GGUF
+  - key: yasu-oh/Qwen3-32B-GGUF
+    sources:
+      - type: huggingface
+        user: yasu-oh
+        repo: Qwen3-32B-GGUF
+  - key: mradermacher/Qwen3-32B-108B-A32B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3-32B-108B-A32B-GGUF
+  - key: mradermacher/Qwen3-32B-108B-A32B-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3-32B-108B-A32B-i1-GGUF
+  - key: Brewkro/jess-100-qwen3-32b-16k-Q6_K-GGUF
+    sources:
+      - type: huggingface
+        user: Brewkro
+        repo: jess-100-qwen3-32b-16k-Q6_K-GGUF
+  - key: TOTORONG/QWEN3_32B_250525
+    sources:
+      - type: huggingface
+        user: TOTORONG
+        repo: QWEN3_32B_250525
+  - key: orange67/qwen3_32b_2new-fenics-gguf
+    sources:
+      - type: huggingface
+        user: orange67
+        repo: qwen3_32b_2new-fenics-gguf
+  - key: hug-DJbfrj0555/Qwen3-32B-abliterated-Q3_K_S-GGUF
+    sources:
+      - type: huggingface
+        user: hug-DJbfrj0555
+        repo: Qwen3-32B-abliterated-Q3_K_S-GGUF
+  - key: Robertp423/Qwen3-32B-Aevum-Merged-Q6_K-GGUF
+    sources:
+      - type: huggingface
+        user: Robertp423
+        repo: Qwen3-32B-Aevum-Merged-Q6_K-GGUF
+  - key: Robertp423/Qwen3-32B-Aevum-Merged-Q8_0-GGUF
+    sources:
+      - type: huggingface
+        user: Robertp423
+        repo: Qwen3-32B-Aevum-Merged-Q8_0-GGUF
+  - key: mradermacher/Qwen3-32B-AWorld-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3-32B-AWorld-GGUF
+  - key: Headofcatering/Qwen3-32B-AWorld-Q5_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: Headofcatering
+        repo: Qwen3-32B-AWorld-Q5_K_M-GGUF
+  - key: Robertp423/Qwen3-32B-Bevum-Merged-Q6_K-GGUF
+    sources:
+      - type: huggingface
+        user: Robertp423
+        repo: Qwen3-32B-Bevum-Merged-Q6_K-GGUF
+  - key: Robertp423/Qwen3-32B-Bevum-Merged-Q4_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: Robertp423
+        repo: Qwen3-32B-Bevum-Merged-Q4_K_M-GGUF
+  - key: hardlyworking/Qwen3-32B-biprojected-norm-preserving-abliterated-Q4_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: hardlyworking
+        repo: Qwen3-32B-biprojected-norm-preserving-abliterated-Q4_K_M-GGUF
+  - key: deucebucket/Qwen3-32B-Cerebellum-GGUF
+    sources:
+      - type: huggingface
+        user: deucebucket
+        repo: Qwen3-32B-Cerebellum-GGUF
+  - key: mradermacher/Qwen3-32B-Cevum-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3-32B-Cevum-GGUF
+  - key: Robertp423/Qwen3-32B-Cevum-Q6_K-GGUF
+    sources:
+      - type: huggingface
+        user: Robertp423
+        repo: Qwen3-32B-Cevum-Q6_K-GGUF
+  - key: Robertp423/Qwen3-32B-Devum-Merged-Q6_K-GGUF
+    sources:
+      - type: huggingface
+        user: Robertp423
+        repo: Qwen3-32B-Devum-Merged-Q6_K-GGUF
+  - key: mradermacher/Qwen3-32B-Eng-to-Asm-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3-32B-Eng-to-Asm-GGUF
+  - key: mradermacher/QWEN3-32B-EXTENDED-BLADDER-alpaca-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: QWEN3-32B-EXTENDED-BLADDER-alpaca-GGUF
+  - key: orange67/qwen3-32b-fenics-q8_0
+    sources:
+      - type: huggingface
+        user: orange67
+        repo: qwen3-32b-fenics-q8_0
+  - key: mradermacher/qwen3-32b-geminized-experimental-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: qwen3-32b-geminized-experimental-GGUF
+  - key: mradermacher/qwen3-32b-geminized-experimental-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: qwen3-32b-geminized-experimental-i1-GGUF
 config:
   operation:
     fields:

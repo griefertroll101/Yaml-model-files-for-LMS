@@ -477,6 +477,156 @@ base:
       - type: huggingface
         user: VolkerMauel
         repo: nebius-SWE-rebench-openhands-Qwen3-30B-A3B-GGUF
+  - key: yasu-oh/Qwen3-30B-A3B-GGUF
+    sources:
+      - type: huggingface
+        user: yasu-oh
+        repo: Qwen3-30B-A3B-GGUF
+  - key: mradermacher/OpT-DeUS-Qwen3-30B-A3B_012-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: OpT-DeUS-Qwen3-30B-A3B_012-GGUF
+  - key: OpenMOSE/RWKV-Qwen3-30B-A3B-2507-Instruct-Hybrid-GGUF
+    sources:
+      - type: huggingface
+        user: OpenMOSE
+        repo: RWKV-Qwen3-30B-A3B-2507-Instruct-Hybrid-GGUF
+  - key: amarck/Qwen3-30B-A3B-abliterated
+    sources:
+      - type: huggingface
+        user: amarck
+        repo: Qwen3-30B-A3B-abliterated
+  - key: DevQuasar/huihui-ai.Qwen3-30B-A3B-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: DevQuasar
+        repo: huihui-ai.Qwen3-30B-A3B-abliterated-GGUF
+  - key: DevQuasar/mlabonne.Qwen3-30B-A3B-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: DevQuasar
+        repo: mlabonne.Qwen3-30B-A3B-abliterated-GGUF
+  - key: fernandoruiz/Qwen3-30B-A3B-abliterated-Q4_0-GGUF
+    sources:
+      - type: huggingface
+        user: fernandoruiz
+        repo: Qwen3-30B-A3B-abliterated-Q4_0-GGUF
+  - key: Harry989/Qwen3-30B-A3B-abliterated-Q6_K-GGUF
+    sources:
+      - type: huggingface
+        user: Harry989
+        repo: Qwen3-30B-A3B-abliterated-Q6_K-GGUF
+  - key: mradermacher/Qwen3-30B-A3B-abliterated-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3-30B-A3B-abliterated-i1-GGUF
+  - key: SubtleOne/Qwen3-30B-A3B-abliterated-Q6_K-GGUF
+    sources:
+      - type: huggingface
+        user: SubtleOne
+        repo: Qwen3-30B-A3B-abliterated-Q6_K-GGUF
+  - key: tgncr/typhoon2.5-qwen3-30b-a3b-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: tgncr
+        repo: typhoon2.5-qwen3-30b-a3b-abliterated-GGUF
+  - key: mradermacher/huihui-ai_Qwen3-30B-A3B-abliterated-clone-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: huihui-ai_Qwen3-30B-A3B-abliterated-clone-GGUF
+  - key: mradermacher/huihui-ai_Qwen3-30B-A3B-abliterated-clone-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: huihui-ai_Qwen3-30B-A3B-abliterated-clone-i1-GGUF
+  - key: IDKHowItWorks/Qwen3-30B-A3B-abliterated-erotic-GGUF
+    sources:
+      - type: huggingface
+        user: IDKHowItWorks
+        repo: Qwen3-30B-A3B-abliterated-erotic-GGUF
+  - key: chenrm/qwen3-30b-a3b-abliterated-erotic-lora
+    sources:
+      - type: huggingface
+        user: chenrm
+        repo: qwen3-30b-a3b-abliterated-erotic-lora
+  - key: day078/Qwen3-30B-A3B-abliterated-erotic-Q4_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: day078
+        repo: Qwen3-30B-A3B-abliterated-erotic-Q4_K_M-GGUF
+  - key: mradermacher/Huihui-Qwen3-30B-A3B-abliterated-Fusion-7030-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Huihui-Qwen3-30B-A3B-abliterated-Fusion-7030-GGUF
+  - key: mradermacher/Huihui-Qwen3-30B-A3B-abliterated-Fusion-7030-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Huihui-Qwen3-30B-A3B-abliterated-Fusion-7030-i1-GGUF
+  - key: mradermacher/Huihui-Qwen3-30B-A3B-abliterated-Fusion-9010-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Huihui-Qwen3-30B-A3B-abliterated-Fusion-9010-GGUF
+  - key: mradermacher/Huihui-Qwen3-30B-A3B-abliterated-Fusion-9010-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Huihui-Qwen3-30B-A3B-abliterated-Fusion-9010-i1-GGUF
+  - key: chenrm/qwen3-30b-a3b-abliterated-lora
+    sources:
+      - type: huggingface
+        user: chenrm
+        repo: qwen3-30b-a3b-abliterated-lora
+  - key: nopparoot15/typhoon2.5-qwen3-30b-a3b-abliterated-Q3_k_m
+    sources:
+      - type: huggingface
+        user: nopparoot15
+        repo: typhoon2.5-qwen3-30b-a3b-abliterated-Q3_k_m
+  - key: Sowkwndms/Qwen3-30B-A3B-abliterated-Q4_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: Sowkwndms
+        repo: Qwen3-30B-A3B-abliterated-Q4_K_M-GGUF
+  - key: Noonecares52647842/Qwen3-30B-A3B-abliterated-Q5_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: Noonecares52647842
+        repo: Qwen3-30B-A3B-abliterated-Q5_K_M-GGUF
+  - key: Harry989/Josiefied-Qwen3-30B-A3B-abliterated-v1-Q6_K-GGUF
+    sources:
+      - type: huggingface
+        user: Harry989
+        repo: Josiefied-Qwen3-30B-A3B-abliterated-v1-Q6_K-GGUF
+  - key: SubtleOne/Josiefied-Qwen3-30B-A3B-abliterated-v1-Q6_K-GGUF
+    sources:
+      - type: huggingface
+        user: SubtleOne
+        repo: Josiefied-Qwen3-30B-A3B-abliterated-v1-Q6_K-GGUF
+  - key: Disya/Josiefied-Qwen3-30B-A3B-abliterated-v1-Q4_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: Disya
+        repo: Josiefied-Qwen3-30B-A3B-abliterated-v1-Q4_K_M-GGUF
+  - key: fernandoruiz/Josiefied-Qwen3-30B-A3B-abliterated-v2-Q4_0-GGUF
+    sources:
+      - type: huggingface
+        user: fernandoruiz
+        repo: Josiefied-Qwen3-30B-A3B-abliterated-v2-Q4_0-GGUF
+  - key: mradermacher/Josiefied-Qwen3-30B-A3B-abliterated-v2-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Josiefied-Qwen3-30B-A3B-abliterated-v2-GGUF
+  - key: tensorblock/Goekdeniz-Guelmez_Josiefied-Qwen3-30B-A3B-abliterated-v2-GGUF
+    sources:
+      - type: huggingface
+        user: tensorblock
+        repo: Goekdeniz-Guelmez_Josiefied-Qwen3-30B-A3B-abliterated-v2-GGUF
 config:
   operation:
     fields:

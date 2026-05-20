@@ -842,6 +842,156 @@ base:
       - type: huggingface
         user: Nielk38
         repo: gemma-4-26B-A4B-it-GGUF-SPLIT
+  - key: AgentAnon/gemma-4-26B-A4B-it-GGUF_WITH-mmproj
+    sources:
+      - type: huggingface
+        user: AgentAnon
+        repo: gemma-4-26B-A4B-it-GGUF_WITH-mmproj
+  - key: drmcbride/gemma-4-26B-A4B-it-heretic-Q8_0-GGUF
+    sources:
+      - type: huggingface
+        user: drmcbride
+        repo: gemma-4-26B-A4B-it-heretic-Q8_0-GGUF
+  - key: deucebucket/Gemma-4-26B-A4B-it-Heretic-Cerebellum-GGUF
+    sources:
+      - type: huggingface
+        user: deucebucket
+        repo: Gemma-4-26B-A4B-it-Heretic-Cerebellum-GGUF
+  - key: pegasus912/gemma-4-26B-A4B-it-heretic-Q5_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: pegasus912
+        repo: gemma-4-26B-A4B-it-heretic-Q5_K_M-GGUF
+  - key: wwlwwl/gemma-4-26B-A4B-it-heretic-zh-RP-gguf
+    sources:
+      - type: huggingface
+        user: wwlwwl
+        repo: gemma-4-26B-A4B-it-heretic-zh-RP-gguf
+  - key: chandan989/prism-gemma-4-26B-A4B-it-IQ4_XS-v3
+    sources:
+      - type: huggingface
+        user: chandan989
+        repo: prism-gemma-4-26B-A4B-it-IQ4_XS-v3
+  - key: mradermacher/gemma-4-26B-A4B-it-local-abliterated-sota-internal-t34-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-26B-A4B-it-local-abliterated-sota-internal-t34-GGUF
+  - key: mradermacher/gemma-4-26B-A4B-it-local-abliterated-sota-internal-t34-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-26B-A4B-it-local-abliterated-sota-internal-t34-i1-GGUF
+  - key: juan1995-dev/gemma-4-26B-A4B-it.mmproj-f16-GGUF
+    sources:
+      - type: huggingface
+        user: juan1995-dev
+        repo: gemma-4-26B-A4B-it.mmproj-f16-GGUF
+  - key: storagejuju/gemma-4-26b-a4b-it-mxfp4-moe-juju
+    sources:
+      - type: huggingface
+        user: storagejuju
+        repo: gemma-4-26b-a4b-it-mxfp4-moe-juju
+  - key: chandan989/prism-gemma-4-26B-A4B-it-MXFP4_MOE-v1
+    sources:
+      - type: huggingface
+        user: chandan989
+        repo: prism-gemma-4-26B-A4B-it-MXFP4_MOE-v1
+  - key: chandan989/prism-gemma-4-26B-A4B-it-MXFP4_MOE-v2
+    sources:
+      - type: huggingface
+        user: chandan989
+        repo: prism-gemma-4-26B-A4B-it-MXFP4_MOE-v2
+  - key: chandan989/prism-gemma-4-26B-A4B-it-MXFP4_MOE-v2.5
+    sources:
+      - type: huggingface
+        user: chandan989
+        repo: prism-gemma-4-26B-A4B-it-MXFP4_MOE-v2.5
+  - key: chandan989/prism-gemma-4-26B-A4B-it-MXFP4-v3.5
+    sources:
+      - type: huggingface
+        user: chandan989
+        repo: prism-gemma-4-26B-A4B-it-MXFP4-v3.5
+  - key: chandan989/prism-gemma-4-26B-A4B-it-MXFP4-v3.6
+    sources:
+      - type: huggingface
+        user: chandan989
+        repo: prism-gemma-4-26B-A4B-it-MXFP4-v3.6
+  - key: ggufbench/gemma-4-26B-A4B-it-NVFP4-GGUF
+    sources:
+      - type: huggingface
+        user: ggufbench
+        repo: gemma-4-26B-A4B-it-NVFP4-GGUF
+  - key: spicyricecaker/gemma-4-26B-A4B-it-Q4_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: spicyricecaker
+        repo: gemma-4-26B-A4B-it-Q4_K_M-GGUF
+  - key: juan1995-dev/gemma-4-26B-A4B-it-Q5_K_M_GGUF
+    sources:
+      - type: huggingface
+        user: juan1995-dev
+        repo: gemma-4-26B-A4B-it-Q5_K_M_GGUF
+  - key: sakryd/gemma-4-26B-A4B-it-Q5_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: sakryd
+        repo: gemma-4-26B-A4B-it-Q5_K_M-GGUF
+  - key: chandan989/prism-gemma-4-26B-A4B-it-Q5_K_M-v1
+    sources:
+      - type: huggingface
+        user: chandan989
+        repo: prism-gemma-4-26B-A4B-it-Q5_K_M-v1
+  - key: FreedomAISVR/Gemma-4-26B-A4B-it-MXFP4-MOE-GGUF
+    sources:
+      - type: huggingface
+        user: FreedomAISVR
+        repo: Gemma-4-26B-A4B-it-MXFP4-MOE-GGUF
+  - key: FreedomAISVR/Gemma-4-26B-A4B-it-NVFP4-GGUF
+    sources:
+      - type: huggingface
+        user: FreedomAISVR
+        repo: Gemma-4-26B-A4B-it-NVFP4-GGUF
+  - key: mradermacher/gemma-4-26B-A4B-it-SOMPOA-heresy-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-26B-A4B-it-SOMPOA-heresy-GGUF
+  - key: mradermacher/gemma-4-26B-A4B-it-SOMPOA-heresy-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gemma-4-26B-A4B-it-SOMPOA-heresy-i1-GGUF
+  - key: XuFengDev/Gemma-4-26B-A4B-it-TrevorJS-gguf
+    sources:
+      - type: huggingface
+        user: XuFengDev
+        repo: Gemma-4-26B-A4B-it-TrevorJS-gguf
+  - key: juan1995-dev/gemma-4-26B-A4B-it-UD
+    sources:
+      - type: huggingface
+        user: juan1995-dev
+        repo: gemma-4-26B-A4B-it-UD
+  - key: juan1995-dev/gemma-4-26B-A4B-it-UD-GGUF
+    sources:
+      - type: huggingface
+        user: juan1995-dev
+        repo: gemma-4-26B-A4B-it-UD-GGUF
+  - key: chandan989/prism-gemma-4-26B-A4B-it-UD-IQ4_XS_MOE-v2.5
+    sources:
+      - type: huggingface
+        user: chandan989
+        repo: prism-gemma-4-26B-A4B-it-UD-IQ4_XS_MOE-v2.5
+  - key: juan1995-dev/gemma-4-26B-A4B-it-UD-Q4_K_M
+    sources:
+      - type: huggingface
+        user: juan1995-dev
+        repo: gemma-4-26B-A4B-it-UD-Q4_K_M
+  - key: farshidtz/gemma-4-26B-A4B-it-UD-Q4_K_M-5G
+    sources:
+      - type: huggingface
+        user: farshidtz
+        repo: gemma-4-26B-A4B-it-UD-Q4_K_M-5G
 config:
   operation:
     fields:

@@ -652,6 +652,71 @@ base:
       - type: huggingface
         user: mradermacher
         repo: gpt-oss-nano-GGUF
+  - key: mradermacher/gpt-oss-nano-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gpt-oss-nano-i1-GGUF
+  - key: squ11z1/gpt-oss-nano
+    sources:
+      - type: huggingface
+        user: squ11z1
+        repo: gpt-oss-nano
+  - key: mashriram/gpt-oss-Regular.gguf
+    sources:
+      - type: huggingface
+        user: mashriram
+        repo: gpt-oss-Regular.gguf
+  - key: loeclos/gpt-oss-sarcastic-finetuning-v2
+    sources:
+      - type: huggingface
+        user: loeclos
+        repo: gpt-oss-sarcastic-finetuning-v2
+  - key: mradermacher/gpt-oss-sarcastic-finetuning-v3-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gpt-oss-sarcastic-finetuning-v3-GGUF
+  - key: mradermacher/gpt-oss-sarcastic-finetuning-v3-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: gpt-oss-sarcastic-finetuning-v3-i1-GGUF
+  - key: mradermacher/GPT-oss-sft-s1K-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: GPT-oss-sft-s1K-GGUF
+  - key: mradermacher/GPT-oss-sft-s1K-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: GPT-oss-sft-s1K-i1-GGUF
+  - key: muhammadhameed18106/gpt-oss-slide-mxfp4
+    sources:
+      - type: huggingface
+        user: muhammadhameed18106
+        repo: gpt-oss-slide-mxfp4
+  - key: lkh125/gpt-oss-therapist-mxfp4-gguf
+    sources:
+      - type: huggingface
+        user: lkh125
+        repo: gpt-oss-therapist-mxfp4-gguf
+  - key: tianrui6641/gpt-oss-vlm-merged
+    sources:
+      - type: huggingface
+        user: tianrui6641
+        repo: gpt-oss-vlm-merged
+  - key: mradermacher/GPT-oss20b-Blogtuned-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: GPT-oss20b-Blogtuned-GGUF
+  - key: narcolepticchicken/gpt-oss20b-contracts
+    sources:
+      - type: huggingface
+        user: narcolepticchicken
+        repo: gpt-oss20b-contracts
 config:
   operation:
     fields:

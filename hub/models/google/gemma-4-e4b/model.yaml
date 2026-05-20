@@ -767,6 +767,156 @@ base:
       - type: huggingface
         user: apworkspaces
         repo: gemma-4-e4b-it-gguf
+  - key: axelbrons/Gemma-4-E4B-it-Q2_K
+    sources:
+      - type: huggingface
+        user: axelbrons
+        repo: Gemma-4-E4B-it-Q2_K
+  - key: axelbrons/Gemma-4-E4B-it-Q6_K
+    sources:
+      - type: huggingface
+        user: axelbrons
+        repo: Gemma-4-E4B-it-Q6_K
+  - key: axelbrons/Gemma-4-E4B-it-Q8_0
+    sources:
+      - type: huggingface
+        user: axelbrons
+        repo: Gemma-4-E4B-it-Q8_0
+  - key: Bhuvneesh/gemma-4-E4B-it-Q8_0-GGUF
+    sources:
+      - type: huggingface
+        user: Bhuvneesh
+        repo: gemma-4-E4B-it-Q8_0-GGUF
+  - key: Bingsu/gemma-4-E4B-it-GGUF
+    sources:
+      - type: huggingface
+        user: Bingsu
+        repo: gemma-4-E4B-it-GGUF
+  - key: chapgx/gemma-4-E4B-it-gguf
+    sources:
+      - type: huggingface
+        user: chapgx
+        repo: gemma-4-E4B-it-gguf
+  - key: CodingToni/gemma-4-E4B-it
+    sources:
+      - type: huggingface
+        user: CodingToni
+        repo: gemma-4-E4B-it
+  - key: confamnode/gemma-4-E4B-it-GGUF
+    sources:
+      - type: huggingface
+        user: confamnode
+        repo: gemma-4-E4B-it-GGUF
+  - key: CQSystems/Google-Gemma-4-E4B-It-GGUF
+    sources:
+      - type: huggingface
+        user: CQSystems
+        repo: Google-Gemma-4-E4B-It-GGUF
+  - key: dometel/gemma-4-E4B-it-GGUF
+    sources:
+      - type: huggingface
+        user: dometel
+        repo: gemma-4-E4B-it-GGUF
+  - key: eaddario/gemma-4-E4B-it-GGUF
+    sources:
+      - type: huggingface
+        user: eaddario
+        repo: gemma-4-E4B-it-GGUF
+  - key: gijl/gemma-4-E4B-it-GGUF
+    sources:
+      - type: huggingface
+        user: gijl
+        repo: gemma-4-E4B-it-GGUF
+  - key: hapri701/gemma-4-E4B-it-Q6_K-GGUF
+    sources:
+      - type: huggingface
+        user: hapri701
+        repo: gemma-4-E4B-it-Q6_K-GGUF
+  - key: indiansatoshi/google_gemma-4-E4B-it-GGUF
+    sources:
+      - type: huggingface
+        user: indiansatoshi
+        repo: google_gemma-4-E4B-it-GGUF
+  - key: jc-builds/Gemma-4-E4B-it-GGUF
+    sources:
+      - type: huggingface
+        user: jc-builds
+        repo: Gemma-4-E4B-it-GGUF
+  - key: juan1995-dev/gemma-4-E4B-it-GGUF
+    sources:
+      - type: huggingface
+        user: juan1995-dev
+        repo: gemma-4-E4B-it-GGUF
+  - key: junwatu/resep-ID-chat-gemma-4-E4B-it-gguf
+    sources:
+      - type: huggingface
+        user: junwatu
+        repo: resep-ID-chat-gemma-4-E4B-it-gguf
+  - key: MichaelZag/gemma-4-E4B-it-GGUF
+    sources:
+      - type: huggingface
+        user: MichaelZag
+        repo: gemma-4-E4B-it-GGUF
+  - key: mradermacher/Darkidol-Gemma-4-E4B-it-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Darkidol-Gemma-4-E4B-it-GGUF
+  - key: MrEngineer/ClinIQ-Edge-gemma-4-e4b-it
+    sources:
+      - type: huggingface
+        user: MrEngineer
+        repo: ClinIQ-Edge-gemma-4-e4b-it
+  - key: TheZeez/gemma-4-e4b-creative-DFT-exp-GGUF
+    sources:
+      - type: huggingface
+        user: TheZeez
+        repo: gemma-4-e4b-creative-DFT-exp-GGUF
+  - key: manojbillionaire123/gemma-4-E4B-it-GGUF
+    sources:
+      - type: huggingface
+        user: manojbillionaire123
+        repo: gemma-4-E4B-it-GGUF
+  - key: nosir23/gemma-4-E4B-it-GGUF
+    sources:
+      - type: huggingface
+        user: nosir23
+        repo: gemma-4-E4B-it-GGUF
+  - key: Open4bits/gemma-4-E4B-it-GGUF
+    sources:
+      - type: huggingface
+        user: Open4bits
+        repo: gemma-4-E4B-it-GGUF
+  - key: priyankapathak/gemma-4-E4B-it-IQ3_M
+    sources:
+      - type: huggingface
+        user: priyankapathak
+        repo: gemma-4-E4B-it-IQ3_M
+  - key: priyankapathak/gemma-4-E4B-it-IQ3_S
+    sources:
+      - type: huggingface
+        user: priyankapathak
+        repo: gemma-4-E4B-it-IQ3_S
+  - key: priyankapathak/gemma-4-E4B-it-IQ4_XS
+    sources:
+      - type: huggingface
+        user: priyankapathak
+        repo: gemma-4-E4B-it-IQ4_XS
+  - key: priyankapathak/gemma-4-E4B-it-Q6_K
+    sources:
+      - type: huggingface
+        user: priyankapathak
+        repo: gemma-4-E4B-it-Q6_K
+  - key: recursechat/google_gemma-4-E4B-it-GGUF
+    sources:
+      - type: huggingface
+        user: recursechat
+        repo: google_gemma-4-E4B-it-GGUF
+  - key: ruygar/gemma-4-E4B-it-GGUF
+    sources:
+      - type: huggingface
+        user: ruygar
+        repo: gemma-4-E4B-it-GGUF
 config:
   operation:
     fields:

@@ -987,6 +987,156 @@ base:
       - type: huggingface
         user: meetara-lab
         repo: meetara-qwen3.5-9b-gguf
+  - key: mido09/Qwen3.5-9B-GGUF
+    sources:
+      - type: huggingface
+        user: mido09
+        repo: Qwen3.5-9B-GGUF
+  - key: migarcoes/Qwen3.5-9B
+    sources:
+      - type: huggingface
+        user: migarcoes
+        repo: Qwen3.5-9B
+  - key: mixu-ai/nsfwvision-v4_qwen3.5-9b-gguf
+    sources:
+      - type: huggingface
+        user: mixu-ai
+        repo: nsfwvision-v4_qwen3.5-9b-gguf
+  - key: mradermacher/A3-Qwen3.5-9B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: A3-Qwen3.5-9B-GGUF
+  - key: mradermacher/CARDS-Qwen3.5-9B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: CARDS-Qwen3.5-9B-GGUF
+  - key: mradermacher/CARDS-Wind-Qwen3.5-9B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: CARDS-Wind-Qwen3.5-9B-GGUF
+  - key: mradermacher/Distillation-Expert-Qwen3.5-9B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Distillation-Expert-Qwen3.5-9B-GGUF
+  - key: mradermacher/Distillation-Expert-Qwen3.5-9B-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Distillation-Expert-Qwen3.5-9B-i1-GGUF
+  - key: mradermacher/FinSenti-Qwen3.5-9B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: FinSenti-Qwen3.5-9B-GGUF
+  - key: mradermacher/GeoLLM-Qwen3.5-9B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: GeoLLM-Qwen3.5-9B-GGUF
+  - key: mradermacher/Heretical-Qwen3.5-9B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Heretical-Qwen3.5-9B-GGUF
+  - key: mradermacher/JewGPT-Qwen3.5-9B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: JewGPT-Qwen3.5-9B-GGUF
+  - key: mradermacher/Qwen3.5-9B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-9B-GGUF
+  - key: mradermacher/Windy-Qwen3.5-9B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Windy-Qwen3.5-9B-GGUF
+  - key: mradermacher/Windy-Qwen3.5-9B-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Windy-Qwen3.5-9B-i1-GGUF
+  - key: openresearchtools/Qwen3.5-9B-GGUF
+    sources:
+      - type: huggingface
+        user: openresearchtools
+        repo: Qwen3.5-9B-GGUF
+  - key: plixplox/Qwen3.5-9B
+    sources:
+      - type: huggingface
+        user: plixplox
+        repo: Qwen3.5-9B
+  - key: rfisdhef/Qwen3.5-9B-GGUF
+    sources:
+      - type: huggingface
+        user: rfisdhef
+        repo: Qwen3.5-9B-GGUF
+  - key: ryhme246/Qwen3.5-9B-Q8_0-GGUF
+    sources:
+      - type: huggingface
+        user: ryhme246
+        repo: Qwen3.5-9B-Q8_0-GGUF
+  - key: SandLogicTechnologies/Qwen3.5-9B-GGUF
+    sources:
+      - type: huggingface
+        user: SandLogicTechnologies
+        repo: Qwen3.5-9B-GGUF
+  - key: phucngodev/Qwen3.5-9B
+    sources:
+      - type: huggingface
+        user: phucngodev
+        repo: Qwen3.5-9B
+  - key: SandyVeliz/acervo-extractor-qwen3.5-9b
+    sources:
+      - type: huggingface
+        user: SandyVeliz
+        repo: acervo-extractor-qwen3.5-9b
+  - key: seerware/Qwen3.5-9B-GGUF
+    sources:
+      - type: huggingface
+        user: seerware
+        repo: Qwen3.5-9B-GGUF
+  - key: Sporer/Qwen3.5-9B
+    sources:
+      - type: huggingface
+        user: Sporer
+        repo: Qwen3.5-9B
+  - key: StageMind/qwen3.5-9b
+    sources:
+      - type: huggingface
+        user: StageMind
+        repo: qwen3.5-9b
+  - key: sunil-pathak/Qwen3.5-9B-IQ4_NL
+    sources:
+      - type: huggingface
+        user: sunil-pathak
+        repo: Qwen3.5-9B-IQ4_NL
+  - key: sunil-pathak/Qwen3.5-9B-Q6_K
+    sources:
+      - type: huggingface
+        user: sunil-pathak
+        repo: Qwen3.5-9B-Q6_K
+  - key: tamerbaydag/Qwen3.5-9B-Q6_K-GGUF
+    sources:
+      - type: huggingface
+        user: tamerbaydag
+        repo: Qwen3.5-9B-Q6_K-GGUF
+  - key: tatsuyaaaaaaa/Qwen3.5-9B-gguf
+    sources:
+      - type: huggingface
+        user: tatsuyaaaaaaa
+        repo: Qwen3.5-9B-gguf
+  - key: titan0115/Qwen3.5-9B
+    sources:
+      - type: huggingface
+        user: titan0115
+        repo: Qwen3.5-9B
 config:
   operation:
     fields:

@@ -517,6 +517,156 @@ base:
       - type: huggingface
         user: humaan
         repo: Qwen3-8B
+  - key: Inza124/Qwen3-8b
+    sources:
+      - type: huggingface
+        user: Inza124
+        repo: Qwen3-8b
+  - key: John1604/DeepSeek-R1-0528-Qwen3-8B-gguf
+    sources:
+      - type: huggingface
+        user: John1604
+        repo: DeepSeek-R1-0528-Qwen3-8B-gguf
+  - key: John1604/Qwen3-8B-gguf
+    sources:
+      - type: huggingface
+        user: John1604
+        repo: Qwen3-8B-gguf
+  - key: johnbean393/Trojan-1-Qwen3-8B-GGUF
+    sources:
+      - type: huggingface
+        user: johnbean393
+        repo: Trojan-1-Qwen3-8B-GGUF
+  - key: json-l/ecu-pilot-qwen3-8b-GGUF
+    sources:
+      - type: huggingface
+        user: json-l
+        repo: ecu-pilot-qwen3-8b-GGUF
+  - key: JulianChang/Qwen3-8B-Q8_0-GGUF
+    sources:
+      - type: huggingface
+        user: JulianChang
+        repo: Qwen3-8B-Q8_0-GGUF
+  - key: kanxl/Qwen3-8B-Q2_K-GGUF
+    sources:
+      - type: huggingface
+        user: kanxl
+        repo: Qwen3-8B-Q2_K-GGUF
+  - key: keenanthekeen/keenan-qwen3-8b
+    sources:
+      - type: huggingface
+        user: keenanthekeen
+        repo: keenan-qwen3-8b
+  - key: kishida/sui-lang-qwen3-8b
+    sources:
+      - type: huggingface
+        user: kishida
+        repo: sui-lang-qwen3-8b
+  - key: kitten-kitkat/qwen3-8b-gguf
+    sources:
+      - type: huggingface
+        user: kitten-kitkat
+        repo: qwen3-8b-gguf
+  - key: kolosal/qwen3-8b
+    sources:
+      - type: huggingface
+        user: kolosal
+        repo: qwen3-8b
+  - key: krfde/Qwen3-8B-Q8_0-GGUF
+    sources:
+      - type: huggingface
+        user: krfde
+        repo: Qwen3-8B-Q8_0-GGUF
+  - key: llmware/qwen3-8b-gguf
+    sources:
+      - type: huggingface
+        user: llmware
+        repo: qwen3-8b-gguf
+  - key: LouiSeHU/DeepSeek-R1-0528-Qwen3-8B-Q8_0-GGUF
+    sources:
+      - type: huggingface
+        user: LouiSeHU
+        repo: DeepSeek-R1-0528-Qwen3-8B-Q8_0-GGUF
+  - key: LouiSeHU/Qwen3-8B-Q8_0-GGUF
+    sources:
+      - type: huggingface
+        user: LouiSeHU
+        repo: Qwen3-8B-Q8_0-GGUF
+  - key: Lucy-in-the-Sky/DeepSeek-R1-0528-Qwen3-8B-Q8_0-GGUF
+    sources:
+      - type: huggingface
+        user: Lucy-in-the-Sky
+        repo: DeepSeek-R1-0528-Qwen3-8B-Q8_0-GGUF
+  - key: manindra18/Qwen3-8B
+    sources:
+      - type: huggingface
+        user: manindra18
+        repo: Qwen3-8B
+  - key: Manojb/Qwen3-8B-Q6_K.gguf
+    sources:
+      - type: huggingface
+        user: Manojb
+        repo: Qwen3-8B-Q6_K.gguf
+  - key: Manojb/Qwen3-8B-Q8_0.gguf
+    sources:
+      - type: huggingface
+        user: Manojb
+        repo: Qwen3-8B-Q8_0.gguf
+  - key: marcelone/Jinx-Qwen3-8B-gguf
+    sources:
+      - type: huggingface
+        user: marcelone
+        repo: Jinx-Qwen3-8B-gguf
+  - key: maxkulish/Qwen_Qwen3-8B-GGUF
+    sources:
+      - type: huggingface
+        user: maxkulish
+        repo: Qwen_Qwen3-8B-GGUF
+  - key: meetara-lab/meetara-qwen3-8b-gguf
+    sources:
+      - type: huggingface
+        user: meetara-lab
+        repo: meetara-qwen3-8b-gguf
+  - key: merterbak/Qwen3-8B-GGUF
+    sources:
+      - type: huggingface
+        user: merterbak
+        repo: Qwen3-8B-GGUF
+  - key: miku552/Qwen3-8B-IQ4_NL-GGUF
+    sources:
+      - type: huggingface
+        user: miku552
+        repo: Qwen3-8B-IQ4_NL-GGUF
+  - key: mmnga/DeepSeek-R1-0528-Qwen3-8B-gguf
+    sources:
+      - type: huggingface
+        user: mmnga
+        repo: DeepSeek-R1-0528-Qwen3-8B-gguf
+  - key: MPR0/dental-call-evaluator-qwen3-8b
+    sources:
+      - type: huggingface
+        user: MPR0
+        repo: dental-call-evaluator-qwen3-8b
+  - key: mradermacher/adversarial-paraphraser-qwen3-8b-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: adversarial-paraphraser-qwen3-8b-GGUF
+  - key: mradermacher/annie-lite-v0.1-qwen3-8b-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: annie-lite-v0.1-qwen3-8b-GGUF
+  - key: mradermacher/annie-lite-v0.2-planning-qwen3-8b-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: annie-lite-v0.2-planning-qwen3-8b-GGUF
+  - key: mradermacher/annie-lite-v0.2-qwen3-8b-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: annie-lite-v0.2-qwen3-8b-GGUF
 config:
   operation:
     fields:

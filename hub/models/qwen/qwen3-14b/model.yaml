@@ -677,6 +677,156 @@ base:
       - type: huggingface
         user: mradermacher
         repo: DeepPrep-Qwen3-14B-GGUF
+  - key: mradermacher/DeepPrep-Qwen3-14B-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: DeepPrep-Qwen3-14B-i1-GGUF
+  - key: mradermacher/Fast-Math-Qwen3-14B-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Fast-Math-Qwen3-14B-i1-GGUF
+  - key: mradermacher/General-Reasoner-Qwen3-14B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: General-Reasoner-Qwen3-14B-GGUF
+  - key: mradermacher/General-Reasoner-Qwen3-14B-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: General-Reasoner-Qwen3-14B-i1-GGUF
+  - key: mradermacher/git-commit-message-splitter-Qwen3-14B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: git-commit-message-splitter-Qwen3-14B-GGUF
+  - key: mradermacher/git-commit-message-splitter-Qwen3-14B-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: git-commit-message-splitter-Qwen3-14B-i1-GGUF
+  - key: mradermacher/GrayLine-Qwen3-14B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: GrayLine-Qwen3-14B-GGUF
+  - key: mradermacher/huatuo_sft_qwen3-14b-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: huatuo_sft_qwen3-14b-GGUF
+  - key: mradermacher/Jinx-Qwen3-14B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Jinx-Qwen3-14B-GGUF
+  - key: mradermacher/Jinx-Qwen3-14B-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Jinx-Qwen3-14B-i1-GGUF
+  - key: mradermacher/Malaysian-Qwen3-14B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Malaysian-Qwen3-14B-GGUF
+  - key: mradermacher/Malaysian-Qwen3-14B-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Malaysian-Qwen3-14B-i1-GGUF
+  - key: mradermacher/mariana-qwen3-14b-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: mariana-qwen3-14b-GGUF
+  - key: mradermacher/OSSAS-Qwen3-14B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: OSSAS-Qwen3-14B-GGUF
+  - key: mradermacher/OSSAS-Qwen3-14B-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: OSSAS-Qwen3-14B-i1-GGUF
+  - key: mradermacher/QiMing-Holos-Plus-Qwen3-14B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: QiMing-Holos-Plus-Qwen3-14B-GGUF
+  - key: mradermacher/QiMing-Pantheon-Qwen3-14B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: QiMing-Pantheon-Qwen3-14B-GGUF
+  - key: mradermacher/s1-Qwen3-14B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: s1-Qwen3-14B-GGUF
+  - key: mradermacher/s1-Qwen3-14B-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: s1-Qwen3-14B-i1-GGUF
+  - key: mradermacher/s1.1-Qwen3-14B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: s1.1-Qwen3-14B-GGUF
+  - key: mradermacher/s1.1-Qwen3-14B-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: s1.1-Qwen3-14B-i1-GGUF
+  - key: mradermacher/Smoothie-Qwen3-14B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Smoothie-Qwen3-14B-GGUF
+  - key: mradermacher/spectrum-Qwen3-14B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: spectrum-Qwen3-14B-GGUF
+  - key: mradermacher/spoomplesmaxx-base-qwen3-14b-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: spoomplesmaxx-base-qwen3-14b-GGUF
+  - key: mradermacher/spoomplesmaxx-base-qwen3-14b-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: spoomplesmaxx-base-qwen3-14b-i1-GGUF
+  - key: mradermacher/TechGPT-3.0-Qwen3-14b-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: TechGPT-3.0-Qwen3-14b-GGUF
+  - key: mradermacher/TechGPT-3.0-Qwen3-14b-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: TechGPT-3.0-Qwen3-14b-i1-GGUF
+  - key: mradermacher/UNO-Scorer-Qwen3-14B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: UNO-Scorer-Qwen3-14B-GGUF
+  - key: mradermacher/VellumMini-0.1-Qwen3-14B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: VellumMini-0.1-Qwen3-14B-GGUF
+  - key: mradermacher/VellumMini-0.1-Qwen3-14B-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: VellumMini-0.1-Qwen3-14B-i1-GGUF
 config:
   operation:
     fields:

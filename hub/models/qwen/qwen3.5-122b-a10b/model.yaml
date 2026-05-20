@@ -812,6 +812,156 @@ base:
       - type: huggingface
         user: mradermacher
         repo: Crow-4B-Opus-4.6-Distill-Heretic_Qwen3.5-GGUF
+  - key: mradermacher/Crow-4B-Opus-4.6-Distill-Heretic_Qwen3.5-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Crow-4B-Opus-4.6-Distill-Heretic_Qwen3.5-i1-GGUF
+  - key: mradermacher/Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5-GGUF
+  - key: mradermacher/Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5-i1-GGUF
+  - key: OusiaResearch/Aureth-4B-Qwen3.5
+    sources:
+      - type: huggingface
+        user: OusiaResearch
+        repo: Aureth-4B-Qwen3.5
+  - key: OusiaResearch/Aureth-9B-Qwen3.5
+    sources:
+      - type: huggingface
+        user: OusiaResearch
+        repo: Aureth-9B-Qwen3.5
+  - key: ZeeshanLiaqat/dark-pattern-qwen3.5
+    sources:
+      - type: huggingface
+        user: ZeeshanLiaqat
+        repo: dark-pattern-qwen3.5
+  - key: dirop1/qwen3.5-0.8-4Q-PUBG-gguf
+    sources:
+      - type: huggingface
+        user: dirop1
+        repo: qwen3.5-0.8-4Q-PUBG-gguf
+  - key: etemiz/Ostrich-27B-Qwen3.5-260305-GGUF
+    sources:
+      - type: huggingface
+        user: etemiz
+        repo: Ostrich-27B-Qwen3.5-260305-GGUF
+  - key: mradermacher/Ostrich-27B-Qwen3.5-260305-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Ostrich-27B-Qwen3.5-260305-GGUF
+  - key: mradermacher/Ostrich-27B-Qwen3.5-260305-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Ostrich-27B-Qwen3.5-260305-i1-GGUF
+  - key: etemiz/Ostrich-27B-Qwen3.5-260411-GGUF
+    sources:
+      - type: huggingface
+        user: etemiz
+        repo: Ostrich-27B-Qwen3.5-260411-GGUF
+  - key: mradermacher/Ostrich-27B-Qwen3.5-260411-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Ostrich-27B-Qwen3.5-260411-GGUF
+  - key: mradermacher/Ostrich-27B-Qwen3.5-260411-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Ostrich-27B-Qwen3.5-260411-i1-GGUF
+  - key: zhouyu199886/Qwen3.5-2Bq4_k_m
+    sources:
+      - type: huggingface
+        user: zhouyu199886
+        repo: Qwen3.5-2Bq4_k_m
+  - key: admijgjtjtjtjjg/Qwen3.5-34M-Micro
+    sources:
+      - type: huggingface
+        user: admijgjtjtjtjjg
+        repo: Qwen3.5-34M-Micro
+  - key: Anonymousfrog/Qwen3.5-800M-Abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: Anonymousfrog
+        repo: Qwen3.5-800M-Abliterated-GGUF
+  - key: tarundsflsdf/qwen3.5-8k-120-merged-gguf
+    sources:
+      - type: huggingface
+        user: tarundsflsdf
+        repo: qwen3.5-8k-120-merged-gguf
+  - key: prithivMLmods/Qwen3.5-abliterated-MAX-AIO-GGUF
+    sources:
+      - type: huggingface
+        user: prithivMLmods
+        repo: Qwen3.5-abliterated-MAX-AIO-GGUF
+  - key: zapabobouj/qwen3.5-elt-l3
+    sources:
+      - type: huggingface
+        user: zapabobouj
+        repo: qwen3.5-elt-l3
+  - key: Sokheng/qwen3.5_finetune
+    sources:
+      - type: huggingface
+        user: Sokheng
+        repo: qwen3.5_finetune
+  - key: mradermacher/Qwen3.5-122B-A10B-REAP-20-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-122B-A10B-REAP-20-GGUF
+  - key: mradermacher/Qwen3.5-122B-A10B-REAP-20-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-122B-A10B-REAP-20-i1-GGUF
+  - key: nphearum/Qwen3.5-4bxOpus-4.7-sonic-GGUF
+    sources:
+      - type: huggingface
+        user: nphearum
+        repo: Qwen3.5-4bxOpus-4.7-sonic-GGUF
+  - key: summerMC/Qwen3.5-hack-down-gguf
+    sources:
+      - type: huggingface
+        user: summerMC
+        repo: Qwen3.5-hack-down-gguf
+  - key: Soundsus/Qwen3.5-Jackrong-Opus4.6-Distilled-Fennel-UNTESTED-GGUF
+    sources:
+      - type: huggingface
+        user: Soundsus
+        repo: Qwen3.5-Jackrong-Opus4.6-Distilled-Fennel-UNTESTED-GGUF
+  - key: anhi0008/qwen3.5_jl_v0.1_gguf
+    sources:
+      - type: huggingface
+        user: anhi0008
+        repo: qwen3.5_jl_v0.1_gguf
+  - key: Reytian/qwen3.5-legal-q5_k_m-gguf
+    sources:
+      - type: huggingface
+        user: Reytian
+        repo: qwen3.5-legal-q5_k_m-gguf
+  - key: summerMC/qwen3.5-lockhack
+    sources:
+      - type: huggingface
+        user: summerMC
+        repo: qwen3.5-lockhack
+  - key: malvalabel/Qwen3.5-MALVA-REAP-60exp-GGUF
+    sources:
+      - type: huggingface
+        user: malvalabel
+        repo: Qwen3.5-MALVA-REAP-60exp-GGUF
+  - key: vadimbelsky/qwen3.5-medical-ft-stage3-dpo
+    sources:
+      - type: huggingface
+        user: vadimbelsky
+        repo: qwen3.5-medical-ft-stage3-dpo
 config:
   operation:
     fields:

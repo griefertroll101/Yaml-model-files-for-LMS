@@ -862,6 +862,156 @@ base:
       - type: huggingface
         user: mradermacher
         repo: Huihui-Qwen3.6-35B-A3B-Claude-4.6-Opus-abliterated-i1-GGUF
+  - key: whoya/Huihui-Qwen3.6-35B-A3B-Claude-4.6-Opus-abliterated-Q5_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: whoya
+        repo: Huihui-Qwen3.6-35B-A3B-Claude-4.6-Opus-abliterated-Q5_K_M-GGUF
+  - key: Ankushbl6/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+    sources:
+      - type: huggingface
+        user: Ankushbl6
+        repo: Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+  - key: Grach0/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+    sources:
+      - type: huggingface
+        user: Grach0
+        repo: Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+  - key: Marafonezzz/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+    sources:
+      - type: huggingface
+        user: Marafonezzz
+        repo: Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+  - key: mradermacher/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+  - key: mradermacher/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-i1-GGUF
+  - key: Odilkhon/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+    sources:
+      - type: huggingface
+        user: Odilkhon
+        repo: Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+  - key: reedmayhew/UD-2.0-Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+    sources:
+      - type: huggingface
+        user: reedmayhew
+        repo: UD-2.0-Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+  - key: sheglov/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+    sources:
+      - type: huggingface
+        user: sheglov
+        repo: Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+  - key: tritueviet/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+    sources:
+      - type: huggingface
+        user: tritueviet
+        repo: Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+  - key: mudler/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-APEX-MTP-GGUF
+    sources:
+      - type: huggingface
+        user: mudler
+        repo: Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-APEX-MTP-GGUF
+  - key: Youseff1987/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF-with-mmproj
+    sources:
+      - type: huggingface
+        user: Youseff1987
+        repo: Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF-with-mmproj
+  - key: ghecko78/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: ghecko78
+        repo: Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-heretic-GGUF
+  - key: shreyan35/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-heretic-Q8_0-GGUF
+    sources:
+      - type: huggingface
+        user: shreyan35
+        repo: Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-heretic-Q8_0-GGUF
+  - key: bkerler/Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-gguf
+    sources:
+      - type: huggingface
+        user: bkerler
+        repo: Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-gguf
+  - key: EdmS/Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-Q4_0-GGUF
+    sources:
+      - type: huggingface
+        user: EdmS
+        repo: Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-Q4_0-GGUF
+  - key: Momix-44/Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated
+    sources:
+      - type: huggingface
+        user: Momix-44
+        repo: Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated
+  - key: mradermacher/Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-GGUF
+  - key: mradermacher/Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-i1-GGUF
+  - key: shreyan35/Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-Q8_0-GGUF
+    sources:
+      - type: huggingface
+        user: shreyan35
+        repo: Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-Q8_0-GGUF
+  - key: byteshape/Qwen3.6-35B-A3B-GGUF
+    sources:
+      - type: huggingface
+        user: byteshape
+        repo: Qwen3.6-35B-A3B-GGUF
+  - key: huihui-ai/Huihui-Qwen3.6-35B-A3B-abliterated-MTP-GGUF
+    sources:
+      - type: huggingface
+        user: huihui-ai
+        repo: Huihui-Qwen3.6-35B-A3B-abliterated-MTP-GGUF
+  - key: huihui-ai/Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-MTP-GGUF
+    sources:
+      - type: huggingface
+        user: huihui-ai
+        repo: Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-MTP-GGUF
+  - key: EdmS/Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-Q3_K_L-GGUF
+    sources:
+      - type: huggingface
+        user: EdmS
+        repo: Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-Q3_K_L-GGUF
+  - key: Stickmouse/Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-Q3_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: Stickmouse
+        repo: Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-Q3_K_M-GGUF
+  - key: Stickmouse/Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-Q3_K_S-GGUF
+    sources:
+      - type: huggingface
+        user: Stickmouse
+        repo: Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-Q3_K_S-GGUF
+  - key: jing96963/Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-Q4_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: jing96963
+        repo: Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-Q4_K_M-GGUF
+  - key: MrKoN/Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-Q4_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: MrKoN
+        repo: Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-Q4_K_M-GGUF
+  - key: whoya/Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-Q4_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: whoya
+        repo: Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-Q4_K_M-GGUF
+  - key: whoya/Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-Q5_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: whoya
+        repo: Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-Q5_K_M-GGUF
 config:
   operation:
     fields:

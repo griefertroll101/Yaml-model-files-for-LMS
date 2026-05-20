@@ -727,6 +727,156 @@ base:
       - type: huggingface
         user: jackasda211233
         repo: Qwen3.6-27B-AEON-RYS-15-20-GGUF
+  - key: jackasda211233/Qwen3.6-27B-AEON-RYS-SignalLatch-GGUF
+    sources:
+      - type: huggingface
+        user: jackasda211233
+        repo: Qwen3.6-27B-AEON-RYS-SignalLatch-GGUF
+  - key: ghost-actual/Qwen3.6-27B-AEON-Ultimate-Uncensored-GGUF
+    sources:
+      - type: huggingface
+        user: ghost-actual
+        repo: Qwen3.6-27B-AEON-Ultimate-Uncensored-GGUF
+  - key: kasimat/Qwen3.6-27B-AEON-Ultimate-Uncensored-GGUF
+    sources:
+      - type: huggingface
+        user: kasimat
+        repo: Qwen3.6-27B-AEON-Ultimate-Uncensored-GGUF
+  - key: mradermacher/Qwen3.6-27B-AEON-Ultimate-Uncensored-BF16-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.6-27B-AEON-Ultimate-Uncensored-BF16-GGUF
+  - key: mradermacher/Qwen3.6-27B-AEON-Ultimate-Uncensored-BF16-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.6-27B-AEON-Ultimate-Uncensored-BF16-i1-GGUF
+  - key: Goldlionren00/AEON-Qwen3.6-27B-AEON-Ultimate-Uncensored-NVFP4-GGUF
+    sources:
+      - type: huggingface
+        user: Goldlionren00
+        repo: AEON-Qwen3.6-27B-AEON-Ultimate-Uncensored-NVFP4-GGUF
+  - key: joermd/Qwen3.6-27B-Aggressive
+    sources:
+      - type: huggingface
+        user: joermd
+        repo: Qwen3.6-27B-Aggressive
+  - key: Darkhn-Quants-3/Qwen3.6-27B-Animus-V14.0-GGUF
+    sources:
+      - type: huggingface
+        user: Darkhn-Quants-3
+        repo: Qwen3.6-27B-Animus-V14.0-GGUF
+  - key: deucebucket/Qwen3.6-27B-Cerebellum-GGUF
+    sources:
+      - type: huggingface
+        user: deucebucket
+        repo: Qwen3.6-27B-Cerebellum-GGUF
+  - key: yuxinlu1/qwen3-6-27b-chinese-crime-fiction-lora-v2
+    sources:
+      - type: huggingface
+        user: yuxinlu1
+        repo: qwen3-6-27b-chinese-crime-fiction-lora-v2
+  - key: yuxinlu1/qwen3-6-27b-chinese-folk-horror-lora-v2
+    sources:
+      - type: huggingface
+        user: yuxinlu1
+        repo: qwen3-6-27b-chinese-folk-horror-lora-v2
+  - key: yuxinlu1/qwen3-6-27b-chinese-realistic-fiction-lora-v1
+    sources:
+      - type: huggingface
+        user: yuxinlu1
+        repo: qwen3-6-27b-chinese-realistic-fiction-lora-v1
+  - key: king1618/Qwen3.6-27B-Claude-Opus-Reasoning-Distill-origin
+    sources:
+      - type: huggingface
+        user: king1618
+        repo: Qwen3.6-27B-Claude-Opus-Reasoning-Distill-origin
+  - key: vathvathv/Qwen3.6-27B-Claude-Opus-Reasoning-Distill-v2-GGUF
+    sources:
+      - type: huggingface
+        user: vathvathv
+        repo: Qwen3.6-27B-Claude-Opus-Reasoning-Distill-v2-GGUF
+  - key: KartoffelToby/Qwen3.6-27B-Claude-Opus-Reasoning-Distilled-GGUF
+    sources:
+      - type: huggingface
+        user: KartoffelToby
+        repo: Qwen3.6-27B-Claude-Opus-Reasoning-Distilled-GGUF
+  - key: DAXZEIT/Qwen3.6-27B-Claude-Opus-Reasoning-Distilled-UD-Q4_K_XL-gguf
+    sources:
+      - type: huggingface
+        user: DAXZEIT
+        repo: Qwen3.6-27B-Claude-Opus-Reasoning-Distilled-UD-Q4_K_XL-gguf
+  - key: DAXZEIT/Qwen3.6-27B-Claude-Opus-Reasoning-Distilled-UD-Q5_K_XL-gguf
+    sources:
+      - type: huggingface
+        user: DAXZEIT
+        repo: Qwen3.6-27B-Claude-Opus-Reasoning-Distilled-UD-Q5_K_XL-gguf
+  - key: DAXZEIT/Qwen3.6-27B-Claude-Opus-Reasoning-Distilled-UD-Q6_K_XL-gguf
+    sources:
+      - type: huggingface
+        user: DAXZEIT
+        repo: Qwen3.6-27B-Claude-Opus-Reasoning-Distilled-UD-Q6_K_XL-gguf
+  - key: DAXZEIT/Qwen3.6-27B-Claude-Opus-Reasoning-UD-Q4_K_RA-XL-gguf
+    sources:
+      - type: huggingface
+        user: DAXZEIT
+        repo: Qwen3.6-27B-Claude-Opus-Reasoning-UD-Q4_K_RA-XL-gguf
+  - key: Brian6145/Qwen3.6-27B-Claude-Opus-Sonnet-Distilled-GGUF
+    sources:
+      - type: huggingface
+        user: Brian6145
+        repo: Qwen3.6-27B-Claude-Opus-Sonnet-Distilled-GGUF
+  - key: chfm/Huihui-Qwen3.6-27B-abliterated-Q4_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: chfm
+        repo: Huihui-Qwen3.6-27B-abliterated-Q4_K_M-GGUF
+  - key: earth-demon/Qwen3.6-27B-AEON-Ultimate-Uncensored-GGUF
+    sources:
+      - type: huggingface
+        user: earth-demon
+        repo: Qwen3.6-27B-AEON-Ultimate-Uncensored-GGUF
+  - key: samajlouis/Qwen3.6-27B-Clausius-Heretic-GGUF
+    sources:
+      - type: huggingface
+        user: samajlouis
+        repo: Qwen3.6-27B-Clausius-Heretic-GGUF
+  - key: Anbeeld/Qwen3.6-27B-DFlash-GGUF
+    sources:
+      - type: huggingface
+        user: Anbeeld
+        repo: Qwen3.6-27B-DFlash-GGUF
+  - key: Ardenzard/Qwen3.6-27B-DFlash-GGUF
+    sources:
+      - type: huggingface
+        user: Ardenzard
+        repo: Qwen3.6-27B-DFlash-GGUF
+  - key: Lucebox/Qwen3.6-27B-DFlash-GGUF
+    sources:
+      - type: huggingface
+        user: Lucebox
+        repo: Qwen3.6-27B-DFlash-GGUF
+  - key: vlx1/Qwen3.6-27B-f16-GGUF
+    sources:
+      - type: huggingface
+        user: vlx1
+        repo: Qwen3.6-27B-f16-GGUF
+  - key: Alex89912/Qwen3.6-27B-FP8-Q4_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: Alex89912
+        repo: Qwen3.6-27B-FP8-Q4_K_M-GGUF
+  - key: sokann/Qwen3.6-27B-GGUF-4.256bpw
+    sources:
+      - type: huggingface
+        user: sokann
+        repo: Qwen3.6-27B-GGUF-4.256bpw
+  - key: sokann/Qwen3.6-27B-GGUF-4.262bpw
+    sources:
+      - type: huggingface
+        user: sokann
+        repo: Qwen3.6-27B-GGUF-4.262bpw
 config:
   operation:
     fields:

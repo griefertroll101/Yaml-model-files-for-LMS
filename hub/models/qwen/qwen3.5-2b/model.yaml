@@ -897,6 +897,156 @@ base:
       - type: huggingface
         user: StageMind
         repo: qwen3.5-2b
+  - key: tatsuyaaaaaaa/Qwen3.5-2B-gguf
+    sources:
+      - type: huggingface
+        user: tatsuyaaaaaaa
+        repo: Qwen3.5-2B-gguf
+  - key: titan0115/Qwen3.5-2B
+    sources:
+      - type: huggingface
+        user: titan0115
+        repo: Qwen3.5-2B
+  - key: Trilogix1/Hugston_Lobotomized-Qwen3.5_2B_gguf
+    sources:
+      - type: huggingface
+        user: Trilogix1
+        repo: Hugston_Lobotomized-Qwen3.5_2B_gguf
+  - key: TypeUnsafe/Qwen3.5-2B
+    sources:
+      - type: huggingface
+        user: TypeUnsafe
+        repo: Qwen3.5-2B
+  - key: vremiks/Qwen3.5-2B-GGUF
+    sources:
+      - type: huggingface
+        user: vremiks
+        repo: Qwen3.5-2B-GGUF
+  - key: vXofi/businessgpt-v11-qwen3.5-2b-gguf
+    sources:
+      - type: huggingface
+        user: vXofi
+        repo: businessgpt-v11-qwen3.5-2b-gguf
+  - key: vXofi/businessgpt-v14-dpo-qwen3.5-2b-gguf
+    sources:
+      - type: huggingface
+        user: vXofi
+        repo: businessgpt-v14-dpo-qwen3.5-2b-gguf
+  - key: XformAI-india/Qwen3.5-2B-gguf
+    sources:
+      - type: huggingface
+        user: XformAI-india
+        repo: Qwen3.5-2B-gguf
+  - key: Xlnk/Qwen3.5-2B-GGUF
+    sources:
+      - type: huggingface
+        user: Xlnk
+        repo: Qwen3.5-2B-GGUF
+  - key: amkkk/Qwen3.5_2B_Abiliterate_All_Layers_Baked_GGUF_quantized
+    sources:
+      - type: huggingface
+        user: amkkk
+        repo: Qwen3.5_2B_Abiliterate_All_Layers_Baked_GGUF_quantized
+  - key: amkkk/Qwen3.5_2B_Abiliterate_Opus_Distill_GGUF_quantized
+    sources:
+      - type: huggingface
+        user: amkkk
+        repo: Qwen3.5_2B_Abiliterate_Opus_Distill_GGUF_quantized
+  - key: SicariusSicariiStuff/Qwen3.5-2B_Abliterated_ARM
+    sources:
+      - type: huggingface
+        user: SicariusSicariiStuff
+        repo: Qwen3.5-2B_Abliterated_ARM
+  - key: cococo3/Qwen3.5-2B-AD-gguf
+    sources:
+      - type: huggingface
+        user: cococo3
+        repo: Qwen3.5-2B-AD-gguf
+  - key: johnbean393/Qwen3.5-2B-Base-GGUF
+    sources:
+      - type: huggingface
+        user: johnbean393
+        repo: Qwen3.5-2B-Base-GGUF
+  - key: migarcoes/Qwen-Qwen3.5-2B-Base
+    sources:
+      - type: huggingface
+        user: migarcoes
+        repo: Qwen-Qwen3.5-2B-Base
+  - key: Romarchive/Qwen3.5-2B-Base-GGUF
+    sources:
+      - type: huggingface
+        user: Romarchive
+        repo: Qwen3.5-2B-Base-GGUF
+  - key: titan0115/Qwen3.5-2B-Base
+    sources:
+      - type: huggingface
+        user: titan0115
+        repo: Qwen3.5-2B-Base
+  - key: theminji/Qwen3.5-2B-CasualConversations
+    sources:
+      - type: huggingface
+        user: theminji
+        repo: Qwen3.5-2B-CasualConversations
+  - key: Lahhhalah/Qwen3.5-2B-Claude-4.6-Opus-Reasoning-Distilled-heretic-v2-GGUF
+    sources:
+      - type: huggingface
+        user: Lahhhalah
+        repo: Qwen3.5-2B-Claude-4.6-Opus-Reasoning-Distilled-heretic-v2-GGUF
+  - key: Rikunarita-ORG/Qwen3.5-2B-Claude-Opus-4.6-high-resoning-v2-SFT-imatrix-Q5_K_M-GGUF
+    sources:
+      - type: huggingface
+        user: Rikunarita-ORG
+        repo: Qwen3.5-2B-Claude-Opus-4.6-high-resoning-v2-SFT-imatrix-Q5_K_M-GGUF
+  - key: ronniross/Qwen3.5-2B-Base-f16-GGUF
+    sources:
+      - type: huggingface
+        user: ronniross
+        repo: Qwen3.5-2B-Base-f16-GGUF
+  - key: viperdf/unsloth_Qwen3.5-2B-claudeopus46
+    sources:
+      - type: huggingface
+        user: viperdf
+        repo: unsloth_Qwen3.5-2B-claudeopus46
+  - key: thesalam4ik/qwen3.5-2b-commitgeneration
+    sources:
+      - type: huggingface
+        user: thesalam4ik
+        repo: qwen3.5-2b-commitgeneration
+  - key: Aipse-Bot/Qwen3.5-2B_Custom_Finetuned
+    sources:
+      - type: huggingface
+        user: Aipse-Bot
+        repo: Qwen3.5-2B_Custom_Finetuned
+  - key: Offensivesec/Qwen3.5-2B_dental
+    sources:
+      - type: huggingface
+        user: Offensivesec
+        repo: Qwen3.5-2B_dental
+  - key: Offensivesec/Qwen3.5-2B_dental_v1
+    sources:
+      - type: huggingface
+        user: Offensivesec
+        repo: Qwen3.5-2B_dental_v1
+  - key: prithivMLmods/Qwen3.5-2B-f32-GGUF
+    sources:
+      - type: huggingface
+        user: prithivMLmods
+        repo: Qwen3.5-2B-f32-GGUF
+  - key: NisargUpadhyay/Qwen3.5-2B-Filter-Extractor
+    sources:
+      - type: huggingface
+        user: NisargUpadhyay
+        repo: Qwen3.5-2B-Filter-Extractor
+  - key: mradermacher/Qwen3.5_2B_Finetune_Uncensor-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5_2B_Finetune_Uncensor-GGUF
+  - key: mradermacher/Qwen3.5_2B_Finetune_Uncensor-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5_2B_Finetune_Uncensor-i1-GGUF
 config:
   operation:
     fields:

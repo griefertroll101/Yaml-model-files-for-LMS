@@ -832,6 +832,156 @@ base:
       - type: huggingface
         user: CodingToni
         repo: gemma-4-E2B-it
+  - key: confamnode/gemma-4-E2B-it-GGUF
+    sources:
+      - type: huggingface
+        user: confamnode
+        repo: gemma-4-E2B-it-GGUF
+  - key: CQSystems/Google-Gemma-4-E2B-It-GGUF
+    sources:
+      - type: huggingface
+        user: CQSystems
+        repo: Google-Gemma-4-E2B-It-GGUF
+  - key: dahus/gemma-4-e2b-it-Q6_K-GGUF
+    sources:
+      - type: huggingface
+        user: dahus
+        repo: gemma-4-e2b-it-Q6_K-GGUF
+  - key: entrick/Security-SLM-Gemma-4-E2B-it-GGUF
+    sources:
+      - type: huggingface
+        user: entrick
+        repo: Security-SLM-Gemma-4-E2B-it-GGUF
+  - key: FamilyDad/gemma-4-E2B-it-GGUF
+    sources:
+      - type: huggingface
+        user: FamilyDad
+        repo: gemma-4-E2B-it-GGUF
+  - key: FenDIY/gemma-4-E2B-it-Q2_K-GGUF
+    sources:
+      - type: huggingface
+        user: FenDIY
+        repo: gemma-4-E2B-it-Q2_K-GGUF
+  - key: gijl/gemma-4-E2B-it-GGUF
+    sources:
+      - type: huggingface
+        user: gijl
+        repo: gemma-4-E2B-it-GGUF
+  - key: haifeng1976/gemma-4-E2B-it-RotorQuant-GGUF-Q2_K
+    sources:
+      - type: huggingface
+        user: haifeng1976
+        repo: gemma-4-E2B-it-RotorQuant-GGUF-Q2_K
+  - key: harishkumar12k/gemma-4-E2B-it-Q2_K-GGUF
+    sources:
+      - type: huggingface
+        user: harishkumar12k
+        repo: gemma-4-E2B-it-Q2_K-GGUF
+  - key: heyAadi/gemma-4-E2B-it-GGUF
+    sources:
+      - type: huggingface
+        user: heyAadi
+        repo: gemma-4-E2B-it-GGUF
+  - key: Iemanddiegamesspeelt/gemma-4-E2B-it-Q2_K-GGUF
+    sources:
+      - type: huggingface
+        user: Iemanddiegamesspeelt
+        repo: gemma-4-E2B-it-Q2_K-GGUF
+  - key: indiansatoshi/google_gemma-4-E2B-it-GGUF
+    sources:
+      - type: huggingface
+        user: indiansatoshi
+        repo: google_gemma-4-E2B-it-GGUF
+  - key: Jessylg27/gemma-4-E2B-it-GGUF
+    sources:
+      - type: huggingface
+        user: Jessylg27
+        repo: gemma-4-E2B-it-GGUF
+  - key: junwatu/resep-ID-gemma-4-E2B-it-gguf
+    sources:
+      - type: huggingface
+        user: junwatu
+        repo: resep-ID-gemma-4-E2B-it-gguf
+  - key: lefromage/gemma-4-E2B-it-GGUF
+    sources:
+      - type: huggingface
+        user: lefromage
+        repo: gemma-4-E2B-it-GGUF
+  - key: majentik/gemma-4-E2B-it-RotorQuant-GGUF-Q2_K
+    sources:
+      - type: huggingface
+        user: majentik
+        repo: gemma-4-E2B-it-RotorQuant-GGUF-Q2_K
+  - key: majentik/gemma-4-E2B-it-RotorQuant-GGUF-Q8_0
+    sources:
+      - type: huggingface
+        user: majentik
+        repo: gemma-4-E2B-it-RotorQuant-GGUF-Q8_0
+  - key: manojbillionaire123/gemma-4-E2B-it-GGUF
+    sources:
+      - type: huggingface
+        user: manojbillionaire123
+        repo: gemma-4-E2B-it-GGUF
+  - key: models-for-i/gemma-4-E2B-it
+    sources:
+      - type: huggingface
+        user: models-for-i
+        repo: gemma-4-E2B-it
+  - key: Nguuma/Security-SLM-Gemma-4-E2B-it-GGUF
+    sources:
+      - type: huggingface
+        user: Nguuma
+        repo: Security-SLM-Gemma-4-E2B-it-GGUF
+  - key: mradermacher/sunbirdtutor-gemma-4-e2b-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: sunbirdtutor-gemma-4-e2b-GGUF
+  - key: rdrgzlng/gemma-4-E2B-it-GGUF
+    sources:
+      - type: huggingface
+        user: rdrgzlng
+        repo: gemma-4-E2B-it-GGUF
+  - key: redmik60/gemma-4-E2B-it-GGUF
+    sources:
+      - type: huggingface
+        user: redmik60
+        repo: gemma-4-E2B-it-GGUF
+  - key: ruygar/gemma-4-E2B-it-GGUF
+    sources:
+      - type: huggingface
+        user: ruygar
+        repo: gemma-4-E2B-it-GGUF
+  - key: san27079/Gemma-4-E2B-it-GGUF
+    sources:
+      - type: huggingface
+        user: san27079
+        repo: Gemma-4-E2B-it-GGUF
+  - key: sunil-pathak/gemma-4-E2B-it-Q6_K
+    sources:
+      - type: huggingface
+        user: sunil-pathak
+        repo: gemma-4-E2B-it-Q6_K
+  - key: taharidvanozturk/gemma-4-e2b-it-Q8_0.gguf
+    sources:
+      - type: huggingface
+        user: taharidvanozturk
+        repo: gemma-4-e2b-it-Q8_0.gguf
+  - key: yrq985/gemma-4-E2B-it-GGUF
+    sources:
+      - type: huggingface
+        user: yrq985
+        repo: gemma-4-E2B-it-GGUF
+  - key: zelk12/gemma-4-E2B-it-Q6_K-GGUF
+    sources:
+      - type: huggingface
+        user: zelk12
+        repo: gemma-4-E2B-it-Q6_K-GGUF
+  - key: artofai2030/unsloth_gemma-4-E2B-it_1776525877
+    sources:
+      - type: huggingface
+        user: artofai2030
+        repo: unsloth_gemma-4-E2B-it_1776525877
 config:
   operation:
     fields:

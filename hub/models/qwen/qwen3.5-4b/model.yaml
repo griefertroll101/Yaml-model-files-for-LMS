@@ -1092,6 +1092,156 @@ base:
       - type: huggingface
         user: mradermacher
         repo: Distillation-Learner-Qwen3.5-4B-i1-GGUF
+  - key: mradermacher/FinSenti-Qwen3.5-4B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: FinSenti-Qwen3.5-4B-GGUF
+  - key: mradermacher/GCCL-Medical-LLM-Qwen3.5-4B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: GCCL-Medical-LLM-Qwen3.5-4B-GGUF
+  - key: mradermacher/GeoLLM-Qwen3.5-4B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: GeoLLM-Qwen3.5-4B-GGUF
+  - key: mradermacher/hew-qwen3.5-4b-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: hew-qwen3.5-4b-GGUF
+  - key: mradermacher/PhishMe-12k-Qwen3.5-4B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: PhishMe-12k-Qwen3.5-4B-GGUF
+  - key: mradermacher/Windy-Qwen3.5-4B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Windy-Qwen3.5-4B-GGUF
+  - key: nile-academy/qwen3.5-4b-gguf
+    sources:
+      - type: huggingface
+        user: nile-academy
+        repo: qwen3.5-4b-gguf
+  - key: openresearchtools/Qwen3.5-4B-GGUF
+    sources:
+      - type: huggingface
+        user: openresearchtools
+        repo: Qwen3.5-4B-GGUF
+  - key: ryhme246/Qwen3.5-4B-Q8_0-GGUF
+    sources:
+      - type: huggingface
+        user: ryhme246
+        repo: Qwen3.5-4B-Q8_0-GGUF
+  - key: SandLogicTechnologies/Qwen3.5-4B-GGUF
+    sources:
+      - type: huggingface
+        user: SandLogicTechnologies
+        repo: Qwen3.5-4B-GGUF
+  - key: SciMaker/T-qwen3.5-4B
+    sources:
+      - type: huggingface
+        user: SciMaker
+        repo: T-qwen3.5-4B
+  - key: shinshekai/Sequential-Scaled-Solver-Qwen3.5-4B-Q8_0-GGUF
+    sources:
+      - type: huggingface
+        user: shinshekai
+        repo: Sequential-Scaled-Solver-Qwen3.5-4B-Q8_0-GGUF
+  - key: sleppistan/hew-lora-qwen3.5-4b
+    sources:
+      - type: huggingface
+        user: sleppistan
+        repo: hew-lora-qwen3.5-4b
+  - key: solarkyle/alibi-suspect-qwen3.5-4b-gguf
+    sources:
+      - type: huggingface
+        user: solarkyle
+        repo: alibi-suspect-qwen3.5-4b-gguf
+  - key: suvamdawn/qwen3.5-4b
+    sources:
+      - type: huggingface
+        user: suvamdawn
+        repo: qwen3.5-4b
+  - key: tatsuyaaaaaaa/Qwen3.5-4B-gguf
+    sources:
+      - type: huggingface
+        user: tatsuyaaaaaaa
+        repo: Qwen3.5-4B-gguf
+  - key: TirGun/Qwen3.5-4B-GGUF
+    sources:
+      - type: huggingface
+        user: TirGun
+        repo: Qwen3.5-4B-GGUF
+  - key: TypeUnsafe/Qwen3.5-4B
+    sources:
+      - type: huggingface
+        user: TypeUnsafe
+        repo: Qwen3.5-4B
+  - key: ugreen-ai/Qwen3.5-4B-GGUF
+    sources:
+      - type: huggingface
+        user: ugreen-ai
+        repo: Qwen3.5-4B-GGUF
+  - key: vipghost1k/qwen3.5-4b
+    sources:
+      - type: huggingface
+        user: vipghost1k
+        repo: qwen3.5-4b
+  - key: zuozuoliang999/Qwen3.5-4B-Q6_K-GGUF
+    sources:
+      - type: huggingface
+        user: zuozuoliang999
+        repo: Qwen3.5-4B-Q6_K-GGUF
+  - key: zuozuoliang999/Qwen3.5-4B-Q8_0-GGUF
+    sources:
+      - type: huggingface
+        user: zuozuoliang999
+        repo: Qwen3.5-4B-Q8_0-GGUF
+  - key: MrTryAll/Qwen3.5-4B-01-IndCons-FT
+    sources:
+      - type: huggingface
+        user: MrTryAll
+        repo: Qwen3.5-4B-01-IndCons-FT
+  - key: MrTryAll/Qwen3.5-4B-03-IndCons-FT
+    sources:
+      - type: huggingface
+        user: MrTryAll
+        repo: Qwen3.5-4B-03-IndCons-FT
+  - key: muratbuker/unsloth_Qwen3.5-4B_1778577832
+    sources:
+      - type: huggingface
+        user: muratbuker
+        repo: unsloth_Qwen3.5-4B_1778577832
+  - key: smkrv/Qwen3.5-4B-abl-GGUF
+    sources:
+      - type: huggingface
+        user: smkrv
+        repo: Qwen3.5-4B-abl-GGUF
+  - key: agrawal-prateek/qwen3.5-4b-abliterated-gguf
+    sources:
+      - type: huggingface
+        user: agrawal-prateek
+        repo: qwen3.5-4b-abliterated-gguf
+  - key: chocolatepoison/Huihui-Qwen3.5-4B-abliterated.i1-Q6_K
+    sources:
+      - type: huggingface
+        user: chocolatepoison
+        repo: Huihui-Qwen3.5-4B-abliterated.i1-Q6_K
+  - key: harimuliawan999/Huihui-Qwen3.5-4B-abliterated
+    sources:
+      - type: huggingface
+        user: harimuliawan999
+        repo: Huihui-Qwen3.5-4B-abliterated
+  - key: Zhang-User-001/Huihui-Qwen3.5-4B-abliterated
+    sources:
+      - type: huggingface
+        user: Zhang-User-001
+        repo: Huihui-Qwen3.5-4B-abliterated
 config:
   operation:
     fields:

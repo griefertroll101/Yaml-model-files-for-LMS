@@ -387,6 +387,156 @@ base:
       - type: huggingface
         user: gregochan
         repo: fuki_qwen3-4B
+  - key: iapp/chinda-qwen3-4b-gguf
+    sources:
+      - type: huggingface
+        user: iapp
+        repo: chinda-qwen3-4b-gguf
+  - key: InnoBox/ULS_Qwen3_4B
+    sources:
+      - type: huggingface
+        user: InnoBox
+        repo: ULS_Qwen3_4B
+  - key: jburnford/dyslexic-writer-qwen3-4b
+    sources:
+      - type: huggingface
+        user: jburnford
+        repo: dyslexic-writer-qwen3-4b
+  - key: jeremierostan/iep-qwen3-4b-gguf
+    sources:
+      - type: huggingface
+        user: jeremierostan
+        repo: iep-qwen3-4b-gguf
+  - key: jeremierostan/iep-udl-qwen3-4b-gguf
+    sources:
+      - type: huggingface
+        user: jeremierostan
+        repo: iep-udl-qwen3-4b-gguf
+  - key: JoshXT/AGiXT-Qwen3-4B-GGUF
+    sources:
+      - type: huggingface
+        user: JoshXT
+        repo: AGiXT-Qwen3-4B-GGUF
+  - key: jsmith0475/behavioral-qwen3-4b
+    sources:
+      - type: huggingface
+        user: jsmith0475
+        repo: behavioral-qwen3-4b
+  - key: jtl11/Jinx-Qwen3-4B-Q6_K-GGUF
+    sources:
+      - type: huggingface
+        user: jtl11
+        repo: Jinx-Qwen3-4B-Q6_K-GGUF
+  - key: JulianChang/Qwen3-4B-Q8_0-GGUF
+    sources:
+      - type: huggingface
+        user: JulianChang
+        repo: Qwen3-4B-Q8_0-GGUF
+  - key: keetak/qwen3-4b-gguf
+    sources:
+      - type: huggingface
+        user: keetak
+        repo: qwen3-4b-gguf
+  - key: khazarai/Qwen3-4B-Qwen3.6-plus-Reasoning-Slerp-GGUF
+    sources:
+      - type: huggingface
+        user: khazarai
+        repo: Qwen3-4B-Qwen3.6-plus-Reasoning-Slerp-GGUF
+  - key: kishida/java-error-explainer-jp-cheerful-qwen3-4b
+    sources:
+      - type: huggingface
+        user: kishida
+        repo: java-error-explainer-jp-cheerful-qwen3-4b
+  - key: kitten-kitkat/qwen3-4b
+    sources:
+      - type: huggingface
+        user: kitten-kitkat
+        repo: qwen3-4b
+  - key: kitten-kitkat/qwen3-4b-gguf
+    sources:
+      - type: huggingface
+        user: kitten-kitkat
+        repo: qwen3-4b-gguf
+  - key: kkioikk/Qwen3-4B-Q8_0-GGUF
+    sources:
+      - type: huggingface
+        user: kkioikk
+        repo: Qwen3-4B-Q8_0-GGUF
+  - key: kolosal/qwen3-4b
+    sources:
+      - type: huggingface
+        user: kolosal
+        repo: qwen3-4b
+  - key: Kushagra27/Qwen3-4B-Q8_0.gguf
+    sources:
+      - type: huggingface
+        user: Kushagra27
+        repo: Qwen3-4B-Q8_0.gguf
+  - key: leviethiep2801/qwen3-4b-gguf
+    sources:
+      - type: huggingface
+        user: leviethiep2801
+        repo: qwen3-4b-gguf
+  - key: Lordkun/qwen_paper_fine_tunning_qwen3-4B
+    sources:
+      - type: huggingface
+        user: Lordkun
+        repo: qwen_paper_fine_tunning_qwen3-4B
+  - key: lucasconsult/Qwen3-4B-GGUF
+    sources:
+      - type: huggingface
+        user: lucasconsult
+        repo: Qwen3-4B-GGUF
+  - key: MAM007/medical-asr-qwen3-4b
+    sources:
+      - type: huggingface
+        user: MAM007
+        repo: medical-asr-qwen3-4b
+  - key: marcelone/Jinx-Qwen3-4B-gguf
+    sources:
+      - type: huggingface
+        user: marcelone
+        repo: Jinx-Qwen3-4B-gguf
+  - key: metacogna/ComPilar-Qwen3-4b
+    sources:
+      - type: huggingface
+        user: metacogna
+        repo: ComPilar-Qwen3-4b
+  - key: michalzarnecki/Qwen3-4B
+    sources:
+      - type: huggingface
+        user: michalzarnecki
+        repo: Qwen3-4B
+  - key: miku552/Qwen3-4B-Q4_0-GGUF
+    sources:
+      - type: huggingface
+        user: miku552
+        repo: Qwen3-4B-Q4_0-GGUF
+  - key: mitchbs/charlie02-qwen3-4B-GGUF
+    sources:
+      - type: huggingface
+        user: mitchbs
+        repo: charlie02-qwen3-4B-GGUF
+  - key: mitchbs/charlie03-qwen3-4B-GGUF
+    sources:
+      - type: huggingface
+        user: mitchbs
+        repo: charlie03-qwen3-4B-GGUF
+  - key: mobilint/Qwen3-4B-GGUF
+    sources:
+      - type: huggingface
+        user: mobilint
+        repo: Qwen3-4B-GGUF
+  - key: mozhuyefei/Qwen3-4B-Q8_0-GGUF
+    sources:
+      - type: huggingface
+        user: mozhuyefei
+        repo: Qwen3-4B-Q8_0-GGUF
+  - key: mradermacher/Advanced_Risk_Dice_Qwen3-4B-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Advanced_Risk_Dice_Qwen3-4B-GGUF
 config:
   operation:
     fields:

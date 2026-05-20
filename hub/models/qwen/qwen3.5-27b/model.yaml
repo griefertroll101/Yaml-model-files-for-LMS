@@ -1172,6 +1172,156 @@ base:
       - type: huggingface
         user: mradermacher
         repo: Huihui-Qwen3.5-27B-abliterated-Athanorlite-ORPO-v2-GGUF
+  - key: nbeerbower/Huihui-Qwen3.5-27B-abliterated-Athanorlite-ORPO-v2-GGUF
+    sources:
+      - type: huggingface
+        user: nbeerbower
+        repo: Huihui-Qwen3.5-27B-abliterated-Athanorlite-ORPO-v2-GGUF
+  - key: mradermacher/Gliese-Qwen3.5-27B-Abliterated-Caption-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Gliese-Qwen3.5-27B-Abliterated-Caption-GGUF
+  - key: mradermacher/Gliese-Qwen3.5-27B-Abliterated-Caption-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Gliese-Qwen3.5-27B-Abliterated-Caption-i1-GGUF
+  - key: prithivMLmods/Qwen3.5-27B-abliterated-v2-MAX
+    sources:
+      - type: huggingface
+        user: prithivMLmods
+        repo: Qwen3.5-27B-abliterated-v2-MAX
+  - key: Ilya626/Qwen3.5-27B-Abomination-SDFT-v1
+    sources:
+      - type: huggingface
+        user: Ilya626
+        repo: Qwen3.5-27B-Abomination-SDFT-v1
+  - key: mradermacher/Qwen3.5-27B-Abomination-SDFT-v1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-Abomination-SDFT-v1-GGUF
+  - key: nazihara/Qwen3.5-27B-Aggressive
+    sources:
+      - type: huggingface
+        user: nazihara
+        repo: Qwen3.5-27B-Aggressive
+  - key: gecfdo/Qwen3.5-27B-Animus-V13.0-GGUF
+    sources:
+      - type: huggingface
+        user: gecfdo
+        repo: Qwen3.5-27B-Animus-V13.0-GGUF
+  - key: Darkhn-Quants-3/Qwen3.5-27B-Animus-V14.0-GGUF
+    sources:
+      - type: huggingface
+        user: Darkhn-Quants-3
+        repo: Qwen3.5-27B-Animus-V14.0-GGUF
+  - key: mradermacher/Qwen3.5-27B-Anko-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-Anko-GGUF
+  - key: mradermacher/Qwen3.5-27B-Antirep-V1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-Antirep-V1-GGUF
+  - key: ayunami2000/Qwen3.5-27B-ayun-gguf
+    sources:
+      - type: huggingface
+        user: ayunami2000
+        repo: Qwen3.5-27B-ayun-gguf
+  - key: mradermacher/Qwen3.5-27B-ayun-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-ayun-GGUF
+  - key: mradermacher/Qwen3.5-27B-ayun-heretic-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-ayun-heretic-GGUF
+  - key: ayunami2000/Qwen3.5-27B-ayun-v2-gguf
+    sources:
+      - type: huggingface
+        user: ayunami2000
+        repo: Qwen3.5-27B-ayun-v2-gguf
+  - key: mradermacher/Qwen3.5-27B-ayun-v2-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-ayun-v2-GGUF
+  - key: mradermacher/Qwen3.5-27B-ayun-v3-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: Qwen3.5-27B-ayun-v3-GGUF
+  - key: Flagstone8878/Qwen3.5-27B-BLIND-GGUF
+    sources:
+      - type: huggingface
+        user: Flagstone8878
+        repo: Qwen3.5-27B-BLIND-GGUF
+  - key: cs2764/Huihui-Qwen3.5-27B-Claude-4.6-Opus-abliterated-Q6_K-GGUF
+    sources:
+      - type: huggingface
+        user: cs2764
+        repo: Huihui-Qwen3.5-27B-Claude-4.6-Opus-abliterated-Q6_K-GGUF
+  - key: cs2764/Huihui-Qwen3.5-27B-Claude-4.6-Opus-abliterated-Q8_0-GGUF
+    sources:
+      - type: huggingface
+        user: cs2764
+        repo: Huihui-Qwen3.5-27B-Claude-4.6-Opus-abliterated-Q8_0-GGUF
+  - key: Gambet2026/Huihui-Qwen3.5-27B-Claude-4.6-Opus-abliterated
+    sources:
+      - type: huggingface
+        user: Gambet2026
+        repo: Huihui-Qwen3.5-27B-Claude-4.6-Opus-abliterated
+  - key: lhca521/Huihui-Qwen3.5-27B-Claude-4.6-Opus-abliterated-GGUF
+    sources:
+      - type: huggingface
+        user: lhca521
+        repo: Huihui-Qwen3.5-27B-Claude-4.6-Opus-abliterated-GGUF
+  - key: arandompothead/Huihui-Qwen3.5-27B-Claude-4.6-Opus-abliterated-Q4_K_M
+    sources:
+      - type: huggingface
+        user: arandompothead
+        repo: Huihui-Qwen3.5-27B-Claude-4.6-Opus-abliterated-Q4_K_M
+  - key: Ayodele01/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled
+    sources:
+      - type: huggingface
+        user: Ayodele01
+        repo: Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled
+  - key: baserdashop/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+    sources:
+      - type: huggingface
+        user: baserdashop
+        repo: Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+  - key: chancyun/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+    sources:
+      - type: huggingface
+        user: chancyun
+        repo: Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+  - key: Gambet2026/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled
+    sources:
+      - type: huggingface
+        user: Gambet2026
+        repo: Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled
+  - key: GhostTheShadow/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+    sources:
+      - type: huggingface
+        user: GhostTheShadow
+        repo: Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+  - key: jacehoi/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+    sources:
+      - type: huggingface
+        user: jacehoi
+        repo: Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+  - key: Jackken/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+    sources:
+      - type: huggingface
+        user: Jackken
+        repo: Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
 config:
   operation:
     fields:
