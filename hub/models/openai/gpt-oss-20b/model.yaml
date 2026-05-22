@@ -47,11 +47,6 @@ base:
       - type: huggingface
         user: "DavidAU"
         repo: "OpenAi-GPT-oss-20b-HERETIC-uncensored-NEO-Imatrix-gguf"
-  - key: "huihui-ai/Huihui-gpt-oss-20b-BF16-abliterated"
-    sources:
-      - type: huggingface
-        user: "huihui-ai"
-        repo: "Huihui-gpt-oss-20b-BF16-abliterated"
   - key: "bartowski/openai_gpt-oss-20b-GGUF"
     sources:
       - type: huggingface
@@ -62,11 +57,6 @@ base:
       - type: huggingface
         user: "mradermacher"
         repo: "OpenAI-gpt-oss-20B-INSTRUCT-Heretic-Uncensored-MXFP4-i1-GGUF"
-  - key: "huihui-ai/Huihui-gpt-oss-20b-BF16-abliterated-v2"
-    sources:
-      - type: huggingface
-        user: "huihui-ai"
-        repo: "Huihui-gpt-oss-20b-BF16-abliterated-v2"
   - key: "HauhauCS/GPT-OSS-20B-Uncensored-HauhauCS-Aggressive"
     sources:
       - type: huggingface
@@ -267,11 +257,6 @@ base:
       - type: huggingface
         user: "TeichAI"
         repo: "gpt-oss-20b-gpt-5-codex-distill-GGUF"
-  - key: "arnomatic/gpt-oss-20b-heretic-scannerV1-1"
-    sources:
-      - type: huggingface
-        user: "arnomatic"
-        repo: "gpt-oss-20b-heretic-scannerV1-1"
   - key: "mradermacher/Huihui-gpt-oss-20b-BF16-abliterated-GGUF"
     sources:
       - type: huggingface
@@ -387,21 +372,11 @@ base:
       - type: huggingface
         user: "mradermacher"
         repo: "gpt-oss-20b-uncensored-heretic-i1-GGUF"
-  - key: "HillPhelmuth/gpt-oss-20b-chess-bad"
-    sources:
-      - type: huggingface
-        user: "HillPhelmuth"
-        repo: "gpt-oss-20b-chess-bad"
   - key: "mradermacher/gpt-oss-20b-RichardErkhov-heresy-GGUF"
     sources:
       - type: huggingface
         user: "mradermacher"
         repo: "gpt-oss-20b-RichardErkhov-heresy-GGUF"
-  - key: "oki0ki/gpt-oss-20b"
-    sources:
-      - type: huggingface
-        user: "oki0ki"
-        repo: "gpt-oss-20b"
   - key: "mradermacher/OpenAI-gpt-oss-20B-GPT5.1-5.2-DISTILL-Heretic-Uncensored-MXFP4-GGUF"
     sources:
       - type: huggingface
@@ -577,11 +552,6 @@ base:
       - type: huggingface
         user: "mradermacher"
         repo: "gpt-oss-20b-DAG-Reasoning-i1-GGUF"
-  - key: "beenyb/financial-gpt-oss-20b-q8"
-    sources:
-      - type: huggingface
-        user: "beenyb"
-        repo: "financial-gpt-oss-20b-q8"
   - key: "AbteeXAILab/lumynax-reasoning-gpt-oss-20b-gguf"
     sources:
       - type: huggingface
@@ -682,36 +652,16 @@ base:
       - type: huggingface
         user: "ggfox00000"
         repo: "gpt-oss-20b-GGUF"
-  - key: "grandell/dolphin-gpt-oss-20b"
-    sources:
-      - type: huggingface
-        user: "grandell"
-        repo: "dolphin-gpt-oss-20b"
-  - key: "HuggingBelto/gpt-oss-20b"
-    sources:
-      - type: huggingface
-        user: "HuggingBelto"
-        repo: "gpt-oss-20b"
   - key: "hybridfree/neuro-symbolic-gpt-oss-20b-gguf"
     sources:
       - type: huggingface
         user: "hybridfree"
         repo: "neuro-symbolic-gpt-oss-20b-gguf"
-  - key: "Hyeirn/gpt-oss-20b"
-    sources:
-      - type: huggingface
-        user: "Hyeirn"
-        repo: "gpt-oss-20b"
   - key: "imuzen127/gpt-oss-20b-GGUF"
     sources:
       - type: huggingface
         user: "imuzen127"
         repo: "gpt-oss-20b-GGUF"
-  - key: "irfanalee/doc-intel-gpt-oss-20b"
-    sources:
-      - type: huggingface
-        user: "irfanalee"
-        repo: "doc-intel-gpt-oss-20b"
   - key: "John1604/gpt-oss-20b-gguf"
     sources:
       - type: huggingface
@@ -727,11 +677,6 @@ base:
       - type: huggingface
         user: "Joseph717171"
         repo: "Jinx-gpt-OSS-20B-MXFP4-GGUF"
-  - key: "kolosal/gpt-oss-20b"
-    sources:
-      - type: huggingface
-        user: "kolosal"
-        repo: "gpt-oss-20b"
   - key: "llmware/gpt-oss-20b-gguf"
     sources:
       - type: huggingface
@@ -747,11 +692,6 @@ base:
       - type: huggingface
         user: "Lutifya"
         repo: "gpt-oss-20b-gguf"
-  - key: "Lutifya/gpt-oss-20b-q5_0"
-    sources:
-      - type: huggingface
-        user: "Lutifya"
-        repo: "gpt-oss-20b-q5_0"
   - key: "majentik/gpt-oss-20b-RotorQuant-GGUF-IQ4_XS"
     sources:
       - type: huggingface
@@ -882,11 +822,6 @@ base:
       - type: huggingface
         user: "RhinoWithAcape"
         repo: "gpt-oss-20b-Q2_K-GGUF"
-  - key: "Ripan/gpt-oss-20b-Q4"
-    sources:
-      - type: huggingface
-        user: "Ripan"
-        repo: "gpt-oss-20b-Q4"
   - key: "RJTPP/scot0401s-gpt-oss-20b-gguf"
     sources:
       - type: huggingface
@@ -917,21 +852,11 @@ base:
       - type: huggingface
         user: "tatsuyaaaaaaa"
         repo: "gpt-oss-20b-gguf"
-  - key: "tehkuhnz/gpt-oss-20b"
-    sources:
-      - type: huggingface
-        user: "tehkuhnz"
-        repo: "gpt-oss-20b"
   - key: "ToddLLM/xyrus-cosmic-gpt-oss-20b-gguf"
     sources:
       - type: huggingface
         user: "ToddLLM"
         repo: "xyrus-cosmic-gpt-oss-20b-gguf"
-  - key: "tripolskypetr/gpt-oss-20b"
-    sources:
-      - type: huggingface
-        user: "tripolskypetr"
-        repo: "gpt-oss-20b"
   - key: "tsorsdc/gpt-oss-20b-GGUF"
     sources:
       - type: huggingface
@@ -987,16 +912,6 @@ base:
       - type: huggingface
         user: "swampfire"
         repo: "GPT-OSS-20B-20251015-QLoRA-F16-GGUF"
-  - key: "GOBA-AI-Labs/PrunedHub-GPT-OSS-20B-27x-Zerobias"
-    sources:
-      - type: huggingface
-        user: "GOBA-AI-Labs"
-        repo: "PrunedHub-GPT-OSS-20B-27x-Zerobias"
-  - key: "GOBA-AI-Labs/PrunedHub-GPT-OSS-20B-28x"
-    sources:
-      - type: huggingface
-        user: "GOBA-AI-Labs"
-        repo: "PrunedHub-GPT-OSS-20B-28x"
   - key: "AITRADER/Huihui-gpt-oss-20b-MLX-mxfp4"
     sources:
       - type: huggingface
@@ -1047,6 +962,381 @@ base:
       - type: huggingface
         user: "mlx-community"
         repo: "Jinx-gpt-oss-20b-mxfp4-mlx"
+  - key: "OrchardPair/gpt-oss-20b-MXFP4-Q4"
+    sources:
+      - type: huggingface
+        user: "OrchardPair"
+        repo: "gpt-oss-20b-MXFP4-Q4"
+  - key: "Pop9587302/gpt-oss-20b-mxfp4.gguf"
+    sources:
+      - type: huggingface
+        user: "Pop9587302"
+        repo: "gpt-oss-20b-mxfp4.gguf"
+  - key: "shawon/gpt-oss-20B-mxfp4"
+    sources:
+      - type: huggingface
+        user: "shawon"
+        repo: "gpt-oss-20B-mxfp4"
+  - key: "TPLong/GPT-OSS-20B-mxfp4"
+    sources:
+      - type: huggingface
+        user: "TPLong"
+        repo: "GPT-OSS-20B-mxfp4"
+  - key: "weige15/gpt-oss-20b-mxfp4-gguf"
+    sources:
+      - type: huggingface
+        user: "weige15"
+        repo: "gpt-oss-20b-mxfp4-gguf"
+  - key: "xxrjun/gpt-oss-20b-mxfp4"
+    sources:
+      - type: huggingface
+        user: "xxrjun"
+        repo: "gpt-oss-20b-mxfp4"
+  - key: "YuCollection/gpt-oss-20b-mxfp4"
+    sources:
+      - type: huggingface
+        user: "YuCollection"
+        repo: "gpt-oss-20b-mxfp4"
+  - key: "EpistemeAI/gpt-oss-20b-2-mmlustem-2-mxfp4"
+    sources:
+      - type: huggingface
+        user: "EpistemeAI"
+        repo: "gpt-oss-20b-2-mmlustem-2-mxfp4"
+  - key: "weige15/gpt-oss-20b-4bit-gguf"
+    sources:
+      - type: huggingface
+        user: "weige15"
+        repo: "gpt-oss-20b-4bit-gguf"
+  - key: "mradermacher/InternVL3_5-GPT-OSS-20B-A4B-Preview-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "InternVL3_5-GPT-OSS-20B-A4B-Preview-GGUF"
+  - key: "airpower/gpt-oss-20b-ablated-gguf"
+    sources:
+      - type: huggingface
+        user: "airpower"
+        repo: "gpt-oss-20b-ablated-gguf"
+  - key: "drwhall/gpt-oss-20b-abliterated-gguf"
+    sources:
+      - type: huggingface
+        user: "drwhall"
+        repo: "gpt-oss-20b-abliterated-gguf"
+  - key: "matrixportalx/gpt-oss-20b-abliterated_3.0-Q4_0-GGUF"
+    sources:
+      - type: huggingface
+        user: "matrixportalx"
+        repo: "gpt-oss-20b-abliterated_3.0-Q4_0-GGUF"
+  - key: "matrixportalx/gpt-oss-20b-abliterated_3.0-Q4_K_M-GGUF"
+    sources:
+      - type: huggingface
+        user: "matrixportalx"
+        repo: "gpt-oss-20b-abliterated_3.0-Q4_K_M-GGUF"
+  - key: "Astardeeppro/OpenAi-GPT-oss-20b-abliterated-uncensored-NEO-Imatrix-gguf"
+    sources:
+      - type: huggingface
+        user: "Astardeeppro"
+        repo: "OpenAi-GPT-oss-20b-abliterated-uncensored-NEO-Imatrix-gguf"
+  - key: "ManuelZnnmc/OpenAi-GPT-oss-20b-abliterated-uncensored-NEO-Imatrix-gguf"
+    sources:
+      - type: huggingface
+        user: "ManuelZnnmc"
+        repo: "OpenAi-GPT-oss-20b-abliterated-uncensored-NEO-Imatrix-gguf"
+  - key: "noctrex/Huihui-gpt-oss-20b-abliterated-v2-MXFP4_MOE-GGUF"
+    sources:
+      - type: huggingface
+        user: "noctrex"
+        repo: "Huihui-gpt-oss-20b-abliterated-v2-MXFP4_MOE-GGUF"
+  - key: "mradermacher/gpt-oss-20b-absolute-heresy-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "gpt-oss-20b-absolute-heresy-GGUF"
+  - key: "mradermacher/gpt-oss-20b-absolute-heresy-i1-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "gpt-oss-20b-absolute-heresy-i1-GGUF"
+  - key: "mradermacher/gpt-oss-20b-adv-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "gpt-oss-20b-adv-GGUF"
+  - key: "mradermacher/gpt-oss-20b-adv-i1-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "gpt-oss-20b-adv-i1-GGUF"
+  - key: "fabxx48/GPT_OSS_20B_ArduinoExpert_v0.2_GGUF"
+    sources:
+      - type: huggingface
+        user: "fabxx48"
+        repo: "GPT_OSS_20B_ArduinoExpert_v0.2_GGUF"
+  - key: "alsoalter/finetuned-gpt-oss-20b-argentina-v02-gguf"
+    sources:
+      - type: huggingface
+        user: "alsoalter"
+        repo: "finetuned-gpt-oss-20b-argentina-v02-gguf"
+  - key: "hariasimov21/gpt-oss-20b-autos-gguf-q8_0"
+    sources:
+      - type: huggingface
+        user: "hariasimov21"
+        repo: "gpt-oss-20b-autos-gguf-q8_0"
+  - key: "internetoftim/gpt-oss-20b-balitanlp-cpt-mxfp4-fsdp"
+    sources:
+      - type: huggingface
+        user: "internetoftim"
+        repo: "gpt-oss-20b-balitanlp-cpt-mxfp4-fsdp"
+  - key: "alskdgfjalkjf/gpt-oss-20b-base-Q8_0-GGUF"
+    sources:
+      - type: huggingface
+        user: "alskdgfjalkjf"
+        repo: "gpt-oss-20b-base-Q8_0-GGUF"
+  - key: "deltanym/gpt-oss-20b-base-Q6_K-GGUF"
+    sources:
+      - type: huggingface
+        user: "deltanym"
+        repo: "gpt-oss-20b-base-Q6_K-GGUF"
+  - key: "mesh-ops/gpt-oss-20b-base-MXFP4-GGUF"
+    sources:
+      - type: huggingface
+        user: "mesh-ops"
+        repo: "gpt-oss-20b-base-MXFP4-GGUF"
+  - key: "mradermacher/gpt-oss-20b-base-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "gpt-oss-20b-base-GGUF"
+  - key: "mradermacher/gpt-oss-20b-base-i1-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "gpt-oss-20b-base-i1-GGUF"
+  - key: "DevQuasar/huihui-ai.Huihui-gpt-oss-20b-BF16-abliterated-GGUF"
+    sources:
+      - type: huggingface
+        user: "DevQuasar"
+        repo: "huihui-ai.Huihui-gpt-oss-20b-BF16-abliterated-GGUF"
+  - key: "gabriellarson/Huihui-gpt-oss-20b-BF16-abliterated-GGUF"
+    sources:
+      - type: huggingface
+        user: "gabriellarson"
+        repo: "Huihui-gpt-oss-20b-BF16-abliterated-GGUF"
+  - key: "mradermacher/Huihui-gpt-oss-20b-BF16-abliterated-i1-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "Huihui-gpt-oss-20b-BF16-abliterated-i1-GGUF"
+  - key: "davidbzyk/Huihui-gpt-oss-20b-BF16-abliterated-Q4_K_M-GGUF"
+    sources:
+      - type: huggingface
+        user: "davidbzyk"
+        repo: "Huihui-gpt-oss-20b-BF16-abliterated-Q4_K_M-GGUF"
+  - key: "fooideal/Huihui-gpt-oss-20b-BF16-abliterated-Q4_K_M-GGUF"
+    sources:
+      - type: huggingface
+        user: "fooideal"
+        repo: "Huihui-gpt-oss-20b-BF16-abliterated-Q4_K_M-GGUF"
+  - key: "IwakuraRein/Huihui-gpt-oss-20b-BF16-abliterated-Q4_K_M-GGUF"
+    sources:
+      - type: huggingface
+        user: "IwakuraRein"
+        repo: "Huihui-gpt-oss-20b-BF16-abliterated-Q4_K_M-GGUF"
+  - key: "jacobcarajo/Huihui-gpt-oss-20b-BF16-abliterated-Q5_K_M-GGUF"
+    sources:
+      - type: huggingface
+        user: "jacobcarajo"
+        repo: "Huihui-gpt-oss-20b-BF16-abliterated-Q5_K_M-GGUF"
+  - key: "matrixportalx/Huihui-gpt-oss-20b-BF16-abliterated-v2-Q4_0-GGUF"
+    sources:
+      - type: huggingface
+        user: "matrixportalx"
+        repo: "Huihui-gpt-oss-20b-BF16-abliterated-v2-Q4_0-GGUF"
+  - key: "mradermacher/Huihui-gpt-oss-20b-BF16-abliterated-v2-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "Huihui-gpt-oss-20b-BF16-abliterated-v2-GGUF"
+  - key: "mradermacher/Huihui-gpt-oss-20b-BF16-abliterated-v2-i1-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "Huihui-gpt-oss-20b-BF16-abliterated-v2-i1-GGUF"
+  - key: "Yi30/unsloth-gpt-oss-20b-BF16-ar-MXFP4"
+    sources:
+      - type: huggingface
+        user: "Yi30"
+        repo: "unsloth-gpt-oss-20b-BF16-ar-MXFP4"
+  - key: "HillPhelmuth/gpt-oss-20b-chess-Q8_0-GGUF"
+    sources:
+      - type: huggingface
+        user: "HillPhelmuth"
+        repo: "gpt-oss-20b-chess-Q8_0-GGUF"
+  - key: "HillPhelmuth/gpt-oss-20B-chess-analysis-GGUF"
+    sources:
+      - type: huggingface
+        user: "HillPhelmuth"
+        repo: "gpt-oss-20B-chess-analysis-GGUF"
+  - key: "HillPhelmuth/gpt-oss-20b-chess-unsloth-mxfp4"
+    sources:
+      - type: huggingface
+        user: "HillPhelmuth"
+        repo: "gpt-oss-20b-chess-unsloth-mxfp4"
+  - key: "Entz/gpt-oss-20b-ck-MXFP4"
+    sources:
+      - type: huggingface
+        user: "Entz"
+        repo: "gpt-oss-20b-ck-MXFP4"
+  - key: "Melikshah/gpt-oss-20b-clinical-cot-gguf"
+    sources:
+      - type: huggingface
+        user: "Melikshah"
+        repo: "gpt-oss-20b-clinical-cot-gguf"
+  - key: "midorin-Linux/gpt-oss-20b-Coding-Distill-GGUF"
+    sources:
+      - type: huggingface
+        user: "midorin-Linux"
+        repo: "gpt-oss-20b-Coding-Distill-GGUF"
+  - key: "midorin-Linux/gpt-oss-20b-CoT-GGUF"
+    sources:
+      - type: huggingface
+        user: "midorin-Linux"
+        repo: "gpt-oss-20b-CoT-GGUF"
+  - key: "mradermacher/gpt-oss-20b-CoT-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "gpt-oss-20b-CoT-GGUF"
+  - key: "aglyj0225/gpt-oss-20b-counsel-MindBuddi-gguf-public"
+    sources:
+      - type: huggingface
+        user: "aglyj0225"
+        repo: "gpt-oss-20b-counsel-MindBuddi-gguf-public"
+  - key: "WarlordHermes/gpt-oss-20b-creative-generalization-test-GGUF"
+    sources:
+      - type: huggingface
+        user: "WarlordHermes"
+        repo: "gpt-oss-20b-creative-generalization-test-GGUF"
+  - key: "WarlordHermes/gpt-oss-20b-creative-generalization-test-2-GGUF"
+    sources:
+      - type: huggingface
+        user: "WarlordHermes"
+        repo: "gpt-oss-20b-creative-generalization-test-2-GGUF"
+  - key: "WarlordHermes/gpt-oss-20b-creative-generalization-test-3-GGUF"
+    sources:
+      - type: huggingface
+        user: "WarlordHermes"
+        repo: "gpt-oss-20b-creative-generalization-test-3-GGUF"
+  - key: "WarlordHermes/gpt-oss-20b-creative-generalization-test-3-mxfp4"
+    sources:
+      - type: huggingface
+        user: "WarlordHermes"
+        repo: "gpt-oss-20b-creative-generalization-test-3-mxfp4"
+  - key: "mradermacher/gpt-oss-20b-DAG-Reasoning-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "gpt-oss-20b-DAG-Reasoning-GGUF"
+  - key: "beenyb/financial-gpt-oss-20b-q8"
+    sources:
+      - type: huggingface
+        user: "beenyb"
+        repo: "financial-gpt-oss-20b-q8"
+  - key: "grandell/dolphin-gpt-oss-20b"
+    sources:
+      - type: huggingface
+        user: "grandell"
+        repo: "dolphin-gpt-oss-20b"
+  - key: "HuggingBelto/gpt-oss-20b"
+    sources:
+      - type: huggingface
+        user: "HuggingBelto"
+        repo: "gpt-oss-20b"
+  - key: "Hyeirn/gpt-oss-20b"
+    sources:
+      - type: huggingface
+        user: "Hyeirn"
+        repo: "gpt-oss-20b"
+  - key: "irfanalee/doc-intel-gpt-oss-20b"
+    sources:
+      - type: huggingface
+        user: "irfanalee"
+        repo: "doc-intel-gpt-oss-20b"
+  - key: "kolosal/gpt-oss-20b"
+    sources:
+      - type: huggingface
+        user: "kolosal"
+        repo: "gpt-oss-20b"
+  - key: "Lutifya/gpt-oss-20b-q5_0"
+    sources:
+      - type: huggingface
+        user: "Lutifya"
+        repo: "gpt-oss-20b-q5_0"
+  - key: "oki0ki/gpt-oss-20b"
+    sources:
+      - type: huggingface
+        user: "oki0ki"
+        repo: "gpt-oss-20b"
+  - key: "Ripan/gpt-oss-20b-Q4"
+    sources:
+      - type: huggingface
+        user: "Ripan"
+        repo: "gpt-oss-20b-Q4"
+  - key: "tehkuhnz/gpt-oss-20b"
+    sources:
+      - type: huggingface
+        user: "tehkuhnz"
+        repo: "gpt-oss-20b"
+  - key: "tripolskypetr/gpt-oss-20b"
+    sources:
+      - type: huggingface
+        user: "tripolskypetr"
+        repo: "gpt-oss-20b"
+  - key: "GOBA-AI-Labs/PrunedHub-GPT-OSS-20B-27x-Zerobias"
+    sources:
+      - type: huggingface
+        user: "GOBA-AI-Labs"
+        repo: "PrunedHub-GPT-OSS-20B-27x-Zerobias"
+  - key: "GOBA-AI-Labs/PrunedHub-GPT-OSS-20B-28x"
+    sources:
+      - type: huggingface
+        user: "GOBA-AI-Labs"
+        repo: "PrunedHub-GPT-OSS-20B-28x"
+  - key: "nazihara/GPT-OSS-20B-Balanced"
+    sources:
+      - type: huggingface
+        user: "nazihara"
+        repo: "GPT-OSS-20B-Balanced"
+  - key: "huihui-ai/Huihui-gpt-oss-20b-BF16-abliterated"
+    sources:
+      - type: huggingface
+        user: "huihui-ai"
+        repo: "Huihui-gpt-oss-20b-BF16-abliterated"
+  - key: "huihui-ai/Huihui-gpt-oss-20b-BF16-abliterated-v2"
+    sources:
+      - type: huggingface
+        user: "huihui-ai"
+        repo: "Huihui-gpt-oss-20b-BF16-abliterated-v2"
+  - key: "XM4HFl2RbY/Huihui-gpt-oss-20b-BF16-abliterated-v2"
+    sources:
+      - type: huggingface
+        user: "XM4HFl2RbY"
+        repo: "Huihui-gpt-oss-20b-BF16-abliterated-v2"
+  - key: "Joseph717171/Gpt-OSS-20B-BF16-Unquantized"
+    sources:
+      - type: huggingface
+        user: "Joseph717171"
+        repo: "Gpt-OSS-20B-BF16-Unquantized"
+  - key: "mikalv/gpt-oss-20b-chemistry"
+    sources:
+      - type: huggingface
+        user: "mikalv"
+        repo: "gpt-oss-20b-chemistry"
+  - key: "HillPhelmuth/gpt-oss-20b-chess-bad"
+    sources:
+      - type: huggingface
+        user: "HillPhelmuth"
+        repo: "gpt-oss-20b-chess-bad"
 config:
   operation:
     fields:

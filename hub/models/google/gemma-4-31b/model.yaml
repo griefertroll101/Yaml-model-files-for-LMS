@@ -77,11 +77,6 @@ base:
       - type: huggingface
         user: "tianrui6641"
         repo: "gemma-4-31b-gguf-mxfp4"
-  - key: "paperscarecrow/Gemma-4-31B-it-abliterated"
-    sources:
-      - type: huggingface
-        user: "paperscarecrow"
-        repo: "Gemma-4-31B-it-abliterated"
   - key: "TeichAI/gemma-4-31B-it-Claude-Opus-Distill-GGUF"
     sources:
       - type: huggingface
@@ -97,11 +92,6 @@ base:
       - type: huggingface
         user: "engui"
         repo: "gemma-4-31B-it-gguf-engui"
-  - key: "StageMind/gemma-4-31b"
-    sources:
-      - type: huggingface
-        user: "StageMind"
-        repo: "gemma-4-31b"
   - key: "CelesteImperia/Gemma-4-31B-Dense-Platinum-GGUF"
     sources:
       - type: huggingface
@@ -117,11 +107,6 @@ base:
       - type: huggingface
         user: "llmfan46"
         repo: "gemma-4-31B-it-heretic-GGUF"
-  - key: "mirxa2/Gemma-4-31B-X"
-    sources:
-      - type: huggingface
-        user: "mirxa2"
-        repo: "Gemma-4-31B-X"
   - key: "EganAI/gemma-4-31B-Claude-4.6-Opus-Reasoning-Distilled-GGUF"
     sources:
       - type: huggingface
@@ -152,11 +137,6 @@ base:
       - type: huggingface
         user: "Abhiray"
         repo: "gemma-4-31B-it-Claude-Opus-Distill-GGUF"
-  - key: "Momix-44/gemma-4-31B-it-heretic-v2"
-    sources:
-      - type: huggingface
-        user: "Momix-44"
-        repo: "gemma-4-31B-it-heretic-v2"
   - key: "owenqwenllmwine/gemma-4-31B-it-Claude-Opus-Distill-GGUF"
     sources:
       - type: huggingface
@@ -187,11 +167,6 @@ base:
       - type: huggingface
         user: "gubernac"
         repo: "gemma-4-31b-gguf"
-  - key: "KoolenDasheppi/gemma-4-31B-it-heretic-v2"
-    sources:
-      - type: huggingface
-        user: "KoolenDasheppi"
-        repo: "gemma-4-31B-it-heretic-v2"
   - key: "mradermacher/gemma-4-31B-it-heretic-GGUF"
     sources:
       - type: huggingface
@@ -247,11 +222,6 @@ base:
       - type: huggingface
         user: "s1arsky"
         repo: "Gemma-4-31B-FT-it-Q4_KS-GGUF"
-  - key: "Ilya626/gemma-4-31B-it-SDFT-Heretic"
-    sources:
-      - type: huggingface
-        user: "Ilya626"
-        repo: "gemma-4-31B-it-SDFT-Heretic"
   - key: "Darkhn-Quants-3/Gemma-4-31B-Animus-V14.0-GGUF"
     sources:
       - type: huggingface
@@ -317,11 +287,6 @@ base:
       - type: huggingface
         user: "lactroiii"
         repo: "gemma-4-31B-it-uncensored-heretic-GGUF"
-  - key: "JustinChung1111/Gemma-4-31B-it-abliterated"
-    sources:
-      - type: huggingface
-        user: "JustinChung1111"
-        repo: "Gemma-4-31B-it-abliterated"
   - key: "kexing/spawner-gemma-4-31B-it-uncensored-gguf"
     sources:
       - type: huggingface
@@ -342,11 +307,6 @@ base:
       - type: huggingface
         user: "felixwll"
         repo: "gemma-4-31B-it-uncensored-heretic-GGUF"
-  - key: "InfinimindCreations/gemma-4-31B-it-uncensored"
-    sources:
-      - type: huggingface
-        user: "InfinimindCreations"
-        repo: "gemma-4-31B-it-uncensored"
   - key: "mradermacher/gemma-4-31B-it-uncensored-heretic-GGUF"
     sources:
       - type: huggingface
@@ -402,11 +362,6 @@ base:
       - type: huggingface
         user: "lmcoleman"
         repo: "gemma-4-31B-Zeroclaw-ClaudeReasoning-GGUF"
-  - key: "pidtom/Gemma-4-31B-it-TQPlus"
-    sources:
-      - type: huggingface
-        user: "pidtom"
-        repo: "Gemma-4-31B-it-TQPlus"
   - key: "mradermacher/gemma-4-31B-it-abliterated-GGUF"
     sources:
       - type: huggingface
@@ -582,11 +537,6 @@ base:
       - type: huggingface
         user: "majentik"
         repo: "gemma-4-31B-RotorQuant-GGUF-IQ4_XS"
-  - key: "thetom-ai/Gemma-4-31B-it-TQPlus"
-    sources:
-      - type: huggingface
-        user: "thetom-ai"
-        repo: "Gemma-4-31B-it-TQPlus"
   - key: "mradermacher/gemma-4-31B-it-abliterated-v2-i1-GGUF"
     sources:
       - type: huggingface
@@ -672,11 +622,6 @@ base:
       - type: huggingface
         user: "bigbag1983"
         repo: "finetune-gemma-4-31b-gguf"
-  - key: "davidgeorge25/opengenedit-gemma-4-31b"
-    sources:
-      - type: huggingface
-        user: "davidgeorge25"
-        repo: "opengenedit-gemma-4-31b"
   - key: "ipsarkar/gemma-4-31B-GGUF"
     sources:
       - type: huggingface
@@ -867,41 +812,11 @@ base:
       - type: huggingface
         user: "vs199507"
         repo: "gemma-4-31B-it-GGUF"
-  - key: "aaardpark/gemma-4-31B-it_aard-3bit"
-    sources:
-      - type: huggingface
-        user: "aaardpark"
-        repo: "gemma-4-31B-it_aard-3bit"
-  - key: "asswa2/Gemma-4-31B-it-abliterated"
-    sources:
-      - type: huggingface
-        user: "asswa2"
-        repo: "Gemma-4-31B-it-abliterated"
   - key: "dryade36513/Gemma-4-31B-it-abliterated-GGUF"
     sources:
       - type: huggingface
         user: "dryade36513"
         repo: "Gemma-4-31B-it-abliterated-GGUF"
-  - key: "hlililililili/Gemma-4-31B-it-abliterated"
-    sources:
-      - type: huggingface
-        user: "hlililililili"
-        repo: "Gemma-4-31B-it-abliterated"
-  - key: "jinmrong/Gemma-4-31B-it-abliterated"
-    sources:
-      - type: huggingface
-        user: "jinmrong"
-        repo: "Gemma-4-31B-it-abliterated"
-  - key: "kepom/Gemma-4-31B-it-abliterated"
-    sources:
-      - type: huggingface
-        user: "kepom"
-        repo: "Gemma-4-31B-it-abliterated"
-  - key: "kof1467/Gemma-4-31B-it-abliterated"
-    sources:
-      - type: huggingface
-        user: "kof1467"
-        repo: "Gemma-4-31B-it-abliterated"
   - key: "lhca521/gemma-4-31B-it-abliterated-GGUF"
     sources:
       - type: huggingface
@@ -912,16 +827,6 @@ base:
       - type: huggingface
         user: "nguyenthilaitrieulong"
         repo: "gemma-4-31b-it-abliterated-GGUF"
-  - key: "ScottzillaSystems/Gemma-4-31B-it-abliterated"
-    sources:
-      - type: huggingface
-        user: "ScottzillaSystems"
-        repo: "Gemma-4-31B-it-abliterated"
-  - key: "stronman/Gemma-4-31B-it-abliterated"
-    sources:
-      - type: huggingface
-        user: "stronman"
-        repo: "Gemma-4-31B-it-abliterated"
   - key: "stronman/Gemma-4-31B-it-abliterated-GGUF"
     sources:
       - type: huggingface
@@ -967,16 +872,6 @@ base:
       - type: huggingface
         user: "mradermacher"
         repo: "gemma-4-31B-it-abliterated-v3-i1-GGUF"
-  - key: "Momix-44/gemma-4-31B-it-Adamus-Fullfine"
-    sources:
-      - type: huggingface
-        user: "Momix-44"
-        repo: "gemma-4-31B-it-Adamus-Fullfine"
-  - key: "chrstphrbrj/gemma-4-31B-it-APEX-Quality"
-    sources:
-      - type: huggingface
-        user: "chrstphrbrj"
-        repo: "gemma-4-31B-it-APEX-Quality"
   - key: "mradermacher/gemma-4-31B-it-arli-GGUF"
     sources:
       - type: huggingface
@@ -1067,6 +962,336 @@ base:
       - type: huggingface
         user: "iiiTRONiii"
         repo: "gemma-4-31B-it-Claude-Opus-Distill-v2-heretic-Q5_K_M-GGUF"
+  - key: "Anbeeld/gemma-4-31B-it-DFlash-GGUF"
+    sources:
+      - type: huggingface
+        user: "Anbeeld"
+        repo: "gemma-4-31B-it-DFlash-GGUF"
+  - key: "Romarchive/gemma-4-31b-it-distill-qwen3-0.6b-lora-GGUF"
+    sources:
+      - type: huggingface
+        user: "Romarchive"
+        repo: "gemma-4-31b-it-distill-qwen3-0.6b-lora-GGUF"
+  - key: "Beinsezii/gemma-4-31B-it-GGUF-5.05BPW-static"
+    sources:
+      - type: huggingface
+        user: "Beinsezii"
+        repo: "gemma-4-31B-it-GGUF-5.05BPW-static"
+  - key: "Nielk38/gemma-4-31B-it-GGUF-SPLIT"
+    sources:
+      - type: huggingface
+        user: "Nielk38"
+        repo: "gemma-4-31B-it-GGUF-SPLIT"
+  - key: "MoonRide/gemma-4-31B-it-heretic-ara-custom-GGUF"
+    sources:
+      - type: huggingface
+        user: "MoonRide"
+        repo: "gemma-4-31B-it-heretic-ara-custom-GGUF"
+  - key: "mradermacher/gemma-4-31B-it-heretic-ara-custom-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "gemma-4-31B-it-heretic-ara-custom-GGUF"
+  - key: "mradermacher/gemma-4-31B-it-heretic-ara-custom-i1-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "gemma-4-31B-it-heretic-ara-custom-i1-GGUF"
+  - key: "darkc0de/gemma-4-31B-it-heretic-FP8-Dynamic-Q4_K_M-GGUF"
+    sources:
+      - type: huggingface
+        user: "darkc0de"
+        repo: "gemma-4-31B-it-heretic-FP8-Dynamic-Q4_K_M-GGUF"
+  - key: "pegasus912/gemma-4-31B-it-heretic-Q4_K_M-GGUF"
+    sources:
+      - type: huggingface
+        user: "pegasus912"
+        repo: "gemma-4-31B-it-heretic-Q4_K_M-GGUF"
+  - key: "scrybz/gemma-4-31B-it-heretic-Q8_K_XL-GGUF"
+    sources:
+      - type: huggingface
+        user: "scrybz"
+        repo: "gemma-4-31B-it-heretic-Q8_K_XL-GGUF"
+  - key: "mradermacher/gemma-4-31B-it-heretic-requirements-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "gemma-4-31B-it-heretic-requirements-GGUF"
+  - key: "mradermacher/gemma-4-31B-it-heretic-requirements-i1-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "gemma-4-31B-it-heretic-requirements-i1-GGUF"
+  - key: "Krasnopjorovs/gemma-4-31b-it-Imatrix-IQ4_XS-GGUF"
+    sources:
+      - type: huggingface
+        user: "Krasnopjorovs"
+        repo: "gemma-4-31b-it-Imatrix-IQ4_XS-GGUF"
+  - key: "keyuan01/Gemma-4-31B-it-MixQ-14G-GGUF"
+    sources:
+      - type: huggingface
+        user: "keyuan01"
+        repo: "Gemma-4-31B-it-MixQ-14G-GGUF"
+  - key: "keyuan01/Gemma-4-31B-it-MixQ-Q3-16G-GGUF"
+    sources:
+      - type: huggingface
+        user: "keyuan01"
+        repo: "Gemma-4-31B-it-MixQ-Q3-16G-GGUF"
+  - key: "FreedomAISVR/Gemma-4-31B-it-NVFP4-GGUF"
+    sources:
+      - type: huggingface
+        user: "FreedomAISVR"
+        repo: "Gemma-4-31B-it-NVFP4-GGUF"
+  - key: "LibertAIDAI/Gemma-4-31B-IT-NVFP4-GGUF"
+    sources:
+      - type: huggingface
+        user: "LibertAIDAI"
+        repo: "Gemma-4-31B-IT-NVFP4-GGUF"
+  - key: "stevelikesrhino/gemma-4-31B-it-nvfp4-GGUF"
+    sources:
+      - type: huggingface
+        user: "stevelikesrhino"
+        repo: "gemma-4-31B-it-nvfp4-GGUF"
+  - key: "mradermacher/gemma-4-31B-it-obliterated-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "gemma-4-31B-it-obliterated-GGUF"
+  - key: "Dev-Louislu/gemma-4-31B-it-Q3_K_M-GGUF"
+    sources:
+      - type: huggingface
+        user: "Dev-Louislu"
+        repo: "gemma-4-31B-it-Q3_K_M-GGUF"
+  - key: "KikoCis/gemma-4-31b-it-Q3_K_M-GGUF"
+    sources:
+      - type: huggingface
+        user: "KikoCis"
+        repo: "gemma-4-31b-it-Q3_K_M-GGUF"
+  - key: "Dev-Louislu/gemma-4-31B-it-Q3_K_S-GGUF"
+    sources:
+      - type: huggingface
+        user: "Dev-Louislu"
+        repo: "gemma-4-31B-it-Q3_K_S-GGUF"
+  - key: "DZgas/gemma-4-31B-it-Q4_K-local-Q6_K-global-GGUF"
+    sources:
+      - type: huggingface
+        user: "DZgas"
+        repo: "gemma-4-31B-it-Q4_K-local-Q6_K-global-GGUF"
+  - key: "frafont/gemma-4-31B-it-Q4_K_M-GGUF"
+    sources:
+      - type: huggingface
+        user: "frafont"
+        repo: "gemma-4-31B-it-Q4_K_M-GGUF"
+  - key: "mikaelharut/gemma-4-31B-it-Q4_K_M-GGUF"
+    sources:
+      - type: huggingface
+        user: "mikaelharut"
+        repo: "gemma-4-31B-it-Q4_K_M-GGUF"
+  - key: "NoxStrix/gemma-4-31B-it-Q4_K_M-GGUF"
+    sources:
+      - type: huggingface
+        user: "NoxStrix"
+        repo: "gemma-4-31B-it-Q4_K_M-GGUF"
+  - key: "Viking23/gemma-4-31B-it-Q4_K_M-GGUF"
+    sources:
+      - type: huggingface
+        user: "Viking23"
+        repo: "gemma-4-31B-it-Q4_K_M-GGUF"
+  - key: "Dev-Louislu/gemma-4-31B-it-Q5_K_M-GGUF"
+    sources:
+      - type: huggingface
+        user: "Dev-Louislu"
+        repo: "gemma-4-31B-it-Q5_K_M-GGUF"
+  - key: "mikaelharut/gemma-4-31B-it-Q5_K_M-GGUF"
+    sources:
+      - type: huggingface
+        user: "mikaelharut"
+        repo: "gemma-4-31B-it-Q5_K_M-GGUF"
+  - key: "baa-ai/Gemma-4-31B-it-RAM-26GB-GGUF"
+    sources:
+      - type: huggingface
+        user: "baa-ai"
+        repo: "Gemma-4-31B-it-RAM-26GB-GGUF"
+  - key: "baa-ai/Gemma-4-31B-it-RAM-43GB-GGUF"
+    sources:
+      - type: huggingface
+        user: "baa-ai"
+        repo: "Gemma-4-31B-it-RAM-43GB-GGUF"
+  - key: "majentik/gemma-4-31B-it-RotorQuant-GGUF-Q3_K_M"
+    sources:
+      - type: huggingface
+        user: "majentik"
+        repo: "gemma-4-31B-it-RotorQuant-GGUF-Q3_K_M"
+  - key: "majentik/gemma-4-31B-it-RotorQuant-GGUF-Q4_K_M"
+    sources:
+      - type: huggingface
+        user: "majentik"
+        repo: "gemma-4-31B-it-RotorQuant-GGUF-Q4_K_M"
+  - key: "majentik/gemma-4-31B-it-RotorQuant-GGUF-Q5_K_M"
+    sources:
+      - type: huggingface
+        user: "majentik"
+        repo: "gemma-4-31B-it-RotorQuant-GGUF-Q5_K_M"
+  - key: "TheCluster/Gemma-4-31B-it-The-DECKARD-HERETIC-UNCENSORED-Thinking-MLX-mxfp4"
+    sources:
+      - type: huggingface
+        user: "TheCluster"
+        repo: "Gemma-4-31B-it-The-DECKARD-HERETIC-UNCENSORED-Thinking-MLX-mxfp4"
+  - key: "LeaderbotX400/gemma-4-31B-it-The-DECKARD-HERETIC-UNCENSORED-Thinking-Q4_K_M-GGUF"
+    sources:
+      - type: huggingface
+        user: "LeaderbotX400"
+        repo: "gemma-4-31B-it-The-DECKARD-HERETIC-UNCENSORED-Thinking-Q4_K_M-GGUF"
+  - key: "bartowski/Ilya626_gemma-4-31B-it-SDFT-Heretic-RP-GGUF"
+    sources:
+      - type: huggingface
+        user: "bartowski"
+        repo: "Ilya626_gemma-4-31B-it-SDFT-Heretic-RP-GGUF"
+  - key: "Brooooooklyn/Gemma-4-31B-IT-UD-MXFP4_K_XL-mlx"
+    sources:
+      - type: huggingface
+        user: "Brooooooklyn"
+        repo: "Gemma-4-31B-IT-UD-MXFP4_K_XL-mlx"
+  - key: "AgentAnon/gemma-4-31B-it-uncensored-GGUF"
+    sources:
+      - type: huggingface
+        user: "AgentAnon"
+        repo: "gemma-4-31B-it-uncensored-GGUF"
+  - key: "Carl03/gemma-4-31B-it-uncensored-GGUF"
+    sources:
+      - type: huggingface
+        user: "Carl03"
+        repo: "gemma-4-31B-it-uncensored-GGUF"
+  - key: "lessans/gemma-4-31B-it-uncensored-GGUF"
+    sources:
+      - type: huggingface
+        user: "lessans"
+        repo: "gemma-4-31B-it-uncensored-GGUF"
+  - key: "YouCountry/gemma-4-31B-it-uncensored-GGUF"
+    sources:
+      - type: huggingface
+        user: "YouCountry"
+        repo: "gemma-4-31B-it-uncensored-GGUF"
+  - key: "HerrisII/gemma-4-31B-it-uncensored-heretic-Q8_0-GGUF"
+    sources:
+      - type: huggingface
+        user: "HerrisII"
+        repo: "gemma-4-31B-it-uncensored-heretic-Q8_0-GGUF"
+  - key: "angelwind/Gemma-4-31B-JANG_4M-CRACK-GGUF"
+    sources:
+      - type: huggingface
+        user: "angelwind"
+        repo: "Gemma-4-31B-JANG_4M-CRACK-GGUF"
+  - key: "face9810298/Gemma-4-31B-JANG_4M-CRACK-GGUF"
+    sources:
+      - type: huggingface
+        user: "face9810298"
+        repo: "Gemma-4-31B-JANG_4M-CRACK-GGUF"
+  - key: "Fedoralinux/Gemma-4-31B-JANG_4M-CRACK-GGUF"
+    sources:
+      - type: huggingface
+        user: "Fedoralinux"
+        repo: "Gemma-4-31B-JANG_4M-CRACK-GGUF"
+  - key: "davidgeorge25/opengenedit-gemma-4-31b"
+    sources:
+      - type: huggingface
+        user: "davidgeorge25"
+        repo: "opengenedit-gemma-4-31b"
+  - key: "StageMind/gemma-4-31b"
+    sources:
+      - type: huggingface
+        user: "StageMind"
+        repo: "gemma-4-31b"
+  - key: "aaardpark/gemma-4-31B-it_aard-3bit"
+    sources:
+      - type: huggingface
+        user: "aaardpark"
+        repo: "gemma-4-31B-it_aard-3bit"
+  - key: "asswa2/Gemma-4-31B-it-abliterated"
+    sources:
+      - type: huggingface
+        user: "asswa2"
+        repo: "Gemma-4-31B-it-abliterated"
+  - key: "hlililililili/Gemma-4-31B-it-abliterated"
+    sources:
+      - type: huggingface
+        user: "hlililililili"
+        repo: "Gemma-4-31B-it-abliterated"
+  - key: "jinmrong/Gemma-4-31B-it-abliterated"
+    sources:
+      - type: huggingface
+        user: "jinmrong"
+        repo: "Gemma-4-31B-it-abliterated"
+  - key: "JustinChung1111/Gemma-4-31B-it-abliterated"
+    sources:
+      - type: huggingface
+        user: "JustinChung1111"
+        repo: "Gemma-4-31B-it-abliterated"
+  - key: "kepom/Gemma-4-31B-it-abliterated"
+    sources:
+      - type: huggingface
+        user: "kepom"
+        repo: "Gemma-4-31B-it-abliterated"
+  - key: "kof1467/Gemma-4-31B-it-abliterated"
+    sources:
+      - type: huggingface
+        user: "kof1467"
+        repo: "Gemma-4-31B-it-abliterated"
+  - key: "paperscarecrow/Gemma-4-31B-it-abliterated"
+    sources:
+      - type: huggingface
+        user: "paperscarecrow"
+        repo: "Gemma-4-31B-it-abliterated"
+  - key: "Beinsezii/Equinox-gemma-4-31B-GGUF-5.05BPW"
+    sources:
+      - type: huggingface
+        user: "Beinsezii"
+        repo: "Equinox-gemma-4-31B-GGUF-5.05BPW"
+  - key: "Sin0n0me/gemma-4-31B-it-GGUF"
+    sources:
+      - type: huggingface
+        user: "Sin0n0me"
+        repo: "gemma-4-31B-it-GGUF"
+  - key: "ScottzillaSystems/Gemma-4-31B-it-abliterated"
+    sources:
+      - type: huggingface
+        user: "ScottzillaSystems"
+        repo: "Gemma-4-31B-it-abliterated"
+  - key: "stronman/Gemma-4-31B-it-abliterated"
+    sources:
+      - type: huggingface
+        user: "stronman"
+        repo: "Gemma-4-31B-it-abliterated"
+  - key: "Momix-44/gemma-4-31B-it-Adamus-Fullfine"
+    sources:
+      - type: huggingface
+        user: "Momix-44"
+        repo: "gemma-4-31B-it-Adamus-Fullfine"
+  - key: "chrstphrbrj/gemma-4-31B-it-APEX-Quality"
+    sources:
+      - type: huggingface
+        user: "chrstphrbrj"
+        repo: "gemma-4-31B-it-APEX-Quality"
+  - key: "CompressedGemma/gemma-4-31B-it-compressed"
+    sources:
+      - type: huggingface
+        user: "CompressedGemma"
+        repo: "gemma-4-31B-it-compressed"
+  - key: "gghfez/gemma-4-31b-it-control-vectors"
+    sources:
+      - type: huggingface
+        user: "gghfez"
+        repo: "gemma-4-31b-it-control-vectors"
+  - key: "coooold/gemma-4-31b-it-heretic-ara.i1-MP-3.98BPW"
+    sources:
+      - type: huggingface
+        user: "coooold"
+        repo: "gemma-4-31b-it-heretic-ara.i1-MP-3.98BPW"
+  - key: "KoolenDasheppi/gemma-4-31B-it-heretic-v2"
+    sources:
+      - type: huggingface
+        user: "KoolenDasheppi"
+        repo: "gemma-4-31B-it-heretic-v2"
 config:
   operation:
     fields:

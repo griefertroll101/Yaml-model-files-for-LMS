@@ -17,11 +17,6 @@ base:
       - type: huggingface
         user: "EloyOn"
         repo: "Hermes-4.3-36B-Q5_0-GGUF"
-  - key: "FBTMAML/Hermes-4.3-36B"
-    sources:
-      - type: huggingface
-        user: "FBTMAML"
-        repo: "Hermes-4.3-36B"
   - key: "MaziyarPanahi/Hermes-4.3-36B-GGUF"
     sources:
       - type: huggingface
@@ -92,11 +87,41 @@ base:
       - type: huggingface
         user: "mradermacher"
         repo: "Hermes-4.3-36B-ABLITERATED-heretic-GGUF"
+  - key: "FBTMAML/Hermes-4.3-36B"
+    sources:
+      - type: huggingface
+        user: "FBTMAML"
+        repo: "Hermes-4.3-36B"
   - key: "wekW/NousResearch_Hermes-4"
     sources:
       - type: huggingface
         user: "wekW"
         repo: "NousResearch_Hermes-4"
+  - key: "mradermacher/Hermes4.3-Z-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "Hermes4.3-Z-GGUF"
+  - key: "mradermacher/Hermes4.3-Z-i1-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "Hermes4.3-Z-i1-GGUF"
+  - key: "mhaxscp/Hermes4-Philosopher-Agent"
+    sources:
+      - type: huggingface
+        user: "mhaxscp"
+        repo: "Hermes4-Philosopher-Agent"
+  - key: "mradermacher/Hermes4-Philosopher-Agent-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "Hermes4-Philosopher-Agent-GGUF"
+  - key: "mradermacher/Hermes4-Philosopher-Agent-i1-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "Hermes4-Philosopher-Agent-i1-GGUF"
 config:
   operation:
     fields:

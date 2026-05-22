@@ -37,11 +37,6 @@ base:
       - type: huggingface
         user: "HauhauCS"
         repo: "Gemma-4-E2B-Uncensored-HauhauCS-Aggressive"
-  - key: "kamjin/Gemma-4-E2B-Uncensored-HauhauCS-Aggressive"
-    sources:
-      - type: huggingface
-        user: "kamjin"
-        repo: "Gemma-4-E2B-Uncensored-HauhauCS-Aggressive"
   - key: "prithivMLmods/gemma-4-E2B-it-F32-GGUF"
     sources:
       - type: huggingface
@@ -67,11 +62,6 @@ base:
       - type: huggingface
         user: "tatsuyaaaaaaa"
         repo: "gemma-4-E2B-gguf"
-  - key: "StageMind/gemma-4-e2b"
-    sources:
-      - type: huggingface
-        user: "StageMind"
-        repo: "gemma-4-e2b"
   - key: "smkrv/gemma-4-E2B-abl-GGUF"
     sources:
       - type: huggingface
@@ -142,11 +132,6 @@ base:
       - type: huggingface
         user: "professorf"
         repo: "gemma-4-E2B-it-gguf"
-  - key: "dahara1/gemma-4-E2B-it-UD-japanese-imatrix"
-    sources:
-      - type: huggingface
-        user: "dahara1"
-        repo: "gemma-4-E2B-it-UD-japanese-imatrix"
   - key: "hypaai/Hypa-Gemma-4-E2B-it-2026-04-06-GGUF"
     sources:
       - type: huggingface
@@ -332,11 +317,6 @@ base:
       - type: huggingface
         user: "mradermacher"
         repo: "gemma-4-E2B-it-abliterated-GGUF"
-  - key: "Momix-44/Huihui-gemma-4-E2B-it-abliterated-v2"
-    sources:
-      - type: huggingface
-        user: "Momix-44"
-        repo: "Huihui-gemma-4-E2B-it-abliterated-v2"
   - key: "mradermacher/gemma-4-E2B-it-uncensored-v1-GGUF"
     sources:
       - type: huggingface
@@ -417,11 +397,6 @@ base:
       - type: huggingface
         user: "s3dev-ai"
         repo: "gemma-4-E2B-it-gguf"
-  - key: "mrgnw/gemma-4-e2b-svelte5"
-    sources:
-      - type: huggingface
-        user: "mrgnw"
-        repo: "gemma-4-e2b-svelte5"
   - key: "majentik/gemma-4-E2B-RotorQuant-GGUF-IQ4_XS"
     sources:
       - type: huggingface
@@ -432,46 +407,16 @@ base:
       - type: huggingface
         user: "keisuke-miyako"
         repo: "gemma-4-E2B-it-gguf-blog"
-  - key: "aungzaythant/gemma-4-E2B-astrology-v2"
-    sources:
-      - type: huggingface
-        user: "aungzaythant"
-        repo: "gemma-4-E2B-astrology-v2"
-  - key: "acidsound/gyeongsang_dialect_unsloth_gemma-4-e2b-it_q4_k_m"
-    sources:
-      - type: huggingface
-        user: "acidsound"
-        repo: "gyeongsang_dialect_unsloth_gemma-4-e2b-it_q4_k_m"
   - key: "dahus/gemma-4-e2b-it-Q8_0-GGUF"
     sources:
       - type: huggingface
         user: "dahus"
         repo: "gemma-4-e2b-it-Q8_0-GGUF"
-  - key: "kof1467/Gemma-4-E2B-Uncensored-HauhauCS-Aggressive"
-    sources:
-      - type: huggingface
-        user: "kof1467"
-        repo: "Gemma-4-E2B-Uncensored-HauhauCS-Aggressive"
-  - key: "Rosexh/Gemma-4-E2B-Uncensored-HauhauCS-Aggressive"
-    sources:
-      - type: huggingface
-        user: "Rosexh"
-        repo: "Gemma-4-E2B-Uncensored-HauhauCS-Aggressive"
-  - key: "aungzaythant/gemma-4-E2B-astrology-v3"
-    sources:
-      - type: huggingface
-        user: "aungzaythant"
-        repo: "gemma-4-E2B-astrology-v3"
   - key: "keisuke-miyako/gemma-4-E2B-it-gguf-tn-kb-0.2"
     sources:
       - type: huggingface
         user: "keisuke-miyako"
         repo: "gemma-4-E2B-it-gguf-tn-kb-0.2"
-  - key: "aungzaythant/gemma-4-E2B-astrology-v4"
-    sources:
-      - type: huggingface
-        user: "aungzaythant"
-        repo: "gemma-4-E2B-astrology-v4"
   - key: "dahus/gemma-4-e2b-it-Q5_K_M-GGUF"
     sources:
       - type: huggingface
@@ -537,11 +482,6 @@ base:
       - type: huggingface
         user: "mradermacher"
         repo: "gemma-4-E2B-OBLITERATED-i1-GGUF"
-  - key: "sunil-pathak/gemma-4-E2B-it-IQ4_NL"
-    sources:
-      - type: huggingface
-        user: "sunil-pathak"
-        repo: "gemma-4-E2B-it-IQ4_NL"
   - key: "mradermacher/gemma-4-E2B-it-ARA-heresy-GGUF"
     sources:
       - type: huggingface
@@ -557,11 +497,6 @@ base:
       - type: huggingface
         user: "mradermacher"
         repo: "gemma-4-E2B-OBLITERATED-GGUF"
-  - key: "CQSystems/Google-Gemma-4-E2B-It"
-    sources:
-      - type: huggingface
-        user: "CQSystems"
-        repo: "Google-Gemma-4-E2B-It"
   - key: "eaddario/gemma-4-E2B-it-GGUF"
     sources:
       - type: huggingface
@@ -572,31 +507,16 @@ base:
       - type: huggingface
         user: "BlankHtmlPage"
         repo: "gemma-4-E2B-Claude-4.6-Opus-Reasoning-Distilled-IQ4_XS-GGUF"
-  - key: "cang1103/Gemma-4-E2B-Uncensored-HauhauCS-Aggressive"
-    sources:
-      - type: huggingface
-        user: "cang1103"
-        repo: "Gemma-4-E2B-Uncensored-HauhauCS-Aggressive"
   - key: "MoonRide/gemma-4-E2B-it-heretic-ara-GGUF"
     sources:
       - type: huggingface
         user: "MoonRide"
         repo: "gemma-4-E2B-it-heretic-ara-GGUF"
-  - key: "Arabic250/gemma-4-E2B-it-GGU"
-    sources:
-      - type: huggingface
-        user: "Arabic250"
-        repo: "gemma-4-E2B-it-GGU"
   - key: "0x3/gemma-4-E2B-it-GGUF"
     sources:
       - type: huggingface
         user: "0x3"
         repo: "gemma-4-E2B-it-GGUF"
-  - key: "Kasper-Bankler/gemma-4-E2B-uncensored"
-    sources:
-      - type: huggingface
-        user: "Kasper-Bankler"
-        repo: "gemma-4-E2B-uncensored"
   - key: "sphaela/gemma-4-E2B-it-AutoRound-GGUF"
     sources:
       - type: huggingface
@@ -642,11 +562,6 @@ base:
       - type: huggingface
         user: "Jessylg27"
         repo: "gemma-4-E2B-GGUF"
-  - key: "jmdevita/medical-wayfinder-gemma-4-e2b"
-    sources:
-      - type: huggingface
-        user: "jmdevita"
-        repo: "medical-wayfinder-gemma-4-e2b"
   - key: "juiceb0xc0de/bella-bartender-gemma-4-e2b-gguf"
     sources:
       - type: huggingface
@@ -707,16 +622,6 @@ base:
       - type: huggingface
         user: "cococo3"
         repo: "gemma-4-E2B-AD-gguf"
-  - key: "Momix-44/gemma-4-E2B_Adamus_1"
-    sources:
-      - type: huggingface
-        user: "Momix-44"
-        repo: "gemma-4-E2B_Adamus_1"
-  - key: "VECTORVV1/Gemma-4-E2B-Aggressive"
-    sources:
-      - type: huggingface
-        user: "VECTORVV1"
-        repo: "Gemma-4-E2B-Aggressive"
   - key: "ombhojane/gemma-4-e2b-asha-it-gguf"
     sources:
       - type: huggingface
@@ -797,11 +702,6 @@ base:
       - type: huggingface
         user: "mradermacher"
         repo: "Gemma-4-E2B-Heretic-GGUF"
-  - key: "barqawiz/trusty-gemma-4-e2b-home-assistant"
-    sources:
-      - type: huggingface
-        user: "barqawiz"
-        repo: "trusty-gemma-4-e2b-home-assistant"
   - key: "ALexJM19/gemma-4-E2B-it-GGUF"
     sources:
       - type: huggingface
@@ -827,11 +727,6 @@ base:
       - type: huggingface
         user: "bennherrera"
         repo: "gemma-4-E2B-it-GGUF"
-  - key: "CodingToni/gemma-4-E2B-it"
-    sources:
-      - type: huggingface
-        user: "CodingToni"
-        repo: "gemma-4-E2B-it"
   - key: "confamnode/gemma-4-E2B-it-GGUF"
     sources:
       - type: huggingface
@@ -922,11 +817,6 @@ base:
       - type: huggingface
         user: "manojbillionaire123"
         repo: "gemma-4-E2B-it-GGUF"
-  - key: "models-for-i/gemma-4-E2B-it"
-    sources:
-      - type: huggingface
-        user: "models-for-i"
-        repo: "gemma-4-E2B-it"
   - key: "Nguuma/Security-SLM-Gemma-4-E2B-it-GGUF"
     sources:
       - type: huggingface
@@ -957,11 +847,6 @@ base:
       - type: huggingface
         user: "san27079"
         repo: "Gemma-4-E2B-it-GGUF"
-  - key: "sunil-pathak/gemma-4-E2B-it-Q6_K"
-    sources:
-      - type: huggingface
-        user: "sunil-pathak"
-        repo: "gemma-4-E2B-it-Q6_K"
   - key: "taharidvanozturk/gemma-4-e2b-it-Q8_0.gguf"
     sources:
       - type: huggingface
@@ -977,11 +862,6 @@ base:
       - type: huggingface
         user: "zelk12"
         repo: "gemma-4-E2B-it-Q6_K-GGUF"
-  - key: "artofai2030/unsloth_gemma-4-E2B-it_1776525877"
-    sources:
-      - type: huggingface
-        user: "artofai2030"
-        repo: "unsloth_gemma-4-E2B-it_1776525877"
   - key: "mlx-community/gemma-4-e2b-mxfp4"
     sources:
       - type: huggingface
@@ -1032,6 +912,361 @@ base:
       - type: huggingface
         user: "deucebucket"
         repo: "Gemma-4-E2B-it-Cerebellum-v2-GGUF"
+  - key: "yrq985/gemma-4-E2B-it-F32-GGUF"
+    sources:
+      - type: huggingface
+        user: "yrq985"
+        repo: "gemma-4-E2B-it-F32-GGUF"
+  - key: "cafkafk/gemma-4-E2B-it-GGUF-test"
+    sources:
+      - type: huggingface
+        user: "cafkafk"
+        repo: "gemma-4-E2B-it-GGUF-test"
+  - key: "prabhu09/gemma-4-E2B-it-gita-gguf"
+    sources:
+      - type: huggingface
+        user: "prabhu09"
+        repo: "gemma-4-E2B-it-gita-gguf"
+  - key: "Rosexh/gemma-4-E2B-it-heretic-ara-GGUF"
+    sources:
+      - type: huggingface
+        user: "Rosexh"
+        repo: "gemma-4-E2B-it-heretic-ara-GGUF"
+  - key: "MoonRide/gemma-4-E2B-it-heretic-ara-custom-GGUF"
+    sources:
+      - type: huggingface
+        user: "MoonRide"
+        repo: "gemma-4-E2B-it-heretic-ara-custom-GGUF"
+  - key: "wyan/gemma-4-E2B-it-heretic-ara-Q4_K_M-GGUF"
+    sources:
+      - type: huggingface
+        user: "wyan"
+        repo: "gemma-4-E2B-it-heretic-ara-Q4_K_M-GGUF"
+  - key: "san27079/Gemma-4-E2B-it-Imatrix-GGUF"
+    sources:
+      - type: huggingface
+        user: "san27079"
+        repo: "Gemma-4-E2B-it-Imatrix-GGUF"
+  - key: "henrique-simoes/gemma-4-e2b-it-istara-ux-research-GGUF"
+    sources:
+      - type: huggingface
+        user: "henrique-simoes"
+        repo: "gemma-4-e2b-it-istara-ux-research-GGUF"
+  - key: "JMingo/gemma-4-E2B-it-Japanese-GGUF"
+    sources:
+      - type: huggingface
+        user: "JMingo"
+        repo: "gemma-4-E2B-it-Japanese-GGUF"
+  - key: "ufoq/partoguard-gemma-4-e2b-it-lora-partograph-v7-gguf"
+    sources:
+      - type: huggingface
+        user: "ufoq"
+        repo: "partoguard-gemma-4-e2b-it-lora-partograph-v7-gguf"
+  - key: "FreedomAISVR/Gemma-4-E2B-it-NVFP4-GGUF"
+    sources:
+      - type: huggingface
+        user: "FreedomAISVR"
+        repo: "Gemma-4-E2B-it-NVFP4-GGUF"
+  - key: "partoguard/gemma-4-e2b-it-partograph-v7-gguf"
+    sources:
+      - type: huggingface
+        user: "partoguard"
+        repo: "gemma-4-e2b-it-partograph-v7-gguf"
+  - key: "Asystemoffields/gemma-4-E2B-it-PMRA-GGUF"
+    sources:
+      - type: huggingface
+        user: "Asystemoffields"
+        repo: "gemma-4-E2B-it-PMRA-GGUF"
+  - key: "naksyu/gemma-4-E2B-it-policy-v2-full-gguf"
+    sources:
+      - type: huggingface
+        user: "naksyu"
+        repo: "gemma-4-E2B-it-policy-v2-full-gguf"
+  - key: "NoxStrix/gemma-4-E2B-it-Q3_K_M-GGUF"
+    sources:
+      - type: huggingface
+        user: "NoxStrix"
+        repo: "gemma-4-E2B-it-Q3_K_M-GGUF"
+  - key: "Bevan05/gemma-4-E2B-it-Q4_K_M-GGUF"
+    sources:
+      - type: huggingface
+        user: "Bevan05"
+        repo: "gemma-4-E2B-it-Q4_K_M-GGUF"
+  - key: "donjustin23/gemma-4-E2B-it-Q4_K_M-GGUF"
+    sources:
+      - type: huggingface
+        user: "donjustin23"
+        repo: "gemma-4-E2B-it-Q4_K_M-GGUF"
+  - key: "harishkumar12k/gemma-4-E2B-it-Q4_K_M-GGUF"
+    sources:
+      - type: huggingface
+        user: "harishkumar12k"
+        repo: "gemma-4-E2B-it-Q4_K_M-GGUF"
+  - key: "NoxStrix/gemma-4-E2B-it-Q4_K_M-GGUF"
+    sources:
+      - type: huggingface
+        user: "NoxStrix"
+        repo: "gemma-4-E2B-it-Q4_K_M-GGUF"
+  - key: "shaked-ash/gemma-4-E2B-it-Q4_K_M-split.gguf"
+    sources:
+      - type: huggingface
+        user: "shaked-ash"
+        repo: "gemma-4-E2B-it-Q4_K_M-split.gguf"
+  - key: "chuanman2707/capyinn-gemma-4-e2b-it-q5-k-m-gguf"
+    sources:
+      - type: huggingface
+        user: "chuanman2707"
+        repo: "capyinn-gemma-4-e2b-it-q5-k-m-gguf"
+  - key: "haifeng1976/gemma-4-E2B-it-RotorQuant-GGUF-Q3_K_M"
+    sources:
+      - type: huggingface
+        user: "haifeng1976"
+        repo: "gemma-4-E2B-it-RotorQuant-GGUF-Q3_K_M"
+  - key: "majentik/gemma-4-E2B-it-RotorQuant-GGUF-Q3_K_M"
+    sources:
+      - type: huggingface
+        user: "majentik"
+        repo: "gemma-4-E2B-it-RotorQuant-GGUF-Q3_K_M"
+  - key: "majentik/gemma-4-E2B-it-RotorQuant-GGUF-Q4_K_M"
+    sources:
+      - type: huggingface
+        user: "majentik"
+        repo: "gemma-4-E2B-it-RotorQuant-GGUF-Q4_K_M"
+  - key: "majentik/gemma-4-E2B-it-RotorQuant-GGUF-Q5_K_M"
+    sources:
+      - type: huggingface
+        user: "majentik"
+        repo: "gemma-4-E2B-it-RotorQuant-GGUF-Q5_K_M"
+  - key: "zelk12/gemma-4-E2B-it-ShiningValiant3-Q6_K-GGUF"
+    sources:
+      - type: huggingface
+        user: "zelk12"
+        repo: "gemma-4-E2B-it-ShiningValiant3-Q6_K-GGUF"
+  - key: "ludsvick/gemma-4-E2B-it-SSD-merged-Q4_K_M-GGUF"
+    sources:
+      - type: huggingface
+        user: "ludsvick"
+        repo: "gemma-4-E2B-it-SSD-merged-Q4_K_M-GGUF"
+  - key: "Damirsoft/gemma-4-E2B-it-UD-Q5_K_M.gguf"
+    sources:
+      - type: huggingface
+        user: "Damirsoft"
+        repo: "gemma-4-E2B-it-UD-Q5_K_M.gguf"
+  - key: "ixarek/gemma-4-E2B-it-ultra-uncensored-heretic-GGUF"
+    sources:
+      - type: huggingface
+        user: "ixarek"
+        repo: "gemma-4-E2B-it-ultra-uncensored-heretic-GGUF"
+  - key: "mradermacher/gemma-4-E2B-it-ultra-uncensored-heretic-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "gemma-4-E2B-it-ultra-uncensored-heretic-GGUF"
+  - key: "AgentAnon/gemma-4-E2B-it-uncensored-GGUF"
+    sources:
+      - type: huggingface
+        user: "AgentAnon"
+        repo: "gemma-4-E2B-it-uncensored-GGUF"
+  - key: "Carl03/gemma-4-E2B-it-uncensored-GGUF"
+    sources:
+      - type: huggingface
+        user: "Carl03"
+        repo: "gemma-4-E2B-it-uncensored-GGUF"
+  - key: "Hdiebdksh/gemma-4-E2B-it-uncensored-IQ3_M-GGUF"
+    sources:
+      - type: huggingface
+        user: "Hdiebdksh"
+        repo: "gemma-4-E2B-it-uncensored-IQ3_M-GGUF"
+  - key: "Hdiebdksh/gemma-4-E2B-it-uncensored-Q4_0-GGUF"
+    sources:
+      - type: huggingface
+        user: "Hdiebdksh"
+        repo: "gemma-4-E2B-it-uncensored-Q4_0-GGUF"
+  - key: "lessans/gemma-4-E2B-it-uncensored-GGUF"
+    sources:
+      - type: huggingface
+        user: "lessans"
+        repo: "gemma-4-E2B-it-uncensored-GGUF"
+  - key: "mathu59/gemma-4-E2B-it-uncensored-GGUF"
+    sources:
+      - type: huggingface
+        user: "mathu59"
+        repo: "gemma-4-E2B-it-uncensored-GGUF"
+  - key: "YNB23/gemma-4-E2B-it-uncensored-GGUF"
+    sources:
+      - type: huggingface
+        user: "YNB23"
+        repo: "gemma-4-E2B-it-uncensored-GGUF"
+  - key: "Yunshanccx/gemma-4-E2B-it-uncensored-GGUF"
+    sources:
+      - type: huggingface
+        user: "Yunshanccx"
+        repo: "gemma-4-E2B-it-uncensored-GGUF"
+  - key: "ShadowOkami/gemma-4-E2B-it-Uncensored-MAX-Q4_K_M-GGUF"
+    sources:
+      - type: huggingface
+        user: "ShadowOkami"
+        repo: "gemma-4-E2B-it-Uncensored-MAX-Q4_K_M-GGUF"
+  - key: "nphearum/Gemma-4-e2b-khmer-improved-GGUF"
+    sources:
+      - type: huggingface
+        user: "nphearum"
+        repo: "Gemma-4-e2b-khmer-improved-GGUF"
+  - key: "bombman/Gemma-4-E2B-NoAudio-GGUF"
+    sources:
+      - type: huggingface
+        user: "bombman"
+        repo: "Gemma-4-E2B-NoAudio-GGUF"
+  - key: "zanish-labs/gemma-4-E2B-it-Q4_K_M-gguf"
+    sources:
+      - type: huggingface
+        user: "zanish-labs"
+        repo: "gemma-4-E2B-it-Q4_K_M-gguf"
+  - key: "akheel18/gemma-4-E2B-Q4_K_M-GGUF"
+    sources:
+      - type: huggingface
+        user: "akheel18"
+        repo: "gemma-4-E2B-Q4_K_M-GGUF"
+  - key: "harishkumar12k/gemma-4-E2B-Q4_K_M-GGUF"
+    sources:
+      - type: huggingface
+        user: "harishkumar12k"
+        repo: "gemma-4-E2B-Q4_K_M-GGUF"
+  - key: "SamSankar/gemma-4-E2B-Q4_K_M-GGUF"
+    sources:
+      - type: huggingface
+        user: "SamSankar"
+        repo: "gemma-4-E2B-Q4_K_M-GGUF"
+  - key: "ertghiu256/gemma-4-e2b-reasoning-distill-gguf"
+    sources:
+      - type: huggingface
+        user: "ertghiu256"
+        repo: "gemma-4-e2b-reasoning-distill-gguf"
+  - key: "majentik/gemma-4-E2B-RotorQuant-GGUF-Q3_K_M"
+    sources:
+      - type: huggingface
+        user: "majentik"
+        repo: "gemma-4-E2B-RotorQuant-GGUF-Q3_K_M"
+  - key: "majentik/gemma-4-E2B-RotorQuant-GGUF-Q4_K_M"
+    sources:
+      - type: huggingface
+        user: "majentik"
+        repo: "gemma-4-E2B-RotorQuant-GGUF-Q4_K_M"
+  - key: "majentik/gemma-4-E2B-RotorQuant-GGUF-Q5_K_M"
+    sources:
+      - type: huggingface
+        user: "majentik"
+        repo: "gemma-4-E2B-RotorQuant-GGUF-Q5_K_M"
+  - key: "mradermacher/Gemma-4-E2B-SFT-Sinhala-Merged-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "Gemma-4-E2B-SFT-Sinhala-Merged-GGUF"
+  - key: "lorinet3/gemma-4-E2B-swedish-exercise-generation-correction-v2-gguf"
+    sources:
+      - type: huggingface
+        user: "lorinet3"
+        repo: "gemma-4-E2B-swedish-exercise-generation-correction-v2-gguf"
+  - key: "hurairamuzammal/gemma-4-2b-gguf"
+    sources:
+      - type: huggingface
+        user: "hurairamuzammal"
+        repo: "gemma-4-2b-gguf"
+  - key: "llmware/gemma-4-2b-it-gguf"
+    sources:
+      - type: huggingface
+        user: "llmware"
+        repo: "gemma-4-2b-it-gguf"
+  - key: "oliverpan/Gemma-4-2b-PhishGuard-QLoRA"
+    sources:
+      - type: huggingface
+        user: "oliverpan"
+        repo: "Gemma-4-2b-PhishGuard-QLoRA"
+  - key: "oliverpan/Gemma-4-2b-PhishGuard-QLoRA-c390"
+    sources:
+      - type: huggingface
+        user: "oliverpan"
+        repo: "Gemma-4-2b-PhishGuard-QLoRA-c390"
+  - key: "jmdevita/medical-wayfinder-gemma-4-e2b"
+    sources:
+      - type: huggingface
+        user: "jmdevita"
+        repo: "medical-wayfinder-gemma-4-e2b"
+  - key: "StageMind/gemma-4-e2b"
+    sources:
+      - type: huggingface
+        user: "StageMind"
+        repo: "gemma-4-e2b"
+  - key: "Momix-44/gemma-4-E2B_Adamus_1"
+    sources:
+      - type: huggingface
+        user: "Momix-44"
+        repo: "gemma-4-E2B_Adamus_1"
+  - key: "VECTORVV1/Gemma-4-E2B-Aggressive"
+    sources:
+      - type: huggingface
+        user: "VECTORVV1"
+        repo: "Gemma-4-E2B-Aggressive"
+  - key: "aungzaythant/gemma-4-E2B-astrology-v2"
+    sources:
+      - type: huggingface
+        user: "aungzaythant"
+        repo: "gemma-4-E2B-astrology-v2"
+  - key: "aungzaythant/gemma-4-E2B-astrology-v3"
+    sources:
+      - type: huggingface
+        user: "aungzaythant"
+        repo: "gemma-4-E2B-astrology-v3"
+  - key: "aungzaythant/gemma-4-E2B-astrology-v4"
+    sources:
+      - type: huggingface
+        user: "aungzaythant"
+        repo: "gemma-4-E2B-astrology-v4"
+  - key: "barqawiz/trusty-gemma-4-e2b-home-assistant"
+    sources:
+      - type: huggingface
+        user: "barqawiz"
+        repo: "trusty-gemma-4-e2b-home-assistant"
+  - key: "CodingToni/gemma-4-E2B-it"
+    sources:
+      - type: huggingface
+        user: "CodingToni"
+        repo: "gemma-4-E2B-it"
+  - key: "models-for-i/gemma-4-E2B-it"
+    sources:
+      - type: huggingface
+        user: "models-for-i"
+        repo: "gemma-4-E2B-it"
+  - key: "sunil-pathak/gemma-4-E2B-it-IQ4_NL"
+    sources:
+      - type: huggingface
+        user: "sunil-pathak"
+        repo: "gemma-4-E2B-it-IQ4_NL"
+  - key: "sunil-pathak/gemma-4-E2B-it-Q6_K"
+    sources:
+      - type: huggingface
+        user: "sunil-pathak"
+        repo: "gemma-4-E2B-it-Q6_K"
+  - key: "artofai2030/unsloth_gemma-4-E2B-it_1776525877"
+    sources:
+      - type: huggingface
+        user: "artofai2030"
+        repo: "unsloth_gemma-4-E2B-it_1776525877"
+  - key: "Momix-44/Huihui-gemma-4-E2B-it-abliterated-v2"
+    sources:
+      - type: huggingface
+        user: "Momix-44"
+        repo: "Huihui-gemma-4-E2B-it-abliterated-v2"
+  - key: "Arabic250/gemma-4-E2B-it-GGU"
+    sources:
+      - type: huggingface
+        user: "Arabic250"
+        repo: "gemma-4-E2B-it-GGU"
+  - key: "julienp79/occitan-gemma-4-e2b-it-lora-sfttrainer"
+    sources:
+      - type: huggingface
+        user: "julienp79"
+        repo: "occitan-gemma-4-e2b-it-lora-sfttrainer"
 config:
   operation:
     fields:

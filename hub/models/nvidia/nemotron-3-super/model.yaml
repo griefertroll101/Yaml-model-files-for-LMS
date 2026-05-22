@@ -117,11 +117,6 @@ base:
       - type: huggingface
         user: "ApocalypseParty"
         repo: "Nemotron-3-Super-120B-SFT-5-low2-gguf"
-  - key: "farshidtz/NVIDIA-Nemotron-3-Super-120B-A12B-UD-Q4_K_M-5G"
-    sources:
-      - type: huggingface
-        user: "farshidtz"
-        repo: "NVIDIA-Nemotron-3-Super-120B-A12B-UD-Q4_K_M-5G"
   - key: "baa-ai/Nemotron-3-Super-120B-A12B-MINT-GGUF"
     sources:
       - type: huggingface
@@ -222,6 +217,11 @@ base:
       - type: huggingface
         user: "will3509111"
         repo: "Nemotron-3-Super-120B-A12B-MLX-MXFP4"
+  - key: "farshidtz/NVIDIA-Nemotron-3-Super-120B-A12B-UD-Q4_K_M-5G"
+    sources:
+      - type: huggingface
+        user: "farshidtz"
+        repo: "NVIDIA-Nemotron-3-Super-120B-A12B-UD-Q4_K_M-5G"
 config:
   operation:
     fields:

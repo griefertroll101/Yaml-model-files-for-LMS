@@ -77,11 +77,6 @@ base:
       - type: huggingface
         user: "mradermacher"
         repo: "Yanfei-v2-Qwen3-32B-GGUF"
-  - key: "geoffmunn/Qwen3-32B-f16"
-    sources:
-      - type: huggingface
-        user: "geoffmunn"
-        repo: "Qwen3-32B-f16"
   - key: "mradermacher/Qwen3-32B-obliterated-i1-GGUF"
     sources:
       - type: huggingface
@@ -232,11 +227,6 @@ base:
       - type: huggingface
         user: "Yjuq"
         repo: "Qwen3-32B-abliterated-Q8_0-GGUF"
-  - key: "meshllm/Qwen3-32B-UD-Q4_K_XL-layers"
-    sources:
-      - type: huggingface
-        user: "meshllm"
-        repo: "Qwen3-32B-UD-Q4_K_XL-layers"
   - key: "Antigma/Qwen3-32B-GGUF"
     sources:
       - type: huggingface
@@ -292,11 +282,6 @@ base:
       - type: huggingface
         user: "keypa"
         repo: "Qwen3-32B-gguf"
-  - key: "kolosal/qwen3-32b"
-    sources:
-      - type: huggingface
-        user: "kolosal"
-        repo: "qwen3-32b"
   - key: "lovedheart/Qwen3-32B-GGUF-MXFP4"
     sources:
       - type: huggingface
@@ -357,16 +342,6 @@ base:
       - type: huggingface
         user: "mradermacher"
         repo: "Lit-Qwen3-32B-i1-GGUF"
-  - key: "mradermacher/Qwen2.5-7B-Instruct_openthoughts3_300k_annotated_Qwen3-32B-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "Qwen2.5-7B-Instruct_openthoughts3_300k_annotated_Qwen3-32B-GGUF"
-  - key: "mradermacher/Qwen2.5-7B-Instruct_openthoughts3_300k_annotated_Qwen3-32B-i1-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "Qwen2.5-7B-Instruct_openthoughts3_300k_annotated_Qwen3-32B-i1-GGUF"
   - key: "mradermacher/Qwen3-32B-GGUF"
     sources:
       - type: huggingface
@@ -422,26 +397,11 @@ base:
       - type: huggingface
         user: "Mungert"
         repo: "Qwen3-32B-GGUF"
-  - key: "openwalrus/Qwen3-32B"
-    sources:
-      - type: huggingface
-        user: "openwalrus"
-        repo: "Qwen3-32B"
   - key: "RJTPP/scot0402s-qwen3-32b-gguf"
     sources:
       - type: huggingface
         user: "RJTPP"
         repo: "scot0402s-qwen3-32b-gguf"
-  - key: "StageMind/qwen3-32b"
-    sources:
-      - type: huggingface
-        user: "StageMind"
-        repo: "qwen3-32b"
-  - key: "stealurfaces/Qwen3-32B-Q6_K"
-    sources:
-      - type: huggingface
-        user: "stealurfaces"
-        repo: "Qwen3-32B-Q6_K"
   - key: "tensorblock/dnotitia_Smoothie-Qwen3-32B-GGUF"
     sources:
       - type: huggingface
@@ -452,11 +412,6 @@ base:
       - type: huggingface
         user: "tensorblock"
         repo: "willcb_Qwen3-32B-GGUF"
-  - key: "TOTORONG/qwen3_32B_Q4"
-    sources:
-      - type: huggingface
-        user: "TOTORONG"
-        repo: "qwen3_32B_Q4"
   - key: "tripolskypetr/Qwen3-32B-GGUF"
     sources:
       - type: huggingface
@@ -492,11 +447,6 @@ base:
       - type: huggingface
         user: "Brewkro"
         repo: "jess-100-qwen3-32b-16k-Q6_K-GGUF"
-  - key: "TOTORONG/QWEN3_32B_250525"
-    sources:
-      - type: huggingface
-        user: "TOTORONG"
-        repo: "QWEN3_32B_250525"
   - key: "orange67/qwen3_32b_2new-fenics-gguf"
     sources:
       - type: huggingface
@@ -572,11 +522,6 @@ base:
       - type: huggingface
         user: "mradermacher"
         repo: "QWEN3-32B-EXTENDED-BLADDER-alpaca-GGUF"
-  - key: "orange67/qwen3-32b-fenics-q8_0"
-    sources:
-      - type: huggingface
-        user: "orange67"
-        repo: "qwen3-32b-fenics-q8_0"
   - key: "mradermacher/qwen3-32b-geminized-experimental-GGUF"
     sources:
       - type: huggingface
@@ -622,11 +567,6 @@ base:
       - type: huggingface
         user: "mradermacher"
         repo: "Qwen3-32B-heretic-i1-GGUF"
-  - key: "ThalisAI/Qwen3-32B-heretic"
-    sources:
-      - type: huggingface
-        user: "ThalisAI"
-        repo: "Qwen3-32B-heretic"
   - key: "OpenMOSE/RWKV-Qwen3-32B-hxa07d-L8-GGUF"
     sources:
       - type: huggingface
@@ -637,6 +577,401 @@ base:
       - type: huggingface
         user: "OpenMOSE"
         repo: "RWKV-Qwen3-32B-Hybrid-GGUF"
+  - key: "OpenMOSE/RWKV-Qwen3-32B-Hybrid-High-GGUF"
+    sources:
+      - type: huggingface
+        user: "OpenMOSE"
+        repo: "RWKV-Qwen3-32B-Hybrid-High-GGUF"
+  - key: "mradermacher/Qwen3-32B-Kimi-K2-Thinking-Distill-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "Qwen3-32B-Kimi-K2-Thinking-Distill-GGUF"
+  - key: "mradermacher/Qwen3-32B-LoRA-ECHO-KK-GRPO-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "Qwen3-32B-LoRA-ECHO-KK-GRPO-GGUF"
+  - key: "mradermacher/qwen3-32b-lora-jailbreak-detection-merged_v2-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "qwen3-32b-lora-jailbreak-detection-merged_v2-GGUF"
+  - key: "mradermacher/qwen3-32b-malayalam-v1-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "qwen3-32b-malayalam-v1-GGUF"
+  - key: "mradermacher/Qwen3-32B-Malaysian-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "Qwen3-32B-Malaysian-GGUF"
+  - key: "Headofcatering/Qwen3-32B-merge-balanced-Q5_K_M-GGUF"
+    sources:
+      - type: huggingface
+        user: "Headofcatering"
+        repo: "Qwen3-32B-merge-balanced-Q5_K_M-GGUF"
+  - key: "Headofcatering/Qwen3-32B-merge-progressive-Q5_K_M-GGUF"
+    sources:
+      - type: huggingface
+        user: "Headofcatering"
+        repo: "Qwen3-32B-merge-progressive-Q5_K_M-GGUF"
+  - key: "mradermacher/Qwen3-32B-Nano-SWE-Gym-SFT-Lora-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "Qwen3-32B-Nano-SWE-Gym-SFT-Lora-GGUF"
+  - key: "sasa2000/Qwen3-32B-Nex-N1-Q8_0-GGUF"
+    sources:
+      - type: huggingface
+        user: "sasa2000"
+        repo: "Qwen3-32B-Nex-N1-Q8_0-GGUF"
+  - key: "mradermacher/Qwen3-32B-obliterated-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "Qwen3-32B-obliterated-GGUF"
+  - key: "mradermacher/INFIndo-Qwen3-32B-Preview-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "INFIndo-Qwen3-32B-Preview-GGUF"
+  - key: "mradermacher/INFIndo-Qwen3-32B-Preview-i1-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "INFIndo-Qwen3-32B-Preview-i1-GGUF"
+  - key: "Bearsaerker/OpenBuddy-R1-0528-Distill-Qwen3-32B-Preview0-QAT-Q4_0-GGUF"
+    sources:
+      - type: huggingface
+        user: "Bearsaerker"
+        repo: "OpenBuddy-R1-0528-Distill-Qwen3-32B-Preview0-QAT-Q4_0-GGUF"
+  - key: "DevQuasar/OpenBuddy.OpenBuddy-R1-0528-Distill-Qwen3-32B-Preview0-QAT-GGUF"
+    sources:
+      - type: huggingface
+        user: "DevQuasar"
+        repo: "OpenBuddy.OpenBuddy-R1-0528-Distill-Qwen3-32B-Preview0-QAT-GGUF"
+  - key: "mradermacher/DeepSeek-R1-0528-Distill-Qwen3-32B-Preview0-QAT-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "DeepSeek-R1-0528-Distill-Qwen3-32B-Preview0-QAT-GGUF"
+  - key: "tensorblock/OpenBuddy_OpenBuddy-R1-0528-Distill-Qwen3-32B-Preview0-QAT-GGUF"
+    sources:
+      - type: huggingface
+        user: "tensorblock"
+        repo: "OpenBuddy_OpenBuddy-R1-0528-Distill-Qwen3-32B-Preview0-QAT-GGUF"
+  - key: "OpenBuddy/OpenBuddy-R1-0528-Distill-Qwen3-32B-Preview1-QAT-Q3_K_M-GGUF"
+    sources:
+      - type: huggingface
+        user: "OpenBuddy"
+        repo: "OpenBuddy-R1-0528-Distill-Qwen3-32B-Preview1-QAT-Q3_K_M-GGUF"
+  - key: "mradermacher/OpenBuddy-R1-0528-Distill-Qwen3-32B-Preview2-QAT-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "OpenBuddy-R1-0528-Distill-Qwen3-32B-Preview2-QAT-GGUF"
+  - key: "gabriellarson/OpenBuddy-R1-0528-Distill-Qwen3-32B-Preview3-QAT-GGUF"
+    sources:
+      - type: huggingface
+        user: "gabriellarson"
+        repo: "OpenBuddy-R1-0528-Distill-Qwen3-32B-Preview3-QAT-GGUF"
+  - key: "gabriellarson/OpenBuddy-R1-0528-Distill-Qwen3-32B-Preview4-QAT-GGUF"
+    sources:
+      - type: huggingface
+        user: "gabriellarson"
+        repo: "OpenBuddy-R1-0528-Distill-Qwen3-32B-Preview4-QAT-GGUF"
+  - key: "mradermacher/OpenBuddy-R1-0528-Distill-Qwen3-32B-Preview4-QAT-200K-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "OpenBuddy-R1-0528-Distill-Qwen3-32B-Preview4-QAT-200K-GGUF"
+  - key: "gabriellarson/OpenBuddy-R1-0528-Distill-Qwen3-32B-Preview6-QAT-200K-GGUF"
+    sources:
+      - type: huggingface
+        user: "gabriellarson"
+        repo: "OpenBuddy-R1-0528-Distill-Qwen3-32B-Preview6-QAT-200K-GGUF"
+  - key: "mradermacher/OpenBuddy-R1-0528-Distill-Qwen3-32B-Preview6-QAT-200K-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "OpenBuddy-R1-0528-Distill-Qwen3-32B-Preview6-QAT-200K-GGUF"
+  - key: "gabriellarson/OpenBuddy-R1-0528-Distill-Qwen3-32B-Preview7-QAT-200K-GGUF"
+    sources:
+      - type: huggingface
+        user: "gabriellarson"
+        repo: "OpenBuddy-R1-0528-Distill-Qwen3-32B-Preview7-QAT-200K-GGUF"
+  - key: "mradermacher/OpenBuddy-R1-0528-Distill-Qwen3-32B-Preview7-QAT-200K-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "OpenBuddy-R1-0528-Distill-Qwen3-32B-Preview7-QAT-200K-GGUF"
+  - key: "asdwvv/Smoothie-Qwen3-32B-Q4_K_M-GGUF"
+    sources:
+      - type: huggingface
+        user: "asdwvv"
+        repo: "Smoothie-Qwen3-32B-Q4_K_M-GGUF"
+  - key: "YeonwooSung/Qwen3-32B-Q4_K_M-GGUF"
+    sources:
+      - type: huggingface
+        user: "YeonwooSung"
+        repo: "Qwen3-32B-Q4_K_M-GGUF"
+  - key: "Beinsezii/Qwen3-32B-Q4F-Q8A-GGUF"
+    sources:
+      - type: huggingface
+        user: "Beinsezii"
+        repo: "Qwen3-32B-Q4F-Q8A-GGUF"
+  - key: "dev7halo/Qwen3-32B-Q5_K_M-GGUF"
+    sources:
+      - type: huggingface
+        user: "dev7halo"
+        repo: "Qwen3-32B-Q5_K_M-GGUF"
+  - key: "jacobcarajo/Qwen3-32B-Q5_K_M-GGUF"
+    sources:
+      - type: huggingface
+        user: "jacobcarajo"
+        repo: "Qwen3-32B-Q5_K_M-GGUF"
+  - key: "BusRune/Qwen3-32B-qweh2-Q5_K_M-GGUF"
+    sources:
+      - type: huggingface
+        user: "BusRune"
+        repo: "Qwen3-32B-qweh2-Q5_K_M-GGUF"
+  - key: "mradermacher/CriticLeanGPT-Qwen3-32B-RL-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "CriticLeanGPT-Qwen3-32B-RL-GGUF"
+  - key: "mradermacher/CriticLeanGPT-Qwen3-32B-RL-i1-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "CriticLeanGPT-Qwen3-32B-RL-i1-GGUF"
+  - key: "mradermacher/Opeai_ECV7_Qwen3-32B_roleplay-i1-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "Opeai_ECV7_Qwen3-32B_roleplay-i1-GGUF"
+  - key: "john-broadway/Qwen3-32B-RYS-20-28-GGUF"
+    sources:
+      - type: huggingface
+        user: "john-broadway"
+        repo: "Qwen3-32B-RYS-20-28-GGUF"
+  - key: "mradermacher/insight-qwen3-32b-sft-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "insight-qwen3-32b-sft-GGUF"
+  - key: "mradermacher/Qwen3-32B-SFT-AIME-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "Qwen3-32B-SFT-AIME-GGUF"
+  - key: "mradermacher/MathSmith-HC-Qwen3-32B-ShortCoT-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "MathSmith-HC-Qwen3-32B-ShortCoT-GGUF"
+  - key: "Creamory/qwen3-32b-turkish-headlines-gguf"
+    sources:
+      - type: huggingface
+        user: "Creamory"
+        repo: "qwen3-32b-turkish-headlines-gguf"
+  - key: "DevQuasar/nicoboss.Qwen3-32B-Uncensored-GGUF"
+    sources:
+      - type: huggingface
+        user: "DevQuasar"
+        repo: "nicoboss.Qwen3-32B-Uncensored-GGUF"
+  - key: "Harshith2025/Qwen3-32B-unsloth-bnb-4bit-sv-constraints-finetune-GGUF"
+    sources:
+      - type: huggingface
+        user: "Harshith2025"
+        repo: "Qwen3-32B-unsloth-bnb-4bit-sv-constraints-finetune-GGUF"
+  - key: "mradermacher/spectrum-Qwen3-32B-v0-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "spectrum-Qwen3-32B-v0-GGUF"
+  - key: "mradermacher/Wisenut-Qwen3-32B_v2-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "Wisenut-Qwen3-32B_v2-GGUF"
+  - key: "mradermacher/openbuddy-qwen3-32b-v26.1-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "openbuddy-qwen3-32b-v26.1-GGUF"
+  - key: "mradermacher/openbuddy-qwen3-32b-v26.1-i1-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "openbuddy-qwen3-32b-v26.1-i1-GGUF"
+  - key: "mradermacher/OpenBuddy-Qwen3-32B-v27.1-NoCoT-QAT-200K-i1-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "OpenBuddy-Qwen3-32B-v27.1-NoCoT-QAT-200K-i1-GGUF"
+  - key: "mradermacher/qwen3-32b-v3-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "qwen3-32b-v3-GGUF"
+  - key: "mradermacher/qwen3-32b-v3-i1-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "qwen3-32b-v3-i1-GGUF"
+  - key: "Azmyue/Qwen3-GGUF"
+    sources:
+      - type: huggingface
+        user: "Azmyue"
+        repo: "Qwen3-GGUF"
+  - key: "ca7/Qwen3-GGUF"
+    sources:
+      - type: huggingface
+        user: "ca7"
+        repo: "Qwen3-GGUF"
+  - key: "Chenyeng/Qwen3-GGUF"
+    sources:
+      - type: huggingface
+        user: "Chenyeng"
+        repo: "Qwen3-GGUF"
+  - key: "distil-labs/distil-home-assistant-qwen3-gguf"
+    sources:
+      - type: huggingface
+        user: "distil-labs"
+        repo: "distil-home-assistant-qwen3-gguf"
+  - key: "doncoriolan/sec-summarizer-qwen3-gguf"
+    sources:
+      - type: huggingface
+        user: "doncoriolan"
+        repo: "sec-summarizer-qwen3-gguf"
+  - key: "ertghiu256/deepseek-r1-0528-distilled-qwen3-gguf"
+    sources:
+      - type: huggingface
+        user: "ertghiu256"
+        repo: "deepseek-r1-0528-distilled-qwen3-gguf"
+  - key: "haninmb/GGUF_QWEN3"
+    sources:
+      - type: huggingface
+        user: "haninmb"
+        repo: "GGUF_QWEN3"
+  - key: "ierva/farm4cloud-agritech-qwen3-gguf"
+    sources:
+      - type: huggingface
+        user: "ierva"
+        repo: "farm4cloud-agritech-qwen3-gguf"
+  - key: "jerrycheng233/model6_gspo_qwen3_gguf"
+    sources:
+      - type: huggingface
+        user: "jerrycheng233"
+        repo: "model6_gspo_qwen3_gguf"
+  - key: "JiaoYueyi/Qwen3-GGUF"
+    sources:
+      - type: huggingface
+        user: "JiaoYueyi"
+        repo: "Qwen3-GGUF"
+  - key: "AmpereComputing/qwen-3-32b-gguf"
+    sources:
+      - type: huggingface
+        user: "AmpereComputing"
+        repo: "qwen-3-32b-gguf"
+  - key: "DevQuasar/nicoboss.Qwen-3-32B-Medical-Reasoning-GGUF"
+    sources:
+      - type: huggingface
+        user: "DevQuasar"
+        repo: "nicoboss.Qwen-3-32B-Medical-Reasoning-GGUF"
+  - key: "mradermacher/Qwen-3-32B-Medical-Reasoning-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "Qwen-3-32B-Medical-Reasoning-GGUF"
+  - key: "mradermacher/Qwen-3-32B-Medical-Reasoning-i1-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "Qwen-3-32B-Medical-Reasoning-i1-GGUF"
+  - key: "steampunque/ultravox-v0_6-qwen-3-32b-MP-GGUF"
+    sources:
+      - type: huggingface
+        user: "steampunque"
+        repo: "ultravox-v0_6-qwen-3-32b-MP-GGUF"
+  - key: "mradermacher/Qwen-3-32b-RP-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "Qwen-3-32b-RP-GGUF"
+  - key: "mradermacher/Qwen-3-32b-RP-i1-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "Qwen-3-32b-RP-i1-GGUF"
+  - key: "kolosal/qwen3-32b"
+    sources:
+      - type: huggingface
+        user: "kolosal"
+        repo: "qwen3-32b"
+  - key: "openwalrus/Qwen3-32B"
+    sources:
+      - type: huggingface
+        user: "openwalrus"
+        repo: "Qwen3-32B"
+  - key: "StageMind/qwen3-32b"
+    sources:
+      - type: huggingface
+        user: "StageMind"
+        repo: "qwen3-32b"
+  - key: "stealurfaces/Qwen3-32B-Q6_K"
+    sources:
+      - type: huggingface
+        user: "stealurfaces"
+        repo: "Qwen3-32B-Q6_K"
+  - key: "TOTORONG/qwen3_32B_Q4"
+    sources:
+      - type: huggingface
+        user: "TOTORONG"
+        repo: "qwen3_32B_Q4"
+  - key: "TOTORONG/QWEN3_32B_250525"
+    sources:
+      - type: huggingface
+        user: "TOTORONG"
+        repo: "QWEN3_32B_250525"
+  - key: "geoffmunn/Qwen3-32B-f16"
+    sources:
+      - type: huggingface
+        user: "geoffmunn"
+        repo: "Qwen3-32B-f16"
+  - key: "orange67/qwen3-32b-fenics-q8_0"
+    sources:
+      - type: huggingface
+        user: "orange67"
+        repo: "qwen3-32b-fenics-q8_0"
+  - key: "ThalisAI/Qwen3-32B-heretic"
+    sources:
+      - type: huggingface
+        user: "ThalisAI"
+        repo: "Qwen3-32B-heretic"
+  - key: "meshllm/Qwen3-32B-UD-Q4_K_XL-layers"
+    sources:
+      - type: huggingface
+        user: "meshllm"
+        repo: "Qwen3-32B-UD-Q4_K_XL-layers"
+  - key: "ilintar/Qwen3-Nemotron-32B-160k-GGUF"
+    sources:
+      - type: huggingface
+        user: "ilintar"
+        repo: "Qwen3-Nemotron-32B-160k-GGUF"
+  - key: "DevQuasar/nvidia.Qwen3-Nemotron-32B-GenRM-Principle-GGUF"
+    sources:
+      - type: huggingface
+        user: "DevQuasar"
+        repo: "nvidia.Qwen3-Nemotron-32B-GenRM-Principle-GGUF"
+  - key: "mradermacher/Qwen3-Nemotron-32B-GenRM-Principle-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "Qwen3-Nemotron-32B-GenRM-Principle-GGUF"
 config:
   operation:
     fields:

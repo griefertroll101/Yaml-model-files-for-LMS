@@ -177,11 +177,6 @@ base:
       - type: huggingface
         user: "NexesQuants"
         repo: "zai-org_GLM-4.5-Air-bf16-iMat-IKL-CQ-GGUF"
-  - key: "gghfez/GLM-4.5-Air-control-vectors"
-    sources:
-      - type: huggingface
-        user: "gghfez"
-        repo: "GLM-4.5-Air-control-vectors"
   - key: "bartowski/ArliAI_GLM-4.5-Air-Derestricted-GGUF"
     sources:
       - type: huggingface
@@ -227,11 +222,6 @@ base:
       - type: huggingface
         user: "Beinsezii"
         repo: "GLM-4.5-Air-Derestricted-Q4F-Q8A-Q8SH-GGUF"
-  - key: "timowu/GLM-4.5-Air-Derestricted-Q8_0-FFN-IQ4_XS-IQ4_XS-Q5_0"
-    sources:
-      - type: huggingface
-        user: "timowu"
-        repo: "GLM-4.5-Air-Derestricted-Q8_0-FFN-IQ4_XS-IQ4_XS-Q5_0"
   - key: "rakmik/GLM-4.5-Air-GGUF_part10G"
     sources:
       - type: huggingface
@@ -247,11 +237,6 @@ base:
       - type: huggingface
         user: "mradermacher"
         repo: "GLM-4.5-Air-GLM-4.6-Distill-i1-GGUF"
-  - key: "anikifoss/GLM-4.5-Air-HQ4_K"
-    sources:
-      - type: huggingface
-        user: "anikifoss"
-        repo: "GLM-4.5-Air-HQ4_K"
   - key: "Beinsezii/GLM-4.5-Air-IQ4F-Q8A-Q8SH-GGUF"
     sources:
       - type: huggingface
@@ -267,6 +252,46 @@ base:
       - type: huggingface
         user: "Beinsezii"
         repo: "GLM-4.5-Air-Q4F-Q8A-Q8SH-GGUF"
+  - key: "nightmedia/GLM-4.5-Air-REAP-82B-A12B-mxfp4-mlx"
+    sources:
+      - type: huggingface
+        user: "nightmedia"
+        repo: "GLM-4.5-Air-REAP-82B-A12B-mxfp4-mlx"
+  - key: "mlx-community/GLM-4.5-Air-mxfp4"
+    sources:
+      - type: huggingface
+        user: "mlx-community"
+        repo: "GLM-4.5-Air-mxfp4"
+  - key: "mradermacher/GLM-4.5-Base-i1-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "GLM-4.5-Base-i1-GGUF"
+  - key: "Downtown-Case/GLM-4.5-Base-128GB-RAM-IQ2_KL-GGUF"
+    sources:
+      - type: huggingface
+        user: "Downtown-Case"
+        repo: "GLM-4.5-Base-128GB-RAM-IQ2_KL-GGUF"
+  - key: "sokann/GLM-4.5-GGUF-3.2162bpw"
+    sources:
+      - type: huggingface
+        user: "sokann"
+        repo: "GLM-4.5-GGUF-3.2162bpw"
+  - key: "gghfez/GLM-4.5-Air-control-vectors"
+    sources:
+      - type: huggingface
+        user: "gghfez"
+        repo: "GLM-4.5-Air-control-vectors"
+  - key: "timowu/GLM-4.5-Air-Derestricted-Q8_0-FFN-IQ4_XS-IQ4_XS-Q5_0"
+    sources:
+      - type: huggingface
+        user: "timowu"
+        repo: "GLM-4.5-Air-Derestricted-Q8_0-FFN-IQ4_XS-IQ4_XS-Q5_0"
+  - key: "anikifoss/GLM-4.5-Air-HQ4_K"
+    sources:
+      - type: huggingface
+        user: "anikifoss"
+        repo: "GLM-4.5-Air-HQ4_K"
   - key: "Thireus/GLM-4.5-Air-THIREUS-BF16-SPECIAL_SPLIT"
     sources:
       - type: huggingface
@@ -332,16 +357,6 @@ base:
       - type: huggingface
         user: "Thireus"
         repo: "GLM-4.5-Air-THIREUS-IQ3_K_R4-SPECIAL_SPLIT"
-  - key: "nightmedia/GLM-4.5-Air-REAP-82B-A12B-mxfp4-mlx"
-    sources:
-      - type: huggingface
-        user: "nightmedia"
-        repo: "GLM-4.5-Air-REAP-82B-A12B-mxfp4-mlx"
-  - key: "mlx-community/GLM-4.5-Air-mxfp4"
-    sources:
-      - type: huggingface
-        user: "mlx-community"
-        repo: "GLM-4.5-Air-mxfp4"
   - key: "Thireus/GLM-4.5-Air-THIREUS-IQ3_K-SPECIAL_SPLIT"
     sources:
       - type: huggingface
@@ -362,26 +377,6 @@ base:
       - type: huggingface
         user: "Thireus"
         repo: "GLM-4.5-Air-THIREUS-IQ3_S_R4-SPECIAL_SPLIT"
-  - key: "Thireus/GLM-4.5-Air-THIREUS-IQ3_S-SPECIAL_SPLIT"
-    sources:
-      - type: huggingface
-        user: "Thireus"
-        repo: "GLM-4.5-Air-THIREUS-IQ3_S-SPECIAL_SPLIT"
-  - key: "Thireus/GLM-4.5-Air-THIREUS-IQ3_XXS_R4-SPECIAL_SPLIT"
-    sources:
-      - type: huggingface
-        user: "Thireus"
-        repo: "GLM-4.5-Air-THIREUS-IQ3_XXS_R4-SPECIAL_SPLIT"
-  - key: "Thireus/GLM-4.5-Air-THIREUS-IQ3_XXS-SPECIAL_SPLIT"
-    sources:
-      - type: huggingface
-        user: "Thireus"
-        repo: "GLM-4.5-Air-THIREUS-IQ3_XXS-SPECIAL_SPLIT"
-  - key: "Thireus/GLM-4.5-Air-THIREUS-IQ4_K_R4-SPECIAL_SPLIT"
-    sources:
-      - type: huggingface
-        user: "Thireus"
-        repo: "GLM-4.5-Air-THIREUS-IQ4_K_R4-SPECIAL_SPLIT"
 config:
   operation:
     fields:

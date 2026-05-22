@@ -17,11 +17,6 @@ base:
       - type: huggingface
         user: "unsloth"
         repo: "GLM-5-GGUF"
-  - key: "gghfez/GLM-5-control-vectors"
-    sources:
-      - type: huggingface
-        user: "gghfez"
-        repo: "GLM-5-control-vectors"
   - key: "sokann/GLM-5-GGUF-1.594bpw"
     sources:
       - type: huggingface
@@ -62,6 +57,61 @@ base:
       - type: huggingface
         user: "wafer-ai"
         repo: "glm-5-mxfp4-mtp-finetuned"
+  - key: "gghfez/GLM-5-control-vectors"
+    sources:
+      - type: huggingface
+        user: "gghfez"
+        repo: "GLM-5-control-vectors"
+  - key: "AesSedai/GLM-5.1-GGUF"
+    sources:
+      - type: huggingface
+        user: "AesSedai"
+        repo: "GLM-5.1-GGUF"
+  - key: "bartowski/zai-org_GLM-5.1-GGUF"
+    sources:
+      - type: huggingface
+        user: "bartowski"
+        repo: "zai-org_GLM-5.1-GGUF"
+  - key: "batiai/GLM-5.1-GGUF"
+    sources:
+      - type: huggingface
+        user: "batiai"
+        repo: "GLM-5.1-GGUF"
+  - key: "CoNDeNse-AI/GLM-5.1-Qwen3-1.7B-CoNDeNse-GGUF"
+    sources:
+      - type: huggingface
+        user: "CoNDeNse-AI"
+        repo: "GLM-5.1-Qwen3-1.7B-CoNDeNse-GGUF"
+  - key: "DevQuasar/zai-org.GLM-5.1-GGUF"
+    sources:
+      - type: huggingface
+        user: "DevQuasar"
+        repo: "zai-org.GLM-5.1-GGUF"
+  - key: "mradermacher/GLM-5.1-Qwen3-1.7B-CoNDeNse-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "GLM-5.1-Qwen3-1.7B-CoNDeNse-GGUF"
+  - key: "mradermacher/GLM-5.1-Qwen3-1.7B-CoNDeNse-i1-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "GLM-5.1-Qwen3-1.7B-CoNDeNse-i1-GGUF"
+  - key: "ubergarm/GLM-5.1-GGUF"
+    sources:
+      - type: huggingface
+        user: "ubergarm"
+        repo: "GLM-5.1-GGUF"
+  - key: "unsloth/GLM-5.1-GGUF"
+    sources:
+      - type: huggingface
+        user: "unsloth"
+        repo: "GLM-5.1-GGUF"
+  - key: "1663adr/Huihui-GLM-5.1-abliterated-GGUF"
+    sources:
+      - type: huggingface
+        user: "1663adr"
+        repo: "Huihui-GLM-5.1-abliterated-GGUF"
 metadataOverrides:
   domain: llm
   architectures:

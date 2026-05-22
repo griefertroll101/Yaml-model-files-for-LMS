@@ -32,11 +32,6 @@ base:
       - type: huggingface
         user: "mradermacher"
         repo: "NVIDIA-Nemotron-3-Nano-30B-A3B-BF16-i1-GGUF"
-  - key: "Ex0bit/Elbaz-NVIDIA-Nemotron-3-Nano-30B-A3B-PRISM"
-    sources:
-      - type: huggingface
-        user: "Ex0bit"
-        repo: "Elbaz-NVIDIA-Nemotron-3-Nano-30B-A3B-PRISM"
   - key: "mradermacher/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16-heretic-GGUF"
     sources:
       - type: huggingface
@@ -77,11 +72,6 @@ base:
       - type: huggingface
         user: "modelfix"
         repo: "NVIDIA-Nemotron-3-Nano-30B-A3B-FP8-GGUF"
-  - key: "icefog72/Elbaz-NVIDIA-Nemotron-3-Nano-30B-A3B-PRISM-Q5_K_M"
-    sources:
-      - type: huggingface
-        user: "icefog72"
-        repo: "Elbaz-NVIDIA-Nemotron-3-Nano-30B-A3B-PRISM-Q5_K_M"
   - key: "Tinker-Stack/Nemotron-3-Nano-30B-A3B-IQ4_XS-GGUF"
     sources:
       - type: huggingface
@@ -172,6 +162,21 @@ base:
       - type: huggingface
         user: "mlx-community"
         repo: "NVIDIA-Nemotron-3-Nano-30B-A3B-MLX-MXFP4"
+  - key: "Ex0bit/Elbaz-NVIDIA-Nemotron-3-Nano-30B-A3B-PRISM"
+    sources:
+      - type: huggingface
+        user: "Ex0bit"
+        repo: "Elbaz-NVIDIA-Nemotron-3-Nano-30B-A3B-PRISM"
+  - key: "icefog72/Elbaz-NVIDIA-Nemotron-3-Nano-30B-A3B-PRISM-Q5_K_M"
+    sources:
+      - type: huggingface
+        user: "icefog72"
+        repo: "Elbaz-NVIDIA-Nemotron-3-Nano-30B-A3B-PRISM-Q5_K_M"
+  - key: "tripolskypetr/Nemotron3-Nano-Uncensored-Aggressive-GGUF"
+    sources:
+      - type: huggingface
+        user: "tripolskypetr"
+        repo: "Nemotron3-Nano-Uncensored-Aggressive-GGUF"
 config:
   operation:
     fields:

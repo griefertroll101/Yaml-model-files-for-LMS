@@ -82,11 +82,6 @@ base:
       - type: huggingface
         user: "danbev"
         repo: "Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16-mtmd-GGUF"
-  - key: "majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-mmproj-F16"
-    sources:
-      - type: huggingface
-        user: "majentik"
-        repo: "Nemotron-3-Nano-Omni-30B-A3B-Reasoning-mmproj-F16"
   - key: "majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-GGUF-IQ4_XS-RQ-KV"
     sources:
       - type: huggingface
@@ -202,11 +197,6 @@ base:
       - type: huggingface
         user: "majentik"
         repo: "Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-GGUF-Q8_0-TQ-KV"
-  - key: "ggml-org/NVIDIA-Nemotron-3-Nano-Omni"
-    sources:
-      - type: huggingface
-        user: "ggml-org"
-        repo: "NVIDIA-Nemotron-3-Nano-Omni"
   - key: "hotdogs/Nemotron-3-Nano-Omni-AEON-Ultimate-Uncensored-GGUF"
     sources:
       - type: huggingface
@@ -232,6 +222,16 @@ base:
       - type: huggingface
         user: "mlx-community"
         repo: "Nemotron-3-Nano-Omni-30B-A3B-Reasoning-mxfp4"
+  - key: "majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-mmproj-F16"
+    sources:
+      - type: huggingface
+        user: "majentik"
+        repo: "Nemotron-3-Nano-Omni-30B-A3B-Reasoning-mmproj-F16"
+  - key: "ggml-org/NVIDIA-Nemotron-3-Nano-Omni"
+    sources:
+      - type: huggingface
+        user: "ggml-org"
+        repo: "NVIDIA-Nemotron-3-Nano-Omni"
 config:
   operation:
     fields:

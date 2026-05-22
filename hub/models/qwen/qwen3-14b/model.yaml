@@ -22,11 +22,6 @@ base:
       - type: huggingface
         user: "unsloth"
         repo: "Qwen3-14B-GGUF"
-  - key: "geoffmunn/Qwen3-14B-f16"
-    sources:
-      - type: huggingface
-        user: "geoffmunn"
-        repo: "Qwen3-14B-f16"
   - key: "lmstudio-community/Qwen3-14B-GGUF"
     sources:
       - type: huggingface
@@ -257,11 +252,6 @@ base:
       - type: huggingface
         user: "mradermacher"
         repo: "Qwen3-14B-Cobalt2-i1-GGUF"
-  - key: "waratuman/claudius-qwen3-14b"
-    sources:
-      - type: huggingface
-        user: "waratuman"
-        repo: "claudius-qwen3-14b"
   - key: "mradermacher/Ophiuchi-Qwen3-14B-Instruct-i1-GGUF"
     sources:
       - type: huggingface
@@ -277,11 +267,6 @@ base:
       - type: huggingface
         user: "mradermacher"
         repo: "Qwen3-14B-RefusalDirection-ThinkingAware-GGUF"
-  - key: "gishikai/unsloth-qwen3-14B"
-    sources:
-      - type: huggingface
-        user: "gishikai"
-        repo: "unsloth-qwen3-14B"
   - key: "mradermacher/Qwen3-14B-abliterated-i1-GGUF"
     sources:
       - type: huggingface
@@ -297,11 +282,6 @@ base:
       - type: huggingface
         user: "mradermacher"
         repo: "Ophiuchi-Qwen3-14B-Instruct-GGUF"
-  - key: "peterjohannmedina/Medina-Qwen3-14B-OpenClaw"
-    sources:
-      - type: huggingface
-        user: "peterjohannmedina"
-        repo: "Medina-Qwen3-14B-OpenClaw"
   - key: "ericek111/Qwen3-14B-sk-Q4_K_M-GGUF"
     sources:
       - type: huggingface
@@ -497,11 +477,6 @@ base:
       - type: huggingface
         user: "Alcoft"
         repo: "soob3123_amoral-qwen3-14B-GGUF"
-  - key: "AleRo96/Qwen3_14B"
-    sources:
-      - type: huggingface
-        user: "AleRo96"
-        repo: "Qwen3_14B"
   - key: "alienverarslan/Qwen3-14B-GGUF"
     sources:
       - type: huggingface
@@ -517,11 +492,6 @@ base:
       - type: huggingface
         user: "Archivec"
         repo: "Zeta-Qwen3-14B-GGUF"
-  - key: "AutosTREFA/trefa-mariana-qwen3-14b"
-    sources:
-      - type: huggingface
-        user: "AutosTREFA"
-        repo: "trefa-mariana-qwen3-14b"
   - key: "bdesnos/Qwen3-14B-Q6_K-GGUF"
     sources:
       - type: huggingface
@@ -552,11 +522,6 @@ base:
       - type: huggingface
         user: "drwhall"
         repo: "qwen3-14b-gguf"
-  - key: "duhitsaniket/Qwen3-14b"
-    sources:
-      - type: huggingface
-        user: "duhitsaniket"
-        repo: "Qwen3-14b"
   - key: "electricpipelines/Qwen3-14B-GGUF"
     sources:
       - type: huggingface
@@ -582,36 +547,16 @@ base:
       - type: huggingface
         user: "ggfox00000"
         repo: "Qwen3-14B-GGUF"
-  - key: "goldyard/qwen3_14b_Q8_0"
-    sources:
-      - type: huggingface
-        user: "goldyard"
-        repo: "qwen3_14b_Q8_0"
   - key: "Ilya626/qwen3-14b-gguf"
     sources:
       - type: huggingface
         user: "Ilya626"
         repo: "qwen3-14b-gguf"
-  - key: "Inza124/Qwen3-14b"
-    sources:
-      - type: huggingface
-        user: "Inza124"
-        repo: "Qwen3-14b"
-  - key: "jburnford/dyslexic-writer-qwen3-14b"
-    sources:
-      - type: huggingface
-        user: "jburnford"
-        repo: "dyslexic-writer-qwen3-14b"
   - key: "John1604/Qwen3-14B-gguf"
     sources:
       - type: huggingface
         user: "John1604"
         repo: "Qwen3-14B-gguf"
-  - key: "kolosal/qwen3-14b"
-    sources:
-      - type: huggingface
-        user: "kolosal"
-        repo: "qwen3-14b"
   - key: "limcheekin/Qwen3-14B-GGUF"
     sources:
       - type: huggingface
@@ -627,21 +572,6 @@ base:
       - type: huggingface
         user: "LouiSeHU"
         repo: "Qwen3-14B-Q8_0-GGUF"
-  - key: "luleai/jinqiang-qwen3-14b"
-    sources:
-      - type: huggingface
-        user: "luleai"
-        repo: "jinqiang-qwen3-14b"
-  - key: "marcelone/Jinx-Qwen3-14B"
-    sources:
-      - type: huggingface
-        user: "marcelone"
-        repo: "Jinx-Qwen3-14B"
-  - key: "marcgreen/therapeutic-qwen3-14b"
-    sources:
-      - type: huggingface
-        user: "marcgreen"
-        repo: "therapeutic-qwen3-14b"
   - key: "matrixportalx/Qwen3-14B-Q4_0-GGUF"
     sources:
       - type: huggingface
@@ -652,11 +582,6 @@ base:
       - type: huggingface
         user: "mefiut"
         repo: "GrayLine-Qwen3-14B-Q8_0-GGUF"
-  - key: "mmoralesf/mariana-qwen3-14b"
-    sources:
-      - type: huggingface
-        user: "mmoralesf"
-        repo: "mariana-qwen3-14b"
   - key: "mradermacher/amoral-qwen3-14B-i1-GGUF"
     sources:
       - type: huggingface
@@ -857,6 +782,371 @@ base:
       - type: huggingface
         user: "myrapfox"
         repo: "Qwen3-14B-MXFP4"
+  - key: "OMP123/Qwen3-14B-Q8_0-GGUF"
+    sources:
+      - type: huggingface
+        user: "OMP123"
+        repo: "Qwen3-14B-Q8_0-GGUF"
+  - key: "pate2464/Qwen3-14B-Q6_K-GGUF"
+    sources:
+      - type: huggingface
+        user: "pate2464"
+        repo: "Qwen3-14B-Q6_K-GGUF"
+  - key: "Rivaidan/Qwen3-14B-Q8_0-GGUF"
+    sources:
+      - type: huggingface
+        user: "Rivaidan"
+        repo: "Qwen3-14B-Q8_0-GGUF"
+  - key: "sahilagrawal/Qwen3-14B-Q4_0-GGUF"
+    sources:
+      - type: huggingface
+        user: "sahilagrawal"
+        repo: "Qwen3-14B-Q4_0-GGUF"
+  - key: "second-state/Qwen3-14B-GGUF"
+    sources:
+      - type: huggingface
+        user: "second-state"
+        repo: "Qwen3-14B-GGUF"
+  - key: "soob3123/amoral-qwen3-14B-GGUF"
+    sources:
+      - type: huggingface
+        user: "soob3123"
+        repo: "amoral-qwen3-14B-GGUF"
+  - key: "soob3123/GrayLine-Qwen3-14B-gguf"
+    sources:
+      - type: huggingface
+        user: "soob3123"
+        repo: "GrayLine-Qwen3-14B-gguf"
+  - key: "tensorblock/soob3123_amoral-qwen3-14B-GGUF"
+    sources:
+      - type: huggingface
+        user: "tensorblock"
+        repo: "soob3123_amoral-qwen3-14B-GGUF"
+  - key: "tensorblock/soob3123_GrayLine-Qwen3-14B-GGUF"
+    sources:
+      - type: huggingface
+        user: "tensorblock"
+        repo: "soob3123_GrayLine-Qwen3-14B-GGUF"
+  - key: "ubergarm/Qwen3-14B-GGUF"
+    sources:
+      - type: huggingface
+        user: "ubergarm"
+        repo: "Qwen3-14B-GGUF"
+  - key: "Userb1az/Qwen3-14B-GGUF"
+    sources:
+      - type: huggingface
+        user: "Userb1az"
+        repo: "Qwen3-14B-GGUF"
+  - key: "vitriolicex/Qwen3-14B-Q2_K-GGUF"
+    sources:
+      - type: huggingface
+        user: "vitriolicex"
+        repo: "Qwen3-14B-Q2_K-GGUF"
+  - key: "mradermacher/R3-Qwen3-14B-14k-i1-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "R3-Qwen3-14B-14k-i1-GGUF"
+  - key: "shawon/Qwen3_14B_16bit-Q8_0-GGUF"
+    sources:
+      - type: huggingface
+        user: "shawon"
+        repo: "Qwen3_14B_16bit-Q8_0-GGUF"
+  - key: "Dilshad24/Qwen3-14B-16bit-4bit-highquality-lightningai-Q4_K_M-GGUF"
+    sources:
+      - type: huggingface
+        user: "Dilshad24"
+        repo: "Qwen3-14B-16bit-4bit-highquality-lightningai-Q4_K_M-GGUF"
+  - key: "Dilshad24/Qwen3-14B-16bit-fullpersison-function-lightningai-452-step-Q4_K_M-GGUF"
+    sources:
+      - type: huggingface
+        user: "Dilshad24"
+        repo: "Qwen3-14B-16bit-fullpersison-function-lightningai-452-step-Q4_K_M-GGUF"
+  - key: "Dilshad24/Qwen3-14B-16bit-fullpersison-function-lightningai-Q4_K_M-GGUF"
+    sources:
+      - type: huggingface
+        user: "Dilshad24"
+        repo: "Qwen3-14B-16bit-fullpersison-function-lightningai-Q4_K_M-GGUF"
+  - key: "Dilshad24/Qwen3-14B-16bit-fullpersison-lightningai-Q6_K-GGUF"
+    sources:
+      - type: huggingface
+        user: "Dilshad24"
+        repo: "Qwen3-14B-16bit-fullpersison-lightningai-Q6_K-GGUF"
+  - key: "Dilshad24/Qwen3-14B-16bit-fullpersison-lightningai-Q4_K_M-GGUF"
+    sources:
+      - type: huggingface
+        user: "Dilshad24"
+        repo: "Qwen3-14B-16bit-fullpersison-lightningai-Q4_K_M-GGUF"
+  - key: "Dilshad24/Qwen3-14B-16bit-highquality-kaggel-Q4_K_M-GGUF"
+    sources:
+      - type: huggingface
+        user: "Dilshad24"
+        repo: "Qwen3-14B-16bit-highquality-kaggel-Q4_K_M-GGUF"
+  - key: "Dilshad24/unsloth-Qwen3-14B-16bit-irt2-Q2_K-GGUF"
+    sources:
+      - type: huggingface
+        user: "Dilshad24"
+        repo: "unsloth-Qwen3-14B-16bit-irt2-Q2_K-GGUF"
+  - key: "Dilshad24/unsloth-Qwen3-14B-16bit-irt2-Q8_0-GGUF"
+    sources:
+      - type: huggingface
+        user: "Dilshad24"
+        repo: "unsloth-Qwen3-14B-16bit-irt2-Q8_0-GGUF"
+  - key: "Dilshad24/unsloth-Qwen3-14B-16bit-irt2-Q4_K_M-GGUF"
+    sources:
+      - type: huggingface
+        user: "Dilshad24"
+        repo: "unsloth-Qwen3-14B-16bit-irt2-Q4_K_M-GGUF"
+  - key: "Dilshad24/unsloth-Qwen3-14B-16bit-Q4_K_M-GGUF"
+    sources:
+      - type: huggingface
+        user: "Dilshad24"
+        repo: "unsloth-Qwen3-14B-16bit-Q4_K_M-GGUF"
+  - key: "shawon/Qwen3_14B_16bit-Q4_K_M-GGUF"
+    sources:
+      - type: huggingface
+        user: "shawon"
+        repo: "Qwen3_14B_16bit-Q4_K_M-GGUF"
+  - key: "mradermacher/R3-Qwen3-14B-4k-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "R3-Qwen3-14B-4k-GGUF"
+  - key: "mradermacher/R3-Qwen3-14B-4k-i1-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "R3-Qwen3-14B-4k-i1-GGUF"
+  - key: "BenevolenceMessiah/Qwen3-14B-abliterated-Q8_0-GGUF"
+    sources:
+      - type: huggingface
+        user: "BenevolenceMessiah"
+        repo: "Qwen3-14B-abliterated-Q8_0-GGUF"
+  - key: "DevQuasar/huihui-ai.Qwen3-14B-abliterated-GGUF"
+    sources:
+      - type: huggingface
+        user: "DevQuasar"
+        repo: "huihui-ai.Qwen3-14B-abliterated-GGUF"
+  - key: "DevQuasar/mlabonne.Qwen3-14B-abliterated-GGUF"
+    sources:
+      - type: huggingface
+        user: "DevQuasar"
+        repo: "mlabonne.Qwen3-14B-abliterated-GGUF"
+  - key: "mradermacher/Qwen3-14B-abliterated-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "Qwen3-14B-abliterated-GGUF"
+  - key: "SubtleOne/Qwen3-14B-abliterated-Q8_0-GGUF"
+    sources:
+      - type: huggingface
+        user: "SubtleOne"
+        repo: "Qwen3-14B-abliterated-Q8_0-GGUF"
+  - key: "Disya/Qwen3-14B-abliterated-Q4_K_M-GGUF"
+    sources:
+      - type: huggingface
+        user: "Disya"
+        repo: "Qwen3-14B-abliterated-Q4_K_M-GGUF"
+  - key: "kevinhh1111/Qwen3-14B-abliterated-Q4_K_M-GGUF"
+    sources:
+      - type: huggingface
+        user: "kevinhh1111"
+        repo: "Qwen3-14B-abliterated-Q4_K_M-GGUF"
+  - key: "AIgotahole/Qwen3-14B-abliterated-Q4_K_S-GGUF"
+    sources:
+      - type: huggingface
+        user: "AIgotahole"
+        repo: "Qwen3-14B-abliterated-Q4_K_S-GGUF"
+  - key: "mradermacher/Qwen3-14B-abliterated-TIES-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "Qwen3-14B-abliterated-TIES-GGUF"
+  - key: "mradermacher/Qwen3-14B-abliterated-TIES-i1-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "Qwen3-14B-abliterated-TIES-i1-GGUF"
+  - key: "Disya/Josiefied-Qwen3-14B-abliterated-v1-Q4_K_M-GGUF"
+    sources:
+      - type: huggingface
+        user: "Disya"
+        repo: "Josiefied-Qwen3-14B-abliterated-v1-Q4_K_M-GGUF"
+  - key: "mradermacher/Josiefied-Qwen3-14B-abliterated-v2-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "Josiefied-Qwen3-14B-abliterated-v2-GGUF"
+  - key: "mradermacher/Josiefied-Qwen3-14B-abliterated-v2-i1-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "Josiefied-Qwen3-14B-abliterated-v2-i1-GGUF"
+  - key: "RachidAR/Josiefied-Qwen3-14B-abliterated-v2-Q4_K_M-GGUF"
+    sources:
+      - type: huggingface
+        user: "RachidAR"
+        repo: "Josiefied-Qwen3-14B-abliterated-v2-Q4_K_M-GGUF"
+  - key: "tetsajin/Josiefied-Qwen3-14B-abliterated-v3-Q6_K-GGUF"
+    sources:
+      - type: huggingface
+        user: "tetsajin"
+        repo: "Josiefied-Qwen3-14B-abliterated-v3-Q6_K-GGUF"
+  - key: "manuelcaccone/QWEN3-14b-actua-reporter-q8_0-gguf"
+    sources:
+      - type: huggingface
+        user: "manuelcaccone"
+        repo: "QWEN3-14b-actua-reporter-q8_0-gguf"
+  - key: "manuelcaccone/QWEN3-14b-actua-simplifier-q8_0-gguf"
+    sources:
+      - type: huggingface
+        user: "manuelcaccone"
+        repo: "QWEN3-14b-actua-simplifier-q8_0-gguf"
+  - key: "kishida/ABEJA-Qwen3-14B-Agentic-256k-v0.1-GGUF"
+    sources:
+      - type: huggingface
+        user: "kishida"
+        repo: "ABEJA-Qwen3-14B-Agentic-256k-v0.1-GGUF"
+  - key: "mradermacher/Qwen3-14B-ai-expert-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "Qwen3-14B-ai-expert-GGUF"
+  - key: "mradermacher/Qwen3-14B-ai-expert-i1-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "Qwen3-14B-ai-expert-i1-GGUF"
+  - key: "mradermacher/Qwen3-14B-ai-expert-250925-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "Qwen3-14B-ai-expert-250925-GGUF"
+  - key: "mradermacher/Qwen3-14B-ARPO-DeepSearch-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "Qwen3-14B-ARPO-DeepSearch-GGUF"
+  - key: "mradermacher/Qwen3-14B-ARPO-DeepSearch-i1-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "Qwen3-14B-ARPO-DeepSearch-i1-GGUF"
+  - key: "grizzfu/Qwen3-14B-BaronLLM-v2-Q4_0-GGUF"
+    sources:
+      - type: huggingface
+        user: "grizzfu"
+        repo: "Qwen3-14B-BaronLLM-v2-Q4_0-GGUF"
+  - key: "Antigma/Qwen3-14B-Base-GGUF"
+    sources:
+      - type: huggingface
+        user: "Antigma"
+        repo: "Qwen3-14B-Base-GGUF"
+  - key: "DevQuasar/Qwen.Qwen3-14B-Base-GGUF"
+    sources:
+      - type: huggingface
+        user: "DevQuasar"
+        repo: "Qwen.Qwen3-14B-Base-GGUF"
+  - key: "AmpereComputing/qwen-3-14b-gguf"
+    sources:
+      - type: huggingface
+        user: "AmpereComputing"
+        repo: "qwen-3-14b-gguf"
+  - key: "mradermacher/qwen-3-14b-drama-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "qwen-3-14b-drama-GGUF"
+  - key: "mradermacher/Qwen-3-14B-Gemini-v0.1-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "Qwen-3-14B-Gemini-v0.1-GGUF"
+  - key: "mradermacher/Qwen-3-14B-Gemini-v0.1-i1-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "Qwen-3-14B-Gemini-v0.1-i1-GGUF"
+  - key: "Ba2han/Qwen-3-14B-Gemini-v0.2-GGUF"
+    sources:
+      - type: huggingface
+        user: "Ba2han"
+        repo: "Qwen-3-14B-Gemini-v0.2-GGUF"
+  - key: "lm-kit/qwen-3-14b-instruct-gguf"
+    sources:
+      - type: huggingface
+        user: "lm-kit"
+        repo: "qwen-3-14b-instruct-gguf"
+  - key: "AleRo96/Qwen3_14B"
+    sources:
+      - type: huggingface
+        user: "AleRo96"
+        repo: "Qwen3_14B"
+  - key: "AutosTREFA/trefa-mariana-qwen3-14b"
+    sources:
+      - type: huggingface
+        user: "AutosTREFA"
+        repo: "trefa-mariana-qwen3-14b"
+  - key: "duhitsaniket/Qwen3-14b"
+    sources:
+      - type: huggingface
+        user: "duhitsaniket"
+        repo: "Qwen3-14b"
+  - key: "gishikai/unsloth-qwen3-14B"
+    sources:
+      - type: huggingface
+        user: "gishikai"
+        repo: "unsloth-qwen3-14B"
+  - key: "mradermacher/qwen3-50m-insomnia-therapist-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "qwen3-50m-insomnia-therapist-GGUF"
+  - key: "mradermacher/qwen3-50m-storyteller-GGUF"
+    sources:
+      - type: huggingface
+        user: "mradermacher"
+        repo: "qwen3-50m-storyteller-GGUF"
+  - key: "goldyard/qwen3_14b_Q8_0"
+    sources:
+      - type: huggingface
+        user: "goldyard"
+        repo: "qwen3_14b_Q8_0"
+  - key: "Inza124/Qwen3-14b"
+    sources:
+      - type: huggingface
+        user: "Inza124"
+        repo: "Qwen3-14b"
+  - key: "jburnford/dyslexic-writer-qwen3-14b"
+    sources:
+      - type: huggingface
+        user: "jburnford"
+        repo: "dyslexic-writer-qwen3-14b"
+  - key: "kolosal/qwen3-14b"
+    sources:
+      - type: huggingface
+        user: "kolosal"
+        repo: "qwen3-14b"
+  - key: "luleai/jinqiang-qwen3-14b"
+    sources:
+      - type: huggingface
+        user: "luleai"
+        repo: "jinqiang-qwen3-14b"
+  - key: "marcelone/Jinx-Qwen3-14B"
+    sources:
+      - type: huggingface
+        user: "marcelone"
+        repo: "Jinx-Qwen3-14B"
+  - key: "marcgreen/therapeutic-qwen3-14b"
+    sources:
+      - type: huggingface
+        user: "marcgreen"
+        repo: "therapeutic-qwen3-14b"
+  - key: "mmoralesf/mariana-qwen3-14b"
+    sources:
+      - type: huggingface
+        user: "mmoralesf"
+        repo: "mariana-qwen3-14b"
   - key: "OmarMacMa/SWE-lutions-finetuned-qwen3-14b"
     sources:
       - type: huggingface
@@ -867,16 +1157,6 @@ base:
       - type: huggingface
         user: "OmarMacMa"
         repo: "SWE-lutions-finetuned-qwen3-14b-q4_0"
-  - key: "OMP123/Qwen3-14B-Q8_0-GGUF"
-    sources:
-      - type: huggingface
-        user: "OMP123"
-        repo: "Qwen3-14B-Q8_0-GGUF"
-  - key: "openwalrus/Qwen3-14B"
-    sources:
-      - type: huggingface
-        user: "openwalrus"
-        repo: "Qwen3-14B"
 config:
   operation:
     fields:
