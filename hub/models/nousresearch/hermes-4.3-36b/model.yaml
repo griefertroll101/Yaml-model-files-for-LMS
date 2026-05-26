@@ -2,126 +2,106 @@
 # Learn more at https://modelyaml.org
 model: nousresearch/hermes-4.3-36b
 base:
-  - key: "mradermacher/Hermes-4.3-36B-heretic-i1-GGUF"
+  - key: mradermacher/Hermes-4.3-36B-heretic-i1-GGUF
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "Hermes-4.3-36B-heretic-i1-GGUF"
-  - key: "mradermacher/Hermes-4.3-36B-heretic-GGUF"
+        user: mradermacher
+        repo: Hermes-4.3-36B-heretic-i1-GGUF
+  - key: mradermacher/Hermes-4.3-36B-heretic-GGUF
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "Hermes-4.3-36B-heretic-GGUF"
-  - key: "EloyOn/Hermes-4.3-36B-Q5_0-GGUF"
+        user: mradermacher
+        repo: Hermes-4.3-36B-heretic-GGUF
+  - key: EloyOn/Hermes-4.3-36B-Q5_0-GGUF
     sources:
       - type: huggingface
-        user: "EloyOn"
-        repo: "Hermes-4.3-36B-Q5_0-GGUF"
-  - key: "MaziyarPanahi/Hermes-4.3-36B-GGUF"
+        user: EloyOn
+        repo: Hermes-4.3-36B-Q5_0-GGUF
+  - key: FBTMAML/Hermes-4.3-36B
     sources:
       - type: huggingface
-        user: "MaziyarPanahi"
-        repo: "Hermes-4.3-36B-GGUF"
-  - key: "mradermacher/Hermes-4.3-36B-i1-GGUF"
+        user: FBTMAML
+        repo: Hermes-4.3-36B
+  - key: MaziyarPanahi/Hermes-4.3-36B-GGUF
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "Hermes-4.3-36B-i1-GGUF"
-  - key: "mradermacher/Hermes-4.3-36B-GGUF"
+        user: MaziyarPanahi
+        repo: Hermes-4.3-36B-GGUF
+  - key: mradermacher/Hermes-4.3-36B-i1-GGUF
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "Hermes-4.3-36B-GGUF"
-  - key: "DevQuasar/NousResearch.Hermes-4.3-36B-GGUF"
+        user: mradermacher
+        repo: Hermes-4.3-36B-i1-GGUF
+  - key: mradermacher/Hermes-4.3-36B-GGUF
     sources:
       - type: huggingface
-        user: "DevQuasar"
-        repo: "NousResearch.Hermes-4.3-36B-GGUF"
-  - key: "bartowski/NousResearch_Hermes-4.3-36B-GGUF"
+        user: mradermacher
+        repo: Hermes-4.3-36B-GGUF
+  - key: mradermacher/hermes4.3-z-i1-gguf
     sources:
       - type: huggingface
-        user: "bartowski"
-        repo: "NousResearch_Hermes-4.3-36B-GGUF"
-  - key: "NousResearch/Hermes-4.3-36B-GGUF"
+        user: mradermacher
+        repo: Hermes4.3-Z-i1-GGUF
+  - key: mradermacher/hermes4.3-z-gguf
     sources:
       - type: huggingface
-        user: "NousResearch"
-        repo: "Hermes-4.3-36B-GGUF"
-  - key: "gnigguhface/Hermes-4.3-36B-Q5_K_M-GGUF"
+        user: mradermacher
+        repo: Hermes4.3-Z-GGUF
+  - key: DevQuasar/NousResearch.Hermes-4.3-36B-GGUF
     sources:
       - type: huggingface
-        user: "gnigguhface"
-        repo: "Hermes-4.3-36B-Q5_K_M-GGUF"
-  - key: "ThijsL202/Hermes-4.3-36B-heretic-Q6_K-GGUF"
+        user: DevQuasar
+        repo: NousResearch.Hermes-4.3-36B-GGUF
+  - key: bartowski/NousResearch_Hermes-4.3-36B-GGUF
     sources:
       - type: huggingface
-        user: "ThijsL202"
-        repo: "Hermes-4.3-36B-heretic-Q6_K-GGUF"
-  - key: "CrocoCpp/Hermes-4.3-36B-heretic-Q8_0-GGUF"
+        user: bartowski
+        repo: NousResearch_Hermes-4.3-36B-GGUF
+  - key: NousResearch/Hermes-4.3-36B-GGUF
     sources:
       - type: huggingface
-        user: "CrocoCpp"
-        repo: "Hermes-4.3-36B-heretic-Q8_0-GGUF"
-  - key: "SerialKicked/Hermes-4.3-36B-heretic-GGUF-IQ4_XS"
+        user: NousResearch
+        repo: Hermes-4.3-36B-GGUF
+  - key: gnigguhface/Hermes-4.3-36B-Q5_K_M-GGUF
     sources:
       - type: huggingface
-        user: "SerialKicked"
-        repo: "Hermes-4.3-36B-heretic-GGUF-IQ4_XS"
-  - key: "darkc0de/Hermes-4.3-36B-heretic-Q5_K_S-GGUF"
+        user: gnigguhface
+        repo: Hermes-4.3-36B-Q5_K_M-GGUF
+  - key: ThijsL202/Hermes-4.3-36B-heretic-Q6_K-GGUF
     sources:
       - type: huggingface
-        user: "darkc0de"
-        repo: "Hermes-4.3-36B-heretic-Q5_K_S-GGUF"
-  - key: "gnigguhface/Hermes-4.3-36B-Q4_K_M-GGUF"
+        user: ThijsL202
+        repo: Hermes-4.3-36B-heretic-Q6_K-GGUF
+  - key: CrocoCpp/Hermes-4.3-36B-heretic-Q8_0-GGUF
     sources:
       - type: huggingface
-        user: "gnigguhface"
-        repo: "Hermes-4.3-36B-Q4_K_M-GGUF"
-  - key: "mradermacher/Hermes-4.3-36B-ABLITERATED-heretic-i1-GGUF"
+        user: CrocoCpp
+        repo: Hermes-4.3-36B-heretic-Q8_0-GGUF
+  - key: SerialKicked/Hermes-4.3-36B-heretic-GGUF-IQ4_XS
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "Hermes-4.3-36B-ABLITERATED-heretic-i1-GGUF"
-  - key: "mradermacher/Hermes-4.3-36B-ABLITERATED-heretic-GGUF"
+        user: SerialKicked
+        repo: Hermes-4.3-36B-heretic-GGUF-IQ4_XS
+  - key: darkc0de/hermes-4.3-36b-heretic-q5_k_s-gguf
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "Hermes-4.3-36B-ABLITERATED-heretic-GGUF"
-  - key: "FBTMAML/Hermes-4.3-36B"
+        user: darkc0de
+        repo: Hermes-4.3-36B-heretic-Q5_K_S-GGUF
+  - key: gnigguhface/Hermes-4.3-36B-Q4_K_M-GGUF
     sources:
       - type: huggingface
-        user: "FBTMAML"
-        repo: "Hermes-4.3-36B"
-  - key: "wekW/NousResearch_Hermes-4"
+        user: gnigguhface
+        repo: Hermes-4.3-36B-Q4_K_M-GGUF
+  - key: mradermacher/Hermes-4.3-36B-ABLITERATED-heretic-i1-GGUF
     sources:
       - type: huggingface
-        user: "wekW"
-        repo: "NousResearch_Hermes-4"
-  - key: "mradermacher/Hermes4.3-Z-GGUF"
+        user: mradermacher
+        repo: Hermes-4.3-36B-ABLITERATED-heretic-i1-GGUF
+  - key: mradermacher/Hermes-4.3-36B-ABLITERATED-heretic-GGUF
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "Hermes4.3-Z-GGUF"
-  - key: "mradermacher/Hermes4.3-Z-i1-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "Hermes4.3-Z-i1-GGUF"
-  - key: "mhaxscp/Hermes4-Philosopher-Agent"
-    sources:
-      - type: huggingface
-        user: "mhaxscp"
-        repo: "Hermes4-Philosopher-Agent"
-  - key: "mradermacher/Hermes4-Philosopher-Agent-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "Hermes4-Philosopher-Agent-GGUF"
-  - key: "mradermacher/Hermes4-Philosopher-Agent-i1-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "Hermes4-Philosopher-Agent-i1-GGUF"
+        user: mradermacher
+        repo: Hermes-4.3-36B-ABLITERATED-heretic-GGUF
 config:
   operation:
     fields:

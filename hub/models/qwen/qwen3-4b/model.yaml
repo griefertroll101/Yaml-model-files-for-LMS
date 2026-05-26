@@ -2,856 +2,291 @@
 # Learn more at https://modelyaml.org
 model: qwen/qwen3-4b
 base:
-  - key: "MaziyarPanahi/Qwen3-4B-GGUF"
+  - key: MaziyarPanahi/Qwen3-4B-GGUF
     sources:
       - type: huggingface
-        user: "MaziyarPanahi"
-        repo: "Qwen3-4B-GGUF"
-  - key: "MaziyarPanahi/Qwen3-4B-Instruct-2507-GGUF"
+        user: MaziyarPanahi
+        repo: Qwen3-4B-GGUF
+  - key: MaziyarPanahi/Qwen3-4B-Instruct-2507-GGUF
     sources:
       - type: huggingface
-        user: "MaziyarPanahi"
-        repo: "Qwen3-4B-Instruct-2507-GGUF"
-  - key: "khazarai/Qwen3-4B-Qwen3.6-plus-Reasoning-Distilled-GGUF"
+        user: MaziyarPanahi
+        repo: Qwen3-4B-Instruct-2507-GGUF
+  - key: khazarai/Qwen3-4B-Qwen3.6-plus-Reasoning-Distilled-GGUF
     sources:
       - type: huggingface
-        user: "khazarai"
-        repo: "Qwen3-4B-Qwen3.6-plus-Reasoning-Distilled-GGUF"
-  - key: "unsloth/Qwen3-4B-GGUF"
+        user: khazarai
+        repo: Qwen3-4B-Qwen3.6-plus-Reasoning-Distilled-GGUF
+  - key: unsloth/Qwen3-4B-GGUF
     sources:
       - type: huggingface
-        user: "unsloth"
-        repo: "Qwen3-4B-GGUF"
-  - key: "unsloth/Qwen3-4B-Instruct-2507-GGUF"
+        user: unsloth
+        repo: Qwen3-4B-GGUF
+  - key: unsloth/Qwen3-4B-Instruct-2507-GGUF
     sources:
       - type: huggingface
-        user: "unsloth"
-        repo: "Qwen3-4B-Instruct-2507-GGUF"
-  - key: "Qwen/Qwen3-4B-GGUF"
+        user: unsloth
+        repo: Qwen3-4B-Instruct-2507-GGUF
+  - key: Qwen/Qwen3-4B-GGUF
     sources:
       - type: huggingface
-        user: "Qwen"
-        repo: "Qwen3-4B-GGUF"
-  - key: "lmstudio-community/Qwen3-4B-Thinking-2507-GGUF"
+        user: Qwen
+        repo: Qwen3-4B-GGUF
+  - key: BennyDaBall/Qwen3-4b-Z-Image-Turbo-AbliteratedV1
     sources:
       - type: huggingface
-        user: "lmstudio-community"
-        repo: "Qwen3-4B-Thinking-2507-GGUF"
-  - key: "khazarai/Qwen3-4B-Kimi2.5-Reasoning-Distilled-GGUF"
+        user: BennyDaBall
+        repo: Qwen3-4b-Z-Image-Turbo-AbliteratedV1
+  - key: BennyDaBall/Qwen3-4b-Z-Image-Engineer-V4
     sources:
       - type: huggingface
-        user: "khazarai"
-        repo: "Qwen3-4B-Kimi2.5-Reasoning-Distilled-GGUF"
-  - key: "MaziyarPanahi/Qwen3-4B-Thinking-2507-GGUF"
+        user: BennyDaBall
+        repo: Qwen3-4b-Z-Image-Engineer-V4
+  - key: Chun121/Qwen3-4B-RPG-Roleplay-V2
     sources:
       - type: huggingface
-        user: "MaziyarPanahi"
-        repo: "Qwen3-4B-Thinking-2507-GGUF"
-  - key: "lmstudio-community/Qwen3-4B-Instruct-2507-GGUF"
+        user: Chun121
+        repo: Qwen3-4B-RPG-Roleplay-V2
+  - key: lmstudio-community/Qwen3-4B-Thinking-2507-GGUF
     sources:
       - type: huggingface
-        user: "lmstudio-community"
-        repo: "Qwen3-4B-Instruct-2507-GGUF"
-  - key: "bartowski/Qwen_Qwen3-4B-Instruct-2507-GGUF"
+        user: lmstudio-community
+        repo: Qwen3-4B-Thinking-2507-GGUF
+  - key: khazarai/Qwen3-4B-Kimi2.5-Reasoning-Distilled-GGUF
     sources:
       - type: huggingface
-        user: "bartowski"
-        repo: "Qwen_Qwen3-4B-Instruct-2507-GGUF"
-  - key: "Manojb/Qwen3-4B-toolcalling-gguf-codex"
+        user: khazarai
+        repo: Qwen3-4B-Kimi2.5-Reasoning-Distilled-GGUF
+  - key: MaziyarPanahi/Qwen3-4B-Thinking-2507-GGUF
     sources:
       - type: huggingface
-        user: "Manojb"
-        repo: "Qwen3-4B-toolcalling-gguf-codex"
-  - key: "lmstudio-community/Qwen3-4B-GGUF"
+        user: MaziyarPanahi
+        repo: Qwen3-4B-Thinking-2507-GGUF
+  - key: geoffmunn/Qwen3-4B-f16
     sources:
       - type: huggingface
-        user: "lmstudio-community"
-        repo: "Qwen3-4B-GGUF"
-  - key: "mradermacher/NaijaPidgin-Qwen3-4B-i1-GGUF"
+        user: geoffmunn
+        repo: Qwen3-4B-f16
+  - key: lmstudio-community/Qwen3-4B-Instruct-2507-GGUF
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "NaijaPidgin-Qwen3-4B-i1-GGUF"
-  - key: "mradermacher/LTE-Qwen3-4B-Base-i1-GGUF"
+        user: lmstudio-community
+        repo: Qwen3-4B-Instruct-2507-GGUF
+  - key: bartowski/Qwen_Qwen3-4B-Instruct-2507-GGUF
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "LTE-Qwen3-4B-Base-i1-GGUF"
-  - key: "bartowski/mlabonne_Qwen3-4B-abliterated-GGUF"
+        user: bartowski
+        repo: Qwen_Qwen3-4B-Instruct-2507-GGUF
+  - key: Manojb/Qwen3-4B-toolcalling-gguf-codex
     sources:
       - type: huggingface
-        user: "bartowski"
-        repo: "mlabonne_Qwen3-4B-abliterated-GGUF"
-  - key: "Jackrong/GPT-5-Distill-Qwen3-4B-Instruct-GGUF"
+        user: Manojb
+        repo: Qwen3-4B-toolcalling-gguf-codex
+  - key: lmstudio-community/Qwen3-4B-GGUF
     sources:
       - type: huggingface
-        user: "Jackrong"
-        repo: "GPT-5-Distill-Qwen3-4B-Instruct-GGUF"
-  - key: "mradermacher/HalluGuard-Qwen3-4B-i1-GGUF"
+        user: lmstudio-community
+        repo: Qwen3-4B-GGUF
+  - key: TeichAI/Qwen3-4B-Thinking-2507-MiMo-V2-Flash-Distill-GGUF
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "HalluGuard-Qwen3-4B-i1-GGUF"
-  - key: "mradermacher/qwen3-4b-unslop-good-lora-v1-i1-GGUF"
+        user: TeichAI
+        repo: Qwen3-4B-Thinking-2507-MiMo-V2-Flash-Distill-GGUF
+  - key: Lockout/qwen3-4b-heretic-zimage
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "qwen3-4b-unslop-good-lora-v1-i1-GGUF"
-  - key: "bartowski/Qwen_Qwen3-4B-GGUF"
+        user: Lockout
+        repo: qwen3-4b-heretic-zimage
+  - key: mradermacher/NaijaPidgin-Qwen3-4B-i1-GGUF
     sources:
       - type: huggingface
-        user: "bartowski"
-        repo: "Qwen_Qwen3-4B-GGUF"
-  - key: "unsloth/Qwen3-4B-Thinking-2507-GGUF"
+        user: mradermacher
+        repo: NaijaPidgin-Qwen3-4B-i1-GGUF
+  - key: mradermacher/LTE-Qwen3-4B-Base-i1-GGUF
     sources:
       - type: huggingface
-        user: "unsloth"
-        repo: "Qwen3-4B-Thinking-2507-GGUF"
-  - key: "mradermacher/Qwen3-4B-Nymphaea-RP-i1-GGUF"
+        user: mradermacher
+        repo: LTE-Qwen3-4B-Base-i1-GGUF
+  - key: bartowski/mlabonne_Qwen3-4B-abliterated-GGUF
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "Qwen3-4B-Nymphaea-RP-i1-GGUF"
-  - key: "mradermacher/Qwen3-4B-Instruct-2507-SOM-MPOA-i1-GGUF"
+        user: bartowski
+        repo: mlabonne_Qwen3-4B-abliterated-GGUF
+  - key: Jackrong/GPT-5-Distill-Qwen3-4B-Instruct-GGUF
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "Qwen3-4B-Instruct-2507-SOM-MPOA-i1-GGUF"
-  - key: "HauhauCS/Qwen3-4B-2507-Instruct-Uncensored-HauhauCS-Aggressive"
+        user: Jackrong
+        repo: GPT-5-Distill-Qwen3-4B-Instruct-GGUF
+  - key: mradermacher/HalluGuard-Qwen3-4B-i1-GGUF
     sources:
       - type: huggingface
-        user: "HauhauCS"
-        repo: "Qwen3-4B-2507-Instruct-Uncensored-HauhauCS-Aggressive"
-  - key: "mradermacher/Qwen3-4B-heretic-i1-GGUF"
+        user: mradermacher
+        repo: HalluGuard-Qwen3-4B-i1-GGUF
+  - key: mradermacher/qwen3-4b-unslop-good-lora-v1-i1-GGUF
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "Qwen3-4B-heretic-i1-GGUF"
-  - key: "mradermacher/Qwen3-4B-Wrist-On-Hermes-i1-GGUF"
+        user: mradermacher
+        repo: qwen3-4b-unslop-good-lora-v1-i1-GGUF
+  - key: bartowski/Qwen_Qwen3-4B-GGUF
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "Qwen3-4B-Wrist-On-Hermes-i1-GGUF"
-  - key: "Mungert/Qwen3-4B-abliterated-GGUF"
+        user: bartowski
+        repo: Qwen_Qwen3-4B-GGUF
+  - key: unsloth/Qwen3-4B-Thinking-2507-GGUF
     sources:
       - type: huggingface
-        user: "Mungert"
-        repo: "Qwen3-4B-abliterated-GGUF"
-  - key: "mradermacher/Qwen3-4B-Qwen3.6-plus-Reasoning-Slerp-i1-GGUF"
+        user: unsloth
+        repo: Qwen3-4B-Thinking-2507-GGUF
+  - key: mradermacher/Qwen3-4B-Nymphaea-RP-i1-GGUF
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "Qwen3-4B-Qwen3.6-plus-Reasoning-Slerp-i1-GGUF"
-  - key: "mradermacher/sphinx-qwen3-4b-i1-GGUF"
+        user: mradermacher
+        repo: Qwen3-4B-Nymphaea-RP-i1-GGUF
+  - key: mradermacher/Qwen3-4B-Instruct-2507-SOM-MPOA-i1-GGUF
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "sphinx-qwen3-4b-i1-GGUF"
-  - key: "mradermacher/Qwen3-4B-Instruct-2507-NanoWriter-v2-GGUF"
+        user: mradermacher
+        repo: Qwen3-4B-Instruct-2507-SOM-MPOA-i1-GGUF
+  - key: HauhauCS/Qwen3-4B-2507-Instruct-Uncensored-HauhauCS-Aggressive
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "Qwen3-4B-Instruct-2507-NanoWriter-v2-GGUF"
-  - key: "ahmadabdulnasir/NaijaPidgin-Qwen3-4B-GGUF"
+        user: HauhauCS
+        repo: Qwen3-4B-2507-Instruct-Uncensored-HauhauCS-Aggressive
+  - key: mradermacher/Qwen3-4B-heretic-i1-GGUF
     sources:
       - type: huggingface
-        user: "ahmadabdulnasir"
-        repo: "NaijaPidgin-Qwen3-4B-GGUF"
-  - key: "Alcoft/dnotitia_Smoothie-Qwen3-4B-GGUF"
+        user: mradermacher
+        repo: Qwen3-4B-heretic-i1-GGUF
+  - key: mradermacher/Qwen3-4B-Wrist-On-Hermes-i1-GGUF
     sources:
       - type: huggingface
-        user: "Alcoft"
-        repo: "dnotitia_Smoothie-Qwen3-4B-GGUF"
-  - key: "Alcoft/Qwen3-4B-GGUF"
+        user: mradermacher
+        repo: Qwen3-4B-Wrist-On-Hermes-i1-GGUF
+  - key: TeichAI/Qwen3-4B-Thinking-2507-DeepSeek-v3.2-Speciale-Code-Distill-GGUF
     sources:
       - type: huggingface
-        user: "Alcoft"
-        repo: "Qwen3-4B-GGUF"
-  - key: "Alcoft/Qwen_Qwen3-4B-GGUF"
+        user: TeichAI
+        repo: Qwen3-4B-Thinking-2507-DeepSeek-v3.2-Speciale-Code-Distill-GGUF
+  - key: Mungert/Qwen3-4B-abliterated-GGUF
     sources:
       - type: huggingface
-        user: "Alcoft"
-        repo: "Qwen_Qwen3-4B-GGUF"
-  - key: "AnandVelpuri/Qwen3-4B-GGUF"
+        user: Mungert
+        repo: Qwen3-4B-abliterated-GGUF
+  - key: mradermacher/Qwen3-4B-Qwen3.6-plus-Reasoning-Slerp-i1-GGUF
     sources:
       - type: huggingface
-        user: "AnandVelpuri"
-        repo: "Qwen3-4B-GGUF"
-  - key: "andquant/Qwen3-4B-Q8_0-GGUF"
+        user: mradermacher
+        repo: Qwen3-4B-Qwen3.6-plus-Reasoning-Slerp-i1-GGUF
+  - key: BennyDaBall/qwen3-4b-Z-Image-Engineer
     sources:
       - type: huggingface
-        user: "andquant"
-        repo: "Qwen3-4B-Q8_0-GGUF"
-  - key: "Antigma/Qwen3-4B-GGUF"
+        user: BennyDaBall
+        repo: qwen3-4b-Z-Image-Engineer
+  - key: mradermacher/sphinx-qwen3-4b-i1-GGUF
     sources:
       - type: huggingface
-        user: "Antigma"
-        repo: "Qwen3-4B-GGUF"
-  - key: "Ayansk11/FinSenti-Qwen3-4B-GGUF"
+        user: mradermacher
+        repo: sphinx-qwen3-4b-i1-GGUF
+  - key: BOGDANIMAL/Qwen3-4B-RPG-Roleplay-V2
     sources:
       - type: huggingface
-        user: "Ayansk11"
-        repo: "FinSenti-Qwen3-4B-GGUF"
-  - key: "chenjh283/qwen3-4b-gguf"
+        user: BOGDANIMAL
+        repo: Qwen3-4B-RPG-Roleplay-V2
+  - key: mradermacher/Qwen3-4B-Instruct-2507-NanoWriter-v2-GGUF
     sources:
       - type: huggingface
-        user: "chenjh283"
-        repo: "qwen3-4b-gguf"
-  - key: "Daerun/Qwen3-4B-Q4_0-GGUF"
+        user: mradermacher
+        repo: Qwen3-4B-Instruct-2507-NanoWriter-v2-GGUF
+  - key: mradermacher/Qwen3-4B-Fiction-On-Fire-Series-7-Model-X-GGUF
     sources:
       - type: huggingface
-        user: "Daerun"
-        repo: "Qwen3-4B-Q4_0-GGUF"
-  - key: "debasmitadasgupta/tony-seba-qwen3-4b-gguf"
+        user: mradermacher
+        repo: Qwen3-4B-Fiction-On-Fire-Series-7-Model-X-GGUF
+  - key: ZuzeTt/Qwen3-4B-Thinking-2507-Heretic-Imatrix-GGUF
     sources:
       - type: huggingface
-        user: "debasmitadasgupta"
-        repo: "tony-seba-qwen3-4b-gguf"
-  - key: "DESUCLUB/Qwen3-4B-IQ4_XS-GGUF"
+        user: ZuzeTt
+        repo: Qwen3-4B-Thinking-2507-Heretic-Imatrix-GGUF
+  - key: mradermacher/Qwen3-4B-Esper3-i1-GGUF
     sources:
       - type: huggingface
-        user: "DESUCLUB"
-        repo: "Qwen3-4B-IQ4_XS-GGUF"
-  - key: "DevQuasar/iapp.chinda-qwen3-4b-GGUF"
+        user: mradermacher
+        repo: Qwen3-4B-Esper3-i1-GGUF
+  - key: Odiora/Qwen3-4b-Z-Image-Turbo-AbliteratedV1-Q8_0-GGUF
     sources:
       - type: huggingface
-        user: "DevQuasar"
-        repo: "iapp.chinda-qwen3-4b-GGUF"
-  - key: "DevQuasar/Qwen.Qwen3-4B-GGUF"
+        user: Odiora
+        repo: Qwen3-4b-Z-Image-Turbo-AbliteratedV1-Q8_0-GGUF
+  - key: bartowski/Qwen_Qwen3-4B-Thinking-2507-GGUF
     sources:
       - type: huggingface
-        user: "DevQuasar"
-        repo: "Qwen.Qwen3-4B-GGUF"
-  - key: "Disya/magnum-qwen3-4b-Q8_0-GGUF"
+        user: bartowski
+        repo: Qwen_Qwen3-4B-Thinking-2507-GGUF
+  - key: magiccodingman/Qwen3-4B-Instruct-2507-Unsloth-MagicQuant-v2-GGUF
     sources:
       - type: huggingface
-        user: "Disya"
-        repo: "magnum-qwen3-4b-Q8_0-GGUF"
-  - key: "dougiefresh/jade_qwen3_4b_gguf"
+        user: magiccodingman
+        repo: Qwen3-4B-Instruct-2507-Unsloth-MagicQuant-v2-GGUF
+  - key: mradermacher/Qwen3-4B-Diversity-i1-GGUF
     sources:
       - type: huggingface
-        user: "dougiefresh"
-        repo: "jade_qwen3_4b_gguf"
-  - key: "DuoNeural/Qwen3-4B-GGUF"
+        user: mradermacher
+        repo: Qwen3-4B-Diversity-i1-GGUF
+  - key: mradermacher/Orion-Qwen3-4B-SFT-v2605-i1-GGUF
     sources:
       - type: huggingface
-        user: "DuoNeural"
-        repo: "Qwen3-4B-GGUF"
-  - key: "EdgeCompress01/Qwen3-4B-GGUF"
+        user: mradermacher
+        repo: Orion-Qwen3-4B-SFT-v2605-i1-GGUF
+  - key: mradermacher/Spiral-Qwen3-4B-Multi-Env-GGUF
     sources:
       - type: huggingface
-        user: "EdgeCompress01"
-        repo: "Qwen3-4B-GGUF"
-  - key: "eldar78/Qwen3-4B-GGUF"
+        user: mradermacher
+        repo: Spiral-Qwen3-4B-Multi-Env-GGUF
+  - key: unsloth/Qwen3-4B-128K-GGUF
     sources:
       - type: huggingface
-        user: "eldar78"
-        repo: "Qwen3-4B-GGUF"
-  - key: "electricpipelines/Qwen3-4B-GGUF"
+        user: unsloth
+        repo: Qwen3-4B-128K-GGUF
+  - key: mradermacher/Qwen3-4B-RA-SFT-GGUF
     sources:
       - type: huggingface
-        user: "electricpipelines"
-        repo: "Qwen3-4B-GGUF"
-  - key: "enacimie/Qwen3-4B-Q8_0-GGUF"
+        user: mradermacher
+        repo: Qwen3-4B-RA-SFT-GGUF
+  - key: mradermacher/Qwen3-4B-Thinking-2507-GSPO-Easy-GGUF
     sources:
       - type: huggingface
-        user: "enacimie"
-        repo: "Qwen3-4B-Q8_0-GGUF"
-  - key: "ethicalabs/Kurtis-E1.1-Qwen3-4B-GGUF"
+        user: mradermacher
+        repo: Qwen3-4B-Thinking-2507-GSPO-Easy-GGUF
+  - key: DavidAU/Qwen3-4B-Hivemind-Instruct-Heretic-Abliterated-Uncensored-NEO-Imatrix-GGUF
     sources:
       - type: huggingface
-        user: "ethicalabs"
-        repo: "Kurtis-E1.1-Qwen3-4B-GGUF"
-  - key: "fakezeta/amoral-Qwen3-4B-GGUF"
+        user: DavidAU
+        repo: Qwen3-4B-Hivemind-Instruct-Heretic-Abliterated-Uncensored-NEO-Imatrix-GGUF
+  - key: mradermacher/Qwen3-4B-i1-GGUF
     sources:
       - type: huggingface
-        user: "fakezeta"
-        repo: "amoral-Qwen3-4B-GGUF"
-  - key: "Fastiraz/Qwen3-4B-GGUF"
+        user: mradermacher
+        repo: Qwen3-4B-i1-GGUF
+  - key: mradermacher/Huihui-Qwen3-4B-abliterated-v2-GGUF
     sources:
       - type: huggingface
-        user: "Fastiraz"
-        repo: "Qwen3-4B-GGUF"
-  - key: "fayzard/AgentDog-Qwen3-4B-GGUF"
+        user: mradermacher
+        repo: Huihui-Qwen3-4B-abliterated-v2-GGUF
+  - key: Alcoft/Qwen_Qwen3-4B-Instruct-2507-GGUF
     sources:
       - type: huggingface
-        user: "fayzard"
-        repo: "AgentDog-Qwen3-4B-GGUF"
-  - key: "Felladrin/gguf-sharded-UD-Q4_K_XL-Qwen3-4B"
+        user: Alcoft
+        repo: Qwen_Qwen3-4B-Instruct-2507-GGUF
+  - key: guray16/Qwen3-4B-Instruct-2507-20250808-233922-0-i1-GGUF
     sources:
       - type: huggingface
-        user: "Felladrin"
-        repo: "gguf-sharded-UD-Q4_K_XL-Qwen3-4B"
-  - key: "Flexan/matonski-self-preservation-KREL-Qwen3-4B-GGUF"
+        user: guray16
+        repo: Qwen3-4B-Instruct-2507-20250808-233922-0-i1-GGUF
+  - key: mradermacher/Josiefied-Qwen3-4B-abliterated-v2-GGUF
     sources:
       - type: huggingface
-        user: "Flexan"
-        repo: "matonski-self-preservation-KREL-Qwen3-4B-GGUF"
-  - key: "forkjoin-ai/qwen3-4b-gguf"
-    sources:
-      - type: huggingface
-        user: "forkjoin-ai"
-        repo: "qwen3-4b-gguf"
-  - key: "frozenturtle/Qwen3-4B-Q8_0-GGUF"
-    sources:
-      - type: huggingface
-        user: "frozenturtle"
-        repo: "Qwen3-4B-Q8_0-GGUF"
-  - key: "gaianet/Qwen3-4B-GGUF"
-    sources:
-      - type: huggingface
-        user: "gaianet"
-        repo: "Qwen3-4B-GGUF"
-  - key: "ggml-org/Qwen3-4B-GGUF"
-    sources:
-      - type: huggingface
-        user: "ggml-org"
-        repo: "Qwen3-4B-GGUF"
-  - key: "iapp/chinda-qwen3-4b-gguf"
-    sources:
-      - type: huggingface
-        user: "iapp"
-        repo: "chinda-qwen3-4b-gguf"
-  - key: "jeremierostan/iep-qwen3-4b-gguf"
-    sources:
-      - type: huggingface
-        user: "jeremierostan"
-        repo: "iep-qwen3-4b-gguf"
-  - key: "jeremierostan/iep-udl-qwen3-4b-gguf"
-    sources:
-      - type: huggingface
-        user: "jeremierostan"
-        repo: "iep-udl-qwen3-4b-gguf"
-  - key: "JoshXT/AGiXT-Qwen3-4B-GGUF"
-    sources:
-      - type: huggingface
-        user: "JoshXT"
-        repo: "AGiXT-Qwen3-4B-GGUF"
-  - key: "jtl11/Jinx-Qwen3-4B-Q6_K-GGUF"
-    sources:
-      - type: huggingface
-        user: "jtl11"
-        repo: "Jinx-Qwen3-4B-Q6_K-GGUF"
-  - key: "JulianChang/Qwen3-4B-Q8_0-GGUF"
-    sources:
-      - type: huggingface
-        user: "JulianChang"
-        repo: "Qwen3-4B-Q8_0-GGUF"
-  - key: "keetak/qwen3-4b-gguf"
-    sources:
-      - type: huggingface
-        user: "keetak"
-        repo: "qwen3-4b-gguf"
-  - key: "khazarai/Qwen3-4B-Qwen3.6-plus-Reasoning-Slerp-GGUF"
-    sources:
-      - type: huggingface
-        user: "khazarai"
-        repo: "Qwen3-4B-Qwen3.6-plus-Reasoning-Slerp-GGUF"
-  - key: "kitten-kitkat/qwen3-4b-gguf"
-    sources:
-      - type: huggingface
-        user: "kitten-kitkat"
-        repo: "qwen3-4b-gguf"
-  - key: "kkioikk/Qwen3-4B-Q8_0-GGUF"
-    sources:
-      - type: huggingface
-        user: "kkioikk"
-        repo: "Qwen3-4B-Q8_0-GGUF"
-  - key: "Kushagra27/Qwen3-4B-Q8_0.gguf"
-    sources:
-      - type: huggingface
-        user: "Kushagra27"
-        repo: "Qwen3-4B-Q8_0.gguf"
-  - key: "leviethiep2801/qwen3-4b-gguf"
-    sources:
-      - type: huggingface
-        user: "leviethiep2801"
-        repo: "qwen3-4b-gguf"
-  - key: "lucasconsult/Qwen3-4B-GGUF"
-    sources:
-      - type: huggingface
-        user: "lucasconsult"
-        repo: "Qwen3-4B-GGUF"
-  - key: "marcelone/Jinx-Qwen3-4B-gguf"
-    sources:
-      - type: huggingface
-        user: "marcelone"
-        repo: "Jinx-Qwen3-4B-gguf"
-  - key: "miku552/Qwen3-4B-Q4_0-GGUF"
-    sources:
-      - type: huggingface
-        user: "miku552"
-        repo: "Qwen3-4B-Q4_0-GGUF"
-  - key: "mitchbs/charlie02-qwen3-4B-GGUF"
-    sources:
-      - type: huggingface
-        user: "mitchbs"
-        repo: "charlie02-qwen3-4B-GGUF"
-  - key: "mitchbs/charlie03-qwen3-4B-GGUF"
-    sources:
-      - type: huggingface
-        user: "mitchbs"
-        repo: "charlie03-qwen3-4B-GGUF"
-  - key: "mobilint/Qwen3-4B-GGUF"
-    sources:
-      - type: huggingface
-        user: "mobilint"
-        repo: "Qwen3-4B-GGUF"
-  - key: "mozhuyefei/Qwen3-4B-Q8_0-GGUF"
-    sources:
-      - type: huggingface
-        user: "mozhuyefei"
-        repo: "Qwen3-4B-Q8_0-GGUF"
-  - key: "mradermacher/Advanced_Risk_Dice_Qwen3-4B-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "Advanced_Risk_Dice_Qwen3-4B-GGUF"
-  - key: "mradermacher/AgentDoG-FG-Qwen3-4B-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "AgentDoG-FG-Qwen3-4B-GGUF"
-  - key: "mradermacher/AgentDoG-FG-Qwen3-4B-i1-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "AgentDoG-FG-Qwen3-4B-i1-GGUF"
-  - key: "mradermacher/AgentDoG-Qwen3-4B-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "AgentDoG-Qwen3-4B-GGUF"
-  - key: "mradermacher/AgentDoG-Qwen3-4B-i1-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "AgentDoG-Qwen3-4B-i1-GGUF"
-  - key: "mradermacher/AGiXT-Qwen3-4B-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "AGiXT-Qwen3-4B-GGUF"
-  - key: "mradermacher/amoral-Qwen3-4B-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "amoral-Qwen3-4B-GGUF"
-  - key: "mradermacher/amoral-Qwen3-4B-i1-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "amoral-Qwen3-4B-i1-GGUF"
-  - key: "mradermacher/AtosEviden_Qwen3_4B-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "AtosEviden_Qwen3_4B-GGUF"
-  - key: "mradermacher/AtosEviden_Qwen3_4B-i1-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "AtosEviden_Qwen3_4B-i1-GGUF"
-  - key: "mradermacher/BioTool-finetuned-Qwen3-4B-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "BioTool-finetuned-Qwen3-4B-GGUF"
-  - key: "mradermacher/BrokenMath-Qwen3-4B-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "BrokenMath-Qwen3-4B-GGUF"
-  - key: "mradermacher/BrokenMath-Qwen3-4B-i1-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "BrokenMath-Qwen3-4B-i1-GGUF"
-  - key: "mradermacher/Cavil-Qwen3-4B-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "Cavil-Qwen3-4B-GGUF"
-  - key: "mradermacher/chinda-qwen3-4b-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "chinda-qwen3-4b-GGUF"
-  - key: "mradermacher/chinda-qwen3-4b-i1-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "chinda-qwen3-4b-i1-GGUF"
-  - key: "mradermacher/colar-ff-qwen3-4b-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "colar-ff-qwen3-4b-GGUF"
-  - key: "mradermacher/ColdStart-AfterOpLearn-Qwen3-4B-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "ColdStart-AfterOpLearn-Qwen3-4B-GGUF"
-  - key: "mradermacher/Darwin-Qwen3-4B-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "Darwin-Qwen3-4B-GGUF"
-  - key: "mradermacher/Darwin-Qwen3-4B-i1-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "Darwin-Qwen3-4B-i1-GGUF"
-  - key: "mradermacher/DeepPrep-Qwen3-4B-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "DeepPrep-Qwen3-4B-GGUF"
-  - key: "mradermacher/DeepPrep-Qwen3-4B-i1-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "DeepPrep-Qwen3-4B-i1-GGUF"
-  - key: "mradermacher/Diabetica-Qwen3-4B-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "Diabetica-Qwen3-4B-GGUF"
-  - key: "mradermacher/DraftThinking_Qwen3_4B-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "DraftThinking_Qwen3_4B-GGUF"
-  - key: "mradermacher/dyslexic-writer-qwen3-4b-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "dyslexic-writer-qwen3-4b-GGUF"
-  - key: "mradermacher/ecommerce-qwen3-4b-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "ecommerce-qwen3-4b-GGUF"
-  - key: "mradermacher/EnvScaler-Qwen3-4B-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "EnvScaler-Qwen3-4B-GGUF"
-  - key: "mradermacher/FinSenti-Qwen3-4B-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "FinSenti-Qwen3-4B-GGUF"
-  - key: "mradermacher/flawed-fictions-qwen3-4b-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "flawed-fictions-qwen3-4b-GGUF"
-  - key: "mradermacher/flawed-fictions-qwen3-4b-i1-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "flawed-fictions-qwen3-4b-i1-GGUF"
-  - key: "mradermacher/FlexGuard-Qwen3-4B-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "FlexGuard-Qwen3-4B-GGUF"
-  - key: "mradermacher/GCCL-Medical-LLM-Qwen3-4B-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "GCCL-Medical-LLM-Qwen3-4B-GGUF"
-  - key: "mradermacher/General-Reasoner-Qwen3-4B-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "General-Reasoner-Qwen3-4B-GGUF"
-  - key: "mradermacher/General-Reasoner-Qwen3-4B-i1-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "General-Reasoner-Qwen3-4B-i1-GGUF"
-  - key: "mradermacher/git-assistant-qwen3-4b-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "git-assistant-qwen3-4b-GGUF"
-  - key: "mradermacher/git-commit-message-splitter-Qwen3-4B-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "git-commit-message-splitter-Qwen3-4B-GGUF"
-  - key: "mradermacher/git-commit-message-splitter-Qwen3-4B-i1-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "git-commit-message-splitter-Qwen3-4B-i1-GGUF"
-  - key: "mradermacher/gnormplus-Qwen3-4B-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "gnormplus-Qwen3-4B-GGUF"
-  - key: "mradermacher/grpo-struct-qwen3-4b-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "grpo-struct-qwen3-4b-GGUF"
-  - key: "mradermacher/GRPO-TCR-Qwen3-4B-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "GRPO-TCR-Qwen3-4B-GGUF"
-  - key: "mradermacher/grpo-vlsp-qwen3-4b-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "grpo-vlsp-qwen3-4b-GGUF"
-  - key: "mradermacher/guard-qwen3-4b-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "guard-qwen3-4b-GGUF"
-  - key: "mradermacher/HalluGuard-Qwen3-4B-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "HalluGuard-Qwen3-4B-GGUF"
-  - key: "mradermacher/HarnessLLM_SFT_Qwen3_4B-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "HarnessLLM_SFT_Qwen3_4B-GGUF"
-  - key: "mradermacher/HarnessLLM_SFT_Qwen3_4B-i1-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "HarnessLLM_SFT_Qwen3_4B-i1-GGUF"
-  - key: "mradermacher/helpful_reasoning_qwen3_4B-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "helpful_reasoning_qwen3_4B-GGUF"
-  - key: "mradermacher/Inputoutput_SFT_Qwen3_4B-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "Inputoutput_SFT_Qwen3_4B-GGUF"
-  - key: "mradermacher/jade_qwen3_4b-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "jade_qwen3_4b-GGUF"
-  - key: "mradermacher/ktj-qwen3-4b-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "ktj-qwen3-4b-GGUF"
-  - key: "mradermacher/L40s-Qwen3-4B-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "L40s-Qwen3-4B-GGUF"
-  - key: "mradermacher/L40s-Qwen3-4B-i1-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "L40s-Qwen3-4B-i1-GGUF"
-  - key: "mradermacher/LaSER-Qwen3-4B-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "LaSER-Qwen3-4B-GGUF"
-  - key: "mradermacher/LaSER-Qwen3-4B-i1-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "LaSER-Qwen3-4B-i1-GGUF"
-  - key: "mradermacher/linnaeus-Qwen3-4B-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "linnaeus-Qwen3-4B-GGUF"
-  - key: "mradermacher/LLM_main_001_Qwen3-4B-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "LLM_main_001_Qwen3-4B-GGUF"
-  - key: "mradermacher/LLM_main_001_Qwen3-4B-i1-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "LLM_main_001_Qwen3-4B-i1-GGUF"
-  - key: "mradermacher/longvideoagent-qwen3-4b-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "longvideoagent-qwen3-4b-GGUF"
-  - key: "mradermacher/MARSHAL-Generalist-Qwen3-4B-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "MARSHAL-Generalist-Qwen3-4B-GGUF"
-  - key: "mradermacher/MedicalChatBot-Qwen3-4b-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "MedicalChatBot-Qwen3-4b-GGUF"
-  - key: "mradermacher/MedicalChatBot-Qwen3-4b-i1-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "MedicalChatBot-Qwen3-4b-i1-GGUF"
-  - key: "mradermacher/MINT-empathy-Qwen3-4B-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "MINT-empathy-Qwen3-4B-GGUF"
-  - key: "mradermacher/Mio-Qwen3-4B-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "Mio-Qwen3-4B-GGUF"
-  - key: "mradermacher/Mio-Qwen3-4B-i1-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "Mio-Qwen3-4B-i1-GGUF"
-  - key: "mradermacher/moba_qwen3-4b-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "moba_qwen3-4b-GGUF"
-  - key: "mradermacher/moba_qwen3-4b-i1-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "moba_qwen3-4b-i1-GGUF"
-  - key: "mradermacher/MSC-SCBD-Qwen3-4B-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "MSC-SCBD-Qwen3-4B-GGUF"
-  - key: "mradermacher/NaijaPidgin-Qwen3-4B-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "NaijaPidgin-Qwen3-4B-GGUF"
-  - key: "mradermacher/ncbi-disease-Qwen3-4B-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "ncbi-disease-Qwen3-4B-GGUF"
-  - key: "mradermacher/ner_qwen3_4b-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "ner_qwen3_4b-GGUF"
-  - key: "mradermacher/NINA-Qwen3-4B-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "NINA-Qwen3-4B-GGUF"
-  - key: "mradermacher/Suri-Qwen-3.0-4B-Uncensored-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "Suri-Qwen-3.0-4B-Uncensored-GGUF"
-  - key: "mradermacher/Suri-Qwen-3.0-4B-Uncensored-i1-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "Suri-Qwen-3.0-4B-Uncensored-i1-GGUF"
-  - key: "mradermacher/Suri-Qwen-3.1-4B-Uncensored-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "Suri-Qwen-3.1-4B-Uncensored-GGUF"
-  - key: "mradermacher/Suri-Qwen-3.1-4B-Uncensored-i1-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "Suri-Qwen-3.1-4B-Uncensored-i1-GGUF"
-  - key: "SpaceTimee/Suri-Qwen-3.1-4B-Uncensored-GGUF"
-    sources:
-      - type: huggingface
-        user: "SpaceTimee"
-        repo: "Suri-Qwen-3.1-4B-Uncensored-GGUF"
-  - key: "mradermacher/Suri-Qwen-3.1-4B-Uncensored-Hard-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "Suri-Qwen-3.1-4B-Uncensored-Hard-GGUF"
-  - key: "mradermacher/Suri-Qwen-3.1-4B-Uncensored-Hard-i1-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "Suri-Qwen-3.1-4B-Uncensored-Hard-i1-GGUF"
-  - key: "SpaceTimee/Suri-Qwen-3.1-4B-Uncensored-Hard-GGUF"
-    sources:
-      - type: huggingface
-        user: "SpaceTimee"
-        repo: "Suri-Qwen-3.1-4B-Uncensored-Hard-GGUF"
-  - key: "AmpereComputing/qwen-3-4b-gguf"
-    sources:
-      - type: huggingface
-        user: "AmpereComputing"
-        repo: "qwen-3-4b-gguf"
-  - key: "mradermacher/SearchGym_Qwen_3_4B-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "SearchGym_Qwen_3_4B-GGUF"
-  - key: "AmpereComputing/qwen-3-4b-2507-instruct-gguf"
-    sources:
-      - type: huggingface
-        user: "AmpereComputing"
-        repo: "qwen-3-4b-2507-instruct-gguf"
-  - key: "AmpereComputing/qwen-3-4b-2507-thinking-gguf"
-    sources:
-      - type: huggingface
-        user: "AmpereComputing"
-        repo: "qwen-3-4b-2507-thinking-gguf"
-  - key: "taharmasmaliyev07/Qwen-3-4B-b16-tuned-full-GGUF"
-    sources:
-      - type: huggingface
-        user: "taharmasmaliyev07"
-        repo: "Qwen-3-4B-b16-tuned-full-GGUF"
-  - key: "tikeape/Qwen-3-4B-Compilation-Experimental-GGUF"
-    sources:
-      - type: huggingface
-        user: "tikeape"
-        repo: "Qwen-3-4B-Compilation-Experimental-GGUF"
-  - key: "qnixsynapse/jan_nano_qwen_3_4B_exp_imatrix_gguf"
-    sources:
-      - type: huggingface
-        user: "qnixsynapse"
-        repo: "jan_nano_qwen_3_4B_exp_imatrix_gguf"
-  - key: "BernardPeng/qwen_3_4B_huanhuan"
-    sources:
-      - type: huggingface
-        user: "BernardPeng"
-        repo: "qwen_3_4B_huanhuan"
-  - key: "lm-kit/qwen-3-4b-instruct-gguf"
-    sources:
-      - type: huggingface
-        user: "lm-kit"
-        repo: "qwen-3-4b-instruct-gguf"
-  - key: "finnianx/GPT-5-Qwen-3-4b-Instruct-Distill"
-    sources:
-      - type: huggingface
-        user: "finnianx"
-        repo: "GPT-5-Qwen-3-4b-Instruct-Distill"
-  - key: "mradermacher/Qwen-3-4B-Instruct-Recruitment-1.3.merged-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "Qwen-3-4B-Instruct-Recruitment-1.3.merged-GGUF"
-  - key: "limanox/Qwen-3-4B-IT-2507-GameDev"
-    sources:
-      - type: huggingface
-        user: "limanox"
-        repo: "Qwen-3-4B-IT-2507-GameDev"
+        user: mradermacher
+        repo: Josiefied-Qwen3-4B-abliterated-v2-GGUF
 config:
   operation:
     fields:

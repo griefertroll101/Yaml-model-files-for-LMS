@@ -2,226 +2,241 @@
 # Learn more at https://modelyaml.org
 model: nvidia/nemotron-3-super
 base:
-  - key: "unsloth/NVIDIA-Nemotron-3-Super-120B-A12B-GGUF"
+  - key: unsloth/NVIDIA-Nemotron-3-Super-120B-A12B-GGUF
     sources:
       - type: huggingface
-        user: "unsloth"
-        repo: "NVIDIA-Nemotron-3-Super-120B-A12B-GGUF"
-  - key: "lmstudio-community/NVIDIA-Nemotron-3-Super-120B-A12B-GGUF"
+        user: unsloth
+        repo: NVIDIA-Nemotron-3-Super-120B-A12B-GGUF
+  - key: lmstudio-community/NVIDIA-Nemotron-3-Super-120B-A12B-GGUF
     sources:
       - type: huggingface
-        user: "lmstudio-community"
-        repo: "NVIDIA-Nemotron-3-Super-120B-A12B-GGUF"
-  - key: "bartowski/nvidia_Nemotron-3-Super-120B-A12B-GGUF"
+        user: lmstudio-community
+        repo: NVIDIA-Nemotron-3-Super-120B-A12B-GGUF
+  - key: bartowski/nvidia_Nemotron-3-Super-120B-A12B-GGUF
     sources:
       - type: huggingface
-        user: "bartowski"
-        repo: "nvidia_Nemotron-3-Super-120B-A12B-GGUF"
-  - key: "mradermacher/NVIDIA-Nemotron-3-Super-120B-A12B-BF16-heretic-i1-GGUF"
+        user: bartowski
+        repo: nvidia_Nemotron-3-Super-120B-A12B-GGUF
+  - key: mradermacher/NVIDIA-Nemotron-3-Super-120B-A12B-BF16-heretic-i1-GGUF
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "NVIDIA-Nemotron-3-Super-120B-A12B-BF16-heretic-i1-GGUF"
-  - key: "mradermacher/NVIDIA-Nemotron-3-Super-120B-A12B-BF16-i1-GGUF"
+        user: mradermacher
+        repo: NVIDIA-Nemotron-3-Super-120B-A12B-BF16-heretic-i1-GGUF
+  - key: mradermacher/NVIDIA-Nemotron-3-Super-120B-A12B-BF16-i1-GGUF
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "NVIDIA-Nemotron-3-Super-120B-A12B-BF16-i1-GGUF"
-  - key: "Mungert/NVIDIA-Nemotron-3-Super-120B-A12B-BF16-GGUF"
+        user: mradermacher
+        repo: NVIDIA-Nemotron-3-Super-120B-A12B-BF16-i1-GGUF
+  - key: Mungert/NVIDIA-Nemotron-3-Super-120B-A12B-BF16-GGUF
     sources:
       - type: huggingface
-        user: "Mungert"
-        repo: "NVIDIA-Nemotron-3-Super-120B-A12B-BF16-GGUF"
-  - key: "AesSedai/NVIDIA-Nemotron-3-Super-120B-A12B-GGUF"
+        user: Mungert
+        repo: NVIDIA-Nemotron-3-Super-120B-A12B-BF16-GGUF
+  - key: AesSedai/NVIDIA-Nemotron-3-Super-120B-A12B-GGUF
     sources:
       - type: huggingface
-        user: "AesSedai"
-        repo: "NVIDIA-Nemotron-3-Super-120B-A12B-GGUF"
-  - key: "mradermacher/NVIDIA-Nemotron-3-Super-120B-A12B-BF16-heretic-GGUF"
+        user: AesSedai
+        repo: NVIDIA-Nemotron-3-Super-120B-A12B-GGUF
+  - key: mradermacher/NVIDIA-Nemotron-3-Super-120B-A12B-BF16-heretic-GGUF
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "NVIDIA-Nemotron-3-Super-120B-A12B-BF16-heretic-GGUF"
-  - key: "ggml-org/Nemotron-3-Super-120B-GGUF"
+        user: mradermacher
+        repo: NVIDIA-Nemotron-3-Super-120B-A12B-BF16-heretic-GGUF
+  - key: ggml-org/Nemotron-3-Super-120B-GGUF
     sources:
       - type: huggingface
-        user: "ggml-org"
-        repo: "Nemotron-3-Super-120B-GGUF"
-  - key: "DevQuasar/nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16-GGUF"
+        user: ggml-org
+        repo: Nemotron-3-Super-120B-GGUF
+  - key: DevQuasar/nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16-GGUF
     sources:
       - type: huggingface
-        user: "DevQuasar"
-        repo: "nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16-GGUF"
-  - key: "timteh673/Nemotron-3-Super-120B-A12B-Uncensored-GGUF"
+        user: DevQuasar
+        repo: nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16-GGUF
+  - key: timteh673/Nemotron-3-Super-120B-A12B-Uncensored-GGUF
     sources:
       - type: huggingface
-        user: "timteh673"
-        repo: "Nemotron-3-Super-120B-A12B-Uncensored-GGUF"
-  - key: "jdziat/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4-GGUF"
+        user: timteh673
+        repo: Nemotron-3-Super-120B-A12B-Uncensored-GGUF
+  - key: jdziat/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4-GGUF
     sources:
       - type: huggingface
-        user: "jdziat"
-        repo: "NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4-GGUF"
-  - key: "blobbybob/Nemotron-3-Super-120B-A12B-GGUF-Claude-4.6-Opus-Reasoning-Distilled"
+        user: jdziat
+        repo: NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4-GGUF
+  - key: blobbybob/Nemotron-3-Super-120B-A12B-GGUF-Claude-4.6-Opus-Reasoning-Distilled
     sources:
       - type: huggingface
-        user: "blobbybob"
-        repo: "Nemotron-3-Super-120B-A12B-GGUF-Claude-4.6-Opus-Reasoning-Distilled"
-  - key: "ddh0/NVIDIA-Nemotron-3-Super-120B-A12B-GGUF"
+        user: blobbybob
+        repo: Nemotron-3-Super-120B-A12B-GGUF-Claude-4.6-Opus-Reasoning-Distilled
+  - key: ddh0/NVIDIA-Nemotron-3-Super-120B-A12B-GGUF
     sources:
       - type: huggingface
-        user: "ddh0"
-        repo: "NVIDIA-Nemotron-3-Super-120B-A12B-GGUF"
-  - key: "mradermacher/NVIDIA-Nemotron-3-Super-120B-A12B-BF16-GGUF"
+        user: ddh0
+        repo: NVIDIA-Nemotron-3-Super-120B-A12B-GGUF
+  - key: mradermacher/NVIDIA-Nemotron-3-Super-120B-A12B-BF16-GGUF
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "NVIDIA-Nemotron-3-Super-120B-A12B-BF16-GGUF"
-  - key: "coughmedicine/NVIDIA-Nemotron-3-Super-120B-A12B-Base-GGUF"
+        user: mradermacher
+        repo: NVIDIA-Nemotron-3-Super-120B-A12B-BF16-GGUF
+  - key: coughmedicine/NVIDIA-Nemotron-3-Super-120B-A12B-Base-GGUF
     sources:
       - type: huggingface
-        user: "coughmedicine"
-        repo: "NVIDIA-Nemotron-3-Super-120B-A12B-Base-GGUF"
-  - key: "Beinsezii/Nemotron-3-Super-120B-A12B-GGUF-HALO"
+        user: coughmedicine
+        repo: NVIDIA-Nemotron-3-Super-120B-A12B-Base-GGUF
+  - key: Beinsezii/Nemotron-3-Super-120B-A12B-GGUF-HALO
     sources:
       - type: huggingface
-        user: "Beinsezii"
-        repo: "Nemotron-3-Super-120B-A12B-GGUF-HALO"
-  - key: "ApocalypseParty/Nemotron-3-Super-120B-SFT-5-high-gguf"
+        user: Beinsezii
+        repo: Nemotron-3-Super-120B-A12B-GGUF-HALO
+  - key: ApocalypseParty/Nemotron-3-Super-120B-SFT-5-high-gguf
     sources:
       - type: huggingface
-        user: "ApocalypseParty"
-        repo: "Nemotron-3-Super-120B-SFT-5-high-gguf"
-  - key: "ApocalypseParty/Nemotron-3-Super-120B-SFT-6-gguf"
+        user: ApocalypseParty
+        repo: Nemotron-3-Super-120B-SFT-5-high-gguf
+  - key: ApocalypseParty/Nemotron-3-Super-120B-SFT-6-gguf
     sources:
       - type: huggingface
-        user: "ApocalypseParty"
-        repo: "Nemotron-3-Super-120B-SFT-6-gguf"
-  - key: "Sabomako/NVIDIA-Nemotron-3-Super-120B-A12B-BF16-heretic-v2-GGUF"
+        user: ApocalypseParty
+        repo: Nemotron-3-Super-120B-SFT-6-gguf
+  - key: Sabomako/NVIDIA-Nemotron-3-Super-120B-A12B-BF16-heretic-v2-GGUF
     sources:
       - type: huggingface
-        user: "Sabomako"
-        repo: "NVIDIA-Nemotron-3-Super-120B-A12B-BF16-heretic-v2-GGUF"
-  - key: "ApocalypseParty/Nemotron-3-Super-120B-SFT-5-mid-gguf"
+        user: Sabomako
+        repo: NVIDIA-Nemotron-3-Super-120B-A12B-BF16-heretic-v2-GGUF
+  - key: ApocalypseParty/Nemotron-3-Super-120B-SFT-5-mid-gguf
     sources:
       - type: huggingface
-        user: "ApocalypseParty"
-        repo: "Nemotron-3-Super-120B-SFT-5-mid-gguf"
-  - key: "avar6/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16-gguf"
+        user: ApocalypseParty
+        repo: Nemotron-3-Super-120B-SFT-5-mid-gguf
+  - key: avar6/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16-gguf
     sources:
       - type: huggingface
-        user: "avar6"
-        repo: "NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16-gguf"
-  - key: "ApocalypseParty/Nemotron-3-Super-120B-SFT-5-low2-gguf"
+        user: avar6
+        repo: NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16-gguf
+  - key: ApocalypseParty/Nemotron-3-Super-120B-SFT-5-low2-gguf
     sources:
       - type: huggingface
-        user: "ApocalypseParty"
-        repo: "Nemotron-3-Super-120B-SFT-5-low2-gguf"
-  - key: "baa-ai/Nemotron-3-Super-120B-A12B-MINT-GGUF"
+        user: ApocalypseParty
+        repo: Nemotron-3-Super-120B-SFT-5-low2-gguf
+  - key: farshidtz/NVIDIA-Nemotron-3-Super-120B-A12B-UD-Q4_K_M-5G
     sources:
       - type: huggingface
-        user: "baa-ai"
-        repo: "Nemotron-3-Super-120B-A12B-MINT-GGUF"
-  - key: "ApocalypseParty/Nemotron-3-Super-120B-SFT-5-gguf"
+        user: farshidtz
+        repo: NVIDIA-Nemotron-3-Super-120B-A12B-UD-Q4_K_M-5G
+  - key: baa-ai/Nemotron-3-Super-120B-A12B-MINT-GGUF
     sources:
       - type: huggingface
-        user: "ApocalypseParty"
-        repo: "Nemotron-3-Super-120B-SFT-5-gguf"
-  - key: "ApocalypseParty/Nemotron-3-Super-120B-SFT-8-gguf"
+        user: baa-ai
+        repo: Nemotron-3-Super-120B-A12B-MINT-GGUF
+  - key: ApocalypseParty/Nemotron-3-Super-120B-SFT-5-gguf
     sources:
       - type: huggingface
-        user: "ApocalypseParty"
-        repo: "Nemotron-3-Super-120B-SFT-8-gguf"
-  - key: "mudler/NVIDIA-Nemotron-3-Super-120B-A12B-APEX-GGUF"
+        user: ApocalypseParty
+        repo: Nemotron-3-Super-120B-SFT-5-gguf
+  - key: ApocalypseParty/Nemotron-3-Super-120B-SFT-8-gguf
     sources:
       - type: huggingface
-        user: "mudler"
-        repo: "NVIDIA-Nemotron-3-Super-120B-A12B-APEX-GGUF"
-  - key: "W0lfland/Nemotron-3-Super-120B-A12B-Greg-Knee-GGUF"
+        user: ApocalypseParty
+        repo: Nemotron-3-Super-120B-SFT-8-gguf
+  - key: mudler/NVIDIA-Nemotron-3-Super-120B-A12B-APEX-GGUF
     sources:
       - type: huggingface
-        user: "W0lfland"
-        repo: "Nemotron-3-Super-120B-A12B-Greg-Knee-GGUF"
-  - key: "majentik/Nemotron-3-Super-120B-A12B-RotorQuant-GGUF-Q3_K_M"
+        user: mudler
+        repo: NVIDIA-Nemotron-3-Super-120B-A12B-APEX-GGUF
+  - key: W0lfland/Nemotron-3-Super-120B-A12B-Greg-Knee-GGUF
     sources:
       - type: huggingface
-        user: "majentik"
-        repo: "Nemotron-3-Super-120B-A12B-RotorQuant-GGUF-Q3_K_M"
-  - key: "majentik/Nemotron-3-Super-120B-A12B-RotorQuant-GGUF-Q4_K_M"
+        user: W0lfland
+        repo: Nemotron-3-Super-120B-A12B-Greg-Knee-GGUF
+  - key: majentik/Nemotron-3-Super-120B-A12B-RotorQuant-GGUF-Q3_K_M
     sources:
       - type: huggingface
-        user: "majentik"
-        repo: "Nemotron-3-Super-120B-A12B-RotorQuant-GGUF-Q4_K_M"
-  - key: "majentik/Nemotron-3-Super-120B-A12B-TurboQuant-GGUF-Q8_0"
+        user: majentik
+        repo: Nemotron-3-Super-120B-A12B-RotorQuant-GGUF-Q3_K_M
+  - key: majentik/Nemotron-3-Super-120B-A12B-RotorQuant-GGUF-Q4_K_M
     sources:
       - type: huggingface
-        user: "majentik"
-        repo: "Nemotron-3-Super-120B-A12B-TurboQuant-GGUF-Q8_0"
-  - key: "majentik/Nemotron-3-Super-120B-A12B-RotorQuant-GGUF-Q5_K_M"
+        user: majentik
+        repo: Nemotron-3-Super-120B-A12B-RotorQuant-GGUF-Q4_K_M
+  - key: majentik/Nemotron-3-Super-120B-A12B-TurboQuant-GGUF-Q8_0
     sources:
       - type: huggingface
-        user: "majentik"
-        repo: "Nemotron-3-Super-120B-A12B-RotorQuant-GGUF-Q5_K_M"
-  - key: "majentik/Nemotron-3-Super-120B-A12B-TurboQuant-GGUF-Q2_K"
+        user: majentik
+        repo: Nemotron-3-Super-120B-A12B-TurboQuant-GGUF-Q8_0
+  - key: majentik/Nemotron-3-Super-120B-A12B-RotorQuant-GGUF-Q5_K_M
     sources:
       - type: huggingface
-        user: "majentik"
-        repo: "Nemotron-3-Super-120B-A12B-TurboQuant-GGUF-Q2_K"
-  - key: "majentik/Nemotron-3-Super-120B-A12B-TurboQuant-GGUF-Q4_K_M"
+        user: majentik
+        repo: Nemotron-3-Super-120B-A12B-RotorQuant-GGUF-Q5_K_M
+  - key: majentik/Nemotron-3-Super-120B-A12B-TurboQuant-GGUF-Q2_K
     sources:
       - type: huggingface
-        user: "majentik"
-        repo: "Nemotron-3-Super-120B-A12B-TurboQuant-GGUF-Q4_K_M"
-  - key: "majentik/Nemotron-3-Super-120B-A12B-TurboQuant-GGUF-Q6_K"
+        user: majentik
+        repo: Nemotron-3-Super-120B-A12B-TurboQuant-GGUF-Q2_K
+  - key: majentik/Nemotron-3-Super-120B-A12B-TurboQuant-GGUF-Q4_K_M
     sources:
       - type: huggingface
-        user: "majentik"
-        repo: "Nemotron-3-Super-120B-A12B-TurboQuant-GGUF-Q6_K"
-  - key: "majentik/Nemotron-3-Super-120B-A12B-TurboQuant-GGUF-Q3_K_M"
+        user: majentik
+        repo: Nemotron-3-Super-120B-A12B-TurboQuant-GGUF-Q4_K_M
+  - key: majentik/Nemotron-3-Super-120B-A12B-TurboQuant-GGUF-Q6_K
     sources:
       - type: huggingface
-        user: "majentik"
-        repo: "Nemotron-3-Super-120B-A12B-TurboQuant-GGUF-Q3_K_M"
-  - key: "majentik/Nemotron-3-Super-120B-A12B-RotorQuant-GGUF-Q6_K"
+        user: majentik
+        repo: Nemotron-3-Super-120B-A12B-TurboQuant-GGUF-Q6_K
+  - key: majentik/Nemotron-3-Super-120B-A12B-TurboQuant-GGUF-Q3_K_M
     sources:
       - type: huggingface
-        user: "majentik"
-        repo: "Nemotron-3-Super-120B-A12B-RotorQuant-GGUF-Q6_K"
-  - key: "majentik/Nemotron-3-Super-120B-A12B-TurboQuant-GGUF-Q5_K_M"
+        user: majentik
+        repo: Nemotron-3-Super-120B-A12B-TurboQuant-GGUF-Q3_K_M
+  - key: majentik/Nemotron-3-Super-120B-A12B-RotorQuant-GGUF-Q6_K
     sources:
       - type: huggingface
-        user: "majentik"
-        repo: "Nemotron-3-Super-120B-A12B-TurboQuant-GGUF-Q5_K_M"
-  - key: "majentik/Nemotron-3-Super-120B-A12B-RotorQuant-GGUF-Q2_K"
+        user: majentik
+        repo: Nemotron-3-Super-120B-A12B-RotorQuant-GGUF-Q6_K
+  - key: majentik/Nemotron-3-Super-120B-A12B-TurboQuant-GGUF-Q5_K_M
     sources:
       - type: huggingface
-        user: "majentik"
-        repo: "Nemotron-3-Super-120B-A12B-RotorQuant-GGUF-Q2_K"
-  - key: "majentik/Nemotron-3-Super-120B-A12B-RotorQuant-GGUF-Q8_0"
+        user: majentik
+        repo: Nemotron-3-Super-120B-A12B-TurboQuant-GGUF-Q5_K_M
+  - key: majentik/Nemotron-3-Super-120B-A12B-RotorQuant-GGUF-Q2_K
     sources:
       - type: huggingface
-        user: "majentik"
-        repo: "Nemotron-3-Super-120B-A12B-RotorQuant-GGUF-Q8_0"
-  - key: "grumd0/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4-GGUF"
+        user: majentik
+        repo: Nemotron-3-Super-120B-A12B-RotorQuant-GGUF-Q2_K
+  - key: majentik/Nemotron-3-Super-120B-A12B-RotorQuant-GGUF-Q8_0
     sources:
       - type: huggingface
-        user: "grumd0"
-        repo: "NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4-GGUF"
-  - key: "batiai/Nemotron-3-Super-120B-A12B-GGUF"
+        user: majentik
+        repo: Nemotron-3-Super-120B-A12B-RotorQuant-GGUF-Q8_0
+  - key: Max-and-Omnis/Nemotron-3-Super-64B-A12B-Math-REAP-GGUF
     sources:
       - type: huggingface
-        user: "batiai"
-        repo: "Nemotron-3-Super-120B-A12B-GGUF"
-  - key: "will3509111/Nemotron-3-Super-120B-A12B-MLX-MXFP4"
+        user: Max-and-Omnis
+        repo: Nemotron-3-Super-64B-A12B-Math-REAP-GGUF
+  - key: grumd0/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4-GGUF
     sources:
       - type: huggingface
-        user: "will3509111"
-        repo: "Nemotron-3-Super-120B-A12B-MLX-MXFP4"
-  - key: "farshidtz/NVIDIA-Nemotron-3-Super-120B-A12B-UD-Q4_K_M-5G"
+        user: grumd0
+        repo: NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4-GGUF
+  - key: batiai/Nemotron-3-Super-120B-A12B-GGUF
     sources:
       - type: huggingface
-        user: "farshidtz"
-        repo: "NVIDIA-Nemotron-3-Super-120B-A12B-UD-Q4_K_M-5G"
+        user: batiai
+        repo: Nemotron-3-Super-120B-A12B-GGUF
+  - key: mradermacher/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16-GGUF
+  - key: meshllm/NVIDIA-Nemotron-3-Super-120B-A12B-UD-Q4_K_XL-layers
+    sources:
+      - type: huggingface
+        user: meshllm
+        repo: NVIDIA-Nemotron-3-Super-120B-A12B-UD-Q4_K_XL-layers
+  - key: mradermacher/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16-i1-GGUF
+    sources:
+      - type: huggingface
+        user: mradermacher
+        repo: NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16-i1-GGUF
 config:
   operation:
     fields:

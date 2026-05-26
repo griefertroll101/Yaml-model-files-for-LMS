@@ -2,961 +2,511 @@
 # Learn more at https://modelyaml.org
 model: openai/gpt-oss-120b
 base:
-  - key: "ggml-org/gpt-oss-120b-GGUF"
+  - key: ggml-org/gpt-oss-120b-GGUF
     sources:
       - type: huggingface
-        user: "ggml-org"
-        repo: "gpt-oss-120b-GGUF"
-  - key: "unsloth/gpt-oss-120b-GGUF"
+        user: ggml-org
+        repo: gpt-oss-120b-GGUF
+  - key: unsloth/gpt-oss-120b-GGUF
     sources:
       - type: huggingface
-        user: "unsloth"
-        repo: "gpt-oss-120b-GGUF"
-  - key: "lmstudio-community/gpt-oss-120b-GGUF"
+        user: unsloth
+        repo: gpt-oss-120b-GGUF
+  - key: lmstudio-community/gpt-oss-120b-GGUF
     sources:
       - type: huggingface
-        user: "lmstudio-community"
-        repo: "gpt-oss-120b-GGUF"
-  - key: "mradermacher/gpt-oss-120b-heretic-v2-i1-GGUF"
+        user: lmstudio-community
+        repo: gpt-oss-120b-GGUF
+  - key: mradermacher/gpt-oss-120b-heretic-v2-i1-GGUF
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "gpt-oss-120b-heretic-v2-i1-GGUF"
-  - key: "llmfan46/gpt-oss-120b-ultra-heretic-GGUF"
+        user: mradermacher
+        repo: gpt-oss-120b-heretic-v2-i1-GGUF
+  - key: HauhauCS/GPTOSS-120B-Uncensored-HauhauCS-Aggressive
     sources:
       - type: huggingface
-        user: "llmfan46"
-        repo: "gpt-oss-120b-ultra-heretic-GGUF"
-  - key: "bartowski/openai_gpt-oss-120b-GGUF"
+        user: HauhauCS
+        repo: GPTOSS-120B-Uncensored-HauhauCS-Aggressive
+  - key: llmfan46/gpt-oss-120b-ultra-heretic-GGUF
     sources:
       - type: huggingface
-        user: "bartowski"
-        repo: "openai_gpt-oss-120b-GGUF"
-  - key: "mradermacher/gpt-oss-120b-heretic-v2-GGUF"
+        user: llmfan46
+        repo: gpt-oss-120b-ultra-heretic-GGUF
+  - key: bartowski/openai_gpt-oss-120b-GGUF
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "gpt-oss-120b-heretic-v2-GGUF"
-  - key: "llmfan46/gpt-oss-120b-heretic-v2-GGUF"
+        user: bartowski
+        repo: openai_gpt-oss-120b-GGUF
+  - key: mradermacher/gpt-oss-120b-heretic-v2-GGUF
     sources:
       - type: huggingface
-        user: "llmfan46"
-        repo: "gpt-oss-120b-heretic-v2-GGUF"
-  - key: "bartowski/kldzj_gpt-oss-120b-heretic-v2-GGUF"
+        user: mradermacher
+        repo: gpt-oss-120b-heretic-v2-GGUF
+  - key: huihui-ai/Huihui-gpt-oss-120b-BF16-abliterated
     sources:
       - type: huggingface
-        user: "bartowski"
-        repo: "kldzj_gpt-oss-120b-heretic-v2-GGUF"
-  - key: "bartowski/huizimao_gpt-oss-120b-uncensored-bf16-GGUF"
+        user: huihui-ai
+        repo: Huihui-gpt-oss-120b-BF16-abliterated
+  - key: llmfan46/gpt-oss-120b-heretic-v2-GGUF
     sources:
       - type: huggingface
-        user: "bartowski"
-        repo: "huizimao_gpt-oss-120b-uncensored-bf16-GGUF"
-  - key: "giladgd/gpt-oss-120b-GGUF"
+        user: llmfan46
+        repo: gpt-oss-120b-heretic-v2-GGUF
+  - key: bartowski/kldzj_gpt-oss-120b-heretic-v2-GGUF
     sources:
       - type: huggingface
-        user: "giladgd"
-        repo: "gpt-oss-120b-GGUF"
-  - key: "Jackrong/gpt-oss-120b-Distill-Phi-4-14B-GGUF"
+        user: bartowski
+        repo: kldzj_gpt-oss-120b-heretic-v2-GGUF
+  - key: bartowski/huizimao_gpt-oss-120b-uncensored-bf16-GGUF
     sources:
       - type: huggingface
-        user: "Jackrong"
-        repo: "gpt-oss-120b-Distill-Phi-4-14B-GGUF"
-  - key: "gghfez/gpt-oss-120b-Derestricted.MXFP4_MOE-gguf"
+        user: bartowski
+        repo: huizimao_gpt-oss-120b-uncensored-bf16-GGUF
+  - key: giladgd/gpt-oss-120b-GGUF
     sources:
       - type: huggingface
-        user: "gghfez"
-        repo: "gpt-oss-120b-Derestricted.MXFP4_MOE-gguf"
-  - key: "mradermacher/gpt-oss-120b-heretic-v1-GGUF"
+        user: giladgd
+        repo: gpt-oss-120b-GGUF
+  - key: Jackrong/gpt-oss-120b-Distill-Phi-4-14B-GGUF
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "gpt-oss-120b-heretic-v1-GGUF"
-  - key: "mradermacher/gpt-oss-120b-Distill-Llama3.1-8B-v1-GGUF"
+        user: Jackrong
+        repo: gpt-oss-120b-Distill-Phi-4-14B-GGUF
+  - key: gghfez/gpt-oss-120b-Derestricted.MXFP4_MOE-gguf
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "gpt-oss-120b-Distill-Llama3.1-8B-v1-GGUF"
-  - key: "mradermacher/OpenAI_GPT-OSS-120B_Pruned_REAP_58B-SafeTensors-i1-GGUF"
+        user: gghfez
+        repo: gpt-oss-120b-Derestricted.MXFP4_MOE-gguf
+  - key: mradermacher/gpt-oss-120b-heretic-v1-GGUF
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "OpenAI_GPT-OSS-120B_Pruned_REAP_58B-SafeTensors-i1-GGUF"
-  - key: "Calandracas/gpt-oss-120b-Derestricted-GGUF"
+        user: mradermacher
+        repo: gpt-oss-120b-heretic-v1-GGUF
+  - key: mradermacher/gpt-oss-120b-Distill-Llama3.1-8B-v1-GGUF
     sources:
       - type: huggingface
-        user: "Calandracas"
-        repo: "gpt-oss-120b-Derestricted-GGUF"
-  - key: "12bitmisfit/OpenAI_GPT-OSS-120B_Pruned_REAP_58B-GGUF"
+        user: mradermacher
+        repo: gpt-oss-120b-Distill-Llama3.1-8B-v1-GGUF
+  - key: mradermacher/OpenAI_GPT-OSS-120B_Pruned_REAP_58B-SafeTensors-i1-GGUF
     sources:
       - type: huggingface
-        user: "12bitmisfit"
-        repo: "OpenAI_GPT-OSS-120B_Pruned_REAP_58B-GGUF"
-  - key: "DavidAU/Openai_gpt-oss-120b-NEO-Imatrix-GGUF"
+        user: mradermacher
+        repo: OpenAI_GPT-OSS-120B_Pruned_REAP_58B-SafeTensors-i1-GGUF
+  - key: Calandracas/gpt-oss-120b-Derestricted-GGUF
     sources:
       - type: huggingface
-        user: "DavidAU"
-        repo: "Openai_gpt-oss-120b-NEO-Imatrix-GGUF"
-  - key: "Sabomako/gpt-oss-120b-ultra-heretic-GGUF"
+        user: Calandracas
+        repo: gpt-oss-120b-Derestricted-GGUF
+  - key: 12bitmisfit/OpenAI_GPT-OSS-120B_Pruned_REAP_58B-GGUF
     sources:
       - type: huggingface
-        user: "Sabomako"
-        repo: "gpt-oss-120b-ultra-heretic-GGUF"
-  - key: "bartowski/kldzj_gpt-oss-120b-heretic-GGUF"
+        user: 12bitmisfit
+        repo: OpenAI_GPT-OSS-120B_Pruned_REAP_58B-GGUF
+  - key: DavidAU/Openai_gpt-oss-120b-NEO-Imatrix-GGUF
     sources:
       - type: huggingface
-        user: "bartowski"
-        repo: "kldzj_gpt-oss-120b-heretic-GGUF"
-  - key: "Jackrong/gpt-oss-120b-Distill-Qwen3-1.7B-Thinking-GGUF"
+        user: DavidAU
+        repo: Openai_gpt-oss-120b-NEO-Imatrix-GGUF
+  - key: Sabomako/gpt-oss-120b-ultra-heretic-GGUF
     sources:
       - type: huggingface
-        user: "Jackrong"
-        repo: "gpt-oss-120b-Distill-Qwen3-1.7B-Thinking-GGUF"
-  - key: "DevQuasar/openai.gpt-oss-120b-GGUF"
+        user: Sabomako
+        repo: gpt-oss-120b-ultra-heretic-GGUF
+  - key: bartowski/kldzj_gpt-oss-120b-heretic-GGUF
     sources:
       - type: huggingface
-        user: "DevQuasar"
-        repo: "openai.gpt-oss-120b-GGUF"
-  - key: "bartowski/openai_gpt-oss-120b-GGUF-MXFP4-Experimental"
+        user: bartowski
+        repo: kldzj_gpt-oss-120b-heretic-GGUF
+  - key: Jackrong/gpt-oss-120b-Distill-Qwen3-1.7B-Thinking-GGUF
     sources:
       - type: huggingface
-        user: "bartowski"
-        repo: "openai_gpt-oss-120b-GGUF-MXFP4-Experimental"
-  - key: "mradermacher/gpt-oss-120b-Distill-Qwen3-4B-Thinking-i1-GGUF"
+        user: Jackrong
+        repo: gpt-oss-120b-Distill-Qwen3-1.7B-Thinking-GGUF
+  - key: DevQuasar/openai.gpt-oss-120b-GGUF
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "gpt-oss-120b-Distill-Qwen3-4B-Thinking-i1-GGUF"
-  - key: "mradermacher/OpenAI_GPT-OSS-120B_Pruned_REAP_58B-SafeTensors-GGUF"
+        user: DevQuasar
+        repo: openai.gpt-oss-120b-GGUF
+  - key: bartowski/openai_gpt-oss-120b-GGUF-MXFP4-Experimental
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "OpenAI_GPT-OSS-120B_Pruned_REAP_58B-SafeTensors-GGUF"
-  - key: "mradermacher/gpt-oss-120b-Guardpoint-i1-GGUF"
+        user: bartowski
+        repo: openai_gpt-oss-120b-GGUF-MXFP4-Experimental
+  - key: Jackrong/gpt-oss-120b-Distill-Llama3.1-8B-v2
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "gpt-oss-120b-Guardpoint-i1-GGUF"
-  - key: "mradermacher/gpt-oss-120b-heretic-v1-i1-GGUF"
+        user: Jackrong
+        repo: gpt-oss-120b-Distill-Llama3.1-8B-v2
+  - key: mradermacher/gpt-oss-120b-Distill-Qwen3-4B-Thinking-i1-GGUF
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "gpt-oss-120b-heretic-v1-i1-GGUF"
-  - key: "noctrex/Huihui-gpt-oss-120b-abliterated-MXFP4_MOE-GGUF"
+        user: mradermacher
+        repo: gpt-oss-120b-Distill-Qwen3-4B-Thinking-i1-GGUF
+  - key: mradermacher/OpenAI_GPT-OSS-120B_Pruned_REAP_58B-SafeTensors-GGUF
     sources:
       - type: huggingface
-        user: "noctrex"
-        repo: "Huihui-gpt-oss-120b-abliterated-MXFP4_MOE-GGUF"
-  - key: "eldar78/gpt-oss-120b-Distill-Qwen3-4B-Thinking-GGUF"
+        user: mradermacher
+        repo: OpenAI_GPT-OSS-120B_Pruned_REAP_58B-SafeTensors-GGUF
+  - key: mradermacher/gpt-oss-120b-Guardpoint-i1-GGUF
     sources:
       - type: huggingface
-        user: "eldar78"
-        repo: "gpt-oss-120b-Distill-Qwen3-4B-Thinking-GGUF"
-  - key: "MuXodious/gpt-oss-120b-tainted-heresy-GGUF"
+        user: mradermacher
+        repo: gpt-oss-120b-Guardpoint-i1-GGUF
+  - key: mradermacher/gpt-oss-120b-heretic-v1-i1-GGUF
     sources:
       - type: huggingface
-        user: "MuXodious"
-        repo: "gpt-oss-120b-tainted-heresy-GGUF"
-  - key: "mradermacher/gpt-oss-120b-tainted-heresy-i1-GGUF"
+        user: mradermacher
+        repo: gpt-oss-120b-heretic-v1-i1-GGUF
+  - key: noctrex/Huihui-gpt-oss-120b-abliterated-MXFP4_MOE-GGUF
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "gpt-oss-120b-tainted-heresy-i1-GGUF"
-  - key: "mradermacher/gpt-oss-120b-Distill-Llama3.1-8B-v2-i1-GGUF"
+        user: noctrex
+        repo: Huihui-gpt-oss-120b-abliterated-MXFP4_MOE-GGUF
+  - key: eldar78/gpt-oss-120b-Distill-Qwen3-4B-Thinking-GGUF
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "gpt-oss-120b-Distill-Llama3.1-8B-v2-i1-GGUF"
-  - key: "gabriellarson/gpt-oss-120b-GGUF"
+        user: eldar78
+        repo: gpt-oss-120b-Distill-Qwen3-4B-Thinking-GGUF
+  - key: MuXodious/gpt-oss-120b-tainted-heresy-GGUF
     sources:
       - type: huggingface
-        user: "gabriellarson"
-        repo: "gpt-oss-120b-GGUF"
-  - key: "mradermacher/gpt-oss-120b-tainted-heresy-GGUF"
+        user: MuXodious
+        repo: gpt-oss-120b-tainted-heresy-GGUF
+  - key: mradermacher/gpt-oss-120b-tainted-heresy-i1-GGUF
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "gpt-oss-120b-tainted-heresy-GGUF"
-  - key: "Jackrong/gpt-oss-120b-Distill-Llama3.1-8B-v3-GGUF"
+        user: mradermacher
+        repo: gpt-oss-120b-tainted-heresy-i1-GGUF
+  - key: mradermacher/gpt-oss-120b-Distill-Llama3.1-8B-v2-i1-GGUF
     sources:
       - type: huggingface
-        user: "Jackrong"
-        repo: "gpt-oss-120b-Distill-Llama3.1-8B-v3-GGUF"
-  - key: "mradermacher/gpt-oss-120b-Distill-Qwen3-4B-Thinking-GGUF"
+        user: mradermacher
+        repo: gpt-oss-120b-Distill-Llama3.1-8B-v2-i1-GGUF
+  - key: jaromer/GPTOSS-120B-Uncensored-HauhauCS-Aggressive
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "gpt-oss-120b-Distill-Qwen3-4B-Thinking-GGUF"
-  - key: "Userb1az/gpt-oss-120b-BF16-abliterated-GGUF"
+        user: jaromer
+        repo: GPTOSS-120B-Uncensored-HauhauCS-Aggressive
+  - key: gabriellarson/gpt-oss-120b-GGUF
     sources:
       - type: huggingface
-        user: "Userb1az"
-        repo: "gpt-oss-120b-BF16-abliterated-GGUF"
-  - key: "second-state/gpt-oss-120b-GGUF"
+        user: gabriellarson
+        repo: gpt-oss-120b-GGUF
+  - key: mradermacher/gpt-oss-120b-tainted-heresy-GGUF
     sources:
       - type: huggingface
-        user: "second-state"
-        repo: "gpt-oss-120b-GGUF"
-  - key: "Jackrong/gpt-oss-120b-Distill-Llama3.1-8B-v2-GGUF"
+        user: mradermacher
+        repo: gpt-oss-120b-tainted-heresy-GGUF
+  - key: Jackrong/gpt-oss-120b-Distill-Llama3.1-8B-v3-GGUF
     sources:
       - type: huggingface
-        user: "Jackrong"
-        repo: "gpt-oss-120b-Distill-Llama3.1-8B-v2-GGUF"
-  - key: "Sabomako/gpt-oss-120b-heretic-GGUF"
+        user: Jackrong
+        repo: gpt-oss-120b-Distill-Llama3.1-8B-v3-GGUF
+  - key: mradermacher/gpt-oss-120b-Distill-Qwen3-4B-Thinking-GGUF
     sources:
       - type: huggingface
-        user: "Sabomako"
-        repo: "gpt-oss-120b-heretic-GGUF"
-  - key: "Jackrong/gpt-oss-120b-Distill-Qwen3-1.7B-Thinking-test1-GGUF"
+        user: mradermacher
+        repo: gpt-oss-120b-Distill-Qwen3-4B-Thinking-GGUF
+  - key: Userb1az/gpt-oss-120b-BF16-abliterated-GGUF
     sources:
       - type: huggingface
-        user: "Jackrong"
-        repo: "gpt-oss-120b-Distill-Qwen3-1.7B-Thinking-test1-GGUF"
-  - key: "Jackrong/gpt-oss-120b-Distill-Qwen3-4B-Thinking-GGUF"
+        user: Userb1az
+        repo: gpt-oss-120b-BF16-abliterated-GGUF
+  - key: NotHereNorThere/qwen2.5-1.5b-distill_test-gpt-oss-120b-20examples-html
     sources:
       - type: huggingface
-        user: "Jackrong"
-        repo: "gpt-oss-120b-Distill-Qwen3-4B-Thinking-GGUF"
-  - key: "bobchenyx/gpt-oss-120b-GGUF"
+        user: NotHereNorThere
+        repo: qwen2.5-1.5b-distill_test-gpt-oss-120b-20examples-html
+  - key: second-state/gpt-oss-120b-GGUF
     sources:
       - type: huggingface
-        user: "bobchenyx"
-        repo: "gpt-oss-120b-GGUF"
-  - key: "mradermacher/Gpt-oss-120B-Qwen3-Distill-i1-GGUF"
+        user: second-state
+        repo: gpt-oss-120b-GGUF
+  - key: Jackrong/gpt-oss-120b-Distill-Llama3.1-8B-v2-GGUF
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "Gpt-oss-120B-Qwen3-Distill-i1-GGUF"
-  - key: "mradermacher/gpt-oss-120b-Guardpoint-GGUF"
+        user: Jackrong
+        repo: gpt-oss-120b-Distill-Llama3.1-8B-v2-GGUF
+  - key: Sabomako/gpt-oss-120b-heretic-GGUF
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "gpt-oss-120b-Guardpoint-GGUF"
-  - key: "timowu/gpt-oss-120b-Derestricted.MXFP4_MOE-gguf-split"
+        user: Sabomako
+        repo: gpt-oss-120b-heretic-GGUF
+  - key: Jackrong/gpt-oss-120b-Distill-Qwen3-1.7B-Thinking-test1-GGUF
     sources:
       - type: huggingface
-        user: "timowu"
-        repo: "gpt-oss-120b-Derestricted.MXFP4_MOE-gguf-split"
-  - key: "gaianet/gpt-oss-120b-GGUF"
+        user: Jackrong
+        repo: gpt-oss-120b-Distill-Qwen3-1.7B-Thinking-test1-GGUF
+  - key: Jackrong/gpt-oss-120b-Distill-Qwen3-4B-Thinking-GGUF
     sources:
       - type: huggingface
-        user: "gaianet"
-        repo: "gpt-oss-120b-GGUF"
-  - key: "mradermacher/gpt-oss-120b-uncensored-bf16-i1-GGUF"
+        user: Jackrong
+        repo: gpt-oss-120b-Distill-Qwen3-4B-Thinking-GGUF
+  - key: bobchenyx/gpt-oss-120b-GGUF
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "gpt-oss-120b-uncensored-bf16-i1-GGUF"
-  - key: "Userb1az/gpt-oss-120b-GGUF"
+        user: bobchenyx
+        repo: gpt-oss-120b-GGUF
+  - key: tripolskypetr/gpt-oss-120b
     sources:
       - type: huggingface
-        user: "Userb1az"
-        repo: "gpt-oss-120b-GGUF"
-  - key: "michaelwaves/amoral-gpt-oss-120b-Q4_K_M-gguf"
+        user: tripolskypetr
+        repo: gpt-oss-120b
+  - key: mradermacher/Gpt-oss-120B-Qwen3-Distill-i1-GGUF
     sources:
       - type: huggingface
-        user: "michaelwaves"
-        repo: "amoral-gpt-oss-120b-Q4_K_M-gguf"
-  - key: "mradermacher/Gpt-oss-120B-Qwen3-Distill-GGUF"
+        user: mradermacher
+        repo: Gpt-oss-120B-Qwen3-Distill-i1-GGUF
+  - key: mradermacher/gpt-oss-120b-Guardpoint-GGUF
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "Gpt-oss-120B-Qwen3-Distill-GGUF"
-  - key: "mradermacher/gpt-oss-120b-Distill-Llama3.1-8B-v2-GGUF"
+        user: mradermacher
+        repo: gpt-oss-120b-Guardpoint-GGUF
+  - key: timowu/gpt-oss-120b-Derestricted.MXFP4_MOE-gguf-split
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "gpt-oss-120b-Distill-Llama3.1-8B-v2-GGUF"
-  - key: "mradermacher/Huihui-gpt-oss-120b-BF16-abliterated-i1-GGUF"
+        user: timowu
+        repo: gpt-oss-120b-Derestricted.MXFP4_MOE-gguf-split
+  - key: Jackrong/gpt-oss-120b-Distill-Llama3.1-8B-v1
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "Huihui-gpt-oss-120b-BF16-abliterated-i1-GGUF"
-  - key: "Jackrong/gpt-oss-120b-Distill-Llama3.1-8B-v1-GGUF"
+        user: Jackrong
+        repo: gpt-oss-120b-Distill-Llama3.1-8B-v1
+  - key: Jackrong/gpt-oss-120b-Distill-Llama3.1-8B-v3
     sources:
       - type: huggingface
-        user: "Jackrong"
-        repo: "gpt-oss-120b-Distill-Llama3.1-8B-v1-GGUF"
-  - key: "mradermacher/gpt-oss-120b-Derestricted-i1-GGUF"
+        user: Jackrong
+        repo: gpt-oss-120b-Distill-Llama3.1-8B-v3
+  - key: gaianet/gpt-oss-120b-GGUF
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "gpt-oss-120b-Derestricted-i1-GGUF"
-  - key: "mradermacher/gpt-oss-120b-Distill-Llama3.1-8B-v1-i1-GGUF"
+        user: gaianet
+        repo: gpt-oss-120b-GGUF
+  - key: mradermacher/gpt-oss-120b-uncensored-bf16-i1-GGUF
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "gpt-oss-120b-Distill-Llama3.1-8B-v1-i1-GGUF"
-  - key: "Valeciela/gpt-oss-120b-BF16-GGUF"
+        user: mradermacher
+        repo: gpt-oss-120b-uncensored-bf16-i1-GGUF
+  - key: Userb1az/gpt-oss-120b-GGUF
     sources:
       - type: huggingface
-        user: "Valeciela"
-        repo: "gpt-oss-120b-BF16-GGUF"
-  - key: "HAJERI/gpt-oss-120b-endocrinology-scenario-mcq-it-fp16-gguf"
+        user: Userb1az
+        repo: gpt-oss-120b-GGUF
+  - key: michaelwaves/amoral-gpt-oss-120b-Q4_K_M-gguf
     sources:
       - type: huggingface
-        user: "HAJERI"
-        repo: "gpt-oss-120b-endocrinology-scenario-mcq-it-fp16-gguf"
-  - key: "Intel/gpt-oss-120b-gguf-q4ks-AutoRound"
+        user: michaelwaves
+        repo: amoral-gpt-oss-120b-Q4_K_M-gguf
+  - key: mradermacher/Gpt-oss-120B-Qwen3-Distill-GGUF
     sources:
       - type: huggingface
-        user: "Intel"
-        repo: "gpt-oss-120b-gguf-q4ks-AutoRound"
-  - key: "mradermacher/gpt-oss-120b-qwen3-8b-pointwise-distill-i1-GGUF"
+        user: mradermacher
+        repo: Gpt-oss-120B-Qwen3-Distill-GGUF
+  - key: mradermacher/GPTOSS-120B-Hanabi-GGUF
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "gpt-oss-120b-qwen3-8b-pointwise-distill-i1-GGUF"
-  - key: "babytifa/gpt-oss-120b.gguf"
+        user: mradermacher
+        repo: GPTOSS-120B-Hanabi-GGUF
+  - key: mradermacher/gpt-oss-120b-Distill-Llama3.1-8B-v2-GGUF
     sources:
       - type: huggingface
-        user: "babytifa"
-        repo: "gpt-oss-120b.gguf"
-  - key: "mradermacher/gpt-oss-120b-i1-GGUF"
+        user: mradermacher
+        repo: gpt-oss-120b-Distill-Llama3.1-8B-v2-GGUF
+  - key: mradermacher/Huihui-gpt-oss-120b-BF16-abliterated-i1-GGUF
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "gpt-oss-120b-i1-GGUF"
-  - key: "mradermacher/gpt-oss-120b-qwen3-8b-pointwise-no-think-distill-GGUF"
+        user: mradermacher
+        repo: Huihui-gpt-oss-120b-BF16-abliterated-i1-GGUF
+  - key: Jackrong/gpt-oss-120b-Distill-Llama3.1-8B-v1-GGUF
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "gpt-oss-120b-qwen3-8b-pointwise-no-think-distill-GGUF"
-  - key: "hrktos-37/GPT-OSS-120B-Heretic-GGUF"
+        user: Jackrong
+        repo: gpt-oss-120b-Distill-Llama3.1-8B-v1-GGUF
+  - key: mradermacher/Policy-Qwen3-14B_GPT-OSS-120B-GGUF
     sources:
       - type: huggingface
-        user: "hrktos-37"
-        repo: "GPT-OSS-120B-Heretic-GGUF"
-  - key: "mradermacher/gpt-oss-120b-heretic-v2-bf16-i1-GGUF"
+        user: mradermacher
+        repo: Policy-Qwen3-14B_GPT-OSS-120B-GGUF
+  - key: NotHereNorThere/qwen3-4b-200html-distill-gpt-oss-120b
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "gpt-oss-120b-heretic-v2-bf16-i1-GGUF"
-  - key: "michaelwaves/amoral-gpt-oss-120b-bfloat16-gguf"
+        user: NotHereNorThere
+        repo: qwen3-4b-200html-distill-gpt-oss-120b
+  - key: mradermacher/gpt-oss-120b-Derestricted-i1-GGUF
     sources:
       - type: huggingface
-        user: "michaelwaves"
-        repo: "amoral-gpt-oss-120b-bfloat16-gguf"
-  - key: "mradermacher/Huihui-gpt-oss-120b-mxfp4-abliterated-i1-GGUF"
+        user: mradermacher
+        repo: gpt-oss-120b-Derestricted-i1-GGUF
+  - key: mradermacher/gpt-oss-120b-Distill-Llama3.1-8B-v1-i1-GGUF
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "Huihui-gpt-oss-120b-mxfp4-abliterated-i1-GGUF"
-  - key: "mradermacher/gpt-oss-120b-qwen3-8b-pointwise-no-think-distill-i1-GGUF"
+        user: mradermacher
+        repo: gpt-oss-120b-Distill-Llama3.1-8B-v1-i1-GGUF
+  - key: Valeciela/gpt-oss-120b-BF16-GGUF
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "gpt-oss-120b-qwen3-8b-pointwise-no-think-distill-i1-GGUF"
-  - key: "mradermacher/gpt-oss-120b-heretic-i1-GGUF"
+        user: Valeciela
+        repo: gpt-oss-120b-BF16-GGUF
+  - key: HAJERI/gpt-oss-120b-endocrinology-scenario-mcq-it-fp16-gguf
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "gpt-oss-120b-heretic-i1-GGUF"
-  - key: "finalform/foam-gpt-oss-120B-GGUF"
+        user: HAJERI
+        repo: gpt-oss-120b-endocrinology-scenario-mcq-it-fp16-gguf
+  - key: Intel/gpt-oss-120b-gguf-q4ks-AutoRound
     sources:
       - type: huggingface
-        user: "finalform"
-        repo: "foam-gpt-oss-120B-GGUF"
-  - key: "mradermacher/gpt-oss-120b-mandarin-thinking-i1-GGUF"
+        user: Intel
+        repo: gpt-oss-120b-gguf-q4ks-AutoRound
+  - key: mradermacher/gpt-oss-120b-qwen3-8b-pointwise-distill-i1-GGUF
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "gpt-oss-120b-mandarin-thinking-i1-GGUF"
-  - key: "mradermacher/gpt-oss-120b-qwen3-8b-pointwise-distill-GGUF"
+        user: mradermacher
+        repo: gpt-oss-120b-qwen3-8b-pointwise-distill-i1-GGUF
+  - key: babytifa/gpt-oss-120b.gguf
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "gpt-oss-120b-qwen3-8b-pointwise-distill-GGUF"
-  - key: "HAJERI/gpt-oss-120b-endocrinology-scenario-mcq-it-Q8_0-gguf"
+        user: babytifa
+        repo: gpt-oss-120b.gguf
+  - key: mradermacher/gpt-oss-120b-i1-GGUF
     sources:
       - type: huggingface
-        user: "HAJERI"
-        repo: "gpt-oss-120b-endocrinology-scenario-mcq-it-Q8_0-gguf"
-  - key: "mradermacher/gpt-oss-120b-multilingual-reasoning-i1-GGUF"
+        user: mradermacher
+        repo: gpt-oss-120b-i1-GGUF
+  - key: mradermacher/Policy-Qwen3-8B_GPT-OSS-120B-GGUF
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "gpt-oss-120b-multilingual-reasoning-i1-GGUF"
-  - key: "xiaoniao000/huizimao_gpt-oss-120b-uncensored-bf16-GGUF"
+        user: mradermacher
+        repo: Policy-Qwen3-8B_GPT-OSS-120B-GGUF
+  - key: mradermacher/gpt-oss-120b-qwen3-8b-pointwise-no-think-distill-GGUF
     sources:
       - type: huggingface
-        user: "xiaoniao000"
-        repo: "huizimao_gpt-oss-120b-uncensored-bf16-GGUF"
-  - key: "majentik/gpt-oss-120b-RotorQuant-GGUF-IQ4_XS"
+        user: mradermacher
+        repo: gpt-oss-120b-qwen3-8b-pointwise-no-think-distill-GGUF
+  - key: hrktos-37/GPT-OSS-120B-Heretic-GGUF
     sources:
       - type: huggingface
-        user: "majentik"
-        repo: "gpt-oss-120b-RotorQuant-GGUF-IQ4_XS"
-  - key: "majentik/gpt-oss-120b-RotorQuant-GGUF-Q5_K_M"
+        user: hrktos-37
+        repo: GPT-OSS-120B-Heretic-GGUF
+  - key: mradermacher/gpt-oss-120b-heretic-v2-bf16-i1-GGUF
     sources:
       - type: huggingface
-        user: "majentik"
-        repo: "gpt-oss-120b-RotorQuant-GGUF-Q5_K_M"
-  - key: "majentik/gpt-oss-120b-RotorQuant-GGUF-Q4_K_M"
+        user: mradermacher
+        repo: gpt-oss-120b-heretic-v2-bf16-i1-GGUF
+  - key: BlacknodeLTDAI/gptoss120B
     sources:
       - type: huggingface
-        user: "majentik"
-        repo: "gpt-oss-120b-RotorQuant-GGUF-Q4_K_M"
-  - key: "majentik/gpt-oss-120b-RotorQuant-GGUF-Q2_K"
+        user: BlacknodeLTDAI
+        repo: gptoss120B
+  - key: michaelwaves/amoral-gpt-oss-120b-bfloat16-gguf
     sources:
       - type: huggingface
-        user: "majentik"
-        repo: "gpt-oss-120b-RotorQuant-GGUF-Q2_K"
-  - key: "majentik/gpt-oss-120b-RotorQuant-GGUF-Q3_K_M"
+        user: michaelwaves
+        repo: amoral-gpt-oss-120b-bfloat16-gguf
+  - key: mradermacher/Huihui-gpt-oss-120b-mxfp4-abliterated-i1-GGUF
     sources:
       - type: huggingface
-        user: "majentik"
-        repo: "gpt-oss-120b-RotorQuant-GGUF-Q3_K_M"
-  - key: "majentik/gpt-oss-120b-RotorQuant-GGUF-Q8_0"
+        user: mradermacher
+        repo: Huihui-gpt-oss-120b-mxfp4-abliterated-i1-GGUF
+  - key: mradermacher/gpt-oss-120b-qwen3-8b-pointwise-no-think-distill-i1-GGUF
     sources:
       - type: huggingface
-        user: "majentik"
-        repo: "gpt-oss-120b-RotorQuant-GGUF-Q8_0"
-  - key: "mradermacher/gpt-oss-120b-abliterated-i1-GGUF"
+        user: mradermacher
+        repo: gpt-oss-120b-qwen3-8b-pointwise-no-think-distill-i1-GGUF
+  - key: mradermacher/gpt-oss-120b-heretic-i1-GGUF
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "gpt-oss-120b-abliterated-i1-GGUF"
-  - key: "mradermacher/gpt-oss-120b-abliterated-GGUF"
+        user: mradermacher
+        repo: gpt-oss-120b-heretic-i1-GGUF
+  - key: finalform/foam-gpt-oss-120B-GGUF
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "gpt-oss-120b-abliterated-GGUF"
-  - key: "jerryzhuang/gpt-oss-120b-GGUF"
+        user: finalform
+        repo: foam-gpt-oss-120B-GGUF
+  - key: mradermacher/gpt-oss-120b-mandarin-thinking-i1-GGUF
     sources:
       - type: huggingface
-        user: "jerryzhuang"
-        repo: "gpt-oss-120b-GGUF"
-  - key: "lmstudio-community/gpt-oss-safeguard-120b-GGUF"
+        user: mradermacher
+        repo: gpt-oss-120b-mandarin-thinking-i1-GGUF
+  - key: mradermacher/gpt-oss-120b-qwen3-8b-pointwise-distill-GGUF
     sources:
       - type: huggingface
-        user: "lmstudio-community"
-        repo: "gpt-oss-safeguard-120b-GGUF"
-  - key: "mradermacher/gpt-oss-safeguard-120b-i1-GGUF"
+        user: mradermacher
+        repo: gpt-oss-120b-qwen3-8b-pointwise-distill-GGUF
+  - key: HAJERI/gpt-oss-120b-endocrinology-scenario-mcq-it-Q8_0-gguf
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "gpt-oss-safeguard-120b-i1-GGUF"
-  - key: "unsloth/gpt-oss-safeguard-120b-GGUF"
+        user: HAJERI
+        repo: gpt-oss-120b-endocrinology-scenario-mcq-it-Q8_0-gguf
+  - key: mradermacher/gpt-oss-120b-multilingual-reasoning-i1-GGUF
     sources:
       - type: huggingface
-        user: "unsloth"
-        repo: "gpt-oss-safeguard-120b-GGUF"
-  - key: "elvezjp/GPT-OSS-Swallow-120B-RL-v0.1-gguf"
+        user: mradermacher
+        repo: gpt-oss-120b-multilingual-reasoning-i1-GGUF
+  - key: hydaitw/gpt-oss-120b-mandarin-thinking
     sources:
       - type: huggingface
-        user: "elvezjp"
-        repo: "GPT-OSS-Swallow-120B-RL-v0.1-gguf"
-  - key: "mmnga-o/GPT-OSS-Swallow-120B-RL-v0.1-gguf"
+        user: hydaitw
+        repo: gpt-oss-120b-mandarin-thinking
+  - key: xiaoniao000/huizimao_gpt-oss-120b-uncensored-bf16-GGUF
     sources:
       - type: huggingface
-        user: "mmnga-o"
-        repo: "GPT-OSS-Swallow-120B-RL-v0.1-gguf"
-  - key: "mradermacher/GPT-OSS-Swallow-120B-RL-v0.1-GGUF"
+        user: xiaoniao000
+        repo: huizimao_gpt-oss-120b-uncensored-bf16-GGUF
+  - key: VECTORVV1/GPTOSS-120B-Aggressive
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "GPT-OSS-Swallow-120B-RL-v0.1-GGUF"
-  - key: "mradermacher/GPT-OSS-Swallow-120B-RL-v0.1-i1-GGUF"
+        user: VECTORVV1
+        repo: GPTOSS-120B-Aggressive
+  - key: majentik/gpt-oss-120b-RotorQuant-GGUF-IQ4_XS
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "GPT-OSS-Swallow-120B-RL-v0.1-i1-GGUF"
-  - key: "nobikko/GPT-OSS-Swallow-120B-RL-v0.1-GGUF"
+        user: majentik
+        repo: gpt-oss-120b-RotorQuant-GGUF-IQ4_XS
+  - key: majentik/gpt-oss-120b-RotorQuant-GGUF-Q5_K_M
     sources:
       - type: huggingface
-        user: "nobikko"
-        repo: "GPT-OSS-Swallow-120B-RL-v0.1-GGUF"
-  - key: "mradermacher/big-gpt-oss-GGUF"
+        user: majentik
+        repo: gpt-oss-120b-RotorQuant-GGUF-Q5_K_M
+  - key: majentik/gpt-oss-120b-RotorQuant-GGUF-Q4_K_M
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "big-gpt-oss-GGUF"
-  - key: "mradermacher/big-gpt-oss-i1-GGUF"
+        user: majentik
+        repo: gpt-oss-120b-RotorQuant-GGUF-Q4_K_M
+  - key: majentik/gpt-oss-120b-RotorQuant-GGUF-Q2_K
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "big-gpt-oss-i1-GGUF"
-  - key: "txn545/gpt-oss-gguf"
+        user: majentik
+        repo: gpt-oss-120b-RotorQuant-GGUF-Q2_K
+  - key: majentik/gpt-oss-120b-RotorQuant-GGUF-Q3_K_M
     sources:
       - type: huggingface
-        user: "txn545"
-        repo: "gpt-oss-gguf"
-  - key: "mradermacher/michaelwaves-Amoral-GPT-OSS-112E-GGUF"
+        user: majentik
+        repo: gpt-oss-120b-RotorQuant-GGUF-Q3_K_M
+  - key: majentik/gpt-oss-120b-RotorQuant-GGUF-Q8_0
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "michaelwaves-Amoral-GPT-OSS-112E-GGUF"
-  - key: "mradermacher/michaelwaves-Amoral-GPT-OSS-112E-i1-GGUF"
+        user: majentik
+        repo: gpt-oss-120b-RotorQuant-GGUF-Q8_0
+  - key: mradermacher/gpt-oss-120b-abliterated-i1-GGUF
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "michaelwaves-Amoral-GPT-OSS-112E-i1-GGUF"
-  - key: "ioiunius/GPT-OSS-20E-Abliterated-i1-GGUF"
+        user: mradermacher
+        repo: gpt-oss-120b-abliterated-i1-GGUF
+  - key: mradermacher/gpt-oss-120b-abliterated-GGUF
     sources:
       - type: huggingface
-        user: "ioiunius"
-        repo: "GPT-OSS-20E-Abliterated-i1-GGUF"
-  - key: "mradermacher/GPT-OSS-20E-Abliterated-GGUF"
+        user: mradermacher
+        repo: gpt-oss-120b-abliterated-GGUF
+  - key: jerryzhuang/gpt-oss-120b-GGUF
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "GPT-OSS-20E-Abliterated-GGUF"
-  - key: "mradermacher/GPT-OSS-20E-Abliterated-i1-GGUF"
+        user: jerryzhuang
+        repo: gpt-oss-120b-GGUF
+  - key: ababb123/GPTOSS-120B
     sources:
       - type: huggingface
-        user: "mradermacher"
-        repo: "GPT-OSS-20E-Abliterated-i1-GGUF"
-  - key: "ioiunius/GPT-OSS-26E-Abliterated-i1-GGUF"
-    sources:
-      - type: huggingface
-        user: "ioiunius"
-        repo: "GPT-OSS-26E-Abliterated-i1-GGUF"
-  - key: "mradermacher/GPT-OSS-26E-Abliterated-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "GPT-OSS-26E-Abliterated-GGUF"
-  - key: "mradermacher/GPT-OSS-26E-Abliterated-i1-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "GPT-OSS-26E-Abliterated-i1-GGUF"
-  - key: "Exorn/gpt-oss-504-GGUF"
-    sources:
-      - type: huggingface
-        user: "Exorn"
-        repo: "gpt-oss-504-GGUF"
-  - key: "mradermacher/gpt-oss-climate-finetuned-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "gpt-oss-climate-finetuned-GGUF"
-  - key: "mradermacher/gpt-oss-coderjs-v0.1-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "gpt-oss-coderjs-v0.1-GGUF"
-  - key: "mradermacher/gpt-oss-coderjs-v0.1-i1-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "gpt-oss-coderjs-v0.1-i1-GGUF"
-  - key: "RTannous/gpt-oss-finetuned-BF16-Q8_0-GGUF"
-    sources:
-      - type: huggingface
-        user: "RTannous"
-        repo: "gpt-oss-finetuned-BF16-Q8_0-GGUF"
-  - key: "m-polignano/ANITA-NEXT-20B-gpt-oss-ITA-GGUF"
-    sources:
-      - type: huggingface
-        user: "m-polignano"
-        repo: "ANITA-NEXT-20B-gpt-oss-ITA-GGUF"
-  - key: "mradermacher/ANITA-NEXT-20B-gpt-oss-ITA-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "ANITA-NEXT-20B-gpt-oss-ITA-GGUF"
-  - key: "mradermacher/ANITA-NEXT-20B-gpt-oss-ITA-i1-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "ANITA-NEXT-20B-gpt-oss-ITA-i1-GGUF"
-  - key: "mradermacher/gpt-oss-nano-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "gpt-oss-nano-GGUF"
-  - key: "mradermacher/gpt-oss-nano-i1-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "gpt-oss-nano-i1-GGUF"
-  - key: "mashriram/gpt-oss-Regular.gguf"
-    sources:
-      - type: huggingface
-        user: "mashriram"
-        repo: "gpt-oss-Regular.gguf"
-  - key: "mradermacher/gpt-oss-sarcastic-finetuning-v3-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "gpt-oss-sarcastic-finetuning-v3-GGUF"
-  - key: "mradermacher/gpt-oss-sarcastic-finetuning-v3-i1-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "gpt-oss-sarcastic-finetuning-v3-i1-GGUF"
-  - key: "mradermacher/GPT-oss-sft-s1K-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "GPT-oss-sft-s1K-GGUF"
-  - key: "mradermacher/GPT-oss-sft-s1K-i1-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "GPT-oss-sft-s1K-i1-GGUF"
-  - key: "muhammadhameed18106/gpt-oss-slide-mxfp4"
-    sources:
-      - type: huggingface
-        user: "muhammadhameed18106"
-        repo: "gpt-oss-slide-mxfp4"
-  - key: "lkh125/gpt-oss-therapist-mxfp4-gguf"
-    sources:
-      - type: huggingface
-        user: "lkh125"
-        repo: "gpt-oss-therapist-mxfp4-gguf"
-  - key: "AITRADER/Huihui-gpt-oss-120b-MLX-mxfp4"
-    sources:
-      - type: huggingface
-        user: "AITRADER"
-        repo: "Huihui-gpt-oss-120b-MLX-mxfp4"
-  - key: "LibraxisAI/gpt-oss-120b-mlx-mxfp4"
-    sources:
-      - type: huggingface
-        user: "LibraxisAI"
-        repo: "gpt-oss-120b-mlx-mxfp4"
-  - key: "medmekk/gpt-oss-120b-mxfp4"
-    sources:
-      - type: huggingface
-        user: "medmekk"
-        repo: "gpt-oss-120b-mxfp4"
-  - key: "mlx-community/gpt-oss-120b-mxfp4-bf16"
-    sources:
-      - type: huggingface
-        user: "mlx-community"
-        repo: "gpt-oss-120b-mxfp4-bf16"
-  - key: "mlx-community/gpt-oss-120b-MXFP4-Q4"
-    sources:
-      - type: huggingface
-        user: "mlx-community"
-        repo: "gpt-oss-120b-MXFP4-Q4"
-  - key: "mlx-community/gpt-oss-120b-MXFP4-Q8"
-    sources:
-      - type: huggingface
-        user: "mlx-community"
-        repo: "gpt-oss-120b-MXFP4-Q8"
-  - key: "ofidaner/gpt-oss-120b-mxfp4"
-    sources:
-      - type: huggingface
-        user: "ofidaner"
-        repo: "gpt-oss-120b-mxfp4"
-  - key: "root4k/gpt-oss-120b-mlx-mxfp4"
-    sources:
-      - type: huggingface
-        user: "root4k"
-        repo: "gpt-oss-120b-mlx-mxfp4"
-  - key: "sjug/gpt-oss-120b-mlx-mxfp4"
-    sources:
-      - type: huggingface
-        user: "sjug"
-        repo: "gpt-oss-120b-mlx-mxfp4"
-  - key: "xxrjun/gpt-oss-120b-mxfp4"
-    sources:
-      - type: huggingface
-        user: "xxrjun"
-        repo: "gpt-oss-120b-mxfp4"
-  - key: "YuCollection/gpt-oss-120b-mxfp4"
-    sources:
-      - type: huggingface
-        user: "YuCollection"
-        repo: "gpt-oss-120b-mxfp4"
-  - key: "zhaolizhang/gpt-oss-120b-aimo-mxfp4-v3"
-    sources:
-      - type: huggingface
-        user: "zhaolizhang"
-        repo: "gpt-oss-120b-aimo-mxfp4-v3"
-  - key: "RecursiveRouge/gpt-oss-120b-baked-mxfp4-61gb"
-    sources:
-      - type: huggingface
-        user: "RecursiveRouge"
-        repo: "gpt-oss-120b-baked-mxfp4-61gb"
-  - key: "justinjja/gpt-oss-120b-Derestricted-MXFP4"
-    sources:
-      - type: huggingface
-        user: "justinjja"
-        repo: "gpt-oss-120b-Derestricted-MXFP4"
-  - key: "txgsync/gpt-oss-120b-Derestricted-mxfp4-mlx"
-    sources:
-      - type: huggingface
-        user: "txgsync"
-        repo: "gpt-oss-120b-Derestricted-mxfp4-mlx"
-  - key: "thangnm96/gpt-oss-120b-expert-sft-mxfp4"
-    sources:
-      - type: huggingface
-        user: "thangnm96"
-        repo: "gpt-oss-120b-expert-sft-mxfp4"
-  - key: "nightmedia/gpt-oss-120b-heretic-mxfp4-q8-hi-mlx"
-    sources:
-      - type: huggingface
-        user: "nightmedia"
-        repo: "gpt-oss-120b-heretic-mxfp4-q8-hi-mlx"
-  - key: "nightmedia/gpt-oss-120b-heretic-v2-mxfp4-q8-hi-mlx"
-    sources:
-      - type: huggingface
-        user: "nightmedia"
-        repo: "gpt-oss-120b-heretic-v2-mxfp4-q8-hi-mlx"
-  - key: "GamerQuant/gpt-oss-120b-merged-mxfp4"
-    sources:
-      - type: huggingface
-        user: "GamerQuant"
-        repo: "gpt-oss-120b-merged-mxfp4"
-  - key: "RecursiveRouge/gpt-oss-120b-merged-mxfp4-i700"
-    sources:
-      - type: huggingface
-        user: "RecursiveRouge"
-        repo: "gpt-oss-120b-merged-mxfp4-i700"
-  - key: "barandinho/gpt-oss-120b-multilingual-reasoner-MXFP4"
-    sources:
-      - type: huggingface
-        user: "barandinho"
-        repo: "gpt-oss-120b-multilingual-reasoner-MXFP4"
-  - key: "batsclamp/Huihui-gpt-oss-120b-mxfp4-abliterated"
-    sources:
-      - type: huggingface
-        user: "batsclamp"
-        repo: "Huihui-gpt-oss-120b-mxfp4-abliterated"
-  - key: "mradermacher/Huihui-gpt-oss-120b-mxfp4-abliterated-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "Huihui-gpt-oss-120b-mxfp4-abliterated-GGUF"
-  - key: "jasperg662/gpt-oss-120b-mxfp4-fp8attn-v2"
-    sources:
-      - type: huggingface
-        user: "jasperg662"
-        repo: "gpt-oss-120b-mxfp4-fp8attn-v2"
-  - key: "medmekk/gpt-oss-120b-mxfp4-hf"
-    sources:
-      - type: huggingface
-        user: "medmekk"
-        repo: "gpt-oss-120b-mxfp4-hf"
-  - key: "2jan2026/gpt-oss-120b-mxfp4-quantized"
-    sources:
-      - type: huggingface
-        user: "2jan2026"
-        repo: "gpt-oss-120b-mxfp4-quantized"
-  - key: "YuCollection/gpt-oss-120b-original-mxfp4-mirror"
-    sources:
-      - type: huggingface
-        user: "YuCollection"
-        repo: "gpt-oss-120b-original-mxfp4-mirror"
-  - key: "MuXodious/gpt-oss-120b-tainted-heresy-mlx-MXFP4"
-    sources:
-      - type: huggingface
-        user: "MuXodious"
-        repo: "gpt-oss-120b-tainted-heresy-mlx-MXFP4"
-  - key: "huizimao/gpt-oss-120b-uncensored-mxfp4"
-    sources:
-      - type: huggingface
-        user: "huizimao"
-        repo: "gpt-oss-120b-uncensored-mxfp4"
-  - key: "amd/gpt-oss-120b-w-mxfp4-a-fp8"
-    sources:
-      - type: huggingface
-        user: "amd"
-        repo: "gpt-oss-120b-w-mxfp4-a-fp8"
-  - key: "raikonenamd/gpt-oss-120b-w-mxfp4-a-fp8-kv-fp8-fp8attn"
-    sources:
-      - type: huggingface
-        user: "raikonenamd"
-        repo: "gpt-oss-120b-w-mxfp4-a-fp8-kv-fp8-fp8attn"
-  - key: "amd/gpt-oss-120b-w-mxfp4-a-fp8-kv-fp8-fp8attn-no_lmhead_router"
-    sources:
-      - type: huggingface
-        user: "amd"
-        repo: "gpt-oss-120b-w-mxfp4-a-fp8-kv-fp8-fp8attn-no_lmhead_router"
-  - key: "amd/gpt-oss-120b-w-mxfp4-a-fp8-Mlperf"
-    sources:
-      - type: huggingface
-        user: "amd"
-        repo: "gpt-oss-120b-w-mxfp4-a-fp8-Mlperf"
-  - key: "jiaxwang/gpt-oss-120b-w-mxfp4-a-fp8-qkvo-ptpc-fp8-kv-fp8-fp8attn"
-    sources:
-      - type: huggingface
-        user: "jiaxwang"
-        repo: "gpt-oss-120b-w-mxfp4-a-fp8-qkvo-ptpc-fp8-kv-fp8-fp8attn"
-  - key: "jiaxwang/gpt-oss-120b-w-mxfp4-a-mxfp6-kv-fp8-fp8attn-gptq"
-    sources:
-      - type: huggingface
-        user: "jiaxwang"
-        repo: "gpt-oss-120b-w-mxfp4-a-mxfp6-kv-fp8-fp8attn-gptq"
-  - key: "jiaxwang/gpt-oss-120b-w-mxfp4-a-mxfp6-qkvo-mxfp6-kv-fp8-fp8attn"
-    sources:
-      - type: huggingface
-        user: "jiaxwang"
-        repo: "gpt-oss-120b-w-mxfp4-a-mxfp6-qkvo-mxfp6-kv-fp8-fp8attn"
-  - key: "Chenzhiz/aimo3_astral_gpt_oss_mxfp4"
-    sources:
-      - type: huggingface
-        user: "Chenzhiz"
-        repo: "aimo3_astral_gpt_oss_mxfp4"
-  - key: "echarlaix/tiny-random-gpt-oss-mxfp4"
-    sources:
-      - type: huggingface
-        user: "echarlaix"
-        repo: "tiny-random-gpt-oss-mxfp4"
-  - key: "optimum-intel-internal-testing/tiny-random-gpt-oss-mxfp4"
-    sources:
-      - type: huggingface
-        user: "optimum-intel-internal-testing"
-        repo: "tiny-random-gpt-oss-mxfp4"
-  - key: "tiny-random/gpt-oss-mxfp4"
-    sources:
-      - type: huggingface
-        user: "tiny-random"
-        repo: "gpt-oss-mxfp4"
-  - key: "tunahanf/GPT-OSS-MXFP4"
-    sources:
-      - type: huggingface
-        user: "tunahanf"
-        repo: "GPT-OSS-MXFP4"
-  - key: "MakiAi/gpt-oss-2048-rl-s10-r32-b1-mxfp4"
-    sources:
-      - type: huggingface
-        user: "MakiAi"
-        repo: "gpt-oss-2048-rl-s10-r32-b1-mxfp4"
-  - key: "MakiAi/gpt-oss-2048-rl-s3-r32-b1-mxfp4"
-    sources:
-      - type: huggingface
-        user: "MakiAi"
-        repo: "gpt-oss-2048-rl-s3-r32-b1-mxfp4"
-  - key: "paulprt/gpt-oss-edu-mxfp4"
-    sources:
-      - type: huggingface
-        user: "paulprt"
-        repo: "gpt-oss-edu-mxfp4"
-  - key: "ahm3texe/gpt-oss-finetune-mxfp4"
-    sources:
-      - type: huggingface
-        user: "ahm3texe"
-        repo: "gpt-oss-finetune-mxfp4"
-  - key: "Eduface/gpt-oss-finetune-mxfp4"
-    sources:
-      - type: huggingface
-        user: "Eduface"
-        repo: "gpt-oss-finetune-mxfp4"
-  - key: "AlexHung29629/gpt-oss-mb-v2-mxfp4"
-    sources:
-      - type: huggingface
-        user: "AlexHung29629"
-        repo: "gpt-oss-mb-v2-mxfp4"
-  - key: "AlexHung29629/gpt-oss-mb-v3-mxfp4-ep1"
-    sources:
-      - type: huggingface
-        user: "AlexHung29629"
-        repo: "gpt-oss-mb-v3-mxfp4-ep1"
-  - key: "AlexHung29629/gpt-oss-mb-v3-mxfp4-ep2"
-    sources:
-      - type: huggingface
-        user: "AlexHung29629"
-        repo: "gpt-oss-mb-v3-mxfp4-ep2"
-  - key: "AlexHung29629/gpt-oss-tau-rl-mxfp4"
-    sources:
-      - type: huggingface
-        user: "AlexHung29629"
-        repo: "gpt-oss-tau-rl-mxfp4"
-  - key: "yujiepan/gpt-oss-tiny-random-mxfp4"
-    sources:
-      - type: huggingface
-        user: "yujiepan"
-        repo: "gpt-oss-tiny-random-mxfp4"
-  - key: "tripolskypetr/gpt-oss-120b"
-    sources:
-      - type: huggingface
-        user: "tripolskypetr"
-        repo: "gpt-oss-120b"
-  - key: "huihui-ai/Huihui-gpt-oss-120b-BF16-abliterated"
-    sources:
-      - type: huggingface
-        user: "huihui-ai"
-        repo: "Huihui-gpt-oss-120b-BF16-abliterated"
-  - key: "Jackrong/gpt-oss-120b-Distill-Llama3.1-8B-v1"
-    sources:
-      - type: huggingface
-        user: "Jackrong"
-        repo: "gpt-oss-120b-Distill-Llama3.1-8B-v1"
-  - key: "Jackrong/gpt-oss-120b-Distill-Llama3.1-8B-v2"
-    sources:
-      - type: huggingface
-        user: "Jackrong"
-        repo: "gpt-oss-120b-Distill-Llama3.1-8B-v2"
-  - key: "Jackrong/gpt-oss-120b-Distill-Llama3.1-8B-v3"
-    sources:
-      - type: huggingface
-        user: "Jackrong"
-        repo: "gpt-oss-120b-Distill-Llama3.1-8B-v3"
-  - key: "hydaitw/gpt-oss-120b-mandarin-thinking"
-    sources:
-      - type: huggingface
-        user: "hydaitw"
-        repo: "gpt-oss-120b-mandarin-thinking"
-  - key: "VECTORVV1/GPTOSS-120B-Aggressive"
-    sources:
-      - type: huggingface
-        user: "VECTORVV1"
-        repo: "GPTOSS-120B-Aggressive"
-  - key: "mradermacher/GPTOSS-120B-Hanabi-GGUF"
-    sources:
-      - type: huggingface
-        user: "mradermacher"
-        repo: "GPTOSS-120B-Hanabi-GGUF"
-  - key: "HauhauCS/GPTOSS-120B-Uncensored-HauhauCS-Aggressive"
-    sources:
-      - type: huggingface
-        user: "HauhauCS"
-        repo: "GPTOSS-120B-Uncensored-HauhauCS-Aggressive"
-  - key: "jaromer/GPTOSS-120B-Uncensored-HauhauCS-Aggressive"
-    sources:
-      - type: huggingface
-        user: "jaromer"
-        repo: "GPTOSS-120B-Uncensored-HauhauCS-Aggressive"
-  - key: "teleprint-me/gpt-oss"
-    sources:
-      - type: huggingface
-        user: "teleprint-me"
-        repo: "gpt-oss"
-  - key: "jianxiansheng/gpt-oss-nano"
-    sources:
-      - type: huggingface
-        user: "jianxiansheng"
-        repo: "gpt-oss-nano"
-  - key: "squ11z1/gpt-oss-nano"
-    sources:
-      - type: huggingface
-        user: "squ11z1"
-        repo: "gpt-oss-nano"
-  - key: "loeclos/gpt-oss-sarcastic-finetuning-v2"
-    sources:
-      - type: huggingface
-        user: "loeclos"
-        repo: "gpt-oss-sarcastic-finetuning-v2"
-  - key: "tianrui6641/gpt-oss-vlm-merged"
-    sources:
-      - type: huggingface
-        user: "tianrui6641"
-        repo: "gpt-oss-vlm-merged"
-  - key: "synapse/ecu_consti_gguf_gptoss_q8"
-    sources:
-      - type: huggingface
-        user: "synapse"
-        repo: "ecu_consti_gguf_gptoss_q8"
-  - key: "WariHima/qwen3vl-8b-ja-gptoss-glm45-qwen3-235b-distil-26_02_12-Q4_K_M"
-    sources:
-      - type: huggingface
-        user: "WariHima"
-        repo: "qwen3vl-8b-ja-gptoss-glm45-qwen3-235b-distil-26_02_12-Q4_K_M"
-  - key: "WariHima/qwen3vl-8b-ja-gptoss-glm45-qwen3-235b-distil-pre-gguf"
-    sources:
-      - type: huggingface
-        user: "WariHima"
-        repo: "qwen3vl-8b-ja-gptoss-glm45-qwen3-235b-distil-pre-gguf"
-  - key: "oki692/gptoss-Q4_K_M-GGUF"
-    sources:
-      - type: huggingface
-        user: "oki692"
-        repo: "gptoss-Q4_K_M-GGUF"
+        user: ababb123
+        repo: GPTOSS-120B
 config:
   operation:
     fields:
