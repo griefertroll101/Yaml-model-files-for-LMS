@@ -822,6 +822,21 @@ base:
       - type: huggingface
         user: DuoNeural
         repo: Gemma-4-E4B-Frontend-GGUF
+  - key: "ktruestory/gemma-4-E4B-it-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "ktruestory"
+        repo: "gemma-4-E4B-it-GGUF"
+  - key: "hotdogs/gemma-4-E4B-it-ultra-uncensored-heretic-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "hotdogs"
+        repo: "gemma-4-E4B-it-ultra-uncensored-heretic-GGUF"
+  - key: "mradermacher/Aura-4o-Rebirth-Gemma-4-E4B-SOMPOA-heresy-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Aura-4o-Rebirth-Gemma-4-E4B-SOMPOA-heresy-GGUF"
 config:
   operation:
     fields:

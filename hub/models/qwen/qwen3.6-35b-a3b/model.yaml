@@ -922,6 +922,11 @@ base:
       - type: huggingface
         user: AstroJes
         repo: Qwen3.6-35B-A3B-MTP-GGUF
+  - key: "localweights/Qwen3.6-35B-A3B-MTP-IQ4_XS-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "localweights"
+        repo: "Qwen3.6-35B-A3B-MTP-IQ4_XS-GGUF"
 config:
   operation:
     fields:

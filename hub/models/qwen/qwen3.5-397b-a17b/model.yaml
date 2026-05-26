@@ -827,6 +827,61 @@ base:
       - type: huggingface
         user: Thireus
         repo: mtp-Qwen3.5-397B-A17B-THIREUS-Q4_0_R8-SPECIAL_SPLIT
+  - key: "Thireus/mtp-Qwen3.5-397B-A17B-THIREUS-Q5_0_R4-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "mtp-Qwen3.5-397B-A17B-THIREUS-Q5_0_R4-SPECIAL_SPLIT"
+  - key: "Thireus/mtp-Qwen3.5-397B-A17B-THIREUS-Q4_0-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "mtp-Qwen3.5-397B-A17B-THIREUS-Q4_0-SPECIAL_SPLIT"
+  - key: "Thireus/mtp-Qwen3.5-397B-A17B-THIREUS-Q4_K_R4-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "mtp-Qwen3.5-397B-A17B-THIREUS-Q4_K_R4-SPECIAL_SPLIT"
+  - key: "Thireus/mtp-Qwen3.5-397B-A17B-THIREUS-Q4_1-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "mtp-Qwen3.5-397B-A17B-THIREUS-Q4_1-SPECIAL_SPLIT"
+  - key: "Thireus/mtp-Qwen3.5-397B-A17B-THIREUS-Q5_0-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "mtp-Qwen3.5-397B-A17B-THIREUS-Q5_0-SPECIAL_SPLIT"
+  - key: "Thireus/mtp-Qwen3.5-397B-A17B-THIREUS-Q5_1-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "mtp-Qwen3.5-397B-A17B-THIREUS-Q5_1-SPECIAL_SPLIT"
+  - key: "Thireus/mtp-Qwen3.5-397B-A17B-THIREUS-Q5_K-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "mtp-Qwen3.5-397B-A17B-THIREUS-Q5_K-SPECIAL_SPLIT"
+  - key: "Thireus/mtp-Qwen3.5-397B-A17B-THIREUS-Q6_0-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "mtp-Qwen3.5-397B-A17B-THIREUS-Q6_0-SPECIAL_SPLIT"
+  - key: "Thireus/mtp-Qwen3.5-397B-A17B-THIREUS-Q6_0_R4-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "mtp-Qwen3.5-397B-A17B-THIREUS-Q6_0_R4-SPECIAL_SPLIT"
+  - key: "Thireus/mtp-Qwen3.5-397B-A17B-THIREUS-Q6_K-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "mtp-Qwen3.5-397B-A17B-THIREUS-Q6_K-SPECIAL_SPLIT"
+  - key: "Thireus/mtp-Qwen3.5-397B-A17B-THIREUS-Q8_KV-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "mtp-Qwen3.5-397B-A17B-THIREUS-Q8_KV-SPECIAL_SPLIT"
 config:
   operation:
     fields:

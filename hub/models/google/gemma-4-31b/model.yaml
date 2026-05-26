@@ -867,6 +867,16 @@ base:
       - type: huggingface
         user: mradermacher
         repo: Sprinkle-Vanilla-Gemma-4-31B-GGUF
+  - key: "mradermacher/Gemma4-31b-Gembrain-Equinox-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Gemma4-31b-Gembrain-Equinox-i1-GGUF"
+  - key: "mradermacher/Gemma-4-31B-storymaxxed2-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Gemma-4-31B-storymaxxed2-i1-GGUF"
 config:
   operation:
     fields:

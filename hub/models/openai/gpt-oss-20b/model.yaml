@@ -737,6 +737,11 @@ base:
       - type: huggingface
         user: gabriellarson
         repo: Huihui-gpt-oss-20b-BF16-abliterated-GGUF
+  - key: "mradermacher/gpt-oss-20b-heretic-scanner-V1-2-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "gpt-oss-20b-heretic-scanner-V1-2-i1-GGUF"
 config:
   operation:
     fields:

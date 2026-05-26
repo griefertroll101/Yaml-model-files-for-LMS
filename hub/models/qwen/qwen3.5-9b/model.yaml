@@ -947,6 +947,11 @@ base:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-9B-SOMPOA-heresy-MTP-GGUF
+  - key: "GestaltLabs/Qwen3.5-9B-NSC-ACE-SABER-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "GestaltLabs"
+        repo: "Qwen3.5-9B-NSC-ACE-SABER-GGUF"
 config:
   operation:
     fields:

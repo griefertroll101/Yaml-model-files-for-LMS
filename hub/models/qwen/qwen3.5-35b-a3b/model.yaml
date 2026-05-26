@@ -1012,6 +1012,41 @@ base:
       - type: huggingface
         user: Thireus
         repo: mtp-Qwen3.5-35B-A3B-THIREUS-IQ1_M_R4-SPECIAL_SPLIT
+  - key: "Z9wen/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive"
+    sources:
+      - type: "huggingface"
+        user: "Z9wen"
+        repo: "Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive"
+  - key: "mradermacher/Qwen3.5-35B-A3B-uncensored-heretic-v2-Native-MTP-Preserved-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Qwen3.5-35B-A3B-uncensored-heretic-v2-Native-MTP-Preserved-GGUF"
+  - key: "llmfan46/Qwen3.5-35B-A3B-uncensored-heretic-v2-Native-MTP-Preserved-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "llmfan46"
+        repo: "Qwen3.5-35B-A3B-uncensored-heretic-v2-Native-MTP-Preserved-GGUF"
+  - key: "llmfan46/Qwen3.5-35B-A3B-uncensored-heretic-v2-Native-MTP-Preserved-NVFP4-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "llmfan46"
+        repo: "Qwen3.5-35B-A3B-uncensored-heretic-v2-Native-MTP-Preserved-NVFP4-GGUF"
+  - key: "Thireus/mtp-Qwen3.5-35B-A3B-THIREUS-IQ5_K-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "mtp-Qwen3.5-35B-A3B-THIREUS-IQ5_K-SPECIAL_SPLIT"
+  - key: "Thireus/mtp-Qwen3.5-35B-A3B-THIREUS-IQ4_KT-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "mtp-Qwen3.5-35B-A3B-THIREUS-IQ4_KT-SPECIAL_SPLIT"
+  - key: "Thireus/mtp-Qwen3.5-35B-A3B-THIREUS-IQ4_KS-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "mtp-Qwen3.5-35B-A3B-THIREUS-IQ4_KS-SPECIAL_SPLIT"
 config:
   operation:
     fields:

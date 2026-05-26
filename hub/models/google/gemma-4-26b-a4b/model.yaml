@@ -867,6 +867,11 @@ base:
       - type: huggingface
         user: mradermacher
         repo: gemma-4-26B-A4B-Heretic-Stable-GGUF
+  - key: "ironbcc/gemma-4-26B-A4B-it-MTP-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "ironbcc"
+        repo: "gemma-4-26B-A4B-it-MTP-GGUF"
 config:
   operation:
     fields:

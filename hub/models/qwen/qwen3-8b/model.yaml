@@ -392,6 +392,16 @@ base:
       - type: huggingface
         user: ufoym
         repo: Qwen3-8B-Q4_K_M-GGUF
+  - key: "mradermacher/qwen3-8b-physics-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "qwen3-8b-physics-i1-GGUF"
+  - key: "mradermacher/X-Coder-SFT-Qwen3-8B-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "X-Coder-SFT-Qwen3-8B-i1-GGUF"
 config:
   operation:
     fields:

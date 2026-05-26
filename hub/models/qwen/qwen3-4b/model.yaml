@@ -287,6 +287,16 @@ base:
       - type: huggingface
         user: mradermacher
         repo: Josiefied-Qwen3-4B-abliterated-v2-GGUF
+  - key: "Alcoft/Qwen_Qwen3-4B-Thinking-2507-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "Alcoft"
+        repo: "Qwen_Qwen3-4B-Thinking-2507-GGUF"
+  - key: "electricpipelines/Qwen3-4B-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "electricpipelines"
+        repo: "Qwen3-4B-GGUF"
 config:
   operation:
     fields:

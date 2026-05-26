@@ -977,6 +977,16 @@ base:
       - type: huggingface
         user: Hdiebdksh
         repo: gemma-4-E2B-it-uncensored-IQ3_M-GGUF
+  - key: "lorinet3/gemma-4-E2B-swedish-exercise-generation-correction-v2-gguf"
+    sources:
+      - type: "huggingface"
+        user: "lorinet3"
+        repo: "gemma-4-E2B-swedish-exercise-generation-correction-v2-gguf"
+  - key: "titan087/gemma4-e2b-neon-veil-rp-v2"
+    sources:
+      - type: "huggingface"
+        user: "titan087"
+        repo: "gemma4-e2b-neon-veil-rp-v2"
 config:
   operation:
     fields:

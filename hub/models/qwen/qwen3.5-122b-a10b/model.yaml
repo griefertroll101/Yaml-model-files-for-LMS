@@ -852,6 +852,21 @@ base:
       - type: huggingface
         user: Thireus
         repo: mtp-Qwen3.5-122B-A10B-THIREUS-IQ3_S-SPECIAL_SPLIT
+  - key: "Thireus/mtp-Qwen3.5-122B-A10B-THIREUS-IQ4_KSS-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "mtp-Qwen3.5-122B-A10B-THIREUS-IQ4_KSS-SPECIAL_SPLIT"
+  - key: "Thireus/mtp-Qwen3.5-122B-A10B-THIREUS-IQ4_NL_R4-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "mtp-Qwen3.5-122B-A10B-THIREUS-IQ4_NL_R4-SPECIAL_SPLIT"
+  - key: "Thireus/mtp-Qwen3.5-122B-A10B-THIREUS-IQ4_KS_R4-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "mtp-Qwen3.5-122B-A10B-THIREUS-IQ4_KS_R4-SPECIAL_SPLIT"
 config:
   operation:
     fields:

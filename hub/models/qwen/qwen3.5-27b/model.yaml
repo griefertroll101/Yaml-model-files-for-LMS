@@ -1152,6 +1152,21 @@ base:
       - type: huggingface
         user: mradermacher
         repo: Qwen3.5-27B-Claude-4.6-OS-Auto-Variable-Heretic-Uncensored-Thinking-GGUF
+  - key: "llmfan46/Qwen3.5-27B-uncensored-heretic-v2-Native-MTP-Preserved-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "llmfan46"
+        repo: "Qwen3.5-27B-uncensored-heretic-v2-Native-MTP-Preserved-GGUF"
+  - key: "mradermacher/Qwen3.5-27B-uncensored-heretic-v2-Native-MTP-Preserved-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Qwen3.5-27B-uncensored-heretic-v2-Native-MTP-Preserved-GGUF"
+  - key: "llmfan46/Qwen3.5-27B-uncensored-heretic-v2-Native-MTP-Preserved-NVFP4-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "llmfan46"
+        repo: "Qwen3.5-27B-uncensored-heretic-v2-Native-MTP-Preserved-NVFP4-GGUF"
 config:
   operation:
     fields:

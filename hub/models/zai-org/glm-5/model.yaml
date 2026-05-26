@@ -617,6 +617,21 @@ base:
       - type: huggingface
         user: Thireus
         repo: GLM-5.1-THIREUS-IQ1_S_R4-SPECIAL_SPLIT
+  - key: "mradermacher/GLM-5_4layer-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "GLM-5_4layer-i1-GGUF"
+  - key: "meshllm/GLM-5-UD-Q4_K_XL-layers"
+    sources:
+      - type: "huggingface"
+        user: "meshllm"
+        repo: "GLM-5-UD-Q4_K_XL-layers"
+  - key: "mradermacher/GLM-5_4layer-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "GLM-5_4layer-GGUF"
 metadataOverrides:
   domain: llm
   architectures:

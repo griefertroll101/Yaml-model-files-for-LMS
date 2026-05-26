@@ -822,6 +822,16 @@ base:
       - type: huggingface
         user: abrasdaosfjnps
         repo: Qwen3.6-27B-uncensored-heretic-v2-Native-MTP-Preserved-GGUF
+  - key: "huytd189/Qwen3.6-27B-pure-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "huytd189"
+        repo: "Qwen3.6-27B-pure-GGUF"
+  - key: "Brian6145/Qwen3.6-27B-Claude-Opus-Sonnet-DistilledV2-MTP-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "Brian6145"
+        repo: "Qwen3.6-27B-Claude-Opus-Sonnet-DistilledV2-MTP-GGUF"
 config:
   operation:
     fields:

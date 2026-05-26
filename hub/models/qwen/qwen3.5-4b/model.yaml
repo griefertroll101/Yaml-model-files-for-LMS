@@ -132,7 +132,7 @@ base:
       - type: huggingface
         user: jc-builds
         repo: Qwen3.5-9B-Q4_K_M-GGUF
-  - key: jc-builds/qwen3.5-4b-q4_k_m-gguf
+  - key: jc-builds/Qwen3.5-4B-Q4_K_M-GGUF
     sources:
       - type: huggingface
         user: jc-builds
