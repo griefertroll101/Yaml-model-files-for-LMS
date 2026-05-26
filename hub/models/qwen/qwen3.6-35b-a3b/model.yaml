@@ -1322,6 +1322,11 @@ base:
       - type: huggingface
         user: "GestaltLabs"
         repo: "Qwen3.6-35B-A3B-NSC-ACE-SABER-GGUF-MTP"
+  - key: "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-V2-APEX-MTP-GGUF"
+    sources:
+      - type: huggingface
+        user: "LuffyTheFox"
+        repo: "Qwen3.6-35B-A3B-Uncensored-Genesis-V2-APEX-MTP-GGUF"
 config:
   operation:
     fields:
