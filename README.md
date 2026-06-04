@@ -21,13 +21,17 @@ Windows Location: C:\\Users\\%Username%\\.lmstudio
 
 Linux/Mac Location: ~/.lmstudio
 
-An issue you may run into is that your models may duplicate. If this happens go to C:\\Users\\%Username%\\.lmstudio\models choose the provider (will be in model tab under publisher) then drag the folder with the name of the duplicated model out of the publisher folder then back in. 
+An issue you may run into is that your models may duplicate. If this happens (this may fix it, some models it won't) go to C:\\Users\\%Username%\\.lmstudio\models choose the provider (will be in model tab under publisher) then drag the folder with the name of the duplicated model out of the publisher folder then back in. 
 
 ````
 %Username% = Name of the user on the PC e.g greg
 ````
 
 If you do not know the username for the PC then follow the folders one by one i.e start in the Local Disk (C:) then click on the users folder then select the folder that doesn't have the name Default or Public. Once you have selected the %username% folder .lmstudio should be among the folders in that folder.
+
+If all models disappear, try changing the top name of the YAML files from e.g. google/gemma-12b-it to bartowski/gemma-12b-it or you can try downloading the staff pick/lmstudio-community quant  (Yes, it sucks. LMS BS). 
+
+If any other issues come up, again DM me or put up a issue, I will get to it within a couple of hours.
 
 ## Individually
 
