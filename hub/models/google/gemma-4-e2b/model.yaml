@@ -1062,7 +1062,7 @@ metadataOverrides:
     - 2B
   minMemoryUsageBytes: 1500000000
   contextLengths:
-    - 262144
+    - 131072
   vision: true
   reasoning: true
   trainedForToolUse: true
