@@ -2,621 +2,621 @@
 # Learn more at https://modelyaml.org
 model: zai-org/glm-5
 base:
-  - key: unsloth/GLM-5.1-GGUF
-    sources:
-      - type: huggingface
-        user: unsloth
-        repo: GLM-5.1-GGUF
-  - key: unsloth/GLM-5-GGUF
-    sources:
-      - type: huggingface
-        user: unsloth
-        repo: GLM-5-GGUF
-  - key: ubergarm/GLM-5.1-GGUF
-    sources:
-      - type: huggingface
-        user: ubergarm
-        repo: GLM-5.1-GGUF
-  - key: bartowski/zai-org_GLM-5.1-GGUF
-    sources:
-      - type: huggingface
-        user: bartowski
-        repo: zai-org_GLM-5.1-GGUF
-  - key: mradermacher/Poe-8B-GLM5-Opus4.6-Sonnet4.5-Kimi-Grok-Gemini-3-pro-preview-HERETIC-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Poe-8B-GLM5-Opus4.6-Sonnet4.5-Kimi-Grok-Gemini-3-pro-preview-HERETIC-i1-GGUF
-  - key: DevQuasar/zai-org.GLM-5.1-GGUF
-    sources:
-      - type: huggingface
-        user: DevQuasar
-        repo: zai-org.GLM-5.1-GGUF
-  - key: DripGhad1223/Poe-8B-GLM5-Opus4.6-Sonnet4.5-Kimi-Grok-Gemini-3-pro-preview-HERETIC-i1-GGUF
-    sources:
-      - type: huggingface
-        user: DripGhad1223
-        repo: Poe-8B-GLM5-Opus4.6-Sonnet4.5-Kimi-Grok-Gemini-3-pro-preview-HERETIC-i1-GGUF
-  - key: mradermacher/Poe-8B-GLM5-Opus4.6-Sonnet4.5-Kimi-Grok-Gemini-3-pro-preview-HERETIC-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Poe-8B-GLM5-Opus4.6-Sonnet4.5-Kimi-Grok-Gemini-3-pro-preview-HERETIC-GGUF
-  - key: 0xSero/GLM-5-REAP-50pct-UD-IQ2_M-GGUF
-    sources:
-      - type: huggingface
-        user: 0xSero
-        repo: GLM-5-REAP-50pct-UD-IQ2_M-GGUF
-  - key: 0xSero/GLM-5-REAP-50pct-BF16-GGUF
-    sources:
-      - type: huggingface
-        user: 0xSero
-        repo: GLM-5-REAP-50pct-BF16-GGUF
-  - key: Maklei/GLM-5-pruned-Q4_K_M-GGUF
-    sources:
-      - type: huggingface
-        user: Maklei
-        repo: GLM-5-pruned-Q4_K_M-GGUF
-  - key: groxaxo/Qwen3.5-9B-GLM5.1-Distill-v1-GGUF
-    sources:
-      - type: huggingface
-        user: groxaxo
-        repo: Qwen3.5-9B-GLM5.1-Distill-v1-GGUF
-  - key: sokann/GLM-5.1-GGUF-1.673bpw
-    sources:
-      - type: huggingface
-        user: sokann
-        repo: GLM-5.1-GGUF-1.673bpw
-  - key: Thireus/GLM-5.1-THIREUS-BF16-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5.1-THIREUS-BF16-SPECIAL_SPLIT
-  - key: DevQuasar/zai-org.GLM-5-GGUF
-    sources:
-      - type: huggingface
-        user: DevQuasar
-        repo: zai-org.GLM-5-GGUF
-  - key: Gambet2026/Poe-8B-GLM5-Opus4.6-Sonnet4.5-Kimi-Grok-Gemini-3-pro-preview-HERETIC-i1-GGUF
-    sources:
-      - type: huggingface
-        user: Gambet2026
-        repo: Poe-8B-GLM5-Opus4.6-Sonnet4.5-Kimi-Grok-Gemini-3-pro-preview-HERETIC-i1-GGUF
-  - key: gghfez/GLM-5-control-vectors
-    sources:
-      - type: huggingface
-        user: gghfez
-        repo: GLM-5-control-vectors
-  - key: sokann/GLM-5-GGUF-1.594bpw
-    sources:
-      - type: huggingface
-        user: sokann
-        repo: GLM-5-GGUF-1.594bpw
-  - key: 0xSero/GLM-5.1-444B-A14B-REAP-GGUF
-    sources:
-      - type: huggingface
-        user: 0xSero
-        repo: GLM-5.1-444B-A14B-REAP-GGUF
-  - key: AesSedai/GLM-5-GGUF
-    sources:
-      - type: huggingface
-        user: AesSedai
-        repo: GLM-5-GGUF
-  - key: Jackrong/Qwen3.5-9B-GLM5.1-Distill-v1-GGUF
-    sources:
-      - type: huggingface
-        user: Jackrong
-        repo: Qwen3.5-9B-GLM5.1-Distill-v1-GGUF
-  - key: Thireus/GLM-5-THIREUS-IQ1_BN-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5-THIREUS-IQ1_BN-SPECIAL_SPLIT
-  - key: ubergarm/GLM-5-GGUF
-    sources:
-      - type: huggingface
-        user: ubergarm
-        repo: GLM-5-GGUF
-  - key: Thireus/GLM-5-THIREUS-IQ1_S_R4-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5-THIREUS-IQ1_S_R4-SPECIAL_SPLIT
-  - key: Thireus/GLM-5.1-THIREUS-IQ2_XS-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5.1-THIREUS-IQ2_XS-SPECIAL_SPLIT
-  - key: Thireus/GLM-5-THIREUS-IQ1_KT-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5-THIREUS-IQ1_KT-SPECIAL_SPLIT
-  - key: Thireus/GLM-5-THIREUS-IQ4_XS_R8-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5-THIREUS-IQ4_XS_R8-SPECIAL_SPLIT
-  - key: Jackrong/Qwen3.5-9B-GLM5.1-Distill-v1
-    sources:
-      - type: huggingface
-        user: Jackrong
-        repo: Qwen3.5-9B-GLM5.1-Distill-v1
-  - key: Thireus/GLM-5-THIREUS-Q4_1-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5-THIREUS-Q4_1-SPECIAL_SPLIT
-  - key: Thireus/GLM-5.1-THIREUS-IQ1_KT-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5.1-THIREUS-IQ1_KT-SPECIAL_SPLIT
-  - key: Thireus/GLM-5.1-THIREUS-IQ3_XXS_R4-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5.1-THIREUS-IQ3_XXS_R4-SPECIAL_SPLIT
-  - key: Thireus/GLM-5-THIREUS-IQ4_K-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5-THIREUS-IQ4_K-SPECIAL_SPLIT
-  - key: Thireus/GLM-5.1-THIREUS-IQ2_XXS_R4-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5.1-THIREUS-IQ2_XXS_R4-SPECIAL_SPLIT
-  - key: Thireus/GLM-5-THIREUS-Q2_K_R4-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5-THIREUS-Q2_K_R4-SPECIAL_SPLIT
-  - key: Thireus/GLM-5.1-THIREUS-IQ2_KT-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5.1-THIREUS-IQ2_KT-SPECIAL_SPLIT
-  - key: Thireus/GLM-5-THIREUS-Q8_K_R8-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5-THIREUS-Q8_K_R8-SPECIAL_SPLIT
-  - key: Thireus/GLM-5.1-THIREUS-IQ4_NL-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5.1-THIREUS-IQ4_NL-SPECIAL_SPLIT
-  - key: Doctor-Shotgun/GLM-5-GGUF
-    sources:
-      - type: huggingface
-        user: Doctor-Shotgun
-        repo: GLM-5-GGUF
-  - key: Thireus/GLM-5-THIREUS-IQ3_S-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5-THIREUS-IQ3_S-SPECIAL_SPLIT
-  - key: Thireus/GLM-5-THIREUS-IQ5_K_R4-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5-THIREUS-IQ5_K_R4-SPECIAL_SPLIT
-  - key: Thireus/GLM-5.1-THIREUS-Q8_0-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5.1-THIREUS-Q8_0-SPECIAL_SPLIT
-  - key: Thireus/GLM-5-THIREUS-IQ4_NL-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5-THIREUS-IQ4_NL-SPECIAL_SPLIT
-  - key: Thireus/GLM-5.1-THIREUS-IQ1_S-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5.1-THIREUS-IQ1_S-SPECIAL_SPLIT
-  - key: Thireus/GLM-5.1-THIREUS-IQ1_M_R4-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5.1-THIREUS-IQ1_M_R4-SPECIAL_SPLIT
-  - key: Thireus/GLM-5.1-THIREUS-IQ4_K-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5.1-THIREUS-IQ4_K-SPECIAL_SPLIT
-  - key: Thireus/GLM-5-THIREUS-Q4_0_R8-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5-THIREUS-Q4_0_R8-SPECIAL_SPLIT
-  - key: Thireus/GLM-5.1-THIREUS-Q5_K-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5.1-THIREUS-Q5_K-SPECIAL_SPLIT
-  - key: Thireus/GLM-5.1-THIREUS-IQ4_KSS-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5.1-THIREUS-IQ4_KSS-SPECIAL_SPLIT
-  - key: Thireus/GLM-5.1-THIREUS-IQ2_BN_R4-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5.1-THIREUS-IQ2_BN_R4-SPECIAL_SPLIT
-  - key: Thireus/GLM-5-THIREUS-Q4_0-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5-THIREUS-Q4_0-SPECIAL_SPLIT
-  - key: Thireus/GLM-5-THIREUS-Q6_K_R4-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5-THIREUS-Q6_K_R4-SPECIAL_SPLIT
-  - key: Thireus/GLM-5.1-THIREUS-Q2_K_R4-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5.1-THIREUS-Q2_K_R4-SPECIAL_SPLIT
-  - key: Thireus/GLM-5-THIREUS-IQ3_S_R4-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5-THIREUS-IQ3_S_R4-SPECIAL_SPLIT
-  - key: Thireus/GLM-5-THIREUS-IQ2_KS-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5-THIREUS-IQ2_KS-SPECIAL_SPLIT
-  - key: Thireus/GLM-5-THIREUS-IQ4_KSS-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5-THIREUS-IQ4_KSS-SPECIAL_SPLIT
-  - key: Thireus/GLM-5-THIREUS-IQ4_K_R4-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5-THIREUS-IQ4_K_R4-SPECIAL_SPLIT
-  - key: Thireus/GLM-5-THIREUS-IQ2_KT-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5-THIREUS-IQ2_KT-SPECIAL_SPLIT
-  - key: Thireus/GLM-5-THIREUS-Q5_1-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5-THIREUS-Q5_1-SPECIAL_SPLIT
-  - key: Thireus/GLM-5-THIREUS-Q2_K-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5-THIREUS-Q2_K-SPECIAL_SPLIT
-  - key: Thireus/GLM-5-THIREUS-IQ2_BN-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5-THIREUS-IQ2_BN-SPECIAL_SPLIT
-  - key: Thireus/GLM-5-THIREUS-IQ2_XXS_R4-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5-THIREUS-IQ2_XXS_R4-SPECIAL_SPLIT
-  - key: Thireus/GLM-5.1-THIREUS-Q4_0-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5.1-THIREUS-Q4_0-SPECIAL_SPLIT
-  - key: Thireus/GLM-5-THIREUS-IQ2_K_R4-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5-THIREUS-IQ2_K_R4-SPECIAL_SPLIT
-  - key: Thireus/GLM-5-THIREUS-Q8_KV-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5-THIREUS-Q8_KV-SPECIAL_SPLIT
-  - key: Thireus/GLM-5-THIREUS-IQ3_XXS_R4-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5-THIREUS-IQ3_XXS_R4-SPECIAL_SPLIT
-  - key: Thireus/GLM-5.1-THIREUS-IQ4_KS-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5.1-THIREUS-IQ4_KS-SPECIAL_SPLIT
-  - key: mradermacher/Qwen3.5-9B-GLM5.1-Distill-v1-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-9B-GLM5.1-Distill-v1-i1-GGUF
-  - key: Jackrong/Qwen3.5-27B-GLM5.1-Distill-v1-GGUF
-    sources:
-      - type: huggingface
-        user: Jackrong
-        repo: Qwen3.5-27B-GLM5.1-Distill-v1-GGUF
-  - key: mradermacher/Qwen3.5-9B-GLM5.1-Distill-v1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Qwen3.5-9B-GLM5.1-Distill-v1-GGUF
-  - key: huihui-ai/Huihui-GLM-5.1-abliterated-GGUF
-    sources:
-      - type: huggingface
-        user: huihui-ai
-        repo: Huihui-GLM-5.1-abliterated-GGUF
-  - key: 0xSero/GLM-5.1-555B-A14B-REAP-GGUF
-    sources:
-      - type: huggingface
-        user: 0xSero
-        repo: GLM-5.1-555B-A14B-REAP-GGUF
-  - key: Thireus/GLM-5.1-THIREUS-Q8_0_R8-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5.1-THIREUS-Q8_0_R8-SPECIAL_SPLIT
-  - key: Thireus/GLM-5.1-THIREUS-Q6_K_R4-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5.1-THIREUS-Q6_K_R4-SPECIAL_SPLIT
-  - key: Thireus/GLM-5.1-THIREUS-Q5_1-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5.1-THIREUS-Q5_1-SPECIAL_SPLIT
-  - key: Thireus/GLM-5.1-THIREUS-Q4_0_R8-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5.1-THIREUS-Q4_0_R8-SPECIAL_SPLIT
-  - key: Thireus/GLM-5.1-THIREUS-Q5_0-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5.1-THIREUS-Q5_0-SPECIAL_SPLIT
-  - key: Thireus/GLM-5.1-THIREUS-Q8_K_R8-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5.1-THIREUS-Q8_K_R8-SPECIAL_SPLIT
-  - key: Thireus/GLM-5.1-THIREUS-IQ4_NL_R4-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5.1-THIREUS-IQ4_NL_R4-SPECIAL_SPLIT
-  - key: Thireus/GLM-5.1-THIREUS-IQ2_K-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5.1-THIREUS-IQ2_K-SPECIAL_SPLIT
-  - key: Thireus/GLM-5.1-THIREUS-IQ5_K_R4-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5.1-THIREUS-IQ5_K_R4-SPECIAL_SPLIT
-  - key: chrisdemonxxx/Huihui-GLM-5.1-abliterated-GGUF
-    sources:
-      - type: huggingface
-        user: chrisdemonxxx
-        repo: Huihui-GLM-5.1-abliterated-GGUF
-  - key: Thireus/GLM-5.1-THIREUS-IQ4_K_R4-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5.1-THIREUS-IQ4_K_R4-SPECIAL_SPLIT
-  - key: Thireus/GLM-5.1-THIREUS-IQ3_KT-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5.1-THIREUS-IQ3_KT-SPECIAL_SPLIT
-  - key: Thireus/GLM-5.1-THIREUS-IQ3_S_R4-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5.1-THIREUS-IQ3_S_R4-SPECIAL_SPLIT
-  - key: Thireus/GLM-5.1-THIREUS-Q4_1-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5.1-THIREUS-Q4_1-SPECIAL_SPLIT
-  - key: Thireus/GLM-5.1-THIREUS-IQ4_XS_R8-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5.1-THIREUS-IQ4_XS_R8-SPECIAL_SPLIT
-  - key: Thireus/GLM-5.1-THIREUS-Q6_K-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5.1-THIREUS-Q6_K-SPECIAL_SPLIT
-  - key: Thireus/GLM-5.1-THIREUS-IQ3_K_R4-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5.1-THIREUS-IQ3_K_R4-SPECIAL_SPLIT
-  - key: Thireus/GLM-5.1-THIREUS-IQ5_KS_R4-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5.1-THIREUS-IQ5_KS_R4-SPECIAL_SPLIT
-  - key: Thireus/GLM-5.1-THIREUS-IQ2_K_R4-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5.1-THIREUS-IQ2_K_R4-SPECIAL_SPLIT
-  - key: Thireus/GLM-5.1-THIREUS-IQ3_KS-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5.1-THIREUS-IQ3_KS-SPECIAL_SPLIT
-  - key: Thireus/GLM-5.1-THIREUS-Q5_0_R4-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5.1-THIREUS-Q5_0_R4-SPECIAL_SPLIT
-  - key: Thireus/GLM-5.1-THIREUS-IQ4_KS_R4-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5.1-THIREUS-IQ4_KS_R4-SPECIAL_SPLIT
-  - key: Thireus/GLM-5.1-THIREUS-Q4_K_R4-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5.1-THIREUS-Q4_K_R4-SPECIAL_SPLIT
-  - key: Thireus/GLM-5.1-THIREUS-Q6_0-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5.1-THIREUS-Q6_0-SPECIAL_SPLIT
-  - key: storagejuju/glm-5.1-ud-iq2-m-juju
-    sources:
-      - type: huggingface
-        user: storagejuju
-        repo: glm-5.1-ud-iq2-m-juju
-  - key: meshllm/GLM-5.1-UD-Q4_K_XL-layers
-    sources:
-      - type: huggingface
-        user: meshllm
-        repo: GLM-5.1-UD-Q4_K_XL-layers
-  - key: mradermacher/Q3.5-9B-GLM-5.1-DA-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Q3.5-9B-GLM-5.1-DA-i1-GGUF
-  - key: prithivMLmods/Q3.6-27B-GLM-5.1-DA-GGUF
-    sources:
-      - type: huggingface
-        user: prithivMLmods
-        repo: Q3.6-27B-GLM-5.1-DA-GGUF
-  - key: prithivMLmods/Q3.5-9B-GLM-5.1-DA-GGUF
-    sources:
-      - type: huggingface
-        user: prithivMLmods
-        repo: Q3.5-9B-GLM-5.1-DA-GGUF
-  - key: mradermacher/GLM-5.1-Qwen3-1.7B-CoNDeNse-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: GLM-5.1-Qwen3-1.7B-CoNDeNse-i1-GGUF
-  - key: mradermacher/Q3.6-27B-GLM-5.1-DA-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Q3.6-27B-GLM-5.1-DA-i1-GGUF
-  - key: mradermacher/Q3.6-27B-GLM-5.1-DA-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Q3.6-27B-GLM-5.1-DA-GGUF
-  - key: batiai/GLM-5.1-GGUF
-    sources:
-      - type: huggingface
-        user: batiai
-        repo: GLM-5.1-GGUF
-  - key: sakamakismile/GLM-5.1-Abliterated-Dynamic-IQ3
-    sources:
-      - type: huggingface
-        user: sakamakismile
-        repo: GLM-5.1-Abliterated-Dynamic-IQ3
-  - key: cvgro/Q3.6-27B-GLM-5.1-DA-GGUF
-    sources:
-      - type: huggingface
-        user: cvgro
-        repo: Q3.6-27B-GLM-5.1-DA-GGUF
-  - key: AesSedai/GLM-5.1-GGUF
-    sources:
-      - type: huggingface
-        user: AesSedai
-        repo: GLM-5.1-GGUF
-  - key: mradermacher/Q3.5-9B-GLM-5.1-DA-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Q3.5-9B-GLM-5.1-DA-GGUF
-  - key: mradermacher/Distil-GLM5.1-Minute.Codex.NSFW-0.1B-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Distil-GLM5.1-Minute.Codex.NSFW-0.1B-GGUF
-  - key: mradermacher/GLM-5.1-Qwen3-1.7B-CoNDeNse-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: GLM-5.1-Qwen3-1.7B-CoNDeNse-GGUF
-  - key: yasserrmd/glm5.1-distill-GGUF
-    sources:
-      - type: huggingface
-        user: yasserrmd
-        repo: glm5.1-distill-GGUF
-  - key: CoNDeNse-AI/GLM-5.1-Qwen3-1.7B-CoNDeNse-GGUF
-    sources:
-      - type: huggingface
-        user: CoNDeNse-AI
-        repo: GLM-5.1-Qwen3-1.7B-CoNDeNse-GGUF
-  - key: arxorry/GLM-5.1-Abliterated-Q5_K_M-GGUF
-    sources:
-      - type: huggingface
-        user: arxorry
-        repo: GLM-5.1-Abliterated-Q5_K_M-GGUF
-  - key: mradermacher/GLM-5.1-Qwen3-0.6B-CoNDeNse-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: GLM-5.1-Qwen3-0.6B-CoNDeNse-GGUF
-  - key: andreasnbg/Huihui-GLM-5.1-abliterated-GGUF
-    sources:
-      - type: huggingface
-        user: andreasnbg
-        repo: Huihui-GLM-5.1-abliterated-GGUF
-  - key: Kakarikukuru/Huihui-GLM-5.1-abliterated-GGUF
-    sources:
-      - type: huggingface
-        user: Kakarikukuru
-        repo: Huihui-GLM-5.1-abliterated-GGUF
-  - key: CoNDeNse-AI/GLM-5.1-Qwen3-0.6B-CoNDeNse-GGUF
-    sources:
-      - type: huggingface
-        user: CoNDeNse-AI
-        repo: GLM-5.1-Qwen3-0.6B-CoNDeNse-GGUF
-  - key: Thireus/GLM-5.1-THIREUS-IQ2_KS-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5.1-THIREUS-IQ2_KS-SPECIAL_SPLIT
-  - key: Thireus/GLM-5.1-THIREUS-IQ3_XXS-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5.1-THIREUS-IQ3_XXS-SPECIAL_SPLIT
-  - key: Thireus/GLM-5.1-THIREUS-IQ1_M-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5.1-THIREUS-IQ1_M-SPECIAL_SPLIT
-  - key: Thireus/GLM-5.1-THIREUS-IQ2_XXS-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5.1-THIREUS-IQ2_XXS-SPECIAL_SPLIT
-  - key: 1663adr/Huihui-GLM-5.1-abliterated-GGUF
-    sources:
-      - type: huggingface
-        user: 1663adr
-        repo: Huihui-GLM-5.1-abliterated-GGUF
-  - key: Thireus/GLM-5.1-THIREUS-IQ1_S_R4-SPECIAL_SPLIT
-    sources:
-      - type: huggingface
-        user: Thireus
-        repo: GLM-5.1-THIREUS-IQ1_S_R4-SPECIAL_SPLIT
+  - key: "unsloth/GLM-5.1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "unsloth"
+        repo: "GLM-5.1-GGUF"
+  - key: "unsloth/GLM-5-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "unsloth"
+        repo: "GLM-5-GGUF"
+  - key: "ubergarm/GLM-5.1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "ubergarm"
+        repo: "GLM-5.1-GGUF"
+  - key: "bartowski/zai-org_GLM-5.1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "bartowski"
+        repo: "zai-org_GLM-5.1-GGUF"
+  - key: "mradermacher/Poe-8B-GLM5-Opus4.6-Sonnet4.5-Kimi-Grok-Gemini-3-pro-preview-HERETIC-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Poe-8B-GLM5-Opus4.6-Sonnet4.5-Kimi-Grok-Gemini-3-pro-preview-HERETIC-i1-GGUF"
+  - key: "DevQuasar/zai-org.GLM-5.1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "DevQuasar"
+        repo: "zai-org.GLM-5.1-GGUF"
+  - key: "DripGhad1223/Poe-8B-GLM5-Opus4.6-Sonnet4.5-Kimi-Grok-Gemini-3-pro-preview-HERETIC-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "DripGhad1223"
+        repo: "Poe-8B-GLM5-Opus4.6-Sonnet4.5-Kimi-Grok-Gemini-3-pro-preview-HERETIC-i1-GGUF"
+  - key: "mradermacher/Poe-8B-GLM5-Opus4.6-Sonnet4.5-Kimi-Grok-Gemini-3-pro-preview-HERETIC-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Poe-8B-GLM5-Opus4.6-Sonnet4.5-Kimi-Grok-Gemini-3-pro-preview-HERETIC-GGUF"
+  - key: "0xSero/GLM-5-REAP-50pct-UD-IQ2_M-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "0xSero"
+        repo: "GLM-5-REAP-50pct-UD-IQ2_M-GGUF"
+  - key: "0xSero/GLM-5-REAP-50pct-BF16-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "0xSero"
+        repo: "GLM-5-REAP-50pct-BF16-GGUF"
+  - key: "Maklei/GLM-5-pruned-Q4_K_M-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "Maklei"
+        repo: "GLM-5-pruned-Q4_K_M-GGUF"
+  - key: "groxaxo/Qwen3.5-9B-GLM5.1-Distill-v1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "groxaxo"
+        repo: "Qwen3.5-9B-GLM5.1-Distill-v1-GGUF"
+  - key: "sokann/GLM-5.1-GGUF-1.673bpw"
+    sources:
+      - type: "huggingface"
+        user: "sokann"
+        repo: "GLM-5.1-GGUF-1.673bpw"
+  - key: "Thireus/GLM-5.1-THIREUS-BF16-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5.1-THIREUS-BF16-SPECIAL_SPLIT"
+  - key: "DevQuasar/zai-org.GLM-5-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "DevQuasar"
+        repo: "zai-org.GLM-5-GGUF"
+  - key: "Gambet2026/Poe-8B-GLM5-Opus4.6-Sonnet4.5-Kimi-Grok-Gemini-3-pro-preview-HERETIC-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "Gambet2026"
+        repo: "Poe-8B-GLM5-Opus4.6-Sonnet4.5-Kimi-Grok-Gemini-3-pro-preview-HERETIC-i1-GGUF"
+  - key: "gghfez/GLM-5-control-vectors"
+    sources:
+      - type: "huggingface"
+        user: "gghfez"
+        repo: "GLM-5-control-vectors"
+  - key: "sokann/GLM-5-GGUF-1.594bpw"
+    sources:
+      - type: "huggingface"
+        user: "sokann"
+        repo: "GLM-5-GGUF-1.594bpw"
+  - key: "0xSero/GLM-5.1-444B-A14B-REAP-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "0xSero"
+        repo: "GLM-5.1-444B-A14B-REAP-GGUF"
+  - key: "AesSedai/GLM-5-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "AesSedai"
+        repo: "GLM-5-GGUF"
+  - key: "Jackrong/Qwen3.5-9B-GLM5.1-Distill-v1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "Jackrong"
+        repo: "Qwen3.5-9B-GLM5.1-Distill-v1-GGUF"
+  - key: "Thireus/GLM-5-THIREUS-IQ1_BN-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5-THIREUS-IQ1_BN-SPECIAL_SPLIT"
+  - key: "ubergarm/GLM-5-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "ubergarm"
+        repo: "GLM-5-GGUF"
+  - key: "Thireus/GLM-5-THIREUS-IQ1_S_R4-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5-THIREUS-IQ1_S_R4-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5.1-THIREUS-IQ2_XS-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5.1-THIREUS-IQ2_XS-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5-THIREUS-IQ1_KT-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5-THIREUS-IQ1_KT-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5-THIREUS-IQ4_XS_R8-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5-THIREUS-IQ4_XS_R8-SPECIAL_SPLIT"
+  - key: "Jackrong/Qwen3.5-9B-GLM5.1-Distill-v1"
+    sources:
+      - type: "huggingface"
+        user: "Jackrong"
+        repo: "Qwen3.5-9B-GLM5.1-Distill-v1"
+  - key: "Thireus/GLM-5-THIREUS-Q4_1-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5-THIREUS-Q4_1-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5.1-THIREUS-IQ1_KT-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5.1-THIREUS-IQ1_KT-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5.1-THIREUS-IQ3_XXS_R4-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5.1-THIREUS-IQ3_XXS_R4-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5-THIREUS-IQ4_K-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5-THIREUS-IQ4_K-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5.1-THIREUS-IQ2_XXS_R4-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5.1-THIREUS-IQ2_XXS_R4-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5-THIREUS-Q2_K_R4-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5-THIREUS-Q2_K_R4-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5.1-THIREUS-IQ2_KT-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5.1-THIREUS-IQ2_KT-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5-THIREUS-Q8_K_R8-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5-THIREUS-Q8_K_R8-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5.1-THIREUS-IQ4_NL-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5.1-THIREUS-IQ4_NL-SPECIAL_SPLIT"
+  - key: "Doctor-Shotgun/GLM-5-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "Doctor-Shotgun"
+        repo: "GLM-5-GGUF"
+  - key: "Thireus/GLM-5-THIREUS-IQ3_S-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5-THIREUS-IQ3_S-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5-THIREUS-IQ5_K_R4-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5-THIREUS-IQ5_K_R4-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5.1-THIREUS-Q8_0-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5.1-THIREUS-Q8_0-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5-THIREUS-IQ4_NL-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5-THIREUS-IQ4_NL-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5.1-THIREUS-IQ1_S-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5.1-THIREUS-IQ1_S-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5.1-THIREUS-IQ1_M_R4-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5.1-THIREUS-IQ1_M_R4-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5.1-THIREUS-IQ4_K-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5.1-THIREUS-IQ4_K-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5-THIREUS-Q4_0_R8-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5-THIREUS-Q4_0_R8-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5.1-THIREUS-Q5_K-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5.1-THIREUS-Q5_K-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5.1-THIREUS-IQ4_KSS-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5.1-THIREUS-IQ4_KSS-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5.1-THIREUS-IQ2_BN_R4-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5.1-THIREUS-IQ2_BN_R4-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5-THIREUS-Q4_0-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5-THIREUS-Q4_0-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5-THIREUS-Q6_K_R4-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5-THIREUS-Q6_K_R4-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5.1-THIREUS-Q2_K_R4-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5.1-THIREUS-Q2_K_R4-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5-THIREUS-IQ3_S_R4-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5-THIREUS-IQ3_S_R4-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5-THIREUS-IQ2_KS-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5-THIREUS-IQ2_KS-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5-THIREUS-IQ4_KSS-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5-THIREUS-IQ4_KSS-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5-THIREUS-IQ4_K_R4-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5-THIREUS-IQ4_K_R4-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5-THIREUS-IQ2_KT-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5-THIREUS-IQ2_KT-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5-THIREUS-Q5_1-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5-THIREUS-Q5_1-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5-THIREUS-Q2_K-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5-THIREUS-Q2_K-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5-THIREUS-IQ2_BN-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5-THIREUS-IQ2_BN-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5-THIREUS-IQ2_XXS_R4-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5-THIREUS-IQ2_XXS_R4-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5.1-THIREUS-Q4_0-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5.1-THIREUS-Q4_0-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5-THIREUS-IQ2_K_R4-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5-THIREUS-IQ2_K_R4-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5-THIREUS-Q8_KV-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5-THIREUS-Q8_KV-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5-THIREUS-IQ3_XXS_R4-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5-THIREUS-IQ3_XXS_R4-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5.1-THIREUS-IQ4_KS-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5.1-THIREUS-IQ4_KS-SPECIAL_SPLIT"
+  - key: "mradermacher/Qwen3.5-9B-GLM5.1-Distill-v1-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Qwen3.5-9B-GLM5.1-Distill-v1-i1-GGUF"
+  - key: "Jackrong/Qwen3.5-27B-GLM5.1-Distill-v1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "Jackrong"
+        repo: "Qwen3.5-27B-GLM5.1-Distill-v1-GGUF"
+  - key: "mradermacher/Qwen3.5-9B-GLM5.1-Distill-v1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Qwen3.5-9B-GLM5.1-Distill-v1-GGUF"
+  - key: "huihui-ai/Huihui-GLM-5.1-abliterated-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "huihui-ai"
+        repo: "Huihui-GLM-5.1-abliterated-GGUF"
+  - key: "0xSero/GLM-5.1-555B-A14B-REAP-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "0xSero"
+        repo: "GLM-5.1-555B-A14B-REAP-GGUF"
+  - key: "Thireus/GLM-5.1-THIREUS-Q8_0_R8-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5.1-THIREUS-Q8_0_R8-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5.1-THIREUS-Q6_K_R4-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5.1-THIREUS-Q6_K_R4-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5.1-THIREUS-Q5_1-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5.1-THIREUS-Q5_1-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5.1-THIREUS-Q4_0_R8-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5.1-THIREUS-Q4_0_R8-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5.1-THIREUS-Q5_0-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5.1-THIREUS-Q5_0-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5.1-THIREUS-Q8_K_R8-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5.1-THIREUS-Q8_K_R8-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5.1-THIREUS-IQ4_NL_R4-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5.1-THIREUS-IQ4_NL_R4-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5.1-THIREUS-IQ2_K-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5.1-THIREUS-IQ2_K-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5.1-THIREUS-IQ5_K_R4-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5.1-THIREUS-IQ5_K_R4-SPECIAL_SPLIT"
+  - key: "chrisdemonxxx/Huihui-GLM-5.1-abliterated-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "chrisdemonxxx"
+        repo: "Huihui-GLM-5.1-abliterated-GGUF"
+  - key: "Thireus/GLM-5.1-THIREUS-IQ4_K_R4-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5.1-THIREUS-IQ4_K_R4-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5.1-THIREUS-IQ3_KT-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5.1-THIREUS-IQ3_KT-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5.1-THIREUS-IQ3_S_R4-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5.1-THIREUS-IQ3_S_R4-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5.1-THIREUS-Q4_1-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5.1-THIREUS-Q4_1-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5.1-THIREUS-IQ4_XS_R8-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5.1-THIREUS-IQ4_XS_R8-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5.1-THIREUS-Q6_K-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5.1-THIREUS-Q6_K-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5.1-THIREUS-IQ3_K_R4-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5.1-THIREUS-IQ3_K_R4-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5.1-THIREUS-IQ5_KS_R4-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5.1-THIREUS-IQ5_KS_R4-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5.1-THIREUS-IQ2_K_R4-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5.1-THIREUS-IQ2_K_R4-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5.1-THIREUS-IQ3_KS-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5.1-THIREUS-IQ3_KS-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5.1-THIREUS-Q5_0_R4-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5.1-THIREUS-Q5_0_R4-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5.1-THIREUS-IQ4_KS_R4-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5.1-THIREUS-IQ4_KS_R4-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5.1-THIREUS-Q4_K_R4-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5.1-THIREUS-Q4_K_R4-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5.1-THIREUS-Q6_0-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5.1-THIREUS-Q6_0-SPECIAL_SPLIT"
+  - key: "storagejuju/glm-5.1-ud-iq2-m-juju"
+    sources:
+      - type: "huggingface"
+        user: "storagejuju"
+        repo: "glm-5.1-ud-iq2-m-juju"
+  - key: "meshllm/GLM-5.1-UD-Q4_K_XL-layers"
+    sources:
+      - type: "huggingface"
+        user: "meshllm"
+        repo: "GLM-5.1-UD-Q4_K_XL-layers"
+  - key: "mradermacher/Q3.5-9B-GLM-5.1-DA-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Q3.5-9B-GLM-5.1-DA-i1-GGUF"
+  - key: "prithivMLmods/Q3.6-27B-GLM-5.1-DA-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "prithivMLmods"
+        repo: "Q3.6-27B-GLM-5.1-DA-GGUF"
+  - key: "prithivMLmods/Q3.5-9B-GLM-5.1-DA-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "prithivMLmods"
+        repo: "Q3.5-9B-GLM-5.1-DA-GGUF"
+  - key: "mradermacher/GLM-5.1-Qwen3-1.7B-CoNDeNse-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "GLM-5.1-Qwen3-1.7B-CoNDeNse-i1-GGUF"
+  - key: "mradermacher/Q3.6-27B-GLM-5.1-DA-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Q3.6-27B-GLM-5.1-DA-i1-GGUF"
+  - key: "mradermacher/Q3.6-27B-GLM-5.1-DA-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Q3.6-27B-GLM-5.1-DA-GGUF"
+  - key: "batiai/GLM-5.1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "batiai"
+        repo: "GLM-5.1-GGUF"
+  - key: "sakamakismile/GLM-5.1-Abliterated-Dynamic-IQ3"
+    sources:
+      - type: "huggingface"
+        user: "sakamakismile"
+        repo: "GLM-5.1-Abliterated-Dynamic-IQ3"
+  - key: "cvgro/Q3.6-27B-GLM-5.1-DA-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "cvgro"
+        repo: "Q3.6-27B-GLM-5.1-DA-GGUF"
+  - key: "AesSedai/GLM-5.1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "AesSedai"
+        repo: "GLM-5.1-GGUF"
+  - key: "mradermacher/Q3.5-9B-GLM-5.1-DA-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Q3.5-9B-GLM-5.1-DA-GGUF"
+  - key: "mradermacher/Distil-GLM5.1-Minute.Codex.NSFW-0.1B-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Distil-GLM5.1-Minute.Codex.NSFW-0.1B-GGUF"
+  - key: "mradermacher/GLM-5.1-Qwen3-1.7B-CoNDeNse-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "GLM-5.1-Qwen3-1.7B-CoNDeNse-GGUF"
+  - key: "yasserrmd/glm5.1-distill-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "yasserrmd"
+        repo: "glm5.1-distill-GGUF"
+  - key: "CoNDeNse-AI/GLM-5.1-Qwen3-1.7B-CoNDeNse-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "CoNDeNse-AI"
+        repo: "GLM-5.1-Qwen3-1.7B-CoNDeNse-GGUF"
+  - key: "arxorry/GLM-5.1-Abliterated-Q5_K_M-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "arxorry"
+        repo: "GLM-5.1-Abliterated-Q5_K_M-GGUF"
+  - key: "mradermacher/GLM-5.1-Qwen3-0.6B-CoNDeNse-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "GLM-5.1-Qwen3-0.6B-CoNDeNse-GGUF"
+  - key: "andreasnbg/Huihui-GLM-5.1-abliterated-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "andreasnbg"
+        repo: "Huihui-GLM-5.1-abliterated-GGUF"
+  - key: "Kakarikukuru/Huihui-GLM-5.1-abliterated-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "Kakarikukuru"
+        repo: "Huihui-GLM-5.1-abliterated-GGUF"
+  - key: "CoNDeNse-AI/GLM-5.1-Qwen3-0.6B-CoNDeNse-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "CoNDeNse-AI"
+        repo: "GLM-5.1-Qwen3-0.6B-CoNDeNse-GGUF"
+  - key: "Thireus/GLM-5.1-THIREUS-IQ2_KS-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5.1-THIREUS-IQ2_KS-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5.1-THIREUS-IQ3_XXS-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5.1-THIREUS-IQ3_XXS-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5.1-THIREUS-IQ1_M-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5.1-THIREUS-IQ1_M-SPECIAL_SPLIT"
+  - key: "Thireus/GLM-5.1-THIREUS-IQ2_XXS-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5.1-THIREUS-IQ2_XXS-SPECIAL_SPLIT"
+  - key: "1663adr/Huihui-GLM-5.1-abliterated-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "1663adr"
+        repo: "Huihui-GLM-5.1-abliterated-GGUF"
+  - key: "Thireus/GLM-5.1-THIREUS-IQ1_S_R4-SPECIAL_SPLIT"
+    sources:
+      - type: "huggingface"
+        user: "Thireus"
+        repo: "GLM-5.1-THIREUS-IQ1_S_R4-SPECIAL_SPLIT"
   - key: "mradermacher/GLM-5_4layer-i1-GGUF"
     sources:
       - type: "huggingface"
@@ -632,6 +632,41 @@ base:
       - type: "huggingface"
         user: "mradermacher"
         repo: "GLM-5_4layer-GGUF"
+  - key: "mradermacher/GLM-5_5layer-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "GLM-5_5layer-i1-GGUF"
+  - key: "Fredred89/Qwen3.5-27B-GLM5.1-Distill-v1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "Fredred89"
+        repo: "Qwen3.5-27B-GLM5.1-Distill-v1-GGUF"
+  - key: "mradermacher/GLM-5_5layer-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "GLM-5_5layer-GGUF"
+  - key: "0xSero/GLM-5.1-555B-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "0xSero"
+        repo: "GLM-5.1-555B-GGUF"
+  - key: "0xSero/GLM-5-381B-GGUF-IQ2_M"
+    sources:
+      - type: "huggingface"
+        user: "0xSero"
+        repo: "GLM-5-381B-GGUF-IQ2_M"
+  - key: "mradermacher/GLM-5.1-Abliterated-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "GLM-5.1-Abliterated-i1-GGUF"
+  - key: "0xSero/GLM-5.1-444B-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "0xSero"
+        repo: "GLM-5.1-444B-GGUF"
 metadataOverrides:
   domain: llm
   architectures:

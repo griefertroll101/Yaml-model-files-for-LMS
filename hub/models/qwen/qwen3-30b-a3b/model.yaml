@@ -2,356 +2,381 @@
 # Learn more at https://modelyaml.org
 model: qwen/qwen3-30b-a3b
 base:
-  - key: MaziyarPanahi/Qwen3-30B-A3B-GGUF
-    sources:
-      - type: huggingface
-        user: MaziyarPanahi
-        repo: Qwen3-30B-A3B-GGUF
-  - key: MaziyarPanahi/Qwen3-30B-A3B-Instruct-2507-GGUF
-    sources:
-      - type: huggingface
-        user: MaziyarPanahi
-        repo: Qwen3-30B-A3B-Instruct-2507-GGUF
-  - key: unsloth/Qwen3-30B-A3B-Instruct-2507-GGUF
-    sources:
-      - type: huggingface
-        user: unsloth
-        repo: Qwen3-30B-A3B-Instruct-2507-GGUF
-  - key: unsloth/Qwen3-30B-A3B-GGUF
-    sources:
-      - type: huggingface
-        user: unsloth
-        repo: Qwen3-30B-A3B-GGUF
-  - key: TeichAI/Qwen3-30B-A3B-Thinking-2507-Claude-4.5-Sonnet-High-Reasoning-Distill-GGUF
-    sources:
-      - type: huggingface
-        user: TeichAI
-        repo: Qwen3-30B-A3B-Thinking-2507-Claude-4.5-Sonnet-High-Reasoning-Distill-GGUF
-  - key: mradermacher/Qwen3-30b-a3b-indic-v2-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Qwen3-30b-a3b-indic-v2-i1-GGUF
-  - key: mradermacher/Qwen3-30B-A3B-abliterated-erotic-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Qwen3-30B-A3B-abliterated-erotic-i1-GGUF
-  - key: Qwen/Qwen3-30B-A3B-GGUF
-    sources:
-      - type: huggingface
-        user: Qwen
-        repo: Qwen3-30B-A3B-GGUF
-  - key: bartowski/Qwen_Qwen3-30B-A3B-GGUF
-    sources:
-      - type: huggingface
-        user: bartowski
-        repo: Qwen_Qwen3-30B-A3B-GGUF
-  - key: mradermacher/Qwen3-30B-A3B-YOYO-Thinking-Chimera-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Qwen3-30B-A3B-YOYO-Thinking-Chimera-i1-GGUF
-  - key: mradermacher/Qwen3-30B-A3B-Architect18-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Qwen3-30B-A3B-Architect18-i1-GGUF
-  - key: lmstudio-community/Qwen3-30B-A3B-Instruct-2507-GGUF
-    sources:
-      - type: huggingface
-        user: lmstudio-community
-        repo: Qwen3-30B-A3B-Instruct-2507-GGUF
-  - key: unsloth/Qwen3-30B-A3B-Thinking-2507-GGUF
-    sources:
-      - type: huggingface
-        user: unsloth
-        repo: Qwen3-30B-A3B-Thinking-2507-GGUF
-  - key: bartowski/Qwen_Qwen3-30B-A3B-Instruct-2507-GGUF
-    sources:
-      - type: huggingface
-        user: bartowski
-        repo: Qwen_Qwen3-30B-A3B-Instruct-2507-GGUF
-  - key: lmstudio-community/Qwen3-30B-A3B-GGUF
-    sources:
-      - type: huggingface
-        user: lmstudio-community
-        repo: Qwen3-30B-A3B-GGUF
-  - key: byteshape/Qwen3-30B-A3B-Instruct-2507-GGUF
-    sources:
-      - type: huggingface
-        user: byteshape
-        repo: Qwen3-30B-A3B-Instruct-2507-GGUF
-  - key: typhoon-ai/typhoon2.5-qwen3-30b-a3b-gguf
-    sources:
-      - type: huggingface
-        user: typhoon-ai
-        repo: typhoon2.5-qwen3-30b-a3b-gguf
-  - key: unsloth/Qwen3-30B-A3B-128K-GGUF
-    sources:
-      - type: huggingface
-        user: unsloth
-        repo: Qwen3-30B-A3B-128K-GGUF
-  - key: mradermacher/Qwen3-30B-A3B-Gemini-Pro-High-Reasoning-2507-ABLITERATED-UNCENSORED-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Qwen3-30B-A3B-Gemini-Pro-High-Reasoning-2507-ABLITERATED-UNCENSORED-i1-GGUF
-  - key: mradermacher/Qwen3-30B-A3B-YOYO-AutoThink-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Qwen3-30B-A3B-YOYO-AutoThink-i1-GGUF
-  - key: mmnga/Aratako-Qwen3-30B-A3B-NSFW-JP-gguf
-    sources:
-      - type: huggingface
-        user: mmnga
-        repo: Aratako-Qwen3-30B-A3B-NSFW-JP-gguf
-  - key: mradermacher/Qwen3-30B-A3B-Deepseek-Distill-Instruct-2507-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Qwen3-30B-A3B-Deepseek-Distill-Instruct-2507-i1-GGUF
-  - key: mradermacher/Huihui-Qwen3-30B-A3B-abliterated-Fusion-5050-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Huihui-Qwen3-30B-A3B-abliterated-Fusion-5050-i1-GGUF
-  - key: mradermacher/Qwen3-30B-A3B-abliterated-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Qwen3-30B-A3B-abliterated-GGUF
-  - key: mradermacher/Qwen3-30B-A3B-Instruct-2507-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Qwen3-30B-A3B-Instruct-2507-i1-GGUF
-  - key: mradermacher/Qwen3-30B-A3B-Thinking-2507-Deepseek-v3.1-Distill-V2-FP32-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Qwen3-30B-A3B-Thinking-2507-Deepseek-v3.1-Distill-V2-FP32-i1-GGUF
-  - key: Anachronox39/Qwen3-30B-A3B-abliterated-erotic-i1-GGUF
-    sources:
-      - type: huggingface
-        user: Anachronox39
-        repo: Qwen3-30B-A3B-abliterated-erotic-i1-GGUF
-  - key: bartowski/Qwen_Qwen3-30B-A3B-Thinking-2507-GGUF
-    sources:
-      - type: huggingface
-        user: bartowski
-        repo: Qwen_Qwen3-30B-A3B-Thinking-2507-GGUF
-  - key: Aratako/Qwen3-30B-A3B-ERP-v0.1-GGUF
-    sources:
-      - type: huggingface
-        user: Aratako
-        repo: Qwen3-30B-A3B-ERP-v0.1-GGUF
-  - key: mradermacher/Huihui-Qwen3-30B-A3B-Instruct-2507-abliterated-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Huihui-Qwen3-30B-A3B-Instruct-2507-abliterated-GGUF
-  - key: mradermacher/Qwen3-30B-A3B-Thinking-2507-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Qwen3-30B-A3B-Thinking-2507-i1-GGUF
-  - key: mmnga/Qwen3-30B-A3B-gguf
-    sources:
-      - type: huggingface
-        user: mmnga
-        repo: Qwen3-30B-A3B-gguf
-  - key: mradermacher/Qwen3-30B-A3B-Thinking-2507-Deepseek-v3.1-Distill-FP32-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Qwen3-30B-A3B-Thinking-2507-Deepseek-v3.1-Distill-FP32-GGUF
-  - key: mradermacher/Qwen3-30b-a3b-indic-v2-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Qwen3-30b-a3b-indic-v2-GGUF
-  - key: mradermacher/Qwen3-30B-A3B-Element6-1M-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Qwen3-30B-A3B-Element6-1M-i1-GGUF
-  - key: mradermacher/Qwen3-30B-A3B-ArliAI-RpR-v4-Fast-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Qwen3-30B-A3B-ArliAI-RpR-v4-Fast-i1-GGUF
-  - key: mradermacher/Qwen3-30B-A3B-Deepseek-Distill-Instruct-2507-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Qwen3-30B-A3B-Deepseek-Distill-Instruct-2507-GGUF
-  - key: mradermacher/Qwen3-30B-A3B-Thinking-2507-FT-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Qwen3-30B-A3B-Thinking-2507-FT-i1-GGUF
-  - key: mradermacher/Josiefied-Qwen3-30B-A3B-abliterated-v2-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Josiefied-Qwen3-30B-A3B-abliterated-v2-i1-GGUF
-  - key: mradermacher/Qwen3-30B-A3B-YOYO-V2-Claude-4.6-Opus-High-INSTRUCT-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Qwen3-30B-A3B-YOYO-V2-Claude-4.6-Opus-High-INSTRUCT-i1-GGUF
-  - key: mradermacher/Qwen3-30B-A3B-abliterated-erotic-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Qwen3-30B-A3B-abliterated-erotic-GGUF
-  - key: nguyenthilaitrieulong/Qwen3-30B-A3B-Gemini-Pro-High-Reasoning-2507-ABLITERATED-UNCENSORED-GGUF
-    sources:
-      - type: huggingface
-        user: nguyenthilaitrieulong
-        repo: Qwen3-30B-A3B-Gemini-Pro-High-Reasoning-2507-ABLITERATED-UNCENSORED-GGUF
-  - key: mradermacher/Qwen3-30B-A3B-Claude-4.5-Opus-High-Reasoning-2507-ABLITERATED-UNCENSORED-V2-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Qwen3-30B-A3B-Claude-4.5-Opus-High-Reasoning-2507-ABLITERATED-UNCENSORED-V2-i1-GGUF
-  - key: ubergarm/Qwen3-30B-A3B-Instruct-2507-GGUF
-    sources:
-      - type: huggingface
-        user: ubergarm
-        repo: Qwen3-30B-A3B-Instruct-2507-GGUF
-  - key: mradermacher/Qwen3-30b-a3b-indic-v1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Qwen3-30b-a3b-indic-v1-GGUF
-  - key: mradermacher/Huihui-Qwen3-30B-A3B-abliterated-Fusion-5050-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Huihui-Qwen3-30B-A3B-abliterated-Fusion-5050-GGUF
-  - key: lmstudio-community/Qwen3-30B-A3B-Thinking-2507-GGUF
-    sources:
-      - type: huggingface
-        user: lmstudio-community
-        repo: Qwen3-30B-A3B-Thinking-2507-GGUF
-  - key: mradermacher/Huihui-Qwen3-30B-A3B-Instruct-2507-abliterated-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Huihui-Qwen3-30B-A3B-Instruct-2507-abliterated-i1-GGUF
-  - key: mradermacher/Qwen3-30B-A3B-Claude-4.5-Opus-High-Reasoning-2507-V2-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Qwen3-30B-A3B-Claude-4.5-Opus-High-Reasoning-2507-V2-i1-GGUF
-  - key: mradermacher/OmniAtlas-Qwen3-30B-A3B-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: OmniAtlas-Qwen3-30B-A3B-GGUF
-  - key: mradermacher/Qwen3-30B-A3B-Thinking-2507-GLM-4.7-Flash-High-Reasoning-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Qwen3-30B-A3B-Thinking-2507-GLM-4.7-Flash-High-Reasoning-i1-GGUF
-  - key: mradermacher/Qwen3-30B-A3B-Gemini-Pro-High-Reasoning-2507-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Qwen3-30B-A3B-Gemini-Pro-High-Reasoning-2507-i1-GGUF
-  - key: mradermacher/Huihui-Qwen3-30B-A3B-Thinking-2507-abliterated-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Huihui-Qwen3-30B-A3B-Thinking-2507-abliterated-GGUF
-  - key: mradermacher/ACC-Qwen3-30B-A3B-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: ACC-Qwen3-30B-A3B-i1-GGUF
-  - key: mradermacher/OmniAtlas-Qwen3-30B-A3B-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: OmniAtlas-Qwen3-30B-A3B-i1-GGUF
-  - key: meshllm/Qwen3-30B-A3B-Q4_K_M-layers
-    sources:
-      - type: huggingface
-        user: meshllm
-        repo: Qwen3-30B-A3B-Q4_K_M-layers
-  - key: mradermacher/agrillm-Qwen3-30B-A3B-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: agrillm-Qwen3-30B-A3B-i1-GGUF
-  - key: mradermacher/Qwen3-30B-A3B-Thinking-2507-Gemini-2.5-Flash-Distill-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Qwen3-30B-A3B-Thinking-2507-Gemini-2.5-Flash-Distill-i1-GGUF
-  - key: mradermacher/Qwen3-30B-A3B-Thinking-2507-Claude-4.5-Sonnet-High-Reasoning-Distill-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Qwen3-30B-A3B-Thinking-2507-Claude-4.5-Sonnet-High-Reasoning-Distill-i1-GGUF
-  - key: deucebucket/Qwen3-30B-A3B-Cerebellum-GGUF
-    sources:
-      - type: huggingface
-        user: deucebucket
-        repo: Qwen3-30B-A3B-Cerebellum-GGUF
-  - key: mradermacher/Qwen3-30B-A3B-YOYO-V4-Gemini250-Instruct-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Qwen3-30B-A3B-YOYO-V4-Gemini250-Instruct-i1-GGUF
-  - key: mradermacher/Qwen3-30B-A3B-Architect7-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Qwen3-30B-A3B-Architect7-i1-GGUF
-  - key: magiccodingman/Qwen3-30B-A3B-Instruct-2507-unsloth-MagicQuant-Hybrid-GGUF
-    sources:
-      - type: huggingface
-        user: magiccodingman
-        repo: Qwen3-30B-A3B-Instruct-2507-unsloth-MagicQuant-Hybrid-GGUF
-  - key: AbteeXAILab/lumynax-infused-qwen3-30b-a3b-gguf
-    sources:
-      - type: huggingface
-        user: AbteeXAILab
-        repo: lumynax-infused-qwen3-30b-a3b-gguf
-  - key: mradermacher/ACC-Qwen3-30B-A3B-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: ACC-Qwen3-30B-A3B-GGUF
-  - key: magiccodingman/Qwen3-30B-A3B-Thinking-2507-unsloth-MagicQuant-Hybrid-GGUF
-    sources:
-      - type: huggingface
-        user: magiccodingman
-        repo: Qwen3-30B-A3B-Thinking-2507-unsloth-MagicQuant-Hybrid-GGUF
-  - key: mradermacher/Qwen3-30B-A3B-YOYO-Thinking-Chimera-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Qwen3-30B-A3B-YOYO-Thinking-Chimera-GGUF
-  - key: mradermacher/Qwen3-30B-A3B-Gemini-Pro-High-Reasoning-2507-HI8-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Qwen3-30B-A3B-Gemini-Pro-High-Reasoning-2507-HI8-i1-GGUF
-  - key: mradermacher/Qwen3-30B-A3B-Instruct-REAMINI-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Qwen3-30B-A3B-Instruct-REAMINI-i1-GGUF
-  - key: mradermacher/Qwen3-30B-A3B-Gemini-Pro-High-Reasoning-2507-ABLITERATED-UNCENSORED-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Qwen3-30B-A3B-Gemini-Pro-High-Reasoning-2507-ABLITERATED-UNCENSORED-GGUF
+  - key: "MaziyarPanahi/Qwen3-30B-A3B-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "MaziyarPanahi"
+        repo: "Qwen3-30B-A3B-GGUF"
+  - key: "MaziyarPanahi/Qwen3-30B-A3B-Instruct-2507-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "MaziyarPanahi"
+        repo: "Qwen3-30B-A3B-Instruct-2507-GGUF"
+  - key: "unsloth/Qwen3-30B-A3B-Instruct-2507-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "unsloth"
+        repo: "Qwen3-30B-A3B-Instruct-2507-GGUF"
+  - key: "unsloth/Qwen3-30B-A3B-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "unsloth"
+        repo: "Qwen3-30B-A3B-GGUF"
+  - key: "TeichAI/Qwen3-30B-A3B-Thinking-2507-Claude-4.5-Sonnet-High-Reasoning-Distill-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "TeichAI"
+        repo: "Qwen3-30B-A3B-Thinking-2507-Claude-4.5-Sonnet-High-Reasoning-Distill-GGUF"
+  - key: "mradermacher/Qwen3-30b-a3b-indic-v2-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Qwen3-30b-a3b-indic-v2-i1-GGUF"
+  - key: "mradermacher/Qwen3-30B-A3B-abliterated-erotic-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Qwen3-30B-A3B-abliterated-erotic-i1-GGUF"
+  - key: "Qwen/Qwen3-30B-A3B-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "Qwen"
+        repo: "Qwen3-30B-A3B-GGUF"
+  - key: "bartowski/Qwen_Qwen3-30B-A3B-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "bartowski"
+        repo: "Qwen_Qwen3-30B-A3B-GGUF"
+  - key: "mradermacher/Qwen3-30B-A3B-YOYO-Thinking-Chimera-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Qwen3-30B-A3B-YOYO-Thinking-Chimera-i1-GGUF"
+  - key: "mradermacher/Qwen3-30B-A3B-Architect18-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Qwen3-30B-A3B-Architect18-i1-GGUF"
+  - key: "lmstudio-community/Qwen3-30B-A3B-Instruct-2507-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "lmstudio-community"
+        repo: "Qwen3-30B-A3B-Instruct-2507-GGUF"
+  - key: "unsloth/Qwen3-30B-A3B-Thinking-2507-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "unsloth"
+        repo: "Qwen3-30B-A3B-Thinking-2507-GGUF"
+  - key: "bartowski/Qwen_Qwen3-30B-A3B-Instruct-2507-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "bartowski"
+        repo: "Qwen_Qwen3-30B-A3B-Instruct-2507-GGUF"
+  - key: "lmstudio-community/Qwen3-30B-A3B-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "lmstudio-community"
+        repo: "Qwen3-30B-A3B-GGUF"
+  - key: "byteshape/Qwen3-30B-A3B-Instruct-2507-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "byteshape"
+        repo: "Qwen3-30B-A3B-Instruct-2507-GGUF"
+  - key: "typhoon-ai/typhoon2.5-qwen3-30b-a3b-gguf"
+    sources:
+      - type: "huggingface"
+        user: "typhoon-ai"
+        repo: "typhoon2.5-qwen3-30b-a3b-gguf"
+  - key: "unsloth/Qwen3-30B-A3B-128K-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "unsloth"
+        repo: "Qwen3-30B-A3B-128K-GGUF"
+  - key: "mradermacher/Qwen3-30B-A3B-Gemini-Pro-High-Reasoning-2507-ABLITERATED-UNCENSORED-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Qwen3-30B-A3B-Gemini-Pro-High-Reasoning-2507-ABLITERATED-UNCENSORED-i1-GGUF"
+  - key: "mradermacher/Qwen3-30B-A3B-YOYO-AutoThink-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Qwen3-30B-A3B-YOYO-AutoThink-i1-GGUF"
+  - key: "mmnga/Aratako-Qwen3-30B-A3B-NSFW-JP-gguf"
+    sources:
+      - type: "huggingface"
+        user: "mmnga"
+        repo: "Aratako-Qwen3-30B-A3B-NSFW-JP-gguf"
+  - key: "mradermacher/Qwen3-30B-A3B-Deepseek-Distill-Instruct-2507-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Qwen3-30B-A3B-Deepseek-Distill-Instruct-2507-i1-GGUF"
+  - key: "mradermacher/Huihui-Qwen3-30B-A3B-abliterated-Fusion-5050-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Huihui-Qwen3-30B-A3B-abliterated-Fusion-5050-i1-GGUF"
+  - key: "mradermacher/Qwen3-30B-A3B-abliterated-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Qwen3-30B-A3B-abliterated-GGUF"
+  - key: "mradermacher/Qwen3-30B-A3B-Instruct-2507-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Qwen3-30B-A3B-Instruct-2507-i1-GGUF"
+  - key: "mradermacher/Qwen3-30B-A3B-Thinking-2507-Deepseek-v3.1-Distill-V2-FP32-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Qwen3-30B-A3B-Thinking-2507-Deepseek-v3.1-Distill-V2-FP32-i1-GGUF"
+  - key: "Anachronox39/Qwen3-30B-A3B-abliterated-erotic-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "Anachronox39"
+        repo: "Qwen3-30B-A3B-abliterated-erotic-i1-GGUF"
+  - key: "bartowski/Qwen_Qwen3-30B-A3B-Thinking-2507-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "bartowski"
+        repo: "Qwen_Qwen3-30B-A3B-Thinking-2507-GGUF"
+  - key: "Aratako/Qwen3-30B-A3B-ERP-v0.1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "Aratako"
+        repo: "Qwen3-30B-A3B-ERP-v0.1-GGUF"
+  - key: "mradermacher/Huihui-Qwen3-30B-A3B-Instruct-2507-abliterated-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Huihui-Qwen3-30B-A3B-Instruct-2507-abliterated-GGUF"
+  - key: "mradermacher/Qwen3-30B-A3B-Thinking-2507-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Qwen3-30B-A3B-Thinking-2507-i1-GGUF"
+  - key: "mmnga/Qwen3-30B-A3B-gguf"
+    sources:
+      - type: "huggingface"
+        user: "mmnga"
+        repo: "Qwen3-30B-A3B-gguf"
+  - key: "mradermacher/Qwen3-30B-A3B-Thinking-2507-Deepseek-v3.1-Distill-FP32-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Qwen3-30B-A3B-Thinking-2507-Deepseek-v3.1-Distill-FP32-GGUF"
+  - key: "mradermacher/Qwen3-30b-a3b-indic-v2-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Qwen3-30b-a3b-indic-v2-GGUF"
+  - key: "mradermacher/Qwen3-30B-A3B-Element6-1M-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Qwen3-30B-A3B-Element6-1M-i1-GGUF"
+  - key: "mradermacher/Qwen3-30B-A3B-ArliAI-RpR-v4-Fast-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Qwen3-30B-A3B-ArliAI-RpR-v4-Fast-i1-GGUF"
+  - key: "mradermacher/Qwen3-30B-A3B-Deepseek-Distill-Instruct-2507-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Qwen3-30B-A3B-Deepseek-Distill-Instruct-2507-GGUF"
+  - key: "mradermacher/Qwen3-30B-A3B-Thinking-2507-FT-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Qwen3-30B-A3B-Thinking-2507-FT-i1-GGUF"
+  - key: "mradermacher/Josiefied-Qwen3-30B-A3B-abliterated-v2-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Josiefied-Qwen3-30B-A3B-abliterated-v2-i1-GGUF"
+  - key: "mradermacher/Qwen3-30B-A3B-YOYO-V2-Claude-4.6-Opus-High-INSTRUCT-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Qwen3-30B-A3B-YOYO-V2-Claude-4.6-Opus-High-INSTRUCT-i1-GGUF"
+  - key: "mradermacher/Qwen3-30B-A3B-abliterated-erotic-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Qwen3-30B-A3B-abliterated-erotic-GGUF"
+  - key: "nguyenthilaitrieulong/Qwen3-30B-A3B-Gemini-Pro-High-Reasoning-2507-ABLITERATED-UNCENSORED-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "nguyenthilaitrieulong"
+        repo: "Qwen3-30B-A3B-Gemini-Pro-High-Reasoning-2507-ABLITERATED-UNCENSORED-GGUF"
+  - key: "mradermacher/Qwen3-30B-A3B-Claude-4.5-Opus-High-Reasoning-2507-ABLITERATED-UNCENSORED-V2-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Qwen3-30B-A3B-Claude-4.5-Opus-High-Reasoning-2507-ABLITERATED-UNCENSORED-V2-i1-GGUF"
+  - key: "ubergarm/Qwen3-30B-A3B-Instruct-2507-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "ubergarm"
+        repo: "Qwen3-30B-A3B-Instruct-2507-GGUF"
+  - key: "mradermacher/Qwen3-30b-a3b-indic-v1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Qwen3-30b-a3b-indic-v1-GGUF"
+  - key: "mradermacher/Huihui-Qwen3-30B-A3B-abliterated-Fusion-5050-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Huihui-Qwen3-30B-A3B-abliterated-Fusion-5050-GGUF"
+  - key: "lmstudio-community/Qwen3-30B-A3B-Thinking-2507-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "lmstudio-community"
+        repo: "Qwen3-30B-A3B-Thinking-2507-GGUF"
+  - key: "mradermacher/Huihui-Qwen3-30B-A3B-Instruct-2507-abliterated-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Huihui-Qwen3-30B-A3B-Instruct-2507-abliterated-i1-GGUF"
+  - key: "mradermacher/Qwen3-30B-A3B-Claude-4.5-Opus-High-Reasoning-2507-V2-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Qwen3-30B-A3B-Claude-4.5-Opus-High-Reasoning-2507-V2-i1-GGUF"
+  - key: "mradermacher/OmniAtlas-Qwen3-30B-A3B-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "OmniAtlas-Qwen3-30B-A3B-GGUF"
+  - key: "mradermacher/Qwen3-30B-A3B-Thinking-2507-GLM-4.7-Flash-High-Reasoning-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Qwen3-30B-A3B-Thinking-2507-GLM-4.7-Flash-High-Reasoning-i1-GGUF"
+  - key: "mradermacher/Qwen3-30B-A3B-Gemini-Pro-High-Reasoning-2507-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Qwen3-30B-A3B-Gemini-Pro-High-Reasoning-2507-i1-GGUF"
+  - key: "mradermacher/Huihui-Qwen3-30B-A3B-Thinking-2507-abliterated-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Huihui-Qwen3-30B-A3B-Thinking-2507-abliterated-GGUF"
+  - key: "mradermacher/ACC-Qwen3-30B-A3B-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "ACC-Qwen3-30B-A3B-i1-GGUF"
+  - key: "mradermacher/OmniAtlas-Qwen3-30B-A3B-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "OmniAtlas-Qwen3-30B-A3B-i1-GGUF"
+  - key: "meshllm/Qwen3-30B-A3B-Q4_K_M-layers"
+    sources:
+      - type: "huggingface"
+        user: "meshllm"
+        repo: "Qwen3-30B-A3B-Q4_K_M-layers"
+  - key: "mradermacher/agrillm-Qwen3-30B-A3B-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "agrillm-Qwen3-30B-A3B-i1-GGUF"
+  - key: "mradermacher/Qwen3-30B-A3B-Thinking-2507-Gemini-2.5-Flash-Distill-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Qwen3-30B-A3B-Thinking-2507-Gemini-2.5-Flash-Distill-i1-GGUF"
+  - key: "mradermacher/Qwen3-30B-A3B-Thinking-2507-Claude-4.5-Sonnet-High-Reasoning-Distill-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Qwen3-30B-A3B-Thinking-2507-Claude-4.5-Sonnet-High-Reasoning-Distill-i1-GGUF"
+  - key: "deucebucket/Qwen3-30B-A3B-Cerebellum-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "deucebucket"
+        repo: "Qwen3-30B-A3B-Cerebellum-GGUF"
+  - key: "mradermacher/Qwen3-30B-A3B-YOYO-V4-Gemini250-Instruct-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Qwen3-30B-A3B-YOYO-V4-Gemini250-Instruct-i1-GGUF"
+  - key: "mradermacher/Qwen3-30B-A3B-Architect7-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Qwen3-30B-A3B-Architect7-i1-GGUF"
+  - key: "magiccodingman/Qwen3-30B-A3B-Instruct-2507-unsloth-MagicQuant-Hybrid-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "magiccodingman"
+        repo: "Qwen3-30B-A3B-Instruct-2507-unsloth-MagicQuant-Hybrid-GGUF"
+  - key: "AbteeXAILab/lumynax-infused-qwen3-30b-a3b-gguf"
+    sources:
+      - type: "huggingface"
+        user: "AbteeXAILab"
+        repo: "lumynax-infused-qwen3-30b-a3b-gguf"
+  - key: "mradermacher/ACC-Qwen3-30B-A3B-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "ACC-Qwen3-30B-A3B-GGUF"
+  - key: "magiccodingman/Qwen3-30B-A3B-Thinking-2507-unsloth-MagicQuant-Hybrid-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "magiccodingman"
+        repo: "Qwen3-30B-A3B-Thinking-2507-unsloth-MagicQuant-Hybrid-GGUF"
+  - key: "mradermacher/Qwen3-30B-A3B-YOYO-Thinking-Chimera-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Qwen3-30B-A3B-YOYO-Thinking-Chimera-GGUF"
+  - key: "mradermacher/Qwen3-30B-A3B-Gemini-Pro-High-Reasoning-2507-HI8-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Qwen3-30B-A3B-Gemini-Pro-High-Reasoning-2507-HI8-i1-GGUF"
+  - key: "mradermacher/Qwen3-30B-A3B-Instruct-REAMINI-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Qwen3-30B-A3B-Instruct-REAMINI-i1-GGUF"
+  - key: "mradermacher/Qwen3-30B-A3B-Gemini-Pro-High-Reasoning-2507-ABLITERATED-UNCENSORED-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Qwen3-30B-A3B-Gemini-Pro-High-Reasoning-2507-ABLITERATED-UNCENSORED-GGUF"
+  - key: "mradermacher/Qwen3-30B-A3B-Architect5-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Qwen3-30B-A3B-Architect5-i1-GGUF"
+  - key: "bartowski/YOYO-AI_Qwen3-30B-A3B-Mixture-2507-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "bartowski"
+        repo: "YOYO-AI_Qwen3-30B-A3B-Mixture-2507-GGUF"
+  - key: "mradermacher/agrillm-Qwen3-30B-A3B-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "agrillm-Qwen3-30B-A3B-GGUF"
+  - key: "Jerem62/Qwen3-30B-A3B-Thinking-2507-Claude-4.5-Sonnet-High-Reasoning-Distill-Q6_K-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "Jerem62"
+        repo: "Qwen3-30B-A3B-Thinking-2507-Claude-4.5-Sonnet-High-Reasoning-Distill-Q6_K-GGUF"
+  - key: "mradermacher/Qwen3-30B-A3B-Thinking-2507-Art-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Qwen3-30B-A3B-Thinking-2507-Art-i1-GGUF"
 config:
   operation:
     fields:

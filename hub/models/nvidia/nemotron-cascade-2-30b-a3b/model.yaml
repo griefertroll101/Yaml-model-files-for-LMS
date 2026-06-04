@@ -2,86 +2,86 @@
 # Learn more at https://modelyaml.org
 model: nvidia/nemotron-cascade-2-30b-a3b
 base:
-  - key: bartowski/nvidia_Nemotron-Cascade-2-30B-A3B-GGUF
+  - key: "bartowski/nvidia_Nemotron-Cascade-2-30B-A3B-GGUF"
     sources:
-      - type: huggingface
-        user: bartowski
-        repo: nvidia_Nemotron-Cascade-2-30B-A3B-GGUF
-  - key: mradermacher/Nemotron-Cascade-2-30B-A3B-heretic-ara-uncensored-i1-GGUF
+      - type: "huggingface"
+        user: "bartowski"
+        repo: "nvidia_Nemotron-Cascade-2-30B-A3B-GGUF"
+  - key: "mradermacher/Nemotron-Cascade-2-30B-A3B-heretic-ara-uncensored-i1-GGUF"
     sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Nemotron-Cascade-2-30B-A3B-heretic-ara-uncensored-i1-GGUF
-  - key: mradermacher/Nemotron-Cascade-2-30B-A3B-i1-GGUF
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Nemotron-Cascade-2-30B-A3B-heretic-ara-uncensored-i1-GGUF"
+  - key: "mradermacher/Nemotron-Cascade-2-30B-A3B-i1-GGUF"
     sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Nemotron-Cascade-2-30B-A3B-i1-GGUF
-  - key: mradermacher/Nemotron-Cascade-2-30B-A3B-heretic-i1-GGUF
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Nemotron-Cascade-2-30B-A3B-i1-GGUF"
+  - key: "mradermacher/Nemotron-Cascade-2-30B-A3B-heretic-i1-GGUF"
     sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Nemotron-Cascade-2-30B-A3B-heretic-i1-GGUF
-  - key: mradermacher/Nemotron-Cascade-2-30B-A3B-GGUF
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Nemotron-Cascade-2-30B-A3B-heretic-i1-GGUF"
+  - key: "mradermacher/Nemotron-Cascade-2-30B-A3B-GGUF"
     sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Nemotron-Cascade-2-30B-A3B-GGUF
-  - key: michaelw9999/Nemotron-Cascade-2-30B-A3B-NVFP4-GGUF
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Nemotron-Cascade-2-30B-A3B-GGUF"
+  - key: "michaelw9999/Nemotron-Cascade-2-30B-A3B-NVFP4-GGUF"
     sources:
-      - type: huggingface
-        user: michaelw9999
-        repo: Nemotron-Cascade-2-30B-A3B-NVFP4-GGUF
-  - key: mradermacher/Nemotron-Cascade-2-30B-A3B-heretic-ara-uncensored-GGUF
+      - type: "huggingface"
+        user: "michaelw9999"
+        repo: "Nemotron-Cascade-2-30B-A3B-NVFP4-GGUF"
+  - key: "mradermacher/Nemotron-Cascade-2-30B-A3B-heretic-ara-uncensored-GGUF"
     sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Nemotron-Cascade-2-30B-A3B-heretic-ara-uncensored-GGUF
-  - key: AesSedai/Nemotron-Cascade-2-30B-A3B-GGUF
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Nemotron-Cascade-2-30B-A3B-heretic-ara-uncensored-GGUF"
+  - key: "AesSedai/Nemotron-Cascade-2-30B-A3B-GGUF"
     sources:
-      - type: huggingface
-        user: AesSedai
-        repo: Nemotron-Cascade-2-30B-A3B-GGUF
-  - key: mradermacher/Nemotron-Cascade-2-30B-A3B-heretic-GGUF
+      - type: "huggingface"
+        user: "AesSedai"
+        repo: "Nemotron-Cascade-2-30B-A3B-GGUF"
+  - key: "mradermacher/Nemotron-Cascade-2-30B-A3B-heretic-GGUF"
     sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Nemotron-Cascade-2-30B-A3B-heretic-GGUF
-  - key: noctrex/Nemotron-Cascade-2-30B-A3B-MXFP4_MOE-GGUF
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Nemotron-Cascade-2-30B-A3B-heretic-GGUF"
+  - key: "noctrex/Nemotron-Cascade-2-30B-A3B-MXFP4_MOE-GGUF"
     sources:
-      - type: huggingface
-        user: noctrex
-        repo: Nemotron-Cascade-2-30B-A3B-MXFP4_MOE-GGUF
-  - key: freddm/Nemotron-Cascade-2-30B-A3B-GGUF
+      - type: "huggingface"
+        user: "noctrex"
+        repo: "Nemotron-Cascade-2-30B-A3B-MXFP4_MOE-GGUF"
+  - key: "freddm/Nemotron-Cascade-2-30B-A3B-GGUF"
     sources:
-      - type: huggingface
-        user: freddm
-        repo: Nemotron-Cascade-2-30B-A3B-GGUF
-  - key: DevQuasar/nvidia.Nemotron-Cascade-2-30B-A3B-GGUF
+      - type: "huggingface"
+        user: "freddm"
+        repo: "Nemotron-Cascade-2-30B-A3B-GGUF"
+  - key: "DevQuasar/nvidia.Nemotron-Cascade-2-30B-A3B-GGUF"
     sources:
-      - type: huggingface
-        user: DevQuasar
-        repo: nvidia.Nemotron-Cascade-2-30B-A3B-GGUF
-  - key: shiny-plan/Nemotron-Cascade-2-30B-A3B-Q4_K_M-GGUF
+      - type: "huggingface"
+        user: "DevQuasar"
+        repo: "nvidia.Nemotron-Cascade-2-30B-A3B-GGUF"
+  - key: "shiny-plan/Nemotron-Cascade-2-30B-A3B-Q4_K_M-GGUF"
     sources:
-      - type: huggingface
-        user: shiny-plan
-        repo: Nemotron-Cascade-2-30B-A3B-Q4_K_M-GGUF
-  - key: AdrienBrault/Nemotron-Cascade-2-30B-A3B-Q5_K_M-GGUF
+      - type: "huggingface"
+        user: "shiny-plan"
+        repo: "Nemotron-Cascade-2-30B-A3B-Q4_K_M-GGUF"
+  - key: "AdrienBrault/Nemotron-Cascade-2-30B-A3B-Q5_K_M-GGUF"
     sources:
-      - type: huggingface
-        user: AdrienBrault
-        repo: Nemotron-Cascade-2-30B-A3B-Q5_K_M-GGUF
-  - key: NitrAI/Nemotron-Cascade-2-30B-A3B-Q6_K-GGUF
+      - type: "huggingface"
+        user: "AdrienBrault"
+        repo: "Nemotron-Cascade-2-30B-A3B-Q5_K_M-GGUF"
+  - key: "NitrAI/Nemotron-Cascade-2-30B-A3B-Q6_K-GGUF"
     sources:
-      - type: huggingface
-        user: NitrAI
-        repo: Nemotron-Cascade-2-30B-A3B-Q6_K-GGUF
-  - key: AdrienBrault/Nemotron-Cascade-2-30B-A3B-Q5_1-GGUF
+      - type: "huggingface"
+        user: "NitrAI"
+        repo: "Nemotron-Cascade-2-30B-A3B-Q6_K-GGUF"
+  - key: "AdrienBrault/Nemotron-Cascade-2-30B-A3B-Q5_1-GGUF"
     sources:
-      - type: huggingface
-        user: AdrienBrault
-        repo: Nemotron-Cascade-2-30B-A3B-Q5_1-GGUF
+      - type: "huggingface"
+        user: "AdrienBrault"
+        repo: "Nemotron-Cascade-2-30B-A3B-Q5_1-GGUF"
 config:
   operation:
     fields:

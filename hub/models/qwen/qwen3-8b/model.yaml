@@ -2,396 +2,396 @@
 # Learn more at https://modelyaml.org
 model: qwen/qwen3-8b
 base:
-  - key: lmstudio-community/Qwen3-8B-GGUF
-    sources:
-      - type: huggingface
-        user: lmstudio-community
-        repo: Qwen3-8B-GGUF
-  - key: lmstudio-community/qwen3-8b-mlx-4bit
-    sources:
-      - type: huggingface
-        user: lmstudio-community
-        repo: Qwen3-8B-MLX-4bit
-  - key: lmstudio-community/qwen3-8b-mlx-8bit
-    sources:
-      - type: huggingface
-        user: lmstudio-community
-        repo: Qwen3-8B-MLX-8bit
-  - key: MaziyarPanahi/Qwen3-8B-GGUF
-    sources:
-      - type: huggingface
-        user: MaziyarPanahi
-        repo: Qwen3-8B-GGUF
-  - key: MaziyarPanahi/DeepSeek-R1-0528-Qwen3-8B-GGUF
-    sources:
-      - type: huggingface
-        user: MaziyarPanahi
-        repo: DeepSeek-R1-0528-Qwen3-8B-GGUF
-  - key: lmstudio-community/DeepSeek-R1-0528-Qwen3-8B-GGUF
-    sources:
-      - type: huggingface
-        user: lmstudio-community
-        repo: DeepSeek-R1-0528-Qwen3-8B-GGUF
-  - key: unsloth/Qwen3-8B-GGUF
-    sources:
-      - type: huggingface
-        user: unsloth
-        repo: Qwen3-8B-GGUF
-  - key: Qwen/Qwen3-8B-GGUF
-    sources:
-      - type: huggingface
-        user: Qwen
-        repo: Qwen3-8B-GGUF
-  - key: unsloth/DeepSeek-R1-0528-Qwen3-8B-GGUF
-    sources:
-      - type: huggingface
-        user: unsloth
-        repo: DeepSeek-R1-0528-Qwen3-8B-GGUF
-  - key: TeichAI/Qwen3-8B-DeepSeek-v3.2-Speciale-Distill-GGUF
-    sources:
-      - type: huggingface
-        user: TeichAI
-        repo: Qwen3-8B-DeepSeek-v3.2-Speciale-Distill-GGUF
-  - key: bartowski/Goekdeniz-Guelmez_Josiefied-Qwen3-8B-abliterated-v1-GGUF
-    sources:
-      - type: huggingface
-        user: bartowski
-        repo: Goekdeniz-Guelmez_Josiefied-Qwen3-8B-abliterated-v1-GGUF
-  - key: bartowski/Qwen_Qwen3-8B-GGUF
-    sources:
-      - type: huggingface
-        user: bartowski
-        repo: Qwen_Qwen3-8B-GGUF
-  - key: mradermacher/Josiefied-Qwen3-8B-abliterated-v1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Josiefied-Qwen3-8B-abliterated-v1-GGUF
-  - key: mradermacher/LaSER-Qwen3-8B-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: LaSER-Qwen3-8B-i1-GGUF
-  - key: bartowski/mlabonne_Qwen3-8B-abliterated-GGUF
-    sources:
-      - type: huggingface
-        user: bartowski
-        repo: mlabonne_Qwen3-8B-abliterated-GGUF
-  - key: mradermacher/LTE-Qwen3-8B-Base-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: LTE-Qwen3-8B-Base-i1-GGUF
-  - key: DavidAU/Qwen3-8B-Hivemind-Instruct-Heretic-Abliterated-Uncensored-NEO-Imatrix-GGUF
-    sources:
-      - type: huggingface
-        user: DavidAU
-        repo: Qwen3-8B-Hivemind-Instruct-Heretic-Abliterated-Uncensored-NEO-Imatrix-GGUF
-  - key: geoffmunn/Qwen3-8B-f16
-    sources:
-      - type: huggingface
-        user: geoffmunn
-        repo: Qwen3-8B-f16
-  - key: TeichAI/Qwen3-8B-GPT-5.2-High-Reasoning-Distill-GGUF
-    sources:
-      - type: huggingface
-        user: TeichAI
-        repo: Qwen3-8B-GPT-5.2-High-Reasoning-Distill-GGUF
-  - key: gaebalai/DeepSeek-R1-0528-Qwen3-8B-Q8-GUFF
-    sources:
-      - type: huggingface
-        user: gaebalai
-        repo: DeepSeek-R1-0528-Qwen3-8B-Q8-GUFF
-  - key: DavidAU/Qwen3-8B-192k-Josiefied-Uncensored-NEO-Max-GGUF
-    sources:
-      - type: huggingface
-        user: DavidAU
-        repo: Qwen3-8B-192k-Josiefied-Uncensored-NEO-Max-GGUF
-  - key: bartowski/deepseek-ai_DeepSeek-R1-0528-Qwen3-8B-GGUF
-    sources:
-      - type: huggingface
-        user: bartowski
-        repo: deepseek-ai_DeepSeek-R1-0528-Qwen3-8B-GGUF
-  - key: mradermacher/sphinx-qwen3-8b-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: sphinx-qwen3-8b-i1-GGUF
-  - key: 1jasonlaoma/Qwen3-8B-abliterated-GGUF
-    sources:
-      - type: huggingface
-        user: 1jasonlaoma
-        repo: Qwen3-8B-abliterated-GGUF
-  - key: mradermacher/Josiefied-Qwen3-8B-abliterated-v1-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Josiefied-Qwen3-8B-abliterated-v1-i1-GGUF
-  - key: mradermacher/Qwen3-8B-OpusReasoning-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Qwen3-8B-OpusReasoning-i1-GGUF
-  - key: mradermacher/OneThinker-SFT-Qwen3-8B-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: OneThinker-SFT-Qwen3-8B-i1-GGUF
-  - key: alst10/qwen3-8b-erotic-stories
-    sources:
-      - type: huggingface
-        user: alst10
-        repo: qwen3-8b-erotic-stories
-  - key: mradermacher/Qwen3-8B-YOYO-nuslerp-plus-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Qwen3-8B-YOYO-nuslerp-plus-i1-GGUF
-  - key: bartowski/allura-org_remnant-qwen3-8b-GGUF
-    sources:
-      - type: huggingface
-        user: bartowski
-        repo: allura-org_remnant-qwen3-8b-GGUF
-  - key: mradermacher/sphinx_qwen3-8b-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: sphinx_qwen3-8b-i1-GGUF
-  - key: unsloth/Qwen3-8B-128K-GGUF
-    sources:
-      - type: huggingface
-        user: unsloth
-        repo: Qwen3-8B-128K-GGUF
-  - key: Mungert/Qwen3-8B-abliterated-GGUF
-    sources:
-      - type: huggingface
-        user: Mungert
-        repo: Qwen3-8B-abliterated-GGUF
-  - key: mradermacher/MathSmith-HC-Problem-Synthesizer-Qwen3-8B-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: MathSmith-HC-Problem-Synthesizer-Qwen3-8B-i1-GGUF
-  - key: mradermacher/Qwen3-8B-ShiningValiant3-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Qwen3-8B-ShiningValiant3-i1-GGUF
-  - key: mradermacher/QiMing-Holos-Plus-Qwen3-8B-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: QiMing-Holos-Plus-Qwen3-8B-i1-GGUF
-  - key: ggml-org/Qwen3-8B-GGUF
-    sources:
-      - type: huggingface
-        user: ggml-org
-        repo: Qwen3-8B-GGUF
-  - key: mradermacher/Qwen3-8B-heretic-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Qwen3-8B-heretic-GGUF
-  - key: Akshay9028/qwen3-8b-banking-finetunned
-    sources:
-      - type: huggingface
-        user: Akshay9028
-        repo: qwen3-8b-banking-finetunned
-  - key: mradermacher/DeepSeek-R1-Qwen3-8B-abliterated-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: DeepSeek-R1-Qwen3-8B-abliterated-i1-GGUF
-  - key: mradermacher/MathSmith-Hard-Problem-Synthesizer-Qwen3-8B-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: MathSmith-Hard-Problem-Synthesizer-Qwen3-8B-i1-GGUF
-  - key: mradermacher/Huihui-Qwen3-8B-abliterated-v2-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Huihui-Qwen3-8B-abliterated-v2-i1-GGUF
-  - key: mradermacher/git-commit-message-splitter-Qwen3-8B-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: git-commit-message-splitter-Qwen3-8B-i1-GGUF
-  - key: mradermacher/CoReward-Qwen3-8B-Base-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: CoReward-Qwen3-8B-Base-i1-GGUF
-  - key: TeichAI/Qwen3-8B-Gemini-2.5-Flash-Distill-GGUF
-    sources:
-      - type: huggingface
-        user: TeichAI
-        repo: Qwen3-8B-Gemini-2.5-Flash-Distill-GGUF
-  - key: TeichAI/Qwen3-8B-Claude-Sonnet-4.5-Reasoning-Distill-GGUF
-    sources:
-      - type: huggingface
-        user: TeichAI
-        repo: Qwen3-8B-Claude-Sonnet-4.5-Reasoning-Distill-GGUF
-  - key: mradermacher/MedSSR-Qwen3-8B-Base-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: MedSSR-Qwen3-8B-Base-i1-GGUF
-  - key: mradermacher/LaSER-Qwen3-8B-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: LaSER-Qwen3-8B-GGUF
-  - key: bartowski/soob3123_GrayLine-Qwen3-8B-GGUF
-    sources:
-      - type: huggingface
-        user: bartowski
-        repo: soob3123_GrayLine-Qwen3-8B-GGUF
-  - key: Lewdiculous/DS-R1-Qwen3-8B-ArliAI-RpR-v4-Small-GGUF-IQ-Imatrix
-    sources:
-      - type: huggingface
-        user: Lewdiculous
-        repo: DS-R1-Qwen3-8B-ArliAI-RpR-v4-Small-GGUF-IQ-Imatrix
-  - key: mradermacher/qwen3-8b-servicenow-abliterated-v1-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: qwen3-8b-servicenow-abliterated-v1-i1-GGUF
-  - key: SiliconJelly/shisa-v2.1-qwen3-8b-UD-japanese-imatrix
-    sources:
-      - type: huggingface
-        user: SiliconJelly
-        repo: shisa-v2.1-qwen3-8b-UD-japanese-imatrix
-  - key: dahara1/shisa-v2.1-qwen3-8b-UD-japanese-imatrix
-    sources:
-      - type: huggingface
-        user: dahara1
-        repo: shisa-v2.1-qwen3-8b-UD-japanese-imatrix
-  - key: mradermacher/Terminus-Qwen3-8b-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Terminus-Qwen3-8b-i1-GGUF
-  - key: mradermacher/Qwen3-8B-Jailbroken-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Qwen3-8B-Jailbroken-GGUF
-  - key: mradermacher/Qwen3-8B-catgirl-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Qwen3-8B-catgirl-i1-GGUF
-  - key: mradermacher/Qwen3-8B-GPT-5.2-High-Reasoning-Distill-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Qwen3-8B-GPT-5.2-High-Reasoning-Distill-i1-GGUF
-  - key: mradermacher/Qwen3-8B-ShiningValiant3-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Qwen3-8B-ShiningValiant3-GGUF
-  - key: Aldaris/Qwen3-8B-Q4_K_M-GGUF
-    sources:
-      - type: huggingface
-        user: Aldaris
-        repo: Qwen3-8B-Q4_K_M-GGUF
-  - key: DreamFast/qwen3-8b-heretic
-    sources:
-      - type: huggingface
-        user: DreamFast
-        repo: qwen3-8b-heretic
-  - key: mradermacher/Qwen3-8B-HoneyBadger-EXP-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Qwen3-8B-HoneyBadger-EXP-i1-GGUF
-  - key: mradermacher/s1.1-Qwen3-8B-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: s1.1-Qwen3-8B-i1-GGUF
-  - key: mradermacher/remnant-qwen3-8b-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: remnant-qwen3-8b-GGUF
-  - key: mradermacher/Smoothie-Qwen3-8B-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Smoothie-Qwen3-8B-GGUF
-  - key: meshllm/Qwen3-8B-Q4_K_M-layers
-    sources:
-      - type: huggingface
-        user: meshllm
-        repo: Qwen3-8B-Q4_K_M-layers
-  - key: mradermacher/Simia-Tau-SFT-Qwen3-8B-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Simia-Tau-SFT-Qwen3-8B-GGUF
-  - key: mradermacher/Qwen3-8B-finance-V1.0.1-Merged-V2-i1-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Qwen3-8B-finance-V1.0.1-Merged-V2-i1-GGUF
-  - key: infinity-studio/RedSage-Qwen3-8B-DPO-i1-GGUF
-    sources:
-      - type: huggingface
-        user: infinity-studio
-        repo: RedSage-Qwen3-8B-DPO-i1-GGUF
-  - key: Sowkwndms/DeepSeek-R1-0528-Qwen3-8B-abliterated-Q5_K_M-GGUF
-    sources:
-      - type: huggingface
-        user: Sowkwndms
-        repo: DeepSeek-R1-0528-Qwen3-8B-abliterated-Q5_K_M-GGUF
-  - key: mradermacher/Huihui-Qwen3-8B-abliterated-v2-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Huihui-Qwen3-8B-abliterated-v2-GGUF
-  - key: mradermacher/Qwen3-8B-GRPO-GGUF
-    sources:
-      - type: huggingface
-        user: mradermacher
-        repo: Qwen3-8B-GRPO-GGUF
-  - key: jfiekdjdk/Qwen3-8B-abliterated-Q5_K_M-GGUF
-    sources:
-      - type: huggingface
-        user: jfiekdjdk
-        repo: Qwen3-8B-abliterated-Q5_K_M-GGUF
-  - key: DuoNeural/Qwen3-8B-GGUF
-    sources:
-      - type: huggingface
-        user: DuoNeural
-        repo: Qwen3-8B-GGUF
-  - key: lm-kit/qwen-3-8b-instruct-gguf
-    sources:
-      - type: huggingface
-        user: lm-kit
-        repo: qwen-3-8b-instruct-gguf
-  - key: Liontix/Qwen3-8B-Claude-Sonnet-4-Reasoning-Distill-GGUF
-    sources:
-      - type: huggingface
-        user: Liontix
-        repo: Qwen3-8B-Claude-Sonnet-4-Reasoning-Distill-GGUF
-  - key: ldostadi/Qwen3-8B-abliterated-Q4_K_M-GGUF
-    sources:
-      - type: huggingface
-        user: ldostadi
-        repo: Qwen3-8B-abliterated-Q4_K_M-GGUF
-  - key: Aratako/Qwen3-8B-ERP-v0.1-GGUF
-    sources:
-      - type: huggingface
-        user: Aratako
-        repo: Qwen3-8B-ERP-v0.1-GGUF
-  - key: ufoym/Qwen3-8B-Q4_K_M-GGUF
-    sources:
-      - type: huggingface
-        user: ufoym
-        repo: Qwen3-8B-Q4_K_M-GGUF
+  - key: "lmstudio-community/Qwen3-8B-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "lmstudio-community"
+        repo: "Qwen3-8B-GGUF"
+  - key: "lmstudio-community/qwen3-8b-mlx-4bit"
+    sources:
+      - type: "huggingface"
+        user: "lmstudio-community"
+        repo: "Qwen3-8B-MLX-4bit"
+  - key: "lmstudio-community/qwen3-8b-mlx-8bit"
+    sources:
+      - type: "huggingface"
+        user: "lmstudio-community"
+        repo: "Qwen3-8B-MLX-8bit"
+  - key: "MaziyarPanahi/Qwen3-8B-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "MaziyarPanahi"
+        repo: "Qwen3-8B-GGUF"
+  - key: "MaziyarPanahi/DeepSeek-R1-0528-Qwen3-8B-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "MaziyarPanahi"
+        repo: "DeepSeek-R1-0528-Qwen3-8B-GGUF"
+  - key: "lmstudio-community/DeepSeek-R1-0528-Qwen3-8B-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "lmstudio-community"
+        repo: "DeepSeek-R1-0528-Qwen3-8B-GGUF"
+  - key: "unsloth/Qwen3-8B-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "unsloth"
+        repo: "Qwen3-8B-GGUF"
+  - key: "Qwen/Qwen3-8B-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "Qwen"
+        repo: "Qwen3-8B-GGUF"
+  - key: "unsloth/DeepSeek-R1-0528-Qwen3-8B-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "unsloth"
+        repo: "DeepSeek-R1-0528-Qwen3-8B-GGUF"
+  - key: "TeichAI/Qwen3-8B-DeepSeek-v3.2-Speciale-Distill-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "TeichAI"
+        repo: "Qwen3-8B-DeepSeek-v3.2-Speciale-Distill-GGUF"
+  - key: "bartowski/Goekdeniz-Guelmez_Josiefied-Qwen3-8B-abliterated-v1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "bartowski"
+        repo: "Goekdeniz-Guelmez_Josiefied-Qwen3-8B-abliterated-v1-GGUF"
+  - key: "bartowski/Qwen_Qwen3-8B-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "bartowski"
+        repo: "Qwen_Qwen3-8B-GGUF"
+  - key: "mradermacher/Josiefied-Qwen3-8B-abliterated-v1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Josiefied-Qwen3-8B-abliterated-v1-GGUF"
+  - key: "mradermacher/LaSER-Qwen3-8B-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "LaSER-Qwen3-8B-i1-GGUF"
+  - key: "bartowski/mlabonne_Qwen3-8B-abliterated-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "bartowski"
+        repo: "mlabonne_Qwen3-8B-abliterated-GGUF"
+  - key: "mradermacher/LTE-Qwen3-8B-Base-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "LTE-Qwen3-8B-Base-i1-GGUF"
+  - key: "DavidAU/Qwen3-8B-Hivemind-Instruct-Heretic-Abliterated-Uncensored-NEO-Imatrix-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "DavidAU"
+        repo: "Qwen3-8B-Hivemind-Instruct-Heretic-Abliterated-Uncensored-NEO-Imatrix-GGUF"
+  - key: "geoffmunn/Qwen3-8B-f16"
+    sources:
+      - type: "huggingface"
+        user: "geoffmunn"
+        repo: "Qwen3-8B-f16"
+  - key: "TeichAI/Qwen3-8B-GPT-5.2-High-Reasoning-Distill-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "TeichAI"
+        repo: "Qwen3-8B-GPT-5.2-High-Reasoning-Distill-GGUF"
+  - key: "gaebalai/DeepSeek-R1-0528-Qwen3-8B-Q8-GUFF"
+    sources:
+      - type: "huggingface"
+        user: "gaebalai"
+        repo: "DeepSeek-R1-0528-Qwen3-8B-Q8-GUFF"
+  - key: "DavidAU/Qwen3-8B-192k-Josiefied-Uncensored-NEO-Max-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "DavidAU"
+        repo: "Qwen3-8B-192k-Josiefied-Uncensored-NEO-Max-GGUF"
+  - key: "bartowski/deepseek-ai_DeepSeek-R1-0528-Qwen3-8B-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "bartowski"
+        repo: "deepseek-ai_DeepSeek-R1-0528-Qwen3-8B-GGUF"
+  - key: "mradermacher/sphinx-qwen3-8b-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "sphinx-qwen3-8b-i1-GGUF"
+  - key: "1jasonlaoma/Qwen3-8B-abliterated-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "1jasonlaoma"
+        repo: "Qwen3-8B-abliterated-GGUF"
+  - key: "mradermacher/Josiefied-Qwen3-8B-abliterated-v1-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Josiefied-Qwen3-8B-abliterated-v1-i1-GGUF"
+  - key: "mradermacher/Qwen3-8B-OpusReasoning-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Qwen3-8B-OpusReasoning-i1-GGUF"
+  - key: "mradermacher/OneThinker-SFT-Qwen3-8B-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "OneThinker-SFT-Qwen3-8B-i1-GGUF"
+  - key: "alst10/qwen3-8b-erotic-stories"
+    sources:
+      - type: "huggingface"
+        user: "alst10"
+        repo: "qwen3-8b-erotic-stories"
+  - key: "mradermacher/Qwen3-8B-YOYO-nuslerp-plus-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Qwen3-8B-YOYO-nuslerp-plus-i1-GGUF"
+  - key: "bartowski/allura-org_remnant-qwen3-8b-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "bartowski"
+        repo: "allura-org_remnant-qwen3-8b-GGUF"
+  - key: "mradermacher/sphinx_qwen3-8b-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "sphinx_qwen3-8b-i1-GGUF"
+  - key: "unsloth/Qwen3-8B-128K-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "unsloth"
+        repo: "Qwen3-8B-128K-GGUF"
+  - key: "Mungert/Qwen3-8B-abliterated-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "Mungert"
+        repo: "Qwen3-8B-abliterated-GGUF"
+  - key: "mradermacher/MathSmith-HC-Problem-Synthesizer-Qwen3-8B-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "MathSmith-HC-Problem-Synthesizer-Qwen3-8B-i1-GGUF"
+  - key: "mradermacher/Qwen3-8B-ShiningValiant3-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Qwen3-8B-ShiningValiant3-i1-GGUF"
+  - key: "mradermacher/QiMing-Holos-Plus-Qwen3-8B-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "QiMing-Holos-Plus-Qwen3-8B-i1-GGUF"
+  - key: "ggml-org/Qwen3-8B-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "ggml-org"
+        repo: "Qwen3-8B-GGUF"
+  - key: "mradermacher/Qwen3-8B-heretic-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Qwen3-8B-heretic-GGUF"
+  - key: "Akshay9028/qwen3-8b-banking-finetunned"
+    sources:
+      - type: "huggingface"
+        user: "Akshay9028"
+        repo: "qwen3-8b-banking-finetunned"
+  - key: "mradermacher/DeepSeek-R1-Qwen3-8B-abliterated-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "DeepSeek-R1-Qwen3-8B-abliterated-i1-GGUF"
+  - key: "mradermacher/MathSmith-Hard-Problem-Synthesizer-Qwen3-8B-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "MathSmith-Hard-Problem-Synthesizer-Qwen3-8B-i1-GGUF"
+  - key: "mradermacher/Huihui-Qwen3-8B-abliterated-v2-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Huihui-Qwen3-8B-abliterated-v2-i1-GGUF"
+  - key: "mradermacher/git-commit-message-splitter-Qwen3-8B-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "git-commit-message-splitter-Qwen3-8B-i1-GGUF"
+  - key: "mradermacher/CoReward-Qwen3-8B-Base-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "CoReward-Qwen3-8B-Base-i1-GGUF"
+  - key: "TeichAI/Qwen3-8B-Gemini-2.5-Flash-Distill-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "TeichAI"
+        repo: "Qwen3-8B-Gemini-2.5-Flash-Distill-GGUF"
+  - key: "TeichAI/Qwen3-8B-Claude-Sonnet-4.5-Reasoning-Distill-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "TeichAI"
+        repo: "Qwen3-8B-Claude-Sonnet-4.5-Reasoning-Distill-GGUF"
+  - key: "mradermacher/MedSSR-Qwen3-8B-Base-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "MedSSR-Qwen3-8B-Base-i1-GGUF"
+  - key: "mradermacher/LaSER-Qwen3-8B-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "LaSER-Qwen3-8B-GGUF"
+  - key: "bartowski/soob3123_GrayLine-Qwen3-8B-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "bartowski"
+        repo: "soob3123_GrayLine-Qwen3-8B-GGUF"
+  - key: "Lewdiculous/DS-R1-Qwen3-8B-ArliAI-RpR-v4-Small-GGUF-IQ-Imatrix"
+    sources:
+      - type: "huggingface"
+        user: "Lewdiculous"
+        repo: "DS-R1-Qwen3-8B-ArliAI-RpR-v4-Small-GGUF-IQ-Imatrix"
+  - key: "mradermacher/qwen3-8b-servicenow-abliterated-v1-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "qwen3-8b-servicenow-abliterated-v1-i1-GGUF"
+  - key: "SiliconJelly/shisa-v2.1-qwen3-8b-UD-japanese-imatrix"
+    sources:
+      - type: "huggingface"
+        user: "SiliconJelly"
+        repo: "shisa-v2.1-qwen3-8b-UD-japanese-imatrix"
+  - key: "dahara1/shisa-v2.1-qwen3-8b-UD-japanese-imatrix"
+    sources:
+      - type: "huggingface"
+        user: "dahara1"
+        repo: "shisa-v2.1-qwen3-8b-UD-japanese-imatrix"
+  - key: "mradermacher/Terminus-Qwen3-8b-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Terminus-Qwen3-8b-i1-GGUF"
+  - key: "mradermacher/Qwen3-8B-Jailbroken-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Qwen3-8B-Jailbroken-GGUF"
+  - key: "mradermacher/Qwen3-8B-catgirl-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Qwen3-8B-catgirl-i1-GGUF"
+  - key: "mradermacher/Qwen3-8B-GPT-5.2-High-Reasoning-Distill-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Qwen3-8B-GPT-5.2-High-Reasoning-Distill-i1-GGUF"
+  - key: "mradermacher/Qwen3-8B-ShiningValiant3-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Qwen3-8B-ShiningValiant3-GGUF"
+  - key: "Aldaris/Qwen3-8B-Q4_K_M-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "Aldaris"
+        repo: "Qwen3-8B-Q4_K_M-GGUF"
+  - key: "DreamFast/qwen3-8b-heretic"
+    sources:
+      - type: "huggingface"
+        user: "DreamFast"
+        repo: "qwen3-8b-heretic"
+  - key: "mradermacher/Qwen3-8B-HoneyBadger-EXP-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Qwen3-8B-HoneyBadger-EXP-i1-GGUF"
+  - key: "mradermacher/s1.1-Qwen3-8B-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "s1.1-Qwen3-8B-i1-GGUF"
+  - key: "mradermacher/remnant-qwen3-8b-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "remnant-qwen3-8b-GGUF"
+  - key: "mradermacher/Smoothie-Qwen3-8B-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Smoothie-Qwen3-8B-GGUF"
+  - key: "meshllm/Qwen3-8B-Q4_K_M-layers"
+    sources:
+      - type: "huggingface"
+        user: "meshllm"
+        repo: "Qwen3-8B-Q4_K_M-layers"
+  - key: "mradermacher/Simia-Tau-SFT-Qwen3-8B-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Simia-Tau-SFT-Qwen3-8B-GGUF"
+  - key: "mradermacher/Qwen3-8B-finance-V1.0.1-Merged-V2-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Qwen3-8B-finance-V1.0.1-Merged-V2-i1-GGUF"
+  - key: "infinity-studio/RedSage-Qwen3-8B-DPO-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "infinity-studio"
+        repo: "RedSage-Qwen3-8B-DPO-i1-GGUF"
+  - key: "Sowkwndms/DeepSeek-R1-0528-Qwen3-8B-abliterated-Q5_K_M-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "Sowkwndms"
+        repo: "DeepSeek-R1-0528-Qwen3-8B-abliterated-Q5_K_M-GGUF"
+  - key: "mradermacher/Huihui-Qwen3-8B-abliterated-v2-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Huihui-Qwen3-8B-abliterated-v2-GGUF"
+  - key: "mradermacher/Qwen3-8B-GRPO-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Qwen3-8B-GRPO-GGUF"
+  - key: "jfiekdjdk/Qwen3-8B-abliterated-Q5_K_M-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "jfiekdjdk"
+        repo: "Qwen3-8B-abliterated-Q5_K_M-GGUF"
+  - key: "DuoNeural/Qwen3-8B-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "DuoNeural"
+        repo: "Qwen3-8B-GGUF"
+  - key: "lm-kit/qwen-3-8b-instruct-gguf"
+    sources:
+      - type: "huggingface"
+        user: "lm-kit"
+        repo: "qwen-3-8b-instruct-gguf"
+  - key: "Liontix/Qwen3-8B-Claude-Sonnet-4-Reasoning-Distill-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "Liontix"
+        repo: "Qwen3-8B-Claude-Sonnet-4-Reasoning-Distill-GGUF"
+  - key: "ldostadi/Qwen3-8B-abliterated-Q4_K_M-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "ldostadi"
+        repo: "Qwen3-8B-abliterated-Q4_K_M-GGUF"
+  - key: "Aratako/Qwen3-8B-ERP-v0.1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "Aratako"
+        repo: "Qwen3-8B-ERP-v0.1-GGUF"
+  - key: "ufoym/Qwen3-8B-Q4_K_M-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "ufoym"
+        repo: "Qwen3-8B-Q4_K_M-GGUF"
   - key: "mradermacher/qwen3-8b-physics-i1-GGUF"
     sources:
       - type: "huggingface"
@@ -402,6 +402,36 @@ base:
       - type: "huggingface"
         user: "mradermacher"
         repo: "X-Coder-SFT-Qwen3-8B-i1-GGUF"
+  - key: "mradermacher/SmartSnap-Qwen3-8B-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "SmartSnap-Qwen3-8B-i1-GGUF"
+  - key: "mradermacher/Qwen3-8B-UnBias-Plus-SFT-Instruct-Legacy-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Qwen3-8B-UnBias-Plus-SFT-Instruct-Legacy-i1-GGUF"
+  - key: "mradermacher/Qwen3-8B-256k-Context-8X-Grand-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Qwen3-8B-256k-Context-8X-Grand-GGUF"
+  - key: "mradermacher/seta-rl-qwen3-8b-i1-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "seta-rl-qwen3-8b-i1-GGUF"
+  - key: "mradermacher/Qwen3-8B-abliterated-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "mradermacher"
+        repo: "Qwen3-8B-abliterated-GGUF"
+  - key: "cmp-nct/Qwen3-8B-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "cmp-nct"
+        repo: "Qwen3-8B-GGUF"
 config:
   operation:
     fields:

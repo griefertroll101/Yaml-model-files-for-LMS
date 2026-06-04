@@ -97,6 +97,11 @@ base:
       - type: "huggingface"
         user: "Rioky"
         repo: "Mistral-Small-4-119B-2603-heretic-gguf"
+  - key: "meshllm/Mistral-Small-4-119B-2603-UD-Q4_K_XL-layers"
+    sources:
+      - type: "huggingface"
+        user: "meshllm"
+        repo: "Mistral-Small-4-119B-2603-UD-Q4_K_XL-layers"
 config:
   operation:
     fields:

@@ -1,0 +1,138 @@
+# model.yaml is an open standard for defining cross-platform, composable AI models
+# Learn more at https://modelyaml.org
+model: "google/gemma-4-12b-it-12b"
+base:
+  - key: "lmstudio-community/gemma-4-12B-it-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "lmstudio-community"
+        repo: "gemma-4-12B-it-GGUF"
+  - key: "unsloth/gemma-4-12b-it-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "unsloth"
+        repo: "gemma-4-12b-it-GGUF"
+  - key: "ggml-org/gemma-4-12B-it-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "ggml-org"
+        repo: "gemma-4-12B-it-GGUF"
+  - key: "DevQuasar/google.gemma-4-12B-it-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "DevQuasar"
+        repo: "google.gemma-4-12B-it-GGUF"
+  - key: "bartowski/gemma-4-12B-it-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "bartowski"
+        repo: "gemma-4-12B-it-GGUF"
+  - key: "Abiray/gemma-4-12b-it-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "Abiray"
+        repo: "gemma-4-12b-it-GGUF"
+  - key: "Brunobkr/OFFELLIA_f16_gemma-4-12B-it.gguf"
+    sources:
+      - type: "huggingface"
+        user: "Brunobkr"
+        repo: "OFFELLIA_f16_gemma-4-12B-it.gguf"
+  - key: "Brunobkr/OFFELLIA_IQ4_NL_gemma-4-12B-it.gguf"
+    sources:
+      - type: "huggingface"
+        user: "Brunobkr"
+        repo: "OFFELLIA_IQ4_NL_gemma-4-12B-it.gguf"
+  - key: "Brunobkr/OFFELLIA_IQ4_XS_gemma-4-12B-it.gguf"
+    sources:
+      - type: "huggingface"
+        user: "Brunobkr"
+        repo: "OFFELLIA_IQ4_XS_gemma-4-12B-it.gguf"
+  - key: "Brunobkr/OFFELLIA_Q4_0_gemma-4-12B-it.gguf"
+    sources:
+      - type: "huggingface"
+        user: "Brunobkr"
+        repo: "OFFELLIA_Q4_0_gemma-4-12B-it.gguf"
+  - key: "DuoNeural/Gemma4-12B-IT-Abliterated-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "DuoNeural"
+        repo: "Gemma4-12B-IT-Abliterated-GGUF"
+  - key: "FreedomAISVR/Gemma-4-12B-it-NoVision-MXFP4-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "FreedomAISVR"
+        repo: "Gemma-4-12B-it-NoVision-MXFP4-GGUF"
+  - key: "FreedomAISVR/Gemma-4-12B-it-Thinking-NoVision-MXFP4-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "FreedomAISVR"
+        repo: "Gemma-4-12B-it-Thinking-NoVision-MXFP4-GGUF"
+  - key: "FreedomAISVR/Gemma-4-12B-it-NoVision-NVFP4-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "FreedomAISVR"
+        repo: "Gemma-4-12B-it-NoVision-NVFP4-GGUF"
+  - key: "FreedomAISVR/Gemma-4-12B-it-Thinking-NoVision-NVFP4-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "FreedomAISVR"
+        repo: "Gemma-4-12B-it-Thinking-NoVision-NVFP4-GGUF"
+  - key: "igorls/gemma-4-12B-it-heretic-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "igorls"
+        repo: "gemma-4-12B-it-heretic-GGUF"
+  - key: "bombman/gemma-4-12B-it-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "bombman"
+        repo: "gemma-4-12B-it-GGUF"
+  - key: "eadx/gemma-4-12b-it-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "eadx"
+        repo: "gemma-4-12b-it-GGUF"
+  - key: "IHaveNoClueAndIMustPost/gemma-4-12B-it-assistant-GGUF"
+    sources:
+      - type: "huggingface"
+        user: "IHaveNoClueAndIMustPost"
+        repo: "gemma-4-12B-it-assistant-GGUF"
+config:
+  operation:
+    fields:
+      - key: llm.prediction.temperature
+        value: 1.0
+      - key: llm.prediction.topKSampling
+        value: 64
+      - key: llm.prediction.topPSampling
+        value:
+          checked: true
+          value: 0.95
+      - key: llm.prediction.reasoning.parsing
+        value:
+          enabled: true
+          startString: "<|channel>thought"
+          endString: "<channel|>"
+customFields:
+  - key: enableThinking
+    displayName: Enable Thinking
+    description: Controls whether the model will think before replying
+    type: boolean
+    defaultValue: true
+    effects:
+      - type: setJinjaVariable
+        variable: enable_thinking
+metadataOverrides:
+  domain: llm
+  architectures:
+    - "gemma4"
+  compatibilityTypes:
+    - "gguf"
+  paramsStrings:
+    - "12B"
+  minMemoryUsageBytes: 7000000000
+  contextLengths:
+    - 262144
+  vision: true
+  reasoning: true
+  trainedForToolUse: true
