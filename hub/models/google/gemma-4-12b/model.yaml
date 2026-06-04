@@ -1,6 +1,6 @@
 # model.yaml is an open standard for defining cross-platform, composable AI models
 # Learn more at https://modelyaml.org
-model: "google/gemma-4-12b-it-12b"
+model: google/gemma-4-12b-it-12b
 base:
   - key: "lmstudio-community/gemma-4-12B-it-GGUF"
     sources:
@@ -125,11 +125,11 @@ customFields:
 metadataOverrides:
   domain: llm
   architectures:
-    - "gemma4"
+    - gemma4
   compatibilityTypes:
-    - "gguf"
+    - gguf
   paramsStrings:
-    - "12B"
+    - 12B
   minMemoryUsageBytes: 7000000000
   contextLengths:
     - 131072
