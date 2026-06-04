@@ -1,3 +1,9 @@
+# Archived seems as though the engine protocol does what this does so this may not be needed any longer
+# delete all of the yamls to have no issues with engine protocol
+
+I will check through what I can to see if it's for all models as some like mistral small 4 do not have the toggles but in general they work. I will probably have what ones do not work here.
+
+
 # Issue regarding some models
 A couple models but overall 90% have no problems. Problem models still work but just double models because LMS BS implementation.
 # Yaml Model Files For LMS
