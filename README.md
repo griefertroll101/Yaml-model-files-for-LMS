@@ -1,5 +1,5 @@
 # Archived seems as though the engine protocol does what this does so this may not be needed any longer
-# Be careful deleting all of the yamls to have no issues with engine protocol. Qwen seems to be safe to delete, others may not be.
+# Be careful deleting all of the yamls to have no issues with engine protocol. Best method is to move conv, preset, etc. out and fresh install.
 
 ------------------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------------------
